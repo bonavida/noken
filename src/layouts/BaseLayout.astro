@@ -47,6 +47,8 @@ const pageTitle = title === SITE_NAME ? title : `${title} · ${SITE_NAME}`;
         };
         applySettings();
         document.addEventListener('astro:after-swap', applySettings);
+        // With the "system" theme, follow the OS switching light/dark while the page is open
+        matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applySettings);
       })();
     </script>
   </head>

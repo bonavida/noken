@@ -3,6 +3,7 @@ import ExampleSentence from '@/components/ExampleSentence.astro';
 import type { Locale } from '@/i18n/config';
 import { pickLocale, useTranslations } from '@/i18n/t';
 import type { Localized } from '@/types/content';
+import MixedText from '@/ui/MixedText.astro';
 import RichText from '@/ui/RichText.astro';
 
 interface GrammarExample {
@@ -27,10 +28,12 @@ const t = useTranslations(locale);
 ---
 
 <article id={point.id} class="bg-card scroll-mt-24 rounded-lg border p-5 sm:p-6">
-  <h3 class="text-lg font-semibold">{pickLocale(point.title, locale)}</h3>
+  <h3 class="text-lg font-semibold">
+    <MixedText text={pickLocale(point.title, locale)} />
+  </h3>
 
   <p class="bg-muted mt-3 inline-block rounded-md px-3 py-1.5 font-mono text-sm">
-    {point.pattern}
+    <MixedText text={point.pattern} />
   </p>
 
   <div class="mt-3 space-y-3 text-sm leading-relaxed">

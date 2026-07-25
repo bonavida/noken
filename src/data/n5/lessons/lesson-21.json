@@ -1,47 +1,61 @@
 {
   "level": "n5",
   "number": 21,
-  "title": { "es": "Opiniones y citas" },
+  "title": {
+    "es": "Opiniones y citas"
+  },
   "jpTitle": "私[わたし]もそう 思[おも]います",
   "description": {
-    "es": "Di lo que crees con 〜と 思います y repite lo que alguien dijo con 〜と 言います."
+    "es": "Di lo que crees con 〜と 思[おも]います y repite lo que alguien dijo con 〜と 言[い]います."
   },
   "grammar": [
     {
       "id": "to-omoimasu",
-      "title": { "es": "Forma informal と 思[おも]います — «creo que»" },
+      "title": {
+        "es": "Forma informal と 思[おも]います — «creo que»"
+      },
       "pattern": "S (forma informal) と 思[おも]います",
       "explanation": {
-        "es": "El contenido de la opinión va en forma informal seguido de と 思います: あした 雨[あめ]が 降[ふ]ると 思います. Con sustantivos y adjetivos -な se añade だ: 便利[べんり]だと 思います."
+        "es": "El contenido de la opinión va en forma informal seguido de と 思[おも]います: あした 雨[あめ]が 降[ふ]ると 思[おも]います. Con sustantivos y adjetivos -な se añade だ: 便利[べんり]だと 思[おも]います."
       },
       "examples": [
         {
           "jp": "日本[にほん]は 物価[ぶっか]が 高[たか]いと 思[おも]います。",
-          "translation": { "es": "Creo que en Japón el costo de vida es alto." }
+          "translation": {
+            "es": "Creo que en Japón el costo de vida es alto."
+          }
         },
         {
           "jp": "ミラーさんはもう 帰[かえ]ったと 思[おも]います。",
-          "translation": { "es": "Creo que el Sr. Miller ya se fue a casa." }
+          "translation": {
+            "es": "Creo que el Sr. Miller ya se fue a casa."
+          }
         }
       ]
     },
     {
       "id": "to-iimasu",
-      "title": { "es": "「〜」と 言[い]います — citar" },
-      "pattern": "「cita textual」と 言[い]いました ／ S (informal) と 言っていました",
+      "title": {
+        "es": "「〜」と 言[い]います — citar"
+      },
+      "pattern": "「cita textual」と 言[い]いました ／ S (informal) と 言[い]っていました",
       "explanation": {
-        "es": "と marca lo dicho. La cita textual va entre comillas japonesas 「」; la cita indirecta va en forma informal: 田中[たなか]さんは 来[く]ると 言っていました."
+        "es": "と marca lo dicho. La cita textual va entre comillas japonesas 「」; la cita indirecta va en forma informal: 田中[たなか]さんは 来[く]ると 言[い]っていました."
       },
       "examples": [
         {
           "jp": "寝[ね]るまえに、「おやすみなさい」と 言[い]います。",
-          "translation": { "es": "Antes de dormir se dice «oyasuminasai»." }
+          "translation": {
+            "es": "Antes de dormir se dice «oyasuminasai»."
+          }
         }
       ]
     },
     {
       "id": "deshou",
-      "title": { "es": "〜でしょう？ — buscar confirmación" },
+      "title": {
+        "es": "〜でしょう？ — buscar confirmación"
+      },
       "pattern": "S (forma informal) でしょう？",
       "explanation": {
         "es": "でしょう con entonación ascendente pide al oyente que confirme algo que ambos conocen: あしたのパーティー、 行[い]くでしょう？"
@@ -49,13 +63,17 @@
       "examples": [
         {
           "jp": "北海道[ほっかいどう]は 寒[さむ]かったでしょう？…いいえ、そんなに 寒[さむ]くなかったです。",
-          "translation": { "es": "Hokkaido estaría frío, ¿no? …No, no hacía tanto frío." }
+          "translation": {
+            "es": "Hokkaido estaría frío, ¿no? …No, no hacía tanto frío."
+          }
         }
       ]
     },
     {
       "id": "de-lugar-evento",
-      "title": { "es": "N1 (lugar) で N2 が あります — eventos" },
+      "title": {
+        "es": "N1 (lugar) で N2 が あります — eventos"
+      },
       "pattern": "lugar で evento が あります",
       "explanation": {
         "es": "あります también significa «tener lugar»: 大阪[おおさか]で お 祭[まつ]りが あります (hay un festival en Osaka)."
@@ -63,27 +81,35 @@
       "examples": [
         {
           "jp": "東京[とうきょう]で 日本[にほん]とブラジルのサッカーの 試合[しあい]があります。",
-          "translation": { "es": "En Tokio hay un partido de fútbol Japón–Brasil." }
+          "translation": {
+            "es": "En Tokio hay un partido de fútbol Japón–Brasil."
+          }
         }
       ]
     },
     {
       "id": "demo-nomimasen-ka",
-      "title": { "es": "N でも 飲[の]みませんか — sugerir con ejemplo" },
+      "title": {
+        "es": "N でも 飲[の]みませんか — sugerir con ejemplo"
+      },
       "pattern": "N でも V ませんか",
       "explanation": {
-        "es": "でも tras un sustantivo lo presenta como ejemplo entre otras posibilidades al invitar: ビールでも 飲みませんか (¿tomamos una cerveza o algo?)."
+        "es": "でも tras un sustantivo lo presenta como ejemplo entre otras posibilidades al invitar: ビールでも 飲[の]みませんか (¿tomamos una cerveza o algo?)."
       },
       "examples": [
         {
           "jp": "ちょっとお 茶[ちゃ]でも 飲[の]みませんか。",
-          "translation": { "es": "¿Tomamos un té o algo?" }
+          "translation": {
+            "es": "¿Tomamos un té o algo?"
+          }
         }
       ]
     },
     {
       "id": "nai-to",
-      "title": { "es": "V ないと…… — «tengo que…»" },
+      "title": {
+        "es": "V ないと…… — «tengo que…»"
+      },
       "pattern": "V (forma ない) ないと……",
       "explanation": {
         "es": "Forma coloquial abreviada de 〜なければ なりません: もう 帰[かえ]らないと…… (tengo que irme ya)."
@@ -91,7 +117,9 @@
       "examples": [
         {
           "jp": "もう 帰[かえ]らないと……。",
-          "translation": { "es": "Tengo que irme ya." }
+          "translation": {
+            "es": "Tengo que irme ya."
+          }
         }
       ]
     }

@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 24,
-  "title": { "es": "Dar y recibir favores" },
+  "title": {
+    "es": "Dar y recibir favores"
+  },
   "jpTitle": "手伝[てつだ]いに 行[い]きましょうか",
   "description": {
     "es": "くれます y los favores expresados con 〜てあげます, 〜てもらいます y 〜てくれます."
@@ -9,7 +11,9 @@
   "grammar": [
     {
       "id": "kuremasu",
-      "title": { "es": "くれます — «dar (a mí)»" },
+      "title": {
+        "es": "くれます — «dar (a mí)»"
+      },
       "pattern": "N1 は 私[わたし]に N2 を くれます",
       "explanation": {
         "es": "くれます se usa cuando alguien da algo al hablante o a su familia: 佐藤[さとう]さんは 私[わたし]に お 菓子[かし]を くれました. あげます nunca puede usarse en esa dirección."
@@ -17,13 +21,17 @@
       "examples": [
         {
           "jp": "山田[やまだ]さんは 私[わたし]に 花[はな]をくれました。",
-          "translation": { "es": "El Sr. Yamada me dio flores." }
+          "translation": {
+            "es": "El Sr. Yamada me dio flores."
+          }
         }
       ]
     },
     {
       "id": "te-agemasu",
-      "title": { "es": "V て あげます — hacer un favor" },
+      "title": {
+        "es": "V て あげます — hacer un favor"
+      },
       "pattern": "V て あげます",
       "explanation": {
         "es": "〜てあげます expresa hacer algo en beneficio de otro: 私[わたし]は 木村[きむら]さんに 本[ほん]を 貸[か]してあげました. Dicho directamente al beneficiario puede sonar condescendiente; con superiores se evita."
@@ -31,13 +39,17 @@
       "examples": [
         {
           "jp": "私[わたし]は 妹[いもうと]に 宿題[しゅくだい]を 教[おし]えてあげました。",
-          "translation": { "es": "Ayudé a mi hermana pequeña con los deberes." }
+          "translation": {
+            "es": "Ayudé a mi hermana pequeña con los deberes."
+          }
         }
       ]
     },
     {
       "id": "te-moraimasu",
-      "title": { "es": "V て もらいます — recibir un favor" },
+      "title": {
+        "es": "V て もらいます — recibir un favor"
+      },
       "pattern": "N1 は N2 に V て もらいます",
       "explanation": {
         "es": "〜てもらいます expresa que se recibe el favor, con gratitud: 私[わたし]は 山田[やまだ]さんに 図書館[としょかん]の 電話番号[でんわばんごう]を 教[おし]えてもらいました."
@@ -45,35 +57,45 @@
       "examples": [
         {
           "jp": "友達[ともだち]に 引[ひ]っ 越[こ]しを 手伝[てつだ]ってもらいました。",
-          "translation": { "es": "Un amigo me ayudó con la mudanza." }
+          "translation": {
+            "es": "Un amigo me ayudó con la mudanza."
+          }
         }
       ]
     },
     {
       "id": "te-kuremasu",
-      "title": { "es": "V て くれます — un favor hacia mí" },
+      "title": {
+        "es": "V て くれます — un favor hacia mí"
+      },
       "pattern": "N は [私[わたし]に] V て くれます",
       "explanation": {
-        "es": "〜てくれます destaca que alguien hizo el favor espontáneamente hacia el hablante: 母[はは]は [私に]セーターを 送[おく]ってくれました. El beneficiario 私に suele omitirse."
+        "es": "〜てくれます destaca que alguien hizo el favor espontáneamente hacia el hablante: 母[はは]は [私[わたし]に]セーターを 送[おく]ってくれました. El beneficiario 私[わたし]に suele omitirse."
       },
       "examples": [
         {
           "jp": "佐藤[さとう]さんは 地図[ちず]をかいてくれました。",
-          "translation": { "es": "La Sra. Sato me dibujó un mapa." }
+          "translation": {
+            "es": "La Sra. Sato me dibujó un mapa."
+          }
         }
       ]
     },
     {
       "id": "wa-ga-v",
-      "title": { "es": "N1 は N2 が V — が dentro de la oración" },
+      "title": {
+        "es": "N1 は N2 が V — が dentro de la oración"
+      },
       "pattern": "N1 は N2 が V て くれました",
       "explanation": {
-        "es": "Al presentar quién hizo el favor como información nueva, esa persona se marca con が: 誰[だれ]が 手伝[てつだ]ってくれましたか。… 母[はは]が 手伝ってくれました."
+        "es": "Al presentar quién hizo el favor como información nueva, esa persona se marca con が: 誰[だれ]が 手伝[てつだ]ってくれましたか。… 母[はは]が 手伝[てつだ]ってくれました."
       },
       "examples": [
         {
           "jp": "お 弁当[べんとう]は 妻[つま]が 作[つく]ってくれました。",
-          "translation": { "es": "El bento me lo preparó mi esposa." }
+          "translation": {
+            "es": "El bento me lo preparó mi esposa."
+          }
         }
       ]
     }

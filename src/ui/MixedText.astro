@@ -1,0 +1,29 @@
+---
+import { parseFurigana } from '@/utils/furigana';
+
+// Inline renderer for text that mixes Spanish with Japanese in bracket notation.
+// Emits no wrapper element, so it works inside headings, paragraphs and table cells.
+// Only the Japanese runs get the JP font, leaving the surrounding text untouched.
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+---
+
+{
+  parseFurigana(text).map((segment) =>
+    segment.ruby ? (
+      <span class="jp" lang="ja">
+        <ruby>
+          {segment.base}
+          <rp>(</rp>
+          <rt>{segment.ruby}</rt>
+          <rp>)</rp>
+        </ruby>
+      </span>
+    ) : (
+      segment.base
+    )
+  )
+}

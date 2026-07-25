@@ -1,8 +1,7 @@
 ---
-import { parseFurigana } from '@/utils/furigana';
+import MixedText from '@/ui/MixedText.astro';
 
-// Mixed-language text: Japanese runs in bracket notation get ruby + the JP font,
-// while the surrounding (Spanish) text stays in the default font.
+// Multi-paragraph text mixing Spanish and Japanese (grammar explanations).
 interface Props {
   text: string;
   class?: string;
@@ -12,27 +11,13 @@ const { text, class: className } = Astro.props;
 const paragraphs = text
   .split('\n\n')
   .map((paragraph) => paragraph.trim())
-  .filter(Boolean)
-  .map(parseFurigana);
+  .filter(Boolean);
 ---
 
 {
-  paragraphs.map((segments) => (
+  paragraphs.map((paragraph) => (
     <p class={className}>
-      {segments.map((segment) =>
-        segment.ruby ? (
-          <span class="jp" lang="ja">
-            <ruby>
-              {segment.base}
-              <rp>(</rp>
-              <rt>{segment.ruby}</rt>
-              <rp>)</rp>
-            </ruby>
-          </span>
-        ) : (
-          segment.base
-        )
-      )}
+      <MixedText text={paragraph} />
     </p>
   ))
 }

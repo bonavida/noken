@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 18,
-  "title": { "es": "La forma de diccionario" },
+  "title": {
+    "es": "La forma de diccionario"
+  },
   "jpTitle": "ご 趣味[しゅみ]は 何[なん]ですか",
   "description": {
     "es": "La forma de diccionario del verbo, expresar capacidad con できます y hablar de aficiones."
@@ -9,21 +11,27 @@
   "grammar": [
     {
       "id": "forma-diccionario",
-      "title": { "es": "La forma de diccionario" },
-      "pattern": "書きます→書く ／ 食べます→食べる ／ します→する ／ 来ます→来[く]る",
+      "title": {
+        "es": "La forma de diccionario"
+      },
+      "pattern": "書[か]きます→書[か]く ／ 食[た]べます→食[た]べる ／ します→する ／ 来[き]ます→来[く]る",
       "explanation": {
-        "es": "Es la forma con que los verbos aparecen en los diccionarios. Grupo I: la sílaba -i pasa a -u (書[か]きます → 書く, 飲[の]みます → 飲む). Grupo II: se añade る (食[た]べる). Grupo III: する y 来[く]る."
+        "es": "Es la forma con que los verbos aparecen en los diccionarios. Grupo I: la sílaba -i pasa a -u (書[か]きます → 書[か]く, 飲[の]みます → 飲[の]む). Grupo II: se añade る (食[た]べる). Grupo III: する y 来[く]る."
       },
       "examples": [
         {
-          "jp": "泳[およ]ぎます → 泳ぐ ／ 待[ま]ちます → 待つ",
-          "translation": { "es": "Nadar, esperar (en forma de diccionario)." }
+          "jp": "泳[およ]ぎます → 泳[およ]ぐ ／ 待[ま]ちます → 待[ま]つ",
+          "translation": {
+            "es": "Nadar, esperar (en forma de diccionario)."
+          }
         }
       ]
     },
     {
       "id": "dekimasu",
-      "title": { "es": "N／V こと が できます — capacidad" },
+      "title": {
+        "es": "N／V こと が できます — capacidad"
+      },
       "pattern": "N が できます ／ V (dicc.) こと が できます",
       "explanation": {
         "es": "できます expresa habilidad o posibilidad. El objeto puede ser un sustantivo (日本語[にほんご]が できます) o un verbo nominalizado con こと: 漢字[かんじ]を 読[よ]む ことが できます."
@@ -31,31 +39,41 @@
       "examples": [
         {
           "jp": "ミラーさんは 日本語[にほんご]が 話[はな]せますか。… 日本語[にほんご]を 話[はな]すことができます。",
-          "translation": { "es": "El Sr. Miller puede hablar japonés." }
+          "translation": {
+            "es": "El Sr. Miller puede hablar japonés."
+          }
         },
         {
           "jp": "カードで 払[はら]うことができます。",
-          "translation": { "es": "Se puede pagar con tarjeta." }
+          "translation": {
+            "es": "Se puede pagar con tarjeta."
+          }
         }
       ]
     },
     {
       "id": "shumi",
-      "title": { "es": "私[わたし]の 趣味[しゅみ]は 〜です — aficiones" },
+      "title": {
+        "es": "私[わたし]の 趣味[しゅみ]は 〜です — aficiones"
+      },
       "pattern": "趣味[しゅみ]は N ／ V (dicc.) こと です",
       "explanation": {
-        "es": "Para decir tu afición puedes usar un sustantivo (趣味は 音楽[おんがく]です) o un verbo con こと, que es más preciso: 趣味は 音楽を 聞[き]く ことです."
+        "es": "Para decir tu afición puedes usar un sustantivo (趣味[しゅみ]は 音楽[おんがく]です) o un verbo con こと, que es más preciso: 趣味[しゅみ]は 音楽[おんがく]を 聞[き]く ことです."
       },
       "examples": [
         {
           "jp": "私[わたし]の 趣味[しゅみ]は 写真[しゃしん]を 撮[と]ることです。",
-          "translation": { "es": "Mi afición es sacar fotos." }
+          "translation": {
+            "es": "Mi afición es sacar fotos."
+          }
         }
       ]
     },
     {
       "id": "mae-ni",
-      "title": { "es": "V (dicc.)／N の／período まえに — «antes de»" },
+      "title": {
+        "es": "V (dicc.)／N の／período まえに — «antes de»"
+      },
       "pattern": "V (dicc.) まえに、V2 ／ N の まえに ／ cantidad de tiempo まえに",
       "explanation": {
         "es": "まえに expresa «antes de»: 寝[ね]る まえに 本[ほん]を 読[よ]みます (leo antes de dormir), 食事[しょくじ]の まえに (antes de comer), 1 年[ねん] まえに (hace un año)."
@@ -63,13 +81,17 @@
       "examples": [
         {
           "jp": "日本[にほん]へ 来[く]るまえに、 日本語[にほんご]を 勉強[べんきょう]しました。",
-          "translation": { "es": "Antes de venir a Japón estudié japonés." }
+          "translation": {
+            "es": "Antes de venir a Japón estudié japonés."
+          }
         }
       ]
     },
     {
       "id": "nakanaka",
-      "title": { "es": "なかなか — «no tan fácilmente»" },
+      "title": {
+        "es": "なかなか — «no tan fácilmente»"
+      },
       "pattern": "なかなか + negativo",
       "explanation": {
         "es": "Con verbo negativo, なかなか indica que algo no ocurre tan fácilmente como se querría: なかなか 日本人[にほんじん]に 会[あ]えません."
@@ -77,13 +99,17 @@
       "examples": [
         {
           "jp": "日本[にほん]では、なかなか 馬[うま]を 見[み]ることができません。",
-          "translation": { "es": "En Japón no es fácil ver caballos." }
+          "translation": {
+            "es": "En Japón no es fácil ver caballos."
+          }
         }
       ]
     },
     {
       "id": "zehi",
-      "title": { "es": "ぜひ — «sin falta»" },
+      "title": {
+        "es": "ぜひ — «sin falta»"
+      },
       "pattern": "ぜひ + deseo/invitación",
       "explanation": {
         "es": "ぜひ intensifica deseos e invitaciones: ぜひ 遊[あそ]びに 来[き]てください (ven a visitarnos, de verdad)."
@@ -91,7 +117,9 @@
       "examples": [
         {
           "jp": "ぜひ 北海道[ほっかいどう]へ 行[い]きたいです。",
-          "translation": { "es": "Quiero ir a Hokkaido sin falta." }
+          "translation": {
+            "es": "Quiero ir a Hokkaido sin falta."
+          }
         }
       ]
     }

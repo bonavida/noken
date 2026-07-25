@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 14,
-  "title": { "es": "La forma て" },
+  "title": {
+    "es": "La forma て"
+  },
   "jpTitle": "みどり 町[ちょう]までお 願[ねが]いします",
   "description": {
     "es": "Los tres grupos de verbos, la forma て y sus primeros usos: pedir (〜てください) y acciones en curso (〜ています)."
@@ -9,7 +11,9 @@
   "grammar": [
     {
       "id": "grupos-verbos",
-      "title": { "es": "Los tres grupos de verbos" },
+      "title": {
+        "es": "Los tres grupos de verbos"
+      },
       "pattern": "Grupo I (godan) ／ Grupo II (ichidan) ／ Grupo III (irregulares)",
       "explanation": {
         "es": "Los verbos japoneses se clasifican en tres grupos según cómo se conjugan. Grupo I: la sílaba anterior a ます suena en -i (書[か]きます, 飲[の]みます). Grupo II: suena en -e, o algunos en -i como 見[み]ます・います (食[た]べます, 起[お]きます). Grupo III: します y 来[き]ます. Conocer el grupo es imprescindible para formar la forma て."
@@ -17,27 +21,35 @@
       "examples": [
         {
           "jp": "書[か]きます（I）・ 食[た]べます（II）・します（III）",
-          "translation": { "es": "Escribir (I), comer (II), hacer (III)." }
+          "translation": {
+            "es": "Escribir (I), comer (II), hacer (III)."
+          }
         }
       ]
     },
     {
       "id": "forma-te",
-      "title": { "es": "La forma て" },
-      "pattern": "書きます→書いて ／ 飲みます→飲んで ／ 食べます→食べて ／ します→して",
+      "title": {
+        "es": "La forma て"
+      },
+      "pattern": "書[か]きます→書[か]いて ／ 飲[の]みます→飲[の]んで ／ 食[た]べます→食[た]べて ／ します→して",
       "explanation": {
-        "es": "En el grupo I la terminación cambia según la sílaba: き→いて (書いて), ぎ→いで (急いで), み・び・に→んで (飲んで, 呼んで), い・ち・り→って (買って, 待って, 取って), し→して (話して). 行きます es excepción: 行って. El grupo II solo cambia ます por て (食べて) y el grupo III da して・来[き]て."
+        "es": "En el grupo I la terminación cambia según la sílaba: き→いて (書[か]いて), ぎ→いで (急[いそ]いで), み・び・に→んで (飲[の]んで, 呼[よ]んで), い・ち・り→って (買[か]って, 待[ま]って, 取[と]って), し→して (話[はな]して). 行[い]きます es excepción: 行[い]って. El grupo II solo cambia ます por て (食[た]べて) y el grupo III da して・来[き]て."
       },
       "examples": [
         {
           "jp": "ちょっと 待[ま]って。",
-          "translation": { "es": "Espera un momento." }
+          "translation": {
+            "es": "Espera un momento."
+          }
         }
       ]
     },
     {
       "id": "te-kudasai",
-      "title": { "es": "V て ください — pedir" },
+      "title": {
+        "es": "V て ください — pedir"
+      },
       "pattern": "V て ください",
       "explanation": {
         "es": "La forma て + ください pide o instruye con cortesía: 住所[じゅうしょ]を 教[おし]えてください (deme su dirección, por favor)."
@@ -45,17 +57,23 @@
       "examples": [
         {
           "jp": "すみませんが、この 漢字[かんじ]の 読[よ]み 方[かた]を 教[おし]えてください。",
-          "translation": { "es": "Disculpe, ¿me enseña cómo se lee este kanji?" }
+          "translation": {
+            "es": "Disculpe, ¿me enseña cómo se lee este kanji?"
+          }
         },
         {
           "jp": "信号[しんごう]を 右[みぎ]へ 曲[ま]がってください。",
-          "translation": { "es": "Doble a la derecha en el semáforo." }
+          "translation": {
+            "es": "Doble a la derecha en el semáforo."
+          }
         }
       ]
     },
     {
       "id": "te-imasu",
-      "title": { "es": "V て います — acción en curso" },
+      "title": {
+        "es": "V て います — acción en curso"
+      },
       "pattern": "V て います",
       "explanation": {
         "es": "〜ています expresa que la acción está ocurriendo ahora: 雨[あめ]が 降[ふ]っています (está lloviendo), ミラーさんは 今[いま] 電話[でんわ]を かけています."
@@ -63,13 +81,17 @@
       "examples": [
         {
           "jp": "今[いま] 雨[あめ]が 降[ふ]っていますか。…いいえ、 降[ふ]っていません。",
-          "translation": { "es": "¿Está lloviendo ahora? …No, no llueve." }
+          "translation": {
+            "es": "¿Está lloviendo ahora? …No, no llueve."
+          }
         }
       ]
     },
     {
       "id": "mashou-ka",
-      "title": { "es": "V ましょうか — ofrecer ayuda" },
+      "title": {
+        "es": "V ましょうか — ofrecer ayuda"
+      },
       "pattern": "V ましょうか",
       "explanation": {
         "es": "ましょうか ofrece hacer algo por el oyente: 手伝[てつだ]いましょうか (¿te ayudo?). Se acepta con お 願[ねが]いします y se rechaza con けっこうです."
@@ -77,13 +99,17 @@
       "examples": [
         {
           "jp": "荷物[にもつ]を 持[も]ちましょうか。…すみません。お 願[ねが]いします。",
-          "translation": { "es": "¿Le llevo el equipaje? …Gracias, por favor." }
+          "translation": {
+            "es": "¿Le llevo el equipaje? …Gracias, por favor."
+          }
         }
       ]
     },
     {
       "id": "ga-fenomeno",
-      "title": { "es": "N が V — describir fenómenos" },
+      "title": {
+        "es": "N が V — describir fenómenos"
+      },
       "pattern": "N が V",
       "explanation": {
         "es": "Cuando se describe un fenómeno tal como se percibe, sin tematizarlo, el sujeto va con が: 雨[あめ]が 降[ふ]っています."
@@ -91,13 +117,17 @@
       "examples": [
         {
           "jp": "あれ？ 雪[ゆき]が 降[ふ]っていますよ。",
-          "translation": { "es": "¿Eh? ¡Está nevando!" }
+          "translation": {
+            "es": "¿Eh? ¡Está nevando!"
+          }
         }
       ]
     },
     {
       "id": "sumimasen-ga",
-      "title": { "es": "すみませんが — introducir una petición" },
+      "title": {
+        "es": "すみませんが — introducir una petición"
+      },
       "pattern": "すみませんが、〜てください",
       "explanation": {
         "es": "すみませんが suaviza el inicio de una petición («disculpe, pero…»). No expresa disculpa real sino cortesía."
@@ -105,7 +135,9 @@
       "examples": [
         {
           "jp": "すみませんが、 塩[しお]を 取[と]ってください。",
-          "translation": { "es": "Perdona, ¿me pasas la sal?" }
+          "translation": {
+            "es": "Perdona, ¿me pasas la sal?"
+          }
         }
       ]
     }

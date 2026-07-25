@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 12,
-  "title": { "es": "Pasado y comparaciones" },
+  "title": {
+    "es": "Pasado y comparaciones"
+  },
   "jpTitle": "祇園祭[ぎおんまつり]はどうでしたか",
   "description": {
     "es": "El pasado de sustantivos y adjetivos, y cómo comparar dos cosas o elegir la mejor de un grupo."
@@ -9,7 +11,9 @@
   "grammar": [
     {
       "id": "pasado-nominal",
-      "title": { "es": "Pasado de oraciones nominales y adjetivos -な" },
+      "title": {
+        "es": "Pasado de oraciones nominales y adjetivos -な"
+      },
       "pattern": "N／A-な でした ／ じゃありませんでした",
       "explanation": {
         "es": "El pasado de です es でした y el de じゃありません es じゃありませんでした. Vale igual para sustantivos y adjetivos -な: 雨[あめ]でした (llovía), 暇[ひま]じゃありませんでした (no estaba libre)."
@@ -17,35 +21,47 @@
       "examples": [
         {
           "jp": "きのうは 雨[あめ]でした。",
-          "translation": { "es": "Ayer llovió." }
+          "translation": {
+            "es": "Ayer llovió."
+          }
         },
         {
           "jp": "先週[せんしゅう]は 暇[ひま]じゃありませんでした。",
-          "translation": { "es": "La semana pasada no estuve libre." }
+          "translation": {
+            "es": "La semana pasada no estuve libre."
+          }
         }
       ]
     },
     {
       "id": "pasado-adjetivo-i",
-      "title": { "es": "Pasado de los adjetivos -い" },
+      "title": {
+        "es": "Pasado de los adjetivos -い"
+      },
       "pattern": "A-い → 〜かったです ／ 〜くなかったです",
       "explanation": {
-        "es": "Los adjetivos -い conjugan ellos mismos el pasado: 暑[あつ]い → 暑かったです (hacía calor), 暑くなかったです (no hacía calor). El pasado de いい es よかったです."
+        "es": "Los adjetivos -い conjugan ellos mismos el pasado: 暑[あつ]い → 暑[あつ]かったです (hacía calor), 暑[あつ]くなかったです (no hacía calor). El pasado de いい es よかったです."
       },
       "examples": [
         {
           "jp": "旅行[りょこう]は 楽[たの]しかったです。",
-          "translation": { "es": "El viaje fue divertido." }
+          "translation": {
+            "es": "El viaje fue divertido."
+          }
         },
         {
           "jp": "天気[てんき]はよくなかったです。",
-          "translation": { "es": "El tiempo no fue bueno." }
+          "translation": {
+            "es": "El tiempo no fue bueno."
+          }
         }
       ]
     },
     {
       "id": "yori",
-      "title": { "es": "N1 は N2 より A です — comparativo" },
+      "title": {
+        "es": "N1 は N2 より A です — comparativo"
+      },
       "pattern": "N1 は N2 より A です",
       "explanation": {
         "es": "より marca el término de comparación: この 車[くるま]は あの 車[くるま]より 大[おお]きいです (este coche es más grande que aquel)."
@@ -53,13 +69,17 @@
       "examples": [
         {
           "jp": "飛行機[ひこうき]は 船[ふね]より 速[はや]いです。",
-          "translation": { "es": "El avión es más rápido que el barco." }
+          "translation": {
+            "es": "El avión es más rápido que el barco."
+          }
         }
       ]
     },
     {
       "id": "dochira-ga",
-      "title": { "es": "N1 と N2 と どちらが A ですか — comparar dos" },
+      "title": {
+        "es": "N1 と N2 と どちらが A ですか — comparar dos"
+      },
       "pattern": "N1 と N2 と どちらが A ですか。…N の ほうが A です",
       "explanation": {
         "es": "Para preguntar cuál de dos cosas es más… se usa どちら, sea cual sea la categoría. Se responde con 〜の ほうが: サッカーと 野球[やきゅう]と どちらが おもしろいですか。…サッカーの ほうが おもしろいです. Si son iguales: どちらも (ambos)."
@@ -67,13 +87,17 @@
       "examples": [
         {
           "jp": "夏[なつ]と 冬[ふゆ]とどちらが 好[す]きですか。… 夏[なつ]のほうが 好[す]きです。",
-          "translation": { "es": "¿Qué prefieres, el verano o el invierno? …Prefiero el verano." }
+          "translation": {
+            "es": "¿Qué prefieres, el verano o el invierno? …Prefiero el verano."
+          }
         }
       ]
     },
     {
       "id": "ichiban",
-      "title": { "es": "N [の 中[なか]] で 〜が いちばん A です — superlativo" },
+      "title": {
+        "es": "N [の 中[なか]] で 〜が いちばん A です — superlativo"
+      },
       "pattern": "N [の 中[なか]]で 何[なに]／どこ／誰[だれ]／いつ が いちばん A ですか",
       "explanation": {
         "es": "いちばん expresa el superlativo dentro de un grupo: 日本[にほん] 料理[りょうり][の 中[なか]]で 何[なに]が いちばん おいしいですか. El interrogativo cambia según se pregunte por cosa, lugar, persona o tiempo."
@@ -81,13 +105,17 @@
       "examples": [
         {
           "jp": "1 年[ねん]でいつがいちばん 寒[さむ]いですか。…2 月[がつ]がいちばん 寒[さむ]いです。",
-          "translation": { "es": "¿Cuándo hace más frío en el año? …En febrero." }
+          "translation": {
+            "es": "¿Cuándo hace más frío en el año? …En febrero."
+          }
         }
       ]
     },
     {
       "id": "no-sustituto-12",
-      "title": { "es": "A の — «el/la (adjetivo)»" },
+      "title": {
+        "es": "A の — «el/la (adjetivo)»"
+      },
       "pattern": "A-い／A-な の",
       "explanation": {
         "es": "の sustituye al sustantivo también tras adjetivos, para no repetirlo: 大[おお]きいのを ください (deme el grande)."
@@ -95,7 +123,9 @@
       "examples": [
         {
           "jp": "どんなかばんですか。… 黒[くろ]いのです。",
-          "translation": { "es": "¿Qué bolso es? …El negro." }
+          "translation": {
+            "es": "¿Qué bolso es? …El negro."
+          }
         }
       ]
     }

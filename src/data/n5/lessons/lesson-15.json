@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 15,
-  "title": { "es": "Permiso y prohibición" },
+  "title": {
+    "es": "Permiso y prohibición"
+  },
   "jpTitle": "ご 家族[かぞく]は？",
   "description": {
     "es": "Pide y da permiso con 〜てもいいですか, prohíbe con 〜てはいけません y describe estados con 〜ています."
@@ -9,7 +11,9 @@
   "grammar": [
     {
       "id": "temo-ii",
-      "title": { "es": "V ても いいですか — pedir permiso" },
+      "title": {
+        "es": "V ても いいですか — pedir permiso"
+      },
       "pattern": "V ても いいですか",
       "explanation": {
         "es": "La forma て + も いいです expresa permiso: 写真[しゃしん]を 撮[と]っても いいですか (¿puedo sacar fotos?). Se concede con どうぞ o ええ、いいですよ."
@@ -17,13 +21,17 @@
       "examples": [
         {
           "jp": "たばこを 吸[す]ってもいいですか。…ええ、いいですよ。",
-          "translation": { "es": "¿Puedo fumar? …Sí, adelante." }
+          "translation": {
+            "es": "¿Puedo fumar? …Sí, adelante."
+          }
         }
       ]
     },
     {
       "id": "tewa-ikemasen",
-      "title": { "es": "V ては いけません — prohibición" },
+      "title": {
+        "es": "V ては いけません — prohibición"
+      },
       "pattern": "V ては いけません",
       "explanation": {
         "es": "〜ては いけません prohíbe: ここで 遊[あそ]んでは いけません (aquí no se puede jugar). Es la respuesta negativa a 〜てもいいですか."
@@ -31,31 +39,41 @@
       "examples": [
         {
           "jp": "ここで 写真[しゃしん]を 撮[と]ってはいけません。",
-          "translation": { "es": "Aquí no se pueden sacar fotos." }
+          "translation": {
+            "es": "Aquí no se pueden sacar fotos."
+          }
         }
       ]
     },
     {
       "id": "te-imasu-estado",
-      "title": { "es": "V て います — estados resultantes" },
+      "title": {
+        "es": "V て います — estados resultantes"
+      },
       "pattern": "V て います (estado)",
       "explanation": {
-        "es": "Con ciertos verbos, 〜ています no describe una acción en curso sino el estado resultante: 結婚[けっこん]しています (estoy casado), 知[し]っています (lo sé), 住[す]んでいます (vivo en…). El negativo de 知っています es 知りません."
+        "es": "Con ciertos verbos, 〜ています no describe una acción en curso sino el estado resultante: 結婚[けっこん]しています (estoy casado), 知[し]っています (lo sé), 住[す]んでいます (vivo en…). El negativo de 知[し]っています es 知[し]りません."
       },
       "examples": [
         {
           "jp": "ミラーさんは 大阪[おおさか]に 住[す]んでいます。",
-          "translation": { "es": "El Sr. Miller vive en Osaka." }
+          "translation": {
+            "es": "El Sr. Miller vive en Osaka."
+          }
         },
         {
           "jp": "田中[たなか]さんの 電話番号[でんわばんごう]を 知[し]っていますか。…いいえ、 知[し]りません。",
-          "translation": { "es": "¿Sabes el teléfono del Sr. Tanaka? …No, no lo sé." }
+          "translation": {
+            "es": "¿Sabes el teléfono del Sr. Tanaka? …No, no lo sé."
+          }
         }
       ]
     },
     {
       "id": "te-imasu-habitual",
-      "title": { "es": "V て います — ocupación habitual" },
+      "title": {
+        "es": "V て います — ocupación habitual"
+      },
       "pattern": "N は 〜を V て います",
       "explanation": {
         "es": "〜ています también describe la ocupación o actividad habitual de alguien: IMCは ソフトを 作[つく]っています (IMC produce software), 妹[いもうと]は 銀行[ぎんこう]で 働[はたら]いています."
@@ -63,7 +81,9 @@
       "examples": [
         {
           "jp": "姉[あね]は 高校[こうこう]で 英語[えいご]を 教[おし]えています。",
-          "translation": { "es": "Mi hermana mayor enseña inglés en un instituto." }
+          "translation": {
+            "es": "Mi hermana mayor enseña inglés en un instituto."
+          }
         }
       ]
     }
