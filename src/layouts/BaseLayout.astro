@@ -1,0 +1,56 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import { SITE_NAME } from '@/constants/site';
+import '@/styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const pageTitle = title === SITE_NAME ? title : `${title} · ${SITE_NAME}`;
+---
+
+<!doctype html>
+<html lang={Astro.currentLocale ?? 'es'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <ClientRouter />
+    <script is:inline>
+      // Applies persisted settings before first paint (and again after view transitions)
+      // to avoid a flash of wrong theme/furigana state. Kept inline and dependency-free;
+      // the storage shape is shared with src/utils/settings.ts.
+      (() => {
+        const applySettings = () => {
+          let stored = {};
+          try {
+            stored = JSON.parse(localStorage.getItem('noken-settings') ?? '{}');
+          } catch {
+            /* corrupted storage falls back to defaults */
+          }
+          const theme = stored.theme ?? 'system';
+          const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
+          const isDark = theme === 'dark' || (theme === 'system' && prefersDark);
+          const { classList } = document.documentElement;
+          classList.toggle('dark', isDark);
+          classList.toggle('hide-furigana', stored.furigana === false);
+          classList.toggle('hide-translations', stored.hideTranslations === true);
+        };
+        applySettings();
+        document.addEventListener('astro:after-swap', applySettings);
+      })();
+    </script>
+  </head>
+  <body class="flex min-h-svh flex-col">
+    <slot />
+  </body>
+</html>
