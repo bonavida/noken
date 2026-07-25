@@ -1,0 +1,115 @@
+{
+  "level": "n5",
+  "number": 5,
+  "title": { "es": "Ir y venir" },
+  "jpTitle": "この 電車[でんしゃ]は 甲子園[こうしえん]へ 行[い]きますか",
+  "description": {
+    "es": "Habla de desplazamientos: adónde vas, con qué medio de transporte, con quién y cuándo."
+  },
+  "grammar": [
+    {
+      "id": "e-ikimasu",
+      "title": { "es": "N (lugar) へ 行[い]きます／来[き]ます／帰[かえ]ります" },
+      "pattern": "lugar へ 行[い]きます／来[き]ます／帰[かえ]ります",
+      "explanation": {
+        "es": "La partícula へ (se lee «e») marca la dirección del movimiento con los verbos ir, venir y volver."
+      },
+      "examples": [
+        { "jp": "京都[きょうと]へ 行[い]きます。", "translation": { "es": "Voy a Kioto." } },
+        { "jp": "うちへ 帰[かえ]ります。", "translation": { "es": "Vuelvo a casa." } }
+      ]
+    },
+    {
+      "id": "doko-mo",
+      "title": { "es": "どこ[へ]も 行[い]きません — «a ningún sitio»" },
+      "pattern": "どこ[へ]も V (negativo)",
+      "explanation": {
+        "es": "Un interrogativo + も con el verbo en negativo niega todo el ámbito de la pregunta: どこも 行[い]きません significa «no voy a ninguna parte»."
+      },
+      "examples": [
+        {
+          "jp": "きのうどこ[へ]も 行[い]きませんでした。",
+          "translation": { "es": "Ayer no fui a ningún sitio." }
+        }
+      ]
+    },
+    {
+      "id": "de-vehiculo",
+      "title": { "es": "N (vehículo) で 行[い]きます — medio de transporte" },
+      "pattern": "vehículo で 行[い]きます／来[き]ます／帰[かえ]ります",
+      "explanation": {
+        "es": "La partícula で indica el medio de transporte. Para «a pie» se usa 歩[ある]いて, sin partícula."
+      },
+      "examples": [
+        {
+          "jp": "電車[でんしゃ]で 会社[かいしゃ]へ 行[い]きます。",
+          "translation": { "es": "Voy a la empresa en tren." }
+        },
+        {
+          "jp": "駅[えき]から 歩[ある]いて 帰[かえ]ります。",
+          "translation": { "es": "Vuelvo a pie desde la estación." }
+        }
+      ]
+    },
+    {
+      "id": "to-persona",
+      "title": { "es": "N (persona/animal) と V — «con alguien»" },
+      "pattern": "persona と V",
+      "explanation": {
+        "es": "と marca la persona (o animal) con quien se hace la acción. «Solo» se dice 一人[ひとり]で, sin と."
+      },
+      "examples": [
+        {
+          "jp": "家族[かぞく]と 日本[にほん]へ 来[き]ました。",
+          "translation": { "es": "Vine a Japón con mi familia." }
+        },
+        {
+          "jp": "一人[ひとり]で 東京[とうきょう]へ 行[い]きます。",
+          "translation": { "es": "Voy solo a Tokio." }
+        }
+      ]
+    },
+    {
+      "id": "itsu",
+      "title": { "es": "いつ — «cuándo»" },
+      "pattern": "いつ V ますか",
+      "explanation": {
+        "es": "いつ pregunta por el momento sin necesitar partícula に. En la respuesta, に aparece solo si el momento es numérico (fecha u hora)."
+      },
+      "examples": [
+        {
+          "jp": "いつ 日本[にほん]へ 来[き]ましたか。…3 月[がつ]25 日[にち]に 来[き]ました。",
+          "translation": { "es": "¿Cuándo viniste a Japón? …Vine el 25 de marzo." }
+        }
+      ]
+    },
+    {
+      "id": "yo",
+      "title": { "es": "〜よ — dar información nueva" },
+      "pattern": "S よ",
+      "explanation": {
+        "es": "La partícula final よ enfatiza que se está dando información que el oyente no conoce, como un aviso amable."
+      },
+      "examples": [
+        {
+          "jp": "この 電車[でんしゃ]は 甲子園[こうしえん]へ 行[い]きませんよ。",
+          "translation": { "es": "Este tren no va a Koshien, ¿eh?" }
+        }
+      ]
+    },
+    {
+      "id": "sou-desu-ne",
+      "title": { "es": "そうですね — mostrar acuerdo" },
+      "pattern": "そうですね",
+      "explanation": {
+        "es": "Expresa acuerdo o simpatía con lo dicho («es verdad», «estoy de acuerdo»). No confundir con そうですか, que reacciona ante información nueva."
+      },
+      "examples": [
+        {
+          "jp": "今日[きょう]はいい 天気[てんき]ですね。…そうですね。",
+          "translation": { "es": "Hoy hace buen tiempo, ¿verdad? …Es verdad." }
+        }
+      ]
+    }
+  ]
+}

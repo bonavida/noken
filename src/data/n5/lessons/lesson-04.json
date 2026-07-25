@@ -1,0 +1,107 @@
+{
+  "level": "n5",
+  "number": 4,
+  "title": { "es": "La hora y los verbos" },
+  "jpTitle": "そちらは 何時[なんじ]までですか",
+  "description": {
+    "es": "Di la hora, los días de la semana y usa los primeros verbos en presente y pasado, afirmativo y negativo."
+  },
+  "grammar": [
+    {
+      "id": "ima-nanji",
+      "title": { "es": "今[いま] −時[じ]−分[ふん]です — la hora" },
+      "pattern": "今[いま] − 時[じ] − 分[ふん]です",
+      "explanation": {
+        "es": "La hora se expresa con los numerales seguidos de 時[じ] (horas) y 分[ふん] (minutos). Para preguntar se usa 何時[なんじ] (¿qué hora?). 半[はん] significa «y media»."
+      },
+      "examples": [
+        {
+          "jp": "今[いま] 何時[なんじ]ですか。…7 時[じ]10 分[ぷん]です。",
+          "translation": { "es": "¿Qué hora es? …Son las 7:10." }
+        },
+        {
+          "jp": "今[いま]9 時[じ] 半[はん]です。",
+          "translation": { "es": "Son las nueve y media." }
+        }
+      ]
+    },
+    {
+      "id": "verbos-masu",
+      "title": { "es": "Vます／Vません／Vました／Vませんでした" },
+      "pattern": "V ます ／ V ません ／ V ました ／ V ませんでした",
+      "explanation": {
+        "es": "La forma ます es la forma cortés del verbo. Sus cuatro combinaciones cubren presente/futuro y pasado, en afirmativo y negativo: 働[はたら]きます (trabajo/trabajaré), 働[はたら]きません (no trabajo), 働[はたら]きました (trabajé), 働[はたら]きませんでした (no trabajé)."
+      },
+      "examples": [
+        {
+          "jp": "毎日[まいにち] 勉強[べんきょう]します。",
+          "translation": { "es": "Estudio todos los días." }
+        },
+        {
+          "jp": "きのう 働[はたら]きませんでした。",
+          "translation": { "es": "Ayer no trabajé." }
+        }
+      ]
+    },
+    {
+      "id": "ni-tiempo",
+      "title": { "es": "S (tiempo) に V — «a las…»" },
+      "pattern": "tiempo に V",
+      "explanation": {
+        "es": "La partícula に marca el momento puntual en que ocurre la acción, cuando ese momento se expresa con números (horas, fechas): 6 時[じ]に 起[お]きます. Con palabras como きょう o 毎朝[まいあさ] no se usa に."
+      },
+      "examples": [
+        {
+          "jp": "毎朝[まいあさ]6 時[じ]に 起[お]きます。",
+          "translation": { "es": "Todas las mañanas me levanto a las seis." }
+        }
+      ]
+    },
+    {
+      "id": "kara-made",
+      "title": { "es": "S1 から S2 まで — «desde… hasta…»" },
+      "pattern": "N1 から N2 まで",
+      "explanation": {
+        "es": "から marca el punto de inicio (en tiempo o espacio) y まで el punto final. Pueden usarse juntas o por separado."
+      },
+      "examples": [
+        {
+          "jp": "銀行[ぎんこう]は9 時[じ]から3 時[じ]までです。",
+          "translation": { "es": "El banco abre de nueve a tres." }
+        },
+        {
+          "jp": "昼休[ひるやす]みは12 時[じ]からです。",
+          "translation": { "es": "El descanso de mediodía es desde las doce." }
+        }
+      ]
+    },
+    {
+      "id": "to",
+      "title": { "es": "N1 と N2 — «y»" },
+      "pattern": "N1 と N2",
+      "explanation": {
+        "es": "と conecta dos sustantivos en una enumeración completa: 銀行[ぎんこう]は 土曜日[どようび]と 日曜日[にちようび]が 休[やす]みです."
+      },
+      "examples": [
+        {
+          "jp": "休[やす]みは 土曜日[どようび]と 日曜日[にちようび]です。",
+          "translation": { "es": "Los días libres son el sábado y el domingo." }
+        }
+      ]
+    },
+    {
+      "id": "ne",
+      "title": { "es": "〜ね — buscar acuerdo" },
+      "pattern": "S ね",
+      "explanation": {
+        "es": "La partícula final ね suaviza la frase y busca la confirmación o empatía del oyente, como el español «¿verdad?» o «¿no?»."
+      },
+      "examples": [
+        {
+          "jp": "毎日[まいにち]10 時[じ]まで 勉強[べんきょう]します。… 大変[たいへん]ですね。",
+          "translation": { "es": "Estudio todos los días hasta las diez. …¡Qué duro!, ¿no?" }
+        }
+      ]
+    }
+  ]
+}

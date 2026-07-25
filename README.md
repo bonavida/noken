@@ -50,11 +50,11 @@ src/
 
 ## Routes
 
-| Route | Content |
-| --- | --- |
-| `/` | Landing + level picker |
-| `/kana` | Hiragana/katakana charts (level-independent) |
-| `/kanji`, `/kanji/[char]` | Kanji index grouped by level/lesson + detail |
-| `/[level]` | Level dashboard |
-| `/[level]/lessons/[number]` | Grammar + vocabulary for a lesson |
-| `/[level]/vocabulary/[number]` | Dedicated vocabulary view |
+| Route                          | Content                                      |
+| ------------------------------ | -------------------------------------------- |
+| `/`                            | Landing + level picker                       |
+| `/kana`                        | Hiragana/katakana charts (level-independent) |
+| `/kanji`, `/kanji/[char]`      | Kanji index grouped by level/lesson + detail |
+| `/[level]`                     | Level dashboard                              |
+| `/[level]/lessons/[number]`    | Grammar + vocabulary for a lesson            |
+| `/[level]/vocabulary/[number]` | Dedicated vocabulary view                    |

@@ -1,0 +1,294 @@
+{
+  "level": "n5",
+  "lesson": 3,
+  "words": [
+    {
+      "id": "koko",
+      "word": "ここ",
+      "kana": "ここ",
+      "meaning": { "es": "aquí, en este lugar" },
+      "type": "pronoun"
+    },
+    {
+      "id": "soko",
+      "word": "そこ",
+      "kana": "そこ",
+      "meaning": { "es": "ahí, en ese lugar" },
+      "type": "pronoun"
+    },
+    {
+      "id": "asoko",
+      "word": "あそこ",
+      "kana": "あそこ",
+      "meaning": { "es": "allí, en aquel lugar" },
+      "type": "pronoun"
+    },
+    {
+      "id": "doko",
+      "word": "どこ",
+      "kana": "どこ",
+      "meaning": { "es": "dónde, en qué lugar" },
+      "type": "interrogative"
+    },
+    {
+      "id": "kochira",
+      "word": "こちら",
+      "kana": "こちら",
+      "meaning": { "es": "por aquí, aquí (cortés de ここ)" },
+      "type": "pronoun"
+    },
+    {
+      "id": "sochira",
+      "word": "そちら",
+      "kana": "そちら",
+      "meaning": { "es": "por ahí, ahí (cortés de そこ)" },
+      "type": "pronoun"
+    },
+    {
+      "id": "achira",
+      "word": "あちら",
+      "kana": "あちら",
+      "meaning": { "es": "por allí, allí (cortés de あそこ)" },
+      "type": "pronoun"
+    },
+    {
+      "id": "dochira",
+      "word": "どちら",
+      "kana": "どちら",
+      "meaning": { "es": "por dónde, dónde (cortés de どこ)" },
+      "type": "interrogative"
+    },
+    {
+      "id": "kyoushitsu",
+      "word": "教室[きょうしつ]",
+      "kana": "きょうしつ",
+      "meaning": { "es": "aula" },
+      "type": "noun"
+    },
+    {
+      "id": "shokudou",
+      "word": "食堂[しょくどう]",
+      "kana": "しょくどう",
+      "meaning": { "es": "comedor" },
+      "type": "noun"
+    },
+    {
+      "id": "jimusho",
+      "word": "事務所[じむしょ]",
+      "kana": "じむしょ",
+      "meaning": { "es": "oficina" },
+      "type": "noun"
+    },
+    {
+      "id": "kaigishitsu",
+      "word": "会議室[かいぎしつ]",
+      "kana": "かいぎしつ",
+      "meaning": { "es": "sala de reuniones" },
+      "type": "noun"
+    },
+    {
+      "id": "uketsuke",
+      "word": "受付[うけつけ]",
+      "kana": "うけつけ",
+      "meaning": { "es": "recepción" },
+      "type": "noun"
+    },
+    {
+      "id": "robii",
+      "word": "ロビー",
+      "kana": "ロビー",
+      "meaning": { "es": "recepción, vestíbulo" },
+      "type": "noun"
+    },
+    {
+      "id": "heya",
+      "word": "部屋[へや]",
+      "kana": "へや",
+      "meaning": { "es": "habitación, cuarto" },
+      "type": "noun"
+    },
+    {
+      "id": "toire",
+      "word": "トイレ（お 手洗[てあら]い）",
+      "kana": "トイレ（おてあらい）",
+      "meaning": { "es": "baño, servicio" },
+      "type": "noun"
+    },
+    {
+      "id": "kaidan",
+      "word": "階段[かいだん]",
+      "kana": "かいだん",
+      "meaning": { "es": "escalera" },
+      "type": "noun"
+    },
+    {
+      "id": "erebeetaa",
+      "word": "エレベーター",
+      "kana": "エレベーター",
+      "meaning": { "es": "ascensor, elevador" },
+      "type": "noun"
+    },
+    {
+      "id": "esukareetaa",
+      "word": "エスカレーター",
+      "kana": "エスカレーター",
+      "meaning": { "es": "escalera mecánica" },
+      "type": "noun"
+    },
+    {
+      "id": "jidouhanbaiki",
+      "word": "自動販売機[じどうはんばいき]",
+      "kana": "じどうはんばいき",
+      "meaning": { "es": "máquina de venta automática" },
+      "type": "noun"
+    },
+    {
+      "id": "denwa",
+      "word": "電話[でんわ]",
+      "kana": "でんわ",
+      "meaning": { "es": "teléfono, llamada telefónica" },
+      "type": "noun"
+    },
+    {
+      "id": "okuni",
+      "word": "[お]国[くに]",
+      "kana": "おくに",
+      "meaning": { "es": "[su] país, patria" },
+      "type": "noun"
+    },
+    {
+      "id": "kaisha",
+      "word": "会社[かいしゃ]",
+      "kana": "かいしゃ",
+      "meaning": { "es": "empresa, compañía" },
+      "type": "noun"
+    },
+    { "id": "uchi", "word": "うち", "kana": "うち", "meaning": { "es": "casa" }, "type": "noun" },
+    {
+      "id": "kutsu",
+      "word": "靴[くつ]",
+      "kana": "くつ",
+      "meaning": { "es": "zapatos" },
+      "type": "noun"
+    },
+    {
+      "id": "nekutai",
+      "word": "ネクタイ",
+      "kana": "ネクタイ",
+      "meaning": { "es": "corbata" },
+      "type": "noun"
+    },
+    {
+      "id": "wain",
+      "word": "ワイン",
+      "kana": "ワイン",
+      "meaning": { "es": "vino" },
+      "type": "noun"
+    },
+    {
+      "id": "uriba",
+      "word": "売[う]り 場[ば]",
+      "kana": "うりば",
+      "meaning": { "es": "sección (en un gran almacén)" },
+      "type": "noun"
+    },
+    {
+      "id": "chika",
+      "word": "地下[ちか]",
+      "kana": "ちか",
+      "meaning": { "es": "sótano, subsuelo" },
+      "type": "noun"
+    },
+    {
+      "id": "kai",
+      "word": "〜階[かい]",
+      "kana": "かい／がい",
+      "meaning": { "es": "piso ~, planta ~" },
+      "type": "counter"
+    },
+    {
+      "id": "nangai",
+      "word": "何階[なんがい]",
+      "kana": "なんがい",
+      "meaning": { "es": "qué piso" },
+      "type": "interrogative"
+    },
+    {
+      "id": "en",
+      "word": "〜円[えん]",
+      "kana": "えん",
+      "meaning": { "es": "~ yen(es)" },
+      "type": "counter"
+    },
+    {
+      "id": "ikura",
+      "word": "いくら",
+      "kana": "いくら",
+      "meaning": { "es": "cuánto (dinero)" },
+      "type": "interrogative"
+    },
+    {
+      "id": "hyaku",
+      "word": "百[ひゃく]",
+      "kana": "ひゃく",
+      "meaning": { "es": "cien" },
+      "type": "number"
+    },
+    {
+      "id": "sen",
+      "word": "千[せん]",
+      "kana": "せん",
+      "meaning": { "es": "mil" },
+      "type": "number"
+    },
+    {
+      "id": "man",
+      "word": "万[まん]",
+      "kana": "まん",
+      "meaning": { "es": "diez mil" },
+      "type": "number"
+    },
+    {
+      "id": "sumimasen",
+      "word": "すみません",
+      "kana": "すみません",
+      "meaning": { "es": "disculpe" },
+      "type": "expression"
+    },
+    {
+      "id": "doumo",
+      "word": "どうも",
+      "kana": "どうも",
+      "meaning": { "es": "gracias" },
+      "type": "expression"
+    },
+    {
+      "id": "irasshaimase",
+      "word": "いらっしゃいませ",
+      "kana": "いらっしゃいませ",
+      "meaning": { "es": "bienvenido (al recibir clientes)" },
+      "type": "expression"
+    },
+    {
+      "id": "misete-kudasai",
+      "word": "[〜を] 見[み]せてください",
+      "kana": "みせてください",
+      "meaning": { "es": "muéstreme [~], por favor" },
+      "type": "expression"
+    },
+    {
+      "id": "ja",
+      "word": "じゃ",
+      "kana": "じゃ",
+      "meaning": { "es": "bueno, entonces" },
+      "type": "conjunction"
+    },
+    {
+      "id": "kudasai",
+      "word": "[〜を]ください",
+      "kana": "ください",
+      "meaning": { "es": "deme [~], por favor" },
+      "type": "expression"
+    }
+  ]
+}

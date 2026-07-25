@@ -1,0 +1,363 @@
+{
+  "level": "n5",
+  "lesson": 4,
+  "words": [
+    {
+      "id": "okimasu",
+      "word": "起[お]きます",
+      "kana": "おきます",
+      "meaning": { "es": "levantarse" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "nemasu",
+      "word": "寝[ね]ます",
+      "kana": "ねます",
+      "meaning": { "es": "acostarse, dormir" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "hatarakimasu",
+      "word": "働[はたら]きます",
+      "kana": "はたらきます",
+      "meaning": { "es": "trabajar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "yasumimasu",
+      "word": "休[やす]みます",
+      "kana": "やすみます",
+      "meaning": { "es": "descansar, estar de vacaciones" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "benkyou-shimasu",
+      "word": "勉強[べんきょう]します",
+      "kana": "べんきょうします",
+      "meaning": { "es": "estudiar" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "owarimasu",
+      "word": "終[お]わります",
+      "kana": "おわります",
+      "meaning": { "es": "terminar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "depaato",
+      "word": "デパート",
+      "kana": "デパート",
+      "meaning": { "es": "gran almacén" },
+      "type": "noun"
+    },
+    {
+      "id": "ginkou",
+      "word": "銀行[ぎんこう]",
+      "kana": "ぎんこう",
+      "meaning": { "es": "banco" },
+      "type": "noun"
+    },
+    {
+      "id": "yuubinkyoku",
+      "word": "郵便局[ゆうびんきょく]",
+      "kana": "ゆうびんきょく",
+      "meaning": { "es": "oficina de correos" },
+      "type": "noun"
+    },
+    {
+      "id": "toshokan",
+      "word": "図書館[としょかん]",
+      "kana": "としょかん",
+      "meaning": { "es": "biblioteca" },
+      "type": "noun"
+    },
+    {
+      "id": "bijutsukan",
+      "word": "美術館[びじゅつかん]",
+      "kana": "びじゅつかん",
+      "meaning": { "es": "museo de arte" },
+      "type": "noun"
+    },
+    {
+      "id": "ima",
+      "word": "今[いま]",
+      "kana": "いま",
+      "meaning": { "es": "ahora" },
+      "type": "noun"
+    },
+    {
+      "id": "ji",
+      "word": "〜時[じ]",
+      "kana": "じ",
+      "meaning": { "es": "las ~ horas" },
+      "type": "counter"
+    },
+    {
+      "id": "fun",
+      "word": "〜分[ふん]",
+      "kana": "ふん／ぷん",
+      "meaning": { "es": "~ minutos" },
+      "type": "counter"
+    },
+    {
+      "id": "han",
+      "word": "半[はん]",
+      "kana": "はん",
+      "meaning": { "es": "~ y media" },
+      "type": "noun"
+    },
+    {
+      "id": "nanji",
+      "word": "何時[なんじ]",
+      "kana": "なんじ",
+      "meaning": { "es": "qué hora" },
+      "type": "interrogative"
+    },
+    {
+      "id": "nanpun",
+      "word": "何分[なんぷん]",
+      "kana": "なんぷん",
+      "meaning": { "es": "qué minuto" },
+      "type": "interrogative"
+    },
+    {
+      "id": "gozen",
+      "word": "午前[ごぜん]",
+      "kana": "ごぜん",
+      "meaning": { "es": "de la mañana (a.m.)" },
+      "type": "noun"
+    },
+    {
+      "id": "gogo",
+      "word": "午後[ごご]",
+      "kana": "ごご",
+      "meaning": { "es": "de la tarde (p.m.)" },
+      "type": "noun"
+    },
+    {
+      "id": "asa",
+      "word": "朝[あさ]",
+      "kana": "あさ",
+      "meaning": { "es": "la mañana" },
+      "type": "noun"
+    },
+    {
+      "id": "hiru",
+      "word": "昼[ひる]",
+      "kana": "ひる",
+      "meaning": { "es": "día, mediodía" },
+      "type": "noun"
+    },
+    {
+      "id": "ban",
+      "word": "晩[ばん]（夜[よる]）",
+      "kana": "ばん（よる）",
+      "meaning": { "es": "noche" },
+      "type": "noun"
+    },
+    {
+      "id": "ototoi",
+      "word": "おととい",
+      "kana": "おととい",
+      "meaning": { "es": "anteayer" },
+      "type": "noun"
+    },
+    {
+      "id": "kinou",
+      "word": "きのう",
+      "kana": "きのう",
+      "meaning": { "es": "ayer" },
+      "type": "noun"
+    },
+    {
+      "id": "kyou",
+      "word": "きょう",
+      "kana": "きょう",
+      "meaning": { "es": "hoy" },
+      "type": "noun"
+    },
+    {
+      "id": "ashita",
+      "word": "あした",
+      "kana": "あした",
+      "meaning": { "es": "mañana" },
+      "type": "noun"
+    },
+    {
+      "id": "asatte",
+      "word": "あさって",
+      "kana": "あさって",
+      "meaning": { "es": "pasado mañana" },
+      "type": "noun"
+    },
+    {
+      "id": "kesa",
+      "word": "けさ",
+      "kana": "けさ",
+      "meaning": { "es": "esta mañana" },
+      "type": "noun"
+    },
+    {
+      "id": "konban",
+      "word": "今晩[こんばん]",
+      "kana": "こんばん",
+      "meaning": { "es": "esta noche" },
+      "type": "noun"
+    },
+    {
+      "id": "yasumi",
+      "word": "休[やす]み",
+      "kana": "やすみ",
+      "meaning": { "es": "descanso, día libre, festivo" },
+      "type": "noun"
+    },
+    {
+      "id": "hiruyasumi",
+      "word": "昼休[ひるやす]み",
+      "kana": "ひるやすみ",
+      "meaning": { "es": "descanso del mediodía" },
+      "type": "noun"
+    },
+    {
+      "id": "shiken",
+      "word": "試験[しけん]",
+      "kana": "しけん",
+      "meaning": { "es": "examen" },
+      "type": "noun"
+    },
+    {
+      "id": "kaigi",
+      "word": "会議[かいぎ]",
+      "kana": "かいぎ",
+      "meaning": { "es": "reunión, conferencia" },
+      "type": "noun"
+    },
+    {
+      "id": "eiga",
+      "word": "映画[えいが]",
+      "kana": "えいが",
+      "meaning": { "es": "película" },
+      "type": "noun"
+    },
+    {
+      "id": "maiasa",
+      "word": "毎朝[まいあさ]",
+      "kana": "まいあさ",
+      "meaning": { "es": "todas las mañanas" },
+      "type": "noun"
+    },
+    {
+      "id": "maiban",
+      "word": "毎晩[まいばん]",
+      "kana": "まいばん",
+      "meaning": { "es": "todas las noches" },
+      "type": "noun"
+    },
+    {
+      "id": "mainichi",
+      "word": "毎日[まいにち]",
+      "kana": "まいにち",
+      "meaning": { "es": "todos los días" },
+      "type": "noun"
+    },
+    {
+      "id": "getsuyoubi",
+      "word": "月曜日[げつようび]",
+      "kana": "げつようび",
+      "meaning": { "es": "lunes" },
+      "type": "noun"
+    },
+    {
+      "id": "kayoubi",
+      "word": "火曜日[かようび]",
+      "kana": "かようび",
+      "meaning": { "es": "martes" },
+      "type": "noun"
+    },
+    {
+      "id": "suiyoubi",
+      "word": "水曜日[すいようび]",
+      "kana": "すいようび",
+      "meaning": { "es": "miércoles" },
+      "type": "noun"
+    },
+    {
+      "id": "mokuyoubi",
+      "word": "木曜日[もくようび]",
+      "kana": "もくようび",
+      "meaning": { "es": "jueves" },
+      "type": "noun"
+    },
+    {
+      "id": "kinyoubi",
+      "word": "金曜日[きんようび]",
+      "kana": "きんようび",
+      "meaning": { "es": "viernes" },
+      "type": "noun"
+    },
+    {
+      "id": "doyoubi",
+      "word": "土曜日[どようび]",
+      "kana": "どようび",
+      "meaning": { "es": "sábado" },
+      "type": "noun"
+    },
+    {
+      "id": "nichiyoubi",
+      "word": "日曜日[にちようび]",
+      "kana": "にちようび",
+      "meaning": { "es": "domingo" },
+      "type": "noun"
+    },
+    {
+      "id": "nanyoubi",
+      "word": "何曜日[なんようび]",
+      "kana": "なんようび",
+      "meaning": { "es": "qué día de la semana" },
+      "type": "interrogative"
+    },
+    {
+      "id": "kara",
+      "word": "〜から",
+      "kana": "から",
+      "meaning": { "es": "desde ~" },
+      "type": "particle"
+    },
+    {
+      "id": "made",
+      "word": "〜まで",
+      "kana": "まで",
+      "meaning": { "es": "hasta ~" },
+      "type": "particle"
+    },
+    {
+      "id": "to",
+      "word": "〜と〜",
+      "kana": "と",
+      "meaning": { "es": "y (conecta sustantivos)" },
+      "type": "particle"
+    },
+    {
+      "id": "taihen-desu-ne",
+      "word": "大変[たいへん]ですね",
+      "kana": "たいへんですね",
+      "meaning": { "es": "¡qué duro! (empatía)" },
+      "type": "expression"
+    },
+    {
+      "id": "bangou",
+      "word": "番号[ばんごう]",
+      "kana": "ばんごう",
+      "meaning": { "es": "número" },
+      "type": "noun"
+    },
+    {
+      "id": "nanban",
+      "word": "何番[なんばん]",
+      "kana": "なんばん",
+      "meaning": { "es": "qué número" },
+      "type": "interrogative"
+    }
+  ]
+}
