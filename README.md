@@ -1,43 +1,60 @@
-# Astro Starter Kit: Minimal
+# Noken
+
+A study website for the JLPT (Japanese-Language Proficiency Test), following the **Minna no Nihongo** textbooks. Currently covers **N5** with grammar, vocabulary, kana charts, and kanji — all Japanese text rendered with furigana.
+
+The UI language is Spanish, but the codebase is fully i18n-ready: adding a language means adding a typed dictionary and optional per-entry translation keys, no refactoring.
+
+## Stack
+
+- [Astro](https://astro.build) (static output, zero-JS by default) with React islands
+- TypeScript (strict), Tailwind CSS v4, shadcn/ui design tokens
+- Content stored as JSON in typed content collections (zod schemas)
+- pnpm, ESLint, Prettier, Vitest
+
+## Development
 
 ```sh
-pnpm create astro@latest -- --template minimal
+pnpm install
+pnpm dev        # dev server on http://localhost:4321
+pnpm build      # static build to dist/
+pnpm preview    # serve the build locally
+pnpm check      # astro check (types)
+pnpm lint       # eslint
+pnpm test       # vitest (furigana parser)
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Project structure
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```
+src/
+├── content.config.ts   # collections + zod schemas (lessons, vocab, kanji)
+├── data/n5/            # all learning content; a new level = a new folder here
+│   ├── lessons/        # one JSON per lesson (grammar points + examples)
+│   ├── vocab/          # one JSON per lesson (word lists)
+│   └── kanji/          # one JSON per kanji, named by the character
+├── pages/              # routes (English segments)
+├── layouts/            # BaseLayout (head, settings init) + SiteLayout
+├── components/         # feature components (+ React islands)
+├── ui/                 # static primitives; ui/react = shadcn components
+├── i18n/               # locale config + typed UI dictionaries
+├── constants/          # levels, word types, kana datasets, settings keys
+├── hooks/              # React hooks for islands
+└── utils/              # furigana parser, settings, cn
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Content conventions
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **Furigana notation**: readings are stored inline as `漢字[かんじ]`; a bracket binds to the contiguous kanji run before it, okurigana stays outside: `食[た]べます`. The `Furigana`/`RichText` components render it as `<ruby>`.
+- **Localized fields**: `{ "es": "...", "en": "..." }` records per entry; Spanish is required, other locales optional.
+- **Levels**: routes and data never hardcode `n5`. Enable a new level in `src/constants/levels.ts` and drop its data in `src/data/<level>/`.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Routes
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| Route | Content |
+| --- | --- |
+| `/` | Landing + level picker |
+| `/kana` | Hiragana/katakana charts (level-independent) |
+| `/kanji`, `/kanji/[char]` | Kanji index grouped by level/lesson + detail |
+| `/[level]` | Level dashboard |
+| `/[level]/lessons/[number]` | Grammar + vocabulary for a lesson |
+| `/[level]/vocabulary/[number]` | Dedicated vocabulary view |

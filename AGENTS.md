@@ -1,22 +1,20 @@
-## Development
+# Noken — project notes
 
-When starting the dev server, use background mode:
+JLPT study site (Minna no Nihongo). Astro static + React islands, TS strict, Tailwind v4, pnpm.
 
-```
-astro dev --background
-```
+## Rules
 
-Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
+- Everything in the codebase is English (routes, code, comments, docs). Spanish only in rendered UI strings (`src/i18n/dictionaries/es.ts`) and content `es` fields.
+- Every Japanese string with kanji uses furigana bracket notation `漢字[かんじ]` and renders through `Furigana.astro` / `FuriganaText.tsx` / `RichText.astro`.
+- Never hardcode `n5` in pages; iterate `ENABLED_LEVELS` (src/constants/levels.ts).
+- Grammar explanations are original Spanish paraphrases — never copy the textbook's prose.
+- Commits: plain messages, no Co-Authored-By trailer.
 
-## Documentation
+## Commands
 
-Full documentation: https://docs.astro.build
+pnpm dev / build / preview / check / lint / format / test
 
-Consult these guides before working on related tasks:
+## Dev server
 
-- [Adding pages, dynamic routes, or middleware](https://docs.astro.build/en/guides/routing/)
-- [Working with Astro components](https://docs.astro.build/en/basics/astro-components/)
-- [Using React, Vue, Svelte, or other framework components](https://docs.astro.build/en/guides/framework-components/)
-- [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
-- [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
-- [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+When starting the dev server, use background mode: `astro dev --background`
+(manage with `astro dev stop|status|logs`).
