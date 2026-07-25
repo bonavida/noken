@@ -1,0 +1,234 @@
+{
+  "level": "n5",
+  "slug": "adjectives",
+  "title": {
+    "es": "Adjetivos"
+  },
+  "description": {
+    "es": "Cómo se conjugan los dos tipos de adjetivos japoneses y cómo acompañan al sustantivo."
+  },
+  "order": 9,
+  "sections": [
+    {
+      "id": "conjugation",
+      "title": {
+        "es": "Conjugación"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": ""
+            },
+            {
+              "es": "Adjetivo -い (高[たか]い)"
+            },
+            {
+              "es": "Adjetivo -な (静[しず]か[な])"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "es": "Afirmativo"
+              },
+              "高[たか]いです",
+              "静[しず]かです"
+            ],
+            [
+              {
+                "es": "Negativo"
+              },
+              "高[たか]くないです",
+              "静[しず]かじゃありません"
+            ],
+            [
+              {
+                "es": "Pasado"
+              },
+              "高[たか]かったです",
+              "静[しず]かでした"
+            ],
+            [
+              {
+                "es": "Pasado negativo"
+              },
+              "高[たか]くなかったです",
+              "静[しず]かじゃありませんでした"
+            ],
+            [
+              {
+                "es": "+ sustantivo"
+              },
+              "高[たか]い 山[やま]",
+              "静[しず]かな 町[まち]"
+            ],
+            [
+              {
+                "es": "Unir dos adjetivos"
+              },
+              "安[やす]くて おいしい",
+              "静[しず]かで きれい"
+            ],
+            [
+              {
+                "es": "Convertirse en…"
+              },
+              "高[たか]く なります",
+              "静[しず]かに なります"
+            ]
+          ]
+        }
+      ],
+      "note": {
+        "es": "いい es irregular: よくないです, よかったです, よくなかったです."
+      }
+    },
+    {
+      "id": "common",
+      "title": {
+        "es": "Adjetivos frecuentes por parejas"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Adjetivo"
+            },
+            {
+              "es": "Significado"
+            },
+            {
+              "es": "Opuesto"
+            },
+            {
+              "es": "Significado"
+            }
+          ],
+          "rows": [
+            [
+              "大[おお]きい",
+              {
+                "es": "grande"
+              },
+              "小[ちい]さい",
+              {
+                "es": "pequeño"
+              }
+            ],
+            [
+              "新[あたら]しい",
+              {
+                "es": "nuevo"
+              },
+              "古[ふる]い",
+              {
+                "es": "viejo"
+              }
+            ],
+            [
+              "高[たか]い",
+              {
+                "es": "caro, alto"
+              },
+              "安[やす]い",
+              {
+                "es": "barato"
+              }
+            ],
+            [
+              "高[たか]い",
+              {
+                "es": "alto"
+              },
+              "低[ひく]い",
+              {
+                "es": "bajo"
+              }
+            ],
+            [
+              "暑[あつ]い",
+              {
+                "es": "caluroso"
+              },
+              "寒[さむ]い",
+              {
+                "es": "frío (clima)"
+              }
+            ],
+            [
+              "難[むずか]しい",
+              {
+                "es": "difícil"
+              },
+              "易[やさ]しい",
+              {
+                "es": "fácil"
+              }
+            ],
+            [
+              "おもしろい",
+              {
+                "es": "interesante"
+              },
+              "つまらない",
+              {
+                "es": "aburrido"
+              }
+            ],
+            [
+              "忙[いそが]しい",
+              {
+                "es": "ocupado"
+              },
+              "暇[ひま][な]",
+              {
+                "es": "libre"
+              }
+            ],
+            [
+              "近[ちか]い",
+              {
+                "es": "cercano"
+              },
+              "遠[とお]い",
+              {
+                "es": "lejano"
+              }
+            ],
+            [
+              "多[おお]い",
+              {
+                "es": "mucho"
+              },
+              "少[すく]ない",
+              {
+                "es": "poco"
+              }
+            ],
+            [
+              "長[なが]い",
+              {
+                "es": "largo"
+              },
+              "短[みじか]い",
+              {
+                "es": "corto"
+              }
+            ],
+            [
+              "明[あか]るい",
+              {
+                "es": "claro"
+              },
+              "暗[くら]い",
+              {
+                "es": "oscuro"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

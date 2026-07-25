@@ -1,0 +1,2186 @@
+{
+  "level": "n5",
+  "verbs": [
+    {
+      "id": "g1-01",
+      "group": 1,
+      "verb": "会[あ]います[ともだちに〜]",
+      "masu": "あいます",
+      "te": "あって",
+      "dictionary": "あう",
+      "nai": "あわない",
+      "ta": "あった",
+      "meaning": {
+        "es": "ver a, encontrarse con [amigos]"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-02",
+      "group": 1,
+      "verb": "遊[あそ]びます",
+      "masu": "あそびます",
+      "te": "あそんで",
+      "dictionary": "あそぶ",
+      "nai": "あそばない",
+      "ta": "あそんだ",
+      "meaning": {
+        "es": "jugar, divertirse"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g1-03",
+      "group": 1,
+      "verb": "洗[あら]います",
+      "masu": "あらいます",
+      "te": "あらって",
+      "dictionary": "あらう",
+      "nai": "あらわない",
+      "ta": "あらった",
+      "meaning": {
+        "es": "lavar"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g1-04",
+      "group": 1,
+      "verb": "あります",
+      "masu": "あります",
+      "te": "あって",
+      "dictionary": "ある",
+      "ta": "あった",
+      "meaning": {
+        "es": "haber"
+      },
+      "lesson": 9
+    },
+    {
+      "id": "g1-05",
+      "group": 1,
+      "verb": "あります",
+      "masu": "あります",
+      "te": "あって",
+      "dictionary": "ある",
+      "ta": "あった",
+      "meaning": {
+        "es": "estar, haber (cosas inanimadas)"
+      },
+      "lesson": 10
+    },
+    {
+      "id": "g1-06",
+      "group": 1,
+      "verb": "あります[おまつりが〜]",
+      "masu": "あります",
+      "te": "あって",
+      "dictionary": "ある",
+      "ta": "あった",
+      "meaning": {
+        "es": "haber, tener lugar [un festival]"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g1-07",
+      "group": 1,
+      "verb": "歩[ある]きます",
+      "masu": "あるきます",
+      "te": "あるいて",
+      "dictionary": "あるく",
+      "nai": "あるかない",
+      "ta": "あるいた",
+      "meaning": {
+        "es": "caminar"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g1-08",
+      "group": 1,
+      "verb": "言[い]います",
+      "masu": "いいます",
+      "te": "いって",
+      "dictionary": "いう",
+      "nai": "いわない",
+      "ta": "いった",
+      "meaning": {
+        "es": "decir"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g1-09",
+      "group": 1,
+      "verb": "行[い]きます",
+      "masu": "いきます",
+      "te": "いって",
+      "dictionary": "いく",
+      "nai": "いかない",
+      "ta": "いった",
+      "meaning": {
+        "es": "ir"
+      },
+      "lesson": 5
+    },
+    {
+      "id": "g1-10",
+      "group": 1,
+      "verb": "急[いそ]ぎます",
+      "masu": "いそぎます",
+      "te": "いそいで",
+      "dictionary": "いそぐ",
+      "nai": "いそがない",
+      "ta": "いそいだ",
+      "meaning": {
+        "es": "apresurarse, darse prisa"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-11",
+      "group": 1,
+      "verb": "要[い]ります[ビザが〜]",
+      "masu": "いります",
+      "te": "いって",
+      "dictionary": "いる",
+      "nai": "いらない",
+      "ta": "いった",
+      "meaning": {
+        "es": "necesitar, requerir [un visado]"
+      },
+      "lesson": 20
+    },
+    {
+      "id": "g1-12",
+      "group": 1,
+      "verb": "動[うご]きます",
+      "masu": "うごきます",
+      "te": "うごいて",
+      "dictionary": "うごく",
+      "nai": "うごかない",
+      "ta": "うごいた",
+      "meaning": {
+        "es": "funcionar"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g1-13",
+      "group": 1,
+      "verb": "歌[うた]います",
+      "masu": "うたいます",
+      "te": "うたって",
+      "dictionary": "うたう",
+      "nai": "うたわない",
+      "ta": "うたった",
+      "meaning": {
+        "es": "cantar"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g1-14",
+      "group": 1,
+      "verb": "売[う]ります",
+      "masu": "うります",
+      "te": "うって",
+      "dictionary": "うる",
+      "nai": "うらない",
+      "ta": "うった",
+      "meaning": {
+        "es": "vender"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g1-15",
+      "group": 1,
+      "verb": "置[お]きます",
+      "masu": "おきます",
+      "te": "おいて",
+      "dictionary": "おく",
+      "nai": "おかない",
+      "ta": "おいた",
+      "meaning": {
+        "es": "poner, colocar"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g1-16",
+      "group": 1,
+      "verb": "送[おく]ります",
+      "masu": "おくります",
+      "te": "おくって",
+      "dictionary": "おくる",
+      "nai": "おくらない",
+      "ta": "おくった",
+      "meaning": {
+        "es": "enviar"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g1-17",
+      "group": 1,
+      "verb": "送[おく]ります[ひとを〜]",
+      "masu": "おくります",
+      "te": "おくって",
+      "dictionary": "おくる",
+      "nai": "おくらない",
+      "ta": "おくった",
+      "meaning": {
+        "es": "acompañar, llevar [a alguien]"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g1-18",
+      "group": 1,
+      "verb": "押[お]します",
+      "masu": "おします",
+      "te": "おして",
+      "dictionary": "おす",
+      "nai": "おさない",
+      "ta": "おした",
+      "meaning": {
+        "es": "presionar, empujar"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g1-19",
+      "group": 1,
+      "verb": "思[おも]い 出[だ]します",
+      "masu": "おもいだします",
+      "te": "おもいだして",
+      "dictionary": "おもいだす",
+      "nai": "おもいださない",
+      "ta": "おもいだした",
+      "meaning": {
+        "es": "acordarse de, recordar"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g1-20",
+      "group": 1,
+      "verb": "思[おも]います",
+      "masu": "おもいます",
+      "te": "おもって",
+      "dictionary": "おもう",
+      "nai": "おもわない",
+      "ta": "おもった",
+      "meaning": {
+        "es": "creer"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g1-21",
+      "group": 1,
+      "verb": "泳[およ]ぎます",
+      "masu": "およぎます",
+      "te": "およいで",
+      "dictionary": "およぐ",
+      "nai": "およがない",
+      "ta": "およいだ",
+      "meaning": {
+        "es": "nadar"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g1-22",
+      "group": 1,
+      "verb": "下[お]ろします[おかねを〜]",
+      "masu": "おろします",
+      "te": "おろして",
+      "dictionary": "おろす",
+      "nai": "おろさない",
+      "ta": "おろした",
+      "meaning": {
+        "es": "retirar, sacar [dinero del banco]"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g1-23",
+      "group": 1,
+      "verb": "終[お]わります",
+      "masu": "おわります",
+      "te": "おわって",
+      "dictionary": "おわる",
+      "nai": "おわらない",
+      "ta": "おわった",
+      "meaning": {
+        "es": "terminar"
+      },
+      "lesson": 4
+    },
+    {
+      "id": "g1-24",
+      "group": 1,
+      "verb": "買[か]います",
+      "masu": "かいます",
+      "te": "かって",
+      "dictionary": "かう",
+      "nai": "かわない",
+      "ta": "かった",
+      "meaning": {
+        "es": "comprar"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-25",
+      "group": 1,
+      "verb": "返[かえ]します",
+      "masu": "かえします",
+      "te": "かえして",
+      "dictionary": "かえす",
+      "nai": "かえさない",
+      "ta": "かえした",
+      "meaning": {
+        "es": "devolver"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-26",
+      "group": 1,
+      "verb": "帰[かえ]ります",
+      "masu": "かえります",
+      "te": "かえって",
+      "dictionary": "かえる",
+      "nai": "かえらない",
+      "ta": "かえった",
+      "meaning": {
+        "es": "volver, regresar, irse a casa"
+      },
+      "lesson": 5
+    },
+    {
+      "id": "g1-27",
+      "group": 1,
+      "verb": "かかります",
+      "masu": "かかります",
+      "te": "かかって",
+      "dictionary": "かかる",
+      "nai": "かからない",
+      "ta": "かかった",
+      "meaning": {
+        "es": "tardar (tiempo), costar (dinero)"
+      },
+      "lesson": 11
+    },
+    {
+      "id": "g1-28",
+      "group": 1,
+      "verb": "書[か]きます",
+      "masu": "かきます",
+      "te": "かいて",
+      "dictionary": "かく",
+      "nai": "かかない",
+      "ta": "かいた",
+      "meaning": {
+        "es": "escribir, dibujar, pintar"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-29",
+      "group": 1,
+      "verb": "貸[か]します",
+      "masu": "かします",
+      "te": "かして",
+      "dictionary": "かす",
+      "nai": "かさない",
+      "ta": "かした",
+      "meaning": {
+        "es": "prestar"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g1-30",
+      "group": 1,
+      "verb": "勝[か]ちます",
+      "masu": "かちます",
+      "te": "かって",
+      "dictionary": "かつ",
+      "nai": "かたない",
+      "ta": "かった",
+      "meaning": {
+        "es": "ganar"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g1-31",
+      "group": 1,
+      "verb": "かぶります",
+      "masu": "かぶります",
+      "te": "かぶって",
+      "dictionary": "かぶる",
+      "nai": "かぶらない",
+      "ta": "かぶった",
+      "meaning": {
+        "es": "ponerse (un sombrero, etc.)"
+      },
+      "lesson": 22
+    },
+    {
+      "id": "g1-32",
+      "group": 1,
+      "verb": "頑張[がんば]ります",
+      "masu": "がんばります",
+      "te": "がんばって",
+      "dictionary": "がんばる",
+      "nai": "がんばらない",
+      "ta": "がんばった",
+      "meaning": {
+        "es": "esforzarse, tener ánimo"
+      },
+      "lesson": 25
+    },
+    {
+      "id": "g1-33",
+      "group": 1,
+      "verb": "聞[き]きます",
+      "masu": "ききます",
+      "te": "きいて",
+      "dictionary": "きく",
+      "nai": "きかない",
+      "ta": "きいた",
+      "meaning": {
+        "es": "oír, escuchar"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-34",
+      "group": 1,
+      "verb": "聞[き]きます[せんせいに〜]",
+      "masu": "ききます",
+      "te": "きいて",
+      "dictionary": "きく",
+      "nai": "きかない",
+      "ta": "きいた",
+      "meaning": {
+        "es": "preguntar [al profesor]"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g1-35",
+      "group": 1,
+      "verb": "切[き]ります",
+      "masu": "きります",
+      "te": "きって",
+      "dictionary": "きる",
+      "nai": "きらない",
+      "ta": "きった",
+      "meaning": {
+        "es": "cortar"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g1-36",
+      "group": 1,
+      "verb": "消[け]します",
+      "masu": "けします",
+      "te": "けして",
+      "dictionary": "けす",
+      "nai": "けさない",
+      "ta": "けした",
+      "meaning": {
+        "es": "apagar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-37",
+      "group": 1,
+      "verb": "触[さわ]ります[ドアに〜]",
+      "masu": "さわります",
+      "te": "さわって",
+      "dictionary": "さわる",
+      "nai": "さわらない",
+      "ta": "さわった",
+      "meaning": {
+        "es": "tocar [una puerta]"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g1-38",
+      "group": 1,
+      "verb": "知[し]ります",
+      "masu": "しります",
+      "te": "しって",
+      "dictionary": "しる",
+      "nai": "しらない",
+      "ta": "しった",
+      "meaning": {
+        "es": "enterarse, saber"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g1-39",
+      "group": 1,
+      "verb": "吸[す]います[たばこを〜]",
+      "masu": "すいます",
+      "te": "すって",
+      "dictionary": "すう",
+      "nai": "すわない",
+      "ta": "すった",
+      "meaning": {
+        "es": "fumar"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-40",
+      "group": 1,
+      "verb": "住[す]みます",
+      "masu": "すみます",
+      "te": "すんで",
+      "dictionary": "すむ",
+      "nai": "すまない",
+      "ta": "すんだ",
+      "meaning": {
+        "es": "vivir, residir"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g1-41",
+      "group": 1,
+      "verb": "座[すわ]ります",
+      "masu": "すわります",
+      "te": "すわって",
+      "dictionary": "すわる",
+      "nai": "すわらない",
+      "ta": "すわった",
+      "meaning": {
+        "es": "sentarse"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-42",
+      "group": 1,
+      "verb": "出[だ]します",
+      "masu": "だします",
+      "te": "だして",
+      "dictionary": "だす",
+      "nai": "ださない",
+      "ta": "だした",
+      "meaning": {
+        "es": "sacar (algo del bolso), entregar, presentar (un informe), enviar"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g1-43",
+      "group": 1,
+      "verb": "立[た]ちます",
+      "masu": "たちます",
+      "te": "たって",
+      "dictionary": "たつ",
+      "nai": "たたない",
+      "ta": "たった",
+      "meaning": {
+        "es": "ponerse de pie"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-44",
+      "group": 1,
+      "verb": "使[つか]います",
+      "masu": "つかいます",
+      "te": "つかって",
+      "dictionary": "つかう",
+      "nai": "つかわない",
+      "ta": "つかった",
+      "meaning": {
+        "es": "usar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-45",
+      "group": 1,
+      "verb": "着[つ]きます",
+      "masu": "つきます",
+      "te": "ついて",
+      "dictionary": "つく",
+      "nai": "つかない",
+      "ta": "ついた",
+      "meaning": {
+        "es": "llegar"
+      },
+      "lesson": 25
+    },
+    {
+      "id": "g1-46",
+      "group": 1,
+      "verb": "作[つく]ります、 造[つく]ります",
+      "masu": "つくります",
+      "te": "つくって",
+      "dictionary": "つくる",
+      "nai": "つくらない",
+      "ta": "つくった",
+      "meaning": {
+        "es": "hacer, producir"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g1-47",
+      "group": 1,
+      "verb": "連[つ]れて 行[い]きます",
+      "masu": "つれていきます",
+      "te": "つれていって",
+      "dictionary": "つれていく",
+      "nai": "つれていかない",
+      "ta": "つれていった",
+      "meaning": {
+        "es": "llevar (a alguien)"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g1-48",
+      "group": 1,
+      "verb": "手伝[てつだ]います",
+      "masu": "てつだいます",
+      "te": "てつだって",
+      "dictionary": "てつだう",
+      "nai": "てつだわない",
+      "ta": "てつだった",
+      "meaning": {
+        "es": "ayudar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-49",
+      "group": 1,
+      "verb": "泊[と]まります[ホテルに〜]",
+      "masu": "とまります",
+      "te": "とまって",
+      "dictionary": "とまる",
+      "nai": "とまらない",
+      "ta": "とまった",
+      "meaning": {
+        "es": "alojarse, hospedarse [en un hotel]"
+      },
+      "lesson": 19
+    },
+    {
+      "id": "g1-50",
+      "group": 1,
+      "verb": "取[と]ります",
+      "masu": "とります",
+      "te": "とって",
+      "dictionary": "とる",
+      "nai": "とらない",
+      "ta": "とった",
+      "meaning": {
+        "es": "tomar (en la mano), pasar (algo a alguien)"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-51",
+      "group": 1,
+      "verb": "撮[と]ります[しゃしんを〜]",
+      "masu": "とります",
+      "te": "とって",
+      "dictionary": "とる",
+      "nai": "とらない",
+      "ta": "とった",
+      "meaning": {
+        "es": "sacar [fotos]"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-52",
+      "group": 1,
+      "verb": "取[と]ります[としを〜]",
+      "masu": "とります",
+      "te": "とって",
+      "dictionary": "とる",
+      "nai": "とらない",
+      "ta": "とった",
+      "meaning": {
+        "es": "envejecer"
+      },
+      "lesson": 25
+    },
+    {
+      "id": "g1-53",
+      "group": 1,
+      "verb": "直[なお]します",
+      "masu": "なおします",
+      "te": "なおして",
+      "dictionary": "なおす",
+      "nai": "なおさない",
+      "ta": "なおした",
+      "meaning": {
+        "es": "reparar, arreglar, corregir"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g1-54",
+      "group": 1,
+      "verb": "なくします",
+      "masu": "なくします",
+      "te": "なくして",
+      "dictionary": "なくす",
+      "nai": "なくさない",
+      "ta": "なくした",
+      "meaning": {
+        "es": "perder"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-55",
+      "group": 1,
+      "verb": "習[なら]います",
+      "masu": "ならいます",
+      "te": "ならって",
+      "dictionary": "ならう",
+      "nai": "ならわない",
+      "ta": "ならった",
+      "meaning": {
+        "es": "aprender"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g1-56",
+      "group": 1,
+      "verb": "なります",
+      "masu": "なります",
+      "te": "なって",
+      "dictionary": "なる",
+      "nai": "ならない",
+      "ta": "なった",
+      "meaning": {
+        "es": "convertirse en, hacerse, llegar (la primavera, etc.)"
+      },
+      "lesson": 19
+    },
+    {
+      "id": "g1-57",
+      "group": 1,
+      "verb": "脱[ぬ]ぎます",
+      "masu": "ぬぎます",
+      "te": "ぬいで",
+      "dictionary": "ぬぐ",
+      "nai": "ぬがない",
+      "ta": "ぬいだ",
+      "meaning": {
+        "es": "quitarse (ropas, calzados, etc.)"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-58",
+      "group": 1,
+      "verb": "登[のぼ]ります、 上[のぼ]ります",
+      "masu": "のぼります",
+      "te": "のぼって",
+      "dictionary": "のぼる",
+      "nai": "のぼらない",
+      "ta": "のぼった",
+      "meaning": {
+        "es": "subir, escalar"
+      },
+      "lesson": 19
+    },
+    {
+      "id": "g1-59",
+      "group": 1,
+      "verb": "飲[の]みます",
+      "masu": "のみます",
+      "te": "のんで",
+      "dictionary": "のむ",
+      "nai": "のまない",
+      "ta": "のんだ",
+      "meaning": {
+        "es": "beber, tomar"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-60",
+      "group": 1,
+      "verb": "飲[の]みます",
+      "masu": "のみます",
+      "te": "のんで",
+      "dictionary": "のむ",
+      "nai": "のまない",
+      "ta": "のんだ",
+      "meaning": {
+        "es": "beber alcohol"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g1-61",
+      "group": 1,
+      "verb": "飲[の]みます[くすりを〜]",
+      "masu": "のみます",
+      "te": "のんで",
+      "dictionary": "のむ",
+      "nai": "のまない",
+      "ta": "のんだ",
+      "meaning": {
+        "es": "tomar [medicinas]"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-62",
+      "group": 1,
+      "verb": "乗[の]ります[でんしゃに〜]",
+      "masu": "のります",
+      "te": "のって",
+      "dictionary": "のる",
+      "nai": "のらない",
+      "ta": "のった",
+      "meaning": {
+        "es": "subir [en el tren]"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g1-63",
+      "group": 1,
+      "verb": "入[はい]ります[きっさてんに〜]",
+      "masu": "はいります",
+      "te": "はいって",
+      "dictionary": "はいる",
+      "nai": "はいらない",
+      "ta": "はいった",
+      "meaning": {
+        "es": "entrar [en una cafetería]"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-64",
+      "group": 1,
+      "verb": "入[はい]ります[だいがくに〜]",
+      "masu": "はいります",
+      "te": "はいって",
+      "dictionary": "はいる",
+      "nai": "はいらない",
+      "ta": "はいった",
+      "meaning": {
+        "es": "entrar, ingresar [en una universidad]"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g1-65",
+      "group": 1,
+      "verb": "入[はい]ります[おふろに〜]",
+      "masu": "はいります",
+      "te": "はいって",
+      "dictionary": "はいる",
+      "nai": "はいらない",
+      "ta": "はいった",
+      "meaning": {
+        "es": "tomar [un baño]"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-66",
+      "group": 1,
+      "verb": "はきます",
+      "masu": "はきます",
+      "te": "はいて",
+      "dictionary": "はく",
+      "nai": "はかない",
+      "ta": "はいた",
+      "meaning": {
+        "es": "ponerse (zapatos, pantalones, etc.)"
+      },
+      "lesson": 22
+    },
+    {
+      "id": "g1-67",
+      "group": 1,
+      "verb": "働[はたら]きます",
+      "masu": "はたらきます",
+      "te": "はたらいて",
+      "dictionary": "はたらく",
+      "nai": "はたらかない",
+      "ta": "はたらいた",
+      "meaning": {
+        "es": "trabajar"
+      },
+      "lesson": 4
+    },
+    {
+      "id": "g1-68",
+      "group": 1,
+      "verb": "話[はな]します",
+      "masu": "はなします",
+      "te": "はなして",
+      "dictionary": "はなす",
+      "nai": "はなさない",
+      "ta": "はなした",
+      "meaning": {
+        "es": "hablar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-69",
+      "group": 1,
+      "verb": "払[はら]います",
+      "masu": "はらいます",
+      "te": "はらって",
+      "dictionary": "はらう",
+      "nai": "はらわない",
+      "ta": "はらった",
+      "meaning": {
+        "es": "pagar"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-70",
+      "group": 1,
+      "verb": "弾[ひ]きます",
+      "masu": "ひきます",
+      "te": "ひいて",
+      "dictionary": "ひく",
+      "nai": "ひかない",
+      "ta": "ひいた",
+      "meaning": {
+        "es": "tocar (instrumentos musicales de cuerda, piano, etc.)"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g1-71",
+      "group": 1,
+      "verb": "引[ひ]きます",
+      "masu": "ひきます",
+      "te": "ひいて",
+      "dictionary": "ひく",
+      "nai": "ひかない",
+      "ta": "ひいた",
+      "meaning": {
+        "es": "tirar, jalar"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g1-72",
+      "group": 1,
+      "verb": "降[ふ]ります[あめが〜]",
+      "masu": "ふります",
+      "te": "ふって",
+      "dictionary": "ふる",
+      "nai": "ふらない",
+      "ta": "ふった",
+      "meaning": {
+        "es": "llover"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-73",
+      "group": 1,
+      "verb": "曲[ま]がります[みぎへ〜]",
+      "masu": "まがります",
+      "te": "まがって",
+      "dictionary": "まがる",
+      "nai": "まがらない",
+      "ta": "まがった",
+      "meaning": {
+        "es": "doblar, girar [a la derecha]"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g1-74",
+      "group": 1,
+      "verb": "待[ま]ちます",
+      "masu": "まちます",
+      "te": "まって",
+      "dictionary": "まつ",
+      "nai": "またない",
+      "ta": "まった",
+      "meaning": {
+        "es": "esperar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-75",
+      "group": 1,
+      "verb": "回[まわ]します",
+      "masu": "まわします",
+      "te": "まわして",
+      "dictionary": "まわす",
+      "nai": "まわさない",
+      "ta": "まわした",
+      "meaning": {
+        "es": "girar"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g1-76",
+      "group": 1,
+      "verb": "持[も]ちます",
+      "masu": "もちます",
+      "te": "もって",
+      "dictionary": "もつ",
+      "nai": "もたない",
+      "ta": "もった",
+      "meaning": {
+        "es": "tener algo en la mano"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-77",
+      "group": 1,
+      "verb": "持[も]って 行[い]きます",
+      "masu": "もっていきます",
+      "te": "もっていって",
+      "dictionary": "もっていく",
+      "nai": "もっていかない",
+      "ta": "もっていった",
+      "meaning": {
+        "es": "llevar (algo)"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g1-78",
+      "group": 1,
+      "verb": "もらいます",
+      "masu": "もらいます",
+      "te": "もらって",
+      "dictionary": "もらう",
+      "nai": "もらわない",
+      "ta": "もらった",
+      "meaning": {
+        "es": "recibir (regalos, etc.)"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g1-79",
+      "group": 1,
+      "verb": "役[やく]に 立[た]ちます",
+      "masu": "やくにたちます",
+      "te": "やくにたって",
+      "dictionary": "やくにたつ",
+      "nai": "やくにたたない",
+      "ta": "やくにたった",
+      "meaning": {
+        "es": "ser útil"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g1-80",
+      "group": 1,
+      "verb": "休[やす]みます",
+      "masu": "やすみます",
+      "te": "やすんで",
+      "dictionary": "やすむ",
+      "nai": "やすまない",
+      "ta": "やすんだ",
+      "meaning": {
+        "es": "descansar, estar de vacaciones"
+      },
+      "lesson": 4
+    },
+    {
+      "id": "g1-81",
+      "group": 1,
+      "verb": "休[やす]みます[かいしゃを〜]",
+      "masu": "やすみます",
+      "te": "やすんで",
+      "dictionary": "やすむ",
+      "nai": "やすまない",
+      "ta": "やすんだ",
+      "meaning": {
+        "es": "ausentarse, faltar [al trabajo]"
+      },
+      "lesson": 11
+    },
+    {
+      "id": "g1-82",
+      "group": 1,
+      "verb": "呼[よ]びます",
+      "masu": "よびます",
+      "te": "よんで",
+      "dictionary": "よぶ",
+      "nai": "よばない",
+      "ta": "よんだ",
+      "meaning": {
+        "es": "llamar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g1-83",
+      "group": 1,
+      "verb": "読[よ]みます",
+      "masu": "よみます",
+      "te": "よんで",
+      "dictionary": "よむ",
+      "nai": "よまない",
+      "ta": "よんだ",
+      "meaning": {
+        "es": "leer"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g1-84",
+      "group": 1,
+      "verb": "わかります",
+      "masu": "わかります",
+      "te": "わかって",
+      "dictionary": "わかる",
+      "nai": "わからない",
+      "ta": "わかった",
+      "meaning": {
+        "es": "entender, comprender"
+      },
+      "lesson": 9
+    },
+    {
+      "id": "g1-85",
+      "group": 1,
+      "verb": "渡[わた]ります[はしを〜]",
+      "masu": "わたります",
+      "te": "わたって",
+      "dictionary": "わたる",
+      "nai": "わたらない",
+      "ta": "わたった",
+      "meaning": {
+        "es": "cruzar [un puente]"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g2-01",
+      "group": 2,
+      "verb": "開[あ]けます",
+      "masu": "あけます",
+      "te": "あけて",
+      "dictionary": "あける",
+      "nai": "あけない",
+      "ta": "あけた",
+      "meaning": {
+        "es": "abrir"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-02",
+      "group": 2,
+      "verb": "あげます",
+      "masu": "あげます",
+      "te": "あげて",
+      "dictionary": "あげる",
+      "nai": "あげない",
+      "ta": "あげた",
+      "meaning": {
+        "es": "dar"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g2-03",
+      "group": 2,
+      "verb": "集[あつ]めます",
+      "masu": "あつめます",
+      "te": "あつめて",
+      "dictionary": "あつめる",
+      "nai": "あつめない",
+      "ta": "あつめた",
+      "meaning": {
+        "es": "coleccionar, reunir"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g2-04",
+      "group": 2,
+      "verb": "浴[あ]びます[シャワーを〜]",
+      "masu": "あびます",
+      "te": "あびて",
+      "dictionary": "あびる",
+      "nai": "あびない",
+      "ta": "あびた",
+      "meaning": {
+        "es": "tomar [una ducha]"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g2-05",
+      "group": 2,
+      "verb": "います",
+      "masu": "います",
+      "te": "いて",
+      "dictionary": "いる",
+      "nai": "いない",
+      "ta": "いた",
+      "meaning": {
+        "es": "estar, haber, existir (seres animados)"
+      },
+      "lesson": 10
+    },
+    {
+      "id": "g2-06",
+      "group": 2,
+      "verb": "います[こどもが〜]",
+      "masu": "います",
+      "te": "いて",
+      "dictionary": "いる",
+      "nai": "いない",
+      "ta": "いた",
+      "meaning": {
+        "es": "tener [hijos]"
+      },
+      "lesson": 11
+    },
+    {
+      "id": "g2-07",
+      "group": 2,
+      "verb": "います[にほんに〜]",
+      "masu": "います",
+      "te": "いて",
+      "dictionary": "いる",
+      "nai": "いない",
+      "ta": "いた",
+      "meaning": {
+        "es": "estar, permanecer [en Japón]"
+      },
+      "lesson": 11
+    },
+    {
+      "id": "g2-08",
+      "group": 2,
+      "verb": "入[い]れます",
+      "masu": "いれます",
+      "te": "いれて",
+      "dictionary": "いれる",
+      "nai": "いれない",
+      "ta": "いれた",
+      "meaning": {
+        "es": "meter, introducir, insertar"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g2-09",
+      "group": 2,
+      "verb": "生[う]まれます",
+      "masu": "うまれます",
+      "te": "うまれて",
+      "dictionary": "うまれる",
+      "nai": "うまれない",
+      "ta": "うまれた",
+      "meaning": {
+        "es": "nacer"
+      },
+      "lesson": 22
+    },
+    {
+      "id": "g2-10",
+      "group": 2,
+      "verb": "起[お]きます",
+      "masu": "おきます",
+      "te": "おきて",
+      "dictionary": "おきる",
+      "nai": "おきない",
+      "ta": "おきた",
+      "meaning": {
+        "es": "levantarse"
+      },
+      "lesson": 4
+    },
+    {
+      "id": "g2-11",
+      "group": 2,
+      "verb": "教[おし]えます",
+      "masu": "おしえます",
+      "te": "おしえて",
+      "dictionary": "おしえる",
+      "nai": "おしえない",
+      "ta": "おしえた",
+      "meaning": {
+        "es": "enseñar"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g2-12",
+      "group": 2,
+      "verb": "教[おし]えます[じゅうしょを〜]",
+      "masu": "おしえます",
+      "te": "おしえて",
+      "dictionary": "おしえる",
+      "nai": "おしえない",
+      "ta": "おしえた",
+      "meaning": {
+        "es": "enseñar, dar [una dirección]"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-13",
+      "group": 2,
+      "verb": "覚[おぼ]えます",
+      "masu": "おぼえます",
+      "te": "おぼえて",
+      "dictionary": "おぼえる",
+      "nai": "おぼえない",
+      "ta": "おぼえた",
+      "meaning": {
+        "es": "aprender de memoria"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g2-14",
+      "group": 2,
+      "verb": "降[お]ります[でんしゃを〜]",
+      "masu": "おります",
+      "te": "おりて",
+      "dictionary": "おりる",
+      "nai": "おりない",
+      "ta": "おりた",
+      "meaning": {
+        "es": "bajar [del tren]"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g2-15",
+      "group": 2,
+      "verb": "換[か]えます",
+      "masu": "かえます",
+      "te": "かえて",
+      "dictionary": "かえる",
+      "nai": "かえない",
+      "ta": "かえた",
+      "meaning": {
+        "es": "cambiar, reemplazar"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g2-16",
+      "group": 2,
+      "verb": "変[か]えます",
+      "masu": "かえます",
+      "te": "かえて",
+      "dictionary": "かえる",
+      "nai": "かえない",
+      "ta": "かえた",
+      "meaning": {
+        "es": "cambiar"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g2-17",
+      "group": 2,
+      "verb": "かけます[でんわを〜]",
+      "masu": "かけます",
+      "te": "かけて",
+      "dictionary": "かける",
+      "nai": "かけない",
+      "ta": "かけた",
+      "meaning": {
+        "es": "hacer [una llamada telefónica]"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g2-18",
+      "group": 2,
+      "verb": "かけます[めがねを〜]",
+      "masu": "かけます",
+      "te": "かけて",
+      "dictionary": "かける",
+      "nai": "かけない",
+      "ta": "かけた",
+      "meaning": {
+        "es": "ponerse [las gafas]"
+      },
+      "lesson": 22
+    },
+    {
+      "id": "g2-19",
+      "group": 2,
+      "verb": "借[か]ります",
+      "masu": "かります",
+      "te": "かりて",
+      "dictionary": "かりる",
+      "nai": "かりない",
+      "ta": "かりた",
+      "meaning": {
+        "es": "tomar prestado"
+      },
+      "lesson": 7
+    },
+    {
+      "id": "g2-20",
+      "group": 2,
+      "verb": "考[かんが]えます",
+      "masu": "かんがえます",
+      "te": "かんがえて",
+      "dictionary": "かんがえる",
+      "nai": "かんがえない",
+      "ta": "かんがえた",
+      "meaning": {
+        "es": "pensar, considerar"
+      },
+      "lesson": 25
+    },
+    {
+      "id": "g2-21",
+      "group": 2,
+      "verb": "着[き]ます",
+      "masu": "きます",
+      "te": "きて",
+      "dictionary": "きる",
+      "nai": "きない",
+      "ta": "きた",
+      "meaning": {
+        "es": "ponerse (una camisa, etc.)"
+      },
+      "lesson": 22
+    },
+    {
+      "id": "g2-22",
+      "group": 2,
+      "verb": "気[き]を つけます",
+      "masu": "きをつけます",
+      "te": "きをつけて",
+      "dictionary": "きをつける",
+      "nai": "きをつけない",
+      "ta": "きをつけた",
+      "meaning": {
+        "es": "prestar atención, tener cuidado"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g2-23",
+      "group": 2,
+      "verb": "くれます",
+      "masu": "くれます",
+      "te": "くれて",
+      "dictionary": "くれる",
+      "nai": "くれない",
+      "ta": "くれた",
+      "meaning": {
+        "es": "dar (a mí)"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g2-24",
+      "group": 2,
+      "verb": "閉[し]めます",
+      "masu": "しめます",
+      "te": "しめて",
+      "dictionary": "しめる",
+      "nai": "しめない",
+      "ta": "しめた",
+      "meaning": {
+        "es": "cerrar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-25",
+      "group": 2,
+      "verb": "調[しら]べます",
+      "masu": "しらべます",
+      "te": "しらべて",
+      "dictionary": "しらべる",
+      "nai": "しらべない",
+      "ta": "しらべた",
+      "meaning": {
+        "es": "averiguar, investigar"
+      },
+      "lesson": 20
+    },
+    {
+      "id": "g2-26",
+      "group": 2,
+      "verb": "捨[す]てます",
+      "masu": "すてます",
+      "te": "すてて",
+      "dictionary": "すてる",
+      "nai": "すてない",
+      "ta": "すてた",
+      "meaning": {
+        "es": "tirar, botar"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g2-27",
+      "group": 2,
+      "verb": "食[た]べます",
+      "masu": "たべます",
+      "te": "たべて",
+      "dictionary": "たべる",
+      "nai": "たべない",
+      "ta": "たべた",
+      "meaning": {
+        "es": "comer"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g2-28",
+      "group": 2,
+      "verb": "足[た]ります",
+      "masu": "たります",
+      "te": "たりて",
+      "dictionary": "たりる",
+      "nai": "たりない",
+      "ta": "たりた",
+      "meaning": {
+        "es": "ser suficiente"
+      },
+      "lesson": 25
+    },
+    {
+      "id": "g2-29",
+      "group": 2,
+      "verb": "疲[つか]れます",
+      "masu": "つかれます",
+      "te": "つかれて",
+      "dictionary": "つかれる",
+      "nai": "つかれない",
+      "ta": "つかれた",
+      "meaning": {
+        "es": "cansarse"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g2-30",
+      "group": 2,
+      "verb": "つけます",
+      "masu": "つけます",
+      "te": "つけて",
+      "dictionary": "つける",
+      "nai": "つけない",
+      "ta": "つけた",
+      "meaning": {
+        "es": "encender"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-31",
+      "group": 2,
+      "verb": "出[で]かけます",
+      "masu": "でかけます",
+      "te": "でかけて",
+      "dictionary": "でかける",
+      "nai": "でかけない",
+      "ta": "でかけた",
+      "meaning": {
+        "es": "salir"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g2-32",
+      "group": 2,
+      "verb": "できます",
+      "masu": "できます",
+      "te": "できて",
+      "dictionary": "できる",
+      "nai": "できない",
+      "ta": "できた",
+      "meaning": {
+        "es": "poder, ser capaz de"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g2-33",
+      "group": 2,
+      "verb": "出[で]ます[おつりが〜]",
+      "masu": "でます",
+      "te": "でて",
+      "dictionary": "でる",
+      "nai": "でない",
+      "ta": "でた",
+      "meaning": {
+        "es": "salir [la vuelta]"
+      },
+      "lesson": 23
+    },
+    {
+      "id": "g2-34",
+      "group": 2,
+      "verb": "出[で]ます[きっさてんを〜]",
+      "masu": "でます",
+      "te": "でて",
+      "dictionary": "でる",
+      "nai": "でない",
+      "ta": "でた",
+      "meaning": {
+        "es": "salir [de una cafetería]"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-35",
+      "group": 2,
+      "verb": "出[で]ます[だいがくを〜]",
+      "masu": "でます",
+      "te": "でて",
+      "dictionary": "でる",
+      "nai": "でない",
+      "ta": "でた",
+      "meaning": {
+        "es": "graduarse [en una universidad]"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g2-36",
+      "group": 2,
+      "verb": "止[と]めます",
+      "masu": "とめます",
+      "te": "とめて",
+      "dictionary": "とめる",
+      "nai": "とめない",
+      "ta": "とめた",
+      "meaning": {
+        "es": "parar, estacionar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-37",
+      "group": 2,
+      "verb": "寝[ね]ます",
+      "masu": "ねます",
+      "te": "ねて",
+      "dictionary": "ねる",
+      "nai": "ねない",
+      "ta": "ねた",
+      "meaning": {
+        "es": "acostarse, irse a la cama, dormir"
+      },
+      "lesson": 4
+    },
+    {
+      "id": "g2-38",
+      "group": 2,
+      "verb": "乗[の]り 換[か]えます",
+      "masu": "のりかえます",
+      "te": "のりかえて",
+      "dictionary": "のりかえる",
+      "nai": "のりかえない",
+      "ta": "のりかえた",
+      "meaning": {
+        "es": "hacer transbordo (de trenes, etc.)"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g2-39",
+      "group": 2,
+      "verb": "始[はじ]めます",
+      "masu": "はじめます",
+      "te": "はじめて",
+      "dictionary": "はじめる",
+      "nai": "はじめない",
+      "ta": "はじめた",
+      "meaning": {
+        "es": "empezar, comenzar, iniciar"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g2-40",
+      "group": 2,
+      "verb": "負[ま]けます",
+      "masu": "まけます",
+      "te": "まけて",
+      "dictionary": "まける",
+      "nai": "まけない",
+      "ta": "まけた",
+      "meaning": {
+        "es": "perder (el partido, etc.), ser derrotado"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g2-41",
+      "group": 2,
+      "verb": "見[み]せます",
+      "masu": "みせます",
+      "te": "みせて",
+      "dictionary": "みせる",
+      "nai": "みせない",
+      "ta": "みせた",
+      "meaning": {
+        "es": "mostrar, enseñar"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g2-42",
+      "group": 2,
+      "verb": "見[み]ます",
+      "masu": "みます",
+      "te": "みて",
+      "dictionary": "みる",
+      "nai": "みない",
+      "ta": "みた",
+      "meaning": {
+        "es": "ver, mirar"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g2-43",
+      "group": 2,
+      "verb": "迎[むか]えます",
+      "masu": "むかえます",
+      "te": "むかえて",
+      "dictionary": "むかえる",
+      "nai": "むかえない",
+      "ta": "むかえた",
+      "meaning": {
+        "es": "recoger, recibir (a gente)"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g2-44",
+      "group": 2,
+      "verb": "やめます[かいしゃを〜]",
+      "masu": "やめます",
+      "te": "やめて",
+      "dictionary": "やめる",
+      "nai": "やめない",
+      "ta": "やめた",
+      "meaning": {
+        "es": "dimitir, dejar [una compañía]"
+      },
+      "lesson": 21
+    },
+    {
+      "id": "g2-45",
+      "group": 2,
+      "verb": "忘[わす]れます",
+      "masu": "わすれます",
+      "te": "わすれて",
+      "dictionary": "わすれる",
+      "nai": "わすれない",
+      "ta": "わすれた",
+      "meaning": {
+        "es": "olvidar"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g3-01",
+      "group": 3,
+      "verb": "案内[あんない]します",
+      "masu": "あんないします",
+      "te": "あんないして",
+      "dictionary": "あんないする",
+      "nai": "あんないしない",
+      "ta": "あんないした",
+      "meaning": {
+        "es": "guiar por (una ciudad), indicar el camino"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g3-02",
+      "group": 3,
+      "verb": "運転[うんてん]します",
+      "masu": "うんてんします",
+      "te": "うんてんして",
+      "dictionary": "うんてんする",
+      "nai": "うんてんしない",
+      "ta": "うんてんした",
+      "meaning": {
+        "es": "conducir (un vehículo)"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g3-03",
+      "group": 3,
+      "verb": "買[か]い 物[もの]します",
+      "masu": "かいものします",
+      "te": "かいものして",
+      "dictionary": "かいものする",
+      "nai": "かいものしない",
+      "ta": "かいものした",
+      "meaning": {
+        "es": "hacer compras"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g3-04",
+      "group": 3,
+      "verb": "来[き]ます",
+      "masu": "きます",
+      "te": "きて",
+      "dictionary": "くる",
+      "nai": "こない",
+      "ta": "きた",
+      "meaning": {
+        "es": "venir"
+      },
+      "lesson": 5
+    },
+    {
+      "id": "g3-05",
+      "group": 3,
+      "verb": "結婚[けっこん]します",
+      "masu": "けっこんします",
+      "te": "けっこんして",
+      "dictionary": "けっこんする",
+      "nai": "けっこんしない",
+      "ta": "けっこんした",
+      "meaning": {
+        "es": "casarse"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g3-06",
+      "group": 3,
+      "verb": "見学[けんがく]します",
+      "masu": "けんがくします",
+      "te": "けんがくして",
+      "dictionary": "けんがくする",
+      "nai": "けんがくしない",
+      "ta": "けんがくした",
+      "meaning": {
+        "es": "visitar un lugar (principalmente con fines de estudio)"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g3-07",
+      "group": 3,
+      "verb": "研究[けんきゅう]します",
+      "masu": "けんきゅうします",
+      "te": "けんきゅうして",
+      "dictionary": "けんきゅうする",
+      "nai": "けんきゅうしない",
+      "ta": "けんきゅうした",
+      "meaning": {
+        "es": "investigar"
+      },
+      "lesson": 15
+    },
+    {
+      "id": "g3-08",
+      "group": 3,
+      "verb": "コピーします",
+      "masu": "コピーします",
+      "te": "コピーして",
+      "dictionary": "コピーする",
+      "nai": "コピーしない",
+      "ta": "コピーした",
+      "meaning": {
+        "es": "sacar fotocopias"
+      },
+      "lesson": 14
+    },
+    {
+      "id": "g3-09",
+      "group": 3,
+      "verb": "散歩[さんぽ]します[こうえんを〜]",
+      "masu": "さんぽします",
+      "te": "さんぽして",
+      "dictionary": "さんぽする",
+      "nai": "さんぽしない",
+      "ta": "さんぽした",
+      "meaning": {
+        "es": "pasear [por el parque]"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g3-10",
+      "group": 3,
+      "verb": "残業[ざんぎょう]します",
+      "masu": "ざんぎょうします",
+      "te": "ざんぎょうして",
+      "dictionary": "ざんぎょうする",
+      "nai": "ざんぎょうしない",
+      "ta": "ざんぎょうした",
+      "meaning": {
+        "es": "trabajar horas extras"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g3-11",
+      "group": 3,
+      "verb": "します",
+      "masu": "します",
+      "te": "して",
+      "dictionary": "する",
+      "nai": "しない",
+      "ta": "した",
+      "meaning": {
+        "es": "hacer"
+      },
+      "lesson": 6
+    },
+    {
+      "id": "g3-12",
+      "group": 3,
+      "verb": "します[ネクタイを〜]",
+      "masu": "します",
+      "te": "して",
+      "dictionary": "する",
+      "nai": "しない",
+      "ta": "した",
+      "meaning": {
+        "es": "ponerse [la corbata]"
+      },
+      "lesson": 22
+    },
+    {
+      "id": "g3-13",
+      "group": 3,
+      "verb": "修理[しゅうり]します",
+      "masu": "しゅうりします",
+      "te": "しゅうりして",
+      "dictionary": "しゅうりする",
+      "nai": "しゅうりしない",
+      "ta": "しゅうりした",
+      "meaning": {
+        "es": "reparar"
+      },
+      "lesson": 20
+    },
+    {
+      "id": "g3-14",
+      "group": 3,
+      "verb": "出張[しゅっちょう]します",
+      "masu": "しゅっちょうします",
+      "te": "しゅっちょうして",
+      "dictionary": "しゅっちょうする",
+      "nai": "しゅっちょうしない",
+      "ta": "しゅっちょうした",
+      "meaning": {
+        "es": "ir de viaje por trabajo"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g3-15",
+      "group": 3,
+      "verb": "紹介[しょうかい]します",
+      "masu": "しょうかいします",
+      "te": "しょうかいして",
+      "dictionary": "しょうかいする",
+      "nai": "しょうかいしない",
+      "ta": "しょうかいした",
+      "meaning": {
+        "es": "presentar (a alguien)"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g3-16",
+      "group": 3,
+      "verb": "食事[しょくじ]します",
+      "masu": "しょくじします",
+      "te": "しょくじして",
+      "dictionary": "しょくじする",
+      "nai": "しょくじしない",
+      "ta": "しょくじした",
+      "meaning": {
+        "es": "comer"
+      },
+      "lesson": 13
+    },
+    {
+      "id": "g3-17",
+      "group": 3,
+      "verb": "心配[しんぱい]します",
+      "masu": "しんぱいします",
+      "te": "しんぱいして",
+      "dictionary": "しんぱいする",
+      "nai": "しんぱいしない",
+      "ta": "しんぱいした",
+      "meaning": {
+        "es": "preocuparse"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g3-18",
+      "group": 3,
+      "verb": "説明[せつめい]します",
+      "masu": "せつめいします",
+      "te": "せつめいして",
+      "dictionary": "せつめいする",
+      "nai": "せつめいしない",
+      "ta": "せつめいした",
+      "meaning": {
+        "es": "explicar"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g3-19",
+      "group": 3,
+      "verb": "洗濯[せんたく]します",
+      "masu": "せんたくします",
+      "te": "せんたくして",
+      "dictionary": "せんたくする",
+      "nai": "せんたくしない",
+      "ta": "せんたくした",
+      "meaning": {
+        "es": "lavar (la ropa)"
+      },
+      "lesson": 19
+    },
+    {
+      "id": "g3-20",
+      "group": 3,
+      "verb": "掃除[そうじ]します",
+      "masu": "そうじします",
+      "te": "そうじして",
+      "dictionary": "そうじする",
+      "nai": "そうじしない",
+      "ta": "そうじした",
+      "meaning": {
+        "es": "limpiar (una habitación)"
+      },
+      "lesson": 19
+    },
+    {
+      "id": "g3-21",
+      "group": 3,
+      "verb": "連[つ]れて 来[き]ます",
+      "masu": "つれてきます",
+      "te": "つれてきて",
+      "dictionary": "つれてくる",
+      "nai": "つれてこない",
+      "ta": "つれてきた",
+      "meaning": {
+        "es": "traer (a alguien)"
+      },
+      "lesson": 24
+    },
+    {
+      "id": "g3-22",
+      "group": 3,
+      "verb": "電話[でんわ]します",
+      "masu": "でんわします",
+      "te": "でんわして",
+      "dictionary": "でんわする",
+      "nai": "でんわしない",
+      "ta": "でんわした",
+      "meaning": {
+        "es": "llamar por teléfono, telefonear"
+      },
+      "lesson": 16
+    },
+    {
+      "id": "g3-23",
+      "group": 3,
+      "verb": "勉強[べんきょう]します",
+      "masu": "べんきょうします",
+      "te": "べんきょうして",
+      "dictionary": "べんきょうする",
+      "nai": "べんきょうしない",
+      "ta": "べんきょうした",
+      "meaning": {
+        "es": "estudiar"
+      },
+      "lesson": 4
+    },
+    {
+      "id": "g3-24",
+      "group": 3,
+      "verb": "持[も]って 来[き]ます",
+      "masu": "もってきます",
+      "te": "もってきて",
+      "dictionary": "もってくる",
+      "nai": "もってこない",
+      "ta": "もってきた",
+      "meaning": {
+        "es": "traer (algo)"
+      },
+      "lesson": 17
+    },
+    {
+      "id": "g3-25",
+      "group": 3,
+      "verb": "予約[よやく]します",
+      "masu": "よやくします",
+      "te": "よやくして",
+      "dictionary": "よやくする",
+      "nai": "よやくしない",
+      "ta": "よやくした",
+      "meaning": {
+        "es": "reservar"
+      },
+      "lesson": 18
+    },
+    {
+      "id": "g3-26",
+      "group": 3,
+      "verb": "留学[りゅうがく]します",
+      "masu": "りゅうがくします",
+      "te": "りゅうがくして",
+      "dictionary": "りゅうがくする",
+      "nai": "りゅうがくしない",
+      "ta": "りゅうがくした",
+      "meaning": {
+        "es": "estudiar en el extranjero"
+      },
+      "lesson": 21
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "level": "n5",
+  "slug": "numbers",
+  "title": {
+    "es": "Números"
+  },
+  "description": {
+    "es": "Los numerales japoneses, de 0 a cien millones, más decimales y fracciones."
+  },
+  "order": 2,
+  "sections": [
+    {
+      "id": "units",
+      "title": {
+        "es": "De 0 a 20"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Cifra"
+            },
+            {
+              "es": "Lectura"
+            }
+          ],
+          "rows": [
+            ["0", "ゼロ、れい"],
+            ["1", "いち"],
+            ["2", "に"],
+            ["3", "さん"],
+            ["4", "よん、し"],
+            ["5", "ご"],
+            ["6", "ろく"],
+            ["7", "なな、しち"],
+            ["8", "はち"],
+            ["9", "きゅう、く"],
+            ["10", "じゅう"],
+            ["11", "じゅういち"],
+            ["12", "じゅうに"],
+            ["13", "じゅうさん"],
+            ["14", "じゅうよん、じゅうし"],
+            ["15", "じゅうご"],
+            ["16", "じゅうろく"],
+            ["17", "じゅうなな、じゅうしち"],
+            ["18", "じゅうはち"],
+            ["19", "じゅうきゅう、じゅうく"],
+            ["20", "にじゅう"]
+          ]
+        }
+      ],
+      "note": {
+        "es": "Varios números tienen dos lecturas. Con contadores conviene aprender cuál se usa en cada caso: 4 suele ser よん, 7 なな y 9 きゅう."
+      }
+    },
+    {
+      "id": "tens",
+      "title": {
+        "es": "Decenas"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Cifra"
+            },
+            {
+              "es": "Lectura"
+            }
+          ],
+          "rows": [
+            ["30", "さんじゅう"],
+            ["40", "よんじゅう"],
+            ["50", "ごじゅう"],
+            ["60", "ろくじゅう"],
+            ["70", "ななじゅう、しちじゅう"],
+            ["80", "はちじゅう"],
+            ["90", "きゅうじゅう"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hundreds",
+      "title": {
+        "es": "Centenas"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Cifra"
+            },
+            {
+              "es": "Lectura"
+            }
+          ],
+          "rows": [
+            ["100", "ひゃく"],
+            ["200", "にひゃく"],
+            ["300", "さんびゃく"],
+            ["400", "よんひゃく"],
+            ["500", "ごひゃく"],
+            ["600", "ろっぴゃく"],
+            ["700", "ななひゃく"],
+            ["800", "はっぴゃく"],
+            ["900", "きゅうひゃく"]
+          ]
+        }
+      ],
+      "note": {
+        "es": "Fíjate en los cambios de sonido: 300 さんびゃく, 600 ろっぴゃく y 800 はっぴゃく."
+      }
+    },
+    {
+      "id": "thousands",
+      "title": {
+        "es": "Millares"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Cifra"
+            },
+            {
+              "es": "Lectura"
+            }
+          ],
+          "rows": [
+            ["1.000", "せん"],
+            ["2.000", "にせん"],
+            ["3.000", "さんぜん"],
+            ["4.000", "よんせん"],
+            ["5.000", "ごせん"],
+            ["6.000", "ろくせん"],
+            ["7.000", "ななせん"],
+            ["8.000", "はっせん"],
+            ["9.000", "きゅうせん"]
+          ]
+        }
+      ],
+      "note": {
+        "es": "También cambian: 3.000 さんぜん y 8.000 はっせん."
+      }
+    },
+    {
+      "id": "big",
+      "title": {
+        "es": "Cantidades grandes"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Cifra"
+            },
+            {
+              "es": "Lectura"
+            }
+          ],
+          "rows": [
+            ["10.000", "いちまん"],
+            ["100.000", "じゅうまん"],
+            ["1.000.000", "ひゃくまん"],
+            ["10.000.000", "せんまん"],
+            ["100.000.000", "いちおく"]
+          ]
+        }
+      ],
+      "note": {
+        "es": "El japonés agrupa de cuatro en cuatro cifras: 万[まん] son 10.000 y 億[おく] son 100.000.000."
+      }
+    },
+    {
+      "id": "decimals",
+      "title": {
+        "es": "Decimales y fracciones"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Cifra"
+            },
+            {
+              "es": "Lectura"
+            }
+          ],
+          "rows": [
+            ["17,5", "じゅうななてんご"],
+            ["0,83", "れいてんはちさん"],
+            ["1/2", "にぶんの いち"],
+            ["3/4", "よんぶんの さん"]
+          ]
+        }
+      ],
+      "note": {
+        "es": "En las fracciones se dice primero el denominador: «X 分[ぶん]の Y»."
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "level": "n5",
+  "slug": "family",
+  "title": {
+    "es": "La familia"
+  },
+  "description": {
+    "es": "El japonés usa palabras distintas para hablar de la propia familia y de la de otros."
+  },
+  "order": 8,
+  "sections": [
+    {
+      "id": "table",
+      "title": {
+        "es": "Mi familia y la de otros"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Persona"
+            },
+            {
+              "es": "Mi familia"
+            },
+            {
+              "es": "La familia de otros"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "es": "padre"
+              },
+              "父[ちち]",
+              "お 父[とう]さん"
+            ],
+            [
+              {
+                "es": "madre"
+              },
+              "母[はは]",
+              "お 母[かあ]さん"
+            ],
+            [
+              {
+                "es": "marido"
+              },
+              "夫[おっと]／主人[しゅじん]",
+              "ご 主人[しゅじん]"
+            ],
+            [
+              {
+                "es": "esposa"
+              },
+              "妻[つま]／家内[かない]",
+              "奥[おく]さん"
+            ],
+            [
+              {
+                "es": "hijo/niño"
+              },
+              "子[こ]ども",
+              "お 子[こ]さん"
+            ],
+            [
+              {
+                "es": "hermano mayor"
+              },
+              "兄[あに]",
+              "お 兄[にい]さん"
+            ],
+            [
+              {
+                "es": "hermana mayor"
+              },
+              "姉[あね]",
+              "お 姉[ねえ]さん"
+            ],
+            [
+              {
+                "es": "hermano menor"
+              },
+              "弟[おとうと]",
+              "弟[おとうと]さん"
+            ],
+            [
+              {
+                "es": "hermana menor"
+              },
+              "妹[いもうと]",
+              "妹[いもうと]さん"
+            ],
+            [
+              {
+                "es": "abuelo"
+              },
+              "祖父[そふ]",
+              "おじいさん"
+            ],
+            [
+              {
+                "es": "abuela"
+              },
+              "祖母[そぼ]",
+              "おばあさん"
+            ],
+            [
+              {
+                "es": "padres"
+              },
+              "両親[りょうしん]",
+              "ご 両親[りょうしん]"
+            ],
+            [
+              {
+                "es": "hermanos"
+              },
+              "兄弟[きょうだい]",
+              "ご 兄弟[きょうだい]"
+            ],
+            [
+              {
+                "es": "familia"
+              },
+              "家族[かぞく]",
+              "ご 家族[かぞく]"
+            ]
+          ]
+        }
+      ],
+      "note": {
+        "es": "Al hablar de tu propia familia con otras personas usas la columna de la izquierda. Para dirigirte a la familia del oyente —o para llamar a tus propios padres— usas la de la derecha."
+      }
+    }
+  ]
+}

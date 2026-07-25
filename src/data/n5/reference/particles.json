@@ -1,0 +1,236 @@
+{
+  "level": "n5",
+  "slug": "particles",
+  "title": {
+    "es": "Partículas"
+  },
+  "description": {
+    "es": "Las partículas marcan la función de cada palabra en la oración. Esta es la lista completa que aparece en Minna no Nihongo I."
+  },
+  "order": 1,
+  "sections": [
+    {
+      "id": "basic",
+      "title": {
+        "es": "Partículas básicas"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Partícula"
+            },
+            {
+              "es": "Función"
+            },
+            {
+              "es": "Ejemplo"
+            }
+          ],
+          "rows": [
+            [
+              "は",
+              {
+                "es": "Marca el tema de la oración (se lee «wa»)"
+              },
+              "私[わたし]は 学生[がくせい]です。"
+            ],
+            [
+              "が",
+              {
+                "es": "Marca el sujeto de lo que existe, se percibe o se desea"
+              },
+              "庭[にわ]に 犬[いぬ]がいます。"
+            ],
+            [
+              "を",
+              {
+                "es": "Marca el objeto directo"
+              },
+              "パンを 食[た]べます。"
+            ],
+            [
+              "も",
+              {
+                "es": "«también»; sustituye a は o が"
+              },
+              "グプタさんも 会社員[かいしゃいん]です。"
+            ],
+            [
+              "の",
+              {
+                "es": "Une dos sustantivos: posesión, pertenencia, origen o tema"
+              },
+              "IMCの 社員[しゃいん]です。"
+            ],
+            [
+              "と",
+              {
+                "es": "«y» (enumeración completa); también «con» alguien"
+              },
+              "家族[かぞく]と 行[い]きます。"
+            ],
+            [
+              "や",
+              {
+                "es": "«y» entre ejemplos, sin ser exhaustivo (a menudo con など)"
+              },
+              "手紙[てがみ]や 写真[しゃしん]があります。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "place-time",
+      "title": {
+        "es": "Lugar, tiempo y dirección"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Partícula"
+            },
+            {
+              "es": "Función"
+            },
+            {
+              "es": "Ejemplo"
+            }
+          ],
+          "rows": [
+            [
+              "へ",
+              {
+                "es": "Dirección del movimiento (se lee «e»)"
+              },
+              "京都[きょうと]へ 行[い]きます。"
+            ],
+            [
+              "に",
+              {
+                "es": "Momento puntual, lugar de existencia, destinatario y propósito"
+              },
+              "6 時[じ]に 起[お]きます。"
+            ],
+            [
+              "で",
+              {
+                "es": "Lugar donde ocurre la acción, medio de transporte, herramienta"
+              },
+              "駅[えき]で 新聞[しんぶん]を 買[か]います。"
+            ],
+            [
+              "から",
+              {
+                "es": "«desde» (tiempo o lugar); también «porque»"
+              },
+              "9 時[じ]からです。"
+            ],
+            [
+              "まで",
+              {
+                "es": "«hasta» (tiempo o lugar)"
+              },
+              "5 時[じ]までです。"
+            ],
+            [
+              "までに",
+              {
+                "es": "«antes de», fecha límite"
+              },
+              "土曜日[どようび]までに 返[かえ]します。"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "title": {
+        "es": "Partículas finales y de matiz"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Partícula"
+            },
+            {
+              "es": "Función"
+            },
+            {
+              "es": "Ejemplo"
+            }
+          ],
+          "rows": [
+            [
+              "か",
+              {
+                "es": "Convierte la oración en pregunta"
+              },
+              "学生[がくせい]ですか。"
+            ],
+            [
+              "ね",
+              {
+                "es": "Busca acuerdo o confirmación: «¿verdad?»"
+              },
+              "いい 天気[てんき]ですね。"
+            ],
+            [
+              "よ",
+              {
+                "es": "Aporta información que el oyente no conoce"
+              },
+              "この 電車[でんしゃ]は 行[い]きませんよ。"
+            ],
+            [
+              "が",
+              {
+                "es": "«pero», une dos oraciones con contraste"
+              },
+              "おいしいですが、 高[たか]いです。"
+            ],
+            [
+              "けど",
+              {
+                "es": "«pero», versión informal de が"
+              },
+              "いいけど、 高[たか]かった？"
+            ],
+            [
+              "だけ",
+              {
+                "es": "«solo»"
+              },
+              "休[やす]みは 日曜日[にちようび]だけです。"
+            ],
+            [
+              "ぐらい",
+              {
+                "es": "«alrededor de», cantidad aproximada"
+              },
+              "30 分[ぷん]ぐらいです。"
+            ],
+            [
+              "でも",
+              {
+                "es": "Presenta algo como ejemplo al invitar"
+              },
+              "お 茶[ちゃ]でも 飲[の]みませんか。"
+            ],
+            [
+              "について",
+              {
+                "es": "«sobre», «con respecto a»"
+              },
+              "日本[にほん]について 話[はな]します。"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

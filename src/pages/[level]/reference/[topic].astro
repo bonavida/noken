@@ -1,0 +1,124 @@
+---
+import ReferenceTable from '@/components/ReferenceTable.astro';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import MixedText from '@/ui/MixedText.astro';
+import SectionHeading from '@/ui/SectionHeading.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export const getStaticPaths = async () => {
+  const topics = await getCollection('reference');
+
+  return topics.map((topic) => {
+    const sorted = topics
+      .filter((entry) => entry.data.level === topic.data.level)
+      .sort((a, b) => a.data.order - b.data.order);
+    const index = sorted.findIndex((entry) => entry.data.slug === topic.data.slug);
+
+    return {
+      params: { level: topic.data.level, topic: topic.data.slug },
+      props: { topic, previousTopic: sorted[index - 1], nextTopic: sorted[index + 1] },
+    };
+  });
+};
+
+interface Props {
+  topic: CollectionEntry<'reference'>;
+  previousTopic?: CollectionEntry<'reference'>;
+  nextTopic?: CollectionEntry<'reference'>;
+}
+
+const { topic, previousTopic, nextTopic } = Astro.props;
+const { level, title, description, sections } = topic.data;
+
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+const localizedTitle = pickLocale(title, locale);
+const hasSectionNav = sections.length > 1;
+---
+
+<SiteLayout title={localizedTitle} description={pickLocale(description, locale)}>
+  <Container class="max-w-5xl">
+    <p class="text-sm">
+      <a href={`/${level}/reference`} class="text-primary hover:underline">
+        ← {t.reference.backToReference}
+      </a>
+    </p>
+
+    <header class="mt-4">
+      <h1 class="text-3xl font-bold tracking-tight">{localizedTitle}</h1>
+      <p class="text-muted-foreground mt-2 max-w-2xl">{pickLocale(description, locale)}</p>
+    </header>
+
+    {
+      hasSectionNav && (
+        <nav
+          aria-label={localizedTitle}
+          class="bg-background/90 sticky top-14 z-30 -mx-4 mt-6 border-b px-4 py-2 backdrop-blur sm:-mx-6 sm:px-6"
+        >
+          <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm font-medium">
+            {sections.map((sectionEntry) => (
+              <a
+                href={`#${sectionEntry.id}`}
+                class="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {pickLocale(sectionEntry.title, locale)}
+              </a>
+            ))}
+          </div>
+        </nav>
+      )
+    }
+
+    <div class="mt-8 space-y-12">
+      {
+        sections.map((sectionEntry) => (
+          <section>
+            <SectionHeading id={sectionEntry.id} title={pickLocale(sectionEntry.title, locale)} />
+            {sectionEntry.note && (
+              <p class="text-muted-foreground mb-4 max-w-3xl text-sm">
+                <MixedText text={pickLocale(sectionEntry.note, locale)} />
+              </p>
+            )}
+            <div class="space-y-6">
+              {sectionEntry.tables.map((tableEntry) => (
+                <ReferenceTable
+                  caption={tableEntry.caption}
+                  headers={tableEntry.headers}
+                  rows={tableEntry.rows}
+                  locale={locale}
+                />
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </div>
+
+    <nav class="mt-12 flex justify-between gap-4 border-t pt-6 text-sm" aria-label="paginación">
+      {
+        previousTopic ? (
+          <a
+            href={`/${level}/reference/${previousTopic.data.slug}`}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            ← {pickLocale(previousTopic.data.title, locale)}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        nextTopic && (
+          <a
+            href={`/${level}/reference/${nextTopic.data.slug}`}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {pickLocale(nextTopic.data.title, locale)} →
+          </a>
+        )
+      }
+    </nav>
+  </Container>
+</SiteLayout>

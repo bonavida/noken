@@ -74,4 +74,61 @@ const kanji = defineCollection({
   }),
 });
 
-export const collections = { lessons, vocab, kanji };
+// Verb conjugation table (Minna no Nihongo I, appendix V)
+const verbs = defineCollection({
+  loader: glob({ pattern: '*/verbs/*.json', base: './src/data' }),
+  schema: z.object({
+    level: z.enum(LEVELS),
+    verbs: z
+      .array(
+        z.object({
+          id: z.string(),
+          group: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+          verb: furiganaText,
+          masu: z.string(),
+          te: z.string(),
+          dictionary: z.string(),
+          // あります has no ない-form; the book prints a dash there
+          nai: z.string().optional(),
+          ta: z.string(),
+          meaning: localized,
+          lesson: z.number().int().min(1),
+        })
+      )
+      .min(1),
+  }),
+});
+
+// Reference tables: cells are either locale-neutral (Japanese, numbers) or translatable
+const referenceCell = z.union([z.string(), localized]);
+
+const reference = defineCollection({
+  loader: glob({ pattern: '*/reference/*.json', base: './src/data' }),
+  schema: z.object({
+    level: z.enum(LEVELS),
+    slug: z.string(),
+    title: localized,
+    description: localized,
+    order: z.number().int(),
+    sections: z
+      .array(
+        z.object({
+          id: z.string(),
+          title: localized,
+          note: localized.optional(),
+          tables: z
+            .array(
+              z.object({
+                caption: localized.optional(),
+                headers: z.array(referenceCell),
+                rows: z.array(z.array(referenceCell)).min(1),
+              })
+            )
+            .min(1),
+        })
+      )
+      .min(1),
+  }),
+});
+
+export const collections = { lessons, vocab, kanji, verbs, reference };

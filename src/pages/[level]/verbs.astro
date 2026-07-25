@@ -1,0 +1,45 @@
+---
+import { VerbTable, type Verb } from '@/components/VerbTable';
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import MixedText from '@/ui/MixedText.astro';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const [entry] = await getCollection('verbs', ({ data }) => data.level === level);
+
+// Localize server-side so the island only receives plain serializable strings
+const verbs: Verb[] = (entry?.data.verbs ?? []).map((verb) => ({
+  id: verb.id,
+  group: verb.group,
+  verb: verb.verb,
+  masu: verb.masu,
+  te: verb.te,
+  dictionary: verb.dictionary,
+  nai: verb.nai,
+  ta: verb.ta,
+  meaning: pickLocale(verb.meaning, locale),
+  lesson: verb.lesson,
+}));
+---
+
+<SiteLayout title={t.verbs.title} description={t.verbs.description}>
+  <Container class="max-w-6xl">
+    <h1 class="text-3xl font-bold tracking-tight">{t.verbs.title}</h1>
+    <p class="text-muted-foreground mt-2 max-w-3xl">{t.verbs.description}</p>
+    <p class="text-muted-foreground mt-3 max-w-3xl text-sm">
+      <MixedText text={t.verbs.groupsNote} />
+    </p>
+
+    <div class="mt-8">
+      <VerbTable verbs={verbs} labels={t.verbs} groupLabels={t.verbs.groups} client:visible />
+    </div>
+  </Container>
+</SiteLayout>

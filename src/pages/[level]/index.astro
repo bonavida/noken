@@ -15,8 +15,11 @@ const t = useTranslations(locale);
 const lessons = await getCollection('lessons', ({ data }) => data.level === level);
 const vocab = await getCollection('vocab', ({ data }) => data.level === level);
 const kanji = await getCollection('kanji', ({ data }) => data.level === level);
+const verbEntries = await getCollection('verbs', ({ data }) => data.level === level);
+const topics = await getCollection('reference', ({ data }) => data.level === level);
 
 const wordCount = vocab.reduce((total, entry) => total + entry.data.words.length, 0);
+const verbCount = verbEntries.reduce((total, entry) => total + entry.data.verbs.length, 0);
 const levelName = level.toUpperCase();
 ---
 
@@ -41,6 +44,18 @@ const levelName = level.toUpperCase();
         <p class="text-primary text-3xl font-bold">{kanji.length}</p>
         <h2 class="mt-1 font-semibold">{t.nav.kanji}</h2>
         <p class="text-muted-foreground mt-1 text-sm">{t.level.kanjiDescription}</p>
+      </Card>
+
+      <Card href={`/${level}/verbs`}>
+        <p class="text-primary text-3xl font-bold">{verbCount}</p>
+        <h2 class="mt-1 font-semibold">{t.nav.verbs}</h2>
+        <p class="text-muted-foreground mt-1 text-sm">{t.verbs.description}</p>
+      </Card>
+
+      <Card href={`/${level}/reference`}>
+        <p class="text-primary text-3xl font-bold">{topics.length}</p>
+        <h2 class="mt-1 font-semibold">{t.nav.reference}</h2>
+        <p class="text-muted-foreground mt-1 text-sm">{t.reference.description}</p>
       </Card>
     </div>
   </Container>

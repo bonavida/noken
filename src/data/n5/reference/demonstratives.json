@@ -1,0 +1,108 @@
+{
+  "level": "n5",
+  "slug": "demonstratives",
+  "title": {
+    "es": "Demostrativos"
+  },
+  "description": {
+    "es": "La serie こ・そ・あ・ど: cerca de mí, cerca de ti, lejos de ambos y la pregunta."
+  },
+  "order": 7,
+  "sections": [
+    {
+      "id": "table",
+      "title": {
+        "es": "La serie こ・そ・あ・ど"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": ""
+            },
+            {
+              "es": "こ〜 (cerca del hablante)"
+            },
+            {
+              "es": "そ〜 (cerca del oyente)"
+            },
+            {
+              "es": "あ〜 (lejos de ambos)"
+            },
+            {
+              "es": "ど〜 (pregunta)"
+            }
+          ],
+          "rows": [
+            [
+              {
+                "es": "Cosa"
+              },
+              "これ",
+              "それ",
+              "あれ",
+              "どれ"
+            ],
+            [
+              {
+                "es": "Cosa + sustantivo"
+              },
+              "この〜",
+              "その〜",
+              "あの〜",
+              "どの〜"
+            ],
+            [
+              {
+                "es": "Lugar"
+              },
+              "ここ",
+              "そこ",
+              "あそこ",
+              "どこ"
+            ],
+            [
+              {
+                "es": "Lugar / dirección (cortés)"
+              },
+              "こちら",
+              "そちら",
+              "あちら",
+              "どちら"
+            ],
+            [
+              {
+                "es": "Lugar / dirección (informal)"
+              },
+              "こっち",
+              "そっち",
+              "あっち",
+              "どっち"
+            ],
+            [
+              {
+                "es": "Persona"
+              },
+              "この 人[ひと]",
+              "その 人[ひと]",
+              "あの 人[ひと]",
+              "どの 人[ひと]"
+            ],
+            [
+              {
+                "es": "Persona (cortés)"
+              },
+              "この 方[かた]",
+              "その 方[かた]",
+              "あの 方[かた]",
+              "どなた"
+            ]
+          ]
+        }
+      ],
+      "note": {
+        "es": "これ・それ・あれ funcionan solos, como un sustantivo. この・その・あの nunca van solos: siempre acompañan a un sustantivo."
+      }
+    }
+  ]
+}

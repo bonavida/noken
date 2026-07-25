@@ -14,8 +14,10 @@ const [defaultLevel] = ENABLED_LEVELS;
 const links = [
   { href: `/${defaultLevel}/lessons`, label: t.nav.lessons },
   { href: `/${defaultLevel}/vocabulary`, label: t.nav.vocabulary },
+  { href: `/${defaultLevel}/verbs`, label: t.nav.verbs },
   { href: '/kana', label: t.nav.kana },
   { href: '/kanji', label: t.nav.kanji },
+  { href: `/${defaultLevel}/reference`, label: t.nav.reference },
 ];
 
 const isActive = (href: string) => currentPath === href || currentPath.startsWith(`${href}/`);

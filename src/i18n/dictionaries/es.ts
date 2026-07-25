@@ -8,8 +8,10 @@ export const es = {
     home: 'Inicio',
     lessons: 'Lecciones',
     vocabulary: 'Vocabulario',
+    verbs: 'Verbos',
     kana: 'Kana',
     kanji: 'Kanji',
+    reference: 'Guía',
   },
   home: {
     title: 'Estudia japonés para el Noken',
@@ -52,7 +54,8 @@ export const es = {
     filterPlaceholder: 'Filtrar por palabra o significado…',
     allTypes: 'Todos',
     noResults: 'Ninguna palabra coincide con el filtro.',
-    backToLesson: 'Volver a la lección',
+    backToVocabulary: 'Volver al vocabulario',
+    viewLesson: 'Ver la gramática de esta lección',
   },
   kana: {
     title: 'Kana',
@@ -62,6 +65,38 @@ export const es = {
     gojuon: 'Gojūon — sonidos básicos',
     dakuten: 'Dakuten y handakuten — sonidos sonoros',
     yoon: 'Yōon — sonidos combinados',
+  },
+  verbs: {
+    title: 'Verbos',
+    description:
+      'Todos los verbos del libro con sus formas ます, て, diccionario, ない y た, como en el apéndice de Minna no Nihongo.',
+    verb: 'Verbo',
+    masu: 'Forma ます',
+    te: 'Forma て',
+    dictionary: 'Diccionario',
+    nai: 'Forma ない',
+    ta: 'Forma た',
+    meaning: 'Significado',
+    lesson: 'Lec.',
+    group: 'Grupo',
+    allGroups: 'Todos',
+    filterPlaceholder: 'Filtrar por verbo o significado…',
+    noResults: 'Ningún verbo coincide con el filtro.',
+    resultCount: 'verbos',
+    groups: {
+      '1': 'Grupo I (godan)',
+      '2': 'Grupo II (ichidan)',
+      '3': 'Grupo III (irregulares)',
+    },
+    groupsNote:
+      'El grupo determina cómo se forman las demás formas. Grupo I: la sílaba antes de ます suena en -i. Grupo II: suena en -e (y algunos en -i, como 見[み]ます). Grupo III: solo します y 来[き]ます y sus compuestos.',
+  },
+  reference: {
+    title: 'Guía',
+    description:
+      'Tablas de consulta rápida: partículas, contadores, la hora, el calendario, números, interrogativos, demostrativos y familia.',
+    backToReference: 'Volver a la guía',
+    seeAlso: 'Ver también',
   },
   kanji: {
     title: 'Kanji',

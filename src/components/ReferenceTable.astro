@@ -1,0 +1,64 @@
+---
+import type { Locale } from '@/i18n/config';
+import { pickLocale } from '@/i18n/t';
+import type { Localized } from '@/types/content';
+import MixedText from '@/ui/MixedText.astro';
+
+// A cell is either locale-neutral (Japanese, a number) or translatable
+type Cell = string | Localized;
+
+interface Props {
+  caption?: Localized;
+  headers: Cell[];
+  rows: Cell[][];
+  locale: Locale;
+}
+
+const { caption, headers, rows, locale } = Astro.props;
+const read = (cell: Cell) => (typeof cell === 'string' ? cell : pickLocale(cell, locale));
+// Translatable cells hold Spanish, so they follow the study-mode blur
+const isTranslation = (cell: Cell) => typeof cell !== 'string';
+---
+
+<figure>
+  {
+    caption && (
+      <figcaption class="text-muted-foreground mb-2 text-sm">
+        {pickLocale(caption, locale)}
+      </figcaption>
+    )
+  }
+  <div class="overflow-x-auto rounded-lg border">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="bg-muted/50 text-muted-foreground border-b text-left">
+          {
+            headers.map((header) => (
+              <th class="px-3 py-2.5 font-medium whitespace-nowrap">
+                <MixedText text={read(header)} />
+              </th>
+            ))
+          }
+        </tr>
+      </thead>
+      <tbody>
+        {
+          rows.map((row) => (
+            <tr class="border-b last:border-0">
+              {row.map((cell) => (
+                <td
+                  class:list={[
+                    'px-3 py-2.5 align-top',
+                    isTranslation(cell) ? 'translation text-muted-foreground' : 'whitespace-nowrap',
+                  ]}
+                >
+                  <MixedText text={read(cell)} />
+                </td>
+              ))}
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</figure>

@@ -1,0 +1,235 @@
+{
+  "level": "n5",
+  "slug": "greetings",
+  "title": {
+    "es": "Saludos y expresiones"
+  },
+  "description": {
+    "es": "Las fórmulas de cortesía más habituales del libro, muy frecuentes en la prueba de comprensión oral."
+  },
+  "order": 10,
+  "sections": [
+    {
+      "id": "daily",
+      "title": {
+        "es": "Saludos del día a día"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Expresión"
+            },
+            {
+              "es": "Significado"
+            }
+          ],
+          "rows": [
+            [
+              "おはようございます",
+              {
+                "es": "buenos días"
+              }
+            ],
+            [
+              "こんにちは",
+              {
+                "es": "buenas tardes, hola"
+              }
+            ],
+            [
+              "こんばんは",
+              {
+                "es": "buenas noches (al llegar)"
+              }
+            ],
+            [
+              "おやすみなさい",
+              {
+                "es": "buenas noches (al acostarse)"
+              }
+            ],
+            [
+              "さようなら",
+              {
+                "es": "adiós"
+              }
+            ],
+            [
+              "では、また",
+              {
+                "es": "hasta luego"
+              }
+            ],
+            [
+              "行[い]ってきます",
+              {
+                "es": "me voy (y vuelvo)"
+              }
+            ],
+            [
+              "行[い]ってらっしゃい",
+              {
+                "es": "que te vaya bien"
+              }
+            ],
+            [
+              "ただいま",
+              {
+                "es": "ya estoy en casa"
+              }
+            ],
+            [
+              "お 帰[かえ]りなさい",
+              {
+                "es": "bienvenido de vuelta"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "courtesy",
+      "title": {
+        "es": "Cortesía"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Expresión"
+            },
+            {
+              "es": "Significado"
+            }
+          ],
+          "rows": [
+            [
+              "はじめまして",
+              {
+                "es": "encantado de conocerte"
+              }
+            ],
+            [
+              "どうぞよろしくお 願[ねが]いします",
+              {
+                "es": "mucho gusto, cuento con usted"
+              }
+            ],
+            [
+              "ありがとうございます",
+              {
+                "es": "gracias"
+              }
+            ],
+            [
+              "どういたしまして",
+              {
+                "es": "de nada"
+              }
+            ],
+            [
+              "すみません",
+              {
+                "es": "perdón; disculpe"
+              }
+            ],
+            [
+              "失礼[しつれい]します",
+              {
+                "es": "con su permiso"
+              }
+            ],
+            [
+              "お 願[ねが]いします",
+              {
+                "es": "por favor"
+              }
+            ],
+            [
+              "いただきます",
+              {
+                "es": "gracias (antes de comer)"
+              }
+            ],
+            [
+              "ごちそうさまでした",
+              {
+                "es": "gracias (después de comer)"
+              }
+            ],
+            [
+              "お 大事[だいじ]に",
+              {
+                "es": "que te mejores"
+              }
+            ],
+            [
+              "おめでとうございます",
+              {
+                "es": "felicidades"
+              }
+            ],
+            [
+              "お 疲[つか]れさまでした",
+              {
+                "es": "buen trabajo (al terminar)"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classroom",
+      "title": {
+        "es": "En clase"
+      },
+      "tables": [
+        {
+          "headers": [
+            {
+              "es": "Expresión"
+            },
+            {
+              "es": "Significado"
+            }
+          ],
+          "rows": [
+            [
+              "もう 一度[いちど]お 願[ねが]いします",
+              {
+                "es": "otra vez, por favor"
+              }
+            ],
+            [
+              "ゆっくりお 願[ねが]いします",
+              {
+                "es": "más despacio, por favor"
+              }
+            ],
+            [
+              "わかりました",
+              {
+                "es": "entendido"
+              }
+            ],
+            [
+              "わかりません",
+              {
+                "es": "no entiendo"
+              }
+            ],
+            [
+              "質問[しつもん]があります",
+              {
+                "es": "tengo una pregunta"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
