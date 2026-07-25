@@ -1,0 +1,27 @@
+---
+import { parseFurigana } from '@/utils/furigana';
+
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+const segments = parseFurigana(text);
+---
+
+<span class="jp" lang="ja">
+  {
+    segments.map((segment) =>
+      segment.ruby ? (
+        <ruby>
+          {segment.base}
+          <rp>(</rp>
+          <rt>{segment.ruby}</rt>
+          <rp>)</rp>
+        </ruby>
+      ) : (
+        segment.base
+      )
+    )
+  }
+</span>

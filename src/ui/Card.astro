@@ -1,0 +1,25 @@
+---
+import { cn } from '@/utils/cn';
+
+interface Props {
+  href?: string;
+  class?: string;
+}
+
+const { href, class: className } = Astro.props;
+const Tag = href ? 'a' : 'div';
+const interactiveClasses = href
+  ? 'transition-colors hover:border-primary/40 hover:bg-accent/40 focus-visible:ring-2 focus-visible:ring-ring'
+  : '';
+---
+
+<Tag
+  href={href}
+  class={cn(
+    'block rounded-lg border bg-card p-5 text-card-foreground',
+    interactiveClasses,
+    className
+  )}
+>
+  <slot />
+</Tag>
