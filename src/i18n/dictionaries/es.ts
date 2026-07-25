@@ -77,9 +77,7 @@ export const es = {
     nai: 'Forma ない',
     ta: 'Forma た',
     meaning: 'Significado',
-    lesson: 'Lec.',
     group: 'Grupo',
-    allGroups: 'Todos',
     filterPlaceholder: 'Filtrar por verbo o significado…',
     noResults: 'Ningún verbo coincide con el filtro.',
     resultCount: 'verbos',
@@ -87,6 +85,11 @@ export const es = {
       '1': 'Grupo I (godan)',
       '2': 'Grupo II (ichidan)',
       '3': 'Grupo III (irregulares)',
+    },
+    groupBadges: {
+      '1': 'I',
+      '2': 'II',
+      '3': 'III',
     },
     groupsNote:
       'El grupo determina cómo se forman las demás formas. Grupo I: la sílaba antes de ます suena en -i. Grupo II: suena en -e (y algunos en -i, como 見[み]ます). Grupo III: solo します y 来[き]ます y sus compuestos.',

@@ -27,15 +27,21 @@ interface VerbTableProps {
     nai: string;
     ta: string;
     meaning: string;
-    lesson: string;
     group: string;
-    allGroups: string;
     filterPlaceholder: string;
     noResults: string;
     resultCount: string;
   };
   groupLabels: Record<string, string>;
+  groupBadges: Record<string, string>;
 }
+
+// The numeral is the actual label; colour is a redundant cue, never the only one
+const GROUP_BADGE_CLASSES: Record<number, string> = {
+  1: 'bg-verb-1/10 text-verb-1',
+  2: 'bg-verb-2/10 text-verb-2',
+  3: 'bg-verb-3/10 text-verb-3',
+};
 
 const normalize = (value: string) =>
   value
@@ -45,7 +51,7 @@ const normalize = (value: string) =>
 
 const GROUPS = ['1', '2', '3'] as const;
 
-export const VerbTable = ({ verbs, labels, groupLabels }: VerbTableProps) => {
+export const VerbTable = ({ verbs, labels, groupLabels, groupBadges }: VerbTableProps) => {
   const [query, setQuery] = useState('');
   const [activeGroup, setActiveGroup] = useState('');
 
@@ -81,7 +87,12 @@ export const VerbTable = ({ verbs, labels, groupLabels }: VerbTableProps) => {
           className="flex-wrap justify-start"
         >
           {GROUPS.map((group) => (
-            <ToggleGroupItem key={group} value={group} className="whitespace-nowrap">
+            <ToggleGroupItem key={group} value={group} className="gap-2 whitespace-nowrap">
+              <span
+                className={`${GROUP_BADGE_CLASSES[Number(group)]} inline-flex w-7 justify-center rounded px-1 py-0.5 text-[0.6875rem] font-semibold`}
+              >
+                {groupBadges[group]}
+              </span>
               {groupLabels[group]}
             </ToggleGroupItem>
           ))}
@@ -95,39 +106,46 @@ export const VerbTable = ({ verbs, labels, groupLabels }: VerbTableProps) => {
       <div className="mt-3 overflow-x-auto rounded-lg border">
         <table className="w-full text-sm">
           <thead>
-            <tr className="bg-muted/50 text-muted-foreground border-b text-left">
-              <th className="px-3 py-2.5 font-medium">{labels.verb}</th>
+            <tr className="bg-muted text-muted-foreground border-b text-left">
+              {/* Pinned so the verb stays visible while scrolling the forms sideways */}
+              <th className="bg-muted sticky left-0 z-20 px-3 py-2.5 font-medium">{labels.verb}</th>
               <th className="px-3 py-2.5 font-medium">{labels.masu}</th>
-              <th className="px-3 py-2.5 font-medium">{labels.te}</th>
               <th className="px-3 py-2.5 font-medium">{labels.dictionary}</th>
+              <th className="px-3 py-2.5 font-medium">{labels.te}</th>
               <th className="px-3 py-2.5 font-medium">{labels.nai}</th>
               <th className="px-3 py-2.5 font-medium">{labels.ta}</th>
               <th className="px-3 py-2.5 font-medium">{labels.meaning}</th>
-              <th className="px-3 py-2.5 text-right font-medium">{labels.lesson}</th>
             </tr>
           </thead>
           <tbody className="jp" lang="ja">
             {filteredVerbs.map((entry) => (
               <tr key={entry.id} className="border-b last:border-0">
-                <td className="px-3 py-2.5 whitespace-nowrap">
-                  <FuriganaText text={entry.verb} />
+                <td className="bg-background sticky left-0 z-10 px-3 py-2.5 whitespace-nowrap">
+                  <span className="flex items-center gap-2">
+                    <span
+                      className={`${GROUP_BADGE_CLASSES[entry.group]} inline-flex w-7 shrink-0 justify-center rounded px-1 py-0.5 font-sans text-[0.6875rem] font-semibold`}
+                      title={groupLabels[entry.group]}
+                    >
+                      {groupBadges[entry.group]}
+                    </span>
+                    <FuriganaText text={entry.verb} />
+                  </span>
                 </td>
                 <td className="px-3 py-2.5 whitespace-nowrap">{entry.masu}</td>
+                <td className="text-primary px-3 py-2.5 font-medium whitespace-nowrap">
+                  {entry.dictionary}
+                </td>
                 <td className="px-3 py-2.5 whitespace-nowrap">{entry.te}</td>
-                <td className="text-primary px-3 py-2.5 whitespace-nowrap">{entry.dictionary}</td>
                 <td className="px-3 py-2.5 whitespace-nowrap">
                   {entry.nai ?? <span className="text-muted-foreground">—</span>}
                 </td>
                 <td className="px-3 py-2.5 whitespace-nowrap">{entry.ta}</td>
                 <td className="translation px-3 py-2.5 font-sans">{entry.meaning}</td>
-                <td className="text-muted-foreground px-3 py-2.5 text-right font-sans">
-                  {entry.lesson}
-                </td>
               </tr>
             ))}
             {filteredVerbs.length === 0 && (
               <tr>
-                <td colSpan={8} className="text-muted-foreground px-3 py-6 text-center font-sans">
+                <td colSpan={7} className="text-muted-foreground px-3 py-6 text-center font-sans">
                   {labels.noResults}
                 </td>
               </tr>

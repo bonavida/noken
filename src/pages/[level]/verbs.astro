@@ -39,7 +39,13 @@ const verbs: Verb[] = (entry?.data.verbs ?? []).map((verb) => ({
     </p>
 
     <div class="mt-8">
-      <VerbTable verbs={verbs} labels={t.verbs} groupLabels={t.verbs.groups} client:visible />
+      <VerbTable
+        verbs={verbs}
+        labels={t.verbs}
+        groupLabels={t.verbs.groups}
+        groupBadges={t.verbs.groupBadges}
+        client:visible
+      />
     </div>
   </Container>
 </SiteLayout>
