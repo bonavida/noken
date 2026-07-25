@@ -1,0 +1,125 @@
+{
+  "level": "n5",
+  "lesson": 25,
+  "words": [
+    {
+      "id": "kangaemasu",
+      "word": "考[かんが]えます",
+      "kana": "かんがえます",
+      "meaning": { "es": "pensar, considerar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "tsukimasu",
+      "word": "着[つ]きます",
+      "kana": "つきます",
+      "meaning": { "es": "llegar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "toshi-o-torimasu",
+      "word": "取[と]ります[年[とし]を〜]",
+      "kana": "としをとります",
+      "meaning": { "es": "envejecer" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tarimasu",
+      "word": "足[た]ります",
+      "kana": "たります",
+      "meaning": { "es": "ser suficiente" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "inaka",
+      "word": "田舎[いなか]",
+      "kana": "いなか",
+      "meaning": { "es": "zona rural, pueblo natal" },
+      "type": "noun"
+    },
+    {
+      "id": "chansu",
+      "word": "チャンス",
+      "kana": "チャンス",
+      "meaning": { "es": "oportunidad" },
+      "type": "noun"
+    },
+    {
+      "id": "oku",
+      "word": "億[おく]",
+      "kana": "おく",
+      "meaning": { "es": "cien millones" },
+      "type": "number"
+    },
+    {
+      "id": "moshi",
+      "word": "もし[〜たら]",
+      "kana": "もし",
+      "meaning": { "es": "si ~" },
+      "type": "adverb"
+    },
+    {
+      "id": "imi",
+      "word": "意味[いみ]",
+      "kana": "いみ",
+      "meaning": { "es": "significado, sentido" },
+      "type": "noun"
+    },
+    {
+      "id": "moshimoshi",
+      "word": "もしもし",
+      "kana": "もしもし",
+      "meaning": { "es": "¿diga? (al teléfono)" },
+      "type": "expression"
+    },
+    {
+      "id": "tenkin",
+      "word": "転勤[てんきん]",
+      "kana": "てんきん",
+      "meaning": { "es": "traslado (de trabajo)" },
+      "type": "noun"
+    },
+    {
+      "id": "koto",
+      "word": "こと",
+      "kana": "こと",
+      "meaning": { "es": "cosa, asunto" },
+      "type": "noun"
+    },
+    {
+      "id": "hima-tiempo",
+      "word": "暇[ひま]",
+      "kana": "ひま",
+      "meaning": { "es": "tiempo libre" },
+      "type": "noun"
+    },
+    {
+      "id": "osewa-ni-narimashita",
+      "word": "[いろいろ]お 世話[せわ]になりました",
+      "kana": "おせわになりました",
+      "meaning": { "es": "muchas gracias por todo" },
+      "type": "expression"
+    },
+    {
+      "id": "ganbarimasu",
+      "word": "頑張[がんば]ります",
+      "kana": "がんばります",
+      "meaning": { "es": "esforzarse, tener ánimo" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "douzo-ogenkide",
+      "word": "どうぞお 元気[げんき]で",
+      "kana": "どうぞおげんきで",
+      "meaning": { "es": "que le vaya bien (despedida)" },
+      "type": "expression"
+    },
+    {
+      "id": "betonamu",
+      "word": "ベトナム",
+      "kana": "ベトナム",
+      "meaning": { "es": "Vietnam" },
+      "type": "noun"
+    }
+  ]
+}

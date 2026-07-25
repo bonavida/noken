@@ -1,0 +1,57 @@
+{
+  "level": "n5",
+  "number": 22,
+  "title": { "es": "Oraciones que describen sustantivos" },
+  "jpTitle": "どんなアパートがいいですか",
+  "description": {
+    "es": "Modifica un sustantivo con una oración completa: «la persona que…», «el pastel que hizo…»."
+  },
+  "grammar": [
+    {
+      "id": "oracion-modificadora",
+      "title": { "es": "La oración que modifica al sustantivo" },
+      "pattern": "S (forma informal) + N",
+      "explanation": {
+        "es": "Una oración entera puede colocarse delante de un sustantivo para describirlo, siempre en forma informal: ミラーさんが 住[す]んでいる 家[いえ] (la casa donde vive el Sr. Miller), 京都[きょうと]へ 行[い]く 人[ひと] (la gente que va a Kioto). El sujeto interno se marca con が."
+      },
+      "examples": [
+        {
+          "jp": "これは 母[はは]が 作[つく]ったケーキです。",
+          "translation": { "es": "Este es el pastel que hizo mi madre." }
+        },
+        {
+          "jp": "眼鏡[めがね]をかけている 人[ひと]は 誰[だれ]ですか。",
+          "translation": { "es": "¿Quién es la persona que lleva gafas?" }
+        }
+      ]
+    },
+    {
+      "id": "v-dicc-tiempo",
+      "title": { "es": "V (dicc.) 時間[じかん]／約束[やくそく]／用事[ようじ]" },
+      "pattern": "V (forma de diccionario) + 時間・約束・用事",
+      "explanation": {
+        "es": "El mismo patrón sirve para sustantivos abstractos: 朝[あさ]ごはんを 食[た]べる 時間[じかん]が ありません (no tengo tiempo de desayunar), 友達[ともだち]と 会[あ]う 約束[やくそく]が あります."
+      },
+      "examples": [
+        {
+          "jp": "私[わたし]は 新聞[しんぶん]を 読[よ]む 時間[じかん]がありません。",
+          "translation": { "es": "No tengo tiempo de leer el periódico." }
+        }
+      ]
+    },
+    {
+      "id": "mashou-ka-22",
+      "title": { "es": "V ましょうか — proponer decidiendo juntos" },
+      "pattern": "V ましょうか",
+      "explanation": {
+        "es": "Aquí ましょうか propone decidir algo entre los dos: 何時[なんじ]ごろ 行[い]きましょうか (¿sobre qué hora vamos?)."
+      },
+      "examples": [
+        {
+          "jp": "どこで 会[あ]いましょうか。… 駅[えき]で 会[あ]いましょう。",
+          "translation": { "es": "¿Dónde quedamos? …Quedemos en la estación." }
+        }
+      ]
+    }
+  ]
+}

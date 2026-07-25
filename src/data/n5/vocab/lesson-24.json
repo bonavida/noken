@@ -1,0 +1,132 @@
+{
+  "level": "n5",
+  "lesson": 24,
+  "words": [
+    {
+      "id": "kuremasu",
+      "word": "くれます",
+      "kana": "くれます",
+      "meaning": { "es": "dar (a mí)" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "naoshimasu",
+      "word": "直[なお]します",
+      "kana": "なおします",
+      "meaning": { "es": "reparar, corregir" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tsurete-ikimasu",
+      "word": "連[つ]れて 行[い]きます",
+      "kana": "つれていきます",
+      "meaning": { "es": "llevar (a alguien)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tsurete-kimasu",
+      "word": "連[つ]れて 来[き]ます",
+      "kana": "つれてきます",
+      "meaning": { "es": "traer (a alguien)" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "okurimasu-persona",
+      "word": "送[おく]ります[人[ひと]を〜]",
+      "kana": "おくります",
+      "meaning": { "es": "acompañar [a alguien]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "shoukai-shimasu",
+      "word": "紹介[しょうかい]します",
+      "kana": "しょうかいします",
+      "meaning": { "es": "presentar (a alguien)" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "annai-shimasu",
+      "word": "案内[あんない]します",
+      "kana": "あんないします",
+      "meaning": { "es": "guiar, indicar el camino" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "setsumei-shimasu",
+      "word": "説明[せつめい]します",
+      "kana": "せつめいします",
+      "meaning": { "es": "explicar" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "ojiisan",
+      "word": "おじいさん／おじいちゃん",
+      "kana": "おじいさん",
+      "meaning": { "es": "abuelo, anciano" },
+      "type": "noun"
+    },
+    {
+      "id": "obaasan",
+      "word": "おばあさん／おばあちゃん",
+      "kana": "おばあさん",
+      "meaning": { "es": "abuela, anciana" },
+      "type": "noun"
+    },
+    {
+      "id": "junbi",
+      "word": "準備[じゅんび]",
+      "kana": "じゅんび",
+      "meaning": { "es": "preparación" },
+      "type": "noun"
+    },
+    {
+      "id": "hikkoshi",
+      "word": "引[ひ]っ 越[こ]し",
+      "kana": "ひっこし",
+      "meaning": { "es": "mudanza" },
+      "type": "noun"
+    },
+    {
+      "id": "okashi",
+      "word": "[お]菓子[かし]",
+      "kana": "おかし",
+      "meaning": { "es": "dulce, golosina" },
+      "type": "noun"
+    },
+    {
+      "id": "hoomusutei",
+      "word": "ホームステイ",
+      "kana": "ホームステイ",
+      "meaning": { "es": "hospedaje en casa de familia" },
+      "type": "noun"
+    },
+    {
+      "id": "zenbu",
+      "word": "全部[ぜんぶ]",
+      "kana": "ぜんぶ",
+      "meaning": { "es": "todo" },
+      "type": "noun"
+    },
+    {
+      "id": "jibunde",
+      "word": "自分[じぶん]で",
+      "kana": "じぶんで",
+      "meaning": { "es": "por uno mismo" },
+      "type": "adverb"
+    },
+    {
+      "id": "hokani",
+      "word": "ほかに",
+      "kana": "ほかに",
+      "meaning": { "es": "además, aparte" },
+      "type": "adverb"
+    },
+    {
+      "id": "haha-no-hi",
+      "word": "母[はは]の 日[ひ]",
+      "kana": "ははのひ",
+      "meaning": { "es": "Día de la Madre" },
+      "type": "noun"
+    }
+  ]
+}
