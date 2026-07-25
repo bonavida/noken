@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro:schema';
 import { glob } from 'astro/loaders';
 import { LEVELS } from '@/constants/levels';
 import { WORD_TYPES } from '@/constants/wordTypes';

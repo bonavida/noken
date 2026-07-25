@@ -1,0 +1,55 @@
+---
+import ExampleSentence from '@/components/ExampleSentence.astro';
+import type { Locale } from '@/i18n/config';
+import { pickLocale, useTranslations } from '@/i18n/t';
+import type { Localized } from '@/types/content';
+import RichText from '@/ui/RichText.astro';
+
+interface GrammarExample {
+  jp: string;
+  translation: Localized;
+  note?: Localized;
+}
+
+interface Props {
+  point: {
+    id: string;
+    title: Localized;
+    pattern: string;
+    explanation: Localized;
+    examples: GrammarExample[];
+  };
+  locale: Locale;
+}
+
+const { point, locale } = Astro.props;
+const t = useTranslations(locale);
+---
+
+<article id={point.id} class="bg-card scroll-mt-24 rounded-lg border p-5 sm:p-6">
+  <h3 class="text-lg font-semibold">{pickLocale(point.title, locale)}</h3>
+
+  <p class="bg-muted mt-3 inline-block rounded-md px-3 py-1.5 font-mono text-sm">
+    {point.pattern}
+  </p>
+
+  <div class="mt-3 space-y-3 text-sm leading-relaxed">
+    <RichText text={pickLocale(point.explanation, locale)} />
+  </div>
+
+  <p class="text-muted-foreground mt-5 text-xs font-medium tracking-wide uppercase">
+    {t.lessons.examples}
+  </p>
+  <ul class="mt-2 space-y-3">
+    {
+      point.examples.map((example) => (
+        <ExampleSentence
+          jp={example.jp}
+          translation={example.translation}
+          note={example.note}
+          locale={locale}
+        />
+      ))
+    }
+  </ul>
+</article>

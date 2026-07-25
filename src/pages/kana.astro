@@ -1,0 +1,96 @@
+---
+import KanaChart from '@/components/KanaChart.astro';
+import { DAKUTEN_ROWS, GOJUON_ROWS, YOON_ROWS } from '@/constants/kana';
+import { resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import SectionHeading from '@/ui/SectionHeading.astro';
+
+const t = useTranslations(resolveLocale(Astro.currentLocale));
+---
+
+<SiteLayout title={t.kana.title} description={t.kana.description}>
+  <Container>
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-bold tracking-tight">{t.kana.title}</h1>
+        <p class="text-muted-foreground mt-2">{t.kana.description}</p>
+      </div>
+
+      <div
+        class="bg-muted inline-flex rounded-lg p-1"
+        role="group"
+        aria-label={`${t.kana.hiragana} / ${t.kana.katakana}`}
+      >
+        <button
+          type="button"
+          data-script="hiragana"
+          aria-pressed="true"
+          class="kana-toggle rounded-md px-3 py-1.5 text-sm font-medium transition-colors"
+        >
+          {t.kana.hiragana}
+        </button>
+        <button
+          type="button"
+          data-script="katakana"
+          aria-pressed="false"
+          class="kana-toggle rounded-md px-3 py-1.5 text-sm font-medium transition-colors"
+        >
+          {t.kana.katakana}
+        </button>
+      </div>
+    </div>
+
+    <div id="kana-charts" data-script="hiragana" class="mt-8 space-y-12">
+      <section>
+        <SectionHeading title={t.kana.gojuon} />
+        <KanaChart rows={GOJUON_ROWS} />
+      </section>
+
+      <section>
+        <SectionHeading title={t.kana.dakuten} />
+        <KanaChart rows={DAKUTEN_ROWS} />
+      </section>
+
+      <section>
+        <SectionHeading title={t.kana.yoon} />
+        <KanaChart rows={YOON_ROWS} columns={3} />
+      </section>
+    </div>
+  </Container>
+</SiteLayout>
+
+<style>
+  #kana-charts[data-script='hiragana'] :global(.kana-katakana),
+  #kana-charts[data-script='katakana'] :global(.kana-hiragana) {
+    display: none;
+  }
+
+  .kana-toggle[aria-pressed='true'] {
+    background-color: var(--background);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.08);
+  }
+
+  .kana-toggle[aria-pressed='false'] {
+    color: var(--muted-foreground);
+  }
+</style>
+
+<script>
+  // Lightweight script toggle; state is per-visit on purpose
+  const setupKanaToggle = () => {
+    const charts = document.getElementById('kana-charts');
+    const buttons = [...document.querySelectorAll<HTMLButtonElement>('.kana-toggle')];
+    if (!charts || buttons.length === 0) return;
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        charts.dataset.script = button.dataset.script;
+        buttons.forEach((other) => other.setAttribute('aria-pressed', String(other === button)));
+      });
+    });
+  };
+
+  // astro:page-load fires on the initial load and after every view transition
+  document.addEventListener('astro:page-load', setupKanaToggle);
+</script>

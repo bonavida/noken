@@ -1,0 +1,50 @@
+---
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Card from '@/ui/Card.astro';
+import Container from '@/ui/Container.astro';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const vocab = (await getCollection('vocab', ({ data }) => data.level === level)).sort(
+  (a, b) => a.data.lesson - b.data.lesson
+);
+const lessons = await getCollection('lessons', ({ data }) => data.level === level);
+const lessonTitleByNumber = new Map(
+  lessons.map((entry) => [entry.data.number, pickLocale(entry.data.title, locale)])
+);
+---
+
+<SiteLayout
+  title={`${t.vocabulary.title} ${level.toUpperCase()}`}
+  description={t.level.vocabularyDescription}
+>
+  <Container>
+    <h1 class="text-3xl font-bold tracking-tight">{t.vocabulary.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.level.vocabularyDescription}</p>
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        vocab.map(({ data }) => (
+          <Card href={`/${level}/vocabulary/${data.lesson}`}>
+            <p class="text-muted-foreground text-sm font-medium">
+              {t.lessons.lesson} {data.lesson}
+            </p>
+            {lessonTitleByNumber.has(data.lesson) && (
+              <h2 class="mt-1 text-lg font-semibold">{lessonTitleByNumber.get(data.lesson)}</h2>
+            )}
+            <p class="text-muted-foreground mt-2 text-sm">
+              {data.words.length} {t.lessons.words}
+            </p>
+          </Card>
+        ))
+      }
+    </div>
+  </Container>
+</SiteLayout>

@@ -1,0 +1,141 @@
+---
+import GrammarPoint from '@/components/GrammarPoint.astro';
+import VocabSection from '@/components/VocabSection.astro';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import Furigana from '@/ui/Furigana.astro';
+import SectionHeading from '@/ui/SectionHeading.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export const getStaticPaths = async () => {
+  const lessons = await getCollection('lessons');
+  const vocab = await getCollection('vocab');
+
+  return lessons.map((lesson) => {
+    const { level, number } = lesson.data;
+    const sorted = lessons
+      .filter((entry) => entry.data.level === level)
+      .sort((a, b) => a.data.number - b.data.number);
+    const index = sorted.findIndex((entry) => entry.data.number === number);
+
+    return {
+      params: { level, number: String(number) },
+      props: {
+        lesson,
+        lessonVocab: vocab.find(
+          (entry) => entry.data.level === level && entry.data.lesson === number
+        ),
+        previousLesson: sorted[index - 1],
+        nextLesson: sorted[index + 1],
+      },
+    };
+  });
+};
+
+interface Props {
+  lesson: CollectionEntry<'lessons'>;
+  lessonVocab?: CollectionEntry<'vocab'>;
+  previousLesson?: CollectionEntry<'lessons'>;
+  nextLesson?: CollectionEntry<'lessons'>;
+}
+
+const { lesson, lessonVocab, previousLesson, nextLesson } = Astro.props;
+const { level, number, title, jpTitle, description, grammar } = lesson.data;
+
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+const localizedTitle = pickLocale(title, locale);
+const pageTitle = `${t.lessons.lesson} ${number} — ${localizedTitle}`;
+---
+
+<SiteLayout
+  title={pageTitle}
+  description={description ? pickLocale(description, locale) : localizedTitle}
+>
+  <Container>
+    <header>
+      <p class="text-primary text-sm font-semibold tracking-wide uppercase">
+        {`${level.toUpperCase()} · ${t.lessons.lesson} ${number}`}
+      </p>
+      <div class="mt-1 flex flex-wrap items-baseline gap-x-4 gap-y-1">
+        <h1 class="text-3xl font-bold tracking-tight">{localizedTitle}</h1>
+        {
+          jpTitle && (
+            <p class="text-muted-foreground text-xl">
+              <Furigana text={jpTitle} />
+            </p>
+          )
+        }
+      </div>
+      {description && <p class="text-muted-foreground mt-3">{pickLocale(description, locale)}</p>}
+    </header>
+
+    <nav
+      aria-label={pageTitle}
+      class="bg-background/90 sticky top-14 z-30 -mx-4 mt-6 border-b px-4 py-2 backdrop-blur sm:-mx-6 sm:px-6"
+    >
+      <div class="flex gap-4 text-sm font-medium">
+        <a href="#grammar" class="text-muted-foreground hover:text-foreground transition-colors">
+          {t.lessons.grammar}
+        </a>
+        {
+          lessonVocab && (
+            <a
+              href="#vocabulary"
+              class="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t.lessons.vocabulary}
+            </a>
+          )
+        }
+      </div>
+    </nav>
+
+    <section class="mt-8">
+      <SectionHeading id="grammar" title={t.lessons.grammar} />
+      <div class="space-y-6">
+        {grammar.map((point) => <GrammarPoint point={point} locale={locale} />)}
+      </div>
+    </section>
+
+    {
+      lessonVocab && (
+        <section class="mt-12">
+          <SectionHeading id="vocabulary" title={t.lessons.vocabulary} />
+          <VocabSection words={lessonVocab.data.words} locale={locale} />
+          <p class="mt-4 text-sm">
+            <a href={`/${level}/vocabulary/${number}`} class="text-primary hover:underline">
+              {t.lessons.viewVocabulary} →
+            </a>
+          </p>
+        </section>
+      )
+    }
+
+    <nav class="mt-12 flex justify-between gap-4 border-t pt-6 text-sm" aria-label="paginación">
+      {
+        previousLesson ? (
+          <a
+            href={`/${level}/lessons/${previousLesson.data.number}`}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            ← {t.lessons.previousLesson}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        nextLesson && (
+          <a
+            href={`/${level}/lessons/${nextLesson.data.number}`}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {t.lessons.nextLesson} →
+          </a>
+        )
+      }
+    </nav>
+  </Container>
+</SiteLayout>

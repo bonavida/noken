@@ -1,0 +1,57 @@
+---
+import VocabSection from '@/components/VocabSection.astro';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export const getStaticPaths = async () => {
+  const vocab = await getCollection('vocab');
+  const lessons = await getCollection('lessons');
+
+  return vocab.map((entry) => ({
+    params: { level: entry.data.level, number: String(entry.data.lesson) },
+    props: {
+      entry,
+      lesson: lessons.find(
+        ({ data }) => data.level === entry.data.level && data.number === entry.data.lesson
+      ),
+    },
+  }));
+};
+
+interface Props {
+  entry: CollectionEntry<'vocab'>;
+  lesson?: CollectionEntry<'lessons'>;
+}
+
+const { entry, lesson } = Astro.props;
+const { level, lesson: lessonNumber, words } = entry.data;
+
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+const lessonTitle = lesson ? pickLocale(lesson.data.title, locale) : '';
+const pageTitle = `${t.vocabulary.title} — ${t.lessons.lesson} ${lessonNumber}`;
+---
+
+<SiteLayout title={pageTitle} description={t.level.vocabularyDescription}>
+  <Container>
+    <header>
+      <p class="text-primary text-sm font-semibold tracking-wide uppercase">
+        {`${level.toUpperCase()} · ${t.lessons.lesson} ${lessonNumber}`}
+      </p>
+      <h1 class="mt-1 text-3xl font-bold tracking-tight">
+        {t.vocabulary.title}{lessonTitle && ` — ${lessonTitle}`}
+      </h1>
+      <p class="mt-3 text-sm">
+        <a href={`/${level}/lessons/${lessonNumber}`} class="text-primary hover:underline">
+          ← {t.vocabulary.backToLesson}
+        </a>
+      </p>
+    </header>
+
+    <div class="mt-8">
+      <VocabSection words={words} locale={locale} />
+    </div>
+  </Container>
+</SiteLayout>

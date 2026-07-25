@@ -1,17 +1,76 @@
 ---
+import { ENABLED_LEVELS, isEnabledLevel, LEVELS } from '@/constants/levels';
+import { SITE_NAME } from '@/constants/site';
+import { resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Badge from '@/ui/Badge.astro';
+import Card from '@/ui/Card.astro';
+import Container from '@/ui/Container.astro';
+import { getCollection } from 'astro:content';
 
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const lessons = await getCollection('lessons');
+const lessonCountByLevel = new Map(
+  ENABLED_LEVELS.map((level) => [
+    level,
+    lessons.filter((lesson) => lesson.data.level === level).length,
+  ])
+);
+
+// N5 first; the next two levels stay visible as "coming soon" teasers
+const visibleLevels = LEVELS.slice(0, 3);
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body>
-    <h1>Astro</h1>
-  </body>
-</html>
+<SiteLayout title={SITE_NAME} description={t.site.description}>
+  <Container>
+    <section class="py-8 text-center sm:py-14">
+      <p class="jp text-primary text-5xl sm:text-6xl" lang="ja">日本語</p>
+      <h1 class="mt-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
+        {t.home.title}
+      </h1>
+      <p class="text-muted-foreground mx-auto mt-3 max-w-xl text-balance">
+        {t.home.subtitle}
+      </p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="mb-4 text-xl font-semibold">{t.home.chooseLevel}</h2>
+      <div class="grid gap-4 sm:grid-cols-3">
+        {
+          visibleLevels.map((level) =>
+            isEnabledLevel(level) ? (
+              <Card href={`/${level}`}>
+                <p class="text-2xl font-bold uppercase">{level}</p>
+                <p class="text-muted-foreground mt-1 text-sm">
+                  {lessonCountByLevel.get(level)} {t.home.lessonsCount}
+                </p>
+              </Card>
+            ) : (
+              <Card class="opacity-60">
+                <p class="text-2xl font-bold uppercase">{level}</p>
+                <Badge variant="outline" class="mt-1">
+                  {t.home.comingSoon}
+                </Badge>
+              </Card>
+            )
+          )
+        }
+      </div>
+    </section>
+
+    <section class="mt-10 grid gap-4 sm:grid-cols-2">
+      <Card href="/kana">
+        <p class="jp text-3xl" lang="ja">あア</p>
+        <h2 class="mt-2 font-semibold">{t.home.exploreKana}</h2>
+        <p class="text-muted-foreground mt-1 text-sm">{t.home.exploreKanaDescription}</p>
+      </Card>
+      <Card href="/kanji">
+        <p class="jp text-3xl" lang="ja">漢字</p>
+        <h2 class="mt-2 font-semibold">{t.home.exploreKanji}</h2>
+        <p class="text-muted-foreground mt-1 text-sm">{t.home.exploreKanjiDescription}</p>
+      </Card>
+    </section>
+  </Container>
+</SiteLayout>

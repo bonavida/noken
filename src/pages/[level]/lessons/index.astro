@@ -1,0 +1,58 @@
+---
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Card from '@/ui/Card.astro';
+import Container from '@/ui/Container.astro';
+import Furigana from '@/ui/Furigana.astro';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const lessons = (await getCollection('lessons', ({ data }) => data.level === level)).sort(
+  (a, b) => a.data.number - b.data.number
+);
+const vocab = await getCollection('vocab', ({ data }) => data.level === level);
+const wordCountByLesson = new Map(
+  vocab.map((entry) => [entry.data.lesson, entry.data.words.length])
+);
+---
+
+<SiteLayout
+  title={`${t.lessons.title} ${level.toUpperCase()}`}
+  description={t.level.lessonsDescription}
+>
+  <Container>
+    <h1 class="text-3xl font-bold tracking-tight">{t.lessons.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.level.lessonsDescription}</p>
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        lessons.map(({ data }) => (
+          <Card href={`/${level}/lessons/${data.number}`}>
+            <div class="flex items-baseline justify-between gap-2">
+              <p class="text-muted-foreground text-sm font-medium">
+                {t.lessons.lesson} {data.number}
+              </p>
+              {data.jpTitle && (
+                <span class="text-muted-foreground text-sm">
+                  <Furigana text={data.jpTitle} />
+                </span>
+              )}
+            </div>
+            <h2 class="mt-1 text-lg font-semibold">{pickLocale(data.title, locale)}</h2>
+            <p class="text-muted-foreground mt-2 text-sm">
+              {data.grammar.length} {t.lessons.grammarPoints}
+              {wordCountByLesson.has(data.number) &&
+                ` · ${wordCountByLesson.get(data.number)} ${t.lessons.words}`}
+            </p>
+          </Card>
+        ))
+      }
+    </div>
+  </Container>
+</SiteLayout>

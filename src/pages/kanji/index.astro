@@ -1,0 +1,71 @@
+---
+import KanjiCard from '@/components/KanjiCard.astro';
+import { ENABLED_LEVELS } from '@/constants/levels';
+import { pickLocaleList, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import SectionHeading from '@/ui/SectionHeading.astro';
+import { getCollection } from 'astro:content';
+
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const allKanji = await getCollection('kanji');
+
+// Kanji grouped per enabled level, then per lesson inside each level
+const kanjiByLevel = ENABLED_LEVELS.map((level) => {
+  const levelKanji = allKanji.filter((entry) => entry.data.level === level);
+  const lessonNumbers = [
+    ...new Set(levelKanji.map((entry) => entry.data.lesson).filter((lesson) => lesson != null)),
+  ].sort((a, b) => a - b);
+
+  const groups = lessonNumbers.map((lesson) => ({
+    label: `${t.kanji.lesson} ${lesson}`,
+    kanji: levelKanji
+      .filter((entry) => entry.data.lesson === lesson)
+      .sort((a, b) => a.data.strokes - b.data.strokes),
+  }));
+
+  const unassigned = levelKanji
+    .filter((entry) => entry.data.lesson == null)
+    .sort((a, b) => a.data.strokes - b.data.strokes);
+
+  if (unassigned.length > 0) groups.push({ label: t.kanji.noLesson, kanji: unassigned });
+
+  return { level, groups, total: levelKanji.length };
+});
+---
+
+<SiteLayout title={t.kanji.title} description={t.kanji.description}>
+  <Container>
+    <h1 class="text-3xl font-bold tracking-tight">{t.kanji.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.kanji.description}</p>
+
+    {
+      kanjiByLevel.map(({ level, groups, total }) => (
+        <section class="mt-10">
+          <SectionHeading
+            title={`${level.toUpperCase()} · ${total} ${t.kanji.title.toLowerCase()}`}
+          />
+          <div class="space-y-8">
+            {groups.map(({ label, kanji }) => (
+              <div>
+                <h3 class="text-muted-foreground mb-3 text-sm font-medium tracking-wide uppercase">
+                  {label}
+                </h3>
+                <div class="grid grid-cols-3 gap-3 sm:grid-cols-5 lg:grid-cols-7">
+                  {kanji.map(({ data }) => (
+                    <KanjiCard
+                      character={data.character}
+                      meaning={pickLocaleList(data.meanings, locale)[0] ?? ''}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))
+    }
+  </Container>
+</SiteLayout>

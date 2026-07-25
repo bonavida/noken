@@ -1,0 +1,37 @@
+---
+import type { KanaRow } from '@/constants/kana';
+import { cn } from '@/utils/cn';
+
+interface Props {
+  rows: KanaRow[];
+  columns?: number;
+}
+
+const { rows, columns = 5 } = Astro.props;
+---
+
+<div
+  class={cn('grid gap-2', columns === 5 ? 'grid-cols-5' : 'grid-cols-3 sm:max-w-md')}
+  role="list"
+>
+  {
+    rows.flat().map((cell) =>
+      cell ? (
+        <div
+          role="listitem"
+          class="bg-card flex flex-col items-center rounded-lg border py-3 sm:py-4"
+        >
+          <span class="jp kana-hiragana text-2xl sm:text-3xl" lang="ja">
+            {cell.hiragana}
+          </span>
+          <span class="jp kana-katakana text-2xl sm:text-3xl" lang="ja">
+            {cell.katakana}
+          </span>
+          <span class="text-muted-foreground mt-1 text-xs">{cell.romaji}</span>
+        </div>
+      ) : (
+        <div aria-hidden="true" />
+      )
+    )
+  }
+</div>

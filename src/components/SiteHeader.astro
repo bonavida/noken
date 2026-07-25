@@ -1,0 +1,52 @@
+---
+import { SettingsMenu } from '@/components/SettingsMenu';
+import { ENABLED_LEVELS } from '@/constants/levels';
+import { SITE_NAME } from '@/constants/site';
+import { resolveLocale, useTranslations } from '@/i18n/t';
+import { cn } from '@/utils/cn';
+
+const t = useTranslations(resolveLocale(Astro.currentLocale));
+const currentPath = Astro.url.pathname;
+
+// The header links to the first enabled level until a level switcher is needed
+const [defaultLevel] = ENABLED_LEVELS;
+
+const links = [
+  { href: `/${defaultLevel}/lessons`, label: t.nav.lessons },
+  { href: `/${defaultLevel}/vocabulary`, label: t.nav.vocabulary },
+  { href: '/kana', label: t.nav.kana },
+  { href: '/kanji', label: t.nav.kanji },
+];
+
+const isActive = (href: string) => currentPath === href || currentPath.startsWith(`${href}/`);
+---
+
+<header class="bg-background/80 sticky top-0 z-40 border-b backdrop-blur">
+  <div class="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 sm:px-6">
+    <a href="/" class="flex items-center gap-2 font-semibold">
+      <span class="jp text-primary text-xl leading-none" lang="ja">の</span>
+      <span>{SITE_NAME}</span>
+    </a>
+
+    <nav aria-label="principal" class="flex items-center gap-1 overflow-x-auto">
+      {
+        links.map(({ href, label }) => (
+          <a
+            href={href}
+            aria-current={isActive(href) ? 'page' : undefined}
+            class={cn(
+              'rounded-md px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-colors',
+              isActive(href)
+                ? 'bg-accent text-accent-foreground'
+                : 'text-muted-foreground hover:text-foreground'
+            )}
+          >
+            {label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <SettingsMenu labels={t.settings} client:idle transition:persist="settings-menu" />
+  </div>
+</header>

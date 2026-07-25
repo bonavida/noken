@@ -2,52 +2,334 @@
   "level": "n5",
   "lesson": 1,
   "words": [
-    { "id": "watashi", "word": "私[わたし]", "kana": "わたし", "meaning": { "es": "yo" }, "type": "pronoun" },
-    { "id": "watashitachi", "word": "私[わたし]たち", "kana": "わたしたち", "meaning": { "es": "nosotros" }, "type": "pronoun" },
-    { "id": "anata", "word": "あなた", "kana": "あなた", "meaning": { "es": "tú, usted" }, "type": "pronoun" },
-    { "id": "ano-hito", "word": "あの 人[ひと]", "kana": "あのひと", "meaning": { "es": "aquella persona, él/ella" }, "type": "pronoun" },
-    { "id": "ano-kata", "word": "あの 方[かた]", "kana": "あのかた", "meaning": { "es": "aquella persona (respetuoso)" }, "type": "pronoun" },
-    { "id": "minasan", "word": "皆[みな]さん", "kana": "みなさん", "meaning": { "es": "todos ustedes, señoras y señores" }, "type": "noun" },
-    { "id": "san", "word": "〜さん", "kana": "さん", "meaning": { "es": "Sr., Sra. (sufijo de respeto)" }, "type": "expression" },
-    { "id": "chan", "word": "〜ちゃん", "kana": "ちゃん", "meaning": { "es": "sufijo cariñoso para niños" }, "type": "expression" },
-    { "id": "kun", "word": "〜くん", "kana": "くん", "meaning": { "es": "sufijo para chicos jóvenes" }, "type": "expression" },
-    { "id": "jin", "word": "〜人[じん]", "kana": "じん", "meaning": { "es": "sufijo de nacionalidad" }, "type": "expression" },
-    { "id": "sensei", "word": "先生[せんせい]", "kana": "せんせい", "meaning": { "es": "profesor (al dirigirse a él)" }, "type": "noun" },
-    { "id": "kyoushi", "word": "教師[きょうし]", "kana": "きょうし", "meaning": { "es": "profesor (profesión)" }, "type": "noun" },
-    { "id": "gakusei", "word": "学生[がくせい]", "kana": "がくせい", "meaning": { "es": "estudiante" }, "type": "noun" },
-    { "id": "kaishain", "word": "会社員[かいしゃいん]", "kana": "かいしゃいん", "meaning": { "es": "empleado de empresa" }, "type": "noun" },
-    { "id": "shain", "word": "社員[しゃいん]", "kana": "しゃいん", "meaning": { "es": "empleado (de una empresa concreta)" }, "type": "noun" },
-    { "id": "ginkouin", "word": "銀行員[ぎんこういん]", "kana": "ぎんこういん", "meaning": { "es": "empleado de banco" }, "type": "noun" },
-    { "id": "isha", "word": "医者[いしゃ]", "kana": "いしゃ", "meaning": { "es": "médico" }, "type": "noun" },
-    { "id": "kenkyuusha", "word": "研究者[けんきゅうしゃ]", "kana": "けんきゅうしゃ", "meaning": { "es": "investigador" }, "type": "noun" },
-    { "id": "enjinia", "word": "エンジニア", "kana": "エンジニア", "meaning": { "es": "ingeniero" }, "type": "noun" },
-    { "id": "daigaku", "word": "大学[だいがく]", "kana": "だいがく", "meaning": { "es": "universidad" }, "type": "noun" },
-    { "id": "byouin", "word": "病院[びょういん]", "kana": "びょういん", "meaning": { "es": "hospital" }, "type": "noun" },
-    { "id": "denki", "word": "電気[でんき]", "kana": "でんき", "meaning": { "es": "electricidad, luz" }, "type": "noun" },
-    { "id": "dare", "word": "誰[だれ]", "kana": "だれ", "meaning": { "es": "quién" }, "type": "interrogative" },
-    { "id": "donata", "word": "どなた", "kana": "どなた", "meaning": { "es": "quién (respetuoso)" }, "type": "interrogative" },
-    { "id": "sai", "word": "〜歳[さい]", "kana": "さい", "meaning": { "es": "contador de años de edad" }, "type": "counter" },
-    { "id": "nansai", "word": "何歳[なんさい]", "kana": "なんさい", "meaning": { "es": "cuántos años" }, "type": "interrogative" },
-    { "id": "oikutsu", "word": "おいくつ", "kana": "おいくつ", "meaning": { "es": "cuántos años (respetuoso)" }, "type": "interrogative" },
-    { "id": "hai", "word": "はい", "kana": "はい", "meaning": { "es": "sí" }, "type": "expression" },
-    { "id": "iie", "word": "いいえ", "kana": "いいえ", "meaning": { "es": "no" }, "type": "expression" },
-    { "id": "shitsurei-desu-ga", "word": "失礼[しつれい]ですが", "kana": "しつれいですが", "meaning": { "es": "disculpe, pero… (antes de una pregunta personal)" }, "type": "expression" },
-    { "id": "onamae-wa", "word": "お 名前[なまえ]は？", "kana": "おなまえは", "meaning": { "es": "¿cómo se llama?" }, "type": "expression" },
-    { "id": "hajimemashite", "word": "はじめまして", "kana": "はじめまして", "meaning": { "es": "encantado (al conocer a alguien)" }, "type": "expression" },
-    { "id": "douzo-yoroshiku", "word": "どうぞよろしくお 願[ねが]いします", "kana": "どうぞよろしくおねがいします", "meaning": { "es": "mucho gusto, cuento con usted" }, "type": "expression" },
-    { "id": "kochira-wa", "word": "こちらは〜さんです", "kana": "こちらは…さんです", "meaning": { "es": "le presento al Sr./Sra. …" }, "type": "expression" },
-    { "id": "kara-kimashita", "word": "〜から 来[き]ました", "kana": "からきました", "meaning": { "es": "vengo de… (país o lugar)" }, "type": "expression" },
-    { "id": "amerika", "word": "アメリカ", "kana": "アメリカ", "meaning": { "es": "Estados Unidos" }, "type": "noun" },
-    { "id": "igirisu", "word": "イギリス", "kana": "イギリス", "meaning": { "es": "Reino Unido" }, "type": "noun" },
-    { "id": "indo", "word": "インド", "kana": "インド", "meaning": { "es": "India" }, "type": "noun" },
-    { "id": "indoneshia", "word": "インドネシア", "kana": "インドネシア", "meaning": { "es": "Indonesia" }, "type": "noun" },
-    { "id": "kankoku", "word": "韓国[かんこく]", "kana": "かんこく", "meaning": { "es": "Corea del Sur" }, "type": "noun" },
-    { "id": "tai", "word": "タイ", "kana": "タイ", "meaning": { "es": "Tailandia" }, "type": "noun" },
-    { "id": "chuugoku", "word": "中国[ちゅうごく]", "kana": "ちゅうごく", "meaning": { "es": "China" }, "type": "noun" },
-    { "id": "doitsu", "word": "ドイツ", "kana": "ドイツ", "meaning": { "es": "Alemania" }, "type": "noun" },
-    { "id": "nihon", "word": "日本[にほん]", "kana": "にほん", "meaning": { "es": "Japón" }, "type": "noun" },
-    { "id": "furansu", "word": "フランス", "kana": "フランス", "meaning": { "es": "Francia" }, "type": "noun" },
-    { "id": "burajiru", "word": "ブラジル", "kana": "ブラジル", "meaning": { "es": "Brasil" }, "type": "noun" },
-    { "id": "supein", "word": "スペイン", "kana": "スペイン", "meaning": { "es": "España" }, "type": "noun" }
+    {
+      "id": "watashi",
+      "word": "私[わたし]",
+      "kana": "わたし",
+      "meaning": { "es": "yo" },
+      "type": "pronoun"
+    },
+    {
+      "id": "watashitachi",
+      "word": "私[わたし]たち",
+      "kana": "わたしたち",
+      "meaning": { "es": "nosotros" },
+      "type": "pronoun"
+    },
+    {
+      "id": "anata",
+      "word": "あなた",
+      "kana": "あなた",
+      "meaning": { "es": "tú, usted" },
+      "type": "pronoun"
+    },
+    {
+      "id": "ano-hito",
+      "word": "あの 人[ひと]",
+      "kana": "あのひと",
+      "meaning": { "es": "aquella persona, él/ella" },
+      "type": "pronoun"
+    },
+    {
+      "id": "ano-kata",
+      "word": "あの 方[かた]",
+      "kana": "あのかた",
+      "meaning": { "es": "aquella persona (respetuoso)" },
+      "type": "pronoun"
+    },
+    {
+      "id": "minasan",
+      "word": "皆[みな]さん",
+      "kana": "みなさん",
+      "meaning": { "es": "todos ustedes, señoras y señores" },
+      "type": "noun"
+    },
+    {
+      "id": "san",
+      "word": "〜さん",
+      "kana": "さん",
+      "meaning": { "es": "Sr., Sra. (sufijo de respeto)" },
+      "type": "expression"
+    },
+    {
+      "id": "chan",
+      "word": "〜ちゃん",
+      "kana": "ちゃん",
+      "meaning": { "es": "sufijo cariñoso para niños" },
+      "type": "expression"
+    },
+    {
+      "id": "kun",
+      "word": "〜くん",
+      "kana": "くん",
+      "meaning": { "es": "sufijo para chicos jóvenes" },
+      "type": "expression"
+    },
+    {
+      "id": "jin",
+      "word": "〜人[じん]",
+      "kana": "じん",
+      "meaning": { "es": "sufijo de nacionalidad" },
+      "type": "expression"
+    },
+    {
+      "id": "sensei",
+      "word": "先生[せんせい]",
+      "kana": "せんせい",
+      "meaning": { "es": "profesor (al dirigirse a él)" },
+      "type": "noun"
+    },
+    {
+      "id": "kyoushi",
+      "word": "教師[きょうし]",
+      "kana": "きょうし",
+      "meaning": { "es": "profesor (profesión)" },
+      "type": "noun"
+    },
+    {
+      "id": "gakusei",
+      "word": "学生[がくせい]",
+      "kana": "がくせい",
+      "meaning": { "es": "estudiante" },
+      "type": "noun"
+    },
+    {
+      "id": "kaishain",
+      "word": "会社員[かいしゃいん]",
+      "kana": "かいしゃいん",
+      "meaning": { "es": "empleado de empresa" },
+      "type": "noun"
+    },
+    {
+      "id": "shain",
+      "word": "社員[しゃいん]",
+      "kana": "しゃいん",
+      "meaning": { "es": "empleado (de una empresa concreta)" },
+      "type": "noun"
+    },
+    {
+      "id": "ginkouin",
+      "word": "銀行員[ぎんこういん]",
+      "kana": "ぎんこういん",
+      "meaning": { "es": "empleado de banco" },
+      "type": "noun"
+    },
+    {
+      "id": "isha",
+      "word": "医者[いしゃ]",
+      "kana": "いしゃ",
+      "meaning": { "es": "médico" },
+      "type": "noun"
+    },
+    {
+      "id": "kenkyuusha",
+      "word": "研究者[けんきゅうしゃ]",
+      "kana": "けんきゅうしゃ",
+      "meaning": { "es": "investigador" },
+      "type": "noun"
+    },
+    {
+      "id": "enjinia",
+      "word": "エンジニア",
+      "kana": "エンジニア",
+      "meaning": { "es": "ingeniero" },
+      "type": "noun"
+    },
+    {
+      "id": "daigaku",
+      "word": "大学[だいがく]",
+      "kana": "だいがく",
+      "meaning": { "es": "universidad" },
+      "type": "noun"
+    },
+    {
+      "id": "byouin",
+      "word": "病院[びょういん]",
+      "kana": "びょういん",
+      "meaning": { "es": "hospital" },
+      "type": "noun"
+    },
+    {
+      "id": "denki",
+      "word": "電気[でんき]",
+      "kana": "でんき",
+      "meaning": { "es": "electricidad, luz" },
+      "type": "noun"
+    },
+    {
+      "id": "dare",
+      "word": "誰[だれ]",
+      "kana": "だれ",
+      "meaning": { "es": "quién" },
+      "type": "interrogative"
+    },
+    {
+      "id": "donata",
+      "word": "どなた",
+      "kana": "どなた",
+      "meaning": { "es": "quién (respetuoso)" },
+      "type": "interrogative"
+    },
+    {
+      "id": "sai",
+      "word": "〜歳[さい]",
+      "kana": "さい",
+      "meaning": { "es": "contador de años de edad" },
+      "type": "counter"
+    },
+    {
+      "id": "nansai",
+      "word": "何歳[なんさい]",
+      "kana": "なんさい",
+      "meaning": { "es": "cuántos años" },
+      "type": "interrogative"
+    },
+    {
+      "id": "oikutsu",
+      "word": "おいくつ",
+      "kana": "おいくつ",
+      "meaning": { "es": "cuántos años (respetuoso)" },
+      "type": "interrogative"
+    },
+    {
+      "id": "hai",
+      "word": "はい",
+      "kana": "はい",
+      "meaning": { "es": "sí" },
+      "type": "expression"
+    },
+    {
+      "id": "iie",
+      "word": "いいえ",
+      "kana": "いいえ",
+      "meaning": { "es": "no" },
+      "type": "expression"
+    },
+    {
+      "id": "shitsurei-desu-ga",
+      "word": "失礼[しつれい]ですが",
+      "kana": "しつれいですが",
+      "meaning": { "es": "disculpe, pero… (antes de una pregunta personal)" },
+      "type": "expression"
+    },
+    {
+      "id": "onamae-wa",
+      "word": "お 名前[なまえ]は？",
+      "kana": "おなまえは",
+      "meaning": { "es": "¿cómo se llama?" },
+      "type": "expression"
+    },
+    {
+      "id": "hajimemashite",
+      "word": "はじめまして",
+      "kana": "はじめまして",
+      "meaning": { "es": "encantado (al conocer a alguien)" },
+      "type": "expression"
+    },
+    {
+      "id": "douzo-yoroshiku",
+      "word": "どうぞよろしくお 願[ねが]いします",
+      "kana": "どうぞよろしくおねがいします",
+      "meaning": { "es": "mucho gusto, cuento con usted" },
+      "type": "expression"
+    },
+    {
+      "id": "kochira-wa",
+      "word": "こちらは〜さんです",
+      "kana": "こちらは…さんです",
+      "meaning": { "es": "le presento al Sr./Sra. …" },
+      "type": "expression"
+    },
+    {
+      "id": "kara-kimashita",
+      "word": "〜から 来[き]ました",
+      "kana": "からきました",
+      "meaning": { "es": "vengo de… (país o lugar)" },
+      "type": "expression"
+    },
+    {
+      "id": "amerika",
+      "word": "アメリカ",
+      "kana": "アメリカ",
+      "meaning": { "es": "Estados Unidos" },
+      "type": "noun"
+    },
+    {
+      "id": "igirisu",
+      "word": "イギリス",
+      "kana": "イギリス",
+      "meaning": { "es": "Reino Unido" },
+      "type": "noun"
+    },
+    {
+      "id": "indo",
+      "word": "インド",
+      "kana": "インド",
+      "meaning": { "es": "India" },
+      "type": "noun"
+    },
+    {
+      "id": "indoneshia",
+      "word": "インドネシア",
+      "kana": "インドネシア",
+      "meaning": { "es": "Indonesia" },
+      "type": "noun"
+    },
+    {
+      "id": "kankoku",
+      "word": "韓国[かんこく]",
+      "kana": "かんこく",
+      "meaning": { "es": "Corea del Sur" },
+      "type": "noun"
+    },
+    {
+      "id": "tai",
+      "word": "タイ",
+      "kana": "タイ",
+      "meaning": { "es": "Tailandia" },
+      "type": "noun"
+    },
+    {
+      "id": "chuugoku",
+      "word": "中国[ちゅうごく]",
+      "kana": "ちゅうごく",
+      "meaning": { "es": "China" },
+      "type": "noun"
+    },
+    {
+      "id": "doitsu",
+      "word": "ドイツ",
+      "kana": "ドイツ",
+      "meaning": { "es": "Alemania" },
+      "type": "noun"
+    },
+    {
+      "id": "nihon",
+      "word": "日本[にほん]",
+      "kana": "にほん",
+      "meaning": { "es": "Japón" },
+      "type": "noun"
+    },
+    {
+      "id": "furansu",
+      "word": "フランス",
+      "kana": "フランス",
+      "meaning": { "es": "Francia" },
+      "type": "noun"
+    },
+    {
+      "id": "burajiru",
+      "word": "ブラジル",
+      "kana": "ブラジル",
+      "meaning": { "es": "Brasil" },
+      "type": "noun"
+    },
+    {
+      "id": "supein",
+      "word": "スペイン",
+      "kana": "スペイン",
+      "meaning": { "es": "España" },
+      "type": "noun"
+    }
   ]
 }

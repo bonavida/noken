@@ -1,0 +1,142 @@
+---
+import { pickLocale, pickLocaleList, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Badge from '@/ui/Badge.astro';
+import Container from '@/ui/Container.astro';
+import Furigana from '@/ui/Furigana.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export const getStaticPaths = async () => {
+  const allKanji = (await getCollection('kanji')).sort((a, b) => {
+    if (a.data.level !== b.data.level) return a.data.level.localeCompare(b.data.level);
+    return (
+      (a.data.lesson ?? Infinity) - (b.data.lesson ?? Infinity) || a.data.strokes - b.data.strokes
+    );
+  });
+
+  return allKanji.map((entry, index) => ({
+    params: { char: entry.data.character },
+    props: {
+      entry,
+      previousKanji: allKanji[index - 1],
+      nextKanji: allKanji[index + 1],
+    },
+  }));
+};
+
+interface Props {
+  entry: CollectionEntry<'kanji'>;
+  previousKanji?: CollectionEntry<'kanji'>;
+  nextKanji?: CollectionEntry<'kanji'>;
+}
+
+const { entry, previousKanji, nextKanji } = Astro.props;
+const { character, level, lesson, meanings, onyomi, kunyomi, strokes, examples } = entry.data;
+
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+const localizedMeanings = pickLocaleList(meanings, locale);
+const description = `${character} — ${localizedMeanings.join(', ')}`;
+---
+
+<SiteLayout title={`${t.kanji.title} ${character}`} description={description}>
+  <Container class="max-w-3xl">
+    <p class="text-sm">
+      <a href="/kanji" class="text-primary hover:underline">← {t.kanji.backToList}</a>
+    </p>
+
+    <div class="mt-6 flex flex-col gap-8 sm:flex-row sm:items-start">
+      <div
+        class="bg-card mx-auto flex size-40 shrink-0 items-center justify-center rounded-xl border sm:mx-0"
+      >
+        <span class="jp text-8xl" lang="ja">{character}</span>
+      </div>
+
+      <div class="min-w-0 flex-1">
+        <div class="flex flex-wrap items-center gap-2">
+          <Badge>{level.toUpperCase()}</Badge>
+          {lesson != null && <Badge variant="secondary">{`${t.kanji.lesson} ${lesson}`}</Badge>}
+          <Badge variant="outline">{`${strokes} ${t.kanji.strokes}`}</Badge>
+        </div>
+
+        <h1 class="translation mt-3 text-2xl font-bold">{localizedMeanings.join(', ')}</h1>
+
+        <dl class="mt-5 space-y-3 text-sm">
+          {
+            onyomi.length > 0 && (
+              <div>
+                <dt class="text-muted-foreground font-medium">{t.kanji.onyomi}</dt>
+                <dd class="jp mt-0.5 text-lg" lang="ja">
+                  {onyomi.join('、')}
+                </dd>
+              </div>
+            )
+          }
+          {
+            kunyomi.length > 0 && (
+              <div>
+                <dt class="text-muted-foreground font-medium">{t.kanji.kunyomi}</dt>
+                <dd class="jp mt-0.5 text-lg" lang="ja">
+                  {kunyomi.join('、')}
+                </dd>
+              </div>
+            )
+          }
+        </dl>
+      </div>
+    </div>
+
+    {
+      examples.length > 0 && (
+        <section class="mt-10">
+          <h2 class="text-lg font-semibold">{t.kanji.examples}</h2>
+          <ul class="mt-3 divide-y rounded-lg border">
+            {examples.map((example) => (
+              <li class="flex flex-wrap items-baseline justify-between gap-2 px-4 py-3">
+                <span class="text-lg">
+                  <Furigana text={example.word} />
+                </span>
+                <span class="translation text-muted-foreground text-sm">
+                  {pickLocale(example.meaning, locale)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <nav class="mt-12 flex justify-between gap-4 border-t pt-6 text-sm" aria-label="paginación">
+      {
+        previousKanji ? (
+          <a
+            href={`/kanji/${previousKanji.data.character}`}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            ←{' '}
+            <span class="jp" lang="ja">
+              {previousKanji.data.character}
+            </span>{' '}
+            {t.kanji.previousKanji}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        nextKanji && (
+          <a
+            href={`/kanji/${nextKanji.data.character}`}
+            class="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            {t.kanji.nextKanji}{' '}
+            <span class="jp" lang="ja">
+              {nextKanji.data.character}
+            </span>{' '}
+            →
+          </a>
+        )
+      }
+    </nav>
+  </Container>
+</SiteLayout>

@@ -1,0 +1,14 @@
+---
+import { SITE_NAME } from '@/constants/site';
+import { resolveLocale, useTranslations } from '@/i18n/t';
+
+const t = useTranslations(resolveLocale(Astro.currentLocale));
+---
+
+<footer class="mt-16 border-t py-8">
+  <div class="text-muted-foreground mx-auto w-full max-w-5xl px-4 text-sm sm:px-6">
+    <p>
+      {SITE_NAME} — {t.site.tagline}
+    </p>
+  </div>
+</footer>

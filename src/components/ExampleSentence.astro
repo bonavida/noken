@@ -1,0 +1,21 @@
+---
+import type { Locale } from '@/i18n/config';
+import { pickLocale } from '@/i18n/t';
+import Furigana from '@/ui/Furigana.astro';
+import type { Localized } from '@/types/content';
+
+interface Props {
+  jp: string;
+  translation: Localized;
+  note?: Localized;
+  locale: Locale;
+}
+
+const { jp, translation, note, locale } = Astro.props;
+---
+
+<li class="border-primary/30 border-l-2 py-1 pl-4">
+  <p class="text-lg"><Furigana text={jp} /></p>
+  <p class="translation text-muted-foreground mt-1 text-sm">{pickLocale(translation, locale)}</p>
+  {note && <p class="text-muted-foreground mt-1 text-xs italic">{pickLocale(note, locale)}</p>}
+</li>

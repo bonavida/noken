@@ -1,0 +1,38 @@
+---
+import { parseFurigana } from '@/utils/furigana';
+
+// Mixed-language text: Japanese runs in bracket notation get ruby + the JP font,
+// while the surrounding (Spanish) text stays in the default font.
+interface Props {
+  text: string;
+  class?: string;
+}
+
+const { text, class: className } = Astro.props;
+const paragraphs = text
+  .split('\n\n')
+  .map((paragraph) => paragraph.trim())
+  .filter(Boolean)
+  .map(parseFurigana);
+---
+
+{
+  paragraphs.map((segments) => (
+    <p class={className}>
+      {segments.map((segment) =>
+        segment.ruby ? (
+          <span class="jp" lang="ja">
+            <ruby>
+              {segment.base}
+              <rp>(</rp>
+              <rt>{segment.ruby}</rt>
+              <rp>)</rp>
+            </ruby>
+          </span>
+        ) : (
+          segment.base
+        )
+      )}
+    </p>
+  ))
+}

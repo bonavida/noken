@@ -1,0 +1,31 @@
+---
+import { ENABLED_LEVELS } from '@/constants/levels';
+import { resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+
+const t = useTranslations(resolveLocale(Astro.currentLocale));
+const [defaultLevel] = ENABLED_LEVELS;
+---
+
+<SiteLayout title={t.notFound.title} description={t.notFound.message}>
+  <Container class="py-16 text-center">
+    <p class="jp text-muted-foreground text-6xl" lang="ja">迷子</p>
+    <h1 class="mt-6 text-3xl font-bold">404 — {t.notFound.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.notFound.message}</p>
+    <div class="mt-8 flex justify-center gap-3">
+      <a
+        href="/"
+        class="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-4 py-2 text-sm font-medium transition-colors"
+      >
+        {t.notFound.backHome}
+      </a>
+      <a
+        href={`/${defaultLevel}`}
+        class="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md px-4 py-2 text-sm font-medium transition-colors"
+      >
+        {t.notFound.goToLevel}
+      </a>
+    </div>
+  </Container>
+</SiteLayout>

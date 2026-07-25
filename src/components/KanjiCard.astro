@@ -1,0 +1,16 @@
+---
+interface Props {
+  character: string;
+  meaning: string;
+}
+
+const { character, meaning } = Astro.props;
+---
+
+<a
+  href={`/kanji/${character}`}
+  class="bg-card hover:border-primary/40 hover:bg-accent/40 flex flex-col items-center rounded-lg border py-4 transition-colors"
+>
+  <span class="jp text-3xl" lang="ja">{character}</span>
+  <span class="translation text-muted-foreground mt-1 px-1 text-center text-xs">{meaning}</span>
+</a>

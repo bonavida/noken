@@ -7,10 +7,14 @@ export const useSettings = () => {
     typeof window === 'undefined' ? DEFAULT_SETTINGS : readSettings()
   );
 
+  // Functional update so consecutive toggles never overwrite each other;
+  // saveSettings is idempotent, so a double updater call is harmless
   const updateSettings = (patch: Partial<Settings>) => {
-    const next = { ...settings, ...patch };
-    setSettings(next);
-    saveSettings(next);
+    setSettings((current) => {
+      const next = { ...current, ...patch };
+      saveSettings(next);
+      return next;
+    });
   };
 
   return { settings, updateSettings };

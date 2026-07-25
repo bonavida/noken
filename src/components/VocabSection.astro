@@ -1,0 +1,36 @@
+---
+import { VocabTable, type VocabWord } from '@/components/VocabTable';
+import type { WordType } from '@/constants/wordTypes';
+import type { Locale } from '@/i18n/config';
+import { pickLocale, useTranslations } from '@/i18n/t';
+import type { Localized } from '@/types/content';
+
+interface VocabEntry {
+  id: string;
+  word: string;
+  kana: string;
+  meaning: Localized;
+  type: WordType;
+  notes?: Localized;
+}
+
+interface Props {
+  words: VocabEntry[];
+  locale: Locale;
+}
+
+const { words, locale } = Astro.props;
+const t = useTranslations(locale);
+
+// Localize server-side so the island only receives plain serializable strings
+const localizedWords: VocabWord[] = words.map((entry) => ({
+  id: entry.id,
+  word: entry.word,
+  kana: entry.kana,
+  meaning: pickLocale(entry.meaning, locale),
+  type: entry.type,
+  notes: entry.notes && pickLocale(entry.notes, locale),
+}));
+---
+
+<VocabTable words={localizedWords} labels={t.vocabulary} typeLabels={t.wordTypes} client:visible />
