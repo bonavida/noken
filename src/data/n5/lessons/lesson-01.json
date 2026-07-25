@@ -1,0 +1,103 @@
+{
+  "level": "n5",
+  "number": 1,
+  "title": { "es": "Presentaciones" },
+  "jpTitle": "はじめまして",
+  "description": {
+    "es": "Aprende a presentarte, decir tu profesión y tu nacionalidad con las estructuras más básicas del japonés."
+  },
+  "grammar": [
+    {
+      "id": "wa-desu",
+      "title": { "es": "N1 は N2 です — «N1 es N2»" },
+      "pattern": "N1 は N2 です",
+      "explanation": {
+        "es": "La partícula は (se lee «wa») marca el tema de la oración: aquello de lo que hablamos. です funciona como el verbo «ser» y siempre va al final. Es la forma cortés de afirmar algo sobre el tema."
+      },
+      "examples": [
+        {
+          "jp": "私[わたし]はマイク・ミラーです。",
+          "translation": { "es": "Yo soy Mike Miller." }
+        },
+        {
+          "jp": "私[わたし]は 会社員[かいしゃいん]です。",
+          "translation": { "es": "Soy empleado de empresa." }
+        }
+      ]
+    },
+    {
+      "id": "ja-arimasen",
+      "title": { "es": "N1 は N2 じゃありません — negación" },
+      "pattern": "N1 は N2 じゃありません",
+      "explanation": {
+        "es": "じゃありません es la forma negativa cortés de です: «no es / no soy». En contextos formales o escritos también se usa ではありません, con el mismo significado."
+      },
+      "examples": [
+        {
+          "jp": "サントスさんは 学生[がくせい]じゃありません。",
+          "translation": { "es": "El Sr. Santos no es estudiante." }
+        }
+      ]
+    },
+    {
+      "id": "desu-ka",
+      "title": { "es": "〜ですか — preguntas" },
+      "pattern": "N1 は N2 ですか",
+      "explanation": {
+        "es": "Para preguntar basta con añadir la partícula か al final de la oración; el orden de las palabras no cambia y no se usa signo de interrogación en japonés. La entonación sube al final. Se responde con はい (sí) o いいえ (no)."
+      },
+      "examples": [
+        {
+          "jp": "ミラーさんはアメリカ 人[じん]ですか。",
+          "translation": { "es": "¿El Sr. Miller es estadounidense?" }
+        },
+        {
+          "jp": "はい、アメリカ 人[じん]です。",
+          "translation": { "es": "Sí, es estadounidense." }
+        }
+      ]
+    },
+    {
+      "id": "mo",
+      "title": { "es": "N も — «también»" },
+      "pattern": "N1 も N2 です",
+      "explanation": {
+        "es": "La partícula も sustituye a は cuando lo que se afirma del nuevo tema es lo mismo que se dijo del anterior: equivale a «también»."
+      },
+      "examples": [
+        {
+          "jp": "グプタさんも 会社員[かいしゃいん]です。",
+          "translation": { "es": "El Sr. Gupta también es empleado de empresa." }
+        }
+      ]
+    },
+    {
+      "id": "no",
+      "title": { "es": "N1 の N2 — pertenencia" },
+      "pattern": "N1 の N2",
+      "explanation": {
+        "es": "La partícula の une dos sustantivos: el primero delimita o clasifica al segundo. Aquí se usa para indicar la organización a la que alguien pertenece."
+      },
+      "examples": [
+        {
+          "jp": "ミラーさんはIMCの 社員[しゃいん]です。",
+          "translation": { "es": "El Sr. Miller es empleado de IMC." }
+        }
+      ]
+    },
+    {
+      "id": "san",
+      "title": { "es": "〜さん — tratamiento de respeto" },
+      "pattern": "Apellido + さん",
+      "explanation": {
+        "es": "さん se añade al apellido o nombre de otras personas para mostrar respeto; sirve para hombres y mujeres. Nunca se usa con el nombre propio de uno mismo. Con niños se usa ちゃん y con chicos jóvenes くん."
+      },
+      "examples": [
+        {
+          "jp": "こちらはサントスさんです。",
+          "translation": { "es": "Este es el Sr. Santos." }
+        }
+      ]
+    }
+  ]
+}

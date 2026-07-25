@@ -1,0 +1,14 @@
+{
+  "character": "本",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": { "es": ["libro", "origen"] },
+  "onyomi": ["ホン"],
+  "kunyomi": ["もと"],
+  "strokes": 5,
+  "examples": [
+    { "word": "日本[にほん]", "meaning": { "es": "Japón" } },
+    { "word": "本[ほん]", "meaning": { "es": "libro" } },
+    { "word": "本棚[ほんだな]", "meaning": { "es": "estantería" } }
+  ]
+}

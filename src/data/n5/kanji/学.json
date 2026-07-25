@@ -1,0 +1,14 @@
+{
+  "character": "学",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": { "es": ["estudiar", "aprender"] },
+  "onyomi": ["ガク"],
+  "kunyomi": ["まな.ぶ"],
+  "strokes": 8,
+  "examples": [
+    { "word": "学生[がくせい]", "meaning": { "es": "estudiante" } },
+    { "word": "大学[だいがく]", "meaning": { "es": "universidad" } },
+    { "word": "学校[がっこう]", "meaning": { "es": "escuela" } }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "character": "生",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": { "es": ["vida", "nacer", "crudo"] },
+  "onyomi": ["セイ", "ショウ"],
+  "kunyomi": ["い.きる", "う.まれる", "なま"],
+  "strokes": 5,
+  "examples": [
+    { "word": "学生[がくせい]", "meaning": { "es": "estudiante" } },
+    { "word": "先生[せんせい]", "meaning": { "es": "profesor" } },
+    { "word": "生[う]まれる", "meaning": { "es": "nacer" } }
+  ]
+}

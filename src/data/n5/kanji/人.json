@@ -1,0 +1,14 @@
+{
+  "character": "人",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": { "es": ["persona"] },
+  "onyomi": ["ジン", "ニン"],
+  "kunyomi": ["ひと"],
+  "strokes": 2,
+  "examples": [
+    { "word": "人[ひと]", "meaning": { "es": "persona" } },
+    { "word": "日本人[にほんじん]", "meaning": { "es": "japonés (persona)" } },
+    { "word": "三人[さんにん]", "meaning": { "es": "tres personas" } }
+  ]
+}
