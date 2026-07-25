@@ -1,0 +1,351 @@
+{
+  "level": "n5",
+  "lesson": 6,
+  "words": [
+    {
+      "id": "tabemasu",
+      "word": "食[た]べます",
+      "kana": "たべます",
+      "meaning": { "es": "comer" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "nomimasu",
+      "word": "飲[の]みます",
+      "kana": "のみます",
+      "meaning": { "es": "beber, tomar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "suimasu",
+      "word": "吸[す]います",
+      "kana": "すいます",
+      "meaning": { "es": "fumar [tabaco]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "mimasu",
+      "word": "見[み]ます",
+      "kana": "みます",
+      "meaning": { "es": "ver, mirar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "kikimasu",
+      "word": "聞[き]きます",
+      "kana": "ききます",
+      "meaning": { "es": "oír, escuchar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "yomimasu",
+      "word": "読[よ]みます",
+      "kana": "よみます",
+      "meaning": { "es": "leer" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "kakimasu",
+      "word": "書[か]きます",
+      "kana": "かきます",
+      "meaning": { "es": "escribir" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "kaimasu",
+      "word": "買[か]います",
+      "kana": "かいます",
+      "meaning": { "es": "comprar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "torimasu",
+      "word": "撮[と]ります",
+      "kana": "とります",
+      "meaning": { "es": "sacar [fotos]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "shimasu",
+      "word": "します",
+      "kana": "します",
+      "meaning": { "es": "hacer" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "aimasu",
+      "word": "会[あ]います",
+      "kana": "あいます",
+      "meaning": { "es": "ver a, encontrarse con [amigos]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "gohan",
+      "word": "ごはん",
+      "kana": "ごはん",
+      "meaning": { "es": "comida, arroz cocido" },
+      "type": "noun"
+    },
+    {
+      "id": "asagohan",
+      "word": "朝[あさ]ごはん",
+      "kana": "あさごはん",
+      "meaning": { "es": "desayuno" },
+      "type": "noun"
+    },
+    {
+      "id": "hirugohan",
+      "word": "昼[ひる]ごはん",
+      "kana": "ひるごはん",
+      "meaning": { "es": "almuerzo" },
+      "type": "noun"
+    },
+    {
+      "id": "bangohan",
+      "word": "晩[ばん]ごはん",
+      "kana": "ばんごはん",
+      "meaning": { "es": "cena" },
+      "type": "noun"
+    },
+    { "id": "pan", "word": "パン", "kana": "パン", "meaning": { "es": "pan" }, "type": "noun" },
+    {
+      "id": "tamago",
+      "word": "卵[たまご]",
+      "kana": "たまご",
+      "meaning": { "es": "huevo" },
+      "type": "noun"
+    },
+    {
+      "id": "niku",
+      "word": "肉[にく]",
+      "kana": "にく",
+      "meaning": { "es": "carne" },
+      "type": "noun"
+    },
+    {
+      "id": "sakana",
+      "word": "魚[さかな]",
+      "kana": "さかな",
+      "meaning": { "es": "pescado, pez" },
+      "type": "noun"
+    },
+    {
+      "id": "yasai",
+      "word": "野菜[やさい]",
+      "kana": "やさい",
+      "meaning": { "es": "verduras, hortalizas" },
+      "type": "noun"
+    },
+    {
+      "id": "kudamono",
+      "word": "果物[くだもの]",
+      "kana": "くだもの",
+      "meaning": { "es": "frutas" },
+      "type": "noun"
+    },
+    {
+      "id": "mizu",
+      "word": "水[みず]",
+      "kana": "みず",
+      "meaning": { "es": "agua" },
+      "type": "noun"
+    },
+    {
+      "id": "ocha",
+      "word": "お 茶[ちゃ]",
+      "kana": "おちゃ",
+      "meaning": { "es": "té, té verde" },
+      "type": "noun"
+    },
+    {
+      "id": "koucha",
+      "word": "紅茶[こうちゃ]",
+      "kana": "こうちゃ",
+      "meaning": { "es": "té negro" },
+      "type": "noun"
+    },
+    {
+      "id": "gyuunyuu",
+      "word": "牛乳[ぎゅうにゅう]（ミルク）",
+      "kana": "ぎゅうにゅう（ミルク）",
+      "meaning": { "es": "leche" },
+      "type": "noun"
+    },
+    {
+      "id": "juusu",
+      "word": "ジュース",
+      "kana": "ジュース",
+      "meaning": { "es": "zumo, jugo" },
+      "type": "noun"
+    },
+    {
+      "id": "biiru",
+      "word": "ビール",
+      "kana": "ビール",
+      "meaning": { "es": "cerveza" },
+      "type": "noun"
+    },
+    {
+      "id": "osake",
+      "word": "[お]酒[さけ]",
+      "kana": "おさけ",
+      "meaning": { "es": "bebida alcohólica, sake" },
+      "type": "noun"
+    },
+    {
+      "id": "tabako",
+      "word": "たばこ",
+      "kana": "たばこ",
+      "meaning": { "es": "cigarrillo" },
+      "type": "noun"
+    },
+    {
+      "id": "tegami",
+      "word": "手紙[てがみ]",
+      "kana": "てがみ",
+      "meaning": { "es": "carta, correspondencia" },
+      "type": "noun"
+    },
+    {
+      "id": "repooto",
+      "word": "レポート",
+      "kana": "レポート",
+      "meaning": { "es": "informe" },
+      "type": "noun"
+    },
+    {
+      "id": "shashin",
+      "word": "写真[しゃしん]",
+      "kana": "しゃしん",
+      "meaning": { "es": "fotografía" },
+      "type": "noun"
+    },
+    {
+      "id": "bideo",
+      "word": "ビデオ",
+      "kana": "ビデオ",
+      "meaning": { "es": "vídeo" },
+      "type": "noun"
+    },
+    {
+      "id": "mise",
+      "word": "店[みせ]",
+      "kana": "みせ",
+      "meaning": { "es": "tienda, negocio" },
+      "type": "noun"
+    },
+    {
+      "id": "niwa",
+      "word": "庭[にわ]",
+      "kana": "にわ",
+      "meaning": { "es": "jardín" },
+      "type": "noun"
+    },
+    {
+      "id": "shukudai",
+      "word": "宿題[しゅくだい]",
+      "kana": "しゅくだい",
+      "meaning": { "es": "deberes, tarea" },
+      "type": "noun"
+    },
+    {
+      "id": "tenisu",
+      "word": "テニス",
+      "kana": "テニス",
+      "meaning": { "es": "tenis" },
+      "type": "noun"
+    },
+    {
+      "id": "sakkaa",
+      "word": "サッカー",
+      "kana": "サッカー",
+      "meaning": { "es": "fútbol" },
+      "type": "noun"
+    },
+    {
+      "id": "ohanami",
+      "word": "[お]花見[はなみ]",
+      "kana": "おはなみ",
+      "meaning": { "es": "ir a ver los cerezos en flor" },
+      "type": "noun"
+    },
+    {
+      "id": "nani",
+      "word": "何[なに]",
+      "kana": "なに",
+      "meaning": { "es": "qué" },
+      "type": "interrogative"
+    },
+    {
+      "id": "isshoni",
+      "word": "いっしょに",
+      "kana": "いっしょに",
+      "meaning": { "es": "junto(s)" },
+      "type": "adverb"
+    },
+    {
+      "id": "chotto",
+      "word": "ちょっと",
+      "kana": "ちょっと",
+      "meaning": { "es": "un poco" },
+      "type": "adverb"
+    },
+    {
+      "id": "itsumo",
+      "word": "いつも",
+      "kana": "いつも",
+      "meaning": { "es": "siempre, normalmente" },
+      "type": "adverb"
+    },
+    {
+      "id": "tokidoki",
+      "word": "時々[ときどき]",
+      "kana": "ときどき",
+      "meaning": { "es": "a veces, de vez en cuando" },
+      "type": "adverb"
+    },
+    {
+      "id": "sorekara",
+      "word": "それから",
+      "kana": "それから",
+      "meaning": { "es": "y luego, y después" },
+      "type": "conjunction"
+    },
+    { "id": "ee", "word": "ええ", "kana": "ええ", "meaning": { "es": "sí" }, "type": "expression" },
+    {
+      "id": "ii-desu-ne",
+      "word": "いいですね",
+      "kana": "いいですね",
+      "meaning": { "es": "es una buena idea" },
+      "type": "expression"
+    },
+    {
+      "id": "wakarimashita",
+      "word": "わかりました",
+      "kana": "わかりました",
+      "meaning": { "es": "entendido, muy bien" },
+      "type": "expression"
+    },
+    {
+      "id": "nan-desu-ka",
+      "word": "何[なん]ですか",
+      "kana": "なんですか",
+      "meaning": { "es": "¿sí? / ¿qué deseaba?" },
+      "type": "expression"
+    },
+    {
+      "id": "ja-mata",
+      "word": "じゃ、また[あした]",
+      "kana": "じゃ、またあした",
+      "meaning": { "es": "entonces, hasta mañana" },
+      "type": "expression"
+    },
+    {
+      "id": "mekishiko",
+      "word": "メキシコ",
+      "kana": "メキシコ",
+      "meaning": { "es": "México" },
+      "type": "noun"
+    }
+  ]
+}

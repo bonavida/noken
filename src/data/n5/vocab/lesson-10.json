@@ -1,0 +1,329 @@
+{
+  "level": "n5",
+  "lesson": 10,
+  "words": [
+    {
+      "id": "arimasu",
+      "word": "あります",
+      "kana": "あります",
+      "meaning": { "es": "estar, haber (cosas)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "imasu",
+      "word": "います",
+      "kana": "います",
+      "meaning": { "es": "estar, haber (seres animados)" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "iroiro",
+      "word": "いろいろ[な]",
+      "kana": "いろいろ",
+      "meaning": { "es": "diversos" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "otokonohito",
+      "word": "男[おとこ]の 人[ひと]",
+      "kana": "おとこのひと",
+      "meaning": { "es": "hombre" },
+      "type": "noun"
+    },
+    {
+      "id": "onnanohito",
+      "word": "女[おんな]の 人[ひと]",
+      "kana": "おんなのひと",
+      "meaning": { "es": "mujer" },
+      "type": "noun"
+    },
+    {
+      "id": "otokonoko",
+      "word": "男[おとこ]の 子[こ]",
+      "kana": "おとこのこ",
+      "meaning": { "es": "niño" },
+      "type": "noun"
+    },
+    {
+      "id": "onnanoko",
+      "word": "女[おんな]の 子[こ]",
+      "kana": "おんなのこ",
+      "meaning": { "es": "niña" },
+      "type": "noun"
+    },
+    {
+      "id": "inu",
+      "word": "犬[いぬ]",
+      "kana": "いぬ",
+      "meaning": { "es": "perro" },
+      "type": "noun"
+    },
+    {
+      "id": "neko",
+      "word": "猫[ねこ]",
+      "kana": "ねこ",
+      "meaning": { "es": "gato" },
+      "type": "noun"
+    },
+    {
+      "id": "panda",
+      "word": "パンダ",
+      "kana": "パンダ",
+      "meaning": { "es": "panda" },
+      "type": "noun"
+    },
+    {
+      "id": "zou",
+      "word": "象[ぞう]",
+      "kana": "ぞう",
+      "meaning": { "es": "elefante" },
+      "type": "noun"
+    },
+    {
+      "id": "ki",
+      "word": "木[き]",
+      "kana": "き",
+      "meaning": { "es": "árbol, madera" },
+      "type": "noun"
+    },
+    {
+      "id": "mono",
+      "word": "物[もの]",
+      "kana": "もの",
+      "meaning": { "es": "cosa, objeto" },
+      "type": "noun"
+    },
+    {
+      "id": "denchi",
+      "word": "電池[でんち]",
+      "kana": "でんち",
+      "meaning": { "es": "pila, batería" },
+      "type": "noun"
+    },
+    {
+      "id": "hako",
+      "word": "箱[はこ]",
+      "kana": "はこ",
+      "meaning": { "es": "caja" },
+      "type": "noun"
+    },
+    {
+      "id": "suicchi",
+      "word": "スイッチ",
+      "kana": "スイッチ",
+      "meaning": { "es": "interruptor" },
+      "type": "noun"
+    },
+    {
+      "id": "reizouko",
+      "word": "冷蔵庫[れいぞうこ]",
+      "kana": "れいぞうこ",
+      "meaning": { "es": "refrigerador" },
+      "type": "noun"
+    },
+    {
+      "id": "teeburu",
+      "word": "テーブル",
+      "kana": "テーブル",
+      "meaning": { "es": "mesa" },
+      "type": "noun"
+    },
+    {
+      "id": "beddo",
+      "word": "ベッド",
+      "kana": "ベッド",
+      "meaning": { "es": "cama" },
+      "type": "noun"
+    },
+    {
+      "id": "tana",
+      "word": "棚[たな]",
+      "kana": "たな",
+      "meaning": { "es": "estante" },
+      "type": "noun"
+    },
+    { "id": "doa", "word": "ドア", "kana": "ドア", "meaning": { "es": "puerta" }, "type": "noun" },
+    {
+      "id": "mado",
+      "word": "窓[まど]",
+      "kana": "まど",
+      "meaning": { "es": "ventana" },
+      "type": "noun"
+    },
+    {
+      "id": "posuto",
+      "word": "ポスト",
+      "kana": "ポスト",
+      "meaning": { "es": "buzón" },
+      "type": "noun"
+    },
+    {
+      "id": "biru",
+      "word": "ビル",
+      "kana": "ビル",
+      "meaning": { "es": "edificio" },
+      "type": "noun"
+    },
+    {
+      "id": "atm",
+      "word": "ATM",
+      "kana": "エーティーエム",
+      "meaning": { "es": "cajero automático" },
+      "type": "noun"
+    },
+    {
+      "id": "konbini",
+      "word": "コンビニ",
+      "kana": "コンビニ",
+      "meaning": { "es": "tienda de conveniencia" },
+      "type": "noun"
+    },
+    {
+      "id": "kouen",
+      "word": "公園[こうえん]",
+      "kana": "こうえん",
+      "meaning": { "es": "parque" },
+      "type": "noun"
+    },
+    {
+      "id": "kissaten",
+      "word": "喫茶店[きっさてん]",
+      "kana": "きっさてん",
+      "meaning": { "es": "cafetería" },
+      "type": "noun"
+    },
+    {
+      "id": "ya-tienda",
+      "word": "〜屋[や]",
+      "kana": "や",
+      "meaning": { "es": "tienda de ~" },
+      "type": "expression"
+    },
+    {
+      "id": "noriba",
+      "word": "乗[の]り 場[ば]",
+      "kana": "のりば",
+      "meaning": { "es": "parada (de taxis, trenes…)" },
+      "type": "noun"
+    },
+    {
+      "id": "ken",
+      "word": "県[けん]",
+      "kana": "けん",
+      "meaning": { "es": "prefectura" },
+      "type": "noun"
+    },
+    {
+      "id": "ue",
+      "word": "上[うえ]",
+      "kana": "うえ",
+      "meaning": { "es": "encima, arriba" },
+      "type": "noun"
+    },
+    {
+      "id": "shita",
+      "word": "下[した]",
+      "kana": "した",
+      "meaning": { "es": "debajo, abajo" },
+      "type": "noun"
+    },
+    {
+      "id": "mae",
+      "word": "前[まえ]",
+      "kana": "まえ",
+      "meaning": { "es": "delante" },
+      "type": "noun"
+    },
+    {
+      "id": "ushiro",
+      "word": "後[うし]ろ",
+      "kana": "うしろ",
+      "meaning": { "es": "detrás" },
+      "type": "noun"
+    },
+    {
+      "id": "migi",
+      "word": "右[みぎ]",
+      "kana": "みぎ",
+      "meaning": { "es": "derecha" },
+      "type": "noun"
+    },
+    {
+      "id": "hidari",
+      "word": "左[ひだり]",
+      "kana": "ひだり",
+      "meaning": { "es": "izquierda" },
+      "type": "noun"
+    },
+    {
+      "id": "naka",
+      "word": "中[なか]",
+      "kana": "なか",
+      "meaning": { "es": "dentro" },
+      "type": "noun"
+    },
+    {
+      "id": "soto",
+      "word": "外[そと]",
+      "kana": "そと",
+      "meaning": { "es": "fuera" },
+      "type": "noun"
+    },
+    {
+      "id": "tonari",
+      "word": "隣[となり]",
+      "kana": "となり",
+      "meaning": { "es": "al lado" },
+      "type": "noun"
+    },
+    {
+      "id": "chikaku",
+      "word": "近[ちか]く",
+      "kana": "ちかく",
+      "meaning": { "es": "cerca" },
+      "type": "noun"
+    },
+    {
+      "id": "aida",
+      "word": "間[あいだ]",
+      "kana": "あいだ",
+      "meaning": { "es": "entre" },
+      "type": "noun"
+    },
+    {
+      "id": "ya-nado",
+      "word": "〜や〜[など]",
+      "kana": "や、など",
+      "meaning": { "es": "~, ~, y otros" },
+      "type": "particle"
+    },
+    {
+      "id": "doumo-sumimasen",
+      "word": "[どうも]すみません",
+      "kana": "どうもすみません",
+      "meaning": { "es": "[muchas] gracias" },
+      "type": "expression"
+    },
+    {
+      "id": "nanpuraa",
+      "word": "ナンプラー",
+      "kana": "ナンプラー",
+      "meaning": { "es": "nam pla (salsa de pescado)" },
+      "type": "noun"
+    },
+    {
+      "id": "koonaa",
+      "word": "コーナー",
+      "kana": "コーナー",
+      "meaning": { "es": "sección" },
+      "type": "noun"
+    },
+    {
+      "id": "ichiban-shita",
+      "word": "いちばん 下[した]",
+      "kana": "いちばんした",
+      "meaning": { "es": "el más inferior" },
+      "type": "expression"
+    }
+  ]
+}

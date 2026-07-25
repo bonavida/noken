@@ -1,0 +1,364 @@
+{
+  "level": "n5",
+  "lesson": 9,
+  "words": [
+    {
+      "id": "wakarimasu",
+      "word": "わかります",
+      "kana": "わかります",
+      "meaning": { "es": "entender, comprender" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "arimasu",
+      "word": "あります",
+      "kana": "あります",
+      "meaning": { "es": "haber, tener" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "suki",
+      "word": "好[す]き[な]",
+      "kana": "すき",
+      "meaning": { "es": "gustar" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "kirai",
+      "word": "嫌[きら]い[な]",
+      "kana": "きらい",
+      "meaning": { "es": "no gustar" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "jouzu",
+      "word": "上手[じょうず][な]",
+      "kana": "じょうず",
+      "meaning": { "es": "ser bueno, ser hábil" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "heta",
+      "word": "下手[へた][な]",
+      "kana": "へた",
+      "meaning": { "es": "no ser hábil" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "nomimono",
+      "word": "飲[の]み 物[もの]",
+      "kana": "のみもの",
+      "meaning": { "es": "bebida" },
+      "type": "noun"
+    },
+    {
+      "id": "ryouri",
+      "word": "料理[りょうり]",
+      "kana": "りょうり",
+      "meaning": { "es": "plato, cocina" },
+      "type": "noun"
+    },
+    {
+      "id": "supootsu",
+      "word": "スポーツ",
+      "kana": "スポーツ",
+      "meaning": { "es": "deporte" },
+      "type": "noun"
+    },
+    {
+      "id": "yakyuu",
+      "word": "野球[やきゅう]",
+      "kana": "やきゅう",
+      "meaning": { "es": "béisbol" },
+      "type": "noun"
+    },
+    {
+      "id": "dansu",
+      "word": "ダンス",
+      "kana": "ダンス",
+      "meaning": { "es": "baile" },
+      "type": "noun"
+    },
+    {
+      "id": "ryokou",
+      "word": "旅行[りょこう]",
+      "kana": "りょこう",
+      "meaning": { "es": "viaje" },
+      "type": "noun"
+    },
+    {
+      "id": "ongaku",
+      "word": "音楽[おんがく]",
+      "kana": "おんがく",
+      "meaning": { "es": "música" },
+      "type": "noun"
+    },
+    {
+      "id": "uta",
+      "word": "歌[うた]",
+      "kana": "うた",
+      "meaning": { "es": "canción" },
+      "type": "noun"
+    },
+    {
+      "id": "kurashikku",
+      "word": "クラシック",
+      "kana": "クラシック",
+      "meaning": { "es": "música clásica" },
+      "type": "noun"
+    },
+    {
+      "id": "jazu",
+      "word": "ジャズ",
+      "kana": "ジャズ",
+      "meaning": { "es": "jazz" },
+      "type": "noun"
+    },
+    {
+      "id": "konsaato",
+      "word": "コンサート",
+      "kana": "コンサート",
+      "meaning": { "es": "concierto" },
+      "type": "noun"
+    },
+    {
+      "id": "karaoke",
+      "word": "カラオケ",
+      "kana": "カラオケ",
+      "meaning": { "es": "karaoke" },
+      "type": "noun"
+    },
+    {
+      "id": "kabuki",
+      "word": "歌舞伎[かぶき]",
+      "kana": "かぶき",
+      "meaning": { "es": "kabuki (teatro tradicional)" },
+      "type": "noun"
+    },
+    {
+      "id": "e",
+      "word": "絵[え]",
+      "kana": "え",
+      "meaning": { "es": "pintura, dibujo" },
+      "type": "noun"
+    },
+    { "id": "ji", "word": "字[じ]", "kana": "じ", "meaning": { "es": "letra" }, "type": "noun" },
+    {
+      "id": "kanji",
+      "word": "漢字[かんじ]",
+      "kana": "かんじ",
+      "meaning": { "es": "caracteres chinos" },
+      "type": "noun"
+    },
+    {
+      "id": "hiragana",
+      "word": "ひらがな",
+      "kana": "ひらがな",
+      "meaning": { "es": "escritura hiragana" },
+      "type": "noun"
+    },
+    {
+      "id": "katakana",
+      "word": "かたかな",
+      "kana": "かたかな",
+      "meaning": { "es": "escritura katakana" },
+      "type": "noun"
+    },
+    {
+      "id": "roomaji",
+      "word": "ローマ字[じ]",
+      "kana": "ローマじ",
+      "meaning": { "es": "alfabeto latino" },
+      "type": "noun"
+    },
+    {
+      "id": "komakai-okane",
+      "word": "細[こま]かいお 金[かね]",
+      "kana": "こまかいおかね",
+      "meaning": { "es": "cambio, monedas" },
+      "type": "noun"
+    },
+    {
+      "id": "chiketto",
+      "word": "チケット",
+      "kana": "チケット",
+      "meaning": { "es": "entrada" },
+      "type": "noun"
+    },
+    {
+      "id": "jikan",
+      "word": "時間[じかん]",
+      "kana": "じかん",
+      "meaning": { "es": "tiempo" },
+      "type": "noun"
+    },
+    {
+      "id": "youji",
+      "word": "用事[ようじ]",
+      "kana": "ようじ",
+      "meaning": { "es": "algo que hacer" },
+      "type": "noun"
+    },
+    {
+      "id": "yakusoku",
+      "word": "約束[やくそく]",
+      "kana": "やくそく",
+      "meaning": { "es": "cita, compromiso" },
+      "type": "noun"
+    },
+    {
+      "id": "arubaito",
+      "word": "アルバイト",
+      "kana": "アルバイト",
+      "meaning": { "es": "trabajo temporal" },
+      "type": "noun"
+    },
+    {
+      "id": "goshujin",
+      "word": "ご 主人[しゅじん]",
+      "kana": "ごしゅじん",
+      "meaning": { "es": "(su/tu) esposo" },
+      "type": "noun"
+    },
+    {
+      "id": "otto",
+      "word": "夫[おっと]／主人[しゅじん]",
+      "kana": "おっと／しゅじん",
+      "meaning": { "es": "(mi) marido" },
+      "type": "noun"
+    },
+    {
+      "id": "okusan",
+      "word": "奥[おく]さん",
+      "kana": "おくさん",
+      "meaning": { "es": "(su/tu) esposa" },
+      "type": "noun"
+    },
+    {
+      "id": "tsuma",
+      "word": "妻[つま]／家内[かない]",
+      "kana": "つま／かない",
+      "meaning": { "es": "(mi) esposa" },
+      "type": "noun"
+    },
+    {
+      "id": "kodomo",
+      "word": "子[こ]ども",
+      "kana": "こども",
+      "meaning": { "es": "niño, (mi) hijo" },
+      "type": "noun"
+    },
+    {
+      "id": "yoku",
+      "word": "よく",
+      "kana": "よく",
+      "meaning": { "es": "bien, mucho" },
+      "type": "adverb"
+    },
+    {
+      "id": "daitai",
+      "word": "だいたい",
+      "kana": "だいたい",
+      "meaning": { "es": "más o menos" },
+      "type": "adverb"
+    },
+    {
+      "id": "takusan",
+      "word": "たくさん",
+      "kana": "たくさん",
+      "meaning": { "es": "mucho" },
+      "type": "adverb"
+    },
+    {
+      "id": "sukoshi",
+      "word": "少[すこ]し",
+      "kana": "すこし",
+      "meaning": { "es": "poco, un poco" },
+      "type": "adverb"
+    },
+    {
+      "id": "zenzen",
+      "word": "全然[ぜんぜん]",
+      "kana": "ぜんぜん",
+      "meaning": { "es": "nada ~ (con negación)" },
+      "type": "adverb"
+    },
+    {
+      "id": "hayaku",
+      "word": "早[はや]く・速[はや]く",
+      "kana": "はやく",
+      "meaning": { "es": "temprano, rápido" },
+      "type": "adverb"
+    },
+    {
+      "id": "kara-porque",
+      "word": "〜から",
+      "kana": "から",
+      "meaning": { "es": "porque ~" },
+      "type": "particle"
+    },
+    {
+      "id": "doushite",
+      "word": "どうして",
+      "kana": "どうして",
+      "meaning": { "es": "por qué" },
+      "type": "interrogative"
+    },
+    {
+      "id": "kashite-kudasai",
+      "word": "貸[か]してください",
+      "kana": "かしてください",
+      "meaning": { "es": "présteme, por favor" },
+      "type": "expression"
+    },
+    {
+      "id": "ii-desu-yo",
+      "word": "いいですよ",
+      "kana": "いいですよ",
+      "meaning": { "es": "sí, claro" },
+      "type": "expression"
+    },
+    {
+      "id": "zannen-desu",
+      "word": "残念[ざんねん]です[が]",
+      "kana": "ざんねんですが",
+      "meaning": { "es": "lo siento[, pero…]" },
+      "type": "expression"
+    },
+    {
+      "id": "aa",
+      "word": "ああ",
+      "kana": "ああ",
+      "meaning": { "es": "¡ah!" },
+      "type": "expression"
+    },
+    {
+      "id": "isshoni-ikaga",
+      "word": "いっしょにいかがですか",
+      "kana": "いっしょにいかがですか",
+      "meaning": { "es": "¿me acompaña?" },
+      "type": "expression"
+    },
+    {
+      "id": "chotto-euf",
+      "word": "[〜は]ちょっと……",
+      "kana": "ちょっと",
+      "meaning": { "es": "[~] es un poco difícil (rechazo)" },
+      "type": "expression"
+    },
+    {
+      "id": "dame-desu-ka",
+      "word": "だめですか",
+      "kana": "だめですか",
+      "meaning": { "es": "¿no puede?" },
+      "type": "expression"
+    },
+    {
+      "id": "mata-kondo",
+      "word": "また 今度[こんど]お 願[ねが]いします",
+      "kana": "またこんどおねがいします",
+      "meaning": { "es": "vuelva a invitarme otra vez" },
+      "type": "expression"
+    }
+  ]
+}
