@@ -1,0 +1,25 @@
+{
+  "character": "千",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["mil"]
+  },
+  "onyomi": ["セン"],
+  "kunyomi": ["ち"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "千[せん]",
+      "meaning": {
+        "es": "mil"
+      }
+    },
+    {
+      "word": "三千[さんぜん]",
+      "meaning": {
+        "es": "tres mil"
+      }
+    }
+  ]
+}

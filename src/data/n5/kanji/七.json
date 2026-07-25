@@ -1,0 +1,31 @@
+{
+  "character": "七",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["siete"]
+  },
+  "onyomi": ["シチ"],
+  "kunyomi": ["なな", "なな.つ"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "七[なな]",
+      "meaning": {
+        "es": "siete"
+      }
+    },
+    {
+      "word": "七[なな]つ",
+      "meaning": {
+        "es": "siete cosas"
+      }
+    },
+    {
+      "word": "七月[しちがつ]",
+      "meaning": {
+        "es": "julio"
+      }
+    }
+  ]
+}

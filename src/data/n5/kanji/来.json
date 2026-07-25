@@ -1,0 +1,31 @@
+{
+  "character": "来",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["venir"]
+  },
+  "onyomi": ["ライ"],
+  "kunyomi": ["く.る"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "来[き]ます",
+      "meaning": {
+        "es": "venir"
+      }
+    },
+    {
+      "word": "来週[らいしゅう]",
+      "meaning": {
+        "es": "la semana que viene"
+      }
+    },
+    {
+      "word": "来年[らいねん]",
+      "meaning": {
+        "es": "el año que viene"
+      }
+    }
+  ]
+}

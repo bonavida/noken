@@ -1,0 +1,25 @@
+{
+  "character": "白",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["blanco"]
+  },
+  "onyomi": ["ハク"],
+  "kunyomi": ["しろ.い"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "白[しろ]い",
+      "meaning": {
+        "es": "blanco"
+      }
+    },
+    {
+      "word": "白[しろ]",
+      "meaning": {
+        "es": "el color blanco"
+      }
+    }
+  ]
+}

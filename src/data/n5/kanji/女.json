@@ -1,0 +1,31 @@
+{
+  "character": "女",
+  "level": "n5",
+  "lesson": 5,
+  "meanings": {
+    "es": ["mujer"]
+  },
+  "onyomi": ["ジョ", "ニョ"],
+  "kunyomi": ["おんな"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "女[おんな]",
+      "meaning": {
+        "es": "mujer"
+      }
+    },
+    {
+      "word": "女[おんな]の 人[ひと]",
+      "meaning": {
+        "es": "mujer"
+      }
+    },
+    {
+      "word": "女[おんな]の 子[こ]",
+      "meaning": {
+        "es": "niña"
+      }
+    }
+  ]
+}

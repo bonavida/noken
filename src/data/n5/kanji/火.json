@@ -1,0 +1,25 @@
+{
+  "character": "火",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["fuego"]
+  },
+  "onyomi": ["カ"],
+  "kunyomi": ["ひ"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "火曜日[かようび]",
+      "meaning": {
+        "es": "martes"
+      }
+    },
+    {
+      "word": "火[ひ]",
+      "meaning": {
+        "es": "fuego"
+      }
+    }
+  ]
+}

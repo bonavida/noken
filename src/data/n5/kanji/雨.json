@@ -1,0 +1,25 @@
+{
+  "character": "雨",
+  "level": "n5",
+  "lesson": 12,
+  "meanings": {
+    "es": ["lluvia"]
+  },
+  "onyomi": ["ウ"],
+  "kunyomi": ["あめ"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "雨[あめ]",
+      "meaning": {
+        "es": "lluvia"
+      }
+    },
+    {
+      "word": "大雨[おおあめ]",
+      "meaning": {
+        "es": "lluvia fuerte"
+      }
+    }
+  ]
+}

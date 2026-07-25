@@ -1,0 +1,31 @@
+{
+  "character": "大",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["grande"]
+  },
+  "onyomi": ["ダイ", "タイ"],
+  "kunyomi": ["おお.きい"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "大[おお]きい",
+      "meaning": {
+        "es": "grande"
+      }
+    },
+    {
+      "word": "大学[だいがく]",
+      "meaning": {
+        "es": "universidad"
+      }
+    },
+    {
+      "word": "大切[たいせつ]",
+      "meaning": {
+        "es": "importante"
+      }
+    }
+  ]
+}

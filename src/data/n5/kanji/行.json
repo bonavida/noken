@@ -1,0 +1,31 @@
+{
+  "character": "行",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["ir"]
+  },
+  "onyomi": ["コウ", "ギョウ"],
+  "kunyomi": ["い.く"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "行[い]きます",
+      "meaning": {
+        "es": "ir"
+      }
+    },
+    {
+      "word": "銀行[ぎんこう]",
+      "meaning": {
+        "es": "banco"
+      }
+    },
+    {
+      "word": "旅行[りょこう]",
+      "meaning": {
+        "es": "viaje"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "character": "小",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["pequeño"]
+  },
+  "onyomi": ["ショウ"],
+  "kunyomi": ["ちい.さい"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "小[ちい]さい",
+      "meaning": {
+        "es": "pequeño"
+      }
+    },
+    {
+      "word": "小学校[しょうがっこう]",
+      "meaning": {
+        "es": "escuela primaria"
+      }
+    }
+  ]
+}

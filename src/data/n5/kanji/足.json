@@ -1,0 +1,25 @@
+{
+  "character": "足",
+  "level": "n5",
+  "lesson": 16,
+  "meanings": {
+    "es": ["pie", "pierna"]
+  },
+  "onyomi": ["ソク"],
+  "kunyomi": ["あし", "た.りる"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "足[あし]",
+      "meaning": {
+        "es": "pierna, pie"
+      }
+    },
+    {
+      "word": "足[た]ります",
+      "meaning": {
+        "es": "ser suficiente"
+      }
+    }
+  ]
+}

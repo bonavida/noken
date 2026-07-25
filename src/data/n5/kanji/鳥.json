@@ -1,0 +1,24 @@
+{
+  "character": "鳥",
+  "level": "n5",
+  "meanings": {
+    "es": ["pájaro", "ave"]
+  },
+  "onyomi": ["チョウ"],
+  "kunyomi": ["とり"],
+  "strokes": 11,
+  "examples": [
+    {
+      "word": "鳥[とり]",
+      "meaning": {
+        "es": "pájaro"
+      }
+    },
+    {
+      "word": "小鳥[ことり]",
+      "meaning": {
+        "es": "pajarito"
+      }
+    }
+  ]
+}

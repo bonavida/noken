@@ -1,0 +1,31 @@
+{
+  "character": "三",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["tres"]
+  },
+  "onyomi": ["サン"],
+  "kunyomi": ["み.つ"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "三[さん]",
+      "meaning": {
+        "es": "tres"
+      }
+    },
+    {
+      "word": "三[みっ]つ",
+      "meaning": {
+        "es": "tres cosas"
+      }
+    },
+    {
+      "word": "三人[さんにん]",
+      "meaning": {
+        "es": "tres personas"
+      }
+    }
+  ]
+}

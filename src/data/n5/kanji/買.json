@@ -1,0 +1,25 @@
+{
+  "character": "買",
+  "level": "n5",
+  "lesson": 6,
+  "meanings": {
+    "es": ["comprar"]
+  },
+  "onyomi": ["バイ"],
+  "kunyomi": ["か.う"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "買[か]います",
+      "meaning": {
+        "es": "comprar"
+      }
+    },
+    {
+      "word": "買[か]い 物[もの]",
+      "meaning": {
+        "es": "compras"
+      }
+    }
+  ]
+}

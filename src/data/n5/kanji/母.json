@@ -1,0 +1,31 @@
+{
+  "character": "母",
+  "level": "n5",
+  "lesson": 7,
+  "meanings": {
+    "es": ["madre"]
+  },
+  "onyomi": ["ボ"],
+  "kunyomi": ["はは"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "母[はは]",
+      "meaning": {
+        "es": "mi madre"
+      }
+    },
+    {
+      "word": "お 母[かあ]さん",
+      "meaning": {
+        "es": "su madre"
+      }
+    },
+    {
+      "word": "母[はは]の 日[ひ]",
+      "meaning": {
+        "es": "Día de la Madre"
+      }
+    }
+  ]
+}

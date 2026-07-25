@@ -1,0 +1,25 @@
+{
+  "character": "犬",
+  "level": "n5",
+  "lesson": 10,
+  "meanings": {
+    "es": ["perro"]
+  },
+  "onyomi": ["ケン"],
+  "kunyomi": ["いぬ"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "犬[いぬ]",
+      "meaning": {
+        "es": "perro"
+      }
+    },
+    {
+      "word": "子犬[こいぬ]",
+      "meaning": {
+        "es": "cachorro"
+      }
+    }
+  ]
+}

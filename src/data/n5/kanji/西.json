@@ -1,0 +1,24 @@
+{
+  "character": "西",
+  "level": "n5",
+  "meanings": {
+    "es": ["oeste"]
+  },
+  "onyomi": ["セイ", "サイ"],
+  "kunyomi": ["にし"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "西[にし]",
+      "meaning": {
+        "es": "oeste"
+      }
+    },
+    {
+      "word": "関西[かんさい]",
+      "meaning": {
+        "es": "región de Kansai"
+      }
+    }
+  ]
+}

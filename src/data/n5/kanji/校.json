@@ -1,0 +1,25 @@
+{
+  "character": "校",
+  "level": "n5",
+  "lesson": 5,
+  "meanings": {
+    "es": ["escuela"]
+  },
+  "onyomi": ["コウ"],
+  "kunyomi": [],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "学校[がっこう]",
+      "meaning": {
+        "es": "escuela"
+      }
+    },
+    {
+      "word": "高校[こうこう]",
+      "meaning": {
+        "es": "instituto"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "文",
+  "level": "n5",
+  "lesson": 13,
+  "meanings": {
+    "es": ["texto", "escrito"]
+  },
+  "onyomi": ["ブン", "モン"],
+  "kunyomi": ["ふみ"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "文字[もじ]",
+      "meaning": {
+        "es": "carácter, letra"
+      }
+    },
+    {
+      "word": "文化[ぶんか]",
+      "meaning": {
+        "es": "cultura"
+      }
+    },
+    {
+      "word": "注文[ちゅうもん]",
+      "meaning": {
+        "es": "pedido"
+      }
+    }
+  ]
+}

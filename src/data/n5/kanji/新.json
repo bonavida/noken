@@ -1,0 +1,31 @@
+{
+  "character": "新",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["nuevo"]
+  },
+  "onyomi": ["シン"],
+  "kunyomi": ["あたら.しい"],
+  "strokes": 13,
+  "examples": [
+    {
+      "word": "新[あたら]しい",
+      "meaning": {
+        "es": "nuevo"
+      }
+    },
+    {
+      "word": "新聞[しんぶん]",
+      "meaning": {
+        "es": "periódico"
+      }
+    },
+    {
+      "word": "新幹線[しんかんせん]",
+      "meaning": {
+        "es": "Shinkansen"
+      }
+    }
+  ]
+}

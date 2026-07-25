@@ -1,0 +1,25 @@
+{
+  "character": "午",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["mediodía"]
+  },
+  "onyomi": ["ゴ"],
+  "kunyomi": [],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "午前[ごぜん]",
+      "meaning": {
+        "es": "de la mañana"
+      }
+    },
+    {
+      "word": "午後[ごご]",
+      "meaning": {
+        "es": "de la tarde"
+      }
+    }
+  ]
+}

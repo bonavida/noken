@@ -1,0 +1,31 @@
+{
+  "character": "中",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["dentro", "medio"]
+  },
+  "onyomi": ["チュウ"],
+  "kunyomi": ["なか"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "中[なか]",
+      "meaning": {
+        "es": "dentro"
+      }
+    },
+    {
+      "word": "中国[ちゅうごく]",
+      "meaning": {
+        "es": "China"
+      }
+    },
+    {
+      "word": "中学校[ちゅうがっこう]",
+      "meaning": {
+        "es": "secundaria"
+      }
+    }
+  ]
+}

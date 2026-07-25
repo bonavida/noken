@@ -1,0 +1,25 @@
+{
+  "character": "山",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["montaña"]
+  },
+  "onyomi": ["サン"],
+  "kunyomi": ["やま"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "山[やま]",
+      "meaning": {
+        "es": "montaña"
+      }
+    },
+    {
+      "word": "富士山[ふじさん]",
+      "meaning": {
+        "es": "monte Fuji"
+      }
+    }
+  ]
+}

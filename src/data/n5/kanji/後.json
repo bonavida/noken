@@ -1,0 +1,31 @@
+{
+  "character": "後",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["después", "detrás"]
+  },
+  "onyomi": ["ゴ", "コウ"],
+  "kunyomi": ["あと", "うし.ろ"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "午後[ごご]",
+      "meaning": {
+        "es": "de la tarde"
+      }
+    },
+    {
+      "word": "後[あと]で",
+      "meaning": {
+        "es": "después"
+      }
+    },
+    {
+      "word": "後[うし]ろ",
+      "meaning": {
+        "es": "detrás"
+      }
+    }
+  ]
+}

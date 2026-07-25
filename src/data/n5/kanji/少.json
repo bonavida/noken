@@ -1,0 +1,31 @@
+{
+  "character": "少",
+  "level": "n5",
+  "lesson": 9,
+  "meanings": {
+    "es": ["poco"]
+  },
+  "onyomi": ["ショウ"],
+  "kunyomi": ["すく.ない", "すこ.し"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "少[すこ]し",
+      "meaning": {
+        "es": "un poco"
+      }
+    },
+    {
+      "word": "少[すく]ない",
+      "meaning": {
+        "es": "poco"
+      }
+    },
+    {
+      "word": "少々[しょうしょう]",
+      "meaning": {
+        "es": "un momento"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "花",
+  "level": "n5",
+  "lesson": 6,
+  "meanings": {
+    "es": ["flor"]
+  },
+  "onyomi": ["カ"],
+  "kunyomi": ["はな"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "花[はな]",
+      "meaning": {
+        "es": "flor"
+      }
+    },
+    {
+      "word": "花見[はなみ]",
+      "meaning": {
+        "es": "ver los cerezos"
+      }
+    },
+    {
+      "word": "生[い]け 花[ばな]",
+      "meaning": {
+        "es": "arreglo floral"
+      }
+    }
+  ]
+}

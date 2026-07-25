@@ -1,0 +1,31 @@
+{
+  "character": "五",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["cinco"]
+  },
+  "onyomi": ["ゴ"],
+  "kunyomi": ["いつ.つ"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "五[ご]",
+      "meaning": {
+        "es": "cinco"
+      }
+    },
+    {
+      "word": "五[いつ]つ",
+      "meaning": {
+        "es": "cinco cosas"
+      }
+    },
+    {
+      "word": "五分[ごふん]",
+      "meaning": {
+        "es": "cinco minutos"
+      }
+    }
+  ]
+}

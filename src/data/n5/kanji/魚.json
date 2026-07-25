@@ -1,0 +1,19 @@
+{
+  "character": "魚",
+  "level": "n5",
+  "lesson": 6,
+  "meanings": {
+    "es": ["pez", "pescado"]
+  },
+  "onyomi": ["ギョ"],
+  "kunyomi": ["さかな"],
+  "strokes": 11,
+  "examples": [
+    {
+      "word": "魚[さかな]",
+      "meaning": {
+        "es": "pescado"
+      }
+    }
+  ]
+}

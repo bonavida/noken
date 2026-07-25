@@ -1,0 +1,25 @@
+{
+  "character": "土",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["tierra", "suelo"]
+  },
+  "onyomi": ["ド", "ト"],
+  "kunyomi": ["つち"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "土曜日[どようび]",
+      "meaning": {
+        "es": "sábado"
+      }
+    },
+    {
+      "word": "土[つち]",
+      "meaning": {
+        "es": "tierra"
+      }
+    }
+  ]
+}

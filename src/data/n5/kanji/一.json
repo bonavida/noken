@@ -1,0 +1,31 @@
+{
+  "character": "一",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["uno"]
+  },
+  "onyomi": ["イチ", "イツ"],
+  "kunyomi": ["ひと.つ"],
+  "strokes": 1,
+  "examples": [
+    {
+      "word": "一[いち]",
+      "meaning": {
+        "es": "uno"
+      }
+    },
+    {
+      "word": "一[ひと]つ",
+      "meaning": {
+        "es": "una cosa"
+      }
+    },
+    {
+      "word": "一人[ひとり]",
+      "meaning": {
+        "es": "una persona"
+      }
+    }
+  ]
+}

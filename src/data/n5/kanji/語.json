@@ -1,0 +1,25 @@
+{
+  "character": "語",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["idioma", "palabra"]
+  },
+  "onyomi": ["ゴ"],
+  "kunyomi": ["かた.る"],
+  "strokes": 14,
+  "examples": [
+    {
+      "word": "日本語[にほんご]",
+      "meaning": {
+        "es": "idioma japonés"
+      }
+    },
+    {
+      "word": "英語[えいご]",
+      "meaning": {
+        "es": "idioma inglés"
+      }
+    }
+  ]
+}

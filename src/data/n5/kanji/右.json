@@ -1,0 +1,25 @@
+{
+  "character": "右",
+  "level": "n5",
+  "lesson": 10,
+  "meanings": {
+    "es": ["derecha"]
+  },
+  "onyomi": ["ウ", "ユウ"],
+  "kunyomi": ["みぎ"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "右[みぎ]",
+      "meaning": {
+        "es": "derecha"
+      }
+    },
+    {
+      "word": "右手[みぎて]",
+      "meaning": {
+        "es": "mano derecha"
+      }
+    }
+  ]
+}

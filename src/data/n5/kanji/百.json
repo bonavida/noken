@@ -1,0 +1,25 @@
+{
+  "character": "百",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["cien"]
+  },
+  "onyomi": ["ヒャク"],
+  "kunyomi": [],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "百[ひゃく]",
+      "meaning": {
+        "es": "cien"
+      }
+    },
+    {
+      "word": "三百[さんびゃく]",
+      "meaning": {
+        "es": "trescientos"
+      }
+    }
+  ]
+}

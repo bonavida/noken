@@ -1,0 +1,25 @@
+{
+  "character": "聞",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["oír", "escuchar"]
+  },
+  "onyomi": ["ブン"],
+  "kunyomi": ["き.く"],
+  "strokes": 14,
+  "examples": [
+    {
+      "word": "聞[き]きます",
+      "meaning": {
+        "es": "escuchar"
+      }
+    },
+    {
+      "word": "新聞[しんぶん]",
+      "meaning": {
+        "es": "periódico"
+      }
+    }
+  ]
+}

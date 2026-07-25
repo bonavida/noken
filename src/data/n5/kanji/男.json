@@ -1,0 +1,31 @@
+{
+  "character": "男",
+  "level": "n5",
+  "lesson": 10,
+  "meanings": {
+    "es": ["hombre", "varón"]
+  },
+  "onyomi": ["ダン", "ナン"],
+  "kunyomi": ["おとこ"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "男[おとこ]",
+      "meaning": {
+        "es": "hombre"
+      }
+    },
+    {
+      "word": "男[おとこ]の 人[ひと]",
+      "meaning": {
+        "es": "hombre"
+      }
+    },
+    {
+      "word": "男[おとこ]の 子[こ]",
+      "meaning": {
+        "es": "niño"
+      }
+    }
+  ]
+}

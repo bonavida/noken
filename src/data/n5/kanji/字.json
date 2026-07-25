@@ -1,0 +1,31 @@
+{
+  "character": "字",
+  "level": "n5",
+  "lesson": 9,
+  "meanings": {
+    "es": ["carácter", "letra"]
+  },
+  "onyomi": ["ジ"],
+  "kunyomi": [],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "字[じ]",
+      "meaning": {
+        "es": "letra"
+      }
+    },
+    {
+      "word": "漢字[かんじ]",
+      "meaning": {
+        "es": "kanji"
+      }
+    },
+    {
+      "word": "文字[もじ]",
+      "meaning": {
+        "es": "carácter"
+      }
+    }
+  ]
+}

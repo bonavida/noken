@@ -1,0 +1,31 @@
+{
+  "character": "毎",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["cada"]
+  },
+  "onyomi": ["マイ"],
+  "kunyomi": [],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "毎日[まいにち]",
+      "meaning": {
+        "es": "todos los días"
+      }
+    },
+    {
+      "word": "毎朝[まいあさ]",
+      "meaning": {
+        "es": "cada mañana"
+      }
+    },
+    {
+      "word": "毎週[まいしゅう]",
+      "meaning": {
+        "es": "cada semana"
+      }
+    }
+  ]
+}

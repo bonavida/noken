@@ -1,0 +1,25 @@
+{
+  "character": "古",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["viejo", "antiguo"]
+  },
+  "onyomi": ["コ"],
+  "kunyomi": ["ふる.い"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "古[ふる]い",
+      "meaning": {
+        "es": "viejo"
+      }
+    },
+    {
+      "word": "中古[ちゅうこ]",
+      "meaning": {
+        "es": "de segunda mano"
+      }
+    }
+  ]
+}

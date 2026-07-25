@@ -1,0 +1,31 @@
+{
+  "character": "見",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["ver", "mirar"]
+  },
+  "onyomi": ["ケン"],
+  "kunyomi": ["み.る"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "見[み]ます",
+      "meaning": {
+        "es": "ver"
+      }
+    },
+    {
+      "word": "見学[けんがく]",
+      "meaning": {
+        "es": "visita de estudio"
+      }
+    },
+    {
+      "word": "花見[はなみ]",
+      "meaning": {
+        "es": "ver los cerezos"
+      }
+    }
+  ]
+}

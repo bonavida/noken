@@ -1,0 +1,25 @@
+{
+  "character": "立",
+  "level": "n5",
+  "lesson": 14,
+  "meanings": {
+    "es": ["ponerse de pie"]
+  },
+  "onyomi": ["リツ"],
+  "kunyomi": ["た.つ"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "立[た]ちます",
+      "meaning": {
+        "es": "ponerse de pie"
+      }
+    },
+    {
+      "word": "役[やく]に 立[た]ちます",
+      "meaning": {
+        "es": "ser útil"
+      }
+    }
+  ]
+}

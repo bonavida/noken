@@ -1,0 +1,31 @@
+{
+  "character": "口",
+  "level": "n5",
+  "lesson": 16,
+  "meanings": {
+    "es": ["boca"]
+  },
+  "onyomi": ["コウ", "ク"],
+  "kunyomi": ["くち"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "口[くち]",
+      "meaning": {
+        "es": "boca"
+      }
+    },
+    {
+      "word": "入口[いりぐち]",
+      "meaning": {
+        "es": "entrada"
+      }
+    },
+    {
+      "word": "出口[でぐち]",
+      "meaning": {
+        "es": "salida"
+      }
+    }
+  ]
+}

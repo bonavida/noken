@@ -1,0 +1,25 @@
+{
+  "character": "北",
+  "level": "n5",
+  "lesson": 19,
+  "meanings": {
+    "es": ["norte"]
+  },
+  "onyomi": ["ホク"],
+  "kunyomi": ["きた"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "北[きた]",
+      "meaning": {
+        "es": "norte"
+      }
+    },
+    {
+      "word": "北海道[ほっかいどう]",
+      "meaning": {
+        "es": "Hokkaido"
+      }
+    }
+  ]
+}

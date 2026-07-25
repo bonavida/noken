@@ -1,0 +1,31 @@
+{
+  "character": "九",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["nueve"]
+  },
+  "onyomi": ["キュウ", "ク"],
+  "kunyomi": ["ここの.つ"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "九[きゅう]",
+      "meaning": {
+        "es": "nueve"
+      }
+    },
+    {
+      "word": "九[ここの]つ",
+      "meaning": {
+        "es": "nueve cosas"
+      }
+    },
+    {
+      "word": "九月[くがつ]",
+      "meaning": {
+        "es": "septiembre"
+      }
+    }
+  ]
+}

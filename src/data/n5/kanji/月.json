@@ -1,0 +1,31 @@
+{
+  "character": "月",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["luna", "mes"]
+  },
+  "onyomi": ["ゲツ", "ガツ"],
+  "kunyomi": ["つき"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "月曜日[げつようび]",
+      "meaning": {
+        "es": "lunes"
+      }
+    },
+    {
+      "word": "一月[いちがつ]",
+      "meaning": {
+        "es": "enero"
+      }
+    },
+    {
+      "word": "月[つき]",
+      "meaning": {
+        "es": "luna"
+      }
+    }
+  ]
+}

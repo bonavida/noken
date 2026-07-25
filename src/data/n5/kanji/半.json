@@ -1,0 +1,31 @@
+{
+  "character": "半",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["mitad"]
+  },
+  "onyomi": ["ハン"],
+  "kunyomi": ["なか.ば"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "半[はん]",
+      "meaning": {
+        "es": "y media"
+      }
+    },
+    {
+      "word": "半分[はんぶん]",
+      "meaning": {
+        "es": "la mitad"
+      }
+    },
+    {
+      "word": "一時半[いちじはん]",
+      "meaning": {
+        "es": "la una y media"
+      }
+    }
+  ]
+}

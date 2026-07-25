@@ -1,0 +1,25 @@
+{
+  "character": "目",
+  "level": "n5",
+  "lesson": 16,
+  "meanings": {
+    "es": ["ojo"]
+  },
+  "onyomi": ["モク"],
+  "kunyomi": ["め"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "目[め]",
+      "meaning": {
+        "es": "ojo"
+      }
+    },
+    {
+      "word": "2つ 目[め]",
+      "meaning": {
+        "es": "el segundo"
+      }
+    }
+  ]
+}

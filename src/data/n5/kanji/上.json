@@ -1,0 +1,31 @@
+{
+  "character": "上",
+  "level": "n5",
+  "lesson": 7,
+  "meanings": {
+    "es": ["arriba", "encima"]
+  },
+  "onyomi": ["ジョウ"],
+  "kunyomi": ["うえ", "あ.げる"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "上[うえ]",
+      "meaning": {
+        "es": "encima"
+      }
+    },
+    {
+      "word": "上手[じょうず]",
+      "meaning": {
+        "es": "hábil"
+      }
+    },
+    {
+      "word": "上着[うわぎ]",
+      "meaning": {
+        "es": "chaqueta"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "character": "左",
+  "level": "n5",
+  "lesson": 10,
+  "meanings": {
+    "es": ["izquierda"]
+  },
+  "onyomi": ["サ"],
+  "kunyomi": ["ひだり"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "左[ひだり]",
+      "meaning": {
+        "es": "izquierda"
+      }
+    },
+    {
+      "word": "左手[ひだりて]",
+      "meaning": {
+        "es": "mano izquierda"
+      }
+    }
+  ]
+}

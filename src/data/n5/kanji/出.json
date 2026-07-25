@@ -1,0 +1,31 @@
+{
+  "character": "出",
+  "level": "n5",
+  "lesson": 11,
+  "meanings": {
+    "es": ["salir", "sacar"]
+  },
+  "onyomi": ["シュツ"],
+  "kunyomi": ["で.る", "だ.す"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "出[で]ます",
+      "meaning": {
+        "es": "salir"
+      }
+    },
+    {
+      "word": "出[だ]します",
+      "meaning": {
+        "es": "sacar, enviar"
+      }
+    },
+    {
+      "word": "出口[でぐち]",
+      "meaning": {
+        "es": "salida"
+      }
+    }
+  ]
+}

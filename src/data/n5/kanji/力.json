@@ -1,0 +1,24 @@
+{
+  "character": "力",
+  "level": "n5",
+  "meanings": {
+    "es": ["fuerza"]
+  },
+  "onyomi": ["リョク", "リキ"],
+  "kunyomi": ["ちから"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "力[ちから]",
+      "meaning": {
+        "es": "fuerza"
+      }
+    },
+    {
+      "word": "協力[きょうりょく]",
+      "meaning": {
+        "es": "cooperación"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "電",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["electricidad"]
+  },
+  "onyomi": ["デン"],
+  "kunyomi": [],
+  "strokes": 13,
+  "examples": [
+    {
+      "word": "電気[でんき]",
+      "meaning": {
+        "es": "electricidad, luz"
+      }
+    },
+    {
+      "word": "電車[でんしゃ]",
+      "meaning": {
+        "es": "tren"
+      }
+    },
+    {
+      "word": "電話[でんわ]",
+      "meaning": {
+        "es": "teléfono"
+      }
+    }
+  ]
+}

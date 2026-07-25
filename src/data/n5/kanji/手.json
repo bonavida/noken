@@ -1,0 +1,31 @@
+{
+  "character": "手",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["mano"]
+  },
+  "onyomi": ["シュ"],
+  "kunyomi": ["て"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "手[て]",
+      "meaning": {
+        "es": "mano"
+      }
+    },
+    {
+      "word": "手紙[てがみ]",
+      "meaning": {
+        "es": "carta"
+      }
+    },
+    {
+      "word": "上手[じょうず]",
+      "meaning": {
+        "es": "hábil"
+      }
+    }
+  ]
+}

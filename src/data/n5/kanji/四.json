@@ -1,0 +1,31 @@
+{
+  "character": "四",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["cuatro"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": ["よん", "よ.つ"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "四[よん]",
+      "meaning": {
+        "es": "cuatro"
+      }
+    },
+    {
+      "word": "四[よっ]つ",
+      "meaning": {
+        "es": "cuatro cosas"
+      }
+    },
+    {
+      "word": "四月[しがつ]",
+      "meaning": {
+        "es": "abril"
+      }
+    }
+  ]
+}

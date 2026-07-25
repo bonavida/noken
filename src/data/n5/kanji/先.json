@@ -1,0 +1,31 @@
+{
+  "character": "先",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["antes", "adelante"]
+  },
+  "onyomi": ["セン"],
+  "kunyomi": ["さき"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "先生[せんせい]",
+      "meaning": {
+        "es": "profesor"
+      }
+    },
+    {
+      "word": "先週[せんしゅう]",
+      "meaning": {
+        "es": "la semana pasada"
+      }
+    },
+    {
+      "word": "先[さき]",
+      "meaning": {
+        "es": "adelante"
+      }
+    }
+  ]
+}

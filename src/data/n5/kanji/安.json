@@ -1,0 +1,25 @@
+{
+  "character": "安",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["barato", "tranquilo"]
+  },
+  "onyomi": ["アン"],
+  "kunyomi": ["やす.い"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "安[やす]い",
+      "meaning": {
+        "es": "barato"
+      }
+    },
+    {
+      "word": "安心[あんしん]",
+      "meaning": {
+        "es": "tranquilidad"
+      }
+    }
+  ]
+}

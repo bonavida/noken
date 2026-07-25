@@ -1,0 +1,31 @@
+{
+  "character": "間",
+  "level": "n5",
+  "lesson": 9,
+  "meanings": {
+    "es": ["intervalo", "entre"]
+  },
+  "onyomi": ["カン", "ケン"],
+  "kunyomi": ["あいだ"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "時間[じかん]",
+      "meaning": {
+        "es": "tiempo"
+      }
+    },
+    {
+      "word": "間[あいだ]",
+      "meaning": {
+        "es": "entre"
+      }
+    },
+    {
+      "word": "二週間[にしゅうかん]",
+      "meaning": {
+        "es": "dos semanas"
+      }
+    }
+  ]
+}

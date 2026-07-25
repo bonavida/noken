@@ -1,0 +1,25 @@
+{
+  "character": "駅",
+  "level": "n5",
+  "lesson": 5,
+  "meanings": {
+    "es": ["estación"]
+  },
+  "onyomi": ["エキ"],
+  "kunyomi": [],
+  "strokes": 14,
+  "examples": [
+    {
+      "word": "駅[えき]",
+      "meaning": {
+        "es": "estación"
+      }
+    },
+    {
+      "word": "東京駅[とうきょうえき]",
+      "meaning": {
+        "es": "estación de Tokio"
+      }
+    }
+  ]
+}

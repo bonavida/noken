@@ -1,0 +1,25 @@
+{
+  "character": "水",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["agua"]
+  },
+  "onyomi": ["スイ"],
+  "kunyomi": ["みず"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "水曜日[すいようび]",
+      "meaning": {
+        "es": "miércoles"
+      }
+    },
+    {
+      "word": "水[みず]",
+      "meaning": {
+        "es": "agua"
+      }
+    }
+  ]
+}

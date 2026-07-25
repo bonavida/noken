@@ -1,0 +1,25 @@
+{
+  "character": "友",
+  "level": "n5",
+  "lesson": 5,
+  "meanings": {
+    "es": ["amigo"]
+  },
+  "onyomi": ["ユウ"],
+  "kunyomi": ["とも"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "友達[ともだち]",
+      "meaning": {
+        "es": "amigo"
+      }
+    },
+    {
+      "word": "親友[しんゆう]",
+      "meaning": {
+        "es": "mejor amigo"
+      }
+    }
+  ]
+}

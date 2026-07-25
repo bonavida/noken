@@ -1,0 +1,31 @@
+{
+  "character": "六",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["seis"]
+  },
+  "onyomi": ["ロク"],
+  "kunyomi": ["む.つ"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "六[ろく]",
+      "meaning": {
+        "es": "seis"
+      }
+    },
+    {
+      "word": "六[むっ]つ",
+      "meaning": {
+        "es": "seis cosas"
+      }
+    },
+    {
+      "word": "六月[ろくがつ]",
+      "meaning": {
+        "es": "junio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "character": "早",
+  "level": "n5",
+  "lesson": 9,
+  "meanings": {
+    "es": ["temprano"]
+  },
+  "onyomi": ["ソウ"],
+  "kunyomi": ["はや.い"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "早[はや]い",
+      "meaning": {
+        "es": "temprano"
+      }
+    },
+    {
+      "word": "早[はや]く",
+      "meaning": {
+        "es": "pronto"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "character": "読",
+  "level": "n5",
+  "lesson": 6,
+  "meanings": {
+    "es": ["leer"]
+  },
+  "onyomi": ["ドク"],
+  "kunyomi": ["よ.む"],
+  "strokes": 14,
+  "examples": [
+    {
+      "word": "読[よ]みます",
+      "meaning": {
+        "es": "leer"
+      }
+    },
+    {
+      "word": "読[よ]み 方[かた]",
+      "meaning": {
+        "es": "modo de lectura"
+      }
+    }
+  ]
+}

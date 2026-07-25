@@ -1,0 +1,25 @@
+{
+  "character": "父",
+  "level": "n5",
+  "lesson": 7,
+  "meanings": {
+    "es": ["padre"]
+  },
+  "onyomi": ["フ"],
+  "kunyomi": ["ちち"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "父[ちち]",
+      "meaning": {
+        "es": "mi padre"
+      }
+    },
+    {
+      "word": "お 父[とう]さん",
+      "meaning": {
+        "es": "su padre"
+      }
+    }
+  ]
+}

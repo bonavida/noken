@@ -1,0 +1,31 @@
+{
+  "character": "前",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["antes", "delante"]
+  },
+  "onyomi": ["ゼン"],
+  "kunyomi": ["まえ"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "午前[ごぜん]",
+      "meaning": {
+        "es": "de la mañana"
+      }
+    },
+    {
+      "word": "前[まえ]",
+      "meaning": {
+        "es": "delante"
+      }
+    },
+    {
+      "word": "名前[なまえ]",
+      "meaning": {
+        "es": "nombre"
+      }
+    }
+  ]
+}

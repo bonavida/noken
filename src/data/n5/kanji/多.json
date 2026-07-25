@@ -1,0 +1,25 @@
+{
+  "character": "多",
+  "level": "n5",
+  "lesson": 12,
+  "meanings": {
+    "es": ["mucho", "numeroso"]
+  },
+  "onyomi": ["タ"],
+  "kunyomi": ["おお.い"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "多[おお]い",
+      "meaning": {
+        "es": "mucho"
+      }
+    },
+    {
+      "word": "多分[たぶん]",
+      "meaning": {
+        "es": "probablemente"
+      }
+    }
+  ]
+}

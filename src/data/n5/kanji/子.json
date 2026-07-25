@@ -1,0 +1,31 @@
+{
+  "character": "子",
+  "level": "n5",
+  "lesson": 9,
+  "meanings": {
+    "es": ["niño", "hijo"]
+  },
+  "onyomi": ["シ", "ス"],
+  "kunyomi": ["こ"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "子[こ]ども",
+      "meaning": {
+        "es": "niño"
+      }
+    },
+    {
+      "word": "男[おとこ]の 子[こ]",
+      "meaning": {
+        "es": "niño"
+      }
+    },
+    {
+      "word": "椅子[いす]",
+      "meaning": {
+        "es": "silla"
+      }
+    }
+  ]
+}

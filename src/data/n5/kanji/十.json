@@ -1,0 +1,31 @@
+{
+  "character": "十",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["diez"]
+  },
+  "onyomi": ["ジュウ"],
+  "kunyomi": ["とお"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "十[じゅう]",
+      "meaning": {
+        "es": "diez"
+      }
+    },
+    {
+      "word": "十[とお]",
+      "meaning": {
+        "es": "diez cosas"
+      }
+    },
+    {
+      "word": "十分[じゅっぷん]",
+      "meaning": {
+        "es": "diez minutos"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "八",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["ocho"]
+  },
+  "onyomi": ["ハチ"],
+  "kunyomi": ["や.つ"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "八[はち]",
+      "meaning": {
+        "es": "ocho"
+      }
+    },
+    {
+      "word": "八[やっ]つ",
+      "meaning": {
+        "es": "ocho cosas"
+      }
+    },
+    {
+      "word": "八月[はちがつ]",
+      "meaning": {
+        "es": "agosto"
+      }
+    }
+  ]
+}

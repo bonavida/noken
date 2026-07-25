@@ -1,0 +1,31 @@
+{
+  "character": "長",
+  "level": "n5",
+  "lesson": 16,
+  "meanings": {
+    "es": ["largo", "jefe"]
+  },
+  "onyomi": ["チョウ"],
+  "kunyomi": ["なが.い"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "長[なが]い",
+      "meaning": {
+        "es": "largo"
+      }
+    },
+    {
+      "word": "社長[しゃちょう]",
+      "meaning": {
+        "es": "presidente"
+      }
+    },
+    {
+      "word": "部長[ぶちょう]",
+      "meaning": {
+        "es": "gerente"
+      }
+    }
+  ]
+}

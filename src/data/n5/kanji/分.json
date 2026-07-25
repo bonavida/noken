@@ -1,0 +1,31 @@
+{
+  "character": "分",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["minuto", "dividir"]
+  },
+  "onyomi": ["フン", "ブン"],
+  "kunyomi": ["わ.かる"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "五分[ごふん]",
+      "meaning": {
+        "es": "cinco minutos"
+      }
+    },
+    {
+      "word": "自分[じぶん]",
+      "meaning": {
+        "es": "uno mismo"
+      }
+    },
+    {
+      "word": "半分[はんぶん]",
+      "meaning": {
+        "es": "la mitad"
+      }
+    }
+  ]
+}

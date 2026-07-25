@@ -1,0 +1,31 @@
+{
+  "character": "二",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["dos"]
+  },
+  "onyomi": ["ニ"],
+  "kunyomi": ["ふた.つ"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "二[に]",
+      "meaning": {
+        "es": "dos"
+      }
+    },
+    {
+      "word": "二[ふた]つ",
+      "meaning": {
+        "es": "dos cosas"
+      }
+    },
+    {
+      "word": "二人[ふたり]",
+      "meaning": {
+        "es": "dos personas"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "character": "飲",
+  "level": "n5",
+  "lesson": 6,
+  "meanings": {
+    "es": ["beber"]
+  },
+  "onyomi": ["イン"],
+  "kunyomi": ["の.む"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "飲[の]みます",
+      "meaning": {
+        "es": "beber"
+      }
+    },
+    {
+      "word": "飲[の]み 物[もの]",
+      "meaning": {
+        "es": "bebida"
+      }
+    }
+  ]
+}

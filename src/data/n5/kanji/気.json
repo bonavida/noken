@@ -1,0 +1,31 @@
+{
+  "character": "気",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["espíritu", "aire"]
+  },
+  "onyomi": ["キ", "ケ"],
+  "kunyomi": [],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "天気[てんき]",
+      "meaning": {
+        "es": "tiempo (clima)"
+      }
+    },
+    {
+      "word": "元気[げんき]",
+      "meaning": {
+        "es": "con ánimo"
+      }
+    },
+    {
+      "word": "電気[でんき]",
+      "meaning": {
+        "es": "electricidad"
+      }
+    }
+  ]
+}

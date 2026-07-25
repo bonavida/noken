@@ -1,0 +1,25 @@
+{
+  "character": "帰",
+  "level": "n5",
+  "lesson": 5,
+  "meanings": {
+    "es": ["volver", "regresar"]
+  },
+  "onyomi": ["キ"],
+  "kunyomi": ["かえ.る"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "帰[かえ]ります",
+      "meaning": {
+        "es": "volver"
+      }
+    },
+    {
+      "word": "お 帰[かえ]りなさい",
+      "meaning": {
+        "es": "bienvenido de vuelta"
+      }
+    }
+  ]
+}

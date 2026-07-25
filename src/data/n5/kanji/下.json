@@ -1,0 +1,31 @@
+{
+  "character": "下",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["abajo", "debajo"]
+  },
+  "onyomi": ["カ", "ゲ"],
+  "kunyomi": ["した", "さ.げる"],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "下[した]",
+      "meaning": {
+        "es": "debajo"
+      }
+    },
+    {
+      "word": "下手[へた]",
+      "meaning": {
+        "es": "poco hábil"
+      }
+    },
+    {
+      "word": "地下[ちか]",
+      "meaning": {
+        "es": "sótano"
+      }
+    }
+  ]
+}

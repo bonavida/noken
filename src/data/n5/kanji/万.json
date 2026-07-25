@@ -1,0 +1,25 @@
+{
+  "character": "万",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["diez mil"]
+  },
+  "onyomi": ["マン", "バン"],
+  "kunyomi": [],
+  "strokes": 3,
+  "examples": [
+    {
+      "word": "一万[いちまん]",
+      "meaning": {
+        "es": "diez mil"
+      }
+    },
+    {
+      "word": "万[まん]",
+      "meaning": {
+        "es": "diez mil"
+      }
+    }
+  ]
+}

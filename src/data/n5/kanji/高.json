@@ -1,0 +1,25 @@
+{
+  "character": "高",
+  "level": "n5",
+  "lesson": 8,
+  "meanings": {
+    "es": ["alto", "caro"]
+  },
+  "onyomi": ["コウ"],
+  "kunyomi": ["たか.い"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "高[たか]い",
+      "meaning": {
+        "es": "alto, caro"
+      }
+    },
+    {
+      "word": "高校[こうこう]",
+      "meaning": {
+        "es": "instituto"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "会",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["reunirse", "encontrarse"]
+  },
+  "onyomi": ["カイ"],
+  "kunyomi": ["あ.う"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "会[あ]います",
+      "meaning": {
+        "es": "encontrarse"
+      }
+    },
+    {
+      "word": "会社[かいしゃ]",
+      "meaning": {
+        "es": "empresa"
+      }
+    },
+    {
+      "word": "会議[かいぎ]",
+      "meaning": {
+        "es": "reunión"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "名",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["nombre"]
+  },
+  "onyomi": ["メイ", "ミョウ"],
+  "kunyomi": ["な"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "名前[なまえ]",
+      "meaning": {
+        "es": "nombre"
+      }
+    },
+    {
+      "word": "有名[ゆうめい]",
+      "meaning": {
+        "es": "famoso"
+      }
+    },
+    {
+      "word": "名刺[めいし]",
+      "meaning": {
+        "es": "tarjeta de visita"
+      }
+    }
+  ]
+}

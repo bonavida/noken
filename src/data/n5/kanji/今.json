@@ -1,0 +1,31 @@
+{
+  "character": "今",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["ahora"]
+  },
+  "onyomi": ["コン", "キン"],
+  "kunyomi": ["いま"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "今[いま]",
+      "meaning": {
+        "es": "ahora"
+      }
+    },
+    {
+      "word": "今日[きょう]",
+      "meaning": {
+        "es": "hoy"
+      }
+    },
+    {
+      "word": "今月[こんげつ]",
+      "meaning": {
+        "es": "este mes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "character": "外",
+  "level": "n5",
+  "lesson": 10,
+  "meanings": {
+    "es": ["fuera", "exterior"]
+  },
+  "onyomi": ["ガイ"],
+  "kunyomi": ["そと"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "外[そと]",
+      "meaning": {
+        "es": "fuera"
+      }
+    },
+    {
+      "word": "外国[がいこく]",
+      "meaning": {
+        "es": "extranjero"
+      }
+    },
+    {
+      "word": "外国人[がいこくじん]",
+      "meaning": {
+        "es": "extranjero (persona)"
+      }
+    }
+  ]
+}

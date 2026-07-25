@@ -1,0 +1,31 @@
+{
+  "character": "休",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["descansar"]
+  },
+  "onyomi": ["キュウ"],
+  "kunyomi": ["やす.む"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "休[やす]みます",
+      "meaning": {
+        "es": "descansar"
+      }
+    },
+    {
+      "word": "休[やす]み",
+      "meaning": {
+        "es": "descanso"
+      }
+    },
+    {
+      "word": "昼休[ひるやす]み",
+      "meaning": {
+        "es": "descanso del mediodía"
+      }
+    }
+  ]
+}

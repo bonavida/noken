@@ -1,0 +1,25 @@
+{
+  "character": "天",
+  "level": "n5",
+  "lesson": 11,
+  "meanings": {
+    "es": ["cielo"]
+  },
+  "onyomi": ["テン"],
+  "kunyomi": ["あま"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "天気[てんき]",
+      "meaning": {
+        "es": "tiempo (clima)"
+      }
+    },
+    {
+      "word": "天才[てんさい]",
+      "meaning": {
+        "es": "genio"
+      }
+    }
+  ]
+}

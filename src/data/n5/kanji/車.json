@@ -1,0 +1,31 @@
+{
+  "character": "車",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["coche", "vehículo"]
+  },
+  "onyomi": ["シャ"],
+  "kunyomi": ["くるま"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "車[くるま]",
+      "meaning": {
+        "es": "coche"
+      }
+    },
+    {
+      "word": "電車[でんしゃ]",
+      "meaning": {
+        "es": "tren"
+      }
+    },
+    {
+      "word": "自転車[じてんしゃ]",
+      "meaning": {
+        "es": "bicicleta"
+      }
+    }
+  ]
+}

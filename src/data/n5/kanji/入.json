@@ -1,0 +1,31 @@
+{
+  "character": "入",
+  "level": "n5",
+  "lesson": 14,
+  "meanings": {
+    "es": ["entrar", "meter"]
+  },
+  "onyomi": ["ニュウ"],
+  "kunyomi": ["はい.る", "い.れる"],
+  "strokes": 2,
+  "examples": [
+    {
+      "word": "入[はい]ります",
+      "meaning": {
+        "es": "entrar"
+      }
+    },
+    {
+      "word": "入[い]れます",
+      "meaning": {
+        "es": "meter"
+      }
+    },
+    {
+      "word": "入口[いりぐち]",
+      "meaning": {
+        "es": "entrada"
+      }
+    }
+  ]
+}

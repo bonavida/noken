@@ -1,0 +1,31 @@
+{
+  "character": "道",
+  "level": "n5",
+  "lesson": 23,
+  "meanings": {
+    "es": ["camino", "calle"]
+  },
+  "onyomi": ["ドウ"],
+  "kunyomi": ["みち"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "道[みち]",
+      "meaning": {
+        "es": "calle"
+      }
+    },
+    {
+      "word": "北海道[ほっかいどう]",
+      "meaning": {
+        "es": "Hokkaido"
+      }
+    },
+    {
+      "word": "柔道[じゅうどう]",
+      "meaning": {
+        "es": "judo"
+      }
+    }
+  ]
+}

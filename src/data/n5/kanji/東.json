@@ -1,0 +1,25 @@
+{
+  "character": "東",
+  "level": "n5",
+  "lesson": 19,
+  "meanings": {
+    "es": ["este"]
+  },
+  "onyomi": ["トウ"],
+  "kunyomi": ["ひがし"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "東[ひがし]",
+      "meaning": {
+        "es": "este"
+      }
+    },
+    {
+      "word": "東京[とうきょう]",
+      "meaning": {
+        "es": "Tokio"
+      }
+    }
+  ]
+}

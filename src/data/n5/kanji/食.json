@@ -1,0 +1,31 @@
+{
+  "character": "食",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["comer", "comida"]
+  },
+  "onyomi": ["ショク"],
+  "kunyomi": ["た.べる"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "食[た]べます",
+      "meaning": {
+        "es": "comer"
+      }
+    },
+    {
+      "word": "食堂[しょくどう]",
+      "meaning": {
+        "es": "comedor"
+      }
+    },
+    {
+      "word": "食[た]べ 物[もの]",
+      "meaning": {
+        "es": "alimentos"
+      }
+    }
+  ]
+}

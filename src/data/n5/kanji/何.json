@@ -1,0 +1,31 @@
+{
+  "character": "何",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["qué"]
+  },
+  "onyomi": ["カ"],
+  "kunyomi": ["なに", "なん"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "何[なに]",
+      "meaning": {
+        "es": "qué"
+      }
+    },
+    {
+      "word": "何時[なんじ]",
+      "meaning": {
+        "es": "qué hora"
+      }
+    },
+    {
+      "word": "何[なん]ですか",
+      "meaning": {
+        "es": "¿qué es?"
+      }
+    }
+  ]
+}

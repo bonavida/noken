@@ -1,0 +1,25 @@
+{
+  "character": "木",
+  "level": "n5",
+  "lesson": 4,
+  "meanings": {
+    "es": ["árbol", "madera"]
+  },
+  "onyomi": ["モク", "ボク"],
+  "kunyomi": ["き"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "木曜日[もくようび]",
+      "meaning": {
+        "es": "jueves"
+      }
+    },
+    {
+      "word": "木[き]",
+      "meaning": {
+        "es": "árbol"
+      }
+    }
+  ]
+}

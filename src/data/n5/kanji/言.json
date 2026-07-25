@@ -1,0 +1,25 @@
+{
+  "character": "言",
+  "level": "n5",
+  "lesson": 21,
+  "meanings": {
+    "es": ["decir", "palabra"]
+  },
+  "onyomi": ["ゲン", "ゴン"],
+  "kunyomi": ["い.う", "こと"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "言[い]います",
+      "meaning": {
+        "es": "decir"
+      }
+    },
+    {
+      "word": "言葉[ことば]",
+      "meaning": {
+        "es": "palabra"
+      }
+    }
+  ]
+}

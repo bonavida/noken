@@ -1,0 +1,31 @@
+{
+  "character": "話",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["hablar", "historia"]
+  },
+  "onyomi": ["ワ"],
+  "kunyomi": ["はな.す", "はなし"],
+  "strokes": 13,
+  "examples": [
+    {
+      "word": "話[はな]します",
+      "meaning": {
+        "es": "hablar"
+      }
+    },
+    {
+      "word": "電話[でんわ]",
+      "meaning": {
+        "es": "teléfono"
+      }
+    },
+    {
+      "word": "話[はなし]",
+      "meaning": {
+        "es": "cuento, charla"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "character": "円",
+  "level": "n5",
+  "lesson": 3,
+  "meanings": {
+    "es": ["yen", "círculo"]
+  },
+  "onyomi": ["エン"],
+  "kunyomi": ["まる.い"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "円[えん]",
+      "meaning": {
+        "es": "yen"
+      }
+    },
+    {
+      "word": "百円[ひゃくえん]",
+      "meaning": {
+        "es": "cien yenes"
+      }
+    }
+  ]
+}

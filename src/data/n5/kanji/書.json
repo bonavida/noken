@@ -1,0 +1,31 @@
+{
+  "character": "書",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["escribir"]
+  },
+  "onyomi": ["ショ"],
+  "kunyomi": ["か.く"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "書[か]きます",
+      "meaning": {
+        "es": "escribir"
+      }
+    },
+    {
+      "word": "辞書[じしょ]",
+      "meaning": {
+        "es": "diccionario"
+      }
+    },
+    {
+      "word": "図書館[としょかん]",
+      "meaning": {
+        "es": "biblioteca"
+      }
+    }
+  ]
+}

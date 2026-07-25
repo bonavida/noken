@@ -1,0 +1,31 @@
+{
+  "character": "国",
+  "level": "n5",
+  "lesson": 1,
+  "meanings": {
+    "es": ["país"]
+  },
+  "onyomi": ["コク"],
+  "kunyomi": ["くに"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "国[くに]",
+      "meaning": {
+        "es": "país"
+      }
+    },
+    {
+      "word": "外国[がいこく]",
+      "meaning": {
+        "es": "extranjero"
+      }
+    },
+    {
+      "word": "中国[ちゅうごく]",
+      "meaning": {
+        "es": "China"
+      }
+    }
+  ]
+}

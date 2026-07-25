@@ -1,0 +1,31 @@
+{
+  "character": "時",
+  "level": "n5",
+  "lesson": 2,
+  "meanings": {
+    "es": ["hora", "tiempo"]
+  },
+  "onyomi": ["ジ"],
+  "kunyomi": ["とき"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "時間[じかん]",
+      "meaning": {
+        "es": "tiempo"
+      }
+    },
+    {
+      "word": "一時[いちじ]",
+      "meaning": {
+        "es": "la una"
+      }
+    },
+    {
+      "word": "時々[ときどき]",
+      "meaning": {
+        "es": "a veces"
+      }
+    }
+  ]
+}

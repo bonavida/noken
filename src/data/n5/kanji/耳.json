@@ -1,0 +1,19 @@
+{
+  "character": "耳",
+  "level": "n5",
+  "lesson": 16,
+  "meanings": {
+    "es": ["oreja", "oído"]
+  },
+  "onyomi": ["ジ"],
+  "kunyomi": ["みみ"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "耳[みみ]",
+      "meaning": {
+        "es": "oreja"
+      }
+    }
+  ]
+}
