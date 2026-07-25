@@ -1,0 +1,251 @@
+{
+  "level": "n5",
+  "lesson": 17,
+  "words": [
+    {
+      "id": "oboemasu",
+      "word": "覚[おぼ]えます",
+      "kana": "おぼえます",
+      "meaning": { "es": "aprender de memoria" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "wasuremasu",
+      "word": "忘[わす]れます",
+      "kana": "わすれます",
+      "meaning": { "es": "olvidar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "nakushimasu",
+      "word": "なくします",
+      "kana": "なくします",
+      "meaning": { "es": "perder" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "haraimasu",
+      "word": "払[はら]います",
+      "kana": "はらいます",
+      "meaning": { "es": "pagar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "kaeshimasu",
+      "word": "返[かえ]します",
+      "kana": "かえします",
+      "meaning": { "es": "devolver" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "dekakemasu",
+      "word": "出[で]かけます",
+      "kana": "でかけます",
+      "meaning": { "es": "salir" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "nugimasu",
+      "word": "脱[ぬ]ぎます",
+      "kana": "ぬぎます",
+      "meaning": { "es": "quitarse (ropa, zapatos)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "motte-ikimasu",
+      "word": "持[も]って 行[い]きます",
+      "kana": "もっていきます",
+      "meaning": { "es": "llevar (algo)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "motte-kimasu",
+      "word": "持[も]って 来[き]ます",
+      "kana": "もってきます",
+      "meaning": { "es": "traer (algo)" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "shinpai-shimasu",
+      "word": "心配[しんぱい]します",
+      "kana": "しんぱいします",
+      "meaning": { "es": "preocuparse" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "zangyou-shimasu",
+      "word": "残業[ざんぎょう]します",
+      "kana": "ざんぎょうします",
+      "meaning": { "es": "trabajar horas extras" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "shucchou-shimasu",
+      "word": "出張[しゅっちょう]します",
+      "kana": "しゅっちょうします",
+      "meaning": { "es": "ir de viaje de trabajo" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "nomimasu-kusuri",
+      "word": "飲[の]みます[薬[くすり]を〜]",
+      "kana": "のみます",
+      "meaning": { "es": "tomar [medicinas]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "hairimasu-ofuro",
+      "word": "入[はい]ります[おふろに〜]",
+      "kana": "はいります",
+      "meaning": { "es": "tomar [un baño]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "taisetsu",
+      "word": "大切[たいせつ][な]",
+      "kana": "たいせつ",
+      "meaning": { "es": "importante" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "daijoubu",
+      "word": "大丈夫[だいじょうぶ][な]",
+      "kana": "だいじょうぶ",
+      "meaning": { "es": "estar bien, sin problemas" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "abunai",
+      "word": "危[あぶ]ない",
+      "kana": "あぶない",
+      "meaning": { "es": "peligroso" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "kinen",
+      "word": "禁煙[きんえん]",
+      "kana": "きんえん",
+      "meaning": { "es": "prohibido fumar" },
+      "type": "noun"
+    },
+    {
+      "id": "hokenshou",
+      "word": "[健康[けんこう]]保険証[ほけんしょう]",
+      "kana": "けんこうほけんしょう",
+      "meaning": { "es": "tarjeta del seguro [de salud]" },
+      "type": "noun"
+    },
+    {
+      "id": "netsu",
+      "word": "熱[ねつ]",
+      "kana": "ねつ",
+      "meaning": { "es": "fiebre" },
+      "type": "noun"
+    },
+    {
+      "id": "byouki",
+      "word": "病気[びょうき]",
+      "kana": "びょうき",
+      "meaning": { "es": "enfermedad" },
+      "type": "noun"
+    },
+    {
+      "id": "kusuri",
+      "word": "薬[くすり]",
+      "kana": "くすり",
+      "meaning": { "es": "medicina" },
+      "type": "noun"
+    },
+    {
+      "id": "ofuro",
+      "word": "[お]ふろ",
+      "kana": "おふろ",
+      "meaning": { "es": "baño" },
+      "type": "noun"
+    },
+    {
+      "id": "uwagi",
+      "word": "上着[うわぎ]",
+      "kana": "うわぎ",
+      "meaning": { "es": "chaqueta" },
+      "type": "noun"
+    },
+    {
+      "id": "shitagi",
+      "word": "下着[したぎ]",
+      "kana": "したぎ",
+      "meaning": { "es": "ropa interior" },
+      "type": "noun"
+    },
+    {
+      "id": "ni-san-nichi",
+      "word": "2、3日[にち]",
+      "kana": "にさんにち",
+      "meaning": { "es": "unos días" },
+      "type": "expression"
+    },
+    {
+      "id": "ni-san",
+      "word": "2、3〜",
+      "kana": "にさん",
+      "meaning": { "es": "unos ~, dos o tres ~" },
+      "type": "expression"
+    },
+    {
+      "id": "madeni",
+      "word": "〜までに",
+      "kana": "までに",
+      "meaning": { "es": "antes de ~, para ~ (límite)" },
+      "type": "particle"
+    },
+    {
+      "id": "desukara",
+      "word": "ですから",
+      "kana": "ですから",
+      "meaning": { "es": "por eso, entonces" },
+      "type": "conjunction"
+    },
+    {
+      "id": "dou-shimashita-ka",
+      "word": "どうしましたか",
+      "kana": "どうしましたか",
+      "meaning": { "es": "¿qué le pasa?" },
+      "type": "expression"
+    },
+    {
+      "id": "nodo",
+      "word": "のど",
+      "kana": "のど",
+      "meaning": { "es": "garganta" },
+      "type": "noun"
+    },
+    {
+      "id": "itai",
+      "word": "[〜が] 痛[いた]いです",
+      "kana": "いたいです",
+      "meaning": { "es": "me duele [~]" },
+      "type": "expression"
+    },
+    {
+      "id": "kaze",
+      "word": "かぜ",
+      "kana": "かぜ",
+      "meaning": { "es": "resfriado, catarro" },
+      "type": "noun"
+    },
+    {
+      "id": "sorekara-ademas",
+      "word": "それから",
+      "kana": "それから",
+      "meaning": { "es": "y, además" },
+      "type": "conjunction"
+    },
+    {
+      "id": "odaijini",
+      "word": "お 大事[だいじ]に",
+      "kana": "おだいじに",
+      "meaning": { "es": "que se mejore" },
+      "type": "expression"
+    }
+  ]
+}

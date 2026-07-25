@@ -1,0 +1,71 @@
+{
+  "level": "n5",
+  "number": 19,
+  "title": { "es": "La forma た y experiencias" },
+  "jpTitle": "ダイエットはあしたからします",
+  "description": {
+    "es": "La forma た del verbo, contar experiencias con 〜たことがあります y expresar cambios con なります."
+  },
+  "grammar": [
+    {
+      "id": "forma-ta",
+      "title": { "es": "La forma た" },
+      "pattern": "書いて→書いた ／ 飲んで→飲んだ ／ 食べて→食べた",
+      "explanation": {
+        "es": "La forma た es el pasado simple y se obtiene cambiando て／で de la forma て por た／だ: 行[い]って → 行った, 飲[の]んで → 飲んだ."
+      },
+      "examples": [
+        {
+          "jp": "食[た]べます → 食べて → 食べた",
+          "translation": { "es": "Comer → forma て → forma た." }
+        }
+      ]
+    },
+    {
+      "id": "ta-koto-ga-arimasu",
+      "title": { "es": "V た ことが あります — experiencias" },
+      "pattern": "V た ことが あります",
+      "explanation": {
+        "es": "Expresa haber tenido la experiencia alguna vez: 馬[うま]に 乗[の]ったことが あります (he montado a caballo). El negativo con 一度[いちど]も significa «nunca»: 一度も 食[た]べたことが ありません."
+      },
+      "examples": [
+        {
+          "jp": "北海道[ほっかいどう]へ 行[い]ったことがありますか。…いいえ、 一度[いちど]もありません。",
+          "translation": { "es": "¿Has estado en Hokkaido? …No, nunca." }
+        }
+      ]
+    },
+    {
+      "id": "tari-tari",
+      "title": { "es": "V1 たり、V2 たり します — lista de actividades" },
+      "pattern": "V1 たり、V2 たり します",
+      "explanation": {
+        "es": "Enumera actividades como ejemplos, sin orden cronológico (a diferencia de la forma て): 日曜日[にちようび]は テニスを したり、 映画[えいが]を 見[み]たり します."
+      },
+      "examples": [
+        {
+          "jp": "休[やす]みの 日[ひ]は 掃除[そうじ]したり、 洗濯[せんたく]したりします。",
+          "translation": { "es": "Los días libres limpio, lavo la ropa y cosas así." }
+        }
+      ]
+    },
+    {
+      "id": "narimasu",
+      "title": { "es": "〜く／〜に なります — cambios de estado" },
+      "pattern": "A-い → 〜く なります ／ A-な[な] → 〜に なります ／ N に なります",
+      "explanation": {
+        "es": "なります expresa un cambio: 寒[さむ]く なります (se pone frío), 元気[げんき]に なります (se recupera), 25 歳[さい]に なります (cumple 25 años)."
+      },
+      "examples": [
+        {
+          "jp": "日本語[にほんご]が 上手[じょうず]になりましたね。",
+          "translation": { "es": "¡Tu japonés ha mejorado mucho!" }
+        },
+        {
+          "jp": "もうすぐ 暖[あたた]かくなります。",
+          "translation": { "es": "Pronto empezará a hacer calor." }
+        }
+      ]
+    }
+  ]
+}

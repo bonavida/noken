@@ -1,0 +1,57 @@
+{
+  "level": "n5",
+  "number": 20,
+  "title": { "es": "Estilo informal" },
+  "jpTitle": "いっしょに 行[い]かない？",
+  "description": {
+    "es": "El estilo informal (forma simple) frente al cortés: cuándo usar cada uno y cómo suena la conversación entre amigos."
+  },
+  "grammar": [
+    {
+      "id": "estilos",
+      "title": { "es": "Estilo cortés y estilo informal" },
+      "pattern": "です・ます ↔ forma simple (だ, 行く, 高い…)",
+      "explanation": {
+        "es": "El estilo cortés (です・ます) se usa con desconocidos, superiores y en situaciones formales. El estilo informal usa las formas simples del verbo y adjetivo (行く, 行かない, 行った, 高い, 静かだ) y es propio de familia y amigos."
+      },
+      "examples": [
+        {
+          "jp": "あした 東京[とうきょう]へ 行[い]く？…うん、 行[い]く。",
+          "translation": { "es": "¿Vas mañana a Tokio? …Sí, voy." }
+        }
+      ]
+    },
+    {
+      "id": "uso-estilos",
+      "title": { "es": "Cuándo usar cada estilo" },
+      "pattern": "cortés: superiores/desconocidos ／ informal: amigos/familia",
+      "explanation": {
+        "es": "Usar el informal con quien no corresponde resulta maleducado; usar el cortés con amigos íntimos suena distante. Ante la duda, el estilo cortés es siempre la opción segura. きみ, ぼく y 〜くん son formas informales de tratamiento."
+      },
+      "examples": [
+        {
+          "jp": "はい → うん ／ いいえ → ううん",
+          "translation": { "es": "Sí y no también tienen versión informal." }
+        }
+      ]
+    },
+    {
+      "id": "conversacion-informal",
+      "title": { "es": "Rasgos de la conversación informal" },
+      "pattern": "partículas omitidas, か → ¿entonación?, けど",
+      "explanation": {
+        "es": "En el habla informal se omite la か de las preguntas (subiendo la entonación: 行く？), se caen partículas como は・を, y が (pero) suele decirse けど. La い de 〜ている también se pierde: 持ってる."
+      },
+      "examples": [
+        {
+          "jp": "ご 飯[はん][を] 食[た]べた？…ううん、まだ。",
+          "translation": { "es": "¿Has comido? …No, todavía." }
+        },
+        {
+          "jp": "その 傘[かさ]、いいけど、 高[たか]かった？",
+          "translation": { "es": "Ese paraguas está bien, pero ¿fue caro?" }
+        }
+      ]
+    }
+  ]
+}

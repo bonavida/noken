@@ -1,0 +1,202 @@
+{
+  "level": "n5",
+  "lesson": 18,
+  "words": [
+    {
+      "id": "dekimasu",
+      "word": "できます",
+      "kana": "できます",
+      "meaning": { "es": "poder, ser capaz de" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "araimasu",
+      "word": "洗[あら]います",
+      "kana": "あらいます",
+      "meaning": { "es": "lavar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "hikimasu",
+      "word": "弾[ひ]きます",
+      "kana": "ひきます",
+      "meaning": { "es": "tocar (piano, cuerda)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "utaimasu",
+      "word": "歌[うた]います",
+      "kana": "うたいます",
+      "meaning": { "es": "cantar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "atsumemasu",
+      "word": "集[あつ]めます",
+      "kana": "あつめます",
+      "meaning": { "es": "coleccionar, reunir" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "sutemasu",
+      "word": "捨[す]てます",
+      "kana": "すてます",
+      "meaning": { "es": "tirar, botar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "kaemasu",
+      "word": "換[か]えます",
+      "kana": "かえます",
+      "meaning": { "es": "cambiar, reemplazar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "unten-shimasu",
+      "word": "運転[うんてん]します",
+      "kana": "うんてんします",
+      "meaning": { "es": "conducir" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "yoyaku-shimasu",
+      "word": "予約[よやく]します",
+      "kana": "よやくします",
+      "meaning": { "es": "reservar" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "piano",
+      "word": "ピアノ",
+      "kana": "ピアノ",
+      "meaning": { "es": "piano" },
+      "type": "noun"
+    },
+    {
+      "id": "meetoru",
+      "word": "〜メートル",
+      "kana": "メートル",
+      "meaning": { "es": "~ metro(s)" },
+      "type": "counter"
+    },
+    {
+      "id": "genkin",
+      "word": "現金[げんきん]",
+      "kana": "げんきん",
+      "meaning": { "es": "dinero en efectivo" },
+      "type": "noun"
+    },
+    {
+      "id": "shumi",
+      "word": "趣味[しゅみ]",
+      "kana": "しゅみ",
+      "meaning": { "es": "afición, pasatiempo" },
+      "type": "noun"
+    },
+    {
+      "id": "nikki",
+      "word": "日記[にっき]",
+      "kana": "にっき",
+      "meaning": { "es": "diario" },
+      "type": "noun"
+    },
+    {
+      "id": "oinori",
+      "word": "お 祈[いの]り",
+      "kana": "おいのり",
+      "meaning": { "es": "oración, rezo" },
+      "type": "noun"
+    },
+    {
+      "id": "kachou",
+      "word": "課長[かちょう]",
+      "kana": "かちょう",
+      "meaning": { "es": "jefe de sección" },
+      "type": "noun"
+    },
+    {
+      "id": "buchou",
+      "word": "部長[ぶちょう]",
+      "kana": "ぶちょう",
+      "meaning": { "es": "gerente de departamento" },
+      "type": "noun"
+    },
+    {
+      "id": "shachou",
+      "word": "社長[しゃちょう]",
+      "kana": "しゃちょう",
+      "meaning": { "es": "presidente de la empresa" },
+      "type": "noun"
+    },
+    {
+      "id": "doubutsu",
+      "word": "動物[どうぶつ]",
+      "kana": "どうぶつ",
+      "meaning": { "es": "animal" },
+      "type": "noun"
+    },
+    {
+      "id": "uma",
+      "word": "馬[うま]",
+      "kana": "うま",
+      "meaning": { "es": "caballo" },
+      "type": "noun"
+    },
+    {
+      "id": "intaanetto",
+      "word": "インターネット",
+      "kana": "インターネット",
+      "meaning": { "es": "internet" },
+      "type": "noun"
+    },
+    {
+      "id": "tokuni",
+      "word": "特[とく]に",
+      "kana": "とくに",
+      "meaning": { "es": "en particular" },
+      "type": "adverb"
+    },
+    {
+      "id": "hee",
+      "word": "へえ",
+      "kana": "へえ",
+      "meaning": { "es": "¿verdad? (sorpresa)" },
+      "type": "expression"
+    },
+    {
+      "id": "sorewa-omoshiroi",
+      "word": "それはおもしろいですね",
+      "kana": "それはおもしろいですね",
+      "meaning": { "es": "¡qué interesante!" },
+      "type": "expression"
+    },
+    {
+      "id": "nakanaka",
+      "word": "なかなか",
+      "kana": "なかなか",
+      "meaning": { "es": "no tan fácilmente (con negación)" },
+      "type": "adverb"
+    },
+    {
+      "id": "hontou-desu-ka",
+      "word": "ほんとうですか",
+      "kana": "ほんとうですか",
+      "meaning": { "es": "¿en serio? ¿de veras?" },
+      "type": "expression"
+    },
+    {
+      "id": "zehi",
+      "word": "ぜひ",
+      "kana": "ぜひ",
+      "meaning": { "es": "a toda costa, sin falta" },
+      "type": "adverb"
+    },
+    {
+      "id": "furusato",
+      "word": "故郷[ふるさと]",
+      "kana": "ふるさと",
+      "meaning": { "es": "tierra natal" },
+      "type": "noun"
+    }
+  ]
+}
