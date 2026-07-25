@@ -31,7 +31,9 @@ src/
 ├── data/n5/            # all learning content; a new level = a new folder here
 │   ├── lessons/        # one JSON per lesson (grammar points + examples)
 │   ├── vocab/          # one JSON per lesson (word lists)
-│   └── kanji/          # one JSON per kanji, named by the character
+│   ├── kanji/          # one JSON per kanji, named by the character
+│   ├── verbs/          # conjugation table (book appendix V)
+│   └── reference/      # one JSON per guide topic (particles, counters…)
 ├── pages/              # routes (English segments)
 ├── layouts/            # BaseLayout (head, settings init) + SiteLayout
 ├── components/         # feature components (+ React islands)
@@ -50,11 +52,13 @@ src/
 
 ## Routes
 
-| Route                          | Content                                      |
-| ------------------------------ | -------------------------------------------- |
-| `/`                            | Landing + level picker                       |
-| `/kana`                        | Hiragana/katakana charts (level-independent) |
-| `/kanji`, `/kanji/[char]`      | Kanji index grouped by level/lesson + detail |
-| `/[level]`                     | Level dashboard                              |
-| `/[level]/lessons/[number]`    | Grammar + vocabulary for a lesson            |
-| `/[level]/vocabulary/[number]` | Dedicated vocabulary view                    |
+| Route                          | Content                                         |
+| ------------------------------ | ----------------------------------------------- |
+| `/`                            | Landing + level picker                          |
+| `/kana`                        | Hiragana/katakana charts (level-independent)    |
+| `/kanji`, `/kanji/[char]`      | Kanji index grouped by level/lesson + detail    |
+| `/[level]`                     | Level dashboard                                 |
+| `/[level]/lessons/[number]`    | Grammar + vocabulary for a lesson               |
+| `/[level]/vocabulary/[number]` | Dedicated vocabulary view                       |
+| `/[level]/verbs`               | Conjugation table (ます/て/diccionario/ない/た) |
+| `/[level]/reference/[topic]`   | Guide: particles, counters, time, calendar…     |
