@@ -112,8 +112,8 @@ export const VerbTable = ({ verbs, labels, groupLabels, groupBadges }: VerbTable
               <th className="px-3 py-2.5 font-medium">{labels.masu}</th>
               <th className="px-3 py-2.5 font-medium">{labels.dictionary}</th>
               <th className="px-3 py-2.5 font-medium">{labels.te}</th>
-              <th className="px-3 py-2.5 font-medium">{labels.nai}</th>
               <th className="px-3 py-2.5 font-medium">{labels.ta}</th>
+              <th className="px-3 py-2.5 font-medium">{labels.nai}</th>
               <th className="px-3 py-2.5 font-medium">{labels.meaning}</th>
             </tr>
           </thead>
