@@ -1,0 +1,160 @@
+{
+  "level": "n5",
+  "lesson": 15,
+  "words": [
+    {
+      "id": "okimasu-poner",
+      "word": "置[お]きます",
+      "kana": "おきます",
+      "meaning": { "es": "poner, colocar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tsukurimasu",
+      "word": "作[つく]ります",
+      "kana": "つくります",
+      "meaning": { "es": "hacer, producir" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "urimasu",
+      "word": "売[う]ります",
+      "kana": "うります",
+      "meaning": { "es": "vender" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "shirimasu",
+      "word": "知[し]ります",
+      "kana": "しります",
+      "meaning": { "es": "enterarse, saber" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "sumimasu",
+      "word": "住[す]みます",
+      "kana": "すみます",
+      "meaning": { "es": "vivir, residir" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "kenkyuu-shimasu",
+      "word": "研究[けんきゅう]します",
+      "kana": "けんきゅうします",
+      "meaning": { "es": "investigar" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "shiryou",
+      "word": "資料[しりょう]",
+      "kana": "しりょう",
+      "meaning": { "es": "materiales, datos" },
+      "type": "noun"
+    },
+    {
+      "id": "katarogu",
+      "word": "カタログ",
+      "kana": "カタログ",
+      "meaning": { "es": "catálogo" },
+      "type": "noun"
+    },
+    {
+      "id": "jikokuhyou",
+      "word": "時刻表[じこくひょう]",
+      "kana": "じこくひょう",
+      "meaning": { "es": "horario" },
+      "type": "noun"
+    },
+    {
+      "id": "fuku",
+      "word": "服[ふく]",
+      "kana": "ふく",
+      "meaning": { "es": "ropa" },
+      "type": "noun"
+    },
+    {
+      "id": "seihin",
+      "word": "製品[せいひん]",
+      "kana": "せいひん",
+      "meaning": { "es": "productos" },
+      "type": "noun"
+    },
+    {
+      "id": "sofuto",
+      "word": "ソフト",
+      "kana": "ソフト",
+      "meaning": { "es": "software, programa" },
+      "type": "noun"
+    },
+    {
+      "id": "denshijisho",
+      "word": "電子辞書[でんしじしょ]",
+      "kana": "でんしじしょ",
+      "meaning": { "es": "diccionario electrónico" },
+      "type": "noun"
+    },
+    {
+      "id": "keizai",
+      "word": "経済[けいざい]",
+      "kana": "けいざい",
+      "meaning": { "es": "economía" },
+      "type": "noun"
+    },
+    {
+      "id": "shiyakusho",
+      "word": "市役所[しやくしょ]",
+      "kana": "しやくしょ",
+      "meaning": { "es": "ayuntamiento" },
+      "type": "noun"
+    },
+    {
+      "id": "koukou",
+      "word": "高校[こうこう]",
+      "kana": "こうこう",
+      "meaning": { "es": "bachillerato, instituto" },
+      "type": "noun"
+    },
+    {
+      "id": "haisha",
+      "word": "歯医者[はいしゃ]",
+      "kana": "はいしゃ",
+      "meaning": { "es": "dentista, clínica dental" },
+      "type": "noun"
+    },
+    {
+      "id": "dokushin",
+      "word": "独身[どくしん]",
+      "kana": "どくしん",
+      "meaning": { "es": "soltero" },
+      "type": "noun"
+    },
+    {
+      "id": "sumimasen-perdon",
+      "word": "すみません",
+      "kana": "すみません",
+      "meaning": { "es": "perdón, lo siento" },
+      "type": "expression"
+    },
+    {
+      "id": "minasan-15",
+      "word": "皆[みな]さん",
+      "kana": "みなさん",
+      "meaning": { "es": "señoras y señores, todos ustedes" },
+      "type": "noun"
+    },
+    {
+      "id": "omoidashimasu",
+      "word": "思[おも]い 出[だ]します",
+      "kana": "おもいだします",
+      "meaning": { "es": "acordarse de, recordar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "irasshaimasu",
+      "word": "いらっしゃいます",
+      "kana": "いらっしゃいます",
+      "meaning": { "es": "estar (respetuoso de います)" },
+      "type": "verb-godan"
+    }
+  ]
+}

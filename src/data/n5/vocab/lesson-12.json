@@ -1,0 +1,363 @@
+{
+  "level": "n5",
+  "lesson": 12,
+  "words": [
+    {
+      "id": "kantan",
+      "word": "簡単[かんたん][な]",
+      "kana": "かんたん",
+      "meaning": { "es": "fácil, sencillo" },
+      "type": "adjective-na"
+    },
+    {
+      "id": "chikai",
+      "word": "近[ちか]い",
+      "kana": "ちかい",
+      "meaning": { "es": "cercano" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "tooi",
+      "word": "遠[とお]い",
+      "kana": "とおい",
+      "meaning": { "es": "distante, lejano" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "hayai",
+      "word": "速[はや]い・早[はや]い",
+      "kana": "はやい",
+      "meaning": { "es": "rápido, temprano" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "osoi",
+      "word": "遅[おそ]い",
+      "kana": "おそい",
+      "meaning": { "es": "tarde, lento" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "ooi",
+      "word": "多[おお]い[人[ひと]が〜]",
+      "kana": "おおい",
+      "meaning": { "es": "mucha [gente], muchos" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "sukunai",
+      "word": "少[すく]ない[人[ひと]が〜]",
+      "kana": "すくない",
+      "meaning": { "es": "poca [gente], poco" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "atatakai",
+      "word": "暖[あたた]かい・温[あたた]かい",
+      "kana": "あたたかい",
+      "meaning": { "es": "tibio, cálido, templado" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "suzushii",
+      "word": "涼[すず]しい",
+      "kana": "すずしい",
+      "meaning": { "es": "fresco" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "amai",
+      "word": "甘[あま]い",
+      "kana": "あまい",
+      "meaning": { "es": "dulce" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "karai",
+      "word": "辛[から]い",
+      "kana": "からい",
+      "meaning": { "es": "picante" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "omoi",
+      "word": "重[おも]い",
+      "kana": "おもい",
+      "meaning": { "es": "pesado" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "karui",
+      "word": "軽[かる]い",
+      "kana": "かるい",
+      "meaning": { "es": "ligero, liviano" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "ii-preferir",
+      "word": "いい[コーヒーが〜]",
+      "kana": "いい",
+      "meaning": { "es": "preferir [café]" },
+      "type": "adjective-i"
+    },
+    {
+      "id": "kisetsu",
+      "word": "季節[きせつ]",
+      "kana": "きせつ",
+      "meaning": { "es": "estación (del año)" },
+      "type": "noun"
+    },
+    {
+      "id": "haru",
+      "word": "春[はる]",
+      "kana": "はる",
+      "meaning": { "es": "primavera" },
+      "type": "noun"
+    },
+    {
+      "id": "natsu",
+      "word": "夏[なつ]",
+      "kana": "なつ",
+      "meaning": { "es": "verano" },
+      "type": "noun"
+    },
+    {
+      "id": "aki",
+      "word": "秋[あき]",
+      "kana": "あき",
+      "meaning": { "es": "otoño" },
+      "type": "noun"
+    },
+    {
+      "id": "fuyu",
+      "word": "冬[ふゆ]",
+      "kana": "ふゆ",
+      "meaning": { "es": "invierno" },
+      "type": "noun"
+    },
+    {
+      "id": "tenki",
+      "word": "天気[てんき]",
+      "kana": "てんき",
+      "meaning": { "es": "tiempo (clima)" },
+      "type": "noun"
+    },
+    {
+      "id": "ame",
+      "word": "雨[あめ]",
+      "kana": "あめ",
+      "meaning": { "es": "lluvia" },
+      "type": "noun"
+    },
+    {
+      "id": "yuki",
+      "word": "雪[ゆき]",
+      "kana": "ゆき",
+      "meaning": { "es": "nieve" },
+      "type": "noun"
+    },
+    {
+      "id": "kumori",
+      "word": "曇[くも]り",
+      "kana": "くもり",
+      "meaning": { "es": "nublado" },
+      "type": "noun"
+    },
+    {
+      "id": "hoteru",
+      "word": "ホテル",
+      "kana": "ホテル",
+      "meaning": { "es": "hotel" },
+      "type": "noun"
+    },
+    {
+      "id": "kuukou",
+      "word": "空港[くうこう]",
+      "kana": "くうこう",
+      "meaning": { "es": "aeropuerto" },
+      "type": "noun"
+    },
+    {
+      "id": "umi",
+      "word": "海[うみ]",
+      "kana": "うみ",
+      "meaning": { "es": "mar, océano" },
+      "type": "noun"
+    },
+    {
+      "id": "sekai",
+      "word": "世界[せかい]",
+      "kana": "せかい",
+      "meaning": { "es": "mundo" },
+      "type": "noun"
+    },
+    {
+      "id": "paatii",
+      "word": "パーティー",
+      "kana": "パーティー",
+      "meaning": { "es": "fiesta" },
+      "type": "noun"
+    },
+    {
+      "id": "omatsuri",
+      "word": "[お]祭[まつ]り",
+      "kana": "おまつり",
+      "meaning": { "es": "festival, feria" },
+      "type": "noun"
+    },
+    {
+      "id": "sukiyaki",
+      "word": "すき 焼[や]き",
+      "kana": "すきやき",
+      "meaning": { "es": "sukiyaki (cazuela de carne y verduras)" },
+      "type": "noun"
+    },
+    {
+      "id": "sashimi",
+      "word": "刺身[さしみ]",
+      "kana": "さしみ",
+      "meaning": { "es": "sashimi (pescado crudo en láminas)" },
+      "type": "noun"
+    },
+    {
+      "id": "osushi",
+      "word": "[お]すし",
+      "kana": "おすし",
+      "meaning": { "es": "sushi" },
+      "type": "noun"
+    },
+    {
+      "id": "tenpura",
+      "word": "てんぷら",
+      "kana": "てんぷら",
+      "meaning": { "es": "tempura (frituras)" },
+      "type": "noun"
+    },
+    {
+      "id": "butaniku",
+      "word": "豚肉[ぶたにく]",
+      "kana": "ぶたにく",
+      "meaning": { "es": "carne de cerdo" },
+      "type": "noun"
+    },
+    {
+      "id": "toriniku",
+      "word": "とり 肉[にく]",
+      "kana": "とりにく",
+      "meaning": { "es": "carne de pollo" },
+      "type": "noun"
+    },
+    {
+      "id": "gyuuniku",
+      "word": "牛肉[ぎゅうにく]",
+      "kana": "ぎゅうにく",
+      "meaning": { "es": "carne vacuna" },
+      "type": "noun"
+    },
+    {
+      "id": "remon",
+      "word": "レモン",
+      "kana": "レモン",
+      "meaning": { "es": "limón" },
+      "type": "noun"
+    },
+    {
+      "id": "ikebana",
+      "word": "生[い]け 花[ばな]",
+      "kana": "いけばな",
+      "meaning": { "es": "arreglo floral" },
+      "type": "noun"
+    },
+    {
+      "id": "momiji",
+      "word": "紅葉[もみじ]",
+      "kana": "もみじ",
+      "meaning": { "es": "arce, hojas de otoño" },
+      "type": "noun"
+    },
+    {
+      "id": "dochira-cual",
+      "word": "どちら",
+      "kana": "どちら",
+      "meaning": { "es": "cuál (entre dos)" },
+      "type": "interrogative"
+    },
+    {
+      "id": "dochiramo",
+      "word": "どちらも",
+      "kana": "どちらも",
+      "meaning": { "es": "ambos" },
+      "type": "expression"
+    },
+    {
+      "id": "ichiban",
+      "word": "いちばん",
+      "kana": "いちばん",
+      "meaning": { "es": "el más, el primero" },
+      "type": "adverb"
+    },
+    {
+      "id": "zutto",
+      "word": "ずっと",
+      "kana": "ずっと",
+      "meaning": { "es": "mucho más" },
+      "type": "adverb"
+    },
+    {
+      "id": "hajimete",
+      "word": "初[はじ]めて",
+      "kana": "はじめて",
+      "meaning": { "es": "por primera vez" },
+      "type": "adverb"
+    },
+    {
+      "id": "tadaima",
+      "word": "ただいま",
+      "kana": "ただいま",
+      "meaning": { "es": "ya estoy en casa" },
+      "type": "expression"
+    },
+    {
+      "id": "okaerinasai",
+      "word": "お 帰[かえ]りなさい",
+      "kana": "おかえりなさい",
+      "meaning": { "es": "bienvenido de vuelta" },
+      "type": "expression"
+    },
+    {
+      "id": "waa-sugoi",
+      "word": "わあ、すごい 人[ひと]ですね",
+      "kana": "わあ、すごいひとですね",
+      "meaning": { "es": "¡oh! ¡cuánta gente!" },
+      "type": "expression"
+    },
+    {
+      "id": "tsukaremashita",
+      "word": "疲[つか]れました",
+      "kana": "つかれました",
+      "meaning": { "es": "estoy cansado" },
+      "type": "expression"
+    },
+    {
+      "id": "gionmatsuri",
+      "word": "祇園祭[ぎおんまつり]",
+      "kana": "ぎおんまつり",
+      "meaning": { "es": "Festival de Gion (Kioto)" },
+      "type": "noun"
+    },
+    {
+      "id": "honkon",
+      "word": "ホンコン",
+      "kana": "ホンコン",
+      "meaning": { "es": "Hong Kong" },
+      "type": "noun"
+    },
+    {
+      "id": "shingapooru",
+      "word": "シンガポール",
+      "kana": "シンガポール",
+      "meaning": { "es": "Singapur" },
+      "type": "noun"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "level": "n5",
+  "number": 13,
+  "title": { "es": "Deseos y propósitos" },
+  "jpTitle": "別々[べつべつ]にお 願[ねが]いします",
+  "description": {
+    "es": "Expresa lo que quieres (欲しい), lo que quieres hacer (〜たい) y para qué vas a un lugar."
+  },
+  "grammar": [
+    {
+      "id": "hoshii",
+      "title": { "es": "N が 欲[ほ]しいです — «quiero (algo)»" },
+      "pattern": "N が 欲[ほ]しいです",
+      "explanation": {
+        "es": "欲しい es un adjetivo -い que expresa deseo de poseer algo; el objeto deseado se marca con が: 車[くるま]が 欲[ほ]しいです (quiero un coche)."
+      },
+      "examples": [
+        {
+          "jp": "私[わたし]は 友達[ともだち]が 欲[ほ]しいです。",
+          "translation": { "es": "Quiero tener amigos." }
+        }
+      ]
+    },
+    {
+      "id": "tai-desu",
+      "title": { "es": "V たいです — «quiero hacer»" },
+      "pattern": "V (forma ます) たいです",
+      "explanation": {
+        "es": "Quitando ます y añadiendo たい se expresa el deseo de hacer la acción: 沖縄[おきなわ]へ 行[い]きたいです. たい se conjuga como adjetivo -い (行きたくないです, 行きたかったです). El objeto puede marcarse con を o が."
+      },
+      "examples": [
+        {
+          "jp": "てんぷらを 食[た]べたいです。",
+          "translation": { "es": "Quiero comer tempura." }
+        },
+        {
+          "jp": "今日[きょう]はどこ[へ]も 行[い]きたくないです。",
+          "translation": { "es": "Hoy no quiero ir a ningún sitio." }
+        }
+      ]
+    },
+    {
+      "id": "ni-ikimasu",
+      "title": { "es": "N (lugar) へ V に 行[い]きます — el propósito" },
+      "pattern": "lugar へ V (forma ます)／N に 行[い]きます／来[き]ます／帰[かえ]ります",
+      "explanation": {
+        "es": "に marca el propósito del desplazamiento; puede ser la raíz de un verbo (泳[およ]ぎに 行[い]きます, ir a nadar) o un sustantivo de acción (買[か]い 物[もの]に 行[い]きます, ir de compras)."
+      },
+      "examples": [
+        {
+          "jp": "神戸[こうべ]へインド 料理[りょうり]を 食[た]べに 行[い]きます。",
+          "translation": { "es": "Voy a Kobe a comer comida india." }
+        },
+        {
+          "jp": "日本[にほん]へ 美術[びじゅつ]の 勉強[べんきょう]に 来[き]ました。",
+          "translation": { "es": "Vine a Japón a estudiar bellas artes." }
+        }
+      ]
+    },
+    {
+      "id": "dokoka-nanika",
+      "title": { "es": "どこか／何[なに]か — «algún sitio, algo»" },
+      "pattern": "どこか へ ／ 何[なに]か を",
+      "explanation": {
+        "es": "どこか (algún lugar) y 何か (algo) convierten el interrogativo en indefinido. Las partículas へ y を suelen omitirse tras ellos: どこか 行[い]きましたか."
+      },
+      "examples": [
+        {
+          "jp": "冬休[ふゆやす]みはどこか 行[い]きましたか。…はい、 北海道[ほっかいどう]へ 行[い]きました。",
+          "translation": {
+            "es": "¿Fuiste a algún sitio en vacaciones de invierno? …Sí, fui a Hokkaido."
+          }
+        }
+      ]
+    },
+    {
+      "id": "go-cortesia",
+      "title": { "es": "ご〜 — prefijo de cortesía" },
+      "pattern": "ご + N (de origen chino)",
+      "explanation": {
+        "es": "ご es el equivalente de お para palabras de lectura china: ご 注文[ちゅうもん] (su pedido), ご 家族[かぞく] (su familia). Ambos prefijos muestran respeto hacia las cosas del oyente."
+      },
+      "examples": [
+        {
+          "jp": "ご 注文[ちゅうもん]は？… 牛[ぎゅう]どんをお 願[ねが]いします。",
+          "translation": { "es": "¿Qué desea pedir? …Un gyudon, por favor." }
+        }
+      ]
+    }
+  ]
+}

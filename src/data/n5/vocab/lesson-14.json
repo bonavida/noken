@@ -1,0 +1,321 @@
+{
+  "level": "n5",
+  "lesson": 14,
+  "words": [
+    {
+      "id": "tsukemasu",
+      "word": "つけます",
+      "kana": "つけます",
+      "meaning": { "es": "encender" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "keshimasu",
+      "word": "消[け]します",
+      "kana": "けします",
+      "meaning": { "es": "apagar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "akemasu",
+      "word": "開[あ]けます",
+      "kana": "あけます",
+      "meaning": { "es": "abrir" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "shimemasu",
+      "word": "閉[し]めます",
+      "kana": "しめます",
+      "meaning": { "es": "cerrar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "isogimasu",
+      "word": "急[いそ]ぎます",
+      "kana": "いそぎます",
+      "meaning": { "es": "darse prisa" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "machimasu",
+      "word": "待[ま]ちます",
+      "kana": "まちます",
+      "meaning": { "es": "esperar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "mochimasu",
+      "word": "持[も]ちます",
+      "kana": "もちます",
+      "meaning": { "es": "tener en la mano, llevar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "torimasu",
+      "word": "取[と]ります",
+      "kana": "とります",
+      "meaning": { "es": "tomar, pasar (algo a alguien)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tetsudaimasu",
+      "word": "手伝[てつだ]います",
+      "kana": "てつだいます",
+      "meaning": { "es": "ayudar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "yobimasu",
+      "word": "呼[よ]びます",
+      "kana": "よびます",
+      "meaning": { "es": "llamar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "hanashimasu",
+      "word": "話[はな]します",
+      "kana": "はなします",
+      "meaning": { "es": "hablar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tsukaimasu",
+      "word": "使[つか]います",
+      "kana": "つかいます",
+      "meaning": { "es": "usar" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tomemasu",
+      "word": "止[と]めます",
+      "kana": "とめます",
+      "meaning": { "es": "parar, estacionar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "misemasu",
+      "word": "見[み]せます",
+      "kana": "みせます",
+      "meaning": { "es": "mostrar, enseñar" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "oshiemasu-direccion",
+      "word": "教[おし]えます[住所[じゅうしょ]を〜]",
+      "kana": "おしえます",
+      "meaning": { "es": "dar [una dirección]" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "suwarimasu",
+      "word": "座[すわ]ります",
+      "kana": "すわります",
+      "meaning": { "es": "sentarse" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "tachimasu",
+      "word": "立[た]ちます",
+      "kana": "たちます",
+      "meaning": { "es": "ponerse de pie" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "hairimasu",
+      "word": "入[はい]ります[喫茶店[きっさてん]に〜]",
+      "kana": "はいります",
+      "meaning": { "es": "entrar [en una cafetería]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "demasu",
+      "word": "出[で]ます[喫茶店[きっさてん]を〜]",
+      "kana": "でます",
+      "meaning": { "es": "salir [de una cafetería]" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "furimasu",
+      "word": "降[ふ]ります[雨[あめ]が〜]",
+      "kana": "ふります",
+      "meaning": { "es": "llover" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "kopii-shimasu",
+      "word": "コピーします",
+      "kana": "コピーします",
+      "meaning": { "es": "sacar fotocopias" },
+      "type": "verb-irregular"
+    },
+    {
+      "id": "denki",
+      "word": "電気[でんき]",
+      "kana": "でんき",
+      "meaning": { "es": "electricidad, luz" },
+      "type": "noun"
+    },
+    {
+      "id": "eakon",
+      "word": "エアコン",
+      "kana": "エアコン",
+      "meaning": { "es": "aire acondicionado" },
+      "type": "noun"
+    },
+    {
+      "id": "pasupooto",
+      "word": "パスポート",
+      "kana": "パスポート",
+      "meaning": { "es": "pasaporte" },
+      "type": "noun"
+    },
+    {
+      "id": "namae",
+      "word": "名前[なまえ]",
+      "kana": "なまえ",
+      "meaning": { "es": "nombre" },
+      "type": "noun"
+    },
+    {
+      "id": "juusho",
+      "word": "住所[じゅうしょ]",
+      "kana": "じゅうしょ",
+      "meaning": { "es": "dirección, domicilio" },
+      "type": "noun"
+    },
+    {
+      "id": "chizu",
+      "word": "地図[ちず]",
+      "kana": "ちず",
+      "meaning": { "es": "mapa, plano" },
+      "type": "noun"
+    },
+    {
+      "id": "shio",
+      "word": "塩[しお]",
+      "kana": "しお",
+      "meaning": { "es": "sal" },
+      "type": "noun"
+    },
+    {
+      "id": "satou",
+      "word": "砂糖[さとう]",
+      "kana": "さとう",
+      "meaning": { "es": "azúcar" },
+      "type": "noun"
+    },
+    {
+      "id": "mondai",
+      "word": "問題[もんだい]",
+      "kana": "もんだい",
+      "meaning": { "es": "pregunta, problema" },
+      "type": "noun"
+    },
+    {
+      "id": "kotae",
+      "word": "答[こた]え",
+      "kana": "こたえ",
+      "meaning": { "es": "respuesta" },
+      "type": "noun"
+    },
+    {
+      "id": "yomikata",
+      "word": "読[よ]み 方[かた]",
+      "kana": "よみかた",
+      "meaning": { "es": "cómo leer, modo de lectura" },
+      "type": "noun"
+    },
+    {
+      "id": "kata",
+      "word": "〜方[かた]",
+      "kana": "かた",
+      "meaning": { "es": "modo de ~, manera de ~" },
+      "type": "expression"
+    },
+    {
+      "id": "massugu",
+      "word": "まっすぐ",
+      "kana": "まっすぐ",
+      "meaning": { "es": "derecho, recto" },
+      "type": "adverb"
+    },
+    {
+      "id": "yukkuri",
+      "word": "ゆっくり",
+      "kana": "ゆっくり",
+      "meaning": { "es": "despacio" },
+      "type": "adverb"
+    },
+    {
+      "id": "sugu",
+      "word": "すぐ",
+      "kana": "すぐ",
+      "meaning": { "es": "inmediatamente" },
+      "type": "adverb"
+    },
+    {
+      "id": "mata",
+      "word": "また",
+      "kana": "また",
+      "meaning": { "es": "de nuevo" },
+      "type": "adverb"
+    },
+    {
+      "id": "atode",
+      "word": "あとで",
+      "kana": "あとで",
+      "meaning": { "es": "después, más tarde" },
+      "type": "adverb"
+    },
+    {
+      "id": "mou-sukoshi",
+      "word": "もう 少[すこ]し",
+      "kana": "もうすこし",
+      "meaning": { "es": "un poco más" },
+      "type": "adverb"
+    },
+    {
+      "id": "mou-otro",
+      "word": "もう〜",
+      "kana": "もう",
+      "meaning": { "es": "~ más, otro/a ~" },
+      "type": "adverb"
+    },
+    {
+      "id": "saa",
+      "word": "さあ",
+      "kana": "さあ",
+      "meaning": { "es": "¡vamos! (para animar)" },
+      "type": "expression"
+    },
+    {
+      "id": "are-sorpresa",
+      "word": "あれ？",
+      "kana": "あれ",
+      "meaning": { "es": "¿eh? (sorpresa)" },
+      "type": "expression"
+    },
+    {
+      "id": "shingou-migi",
+      "word": "信号[しんごう]を 右[みぎ]へ 曲[ま]がってください",
+      "kana": "しんごうをみぎへまがってください",
+      "meaning": { "es": "doble a la derecha en el semáforo" },
+      "type": "expression"
+    },
+    {
+      "id": "korede-onegai",
+      "word": "これでお 願[ねが]いします",
+      "kana": "これでおねがいします",
+      "meaning": { "es": "cóbreme de aquí" },
+      "type": "expression"
+    },
+    {
+      "id": "otsuri",
+      "word": "お 釣[つ]り",
+      "kana": "おつり",
+      "meaning": { "es": "cambio, vuelta" },
+      "type": "noun"
+    }
+  ]
+}

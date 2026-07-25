@@ -1,0 +1,427 @@
+{
+  "level": "n5",
+  "lesson": 11,
+  "words": [
+    {
+      "id": "imasu-kodomo",
+      "word": "います[子[こ]どもが〜]",
+      "kana": "います",
+      "meaning": { "es": "tener [hijos]" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "imasu-nihon",
+      "word": "います[日本[にほん]に〜]",
+      "kana": "います",
+      "meaning": { "es": "estar, permanecer [en Japón]" },
+      "type": "verb-ichidan"
+    },
+    {
+      "id": "kakarimasu",
+      "word": "かかります",
+      "kana": "かかります",
+      "meaning": { "es": "tardar (tiempo), costar (dinero)" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "yasumimasu-kaisha",
+      "word": "休[やす]みます[会社[かいしゃ]を〜]",
+      "kana": "やすみます",
+      "meaning": { "es": "ausentarse [del trabajo]" },
+      "type": "verb-godan"
+    },
+    {
+      "id": "hitotsu",
+      "word": "ひとつ",
+      "kana": "ひとつ",
+      "meaning": { "es": "uno (objetos)" },
+      "type": "number"
+    },
+    {
+      "id": "futatsu",
+      "word": "ふたつ",
+      "kana": "ふたつ",
+      "meaning": { "es": "dos" },
+      "type": "number"
+    },
+    {
+      "id": "mittsu",
+      "word": "みっつ",
+      "kana": "みっつ",
+      "meaning": { "es": "tres" },
+      "type": "number"
+    },
+    {
+      "id": "yottsu",
+      "word": "よっつ",
+      "kana": "よっつ",
+      "meaning": { "es": "cuatro" },
+      "type": "number"
+    },
+    {
+      "id": "itsutsu",
+      "word": "いつつ",
+      "kana": "いつつ",
+      "meaning": { "es": "cinco" },
+      "type": "number"
+    },
+    {
+      "id": "muttsu",
+      "word": "むっつ",
+      "kana": "むっつ",
+      "meaning": { "es": "seis" },
+      "type": "number"
+    },
+    {
+      "id": "nanatsu",
+      "word": "ななつ",
+      "kana": "ななつ",
+      "meaning": { "es": "siete" },
+      "type": "number"
+    },
+    {
+      "id": "yattsu",
+      "word": "やっつ",
+      "kana": "やっつ",
+      "meaning": { "es": "ocho" },
+      "type": "number"
+    },
+    {
+      "id": "kokonotsu",
+      "word": "ここのつ",
+      "kana": "ここのつ",
+      "meaning": { "es": "nueve" },
+      "type": "number"
+    },
+    { "id": "too", "word": "とお", "kana": "とお", "meaning": { "es": "diez" }, "type": "number" },
+    {
+      "id": "ikutsu",
+      "word": "いくつ",
+      "kana": "いくつ",
+      "meaning": { "es": "cuántos/as" },
+      "type": "interrogative"
+    },
+    {
+      "id": "hitori-11",
+      "word": "1人[ひとり]",
+      "kana": "ひとり",
+      "meaning": { "es": "una persona" },
+      "type": "number"
+    },
+    {
+      "id": "futari",
+      "word": "2人[ふたり]",
+      "kana": "ふたり",
+      "meaning": { "es": "dos personas" },
+      "type": "number"
+    },
+    {
+      "id": "nin",
+      "word": "〜人[にん]",
+      "kana": "にん",
+      "meaning": { "es": "~ personas" },
+      "type": "counter"
+    },
+    {
+      "id": "dai",
+      "word": "〜台[だい]",
+      "kana": "だい",
+      "meaning": { "es": "contador de máquinas y vehículos" },
+      "type": "counter"
+    },
+    {
+      "id": "mai",
+      "word": "〜枚[まい]",
+      "kana": "まい",
+      "meaning": { "es": "contador de cosas planas" },
+      "type": "counter"
+    },
+    {
+      "id": "kai-veces",
+      "word": "〜回[かい]",
+      "kana": "かい",
+      "meaning": { "es": "~ veces" },
+      "type": "counter"
+    },
+    {
+      "id": "ringo",
+      "word": "りんご",
+      "kana": "りんご",
+      "meaning": { "es": "manzana" },
+      "type": "noun"
+    },
+    {
+      "id": "mikan",
+      "word": "みかん",
+      "kana": "みかん",
+      "meaning": { "es": "mandarina" },
+      "type": "noun"
+    },
+    {
+      "id": "sandoicchi",
+      "word": "サンドイッチ",
+      "kana": "サンドイッチ",
+      "meaning": { "es": "sándwich" },
+      "type": "noun"
+    },
+    {
+      "id": "karee",
+      "word": "カレー[ライス]",
+      "kana": "カレーライス",
+      "meaning": { "es": "curry [con arroz]" },
+      "type": "noun"
+    },
+    {
+      "id": "aisukuriimu",
+      "word": "アイスクリーム",
+      "kana": "アイスクリーム",
+      "meaning": { "es": "helado" },
+      "type": "noun"
+    },
+    {
+      "id": "kitte",
+      "word": "切手[きって]",
+      "kana": "きって",
+      "meaning": { "es": "sello postal" },
+      "type": "noun"
+    },
+    {
+      "id": "hagaki",
+      "word": "はがき",
+      "kana": "はがき",
+      "meaning": { "es": "tarjeta postal" },
+      "type": "noun"
+    },
+    {
+      "id": "fuutou",
+      "word": "封筒[ふうとう]",
+      "kana": "ふうとう",
+      "meaning": { "es": "sobre" },
+      "type": "noun"
+    },
+    {
+      "id": "ryoushin",
+      "word": "両親[りょうしん]",
+      "kana": "りょうしん",
+      "meaning": { "es": "padres" },
+      "type": "noun"
+    },
+    {
+      "id": "kyoudai",
+      "word": "兄弟[きょうだい]",
+      "kana": "きょうだい",
+      "meaning": { "es": "hermanos y hermanas" },
+      "type": "noun"
+    },
+    {
+      "id": "ani",
+      "word": "兄[あに]",
+      "kana": "あに",
+      "meaning": { "es": "(mi) hermano mayor" },
+      "type": "noun"
+    },
+    {
+      "id": "oniisan",
+      "word": "お 兄[にい]さん",
+      "kana": "おにいさん",
+      "meaning": { "es": "(su/tu) hermano mayor" },
+      "type": "noun"
+    },
+    {
+      "id": "ane",
+      "word": "姉[あね]",
+      "kana": "あね",
+      "meaning": { "es": "(mi) hermana mayor" },
+      "type": "noun"
+    },
+    {
+      "id": "oneesan",
+      "word": "お 姉[ねえ]さん",
+      "kana": "おねえさん",
+      "meaning": { "es": "(su/tu) hermana mayor" },
+      "type": "noun"
+    },
+    {
+      "id": "otouto",
+      "word": "弟[おとうと]",
+      "kana": "おとうと",
+      "meaning": { "es": "(mi) hermano menor" },
+      "type": "noun"
+    },
+    {
+      "id": "otoutosan",
+      "word": "弟[おとうと]さん",
+      "kana": "おとうとさん",
+      "meaning": { "es": "(su/tu) hermano menor" },
+      "type": "noun"
+    },
+    {
+      "id": "imouto",
+      "word": "妹[いもうと]",
+      "kana": "いもうと",
+      "meaning": { "es": "(mi) hermana menor" },
+      "type": "noun"
+    },
+    {
+      "id": "imoutosan",
+      "word": "妹[いもうと]さん",
+      "kana": "いもうとさん",
+      "meaning": { "es": "(su/tu) hermana menor" },
+      "type": "noun"
+    },
+    {
+      "id": "gaikoku",
+      "word": "外国[がいこく]",
+      "kana": "がいこく",
+      "meaning": { "es": "país extranjero" },
+      "type": "noun"
+    },
+    {
+      "id": "ryuugakusei",
+      "word": "留学生[りゅうがくせい]",
+      "kana": "りゅうがくせい",
+      "meaning": { "es": "estudiante extranjero" },
+      "type": "noun"
+    },
+    {
+      "id": "kurasu",
+      "word": "クラス",
+      "kana": "クラス",
+      "meaning": { "es": "clase, curso" },
+      "type": "noun"
+    },
+    {
+      "id": "jikan-counter",
+      "word": "〜時間[じかん]",
+      "kana": "じかん",
+      "meaning": { "es": "~ hora(s)" },
+      "type": "counter"
+    },
+    {
+      "id": "shuukan",
+      "word": "〜週間[しゅうかん]",
+      "kana": "しゅうかん",
+      "meaning": { "es": "~ semana(s)" },
+      "type": "counter"
+    },
+    {
+      "id": "kagetsu",
+      "word": "〜か 月[げつ]",
+      "kana": "かげつ",
+      "meaning": { "es": "~ mes(es)" },
+      "type": "counter"
+    },
+    {
+      "id": "nen-counter",
+      "word": "〜年[ねん]",
+      "kana": "ねん",
+      "meaning": { "es": "~ año(s)" },
+      "type": "counter"
+    },
+    {
+      "id": "gurai",
+      "word": "〜ぐらい",
+      "kana": "ぐらい",
+      "meaning": { "es": "alrededor de ~" },
+      "type": "particle"
+    },
+    {
+      "id": "donokurai",
+      "word": "どのくらい",
+      "kana": "どのくらい",
+      "meaning": { "es": "cuánto tiempo" },
+      "type": "interrogative"
+    },
+    {
+      "id": "zenbude",
+      "word": "全部[ぜんぶ]で",
+      "kana": "ぜんぶで",
+      "meaning": { "es": "en total" },
+      "type": "adverb"
+    },
+    {
+      "id": "minna",
+      "word": "みんな",
+      "kana": "みんな",
+      "meaning": { "es": "todos, todo" },
+      "type": "noun"
+    },
+    {
+      "id": "dake",
+      "word": "〜だけ",
+      "kana": "だけ",
+      "meaning": { "es": "solo ~" },
+      "type": "particle"
+    },
+    {
+      "id": "kashikomarimashita",
+      "word": "かしこまりました",
+      "kana": "かしこまりました",
+      "meaning": { "es": "sí, señor/señora (muy formal)" },
+      "type": "expression"
+    },
+    {
+      "id": "ii-otenki",
+      "word": "いい[お]天気[てんき]ですね",
+      "kana": "いいおてんきですね",
+      "meaning": { "es": "hace buen tiempo, ¿verdad?" },
+      "type": "expression"
+    },
+    {
+      "id": "odekake",
+      "word": "お 出[で]かけですか",
+      "kana": "おでかけですか",
+      "meaning": { "es": "¿va a salir?" },
+      "type": "expression"
+    },
+    {
+      "id": "chotto-made",
+      "word": "ちょっと〜まで",
+      "kana": "ちょっとまで",
+      "meaning": { "es": "solo voy hasta ~" },
+      "type": "expression"
+    },
+    {
+      "id": "itterasshai",
+      "word": "行[い]ってらっしゃい",
+      "kana": "いってらっしゃい",
+      "meaning": { "es": "que le vaya bien" },
+      "type": "expression"
+    },
+    {
+      "id": "ittekimasu",
+      "word": "行[い]ってきます",
+      "kana": "いってきます",
+      "meaning": { "es": "hasta luego (salgo y vuelvo)" },
+      "type": "expression"
+    },
+    {
+      "id": "funabin",
+      "word": "船便[ふなびん]",
+      "kana": "ふなびん",
+      "meaning": { "es": "vía marítima" },
+      "type": "noun"
+    },
+    {
+      "id": "koukuubin",
+      "word": "航空便[こうくうびん]（エアメール）",
+      "kana": "こうくうびん",
+      "meaning": { "es": "vía aérea" },
+      "type": "noun"
+    },
+    {
+      "id": "onegaishimasu",
+      "word": "お 願[ねが]いします",
+      "kana": "おねがいします",
+      "meaning": { "es": "por favor" },
+      "type": "expression"
+    },
+    {
+      "id": "oosutoraria",
+      "word": "オーストラリア",
+      "kana": "オーストラリア",
+      "meaning": { "es": "Australia" },
+      "type": "noun"
+    }
+  ]
+}
