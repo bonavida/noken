@@ -20,6 +20,8 @@ export const es = {
     subtitle:
       'Gramática, vocabulario, verbos, kana y kanji de las 25 lecciones de Minna no Nihongo, en un solo lugar.',
     ctaStart: 'Empezar por la lección 1',
+    ctaContinue: 'Continuar con la lección {n}',
+    ctaCompleted: '¡Nivel completado! Ir a Práctica',
     ctaLevel: 'Ver el nivel N5',
     whatsInside: 'Todo lo que necesitas',
     chooseLevel: 'Niveles',

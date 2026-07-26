@@ -84,8 +84,17 @@ const visibleLevels = LEVELS.slice(0, 3);
         {t.home.subtitle}
       </p>
       <div class="mt-7 flex flex-wrap justify-center gap-3">
+        {
+          /* Ships as "start with lesson 1"; the script retargets it to the first
+        pending lesson, or to the practice hub once every lesson is done */
+        }
         <a
           href={`/${defaultLevel}/lessons/1`}
+          data-cta-lessons
+          data-level={defaultLevel}
+          data-total={lessons.length}
+          data-label-continue={t.home.ctaContinue}
+          data-label-completed={t.home.ctaCompleted}
           class="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
         >
           {t.home.ctaStart}
@@ -144,3 +153,29 @@ const visibleLevels = LEVELS.slice(0, 3);
     </section>
   </Container>
 </SiteLayout>
+
+<script>
+  import { completedLessons } from '@/utils/progress';
+
+  const update = () => {
+    const cta = document.querySelector<HTMLAnchorElement>('[data-cta-lessons]');
+    if (!cta) return;
+
+    const { level = '', total = '0', labelContinue = '', labelCompleted = '' } = cta.dataset;
+    const done = new Set(completedLessons(level));
+    if (done.size === 0) return;
+
+    const numbers = Array.from({ length: Number(total) }, (_, index) => index + 1);
+    const next = numbers.find((number) => !done.has(number));
+
+    if (!next) {
+      cta.href = `/${level}/practice`;
+      cta.textContent = labelCompleted;
+      return;
+    }
+    cta.href = `/${level}/lessons/${next}`;
+    cta.textContent = labelContinue.replace('{n}', String(next));
+  };
+
+  document.addEventListener('astro:page-load', update);
+</script>
