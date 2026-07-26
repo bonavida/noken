@@ -117,8 +117,10 @@ ruby {
   ruby-align: center;
 }
 
+/* Readings scale with the text they annotate, but the absolute cap keeps them
+   from outgrowing body copy on display-size glyphs (cards, flashcards). */
 rt {
-  font-size: 0.62em;
+  font-size: min(0.62em, 0.95rem);
   font-weight: 500;
   color: var(--muted-foreground);
   user-select: none;
@@ -126,7 +128,7 @@ rt {
 
 /* Settings: larger furigana readings */
 html.furigana-large rt {
-  font-size: 0.78em;
+  font-size: min(0.78em, 1.15rem);
 }
 
 /* Settings: hide furigana readings site-wide */
