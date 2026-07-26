@@ -39,6 +39,17 @@ const shortcutLabel = () => {
   return /Mac|iPhone|iPad|iPod/.test(platform) ? '⌘K' : 'Ctrl K';
 };
 
+// True when the keystroke belongs to a field the user is writing in, so the
+// bare "/" shortcut leaves the vocabulary filter and quiz inputs alone
+const isTyping = (target: EventTarget | null) => {
+  if (!(target instanceof HTMLElement)) return false;
+  return (
+    target.isContentEditable ||
+    ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName) ||
+    target.closest('[role="dialog"]') !== null
+  );
+};
+
 // Results arrive sorted by score, so grouping by first appearance keeps the
 // best match at the top while still gathering each kind together.
 const groupResults = (results: Searchable[]) =>
@@ -83,15 +94,25 @@ export const SearchDialog = ({ labels }: SearchDialogProps) => {
     void loadIndex();
   };
 
-  // ⌘K / Ctrl+K from anywhere on the page
+  // ⌘K / Ctrl+K toggles from anywhere; "/" opens, but only while reading, since
+  // it is a printable character that belongs to whatever field has the focus
   useEffect(() => {
     const onShortcut = (event: KeyboardEvent) => {
-      if (!(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== 'k') return;
+      const withModifier = (event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k';
+      if (withModifier) {
+        event.preventDefault();
+        setOpen((current) => {
+          if (!current) void loadIndex();
+          return !current;
+        });
+        return;
+      }
+
+      if (event.key !== '/' || event.metaKey || event.ctrlKey || event.altKey) return;
+      if (isTyping(event.target)) return;
       event.preventDefault();
-      setOpen((current) => {
-        if (!current) void loadIndex();
-        return !current;
-      });
+      setOpen(true);
+      void loadIndex();
     };
     document.addEventListener('keydown', onShortcut);
     return () => document.removeEventListener('keydown', onShortcut);
