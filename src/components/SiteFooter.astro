@@ -1,5 +1,5 @@
 ---
-import { AUTHOR, FOOTER_JP, REPO_URL } from '@/constants/site';
+import { AUTHOR, AUTHOR_URL, FOOTER_JP, REPO_URL } from '@/constants/site';
 import { resolveLocale, useTranslations } from '@/i18n/t';
 import Furigana from '@/ui/Furigana.astro';
 
@@ -14,7 +14,7 @@ const t = useTranslations(resolveLocale(Astro.currentLocale));
     <span aria-hidden="true">·</span>
     <span>
       {`${t.footer.madeBy} `}<a
-        href={REPO_URL}
+        href={AUTHOR_URL}
         target="_blank"
         rel="noopener noreferrer"
         class="hover:text-foreground font-medium underline decoration-dotted underline-offset-4 transition-colors"
@@ -22,5 +22,14 @@ const t = useTranslations(resolveLocale(Astro.currentLocale));
         {AUTHOR}
       </a>
     </span>
+    <span aria-hidden="true">·</span>
+    <a
+      href={REPO_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="hover:text-foreground underline decoration-dotted underline-offset-4 transition-colors"
+    >
+      GitHub
+    </a>
   </p>
 </footer>
