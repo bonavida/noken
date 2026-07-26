@@ -1,0 +1,47 @@
+---
+import { cn } from '@/utils/cn';
+
+// A "completed x/total" bar fed from localStorage. Renders at 0 statically and
+// the script fills it in on every page load, so it works across view transitions.
+interface Props {
+  level: string;
+  total: number;
+  label: string;
+  class?: string;
+}
+
+const { level, total, label, class: className } = Astro.props;
+---
+
+<div class={cn('max-w-md', className)} data-lesson-progress data-level={level} data-total={total}>
+  <div class="flex items-center justify-between gap-4 text-sm">
+    <span class="text-muted-foreground font-medium">{label}</span>
+    <span class="font-medium tabular-nums" data-progress-count>{`0/${total}`}</span>
+  </div>
+  <div class="bg-muted mt-2 h-2 overflow-hidden rounded-full">
+    <div
+      class="bg-primary h-full w-0 rounded-full transition-[width] duration-300"
+      data-progress-fill
+    >
+    </div>
+  </div>
+</div>
+
+<script>
+  import { completedLessons } from '@/utils/progress';
+
+  const update = () => {
+    document.querySelectorAll<HTMLElement>('[data-lesson-progress]').forEach((element) => {
+      const { level = '', total = '0' } = element.dataset;
+      const done = completedLessons(level).length;
+      const count = element.querySelector('[data-progress-count]');
+      if (count) count.textContent = `${done}/${total}`;
+      const fill = element.querySelector<HTMLElement>('[data-progress-fill]');
+      if (fill) fill.style.width = `${(done / Math.max(Number(total), 1)) * 100}%`;
+    });
+  };
+
+  document.addEventListener('astro:page-load', update);
+  // The lesson toggle dispatches this so an open index in another tab state stays in sync
+  document.addEventListener('noken:progress-change', update);
+</script>

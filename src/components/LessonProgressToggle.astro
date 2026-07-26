@@ -1,0 +1,52 @@
+---
+import Icon from '@/ui/Icon.astro';
+
+interface Props {
+  level: string;
+  number: number;
+  markComplete: string;
+  completed: string;
+}
+
+const { level, number, markComplete, completed } = Astro.props;
+---
+
+<button
+  type="button"
+  data-lesson-toggle
+  data-level={level}
+  data-lesson={number}
+  data-label-complete={markComplete}
+  data-label-completed={completed}
+  aria-pressed="false"
+  class="focus-visible:ring-ring aria-pressed:border-verb-3/40 aria-pressed:bg-verb-3/10 aria-pressed:text-verb-3 [&:not([aria-pressed='true'])]:text-muted-foreground [&:not([aria-pressed='true'])]:hover:text-foreground inline-flex items-center gap-2 rounded-md border px-4 py-2 text-sm font-medium transition-colors focus-visible:ring-2 focus-visible:outline-none"
+>
+  <Icon name="check" class="size-4" />
+  <span data-toggle-label>{markComplete}</span>
+</button>
+
+<script>
+  import { isLessonCompleted, toggleLesson } from '@/utils/progress';
+
+  const render = (button: HTMLElement, completed: boolean) => {
+    button.setAttribute('aria-pressed', String(completed));
+    const label = completed ? button.dataset.labelCompleted : button.dataset.labelComplete;
+    const text = button.querySelector('[data-toggle-label]');
+    if (text && label) text.textContent = label;
+  };
+
+  const setup = () => {
+    const button = document.querySelector<HTMLElement>('[data-lesson-toggle]');
+    if (!button) return;
+
+    const { level = '', lesson = '0' } = button.dataset;
+    render(button, isLessonCompleted(level, Number(lesson)));
+
+    button.addEventListener('click', () => {
+      render(button, toggleLesson(level, Number(lesson)));
+      document.dispatchEvent(new CustomEvent('noken:progress-change'));
+    });
+  };
+
+  document.addEventListener('astro:page-load', setup);
+</script>

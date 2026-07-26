@@ -1,9 +1,11 @@
 ---
 import IndexCard from '@/components/IndexCard.astro';
+import LessonProgress from '@/components/LessonProgress.astro';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
 import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
+import Icon from '@/ui/Icon.astro';
 import { getCollection } from 'astro:content';
 
 export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
@@ -29,24 +31,59 @@ const wordCountByLesson = new Map(
     <h1 class="text-3xl font-bold tracking-tight">{t.lessons.title}</h1>
     <p class="text-muted-foreground mt-2">{t.level.lessonsDescription}</p>
 
-    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <LessonProgress
+      level={level}
+      total={lessons.length}
+      label={t.practice.progressLabel}
+      class="mt-6"
+    />
+
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" data-lessons-grid data-level={level}>
       {
         lessons.map(({ data }) => (
-          <IndexCard
-            href={`/${level}/lessons/${data.number}`}
-            number={data.number}
-            label={t.lessons.lesson}
-            title={pickLocale(data.title, locale)}
-            meta={
-              `${data.grammar.length} ${t.lessons.grammarPoints}` +
-              (wordCountByLesson.has(data.number)
-                ? ` · ${wordCountByLesson.get(data.number)} ${t.lessons.words}`
-                : '')
-            }
-            accent="lessons"
-          />
+          <div class="relative" data-lesson={data.number}>
+            <IndexCard
+              href={`/${level}/lessons/${data.number}`}
+              number={data.number}
+              label={t.lessons.lesson}
+              title={pickLocale(data.title, locale)}
+              meta={
+                `${data.grammar.length} ${t.lessons.grammarPoints}` +
+                (wordCountByLesson.has(data.number)
+                  ? ` · ${wordCountByLesson.get(data.number)} ${t.lessons.words}`
+                  : '')
+              }
+              accent="lessons"
+            />
+            <span
+              class="bg-verb-3/10 text-verb-3 absolute top-5 right-5 hidden size-6 items-center justify-center rounded-full"
+              data-completed-badge
+              aria-hidden="true"
+            >
+              <Icon name="check" class="size-3.5" />
+            </span>
+          </div>
         ))
       }
     </div>
   </Container>
 </SiteLayout>
+
+<script>
+  import { completedLessons } from '@/utils/progress';
+
+  const update = () => {
+    const grid = document.querySelector<HTMLElement>('[data-lessons-grid]');
+    if (!grid) return;
+
+    const done = new Set(completedLessons(grid.dataset.level ?? ''));
+    grid.querySelectorAll<HTMLElement>('[data-lesson]').forEach((card) => {
+      const badge = card.querySelector('[data-completed-badge]');
+      const isDone = done.has(Number(card.dataset.lesson));
+      badge?.classList.toggle('hidden', !isDone);
+      badge?.classList.toggle('inline-flex', isDone);
+    });
+  };
+
+  document.addEventListener('astro:page-load', update);
+</script>

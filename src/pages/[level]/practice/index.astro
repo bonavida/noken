@@ -1,15 +1,19 @@
 ---
+import LessonProgress from '@/components/LessonProgress.astro';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
 import { resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
 import Icon, { type IconName } from '@/ui/Icon.astro';
+import { getCollection } from 'astro:content';
 
 export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
 
 const { level } = Astro.params as { level: EnabledLevel };
 const t = useTranslations(resolveLocale(Astro.currentLocale));
+
+const lessonCount = (await getCollection('lessons', ({ data }) => data.level === level)).length;
 
 const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
   { slug: 'readings', icon: 'help-circle' },
@@ -24,6 +28,13 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
   <Container>
     <h1 class="text-3xl font-bold tracking-tight">{t.practice.title}</h1>
     <p class="text-muted-foreground mt-2 max-w-2xl">{t.practice.description}</p>
+
+    <LessonProgress
+      level={level}
+      total={lessonCount}
+      label={t.practice.progressLabel}
+      class="mt-6"
+    />
 
     <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {
