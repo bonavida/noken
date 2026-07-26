@@ -44,6 +44,8 @@ const questions: McQuestion[] = kanjiWords.map((word) => {
     answer: word.kana,
     explanationJp: word.word,
     lesson: word.lesson,
+    // Matches the flashcard deck ids, so misses land in the difficult deck
+    cardKey: `vocab-${word.lesson}:${word.id}`,
   };
 });
 ---

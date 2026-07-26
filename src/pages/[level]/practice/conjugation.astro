@@ -16,6 +16,7 @@ const verbs: DrillVerb[] = (
   await getCollection('verbs', ({ data }) => data.level === level)
 ).flatMap((entry) =>
   entry.data.verbs.map((verb) => ({
+    id: verb.id,
     verb: verb.verb,
     masu: verb.masu,
     te: verb.te,

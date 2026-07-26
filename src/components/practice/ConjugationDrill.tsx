@@ -8,6 +8,7 @@ import { ToggleGroup, ToggleGroupItem } from '@/ui/react/toggle-group';
 import { randomItem } from '@/utils/practice';
 
 export interface DrillVerb {
+  id: string;
   verb: string;
   masu: string;
   te: string;
@@ -54,6 +55,7 @@ export const ConjugationDrill = ({ verbs, labels }: ConjugationDrillProps) => {
         promptSub: verb.meaning,
         targetLabel: labels.formNames[form],
         answer,
+        cardKey: `verbs:${verb.id}`,
       };
     }
   };

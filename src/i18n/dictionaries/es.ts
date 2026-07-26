@@ -220,6 +220,7 @@ export const es = {
       back: 'Cambiar de mazo',
       remaining: 'restantes',
       start: 'Empezar',
+      difficult: 'Difíciles',
     },
     markComplete: 'Marcar como completada',
     completed: 'Completada',

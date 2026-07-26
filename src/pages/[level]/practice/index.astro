@@ -77,7 +77,7 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
               class="text-primary mt-2 hidden text-sm font-medium"
               data-mode-stats={slug}
               data-total={slug === 'flashcards' ? flashcardTotal : undefined}
-            ></p>
+            />
           </Card>
         ))
       }
@@ -86,7 +86,7 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
 </SiteLayout>
 
 <script>
-  import { FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
+  import { DIFFICULT_DECK_ID, FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
   import { epochDay, readJson } from '@/utils/practice';
   import { currentStreak, readStats, type PracticeMode } from '@/utils/stats';
 
@@ -97,8 +97,11 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
       {}
     );
     const today = epochDay();
-    const notDue = Object.values(store)
-      .flatMap((deck) => Object.values(deck))
+    // The virtual difficult deck duplicates cards from the real decks, so its
+    // states would be double-counted against the total
+    const notDue = Object.entries(store)
+      .filter(([deckId]) => deckId !== DIFFICULT_DECK_ID)
+      .flatMap(([, deck]) => Object.values(deck))
       .filter(([, dueDay]) => dueDay > today).length;
     return Math.max(total - notDue, 0);
   };

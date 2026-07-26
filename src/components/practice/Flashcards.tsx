@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
-import { FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
+import { DIFFICULT_DECK_ID, FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
 import { cn } from '@/utils/cn';
+import { readDifficult, recordHit, recordMiss } from '@/utils/difficult';
 import { epochDay, readJson, shuffle, writeJson } from '@/utils/practice';
 import { recordAnswer } from '@/utils/stats';
 
@@ -34,6 +35,7 @@ export interface FlashcardsLabels {
   back: string;
   remaining: string;
   start: string;
+  difficult: string;
 }
 
 interface FlashcardsProps {
@@ -66,6 +68,22 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
   const [deck, setDeck] = useState<Deck | null>(null);
   const [queue, setQueue] = useState<FlashCard[]>([]);
   const [flipped, setFlipped] = useState(false);
+  const [difficult, setDifficult] = useState<Record<string, number>>(() =>
+    typeof window === 'undefined' ? {} : readDifficult()
+  );
+
+  // Missed items from any practice mode, gathered into one virtual deck.
+  // Its card ids are the composite keys so grading maps back to the source.
+  const difficultDeck = useMemo<Deck | null>(() => {
+    const cards = decks.flatMap((entry) =>
+      entry.cards
+        .filter((card) => difficult[`${entry.id}:${card.id}`])
+        .map((card) => ({ ...card, id: `${entry.id}:${card.id}` }))
+    );
+    return cards.length > 0 ? { id: DIFFICULT_DECK_ID, name: labels.difficult, cards } : null;
+  }, [decks, difficult, labels.difficult]);
+
+  const allDecks = difficultDeck ? [difficultDeck, ...decks] : decks;
 
   const start = (selected: Deck) => {
     setDeck(selected);
@@ -86,6 +104,11 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
     setStore(nextStore);
     writeJson(FLASHCARDS_STORAGE_KEY, nextStore);
     recordAnswer('flashcards', known);
+
+    const cardKey = deck.id === DIFFICULT_DECK_ID ? card.id : `${deck.id}:${card.id}`;
+    if (known) recordHit(cardKey);
+    if (!known) recordMiss(cardKey);
+    setDifficult(readDifficult());
 
     // Missed cards come back at the end of the same session
     setQueue((current) => (known ? current.slice(1) : [...current.slice(1), card]));
@@ -121,7 +144,7 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
         </div>
 
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {decks.map((entry) => {
+          {allDecks.map((entry) => {
             const due = dueCards(entry, store).length;
             return (
               <button
@@ -130,7 +153,14 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
                 onClick={() => start(entry)}
                 className="bg-card hover:border-primary/40 hover:bg-accent/40 rounded-lg border p-4 text-left transition-colors"
               >
-                <p className="font-semibold">{entry.name}</p>
+                <p
+                  className={cn(
+                    'font-semibold',
+                    entry.id === DIFFICULT_DECK_ID && 'text-destructive'
+                  )}
+                >
+                  {entry.name}
+                </p>
                 <p className="text-muted-foreground mt-1 text-sm">
                   <span className={cn(due > 0 && 'text-primary font-medium')}>
                     {due} {labels.due}

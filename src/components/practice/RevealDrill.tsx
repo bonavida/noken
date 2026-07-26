@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
 import { cn } from '@/utils/cn';
+import { recordHit, recordMiss } from '@/utils/difficult';
 import { recordAnswer, type PracticeMode } from '@/utils/stats';
 
 export interface DrillItem {
@@ -14,6 +15,9 @@ export interface DrillItem {
   answer: string;
   // Alternative or extra reading shown under the answer
   answerSub?: string;
+  // `deckId:cardId` linking this item to a flashcard, so misses feed the
+  // difficult-words deck and hits work them back off it
+  cardKey?: string;
 }
 
 export interface RevealDrillLabels {
@@ -43,6 +47,8 @@ export const RevealDrill = ({ next, labels, statsKey }: RevealDrillProps) => {
       wrong: wrong + (correct ? 0 : 1),
     }));
     if (statsKey) recordAnswer(statsKey, correct);
+    if (correct) recordHit(item.cardKey);
+    if (!correct) recordMiss(item.cardKey);
     setItem(next());
     setRevealed(false);
   };

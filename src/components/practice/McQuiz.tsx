@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
 import { cn } from '@/utils/cn';
+import { recordHit, recordMiss } from '@/utils/difficult';
 import { sample, shuffle } from '@/utils/practice';
-import { recordAnswer, type PracticeMode } from '@/utils/stats';
+import { lessonStats, recordAnswer, type AnswerCount, type PracticeMode } from '@/utils/stats';
 
 export interface McQuestion {
   id: string;
@@ -17,6 +18,9 @@ export interface McQuestion {
   // Shown after answering, in Spanish (e.g. the translation)
   explanationEs?: string;
   lesson?: number;
+  // `deckId:cardId` linking this question to a flashcard, so misses feed the
+  // difficult-words deck and hits work them back off it
+  cardKey?: string;
 }
 
 export interface McQuizLabels {
@@ -71,6 +75,9 @@ export const McQuiz = ({
   );
 
   const [lessonFilter, setLessonFilter] = useState('all');
+  const [byLesson, setByLesson] = useState<Record<string, AnswerCount>>(() =>
+    typeof window === 'undefined' || !statsKey ? {} : lessonStats(statsKey)
+  );
   const [round, setRound] = useState(() => buildRound(questions, 'all', questionCount));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
@@ -94,9 +101,21 @@ export const McQuiz = ({
 
   const choose = (option: string) => {
     if (selected !== null || !question) return;
+    const correct = option === question.answer;
     setSelected(option);
-    if (option === question.answer) setScore((current) => current + 1);
-    if (statsKey) recordAnswer(statsKey, option === question.answer);
+    if (correct) setScore((current) => current + 1);
+    if (correct) recordHit(question.cardKey);
+    if (!correct) recordMiss(question.cardKey);
+    if (!statsKey) return;
+    recordAnswer(statsKey, correct, question.lesson);
+    setByLesson(lessonStats(statsKey));
+  };
+
+  // Historical accuracy shown next to each lesson in the filter
+  const accuracySuffix = (lesson: number) => {
+    const entry = byLesson[lesson];
+    if (!entry?.answered) return '';
+    return ` · ${Math.round((entry.correct / entry.answered) * 100)}%`;
   };
 
   const advance = () => {
@@ -141,7 +160,7 @@ export const McQuiz = ({
             <option value="all">{labels.allLessons}</option>
             {lessons.map((lesson) => (
               <option key={lesson} value={lesson}>
-                {labels.lesson} {lesson}
+                {`${labels.lesson} ${lesson}${accuracySuffix(lesson)}`}
               </option>
             ))}
           </select>
