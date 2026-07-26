@@ -11,7 +11,18 @@ import { getCollection } from 'astro:content';
 const locale = resolveLocale(Astro.currentLocale);
 const t = useTranslations(locale);
 
-const lessons = await getCollection('lessons');
+// The landing features the first enabled level; a level switcher can come later
+const [defaultLevel] = ENABLED_LEVELS;
+
+const lessons = await getCollection('lessons', ({ data }) => data.level === defaultLevel);
+const vocab = await getCollection('vocab', ({ data }) => data.level === defaultLevel);
+const kanji = await getCollection('kanji', ({ data }) => data.level === defaultLevel);
+const verbs = await getCollection('verbs', ({ data }) => data.level === defaultLevel);
+const topics = await getCollection('reference', ({ data }) => data.level === defaultLevel);
+
+const wordCount = vocab.reduce((total, entry) => total + entry.data.words.length, 0);
+const verbCount = verbs.reduce((total, entry) => total + entry.data.verbs.length, 0);
+
 const lessonCountByLevel = new Map(
   ENABLED_LEVELS.map((level) => [
     level,
@@ -19,23 +30,95 @@ const lessonCountByLevel = new Map(
   ])
 );
 
+const features = [
+  {
+    href: `/${defaultLevel}/lessons`,
+    title: t.nav.lessons,
+    stat: `${lessons.length} ${t.home.lessonsCount}`,
+    description: t.home.features.lessons,
+  },
+  {
+    href: `/${defaultLevel}/vocabulary`,
+    title: t.nav.vocabulary,
+    stat: `${wordCount} ${t.lessons.words}`,
+    description: t.home.features.vocabulary,
+  },
+  {
+    href: `/${defaultLevel}/verbs`,
+    title: t.nav.verbs,
+    stat: `${verbCount} ${t.verbs.resultCount}`,
+    description: t.home.features.verbs,
+  },
+  {
+    href: '/kanji',
+    title: t.nav.kanji,
+    stat: `${kanji.length} kanji`,
+    description: t.home.features.kanji,
+  },
+  {
+    href: '/kana',
+    title: t.nav.kana,
+    stat: 'あ・ア',
+    description: t.home.features.kana,
+  },
+  {
+    href: `/${defaultLevel}/reference`,
+    title: t.nav.reference,
+    stat: `${topics.length} ${t.home.tablesCount}`,
+    description: t.home.features.reference,
+  },
+];
+
 // N5 first; the next two levels stay visible as "coming soon" teasers
 const visibleLevels = LEVELS.slice(0, 3);
 ---
 
 <SiteLayout title={SITE_NAME} description={t.site.description}>
   <Container>
-    <section class="py-8 text-center sm:py-14">
+    <section class="py-10 text-center sm:py-16">
       <p class="jp text-primary text-5xl sm:text-6xl" lang="ja">日本語</p>
-      <h1 class="mt-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl">
+      <h1 class="mt-5 text-3xl font-bold tracking-tight text-balance sm:text-5xl">
         {t.home.title}
       </h1>
-      <p class="text-muted-foreground mx-auto mt-3 max-w-xl text-balance">
+      <p class="text-muted-foreground mx-auto mt-4 max-w-xl text-balance sm:text-lg">
         {t.home.subtitle}
       </p>
+      <div class="mt-7 flex flex-wrap justify-center gap-3">
+        <a
+          href={`/${defaultLevel}/lessons/1`}
+          class="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
+        >
+          {t.home.ctaStart}
+        </a>
+        <a
+          href={`/${defaultLevel}`}
+          class="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
+        >
+          {t.home.ctaLevel}
+        </a>
+      </div>
     </section>
 
-    <section class="mt-6">
+    <section class="mt-4">
+      <h2 class="mb-4 text-xl font-semibold">{t.home.whatsInside}</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          features.map((feature) => (
+            <Card href={feature.href}>
+              <div class="flex items-baseline justify-between gap-2">
+                <h3 class="font-semibold">{feature.title}</h3>
+                <span class="jp text-primary text-sm font-medium" lang="ja">
+                  {feature.stat}
+                </span>
+              </div>
+              <p class="text-muted-foreground mt-2 text-sm">{feature.description}</p>
+            </Card>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="mt-12">
       <h2 class="mb-4 text-xl font-semibold">{t.home.chooseLevel}</h2>
       <div class="grid gap-4 sm:grid-cols-3">
         {
@@ -58,19 +141,6 @@ const visibleLevels = LEVELS.slice(0, 3);
           )
         }
       </div>
-    </section>
-
-    <section class="mt-10 grid gap-4 sm:grid-cols-2">
-      <Card href="/kana">
-        <p class="jp text-3xl" lang="ja">あア</p>
-        <h2 class="mt-2 font-semibold">{t.home.exploreKana}</h2>
-        <p class="text-muted-foreground mt-1 text-sm">{t.home.exploreKanaDescription}</p>
-      </Card>
-      <Card href="/kanji">
-        <p class="jp text-3xl" lang="ja">漢字</p>
-        <h2 class="mt-2 font-semibold">{t.home.exploreKanji}</h2>
-        <p class="text-muted-foreground mt-1 text-sm">{t.home.exploreKanjiDescription}</p>
-      </Card>
     </section>
   </Container>
 </SiteLayout>
