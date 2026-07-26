@@ -3,9 +3,11 @@ import { parseFurigana } from '@/utils/furigana';
 
 interface Props {
   text: string;
+  // Display-size glyphs are already legible, so they opt out of the hover zoom
+  zoom?: boolean;
 }
 
-const { text } = Astro.props;
+const { text, zoom = true } = Astro.props;
 const segments = parseFurigana(text);
 ---
 
@@ -13,7 +15,7 @@ const segments = parseFurigana(text);
   {
     segments.map((segment) =>
       segment.ruby ? (
-        <span class="ruby-word">
+        <span class={zoom ? 'ruby-word' : undefined}>
           <ruby>
             {segment.base}
             <rp>(</rp>

@@ -82,7 +82,7 @@ const collections = [
             <Card href={collection.href} class="flex flex-col p-6">
               {/* min-height reserves the ruby line so glyphs without furigana still align */}
               <p class="jp text-primary flex min-h-12 items-end text-3xl leading-none" lang="ja">
-                <Furigana text={collection.glyph} />
+                <Furigana text={collection.glyph} zoom={false} />
               </p>
               <h3 class="mt-4 text-lg font-semibold">{collection.title}</h3>
               <p class="text-primary text-sm font-medium">{collection.stat}</p>
