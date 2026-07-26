@@ -4,6 +4,8 @@ import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
+import Furigana from '@/ui/Furigana.astro';
+import SectionHeading from '@/ui/SectionHeading.astro';
 import { getCollection } from 'astro:content';
 
 export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
@@ -22,19 +24,29 @@ const verbCount = (await getCollection('verbs', ({ data }) => data.level === lev
 );
 const kanjiCount = (await getCollection('kanji', ({ data }) => data.level === level)).length;
 
-// The standalone guides come first: they are no longer in the header, so this
-// page is where they are discovered.
-const guides = [
+// The three browsable collections. They are not in the header any more, so this
+// page is where they are found — hence the glyph and the count up front.
+const collections = [
   {
     href: `/${level}/verbs`,
+    glyph: '動詞[どうし]',
     title: t.verbs.title,
-    description: `${verbCount} ${t.verbs.resultCount} con sus formas ます, て, diccionario, ない y た.`,
+    stat: `${verbCount} ${t.verbs.resultCount}`,
+    description: 'Formas ます, て, diccionario, ない y た de cada verbo del libro.',
   },
-  { href: '/kana', title: t.kana.title, description: t.kana.description },
+  {
+    href: '/kana',
+    glyph: 'あア',
+    title: t.kana.title,
+    stat: 'Hiragana y katakana',
+    description: 'Gojūon, dakuten y combinaciones, con su romanización.',
+  },
   {
     href: '/kanji',
+    glyph: '漢字[かんじ]',
     title: t.kanji.title,
-    description: `${kanjiCount} kanji con lecturas, significados y ejemplos.`,
+    stat: `${kanjiCount} kanji`,
+    description: 'Lecturas on y kun, significados, trazos y palabras de ejemplo.',
   },
 ];
 ---
@@ -44,24 +56,42 @@ const guides = [
     <h1 class="text-3xl font-bold tracking-tight">{t.reference.title}</h1>
     <p class="text-muted-foreground mt-2 max-w-2xl">{t.reference.description}</p>
 
-    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {
-        guides.map((guide) => (
-          <Card href={guide.href}>
-            <h2 class="font-semibold">{guide.title}</h2>
-            <p class="text-muted-foreground mt-1 text-sm">{guide.description}</p>
-          </Card>
-        ))
-      }
+    <section class="mt-10">
+      <SectionHeading
+        title={t.reference.collections}
+        subtitle={t.reference.collectionsDescription}
+      />
+      <div class="grid gap-4 sm:grid-cols-3">
+        {
+          collections.map((collection) => (
+            <Card href={collection.href} class="flex flex-col p-6">
+              {/* min-height reserves the ruby line so glyphs without furigana still align */}
+              <p class="jp text-primary flex min-h-12 items-end text-3xl leading-none" lang="ja">
+                <Furigana text={collection.glyph} />
+              </p>
+              <h3 class="mt-4 text-lg font-semibold">{collection.title}</h3>
+              <p class="text-primary text-sm font-medium">{collection.stat}</p>
+              <p class="text-muted-foreground mt-2 text-sm">{collection.description}</p>
+            </Card>
+          ))
+        }
+      </div>
+    </section>
 
-      {
-        topics.map(({ data }) => (
-          <Card href={`/${level}/reference/${data.slug}`}>
-            <h2 class="font-semibold">{pickLocale(data.title, locale)}</h2>
-            <p class="text-muted-foreground mt-1 text-sm">{pickLocale(data.description, locale)}</p>
-          </Card>
-        ))
-      }
-    </div>
+    <section class="mt-12">
+      <SectionHeading title={t.reference.tables} subtitle={t.reference.tablesDescription} />
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          topics.map(({ data }) => (
+            <Card href={`/${level}/reference/${data.slug}`}>
+              <h3 class="font-semibold">{pickLocale(data.title, locale)}</h3>
+              <p class="text-muted-foreground mt-1 text-sm">
+                {pickLocale(data.description, locale)}
+              </p>
+            </Card>
+          ))
+        }
+      </div>
+    </section>
   </Container>
 </SiteLayout>

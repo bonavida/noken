@@ -102,6 +102,10 @@ export const es = {
       'Todo lo que se consulta: verbos, kana, kanji y tablas de partículas, contadores, la hora, el calendario, números, interrogativos, demostrativos y familia.',
     backToReference: 'Volver a la guía',
     seeAlso: 'Ver también',
+    collections: 'Colecciones',
+    collectionsDescription: 'Las tres listas completas, para consultar y repasar.',
+    tables: 'Tablas de consulta',
+    tablesDescription: 'Resúmenes de un vistazo para cada tema de gramática.',
   },
   kanji: {
     title: 'Kanji',
