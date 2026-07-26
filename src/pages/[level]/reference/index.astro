@@ -20,6 +20,23 @@ const verbCount = (await getCollection('verbs', ({ data }) => data.level === lev
   (total, entry) => total + entry.data.verbs.length,
   0
 );
+const kanjiCount = (await getCollection('kanji', ({ data }) => data.level === level)).length;
+
+// The standalone guides come first: they are no longer in the header, so this
+// page is where they are discovered.
+const guides = [
+  {
+    href: `/${level}/verbs`,
+    title: t.verbs.title,
+    description: `${verbCount} ${t.verbs.resultCount} con sus formas ます, て, diccionario, ない y た.`,
+  },
+  { href: '/kana', title: t.kana.title, description: t.kana.description },
+  {
+    href: '/kanji',
+    title: t.kanji.title,
+    description: `${kanjiCount} kanji con lecturas, significados y ejemplos.`,
+  },
+];
 ---
 
 <SiteLayout title={t.reference.title} description={t.reference.description}>
@@ -29,6 +46,15 @@ const verbCount = (await getCollection('verbs', ({ data }) => data.level === lev
 
     <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {
+        guides.map((guide) => (
+          <Card href={guide.href}>
+            <h2 class="font-semibold">{guide.title}</h2>
+            <p class="text-muted-foreground mt-1 text-sm">{guide.description}</p>
+          </Card>
+        ))
+      }
+
+      {
         topics.map(({ data }) => (
           <Card href={`/${level}/reference/${data.slug}`}>
             <h2 class="font-semibold">{pickLocale(data.title, locale)}</h2>
@@ -36,20 +62,6 @@ const verbCount = (await getCollection('verbs', ({ data }) => data.level === lev
           </Card>
         ))
       }
-
-      <Card href={`/${level}/verbs`}>
-        <h2 class="font-semibold">{t.verbs.title}</h2>
-        <p class="text-muted-foreground mt-1 text-sm">
-          {
-            `${verbCount} ${t.verbs.resultCount} — ${t.verbs.title.toLowerCase()} con todas sus formas.`
-          }
-        </p>
-      </Card>
-
-      <Card href="/kana">
-        <h2 class="font-semibold">{t.kana.title}</h2>
-        <p class="text-muted-foreground mt-1 text-sm">{t.kana.description}</p>
-      </Card>
     </div>
   </Container>
 </SiteLayout>

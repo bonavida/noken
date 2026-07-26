@@ -11,21 +11,25 @@ const currentPath = Astro.url.pathname;
 // The header links to the first enabled level until a level switcher is needed
 const [defaultLevel] = ENABLED_LEVELS;
 
+// The study path first, then the reference material. Kana and kanji live inside
+// the reference hub rather than at top level: they are consulted, not worked through.
 const links = [
   { href: `/${defaultLevel}/lessons`, label: t.nav.lessons },
   { href: `/${defaultLevel}/vocabulary`, label: t.nav.vocabulary },
   { href: `/${defaultLevel}/verbs`, label: t.nav.verbs },
-  { href: '/kana', label: t.nav.kana },
-  { href: '/kanji', label: t.nav.kanji },
-  { href: `/${defaultLevel}/reference`, label: t.nav.reference },
+  // Kana and kanji live under the reference hub, so they light it up too
+  { href: `/${defaultLevel}/reference`, label: t.nav.reference, owns: ['/kana', '/kanji'] },
 ];
 
-const isActive = (href: string) => currentPath === href || currentPath.startsWith(`${href}/`);
+const matches = (path: string) => currentPath === path || currentPath.startsWith(`${path}/`);
 
-const linkClasses = (href: string, extra: string) =>
+const isActive = ({ href, owns = [] }: { href: string; owns?: string[] }) =>
+  [href, ...owns].some(matches);
+
+const linkClasses = (link: { href: string; owns?: string[] }, extra: string) =>
   cn(
     'rounded-md font-medium transition-colors',
-    isActive(href)
+    isActive(link)
       ? 'bg-accent text-accent-foreground'
       : 'text-muted-foreground hover:text-foreground',
     extra
@@ -41,13 +45,13 @@ const linkClasses = (href: string, extra: string) =>
 
     <nav aria-label="principal" class="hidden items-center gap-0.5 md:flex">
       {
-        links.map(({ href, label }) => (
+        links.map((link) => (
           <a
-            href={href}
-            aria-current={isActive(href) ? 'page' : undefined}
-            class={linkClasses(href, 'px-2.5 py-1.5 text-sm whitespace-nowrap lg:px-3')}
+            href={link.href}
+            aria-current={isActive(link) ? 'page' : undefined}
+            class={linkClasses(link, 'px-2.5 py-1.5 text-sm whitespace-nowrap lg:px-3')}
           >
-            {label}
+            {link.label}
           </a>
         ))
       }
@@ -86,14 +90,14 @@ const linkClasses = (href: string, extra: string) =>
   <nav id="nav-panel" aria-label="principal" class="hidden border-t md:hidden">
     <ul class="mx-auto flex w-full max-w-5xl flex-col gap-1 px-4 py-3 sm:px-6">
       {
-        links.map(({ href, label }) => (
+        links.map((link) => (
           <li>
             <a
-              href={href}
-              aria-current={isActive(href) ? 'page' : undefined}
-              class={linkClasses(href, 'block px-3 py-2 text-base')}
+              href={link.href}
+              aria-current={isActive(link) ? 'page' : undefined}
+              class={linkClasses(link, 'block px-3 py-2 text-base')}
             >
-              {label}
+              {link.label}
             </a>
           </li>
         ))

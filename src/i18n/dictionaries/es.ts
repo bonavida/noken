@@ -99,7 +99,7 @@ export const es = {
   reference: {
     title: 'Guía',
     description:
-      'Tablas de consulta rápida: partículas, contadores, la hora, el calendario, números, interrogativos, demostrativos y familia.',
+      'Todo lo que se consulta: verbos, kana, kanji y tablas de partículas, contadores, la hora, el calendario, números, interrogativos, demostrativos y familia.',
     backToReference: 'Volver a la guía',
     seeAlso: 'Ver también',
   },
