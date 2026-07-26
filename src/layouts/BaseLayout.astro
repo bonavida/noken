@@ -43,6 +43,7 @@ const pageTitle = title === SITE_NAME ? title : `${title} · ${SITE_NAME}`;
           const { classList } = document.documentElement;
           classList.toggle('dark', isDark);
           classList.toggle('hide-furigana', stored.furigana === false);
+          classList.toggle('furigana-large', stored.furiganaSize === 'large');
           classList.toggle('hide-translations', stored.hideTranslations === true);
         };
         applySettings();

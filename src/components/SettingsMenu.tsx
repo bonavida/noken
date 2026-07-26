@@ -5,7 +5,7 @@ import { Label } from '@/ui/react/label';
 import { Popover, PopoverContent, PopoverTrigger } from '@/ui/react/popover';
 import { Switch } from '@/ui/react/switch';
 import { ToggleGroup, ToggleGroupItem } from '@/ui/react/toggle-group';
-import type { Theme } from '@/utils/settings';
+import type { FuriganaSize, Theme } from '@/utils/settings';
 
 interface SettingsMenuProps {
   labels: {
@@ -13,6 +13,9 @@ interface SettingsMenuProps {
     open: string;
     furigana: string;
     furiganaDescription: string;
+    furiganaSize: string;
+    furiganaSizeNormal: string;
+    furiganaSizeLarge: string;
     theme: string;
     themeLight: string;
     themeDark: string;
@@ -54,6 +57,32 @@ export const SettingsMenu = ({ labels }: SettingsMenuProps) => {
               onCheckedChange={(checked) => updateSettings({ furigana: checked })}
             />
           </div>
+
+          {settings.furigana && (
+            <div className="flex items-center justify-between gap-4">
+              <Label>{labels.furiganaSize}</Label>
+              <ToggleGroup
+                type="single"
+                variant="outline"
+                size="sm"
+                value={settings.furiganaSize}
+                onValueChange={(value) =>
+                  value && updateSettings({ furiganaSize: value as FuriganaSize })
+                }
+              >
+                <ToggleGroupItem value="normal" aria-label={labels.furiganaSizeNormal}>
+                  <span className="jp text-xs" lang="ja">
+                    あ
+                  </span>
+                </ToggleGroupItem>
+                <ToggleGroupItem value="large" aria-label={labels.furiganaSizeLarge}>
+                  <span className="jp text-base" lang="ja">
+                    あ
+                  </span>
+                </ToggleGroupItem>
+              </ToggleGroup>
+            </div>
+          )}
 
           <div className="flex items-start justify-between gap-4">
             <div>

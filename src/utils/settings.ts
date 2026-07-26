@@ -1,16 +1,19 @@
 import { SETTINGS_STORAGE_KEY } from '@/constants/site';
 
 export type Theme = 'light' | 'dark' | 'system';
+export type FuriganaSize = 'normal' | 'large';
 
 export interface Settings {
   theme: Theme;
   furigana: boolean;
+  furiganaSize: FuriganaSize;
   hideTranslations: boolean;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
   theme: 'system',
   furigana: true,
+  furiganaSize: 'normal',
   hideTranslations: false,
 };
 
@@ -23,12 +26,13 @@ export const readSettings = (): Settings => {
   }
 };
 
-const applySettings = ({ theme, furigana, hideTranslations }: Settings) => {
+const applySettings = ({ theme, furigana, furiganaSize, hideTranslations }: Settings) => {
   const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
   const isDark = theme === 'dark' || (theme === 'system' && prefersDark);
   const { classList } = document.documentElement;
   classList.toggle('dark', isDark);
   classList.toggle('hide-furigana', !furigana);
+  classList.toggle('furigana-large', furiganaSize === 'large');
   classList.toggle('hide-translations', hideTranslations);
 };
 

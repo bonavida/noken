@@ -13,12 +13,14 @@ const segments = parseFurigana(text);
   {
     segments.map((segment) =>
       segment.ruby ? (
-        <ruby>
-          {segment.base}
-          <rp>(</rp>
-          <rt>{segment.ruby}</rt>
-          <rp>)</rp>
-        </ruby>
+        <span class="ruby-word">
+          <ruby>
+            {segment.base}
+            <rp>(</rp>
+            <rt>{segment.ruby}</rt>
+            <rp>)</rp>
+          </ruby>
+        </span>
       ) : (
         segment.base
       )
