@@ -238,6 +238,9 @@ export const es = {
       dueToday: 'para repasar hoy',
     },
   },
+  footer: {
+    madeBy: 'Hecho por',
+  },
   notFound: {
     title: 'Página no encontrada',
     message: 'La página que buscas no existe o se ha movido.',
