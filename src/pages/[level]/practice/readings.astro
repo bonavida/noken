@@ -1,0 +1,66 @@
+---
+import { McQuiz, type McQuestion } from '@/components/practice/McQuiz';
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import { sample } from '@/utils/practice';
+import { stripFurigana } from '@/utils/furigana';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const vocab = await getCollection('vocab', ({ data }) => data.level === level);
+
+// Only words that actually contain kanji can be reading questions
+const kanjiWords = vocab.flatMap((entry) =>
+  entry.data.words
+    .filter((word) => stripFurigana(word.word) !== word.kana && word.word.includes('['))
+    .map((word) => ({ ...word, lesson: entry.data.lesson }))
+);
+
+// Distractors: readings of other words, preferring similar length so options look alike
+const questions: McQuestion[] = kanjiWords.map((word) => {
+  const candidates = kanjiWords
+    .filter((other) => other.kana !== word.kana)
+    .sort((a, b) => {
+      const lengthBias =
+        Math.abs(a.kana.length - word.kana.length) - Math.abs(b.kana.length - word.kana.length);
+      return lengthBias !== 0 ? lengthBias : Math.random() - 0.5;
+    })
+    .slice(0, 12);
+  const distractors = [...new Set(sample(candidates, 12).map(({ kana }) => kana))].slice(0, 3);
+
+  return {
+    id: word.id,
+    // The stripped word — showing furigana here would give the answer away
+    prompt: stripFurigana(word.word),
+    context: pickLocale(word.meaning, locale),
+    options: [word.kana, ...distractors],
+    answer: word.kana,
+    explanationJp: word.word,
+    lesson: word.lesson,
+  };
+});
+---
+
+<SiteLayout
+  title={t.practice.modes.readings.title}
+  description={t.practice.modes.readings.description}
+>
+  <Container class="max-w-3xl">
+    <p class="text-sm">
+      <a href={`/${level}/practice`} class="text-primary hover:underline">← {t.practice.title}</a>
+    </p>
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{t.practice.modes.readings.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.practice.modes.readings.description}</p>
+
+    <div class="mt-8">
+      <McQuiz questions={questions} labels={t.practice.quiz} client:load />
+    </div>
+  </Container>
+</SiteLayout>

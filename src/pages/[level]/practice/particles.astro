@@ -1,0 +1,81 @@
+---
+import { McQuiz, type McQuestion } from '@/components/practice/McQuiz';
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+// Wrong-but-tempting alternatives for each particle
+const CONFUSION: Record<string, string[]> = {
+  は: ['が', 'も', 'を'],
+  が: ['は', 'を', 'に'],
+  を: ['が', 'に', 'で'],
+  に: ['で', 'へ', 'を'],
+  で: ['に', 'を', 'へ'],
+  へ: ['に', 'で', 'まで'],
+  と: ['や', 'に', 'も'],
+  も: ['は', 'と', 'が'],
+  から: ['まで', 'に', 'で'],
+  まで: ['から', 'に', 'へ'],
+  や: ['と', 'も', 'の'],
+};
+
+// A particle is only detected right after a word boundary we can trust — the
+// closing `]` of a furigana bracket or a katakana word — and right before the
+// next word (space, digit, kanji, katakana or an opening quote). Kana-spelled
+// words are skipped on purpose: precision over recall.
+const PARTICLE_PATTERN = new RegExp(
+  `(?<=\\]|[ァ-ヴー])(${Object.keys(CONFUSION).join('|')})(?=[ \\u30000-9０-９一-龯々ァ-ヴ「])`,
+  'g'
+);
+const BLANK = '＿＿＿';
+
+const lessons = await getCollection('lessons', ({ data }) => data.level === level);
+
+const questions: McQuestion[] = lessons
+  .flatMap(({ data }) =>
+    data.grammar.flatMap((point, pointIndex) =>
+      point.examples.flatMap((example, exampleIndex) => {
+        const matches = [...example.jp.matchAll(PARTICLE_PATTERN)];
+        return matches.map((match, matchIndex) => {
+          const particle = match[1]!;
+          const prompt = `${example.jp.slice(0, match.index)}${BLANK}${example.jp.slice(match.index + particle.length)}`;
+          return {
+            id: `${data.number}-${pointIndex}-${exampleIndex}-${matchIndex}`,
+            prompt,
+            options: [particle, ...CONFUSION[particle]!],
+            answer: particle,
+            explanationJp: example.jp,
+            explanationEs: pickLocale(example.translation, locale),
+            lesson: data.number,
+          };
+        });
+      })
+    )
+  )
+  .sort((a, b) => (a.lesson ?? 0) - (b.lesson ?? 0));
+---
+
+<SiteLayout
+  title={t.practice.modes.particles.title}
+  description={t.practice.modes.particles.description}
+>
+  <Container class="max-w-3xl">
+    <p class="text-sm">
+      <a href={`/${level}/practice`} class="text-primary hover:underline">← {t.practice.title}</a>
+    </p>
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{t.practice.modes.particles.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.practice.modes.particles.description}</p>
+
+    <div class="mt-8">
+      <McQuiz questions={questions} labels={t.practice.quiz} optionsAreJapanese client:load />
+    </div>
+  </Container>
+</SiteLayout>

@@ -1,0 +1,29 @@
+---
+import { NumbersDrill } from '@/components/practice/NumbersDrill';
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const t = useTranslations(resolveLocale(Astro.currentLocale));
+---
+
+<SiteLayout
+  title={t.practice.modes.numbers.title}
+  description={t.practice.modes.numbers.description}
+>
+  <Container class="max-w-3xl">
+    <p class="text-sm">
+      <a href={`/${level}/practice`} class="text-primary hover:underline">← {t.practice.title}</a>
+    </p>
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{t.practice.modes.numbers.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.practice.modes.numbers.description}</p>
+
+    <div class="mt-8">
+      <NumbersDrill labels={t.practice.drill} client:load />
+    </div>
+  </Container>
+</SiteLayout>

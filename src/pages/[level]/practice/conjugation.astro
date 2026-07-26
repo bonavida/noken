@@ -1,0 +1,58 @@
+---
+import { ConjugationDrill, type DrillVerb } from '@/components/practice/ConjugationDrill';
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const verbs: DrillVerb[] = (
+  await getCollection('verbs', ({ data }) => data.level === level)
+).flatMap((entry) =>
+  entry.data.verbs.map((verb) => ({
+    verb: verb.verb,
+    masu: verb.masu,
+    te: verb.te,
+    dictionary: verb.dictionary,
+    nai: verb.nai,
+    ta: verb.ta,
+    meaning: pickLocale(verb.meaning, locale),
+    group: verb.group,
+  }))
+);
+
+const labels = {
+  ...t.practice.drill,
+  formNames: {
+    te: t.verbs.te,
+    dictionary: t.verbs.dictionary,
+    nai: t.verbs.nai,
+    ta: t.verbs.ta,
+  },
+  groupBadges: t.verbs.groupBadges,
+  groupLabels: t.verbs.groups,
+};
+---
+
+<SiteLayout
+  title={t.practice.modes.conjugation.title}
+  description={t.practice.modes.conjugation.description}
+>
+  <Container class="max-w-3xl">
+    <p class="text-sm">
+      <a href={`/${level}/practice`} class="text-primary hover:underline">← {t.practice.title}</a>
+    </p>
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{t.practice.modes.conjugation.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.practice.modes.conjugation.description}</p>
+
+    <div class="mt-8">
+      <ConjugationDrill verbs={verbs} labels={labels} client:load />
+    </div>
+  </Container>
+</SiteLayout>
