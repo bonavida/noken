@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
+import { FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
 import { cn } from '@/utils/cn';
 import { epochDay, readJson, shuffle, writeJson } from '@/utils/practice';
+import { recordAnswer } from '@/utils/stats';
 
 export interface FlashCard {
   id: string;
@@ -43,7 +45,6 @@ interface FlashcardsProps {
 type CardState = [number, number];
 type Store = Record<string, Record<string, CardState>>;
 
-const STORAGE_KEY = 'noken-flashcards';
 const SESSION_SIZE = 20;
 // Days until a card returns after a correct answer, indexed by its new box
 const INTERVALS = [1, 3, 7];
@@ -59,7 +60,7 @@ const dueCards = (deck: Deck, store: Store) => {
 
 export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
   const [store, setStore] = useState<Store>(() =>
-    typeof window === 'undefined' ? {} : readJson<Store>(STORAGE_KEY, {})
+    typeof window === 'undefined' ? {} : readJson<Store>(FLASHCARDS_STORAGE_KEY, {})
   );
   const [direction, setDirection] = useState<'jp-es' | 'es-jp'>('jp-es');
   const [deck, setDeck] = useState<Deck | null>(null);
@@ -83,7 +84,8 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
 
     const nextStore = { ...store, [deck.id]: states };
     setStore(nextStore);
-    writeJson(STORAGE_KEY, nextStore);
+    writeJson(FLASHCARDS_STORAGE_KEY, nextStore);
+    recordAnswer('flashcards', known);
 
     // Missed cards come back at the end of the same session
     setQueue((current) => (known ? current.slice(1) : [...current.slice(1), card]));

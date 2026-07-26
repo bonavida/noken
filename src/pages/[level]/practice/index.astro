@@ -15,6 +15,19 @@ const t = useTranslations(resolveLocale(Astro.currentLocale));
 
 const lessonCount = (await getCollection('lessons', ({ data }) => data.level === level)).length;
 
+// Total flashcards across all decks; the hub script subtracts the not-yet-due
+// cards from the Leitner store to show how many are waiting today
+const vocabCardCount = (await getCollection('vocab', ({ data }) => data.level === level)).reduce(
+  (total, entry) => total + entry.data.words.length,
+  0
+);
+const kanjiCardCount = (await getCollection('kanji', ({ data }) => data.level === level)).length;
+const verbCardCount = (await getCollection('verbs', ({ data }) => data.level === level)).reduce(
+  (total, entry) => total + entry.data.verbs.length,
+  0
+);
+const flashcardTotal = vocabCardCount + kanjiCardCount + verbCardCount;
+
 const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
   { slug: 'readings', icon: 'help-circle' },
   { slug: 'particles', icon: 'link' },
@@ -36,7 +49,22 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
       class="mt-6"
     />
 
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <p
+      class="text-muted-foreground mt-3 hidden text-sm"
+      data-practice-summary
+      data-label-streak={t.practice.stats.streak}
+      data-label-day={t.practice.stats.day}
+      data-label-days={t.practice.stats.days}
+    >
+    </p>
+
+    <div
+      class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
+      data-practice-grid
+      data-label-answers={t.practice.stats.answers}
+      data-label-accuracy={t.practice.stats.accuracy}
+      data-label-due={t.practice.stats.dueToday}
+    >
       {
         modes.map(({ slug, icon }) => (
           <Card href={`/${level}/practice/${slug}`}>
@@ -45,9 +73,69 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
             </div>
             <h3 class="mt-3 font-semibold">{t.practice.modes[slug].title}</h3>
             <p class="text-muted-foreground mt-1 text-sm">{t.practice.modes[slug].description}</p>
+            <p
+              class="text-primary mt-2 hidden text-sm font-medium"
+              data-mode-stats={slug}
+              data-total={slug === 'flashcards' ? flashcardTotal : undefined}
+            ></p>
           </Card>
         ))
       }
     </div>
   </Container>
 </SiteLayout>
+
+<script>
+  import { FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
+  import { epochDay, readJson } from '@/utils/practice';
+  import { currentStreak, readStats, type PracticeMode } from '@/utils/stats';
+
+  const dueFlashcards = (total: number) => {
+    // Cards absent from the store are unseen, and unseen cards are due
+    const store = readJson<Record<string, Record<string, [number, number]>>>(
+      FLASHCARDS_STORAGE_KEY,
+      {}
+    );
+    const today = epochDay();
+    const notDue = Object.values(store)
+      .flatMap((deck) => Object.values(deck))
+      .filter(([, dueDay]) => dueDay > today).length;
+    return Math.max(total - notDue, 0);
+  };
+
+  const update = () => {
+    const grid = document.querySelector<HTMLElement>('[data-practice-grid]');
+    if (!grid) return;
+
+    const stats = readStats();
+    const { labelAnswers, labelAccuracy, labelDue } = grid.dataset;
+
+    grid.querySelectorAll<HTMLElement>('[data-mode-stats]').forEach((line) => {
+      const mode = line.dataset.modeStats as PracticeMode;
+
+      if (mode === 'flashcards') {
+        const due = dueFlashcards(Number(line.dataset.total ?? '0'));
+        if (due === 0) return;
+        line.textContent = `${due} ${labelDue}`;
+        line.classList.remove('hidden');
+        return;
+      }
+
+      const entry = stats.modes[mode];
+      if (!entry?.answered) return;
+      const accuracy = Math.round((entry.correct / entry.answered) * 100);
+      line.textContent = `${entry.answered} ${labelAnswers} · ${accuracy}% ${labelAccuracy}`;
+      line.classList.remove('hidden');
+    });
+
+    const summary = document.querySelector<HTMLElement>('[data-practice-summary]');
+    if (!summary) return;
+    const streak = currentStreak(stats);
+    if (streak === 0) return;
+    const { labelStreak, labelDay, labelDays } = summary.dataset;
+    summary.textContent = `🔥 ${labelStreak}: ${streak} ${streak === 1 ? labelDay : labelDays}`;
+    summary.classList.remove('hidden');
+  };
+
+  document.addEventListener('astro:page-load', update);
+</script>

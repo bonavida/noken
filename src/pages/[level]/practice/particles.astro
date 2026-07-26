@@ -75,7 +75,13 @@ const questions: McQuestion[] = lessons
     <p class="text-muted-foreground mt-2">{t.practice.modes.particles.description}</p>
 
     <div class="mt-8">
-      <McQuiz questions={questions} labels={t.practice.quiz} optionsAreJapanese client:load />
+      <McQuiz
+        questions={questions}
+        labels={t.practice.quiz}
+        optionsAreJapanese
+        statsKey="particles"
+        client:load
+      />
     </div>
   </Container>
 </SiteLayout>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
 import { cn } from '@/utils/cn';
+import { recordAnswer, type PracticeMode } from '@/utils/stats';
 
 export interface DrillItem {
   // What the learner sees; furigana notation for Japanese, plain text otherwise
@@ -25,11 +26,13 @@ export interface RevealDrillLabels {
 interface RevealDrillProps {
   next: () => DrillItem;
   labels: RevealDrillLabels;
+  // When set, every self-grade feeds the lifetime stats shown on the practice hub
+  statsKey?: PracticeMode;
 }
 
 // Think → reveal → self-grade. The produce-then-check loop beats multiple
 // choice for recall, so this shell powers the conjugation and number drills.
-export const RevealDrill = ({ next, labels }: RevealDrillProps) => {
+export const RevealDrill = ({ next, labels, statsKey }: RevealDrillProps) => {
   const [item, setItem] = useState<DrillItem>(next);
   const [revealed, setRevealed] = useState(false);
   const [stats, setStats] = useState({ right: 0, wrong: 0 });
@@ -39,6 +42,7 @@ export const RevealDrill = ({ next, labels }: RevealDrillProps) => {
       right: right + (correct ? 1 : 0),
       wrong: wrong + (correct ? 0 : 1),
     }));
+    if (statsKey) recordAnswer(statsKey, correct);
     setItem(next());
     setRevealed(false);
   };

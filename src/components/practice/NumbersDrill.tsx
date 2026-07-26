@@ -102,7 +102,7 @@ export const NumbersDrill = ({ labels }: NumbersDrillProps) => {
       </ToggleGroup>
 
       <div className="mt-4">
-        <RevealDrill key={mode} next={next} labels={labels} />
+        <RevealDrill key={mode} next={next} labels={labels} statsKey="numbers" />
       </div>
     </div>
   );

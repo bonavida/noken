@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
 import { cn } from '@/utils/cn';
 import { sample, shuffle } from '@/utils/practice';
+import { recordAnswer, type PracticeMode } from '@/utils/stats';
 
 export interface McQuestion {
   id: string;
@@ -39,6 +40,8 @@ interface McQuizProps {
   // Options render in the JP font when they are Japanese (readings, particles)
   optionsAreJapanese?: boolean;
   questionCount?: number;
+  // When set, every answer feeds the lifetime stats shown on the practice hub
+  statsKey?: PracticeMode;
 }
 
 const buildRound = (questions: McQuestion[], lessonFilter: string, count: number) => {
@@ -57,6 +60,7 @@ export const McQuiz = ({
   labels,
   optionsAreJapanese = true,
   questionCount = 10,
+  statsKey,
 }: McQuizProps) => {
   const lessons = useMemo(
     () =>
@@ -92,6 +96,7 @@ export const McQuiz = ({
     if (selected !== null || !question) return;
     setSelected(option);
     if (option === question.answer) setScore((current) => current + 1);
+    if (statsKey) recordAnswer(statsKey, option === question.answer);
   };
 
   const advance = () => {

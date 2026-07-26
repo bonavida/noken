@@ -60,7 +60,7 @@ const questions: McQuestion[] = kanjiWords.map((word) => {
     <p class="text-muted-foreground mt-2">{t.practice.modes.readings.description}</p>
 
     <div class="mt-8">
-      <McQuiz questions={questions} labels={t.practice.quiz} client:load />
+      <McQuiz questions={questions} labels={t.practice.quiz} statsKey="readings" client:load />
     </div>
   </Container>
 </SiteLayout>

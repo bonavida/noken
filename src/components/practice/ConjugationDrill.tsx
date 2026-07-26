@@ -100,7 +100,12 @@ export const ConjugationDrill = ({ verbs, labels }: ConjugationDrillProps) => {
 
       <div className="mt-4">
         {/* Remount when filters change so the current card follows the selection */}
-        <RevealDrill key={`${forms.join()}-${groups.join()}`} next={next} labels={labels} />
+        <RevealDrill
+          key={`${forms.join()}-${groups.join()}`}
+          next={next}
+          labels={labels}
+          statsKey="conjugation"
+        />
       </div>
     </div>
   );

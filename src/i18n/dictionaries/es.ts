@@ -223,6 +223,14 @@ export const es = {
     },
     markComplete: 'Marcar como completada',
     completed: 'Completada',
+    stats: {
+      streak: 'Racha',
+      day: 'día',
+      days: 'días',
+      answers: 'respuestas',
+      accuracy: 'aciertos',
+      dueToday: 'para repasar hoy',
+    },
   },
   notFound: {
     title: 'Página no encontrada',
