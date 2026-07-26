@@ -38,7 +38,8 @@ export const SettingsMenu = ({ labels }: SettingsMenuProps) => {
           <Settings className="size-5" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent align="end" className="w-80">
+      {/* Capped so it still fits on 320px-wide phones */}
+      <PopoverContent align="end" className="w-[min(20rem,calc(100vw-2rem))]">
         <p className="mb-4 text-sm font-semibold">{labels.title}</p>
 
         <div className="flex flex-col gap-5">

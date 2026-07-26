@@ -12,6 +12,8 @@ export const es = {
     kana: 'Kana',
     kanji: 'Kanji',
     reference: 'Guía',
+    openMenu: 'Abrir menú',
+    closeMenu: 'Cerrar menú',
   },
   home: {
     title: 'Estudia japonés para el Noken',

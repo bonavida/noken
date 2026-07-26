@@ -21,27 +21,31 @@ const links = [
 ];
 
 const isActive = (href: string) => currentPath === href || currentPath.startsWith(`${href}/`);
+
+const linkClasses = (href: string, extra: string) =>
+  cn(
+    'rounded-md font-medium transition-colors',
+    isActive(href)
+      ? 'bg-accent text-accent-foreground'
+      : 'text-muted-foreground hover:text-foreground',
+    extra
+  );
 ---
 
 <header class="bg-background/80 sticky top-0 z-40 border-b backdrop-blur">
-  <div class="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 sm:px-6">
-    <a href="/" class="flex items-center gap-2 font-semibold">
+  <div class="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-3 px-4 sm:px-6">
+    <a href="/" class="flex shrink-0 items-center gap-2 font-semibold">
       <span class="jp text-primary text-xl leading-none" lang="ja">の</span>
       <span>{SITE_NAME}</span>
     </a>
 
-    <nav aria-label="principal" class="flex items-center gap-1 overflow-x-auto">
+    <nav aria-label="principal" class="hidden items-center gap-0.5 md:flex">
       {
         links.map(({ href, label }) => (
           <a
             href={href}
             aria-current={isActive(href) ? 'page' : undefined}
-            class={cn(
-              'rounded-md px-3 py-1.5 text-sm font-medium whitespace-nowrap transition-colors',
-              isActive(href)
-                ? 'bg-accent text-accent-foreground'
-                : 'text-muted-foreground hover:text-foreground'
-            )}
+            class={linkClasses(href, 'px-2.5 py-1.5 text-sm whitespace-nowrap lg:px-3')}
           >
             {label}
           </a>
@@ -49,6 +53,86 @@ const isActive = (href: string) => currentPath === href || currentPath.startsWit
       }
     </nav>
 
-    <SettingsMenu labels={t.settings} client:idle transition:persist="settings-menu" />
+    <div class="flex shrink-0 items-center gap-1">
+      <SettingsMenu labels={t.settings} client:idle transition:persist="settings-menu" />
+
+      <button
+        type="button"
+        id="nav-toggle"
+        class="hover:bg-accent hover:text-accent-foreground focus-visible:ring-ring inline-flex size-9 items-center justify-center rounded-md transition-colors focus-visible:ring-2 focus-visible:outline-none md:hidden"
+        aria-expanded="false"
+        aria-controls="nav-panel"
+        aria-label={t.nav.openMenu}
+        data-label-open={t.nav.openMenu}
+        data-label-close={t.nav.closeMenu}
+      >
+        <svg
+          class="size-5"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+    </div>
   </div>
+
+  <nav id="nav-panel" aria-label="principal" class="hidden border-t md:hidden">
+    <ul class="mx-auto flex w-full max-w-5xl flex-col gap-1 px-4 py-3 sm:px-6">
+      {
+        links.map(({ href, label }) => (
+          <li>
+            <a
+              href={href}
+              aria-current={isActive(href) ? 'page' : undefined}
+              class={linkClasses(href, 'block px-3 py-2 text-base')}
+            >
+              {label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
 </header>
+
+<script>
+  // Zero-dependency disclosure for the small-screen nav. Re-bound on every view
+  // transition, and the panel starts closed because the markup ships closed.
+  const setupNav = () => {
+    const toggle = document.getElementById('nav-toggle');
+    const panel = document.getElementById('nav-panel');
+    if (!toggle || !panel) return;
+
+    const setOpen = (open: boolean) => {
+      panel.classList.toggle('hidden', !open);
+      toggle.setAttribute('aria-expanded', String(open));
+      const label = open ? toggle.dataset.labelClose : toggle.dataset.labelOpen;
+      if (label) toggle.setAttribute('aria-label', label);
+    };
+
+    toggle.addEventListener('click', () => {
+      setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      if (toggle.getAttribute('aria-expanded') !== 'true') return;
+      setOpen(false);
+      toggle.focus();
+    });
+
+    // Leaving the small-screen breakpoint should not leave a stray open panel
+    matchMedia('(min-width: 48rem)').addEventListener('change', (event) => {
+      if (event.matches) setOpen(false);
+    });
+  };
+
+  document.addEventListener('astro:page-load', setupNav);
+</script>

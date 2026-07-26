@@ -27,7 +27,7 @@ const levelName = level.toUpperCase();
   <Container>
     <h1 class="text-3xl font-bold tracking-tight">{t.level.title} {levelName}</h1>
 
-    <div class="mt-8 grid gap-4 sm:grid-cols-3">
+    <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       <Card href={`/${level}/lessons`}>
         <p class="text-primary text-3xl font-bold">{lessons.length}</p>
         <h2 class="mt-1 font-semibold">{t.nav.lessons}</h2>
