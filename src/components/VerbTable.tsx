@@ -119,7 +119,8 @@ export const VerbTable = ({ verbs, labels, groupLabels, groupBadges }: VerbTable
           </thead>
           <tbody className="jp" lang="ja">
             {filteredVerbs.map((entry) => (
-              <tr key={entry.id} className="border-b last:border-0">
+              // The id makes each verb linkable, e.g. from a search result
+              <tr key={entry.id} id={entry.id} className="scroll-mt-24 border-b last:border-0">
                 <td className="bg-background sticky left-0 z-10 px-3 py-2.5 whitespace-nowrap">
                   <span className="flex items-center gap-2">
                     <span
