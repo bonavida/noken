@@ -34,7 +34,9 @@ const { chip, hover } = accents[accent];
 <a
   href={href}
   class={cn(
-    'group focus-visible:ring-ring block rounded-lg border bg-card p-5 text-card-foreground transition-colors focus-visible:ring-2',
+    // h-full so the card fills its grid cell even when wrapped (the lessons
+    // grid wraps each card to position the completion badge)
+    'group focus-visible:ring-ring block h-full rounded-lg border bg-card p-5 text-card-foreground transition-colors focus-visible:ring-2',
     hover
   )}
 >
