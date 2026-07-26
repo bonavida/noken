@@ -240,6 +240,8 @@ export const es = {
   },
   footer: {
     madeBy: 'Hecho por',
+    repo: 'Ver el código en GitHub',
+    email: 'Escribir un correo al autor',
   },
   notFound: {
     title: 'Página no encontrada',
