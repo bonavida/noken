@@ -3,7 +3,6 @@ export const SITE_NAME = 'Noken';
 export const SETTINGS_STORAGE_KEY = 'noken-settings';
 
 export const AUTHOR = 'bonavida';
-export const AUTHOR_EMAIL = 'gecko.bona@gmail.com';
 export const REPO_URL = 'https://github.com/bonavida/noken';
 
 // Footer encouragement, kept simple enough for an N5 learner:
