@@ -136,10 +136,10 @@ export const VerbTable = ({ verbs, labels, groupLabels, groupBadges }: VerbTable
                   {entry.dictionary}
                 </td>
                 <td className="px-3 py-2.5 whitespace-nowrap">{entry.te}</td>
+                <td className="px-3 py-2.5 whitespace-nowrap">{entry.ta}</td>
                 <td className="px-3 py-2.5 whitespace-nowrap">
                   {entry.nai ?? <span className="text-muted-foreground">—</span>}
                 </td>
-                <td className="px-3 py-2.5 whitespace-nowrap">{entry.ta}</td>
                 <td className="translation px-3 py-2.5 font-sans">{entry.meaning}</td>
               </tr>
             ))}
