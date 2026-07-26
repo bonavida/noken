@@ -1,6 +1,5 @@
 export const es = {
   site: {
-    tagline: 'Tu guía de estudio para el Noken 5',
     description:
       'Estudia para el examen JLPT N5 con gramática, vocabulario, kana y kanji basados en Minna no Nihongo.',
   },
