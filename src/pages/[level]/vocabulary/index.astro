@@ -1,8 +1,8 @@
 ---
+import IndexCard from '@/components/IndexCard.astro';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
 import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
-import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
 import { getCollection } from 'astro:content';
 
@@ -32,17 +32,14 @@ const lessonTitleByNumber = new Map(
     <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {
         vocab.map(({ data }) => (
-          <Card href={`/${level}/vocabulary/${data.lesson}`}>
-            <p class="text-muted-foreground text-sm font-medium">
-              {t.lessons.lesson} {data.lesson}
-            </p>
-            {lessonTitleByNumber.has(data.lesson) && (
-              <h2 class="mt-1 text-lg font-semibold">{lessonTitleByNumber.get(data.lesson)}</h2>
-            )}
-            <p class="text-muted-foreground mt-2 text-sm">
-              {data.words.length} {t.lessons.words}
-            </p>
-          </Card>
+          <IndexCard
+            href={`/${level}/vocabulary/${data.lesson}`}
+            number={data.lesson}
+            label={t.lessons.lesson}
+            title={lessonTitleByNumber.get(data.lesson) ?? `${t.lessons.lesson} ${data.lesson}`}
+            meta={`${data.words.length} ${t.lessons.words}`}
+            accent="vocab"
+          />
         ))
       }
     </div>

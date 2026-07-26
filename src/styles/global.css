@@ -30,6 +30,8 @@
   --verb-1: oklch(0.53 0.19 25);
   --verb-2: oklch(0.48 0.15 250);
   --verb-3: oklch(0.48 0.12 155);
+  /* Section accent: vocabulary cards, complementary to the terracotta primary */
+  --sky: oklch(0.52 0.12 245);
 }
 
 .dark {
@@ -55,6 +57,7 @@
   --verb-1: oklch(0.72 0.17 25);
   --verb-2: oklch(0.72 0.13 250);
   --verb-3: oklch(0.72 0.12 155);
+  --sky: oklch(0.72 0.11 245);
 }
 
 @theme inline {
@@ -80,6 +83,7 @@
   --color-verb-1: var(--verb-1);
   --color-verb-2: var(--verb-2);
   --color-verb-3: var(--verb-3);
+  --color-sky: var(--sky);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
