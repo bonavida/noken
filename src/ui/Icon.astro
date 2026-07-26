@@ -1,0 +1,120 @@
+---
+// Minimal static icon set (lucide path data, ISC licensed), inlined so pages
+// that only need a handful of icons stay zero-JS — no client-side icon library.
+type Segment =
+  | { tag: 'path'; d: string }
+  | { tag: 'line'; x1: string; y1: string; x2: string; y2: string }
+  | { tag: 'circle'; cx: string; cy: string; r: string }
+  | { tag: 'rect'; x: string; y: string; width: string; height: string; rx: string };
+
+const path = (d: string): Segment => ({ tag: 'path', d });
+const line = (x1: string, y1: string, x2: string, y2: string): Segment => ({
+  tag: 'line',
+  x1,
+  y1,
+  x2,
+  y2,
+});
+const circle = (cx: string, cy: string, r: string): Segment => ({ tag: 'circle', cx, cy, r });
+const rect = (x: string, y: string, width: string, height: string, rx: string): Segment => ({
+  tag: 'rect',
+  x,
+  y,
+  width,
+  height,
+  rx,
+});
+
+const ICONS: Record<string, Segment[]> = {
+  link: [
+    path('M9 17H7A5 5 0 0 1 7 7h2'),
+    path('M15 7h2a5 5 0 1 1 0 10h-2'),
+    line('8', '12', '16', '12'),
+  ],
+  hash: [
+    line('4', '9', '20', '9'),
+    line('4', '15', '20', '15'),
+    line('10', '3', '8', '21'),
+    line('16', '3', '14', '21'),
+  ],
+  clock: [circle('12', '12', '10'), path('M12 6v6l4 2')],
+  calendar: [path('M8 2v4'), path('M16 2v4'), rect('3', '4', '18', '18', '2'), path('M3 10h18')],
+  'list-ordered': [
+    path('M11 5h10'),
+    path('M11 12h10'),
+    path('M11 19h10'),
+    path('M4 4h1v5'),
+    path('M4 9h2'),
+    path('M6.5 20H3.4c0-1 2.6-1.925 2.6-3.5a1.5 1.5 0 0 0-2.6-1.02'),
+  ],
+  'help-circle': [
+    circle('12', '12', '10'),
+    path('M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'),
+    path('M12 17h.01'),
+  ],
+  locate: [
+    line('2', '12', '5', '12'),
+    line('19', '12', '22', '12'),
+    line('12', '2', '12', '5'),
+    line('12', '19', '12', '22'),
+    circle('12', '12', '7'),
+  ],
+  users: [
+    path('M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'),
+    path('M16 3.128a4 4 0 0 1 0 7.744'),
+    path('M22 21v-2a4 4 0 0 0-3-3.87'),
+    circle('9', '7', '4'),
+  ],
+  palette: [
+    path(
+      'M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z'
+    ),
+  ],
+  'message-circle': [
+    path(
+      'M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719'
+    ),
+  ],
+};
+
+export type IconName = keyof typeof ICONS;
+
+interface Props {
+  name: IconName;
+  class?: string;
+}
+
+const { name, class: className } = Astro.props;
+const segments = ICONS[name];
+---
+
+<svg
+  class={className}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+>
+  {
+    segments.map((segment) =>
+      segment.tag === 'line' ? (
+        <line x1={segment.x1} y1={segment.y1} x2={segment.x2} y2={segment.y2} />
+      ) : segment.tag === 'circle' ? (
+        <circle cx={segment.cx} cy={segment.cy} r={segment.r} />
+      ) : segment.tag === 'rect' ? (
+        <rect
+          x={segment.x}
+          y={segment.y}
+          width={segment.width}
+          height={segment.height}
+          rx={segment.rx}
+        />
+      ) : (
+        <path d={segment.d} />
+      )
+    )
+  }
+</svg>

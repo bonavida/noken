@@ -5,8 +5,23 @@ import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
 import Furigana from '@/ui/Furigana.astro';
+import Icon, { type IconName } from '@/ui/Icon.astro';
 import SectionHeading from '@/ui/SectionHeading.astro';
 import { getCollection } from 'astro:content';
+
+// One icon per topic slug, purely decorative (aria-hidden in Icon.astro)
+const TOPIC_ICONS: Record<string, IconName> = {
+  particles: 'link',
+  numbers: 'hash',
+  time: 'clock',
+  calendar: 'calendar',
+  counters: 'list-ordered',
+  'question-words': 'help-circle',
+  demonstratives: 'locate',
+  family: 'users',
+  adjectives: 'palette',
+  greetings: 'message-circle',
+};
 
 export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
 
@@ -84,7 +99,10 @@ const collections = [
         {
           topics.map(({ data }) => (
             <Card href={`/${level}/reference/${data.slug}`}>
-              <h3 class="font-semibold">{pickLocale(data.title, locale)}</h3>
+              <div class="text-primary bg-accent/60 inline-flex size-9 items-center justify-center rounded-md">
+                <Icon name={TOPIC_ICONS[data.slug]} class="size-5" />
+              </div>
+              <h3 class="mt-3 font-semibold">{pickLocale(data.title, locale)}</h3>
               <p class="text-muted-foreground mt-1 text-sm">
                 {pickLocale(data.description, locale)}
               </p>
