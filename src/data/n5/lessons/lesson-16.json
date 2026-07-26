@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 16,
-  "title": { "es": "Encadenar acciones y describir" },
+  "title": {
+    "es": "Encadenar acciones y describir"
+  },
   "jpTitle": "使[つか]い 方[かた]を 教[おし]えてください",
   "description": {
     "es": "Une varias acciones seguidas con la forma て, describe características con 〜は〜が y pregunta cómo se hace algo."
@@ -9,7 +11,9 @@
   "grammar": [
     {
       "id": "te-encadenar",
-      "title": { "es": "V1 て、V2 — acciones en secuencia" },
+      "title": {
+        "es": "V1 て、V2 — acciones en secuencia"
+      },
       "pattern": "V1 て、V2 て、… ／ A-くて／A-なで、〜",
       "explanation": {
         "es": "La forma て encadena acciones en orden cronológico: 朝[あさ] 起[お]きて、シャワーを 浴[あ]びて、 会社[かいしゃ]へ 行[い]きます. Los adjetivos también se encadenan: -い con 〜くて (安[やす]くておいしい) y los -な y sustantivos con で (ハンサムで 親切[しんせつ]です)."
@@ -17,17 +21,23 @@
       "examples": [
         {
           "jp": "日曜日[にちようび]は 買[か]い 物[もの]して、 映画[えいが]を 見[み]ました。",
-          "translation": { "es": "El domingo hice compras y vi una película." }
+          "translation": {
+            "es": "El domingo hice compras y vi una película."
+          }
         },
         {
           "jp": "奈良[なら]は 静[しず]かで、きれいな 町[まち]です。",
-          "translation": { "es": "Nara es una ciudad tranquila y bonita." }
+          "translation": {
+            "es": "Nara es una ciudad tranquila y bonita."
+          }
         }
       ]
     },
     {
       "id": "te-kara",
-      "title": { "es": "V1 てから、V2 — «después de…»" },
+      "title": {
+        "es": "V1 てから、V2 — «después de…»"
+      },
       "pattern": "V1 てから、V2",
       "explanation": {
         "es": "〜てから subraya que la segunda acción ocurre una vez terminada la primera: 仕事[しごと]が 終[お]わってから、 泳[およ]ぎに 行[い]きます."
@@ -35,13 +45,17 @@
       "examples": [
         {
           "jp": "お 金[かね]を 入[い]れてから、ボタンを 押[お]してください。",
-          "translation": { "es": "Después de meter el dinero, pulse el botón." }
+          "translation": {
+            "es": "Después de meter el dinero, pulse el botón."
+          }
         }
       ]
     },
     {
       "id": "wa-ga",
-      "title": { "es": "N1 は N2 が A — describir una parte" },
+      "title": {
+        "es": "N1 は N2 が A — describir una parte"
+      },
       "pattern": "N1 は N2 が A です",
       "explanation": {
         "es": "Para describir una característica de una parte del tema se usa は…が…: 大阪[おおさか]は 食[た]べ 物[もの]が おいしいです (en Osaka la comida está rica), マリアさんは 髪[かみ]が 長[なが]いです."
@@ -49,13 +63,17 @@
       "examples": [
         {
           "jp": "ミラーさんは 背[せ]が 高[たか]いです。",
-          "translation": { "es": "El Sr. Miller es alto." }
+          "translation": {
+            "es": "El Sr. Miller es alto."
+          }
         }
       ]
     },
     {
       "id": "o-salir",
-      "title": { "es": "N を 出[で]ます／降[お]ります — el punto de salida" },
+      "title": {
+        "es": "N を 出[で]ます／降[お]ります — el punto de salida"
+      },
       "pattern": "N を V (salir, bajar)",
       "explanation": {
         "es": "を también marca el lugar del que se sale o baja: 電車[でんしゃ]を 降[お]ります (bajar del tren), 大学[だいがく]を 出[で]ます (graduarse)."
@@ -63,13 +81,17 @@
       "examples": [
         {
           "jp": "梅田[うめだ]で 電車[でんしゃ]を 降[お]りてください。",
-          "translation": { "es": "Baje del tren en Umeda." }
+          "translation": {
+            "es": "Baje del tren en Umeda."
+          }
         }
       ]
     },
     {
       "id": "douyatte",
-      "title": { "es": "どうやって — «¿cómo se hace?»" },
+      "title": {
+        "es": "どうやって — «¿cómo se hace?»"
+      },
       "pattern": "どうやって V ますか",
       "explanation": {
         "es": "どうやって pregunta la manera o el procedimiento; se responde encadenando pasos con la forma て."
@@ -85,7 +107,9 @@
     },
     {
       "id": "dore-dono",
-      "title": { "es": "どれ／どの N — «cuál» (entre tres o más)" },
+      "title": {
+        "es": "どれ／どの N — «cuál» (entre tres o más)"
+      },
       "pattern": "どれ ／ どの N",
       "explanation": {
         "es": "Para elegir entre tres o más opciones se usa どれ (solo) o どの + sustantivo: どれが 私[わたし]の 傘[かさ]ですか, どの 人[ひと]が 山田[やまだ]さんですか."
@@ -93,9 +117,12 @@
       "examples": [
         {
           "jp": "ミラーさんはどの 人[ひと]ですか。…あの 背[せ]が 高[たか]い 人[ひと]です。",
-          "translation": { "es": "¿Cuál es el Sr. Miller? …Aquel alto." }
+          "translation": {
+            "es": "¿Cuál es el Sr. Miller? …Aquel alto."
+          }
         }
       ]
     }
-  ]
+  ],
+  "references": ["question-words", "verbs"]
 }

@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 3,
-  "title": { "es": "Lugares y precios" },
+  "title": {
+    "es": "Lugares y precios"
+  },
   "jpTitle": "これを ください",
   "description": {
     "es": "Pregunta y di dónde están los lugares y las cosas, y aprende a preguntar precios al comprar."
@@ -9,7 +11,9 @@
   "grammar": [
     {
       "id": "koko-soko-asoko",
-      "title": { "es": "ここ／そこ／あそこ／こちら…" },
+      "title": {
+        "es": "ここ／そこ／あそこ／こちら…"
+      },
       "pattern": "ここ／そこ／あそこ（こちら／そちら／あちら）",
       "explanation": {
         "es": "Demostrativos de lugar: ここ (aquí, cerca del hablante), そこ (ahí, cerca del oyente), あそこ (allí, lejos de ambos). こちら・そちら・あちら son sus formas corteses y también indican dirección."
@@ -17,14 +21,23 @@
       "examples": [
         {
           "jp": "ここは 会議室[かいぎしつ]です。",
-          "translation": { "es": "Aquí es la sala de reuniones." }
+          "translation": {
+            "es": "Aquí es la sala de reuniones."
+          }
         },
-        { "jp": "お 手洗[てあら]いはあそこです。", "translation": { "es": "El baño está allí." } }
+        {
+          "jp": "お 手洗[てあら]いはあそこです。",
+          "translation": {
+            "es": "El baño está allí."
+          }
+        }
       ]
     },
     {
       "id": "wa-lugar-desu",
-      "title": { "es": "N は (lugar) です — «N está en…»" },
+      "title": {
+        "es": "N は (lugar) です — «N está en…»"
+      },
       "pattern": "N は lugar です",
       "explanation": {
         "es": "Con un lugar como predicado, です indica dónde está algo o alguien. Es la forma más simple de localizar cosas sin usar todavía verbos de existencia."
@@ -32,32 +45,47 @@
       "examples": [
         {
           "jp": "電話[でんわ]は 事務所[じむしょ]です。",
-          "translation": { "es": "El teléfono está en la oficina." }
+          "translation": {
+            "es": "El teléfono está en la oficina."
+          }
         },
         {
           "jp": "山田[やまだ]さんは 食堂[しょくどう]です。",
-          "translation": { "es": "El Sr. Yamada está en el comedor." }
+          "translation": {
+            "es": "El Sr. Yamada está en el comedor."
+          }
         }
       ]
     },
     {
       "id": "doko-dochira",
-      "title": { "es": "どこ／どちら — «dónde»" },
+      "title": {
+        "es": "どこ／どちら — «dónde»"
+      },
       "pattern": "N は どこ／どちら ですか",
       "explanation": {
         "es": "どこ pregunta por un lugar y どちら es su forma cortés (también «cuál de dos»). どちら se usa además para preguntar cortésmente por el país, la empresa o la escuela de alguien."
       },
       "examples": [
-        { "jp": "トイレはどこですか。", "translation": { "es": "¿Dónde está el baño?" } },
+        {
+          "jp": "トイレはどこですか。",
+          "translation": {
+            "es": "¿Dónde está el baño?"
+          }
+        },
         {
           "jp": "会社[かいしゃ]はどちらですか。",
-          "translation": { "es": "¿Cuál es su empresa? / ¿Dónde está su empresa?" }
+          "translation": {
+            "es": "¿Cuál es su empresa? / ¿Dónde está su empresa?"
+          }
         }
       ]
     },
     {
       "id": "no-origen",
-      "title": { "es": "N1 の N2 — origen y marca" },
+      "title": {
+        "es": "N1 の N2 — origen y marca"
+      },
       "pattern": "N1 の N2",
       "explanation": {
         "es": "Aquí の expresa el país o la empresa de origen de un producto: 日本[にほん]の 車[くるま] es «un coche japonés»."
@@ -65,13 +93,17 @@
       "examples": [
         {
           "jp": "これはどこのコンピューターですか。… 日本[にほん]のコンピューターです。",
-          "translation": { "es": "¿De dónde es este ordenador? …Es un ordenador japonés." }
+          "translation": {
+            "es": "¿De dónde es este ordenador? …Es un ordenador japonés."
+          }
         }
       ]
     },
     {
       "id": "ko-so-a-do",
-      "title": { "es": "La serie こ／そ／あ／ど" },
+      "title": {
+        "es": "La serie こ／そ／あ／ど"
+      },
       "pattern": "これ・それ・あれ・どれ ／ ここ・そこ・あそこ・どこ …",
       "explanation": {
         "es": "Los demostrativos japoneses forman un sistema regular de cuatro series: こ〜 (cerca del hablante), そ〜 (cerca del oyente), あ〜 (lejos de ambos) y ど〜 (interrogativo). Conociendo el patrón, aprender una columna nueva es inmediato."
@@ -79,13 +111,17 @@
       "examples": [
         {
           "jp": "エレベーターはどちらですか。…あちらです。",
-          "translation": { "es": "¿Por dónde está el ascensor? …Por allí." }
+          "translation": {
+            "es": "¿Por dónde está el ascensor? …Por allí."
+          }
         }
       ]
     },
     {
       "id": "o-cortesia-3",
-      "title": { "es": "お〜 con palabras del oyente" },
+      "title": {
+        "es": "お〜 con palabras del oyente"
+      },
       "pattern": "お + N",
       "explanation": {
         "es": "El prefijo お aparece en palabras como お 国[くに] (su país) para hablar con respeto de lo que pertenece al oyente."
@@ -93,9 +129,12 @@
       "examples": [
         {
           "jp": "お 国[くに]はどちらですか。…アメリカです。",
-          "translation": { "es": "¿De qué país es usted? …De Estados Unidos." }
+          "translation": {
+            "es": "¿De qué país es usted? …De Estados Unidos."
+          }
         }
       ]
     }
-  ]
+  ],
+  "references": ["demonstratives", "numbers", "counters"]
 }

@@ -69,5 +69,6 @@
         }
       ]
     }
-  ]
+  ],
+  "references": ["verbs", "demonstratives", "greetings"]
 }

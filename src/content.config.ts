@@ -37,6 +37,9 @@ const lessons = defineCollection({
     jpTitle: furiganaText.optional(),
     description: localized.optional(),
     grammar: z.array(grammarPoint).min(1),
+    // Reference topics worth consulting alongside this lesson: either a slug from
+    // the reference collection or one of the standalone guides ('verbs', 'kana')
+    references: z.array(z.string()).optional(),
   }),
 });
 

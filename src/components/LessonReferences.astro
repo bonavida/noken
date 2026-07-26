@@ -1,0 +1,56 @@
+---
+import type { Level } from '@/constants/levels';
+import type { Locale } from '@/i18n/config';
+import { pickLocale, useTranslations } from '@/i18n/t';
+import Card from '@/ui/Card.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  level: Level;
+  slugs: string[];
+  locale: Locale;
+}
+
+const { level, slugs, locale } = Astro.props;
+const t = useTranslations(locale);
+
+const topics = await getCollection('reference', ({ data }) => data.level === level);
+
+// Reference topics plus the standalone guides, keyed by the slug lessons refer to
+const targets = new Map(
+  topics.map(({ data }) => [
+    data.slug,
+    {
+      href: `/${level}/reference/${data.slug}`,
+      title: pickLocale(data.title, locale),
+      description: pickLocale(data.description, locale),
+    },
+  ])
+);
+targets.set('verbs', {
+  href: `/${level}/verbs`,
+  title: t.verbs.title,
+  description: t.verbs.description,
+});
+targets.set('kana', { href: '/kana', title: t.kana.title, description: t.kana.description });
+
+const links = slugs.map((slug) => targets.get(slug)).filter((target) => target != null);
+---
+
+{
+  links.length > 0 && (
+    <section class="mt-12">
+      <h2 class="text-muted-foreground mb-3 text-xs font-medium tracking-wide uppercase">
+        {t.reference.seeAlso}
+      </h2>
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {links.map((link) => (
+          <Card href={link.href} class="p-4">
+            <h3 class="text-sm font-semibold">{link.title}</h3>
+            <p class="text-muted-foreground mt-1 text-xs">{link.description}</p>
+          </Card>
+        ))}
+      </div>
+    </section>
+  )
+}

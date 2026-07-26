@@ -120,5 +120,6 @@
         }
       ]
     }
-  ]
+  ],
+  "references": ["adjectives", "particles"]
 }

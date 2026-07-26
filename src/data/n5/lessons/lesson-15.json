@@ -87,5 +87,6 @@
         }
       ]
     }
-  ]
+  ],
+  "references": ["verbs"]
 }

@@ -1,7 +1,9 @@
 {
   "level": "n5",
   "number": 6,
-  "title": { "es": "Comer, beber y proponer planes" },
+  "title": {
+    "es": "Comer, beber y proponer planes"
+  },
   "jpTitle": "いっしょに 行[い]きませんか",
   "description": {
     "es": "Los verbos transitivos con la partícula を, el lugar de la acción con で, y las invitaciones con 〜ませんか y 〜ましょう."
@@ -9,31 +11,57 @@
   "grammar": [
     {
       "id": "o-transitivo",
-      "title": { "es": "N を V — el objeto directo" },
+      "title": {
+        "es": "N を V — el objeto directo"
+      },
       "pattern": "N を V (transitivo)",
       "explanation": {
         "es": "La partícula を marca el objeto directo de un verbo transitivo: ジュースを 飲[の]みます (bebo zumo)."
       },
       "examples": [
-        { "jp": "パンを 食[た]べます。", "translation": { "es": "Como pan." } },
-        { "jp": "写真[しゃしん]を 撮[と]ります。", "translation": { "es": "Saco fotos." } }
+        {
+          "jp": "パンを 食[た]べます。",
+          "translation": {
+            "es": "Como pan."
+          }
+        },
+        {
+          "jp": "写真[しゃしん]を 撮[と]ります。",
+          "translation": {
+            "es": "Saco fotos."
+          }
+        }
       ]
     },
     {
       "id": "o-shimasu",
-      "title": { "es": "N を します — «hacer / jugar»" },
+      "title": {
+        "es": "N を します — «hacer / jugar»"
+      },
       "pattern": "N を します",
       "explanation": {
         "es": "します con を cubre muchas actividades: deportes (サッカーを します), tareas (宿題[しゅくだい]を します) o reuniones. Su significado depende del sustantivo."
       },
       "examples": [
-        { "jp": "テニスを します。", "translation": { "es": "Juego al tenis." } },
-        { "jp": "宿題[しゅくだい]を します。", "translation": { "es": "Hago los deberes." } }
+        {
+          "jp": "テニスを します。",
+          "translation": {
+            "es": "Juego al tenis."
+          }
+        },
+        {
+          "jp": "宿題[しゅくだい]を します。",
+          "translation": {
+            "es": "Hago los deberes."
+          }
+        }
       ]
     },
     {
       "id": "nani-o-shimasu-ka",
-      "title": { "es": "何[なに]を しますか — «¿qué haces?»" },
+      "title": {
+        "es": "何[なに]を しますか — «¿qué haces?»"
+      },
       "pattern": "何[なに]を しますか",
       "explanation": {
         "es": "Pregunta por la actividad. Puede combinarse con tiempo y lugar: 日曜日[にちようび] 何[なに]を しますか."
@@ -41,25 +69,41 @@
       "examples": [
         {
           "jp": "月曜日[げつようび] 何[なに]を しますか。… 東京[とうきょう]へ 行[い]きます。",
-          "translation": { "es": "¿Qué haces el lunes? …Voy a Tokio." }
+          "translation": {
+            "es": "¿Qué haces el lunes? …Voy a Tokio."
+          }
         }
       ]
     },
     {
       "id": "nan-nani",
-      "title": { "es": "なん y なに — dos lecturas de 何" },
+      "title": {
+        "es": "なん y なに — dos lecturas de 何"
+      },
       "pattern": "何[なん]／何[なに]",
       "explanation": {
         "es": "何 se lee なん delante de です, de palabras que empiezan por t/d/n o al contar (何[なん] 時[じ]). En el resto de casos se lee なに: 何[なに]を 買[か]いますか."
       },
       "examples": [
-        { "jp": "それは 何[なん]ですか。", "translation": { "es": "¿Qué es eso?" } },
-        { "jp": "何[なに]を 買[か]いますか。", "translation": { "es": "¿Qué vas a comprar?" } }
+        {
+          "jp": "それは 何[なん]ですか。",
+          "translation": {
+            "es": "¿Qué es eso?"
+          }
+        },
+        {
+          "jp": "何[なに]を 買[か]いますか。",
+          "translation": {
+            "es": "¿Qué vas a comprar?"
+          }
+        }
       ]
     },
     {
       "id": "de-lugar",
-      "title": { "es": "N (lugar) で V — el lugar de la acción" },
+      "title": {
+        "es": "N (lugar) で V — el lugar de la acción"
+      },
       "pattern": "lugar で V",
       "explanation": {
         "es": "で marca el lugar donde ocurre una acción (a diferencia de へ, que marca dirección): 食堂[しょくどう]で 昼[ひる]ごはんを 食[た]べます."
@@ -67,13 +111,17 @@
       "examples": [
         {
           "jp": "駅[えき]で 新聞[しんぶん]を 買[か]います。",
-          "translation": { "es": "Compro el periódico en la estación." }
+          "translation": {
+            "es": "Compro el periódico en la estación."
+          }
         }
       ]
     },
     {
       "id": "masen-ka",
-      "title": { "es": "V ませんか — invitar" },
+      "title": {
+        "es": "V ませんか — invitar"
+      },
       "pattern": "V ませんか",
       "explanation": {
         "es": "La forma negativa con か invita amablemente al oyente: いっしょに 行[い]きませんか (¿no vienes con nosotros?). Es más cortés que preguntar directamente con ますか porque tiene en cuenta la voluntad del oyente."
@@ -81,13 +129,17 @@
       "examples": [
         {
           "jp": "いっしょにビールを 飲[の]みませんか。…ええ、いいですね。",
-          "translation": { "es": "¿Tomamos una cerveza juntos? …Sí, buena idea." }
+          "translation": {
+            "es": "¿Tomamos una cerveza juntos? …Sí, buena idea."
+          }
         }
       ]
     },
     {
       "id": "mashou",
-      "title": { "es": "V ましょう — «hagamos»" },
+      "title": {
+        "es": "V ましょう — «hagamos»"
+      },
       "pattern": "V ましょう",
       "explanation": {
         "es": "Propone hacer algo juntos dando por hecho que el oyente aceptará, o responde afirmativamente a una invitación: ロビーで 会[あ]いましょう."
@@ -95,13 +147,17 @@
       "examples": [
         {
           "jp": "10 時[じ]に 駅[えき]で 会[あ]いましょう。",
-          "translation": { "es": "Quedemos a las diez en la estación." }
+          "translation": {
+            "es": "Quedemos a las diez en la estación."
+          }
         }
       ]
     },
     {
       "id": "ka-tema",
-      "title": { "es": "〜か — retomar un tema" },
+      "title": {
+        "es": "〜か — retomar un tema"
+      },
       "pattern": "S か",
       "explanation": {
         "es": "か al final también sirve para confirmar que se ha entendido una propuesta antes de responder: お 花見[はなみ]ですか。いいですね。"
@@ -109,9 +165,12 @@
       "examples": [
         {
           "jp": "お 花見[はなみ]を しませんか。…お 花見[はなみ]ですか。いいですね。",
-          "translation": { "es": "¿Vamos a ver los cerezos? …¿Los cerezos? ¡Qué buena idea!" }
+          "translation": {
+            "es": "¿Vamos a ver los cerezos? …¿Los cerezos? ¡Qué buena idea!"
+          }
         }
       ]
     }
-  ]
+  ],
+  "references": ["particles", "verbs"]
 }

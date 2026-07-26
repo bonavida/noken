@@ -141,5 +141,6 @@
         }
       ]
     }
-  ]
+  ],
+  "references": ["verbs"]
 }

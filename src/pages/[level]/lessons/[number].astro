@@ -1,5 +1,6 @@
 ---
 import GrammarPoint from '@/components/GrammarPoint.astro';
+import LessonReferences from '@/components/LessonReferences.astro';
 import VocabSection from '@/components/VocabSection.astro';
 import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
@@ -41,7 +42,7 @@ interface Props {
 }
 
 const { lesson, lessonVocab, previousLesson, nextLesson } = Astro.props;
-const { level, number, title, jpTitle, description, grammar } = lesson.data;
+const { level, number, title, jpTitle, description, grammar, references } = lesson.data;
 
 const locale = resolveLocale(Astro.currentLocale);
 const t = useTranslations(locale);
@@ -112,6 +113,8 @@ const pageTitle = `${t.lessons.lesson} ${number} — ${localizedTitle}`;
         </section>
       )
     }
+
+    {references && <LessonReferences level={level} slugs={references} locale={locale} />}
 
     <nav class="mt-12 flex justify-between gap-4 border-t pt-6 text-sm" aria-label="paginación">
       {
