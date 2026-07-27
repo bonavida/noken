@@ -78,6 +78,9 @@ export const es = {
     gojuon: 'Gojūon — sonidos básicos',
     dakuten: 'Dakuten y handakuten — sonidos sonoros',
     yoon: 'Yōon — sonidos combinados',
+    marks: 'Signos de lectura',
+    marksDescription:
+      'Estos signos no son sílabas: cambian cómo se leen los kana que tienen al lado.',
   },
   verbs: {
     title: 'Verbos',

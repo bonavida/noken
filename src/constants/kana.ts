@@ -1,3 +1,5 @@
+import type { Localized } from '@/types/content';
+
 export interface KanaEntry {
   hiragana: string;
   katakana: string;
@@ -127,4 +129,63 @@ export const YOON_ROWS: KanaRow[] = [
   [entry('じゃ', 'ジャ', 'ja'), entry('じゅ', 'ジュ', 'ju'), entry('じょ', 'ジョ', 'jo')],
   [entry('びゃ', 'ビャ', 'bya'), entry('びゅ', 'ビュ', 'byu'), entry('びょ', 'ビョ', 'byo')],
   [entry('ぴゃ', 'ピャ', 'pya'), entry('ぴゅ', 'ピュ', 'pyu'), entry('ぴょ', 'ピョ', 'pyo')],
+];
+
+// Writing marks that change how neighbouring kana are read, so they have no
+// place in the syllabary grids above. Explanations are content, hence localized.
+export interface KanaMarkExample {
+  // Furigana bracket notation; katakana words carry no reading
+  word: string;
+  romaji: string;
+  meaning: Localized;
+}
+
+export interface KanaMark {
+  id: string;
+  symbol: string;
+  name: Localized;
+  effect: Localized;
+  examples: KanaMarkExample[];
+}
+
+export const KANA_MARKS: KanaMark[] = [
+  {
+    id: 'sokuon',
+    symbol: 'っ ッ',
+    name: { es: 'Sokuon — つ pequeña' },
+    effect: {
+      es: 'Una つ escrita en pequeño no se pronuncia: duplica la consonante siguiente y marca una pausa breve, como en «gato» frente a «gatto». Nunca aparece al final de una palabra.',
+    },
+    examples: [
+      { word: '切手[きって]', romaji: 'kitte', meaning: { es: 'sello' } },
+      { word: '学校[がっこう]', romaji: 'gakkō', meaning: { es: 'escuela' } },
+      { word: '雑誌[ざっし]', romaji: 'zasshi', meaning: { es: 'revista' } },
+    ],
+  },
+  {
+    id: 'chouonpu',
+    symbol: 'ー',
+    name: { es: 'Chōonpu — raya de alargamiento' },
+    effect: {
+      es: 'Alarga la vocal anterior durante otro tiempo. Se usa solo en katakana, sobre todo en préstamos de otros idiomas, y se escribe horizontal aunque el texto sea vertical.',
+    },
+    examples: [
+      { word: 'コーヒー', romaji: 'kōhī', meaning: { es: 'café' } },
+      { word: 'スーパー', romaji: 'sūpā', meaning: { es: 'supermercado' } },
+      { word: 'タクシー', romaji: 'takushī', meaning: { es: 'taxi' } },
+    ],
+  },
+  {
+    id: 'long-vowels',
+    symbol: 'おう えい',
+    name: { es: 'Vocales largas en hiragana' },
+    effect: {
+      es: 'El hiragana no usa ー: la vocal se alarga añadiendo otra vocal. お se alarga casi siempre con う (y a veces con お), y え con い.',
+    },
+    examples: [
+      { word: '高校[こうこう]', romaji: 'kōkō', meaning: { es: 'instituto' } },
+      { word: '先生[せんせい]', romaji: 'sensei', meaning: { es: 'profesor' } },
+      { word: '大[おお]きい', romaji: 'ōkii', meaning: { es: 'grande' } },
+    ],
+  },
 ];
