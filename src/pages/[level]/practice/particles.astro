@@ -4,6 +4,7 @@ import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
 import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
+import { sample } from '@/utils/practice';
 import { getCollection } from 'astro:content';
 
 export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
@@ -12,20 +13,24 @@ const { level } = Astro.params as { level: EnabledLevel };
 const locale = resolveLocale(Astro.currentLocale);
 const t = useTranslations(locale);
 
-// Wrong-but-tempting alternatives for each particle
+// Wrong-but-tempting alternatives for each particle. Each pool holds more than
+// the three options a question needs: with fixed trios the option set alone
+// identified the answer, so a learner could pattern-match without reading.
 const CONFUSION: Record<string, string[]> = {
-  は: ['が', 'も', 'を'],
-  が: ['は', 'を', 'に'],
-  を: ['が', 'に', 'で'],
-  に: ['で', 'へ', 'を'],
-  で: ['に', 'を', 'へ'],
-  へ: ['に', 'で', 'まで'],
-  と: ['や', 'に', 'も'],
-  も: ['は', 'と', 'が'],
-  から: ['まで', 'に', 'で'],
-  まで: ['から', 'に', 'へ'],
-  や: ['と', 'も', 'の'],
+  は: ['が', 'も', 'を', 'に', 'で'],
+  が: ['は', 'を', 'に', 'も', 'で'],
+  を: ['が', 'に', 'で', 'は', 'へ'],
+  に: ['で', 'へ', 'を', 'が', 'と'],
+  で: ['に', 'を', 'へ', 'は', 'と'],
+  へ: ['に', 'で', 'まで', 'を', 'から'],
+  と: ['や', 'に', 'も', 'で', 'は'],
+  も: ['は', 'と', 'が', 'を', 'に'],
+  から: ['まで', 'に', 'で', 'へ', 'と'],
+  まで: ['から', 'に', 'へ', 'で', 'を'],
+  や: ['と', 'も', 'の', 'に', 'で'],
 };
+
+const DISTRACTORS_PER_QUESTION = 3;
 
 // A particle is only detected right after a word boundary we can trust — the
 // closing `]` of a furigana bracket or a katakana word — and right before the
@@ -50,7 +55,7 @@ const questions: McQuestion[] = lessons
           return {
             id: `${data.number}-${pointIndex}-${exampleIndex}-${matchIndex}`,
             prompt,
-            options: [particle, ...CONFUSION[particle]!],
+            options: [particle, ...sample(CONFUSION[particle]!, DISTRACTORS_PER_QUESTION)],
             answer: particle,
             explanationJp: example.jp,
             explanationEs: pickLocale(example.translation, locale),

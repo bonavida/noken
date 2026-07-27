@@ -4,7 +4,7 @@ import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
 import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
-import { sample } from '@/utils/practice';
+import { pickDistractors } from '@/utils/distractors';
 import { stripFurigana } from '@/utils/furigana';
 import { getCollection } from 'astro:content';
 
@@ -20,25 +20,18 @@ const vocab = await getCollection('vocab', ({ data }) => data.level === level);
 const kanjiWords = vocab.flatMap((entry) =>
   entry.data.words
     .filter((word) => stripFurigana(word.word) !== word.kana && word.word.includes('['))
-    .map((word) => ({ ...word, lesson: entry.data.lesson }))
+    .map((word) => ({ ...word, lesson: entry.data.lesson, stripped: stripFurigana(word.word) }))
 );
 
-// Distractors: readings of other words, preferring similar length so options look alike
 const questions: McQuestion[] = kanjiWords.map((word) => {
-  const candidates = kanjiWords
-    .filter((other) => other.kana !== word.kana)
-    .sort((a, b) => {
-      const lengthBias =
-        Math.abs(a.kana.length - word.kana.length) - Math.abs(b.kana.length - word.kana.length);
-      return lengthBias !== 0 ? lengthBias : Math.random() - 0.5;
-    })
-    .slice(0, 12);
-  const distractors = [...new Set(sample(candidates, 12).map(({ kana }) => kana))].slice(0, 3);
+  // Options share the word type and okurigana of the answer, so none of them
+  // can be ruled out on shape alone
+  const distractors = pickDistractors(word, kanjiWords, 3);
 
   return {
     id: word.id,
     // The stripped word — showing furigana here would give the answer away
-    prompt: stripFurigana(word.word),
+    prompt: word.stripped,
     context: pickLocale(word.meaning, locale),
     options: [word.kana, ...distractors],
     answer: word.kana,
