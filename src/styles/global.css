@@ -4,6 +4,8 @@
 @import '@fontsource-variable/noto-sans-jp';
 
 @custom-variant dark (&:is(.dark *));
+/* Set on <html> before paint by the inline script in BaseLayout */
+@custom-variant mac (&:is(.mac *));
 
 :root {
   --background: oklch(0.99 0.002 90);

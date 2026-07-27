@@ -31,14 +31,6 @@ interface SearchDialogProps {
 const INDEX_URL = '/search-index.json';
 const MAX_RESULTS = 24;
 
-// Rendered inside the trigger so the shortcut is discoverable without docs.
-// The value differs per platform, hence the hydration-warning suppression.
-const shortcutLabel = () => {
-  if (typeof navigator === 'undefined') return 'Ctrl K';
-  const platform = navigator.platform || navigator.userAgent;
-  return /Mac|iPhone|iPad|iPod/.test(platform) ? '⌘K' : 'Ctrl K';
-};
-
 // True when the keystroke belongs to a field the user is writing in, so the
 // bare "/" shortcut leaves the vocabulary filter and quiz inputs alone
 const isTyping = (target: EventTarget | null) => {
@@ -185,11 +177,11 @@ export const SearchDialog = ({ labels }: SearchDialogProps) => {
       >
         <Search className="size-4" aria-hidden="true" />
         <span>{labels.open}</span>
-        <kbd
-          suppressHydrationWarning
-          className="bg-muted text-muted-foreground rounded px-1.5 py-0.5 text-xs font-medium"
-        >
-          {shortcutLabel()}
+        {/* Both labels ship in the HTML and CSS picks one, so the key is right
+        before paint instead of waiting for this island to hydrate */}
+        <kbd className="bg-muted text-muted-foreground rounded px-1.5 py-0.5 text-xs font-medium">
+          <span className="mac:inline hidden">⌘K</span>
+          <span className="mac:hidden">Ctrl K</span>
         </kbd>
       </button>
 
