@@ -6,7 +6,7 @@
     "es": ["intervalo", "entre"]
   },
   "onyomi": ["カン", "ケン"],
-  "kunyomi": ["あいだ"],
+  "kunyomi": ["あいだ", "ま"],
   "strokes": 12,
   "examples": [
     {
@@ -25,6 +25,24 @@
       "word": "二週間[にしゅうかん]",
       "meaning": {
         "es": "dos semanas"
+      }
+    },
+    {
+      "word": "間[ま]に 合[あ]う",
+      "meaning": {
+        "es": "llegar a tiempo"
+      }
+    },
+    {
+      "word": "仲間[なかま]",
+      "meaning": {
+        "es": "compañero"
+      }
+    },
+    {
+      "word": "空間[くうかん]",
+      "meaning": {
+        "es": "espacio"
       }
     }
   ]

@@ -1,0 +1,42 @@
+{
+  "character": "終",
+  "level": "n5",
+  "meanings": {
+    "es": ["terminar"]
+  },
+  "onyomi": ["シュウ"],
+  "kunyomi": ["お.わる"],
+  "strokes": 11,
+  "examples": [
+    {
+      "word": "終[お]わる",
+      "meaning": {
+        "es": "terminar"
+      }
+    },
+    {
+      "word": "始終[しじゅう]",
+      "meaning": {
+        "es": "de principio a fin"
+      }
+    },
+    {
+      "word": "終了[しゅうりょう]",
+      "meaning": {
+        "es": "finalización"
+      }
+    },
+    {
+      "word": "終点[しゅうてん]",
+      "meaning": {
+        "es": "final de trayecto"
+      }
+    },
+    {
+      "word": "終結[しゅうけつ]",
+      "meaning": {
+        "es": "conclusión"
+      }
+    }
+  ]
+}

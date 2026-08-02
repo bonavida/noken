@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["reunirse", "encontrarse"]
+    "es": ["reunirse", "encontrarse", "sociedad", "reunión"]
   },
   "onyomi": ["カイ"],
   "kunyomi": ["あ.う"],
@@ -25,6 +25,30 @@
       "word": "会議[かいぎ]",
       "meaning": {
         "es": "reunión"
+      }
+    },
+    {
+      "word": "会[あ]う",
+      "meaning": {
+        "es": "encontrarse"
+      }
+    },
+    {
+      "word": "出会[であ]い",
+      "meaning": {
+        "es": "encuentro"
+      }
+    },
+    {
+      "word": "会話[かいわ]",
+      "meaning": {
+        "es": "conversación"
+      }
+    },
+    {
+      "word": "会員[かいいん]",
+      "meaning": {
+        "es": "miembro"
       }
     }
   ]

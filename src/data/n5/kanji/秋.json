@@ -1,0 +1,42 @@
+{
+  "character": "秋",
+  "level": "n5",
+  "meanings": {
+    "es": ["otoño"]
+  },
+  "onyomi": ["シュウ"],
+  "kunyomi": ["あき"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "秋[あき]",
+      "meaning": {
+        "es": "otoño"
+      }
+    },
+    {
+      "word": "秋風[あきかぜ]",
+      "meaning": {
+        "es": "viento de otoño"
+      }
+    },
+    {
+      "word": "今秋[こんしゅう]",
+      "meaning": {
+        "es": "este otoño"
+      }
+    },
+    {
+      "word": "秋分[しゅうぶん]",
+      "meaning": {
+        "es": "equinoccio de otoño"
+      }
+    },
+    {
+      "word": "晩秋[ばんしゅう]",
+      "meaning": {
+        "es": "finales de otoño"
+      }
+    }
+  ]
+}

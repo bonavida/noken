@@ -1,0 +1,42 @@
+{
+  "character": "動",
+  "level": "n5",
+  "meanings": {
+    "es": ["moverse"]
+  },
+  "onyomi": ["ドウ"],
+  "kunyomi": ["うご.く"],
+  "strokes": 11,
+  "examples": [
+    {
+      "word": "動[うご]く",
+      "meaning": {
+        "es": "moverse"
+      }
+    },
+    {
+      "word": "動物[どうぶつ]",
+      "meaning": {
+        "es": "animal"
+      }
+    },
+    {
+      "word": "運動[うんどう]",
+      "meaning": {
+        "es": "ejercicio"
+      }
+    },
+    {
+      "word": "活動[かつどう]",
+      "meaning": {
+        "es": "actividad"
+      }
+    },
+    {
+      "word": "感動[かんどう]",
+      "meaning": {
+        "es": "emoción"
+      }
+    }
+  ]
+}

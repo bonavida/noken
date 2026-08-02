@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["espíritu", "aire"]
+    "es": ["espíritu", "aire", "ánimo", "gas"]
   },
   "onyomi": ["キ", "ケ"],
   "kunyomi": [],
@@ -25,6 +25,24 @@
       "word": "電気[でんき]",
       "meaning": {
         "es": "electricidad"
+      }
+    },
+    {
+      "word": "勇気[ゆうき]",
+      "meaning": {
+        "es": "valor"
+      }
+    },
+    {
+      "word": "気温[きおん]",
+      "meaning": {
+        "es": "temperatura atmosférica"
+      }
+    },
+    {
+      "word": "気体[きたい]",
+      "meaning": {
+        "es": "gas, vapor"
       }
     }
   ]

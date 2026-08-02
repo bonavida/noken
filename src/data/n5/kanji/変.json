@@ -1,0 +1,42 @@
+{
+  "character": "変",
+  "level": "n5",
+  "meanings": {
+    "es": ["raro", "cambiar"]
+  },
+  "onyomi": ["ヘン"],
+  "kunyomi": ["か.わる"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "変[か]わる",
+      "meaning": {
+        "es": "cambiar"
+      }
+    },
+    {
+      "word": "変[へん]",
+      "meaning": {
+        "es": "raro, extraño"
+      }
+    },
+    {
+      "word": "変化[へんか]",
+      "meaning": {
+        "es": "cambio, transformación"
+      }
+    },
+    {
+      "word": "大変[たいへん]",
+      "meaning": {
+        "es": "duro, difícil"
+      }
+    },
+    {
+      "word": "変更[へんこう]",
+      "meaning": {
+        "es": "modificación"
+      }
+    }
+  ]
+}

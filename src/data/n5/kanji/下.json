@@ -3,10 +3,10 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["abajo", "debajo"]
+    "es": ["abajo", "debajo", "bajar"]
   },
   "onyomi": ["カ", "ゲ"],
-  "kunyomi": ["した", "さ.げる"],
+  "kunyomi": ["した", "さ.げる", "さ.がる", "くだ.る"],
   "strokes": 3,
   "examples": [
     {
@@ -25,6 +25,30 @@
       "word": "地下[ちか]",
       "meaning": {
         "es": "sótano"
+      }
+    },
+    {
+      "word": "下[さ]がる",
+      "meaning": {
+        "es": "bajar, descender"
+      }
+    },
+    {
+      "word": "下[くだ]る",
+      "meaning": {
+        "es": "bajar (escaleras)"
+      }
+    },
+    {
+      "word": "地下鉄[ちかてつ]",
+      "meaning": {
+        "es": "metro"
+      }
+    },
+    {
+      "word": "下品[げひん]",
+      "meaning": {
+        "es": "vulgar"
       }
     }
   ]

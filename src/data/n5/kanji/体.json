@@ -1,0 +1,42 @@
+{
+  "character": "体",
+  "level": "n5",
+  "meanings": {
+    "es": ["cuerpo"]
+  },
+  "onyomi": ["タイ"],
+  "kunyomi": ["からだ"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "体[からだ]",
+      "meaning": {
+        "es": "cuerpo"
+      }
+    },
+    {
+      "word": "肉体[にくたい]",
+      "meaning": {
+        "es": "cuerpo, carne"
+      }
+    },
+    {
+      "word": "体操[たいそう]",
+      "meaning": {
+        "es": "gimnasia"
+      }
+    },
+    {
+      "word": "固体[こたい]",
+      "meaning": {
+        "es": "sólido"
+      }
+    },
+    {
+      "word": "体験[たいけん]",
+      "meaning": {
+        "es": "experiencia vivida"
+      }
+    }
+  ]
+}

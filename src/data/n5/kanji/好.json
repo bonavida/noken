@@ -1,0 +1,42 @@
+{
+  "character": "好",
+  "level": "n5",
+  "meanings": {
+    "es": ["gustar"]
+  },
+  "onyomi": ["コウ"],
+  "kunyomi": ["す.き"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "好[す]き",
+      "meaning": {
+        "es": "gustar"
+      }
+    },
+    {
+      "word": "好況[こうきょう]",
+      "meaning": {
+        "es": "buena coyuntura económica"
+      }
+    },
+    {
+      "word": "好都合[こうつごう]",
+      "meaning": {
+        "es": "favorable"
+      }
+    },
+    {
+      "word": "好意[こうい]",
+      "meaning": {
+        "es": "amabilidad"
+      }
+    },
+    {
+      "word": "好物[こうぶつ]",
+      "meaning": {
+        "es": "plato preferido"
+      }
+    }
+  ]
+}

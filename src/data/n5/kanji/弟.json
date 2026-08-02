@@ -1,0 +1,42 @@
+{
+  "character": "弟",
+  "level": "n5",
+  "meanings": {
+    "es": ["hermano menor"]
+  },
+  "onyomi": ["テイ", "ダイ"],
+  "kunyomi": ["おとうと"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "弟[おとうと]",
+      "meaning": {
+        "es": "hermano menor"
+      }
+    },
+    {
+      "word": "兄弟[きょうだい]",
+      "meaning": {
+        "es": "hermanos"
+      }
+    },
+    {
+      "word": "子弟[してい]",
+      "meaning": {
+        "es": "hijo"
+      }
+    },
+    {
+      "word": "義弟[ぎてい]",
+      "meaning": {
+        "es": "hermanastro menor"
+      }
+    },
+    {
+      "word": "師弟[してい]",
+      "meaning": {
+        "es": "maestro y discípulo"
+      }
+    }
+  ]
+}

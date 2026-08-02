@@ -1,0 +1,42 @@
+{
+  "character": "持",
+  "level": "n5",
+  "meanings": {
+    "es": ["agarrar", "tener", "poseer"]
+  },
+  "onyomi": ["ジ"],
+  "kunyomi": ["も.つ"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "持[も]つ",
+      "meaning": {
+        "es": "agarrar, tener"
+      }
+    },
+    {
+      "word": "金持[かねも]ち",
+      "meaning": {
+        "es": "rico"
+      }
+    },
+    {
+      "word": "気持[きも]ち",
+      "meaning": {
+        "es": "sentimiento"
+      }
+    },
+    {
+      "word": "支持[しじ]",
+      "meaning": {
+        "es": "apoyo"
+      }
+    },
+    {
+      "word": "所持[しょじ]",
+      "meaning": {
+        "es": "posesión"
+      }
+    }
+  ]
+}

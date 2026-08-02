@@ -1,0 +1,42 @@
+{
+  "character": "石",
+  "level": "n5",
+  "meanings": {
+    "es": ["piedra", "roca"]
+  },
+  "onyomi": ["セキ"],
+  "kunyomi": ["いし"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "石[いし]",
+      "meaning": {
+        "es": "piedra, roca"
+      }
+    },
+    {
+      "word": "石油[せきゆ]",
+      "meaning": {
+        "es": "petróleo"
+      }
+    },
+    {
+      "word": "宝石[ほうせき]",
+      "meaning": {
+        "es": "piedra preciosa"
+      }
+    },
+    {
+      "word": "石炭[せきたん]",
+      "meaning": {
+        "es": "carbón mineral"
+      }
+    },
+    {
+      "word": "石像[せきぞう]",
+      "meaning": {
+        "es": "estatua de piedra"
+      }
+    }
+  ]
+}

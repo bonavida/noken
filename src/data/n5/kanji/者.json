@@ -1,0 +1,42 @@
+{
+  "character": "者",
+  "level": "n5",
+  "meanings": {
+    "es": ["persona"]
+  },
+  "onyomi": ["シャ"],
+  "kunyomi": ["もの"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "若者[わかもの]",
+      "meaning": {
+        "es": "joven"
+      }
+    },
+    {
+      "word": "何者[なにもの]",
+      "meaning": {
+        "es": "quién, qué clase de persona"
+      }
+    },
+    {
+      "word": "学者[がくしゃ]",
+      "meaning": {
+        "es": "erudito"
+      }
+    },
+    {
+      "word": "医者[いしゃ]",
+      "meaning": {
+        "es": "médico"
+      }
+    },
+    {
+      "word": "芸者[げいしゃ]",
+      "meaning": {
+        "es": "geisha"
+      }
+    }
+  ]
+}

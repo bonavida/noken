@@ -1,0 +1,42 @@
+{
+  "character": "寒",
+  "level": "n5",
+  "meanings": {
+    "es": ["frío"]
+  },
+  "onyomi": ["カン"],
+  "kunyomi": ["さむ.い"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "寒[さむ]い",
+      "meaning": {
+        "es": "frío"
+      }
+    },
+    {
+      "word": "寒空[さむぞら]",
+      "meaning": {
+        "es": "cielo invernal"
+      }
+    },
+    {
+      "word": "寒帯[かんたい]",
+      "meaning": {
+        "es": "zona glacial"
+      }
+    },
+    {
+      "word": "寒気[かんき]",
+      "meaning": {
+        "es": "aire frío"
+      }
+    },
+    {
+      "word": "寒波[かんぱ]",
+      "meaning": {
+        "es": "ola de frío"
+      }
+    }
+  ]
+}

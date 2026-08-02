@@ -1,0 +1,42 @@
+{
+  "character": "兄",
+  "level": "n5",
+  "meanings": {
+    "es": ["hermano mayor"]
+  },
+  "onyomi": ["ケイ", "キョウ"],
+  "kunyomi": ["あに"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "兄[あに]",
+      "meaning": {
+        "es": "hermano mayor"
+      }
+    },
+    {
+      "word": "兄貴[あにき]",
+      "meaning": {
+        "es": "hermano mayor"
+      }
+    },
+    {
+      "word": "お 兄[にい]さん",
+      "meaning": {
+        "es": "hermano mayor"
+      }
+    },
+    {
+      "word": "兄弟[きょうだい]",
+      "meaning": {
+        "es": "hermanos"
+      }
+    },
+    {
+      "word": "長兄[ちょうけい]",
+      "meaning": {
+        "es": "hermano de más edad"
+      }
+    }
+  ]
+}

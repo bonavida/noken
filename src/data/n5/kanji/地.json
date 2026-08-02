@@ -1,0 +1,42 @@
+{
+  "character": "地",
+  "level": "n5",
+  "meanings": {
+    "es": ["tierra", "sitio"]
+  },
+  "onyomi": ["チ", "ジ"],
+  "kunyomi": [],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "地図[ちず]",
+      "meaning": {
+        "es": "mapa"
+      }
+    },
+    {
+      "word": "地理[ちり]",
+      "meaning": {
+        "es": "geografía"
+      }
+    },
+    {
+      "word": "地球[ちきゅう]",
+      "meaning": {
+        "es": "la Tierra"
+      }
+    },
+    {
+      "word": "地面[じめん]",
+      "meaning": {
+        "es": "superficie del suelo"
+      }
+    },
+    {
+      "word": "地震[じしん]",
+      "meaning": {
+        "es": "terremoto"
+      }
+    }
+  ]
+}

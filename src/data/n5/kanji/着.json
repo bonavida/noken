@@ -1,0 +1,42 @@
+{
+  "character": "着",
+  "level": "n5",
+  "meanings": {
+    "es": ["vestir", "llegar"]
+  },
+  "onyomi": ["チャク"],
+  "kunyomi": ["き.る", "つ.く"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "着[き]る",
+      "meaning": {
+        "es": "vestir, ponerse"
+      }
+    },
+    {
+      "word": "着[つ]く",
+      "meaning": {
+        "es": "llegar"
+      }
+    },
+    {
+      "word": "着物[きもの]",
+      "meaning": {
+        "es": "kimono"
+      }
+    },
+    {
+      "word": "到着[とうちゃく]",
+      "meaning": {
+        "es": "llegada"
+      }
+    },
+    {
+      "word": "着席[ちゃくせき]",
+      "meaning": {
+        "es": "tomar asiento"
+      }
+    }
+  ]
+}

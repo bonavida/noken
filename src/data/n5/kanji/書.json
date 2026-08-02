@@ -26,6 +26,30 @@
       "meaning": {
         "es": "biblioteca"
       }
+    },
+    {
+      "word": "書[か]く",
+      "meaning": {
+        "es": "escribir"
+      }
+    },
+    {
+      "word": "葉書[はがき]",
+      "meaning": {
+        "es": "tarjeta postal"
+      }
+    },
+    {
+      "word": "書道[しょどう]",
+      "meaning": {
+        "es": "caligrafía"
+      }
+    },
+    {
+      "word": "書類[しょるい]",
+      "meaning": {
+        "es": "documento"
+      }
     }
   ]
 }

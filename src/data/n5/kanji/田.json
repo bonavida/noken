@@ -1,0 +1,42 @@
+{
+  "character": "田",
+  "level": "n5",
+  "meanings": {
+    "es": ["arrozal"]
+  },
+  "onyomi": ["デン"],
+  "kunyomi": ["た"],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "田[た]",
+      "meaning": {
+        "es": "arrozal"
+      }
+    },
+    {
+      "word": "田[た]んぼ",
+      "meaning": {
+        "es": "arrozal"
+      }
+    },
+    {
+      "word": "乾田[かんでん]",
+      "meaning": {
+        "es": "arrozal seco"
+      }
+    },
+    {
+      "word": "油田[ゆでん]",
+      "meaning": {
+        "es": "yacimiento petrolífero"
+      }
+    },
+    {
+      "word": "炭田[たんでん]",
+      "meaning": {
+        "es": "yacimiento de carbón"
+      }
+    }
+  ]
+}

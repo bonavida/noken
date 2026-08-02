@@ -1,0 +1,42 @@
+{
+  "character": "赤",
+  "level": "n5",
+  "meanings": {
+    "es": ["rojo"]
+  },
+  "onyomi": ["セキ"],
+  "kunyomi": ["あか.い"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "赤[あか]い",
+      "meaning": {
+        "es": "rojo"
+      }
+    },
+    {
+      "word": "赤字[あかじ]",
+      "meaning": {
+        "es": "números rojos"
+      }
+    },
+    {
+      "word": "赤[あか]ん 坊[ぼう]",
+      "meaning": {
+        "es": "bebé"
+      }
+    },
+    {
+      "word": "赤道[せきどう]",
+      "meaning": {
+        "es": "ecuador"
+      }
+    },
+    {
+      "word": "赤十字[せきじゅうじ]",
+      "meaning": {
+        "es": "Cruz Roja"
+      }
+    }
+  ]
+}

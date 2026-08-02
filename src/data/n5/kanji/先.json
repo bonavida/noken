@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["antes", "adelante"]
+    "es": ["antes", "adelante", "delante"]
   },
   "onyomi": ["セン"],
   "kunyomi": ["さき"],
@@ -25,6 +25,24 @@
       "word": "先[さき]",
       "meaning": {
         "es": "adelante"
+      }
+    },
+    {
+      "word": "指先[ゆびさき]",
+      "meaning": {
+        "es": "punta de los dedos"
+      }
+    },
+    {
+      "word": "先月[せんげつ]",
+      "meaning": {
+        "es": "el mes pasado"
+      }
+    },
+    {
+      "word": "先行[せんこう]",
+      "meaning": {
+        "es": "avance, precedencia"
       }
     }
   ]

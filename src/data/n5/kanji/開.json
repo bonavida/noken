@@ -1,0 +1,42 @@
+{
+  "character": "開",
+  "level": "n5",
+  "meanings": {
+    "es": ["abrir"]
+  },
+  "onyomi": ["カイ"],
+  "kunyomi": ["ひら.く", "あ.ける"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "開[あ]ける",
+      "meaning": {
+        "es": "abrir"
+      }
+    },
+    {
+      "word": "開[ひら]く",
+      "meaning": {
+        "es": "abrir, desplegar"
+      }
+    },
+    {
+      "word": "開発[かいはつ]",
+      "meaning": {
+        "es": "desarrollo"
+      }
+    },
+    {
+      "word": "開会[かいかい]",
+      "meaning": {
+        "es": "apertura de una reunión"
+      }
+    },
+    {
+      "word": "展開[てんかい]",
+      "meaning": {
+        "es": "desarrollo, evolución"
+      }
+    }
+  ]
+}

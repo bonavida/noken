@@ -20,6 +20,36 @@
       "meaning": {
         "es": "bienvenido de vuelta"
       }
+    },
+    {
+      "word": "帰[かえ]る",
+      "meaning": {
+        "es": "volver"
+      }
+    },
+    {
+      "word": "帰[かえ]り 道[みち]",
+      "meaning": {
+        "es": "camino de vuelta"
+      }
+    },
+    {
+      "word": "帰国[きこく]",
+      "meaning": {
+        "es": "regreso al país"
+      }
+    },
+    {
+      "word": "帰宅[きたく]",
+      "meaning": {
+        "es": "vuelta a casa"
+      }
+    },
+    {
+      "word": "帰路[きろ]",
+      "meaning": {
+        "es": "camino de regreso"
+      }
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "character": "強",
+  "level": "n5",
+  "meanings": {
+    "es": ["fuerte"]
+  },
+  "onyomi": ["キョウ"],
+  "kunyomi": ["つよ.い"],
+  "strokes": 11,
+  "examples": [
+    {
+      "word": "強[つよ]い",
+      "meaning": {
+        "es": "fuerte"
+      }
+    },
+    {
+      "word": "力強[ちからづよ]い",
+      "meaning": {
+        "es": "poderoso"
+      }
+    },
+    {
+      "word": "勉強[べんきょう]",
+      "meaning": {
+        "es": "estudio"
+      }
+    },
+    {
+      "word": "強国[きょうこく]",
+      "meaning": {
+        "es": "país fuerte"
+      }
+    },
+    {
+      "word": "最強[さいきょう]",
+      "meaning": {
+        "es": "el más fuerte"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "character": "家",
+  "level": "n5",
+  "meanings": {
+    "es": ["casa", "profesión"]
+  },
+  "onyomi": ["カ"],
+  "kunyomi": ["いえ"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "家[いえ]",
+      "meaning": {
+        "es": "casa"
+      }
+    },
+    {
+      "word": "家族[かぞく]",
+      "meaning": {
+        "es": "familia"
+      }
+    },
+    {
+      "word": "家事[かじ]",
+      "meaning": {
+        "es": "tareas domésticas"
+      }
+    },
+    {
+      "word": "画家[がか]",
+      "meaning": {
+        "es": "pintor"
+      }
+    },
+    {
+      "word": "漫画家[まんがか]",
+      "meaning": {
+        "es": "dibujante de manga"
+      }
+    }
+  ]
+}

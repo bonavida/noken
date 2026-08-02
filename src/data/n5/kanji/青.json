@@ -1,0 +1,42 @@
+{
+  "character": "青",
+  "level": "n5",
+  "meanings": {
+    "es": ["azul", "verde"]
+  },
+  "onyomi": ["セイ"],
+  "kunyomi": ["あお.い"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "青[あお]い",
+      "meaning": {
+        "es": "azul"
+      }
+    },
+    {
+      "word": "青空[あおぞら]",
+      "meaning": {
+        "es": "cielo azul"
+      }
+    },
+    {
+      "word": "青信号[あおしんごう]",
+      "meaning": {
+        "es": "semáforo en verde"
+      }
+    },
+    {
+      "word": "青年[せいねん]",
+      "meaning": {
+        "es": "joven"
+      }
+    },
+    {
+      "word": "青春[せいしゅん]",
+      "meaning": {
+        "es": "juventud"
+      }
+    }
+  ]
+}

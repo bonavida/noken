@@ -1,0 +1,42 @@
+{
+  "character": "店",
+  "level": "n5",
+  "meanings": {
+    "es": ["tienda"]
+  },
+  "onyomi": ["テン"],
+  "kunyomi": ["みせ"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "店[みせ]",
+      "meaning": {
+        "es": "tienda"
+      }
+    },
+    {
+      "word": "店員[てんいん]",
+      "meaning": {
+        "es": "dependiente"
+      }
+    },
+    {
+      "word": "書店[しょてん]",
+      "meaning": {
+        "es": "librería"
+      }
+    },
+    {
+      "word": "支店[してん]",
+      "meaning": {
+        "es": "sucursal"
+      }
+    },
+    {
+      "word": "喫茶店[きっさてん]",
+      "meaning": {
+        "es": "cafetería"
+      }
+    }
+  ]
+}

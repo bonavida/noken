@@ -1,0 +1,30 @@
+{
+  "character": "仕",
+  "level": "n5",
+  "meanings": {
+    "es": ["servir", "hacer"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": [],
+  "strokes": 5,
+  "examples": [
+    {
+      "word": "仕事[しごと]",
+      "meaning": {
+        "es": "trabajo"
+      }
+    },
+    {
+      "word": "仕方[しかた]",
+      "meaning": {
+        "es": "modo de hacer"
+      }
+    },
+    {
+      "word": "仕上[しあ]げ",
+      "meaning": {
+        "es": "acabado, finalización"
+      }
+    }
+  ]
+}

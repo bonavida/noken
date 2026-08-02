@@ -6,7 +6,7 @@
     "es": ["tres"]
   },
   "onyomi": ["サン"],
-  "kunyomi": ["み.つ"],
+  "kunyomi": ["み.つ", "みっ.つ"],
   "strokes": 3,
   "examples": [
     {
@@ -25,6 +25,24 @@
       "word": "三人[さんにん]",
       "meaning": {
         "es": "tres personas"
+      }
+    },
+    {
+      "word": "三月[さんがつ]",
+      "meaning": {
+        "es": "marzo"
+      }
+    },
+    {
+      "word": "三脚[さんきゃく]",
+      "meaning": {
+        "es": "trípode"
+      }
+    },
+    {
+      "word": "三日[みっか]",
+      "meaning": {
+        "es": "día 3"
       }
     }
   ]

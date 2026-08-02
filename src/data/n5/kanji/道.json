@@ -26,6 +26,30 @@
       "meaning": {
         "es": "judo"
       }
+    },
+    {
+      "word": "道路[どうろ]",
+      "meaning": {
+        "es": "carretera"
+      }
+    },
+    {
+      "word": "鉄道[てつどう]",
+      "meaning": {
+        "es": "ferrocarril"
+      }
+    },
+    {
+      "word": "武道[ぶどう]",
+      "meaning": {
+        "es": "artes marciales"
+      }
+    },
+    {
+      "word": "書道[しょどう]",
+      "meaning": {
+        "es": "caligrafía"
+      }
     }
   ]
 }

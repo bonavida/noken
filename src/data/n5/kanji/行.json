@@ -3,10 +3,10 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["ir"]
+    "es": ["ir", "celebrar"]
   },
   "onyomi": ["コウ", "ギョウ"],
-  "kunyomi": ["い.く"],
+  "kunyomi": ["い.く", "おこな.う"],
   "strokes": 6,
   "examples": [
     {
@@ -25,6 +25,30 @@
       "word": "旅行[りょこう]",
       "meaning": {
         "es": "viaje"
+      }
+    },
+    {
+      "word": "行[い]く",
+      "meaning": {
+        "es": "ir"
+      }
+    },
+    {
+      "word": "行[おこな]う",
+      "meaning": {
+        "es": "celebrar, llevar a cabo"
+      }
+    },
+    {
+      "word": "歩行[ほこう]",
+      "meaning": {
+        "es": "marcha a pie"
+      }
+    },
+    {
+      "word": "行列[ぎょうれつ]",
+      "meaning": {
+        "es": "desfile, fila"
       }
     }
   ]

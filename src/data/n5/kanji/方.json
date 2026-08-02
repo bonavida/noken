@@ -1,0 +1,42 @@
+{
+  "character": "方",
+  "level": "n5",
+  "meanings": {
+    "es": ["dirección", "persona", "manera de"]
+  },
+  "onyomi": ["ホウ"],
+  "kunyomi": ["かた"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "方[ほう]",
+      "meaning": {
+        "es": "dirección"
+      }
+    },
+    {
+      "word": "方法[ほうほう]",
+      "meaning": {
+        "es": "manera, método"
+      }
+    },
+    {
+      "word": "方面[ほうめん]",
+      "meaning": {
+        "es": "dirección, zona"
+      }
+    },
+    {
+      "word": "話[はな]し 方[かた]",
+      "meaning": {
+        "es": "modo de hablar"
+      }
+    },
+    {
+      "word": "方[かた]",
+      "meaning": {
+        "es": "persona (formal)"
+      }
+    }
+  ]
+}

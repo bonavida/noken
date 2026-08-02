@@ -1,0 +1,42 @@
+{
+  "character": "私",
+  "level": "n5",
+  "meanings": {
+    "es": ["yo", "privado"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": ["わたし"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "私[わたし]",
+      "meaning": {
+        "es": "yo"
+      }
+    },
+    {
+      "word": "私学[しがく]",
+      "meaning": {
+        "es": "escuela privada"
+      }
+    },
+    {
+      "word": "私立[しりつ]",
+      "meaning": {
+        "es": "privado"
+      }
+    },
+    {
+      "word": "私語[しご]",
+      "meaning": {
+        "es": "cuchicheo"
+      }
+    },
+    {
+      "word": "公私[こうし]",
+      "meaning": {
+        "es": "público y privado"
+      }
+    }
+  ]
+}

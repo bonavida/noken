@@ -1,0 +1,42 @@
+{
+  "character": "心",
+  "level": "n5",
+  "meanings": {
+    "es": ["corazón", "alma"]
+  },
+  "onyomi": ["シン"],
+  "kunyomi": ["こころ"],
+  "strokes": 4,
+  "examples": [
+    {
+      "word": "心[こころ]",
+      "meaning": {
+        "es": "corazón, espíritu"
+      }
+    },
+    {
+      "word": "心理[しんり]",
+      "meaning": {
+        "es": "psicología"
+      }
+    },
+    {
+      "word": "関心[かんしん]",
+      "meaning": {
+        "es": "interés"
+      }
+    },
+    {
+      "word": "中心[ちゅうしん]",
+      "meaning": {
+        "es": "centro"
+      }
+    },
+    {
+      "word": "心電図[しんでんず]",
+      "meaning": {
+        "es": "electrocardiograma"
+      }
+    }
+  ]
+}

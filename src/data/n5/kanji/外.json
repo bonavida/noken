@@ -5,7 +5,7 @@
   "meanings": {
     "es": ["fuera", "exterior"]
   },
-  "onyomi": ["ガイ"],
+  "onyomi": ["ガイ", "ゲ"],
   "kunyomi": ["そと"],
   "strokes": 5,
   "examples": [
@@ -25,6 +25,30 @@
       "word": "外国人[がいこくじん]",
       "meaning": {
         "es": "extranjero (persona)"
+      }
+    },
+    {
+      "word": "外人[がいじん]",
+      "meaning": {
+        "es": "extranjero"
+      }
+    },
+    {
+      "word": "意外[いがい]",
+      "meaning": {
+        "es": "inesperado"
+      }
+    },
+    {
+      "word": "外出[がいしゅつ]",
+      "meaning": {
+        "es": "salida"
+      }
+    },
+    {
+      "word": "外科[げか]",
+      "meaning": {
+        "es": "cirugía"
       }
     }
   ]

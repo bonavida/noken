@@ -3,10 +3,10 @@
   "level": "n5",
   "lesson": 7,
   "meanings": {
-    "es": ["arriba", "encima"]
+    "es": ["arriba", "encima", "subir"]
   },
   "onyomi": ["ジョウ"],
-  "kunyomi": ["うえ", "あ.げる"],
+  "kunyomi": ["うえ", "あ.げる", "あ.がる", "のぼ.る"],
   "strokes": 3,
   "examples": [
     {
@@ -25,6 +25,30 @@
       "word": "上着[うわぎ]",
       "meaning": {
         "es": "chaqueta"
+      }
+    },
+    {
+      "word": "上[あ]がる",
+      "meaning": {
+        "es": "subir, elevarse"
+      }
+    },
+    {
+      "word": "上[のぼ]る",
+      "meaning": {
+        "es": "subir (escaleras)"
+      }
+    },
+    {
+      "word": "屋上[おくじょう]",
+      "meaning": {
+        "es": "azotea"
+      }
+    },
+    {
+      "word": "以上[いじょう]",
+      "meaning": {
+        "es": "más de"
       }
     }
   ]

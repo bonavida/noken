@@ -1,0 +1,42 @@
+{
+  "character": "始",
+  "level": "n5",
+  "meanings": {
+    "es": ["empezar"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": ["はじ.める"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "始[はじ]める",
+      "meaning": {
+        "es": "empezar"
+      }
+    },
+    {
+      "word": "開始[かいし]",
+      "meaning": {
+        "es": "inicio"
+      }
+    },
+    {
+      "word": "始動[しどう]",
+      "meaning": {
+        "es": "puesta en marcha"
+      }
+    },
+    {
+      "word": "始業式[しぎょうしき]",
+      "meaning": {
+        "es": "ceremonia de apertura"
+      }
+    },
+    {
+      "word": "始末[しまつ]",
+      "meaning": {
+        "es": "ocuparse de, arreglar"
+      }
+    }
+  ]
+}

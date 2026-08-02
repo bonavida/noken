@@ -20,6 +20,30 @@
       "meaning": {
         "es": "bebida"
       }
+    },
+    {
+      "word": "飲[の]む",
+      "meaning": {
+        "es": "beber"
+      }
+    },
+    {
+      "word": "飲酒[いんしゅ]",
+      "meaning": {
+        "es": "consumo de alcohol"
+      }
+    },
+    {
+      "word": "飲料[いんりょう]",
+      "meaning": {
+        "es": "bebida"
+      }
+    },
+    {
+      "word": "飲食[いんしょく]",
+      "meaning": {
+        "es": "comida y bebida"
+      }
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "character": "知",
+  "level": "n5",
+  "meanings": {
+    "es": ["saber", "conocer"]
+  },
+  "onyomi": ["チ"],
+  "kunyomi": ["し.る"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "知[し]る",
+      "meaning": {
+        "es": "saber, conocer"
+      }
+    },
+    {
+      "word": "知識[ちしき]",
+      "meaning": {
+        "es": "conocimiento"
+      }
+    },
+    {
+      "word": "知恵[ちえ]",
+      "meaning": {
+        "es": "sabiduría"
+      }
+    },
+    {
+      "word": "知能[ちのう]",
+      "meaning": {
+        "es": "inteligencia"
+      }
+    },
+    {
+      "word": "知人[ちじん]",
+      "meaning": {
+        "es": "conocido"
+      }
+    }
+  ]
+}

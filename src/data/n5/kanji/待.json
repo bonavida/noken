@@ -1,0 +1,42 @@
+{
+  "character": "待",
+  "level": "n5",
+  "meanings": {
+    "es": ["esperar"]
+  },
+  "onyomi": ["タイ"],
+  "kunyomi": ["ま.つ"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "待[ま]つ",
+      "meaning": {
+        "es": "esperar"
+      }
+    },
+    {
+      "word": "信号待[しんごうま]ち",
+      "meaning": {
+        "es": "esperar en el semáforo"
+      }
+    },
+    {
+      "word": "期待[きたい]",
+      "meaning": {
+        "es": "expectativa"
+      }
+    },
+    {
+      "word": "招待[しょうたい]",
+      "meaning": {
+        "es": "invitación"
+      }
+    },
+    {
+      "word": "接待[せったい]",
+      "meaning": {
+        "es": "recibir, atender"
+      }
+    }
+  ]
+}

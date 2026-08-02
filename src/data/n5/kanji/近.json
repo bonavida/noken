@@ -1,0 +1,42 @@
+{
+  "character": "近",
+  "level": "n5",
+  "meanings": {
+    "es": ["cerca", "reciente"]
+  },
+  "onyomi": ["キン"],
+  "kunyomi": ["ちか.い"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "近[ちか]い",
+      "meaning": {
+        "es": "cerca"
+      }
+    },
+    {
+      "word": "近頃[ちかごろ]",
+      "meaning": {
+        "es": "últimamente"
+      }
+    },
+    {
+      "word": "近道[ちかみち]",
+      "meaning": {
+        "es": "atajo"
+      }
+    },
+    {
+      "word": "近所[きんじょ]",
+      "meaning": {
+        "es": "vecindario"
+      }
+    },
+    {
+      "word": "近眼[きんがん]",
+      "meaning": {
+        "es": "miopía"
+      }
+    }
+  ]
+}

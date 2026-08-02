@@ -1,0 +1,42 @@
+{
+  "character": "楽",
+  "level": "n5",
+  "meanings": {
+    "es": ["divertido", "cómodo", "música"]
+  },
+  "onyomi": ["ガク", "ラク"],
+  "kunyomi": ["たの.しい"],
+  "strokes": 13,
+  "examples": [
+    {
+      "word": "楽[たの]しい",
+      "meaning": {
+        "es": "divertido"
+      }
+    },
+    {
+      "word": "音楽[おんがく]",
+      "meaning": {
+        "es": "música"
+      }
+    },
+    {
+      "word": "楽器[がっき]",
+      "meaning": {
+        "es": "instrumento musical"
+      }
+    },
+    {
+      "word": "楽[らく]",
+      "meaning": {
+        "es": "fácil, cómodo"
+      }
+    },
+    {
+      "word": "極楽[ごくらく]",
+      "meaning": {
+        "es": "paraíso"
+      }
+    }
+  ]
+}

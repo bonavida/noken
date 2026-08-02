@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["nuevo"]
+    "es": ["nuevo", "fresco"]
   },
   "onyomi": ["シン"],
   "kunyomi": ["あたら.しい"],
@@ -25,6 +25,24 @@
       "word": "新幹線[しんかんせん]",
       "meaning": {
         "es": "Shinkansen"
+      }
+    },
+    {
+      "word": "最新[さいしん]",
+      "meaning": {
+        "es": "lo más nuevo"
+      }
+    },
+    {
+      "word": "新鮮[しんせん]",
+      "meaning": {
+        "es": "fresco"
+      }
+    },
+    {
+      "word": "革新[かくしん]",
+      "meaning": {
+        "es": "reforma"
       }
     }
   ]

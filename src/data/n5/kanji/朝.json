@@ -1,0 +1,42 @@
+{
+  "character": "朝",
+  "level": "n5",
+  "meanings": {
+    "es": ["mañana"]
+  },
+  "onyomi": ["チョウ"],
+  "kunyomi": ["あさ"],
+  "strokes": 12,
+  "examples": [
+    {
+      "word": "朝[あさ]",
+      "meaning": {
+        "es": "mañana"
+      }
+    },
+    {
+      "word": "朝日[あさひ]",
+      "meaning": {
+        "es": "sol naciente"
+      }
+    },
+    {
+      "word": "朝食[ちょうしょく]",
+      "meaning": {
+        "es": "desayuno"
+      }
+    },
+    {
+      "word": "朝刊[ちょうかん]",
+      "meaning": {
+        "es": "edición matutina"
+      }
+    },
+    {
+      "word": "早朝[そうちょう]",
+      "meaning": {
+        "es": "temprano por la mañana"
+      }
+    }
+  ]
+}

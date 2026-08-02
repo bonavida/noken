@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["hablar", "historia"]
+    "es": ["hablar", "historia", "conversación"]
   },
   "onyomi": ["ワ"],
   "kunyomi": ["はな.す", "はなし"],
@@ -25,6 +25,24 @@
       "word": "話[はなし]",
       "meaning": {
         "es": "cuento, charla"
+      }
+    },
+    {
+      "word": "話[はな]す",
+      "meaning": {
+        "es": "hablar"
+      }
+    },
+    {
+      "word": "会話[かいわ]",
+      "meaning": {
+        "es": "conversación"
+      }
+    },
+    {
+      "word": "話題[わだい]",
+      "meaning": {
+        "es": "tema de conversación"
       }
     }
   ]

@@ -1,0 +1,42 @@
+{
+  "character": "思",
+  "level": "n5",
+  "meanings": {
+    "es": ["pensar"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": ["おも.う"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "思[おも]う",
+      "meaning": {
+        "es": "pensar"
+      }
+    },
+    {
+      "word": "思[おも]い 出[だ]す",
+      "meaning": {
+        "es": "recordar"
+      }
+    },
+    {
+      "word": "思考[しこう]",
+      "meaning": {
+        "es": "pensamiento"
+      }
+    },
+    {
+      "word": "意思[いし]",
+      "meaning": {
+        "es": "intención, voluntad"
+      }
+    },
+    {
+      "word": "思案[しあん]",
+      "meaning": {
+        "es": "reflexión"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "character": "事",
+  "level": "n5",
+  "meanings": {
+    "es": ["asunto", "cosa abstracta"]
+  },
+  "onyomi": ["ジ"],
+  "kunyomi": ["こと"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "事[こと]",
+      "meaning": {
+        "es": "cosa (abstracta)"
+      }
+    },
+    {
+      "word": "仕事[しごと]",
+      "meaning": {
+        "es": "trabajo"
+      }
+    },
+    {
+      "word": "記事[きじ]",
+      "meaning": {
+        "es": "artículo"
+      }
+    },
+    {
+      "word": "事件[じけん]",
+      "meaning": {
+        "es": "suceso"
+      }
+    },
+    {
+      "word": "用事[ようじ]",
+      "meaning": {
+        "es": "cosas que hacer"
+      }
+    }
+  ]
+}

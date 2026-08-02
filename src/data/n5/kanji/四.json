@@ -6,7 +6,7 @@
     "es": ["cuatro"]
   },
   "onyomi": ["シ"],
-  "kunyomi": ["よん", "よ.つ"],
+  "kunyomi": ["よん", "よ.つ", "よ"],
   "strokes": 5,
   "examples": [
     {
@@ -25,6 +25,24 @@
       "word": "四月[しがつ]",
       "meaning": {
         "es": "abril"
+      }
+    },
+    {
+      "word": "四季[しき]",
+      "meaning": {
+        "es": "las cuatro estaciones"
+      }
+    },
+    {
+      "word": "四人[よにん]",
+      "meaning": {
+        "es": "cuatro personas"
+      }
+    },
+    {
+      "word": "四日[よっか]",
+      "meaning": {
+        "es": "día 4"
       }
     }
   ]

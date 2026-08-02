@@ -1,0 +1,42 @@
+{
+  "character": "夜",
+  "level": "n5",
+  "meanings": {
+    "es": ["noche"]
+  },
+  "onyomi": ["ヤ"],
+  "kunyomi": ["よる", "よ"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "夜[よる]",
+      "meaning": {
+        "es": "noche"
+      }
+    },
+    {
+      "word": "夜中[よなか]",
+      "meaning": {
+        "es": "medianoche"
+      }
+    },
+    {
+      "word": "夜空[よぞら]",
+      "meaning": {
+        "es": "cielo nocturno"
+      }
+    },
+    {
+      "word": "夜間[やかん]",
+      "meaning": {
+        "es": "durante la noche"
+      }
+    },
+    {
+      "word": "徹夜[てつや]",
+      "meaning": {
+        "es": "pasar la noche en vela"
+      }
+    }
+  ]
+}

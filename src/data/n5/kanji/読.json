@@ -20,6 +20,36 @@
       "meaning": {
         "es": "modo de lectura"
       }
+    },
+    {
+      "word": "読[よ]む",
+      "meaning": {
+        "es": "leer"
+      }
+    },
+    {
+      "word": "音読[おんよ]み",
+      "meaning": {
+        "es": "lectura on'yomi"
+      }
+    },
+    {
+      "word": "訓読[くんよ]み",
+      "meaning": {
+        "es": "lectura kun'yomi"
+      }
+    },
+    {
+      "word": "読者[どくしゃ]",
+      "meaning": {
+        "es": "lector"
+      }
+    },
+    {
+      "word": "読書[どくしょ]",
+      "meaning": {
+        "es": "lectura"
+      }
     }
   ]
 }

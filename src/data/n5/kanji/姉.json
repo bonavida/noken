@@ -1,0 +1,42 @@
+{
+  "character": "姉",
+  "level": "n5",
+  "meanings": {
+    "es": ["hermana mayor"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": ["あね", "ねえ"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "姉[あね]",
+      "meaning": {
+        "es": "hermana mayor"
+      }
+    },
+    {
+      "word": "お 姉[ねえ]さん",
+      "meaning": {
+        "es": "hermana mayor"
+      }
+    },
+    {
+      "word": "姉妹[しまい]",
+      "meaning": {
+        "es": "hermanas"
+      }
+    },
+    {
+      "word": "姉妹都市[しまいとし]",
+      "meaning": {
+        "es": "ciudades hermanadas"
+      }
+    },
+    {
+      "word": "義姉[ぎし]",
+      "meaning": {
+        "es": "hermanastra mayor"
+      }
+    }
+  ]
+}

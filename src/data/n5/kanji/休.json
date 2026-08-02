@@ -26,6 +26,36 @@
       "meaning": {
         "es": "descanso del mediodía"
       }
+    },
+    {
+      "word": "休[やす]む",
+      "meaning": {
+        "es": "descansar, faltar"
+      }
+    },
+    {
+      "word": "夏休[なつやす]み",
+      "meaning": {
+        "es": "vacaciones de verano"
+      }
+    },
+    {
+      "word": "休憩[きゅうけい]",
+      "meaning": {
+        "es": "pausa"
+      }
+    },
+    {
+      "word": "休講[きゅうこう]",
+      "meaning": {
+        "es": "clase anulada"
+      }
+    },
+    {
+      "word": "休日[きゅうじつ]",
+      "meaning": {
+        "es": "día festivo"
+      }
     }
   ]
 }

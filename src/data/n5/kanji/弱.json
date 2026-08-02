@@ -1,0 +1,42 @@
+{
+  "character": "弱",
+  "level": "n5",
+  "meanings": {
+    "es": ["débil"]
+  },
+  "onyomi": ["ジャク"],
+  "kunyomi": ["よわ.い"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "弱[よわ]い",
+      "meaning": {
+        "es": "débil"
+      }
+    },
+    {
+      "word": "弱火[よわび]",
+      "meaning": {
+        "es": "fuego lento"
+      }
+    },
+    {
+      "word": "弱点[じゃくてん]",
+      "meaning": {
+        "es": "punto débil"
+      }
+    },
+    {
+      "word": "病弱[びょうじゃく]",
+      "meaning": {
+        "es": "enfermizo"
+      }
+    },
+    {
+      "word": "衰弱[すいじゃく]",
+      "meaning": {
+        "es": "debilitamiento"
+      }
+    }
+  ]
+}

@@ -2,13 +2,48 @@
   "character": "日",
   "level": "n5",
   "lesson": 1,
-  "meanings": { "es": ["día", "sol"] },
+  "meanings": {
+    "es": ["día", "sol"]
+  },
   "onyomi": ["ニチ", "ジツ"],
   "kunyomi": ["ひ", "〜び", "〜か"],
   "strokes": 4,
   "examples": [
-    { "word": "日本[にほん]", "meaning": { "es": "Japón" } },
-    { "word": "日曜日[にちようび]", "meaning": { "es": "domingo" } },
-    { "word": "毎日[まいにち]", "meaning": { "es": "todos los días" } }
+    {
+      "word": "日本[にほん]",
+      "meaning": {
+        "es": "Japón"
+      }
+    },
+    {
+      "word": "日曜日[にちようび]",
+      "meaning": {
+        "es": "domingo"
+      }
+    },
+    {
+      "word": "毎日[まいにち]",
+      "meaning": {
+        "es": "todos los días"
+      }
+    },
+    {
+      "word": "日[ひ]",
+      "meaning": {
+        "es": "sol"
+      }
+    },
+    {
+      "word": "祝日[しゅくじつ]",
+      "meaning": {
+        "es": "día festivo"
+      }
+    },
+    {
+      "word": "二日[ふつか]",
+      "meaning": {
+        "es": "día 2"
+      }
+    }
   ]
 }

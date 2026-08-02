@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 16,
   "meanings": {
-    "es": ["boca"]
+    "es": ["boca", "entrada"]
   },
   "onyomi": ["コウ", "ク"],
   "kunyomi": ["くち"],
@@ -25,6 +25,24 @@
       "word": "出口[でぐち]",
       "meaning": {
         "es": "salida"
+      }
+    },
+    {
+      "word": "火口[かこう]",
+      "meaning": {
+        "es": "cráter"
+      }
+    },
+    {
+      "word": "人口[じんこう]",
+      "meaning": {
+        "es": "población"
+      }
+    },
+    {
+      "word": "口座[こうざ]",
+      "meaning": {
+        "es": "cuenta bancaria"
       }
     }
   ]

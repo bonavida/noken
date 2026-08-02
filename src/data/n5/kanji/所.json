@@ -1,0 +1,42 @@
+{
+  "character": "所",
+  "level": "n5",
+  "meanings": {
+    "es": ["sitio", "lugar"]
+  },
+  "onyomi": ["ショ"],
+  "kunyomi": ["ところ"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "所[ところ]",
+      "meaning": {
+        "es": "sitio, lugar"
+      }
+    },
+    {
+      "word": "台所[だいどころ]",
+      "meaning": {
+        "es": "cocina"
+      }
+    },
+    {
+      "word": "場所[ばしょ]",
+      "meaning": {
+        "es": "lugar"
+      }
+    },
+    {
+      "word": "住所[じゅうしょ]",
+      "meaning": {
+        "es": "dirección postal"
+      }
+    },
+    {
+      "word": "便所[べんじょ]",
+      "meaning": {
+        "es": "servicios, lavabo"
+      }
+    }
+  ]
+}

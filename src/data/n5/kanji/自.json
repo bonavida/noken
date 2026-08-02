@@ -1,0 +1,42 @@
+{
+  "character": "自",
+  "level": "n5",
+  "meanings": {
+    "es": ["uno mismo"]
+  },
+  "onyomi": ["ジ", "シ"],
+  "kunyomi": ["みずか.ら"],
+  "strokes": 6,
+  "examples": [
+    {
+      "word": "自[みずか]ら",
+      "meaning": {
+        "es": "uno mismo"
+      }
+    },
+    {
+      "word": "自分[じぶん]",
+      "meaning": {
+        "es": "uno mismo"
+      }
+    },
+    {
+      "word": "自転車[じてんしゃ]",
+      "meaning": {
+        "es": "bicicleta"
+      }
+    },
+    {
+      "word": "自由[じゆう]",
+      "meaning": {
+        "es": "libertad"
+      }
+    },
+    {
+      "word": "自然[しぜん]",
+      "meaning": {
+        "es": "naturaleza"
+      }
+    }
+  ]
+}

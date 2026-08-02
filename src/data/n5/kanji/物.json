@@ -1,0 +1,42 @@
+{
+  "character": "物",
+  "level": "n5",
+  "meanings": {
+    "es": ["cosa", "objeto"]
+  },
+  "onyomi": ["ブツ", "モツ"],
+  "kunyomi": ["もの"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "物[もの]",
+      "meaning": {
+        "es": "cosa, objeto"
+      }
+    },
+    {
+      "word": "物語[ものがたり]",
+      "meaning": {
+        "es": "historia, relato"
+      }
+    },
+    {
+      "word": "建物[たてもの]",
+      "meaning": {
+        "es": "edificio"
+      }
+    },
+    {
+      "word": "植物[しょくぶつ]",
+      "meaning": {
+        "es": "planta"
+      }
+    },
+    {
+      "word": "荷物[にもつ]",
+      "meaning": {
+        "es": "equipaje"
+      }
+    }
+  ]
+}

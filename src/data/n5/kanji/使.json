@@ -1,0 +1,42 @@
+{
+  "character": "使",
+  "level": "n5",
+  "meanings": {
+    "es": ["utilizar", "enviar"]
+  },
+  "onyomi": ["シ"],
+  "kunyomi": ["つか.う"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "使[つか]う",
+      "meaning": {
+        "es": "utilizar"
+      }
+    },
+    {
+      "word": "使用[しよう]",
+      "meaning": {
+        "es": "uso"
+      }
+    },
+    {
+      "word": "行使[こうし]",
+      "meaning": {
+        "es": "empleo, ejercicio"
+      }
+    },
+    {
+      "word": "天使[てんし]",
+      "meaning": {
+        "es": "ángel"
+      }
+    },
+    {
+      "word": "使者[ししゃ]",
+      "meaning": {
+        "es": "emisario"
+      }
+    }
+  ]
+}

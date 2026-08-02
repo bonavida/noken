@@ -6,7 +6,7 @@
     "es": ["pequeño"]
   },
   "onyomi": ["ショウ"],
-  "kunyomi": ["ちい.さい"],
+  "kunyomi": ["ちい.さい", "こ"],
   "strokes": 3,
   "examples": [
     {
@@ -19,6 +19,24 @@
       "word": "小学校[しょうがっこう]",
       "meaning": {
         "es": "escuela primaria"
+      }
+    },
+    {
+      "word": "小鳥[ことり]",
+      "meaning": {
+        "es": "pajarito"
+      }
+    },
+    {
+      "word": "最小[さいしょう]",
+      "meaning": {
+        "es": "mínimo"
+      }
+    },
+    {
+      "word": "小説[しょうせつ]",
+      "meaning": {
+        "es": "novela"
       }
     }
   ]

@@ -3,10 +3,10 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["minuto", "dividir"]
+    "es": ["minuto", "dividir", "entender"]
   },
   "onyomi": ["フン", "ブン"],
-  "kunyomi": ["わ.かる"],
+  "kunyomi": ["わ.かる", "わ.ける"],
   "strokes": 4,
   "examples": [
     {
@@ -25,6 +25,30 @@
       "word": "半分[はんぶん]",
       "meaning": {
         "es": "la mitad"
+      }
+    },
+    {
+      "word": "分[わ]かる",
+      "meaning": {
+        "es": "entender"
+      }
+    },
+    {
+      "word": "分[わ]ける",
+      "meaning": {
+        "es": "dividir"
+      }
+    },
+    {
+      "word": "二分[にふん]",
+      "meaning": {
+        "es": "dos minutos"
+      }
+    },
+    {
+      "word": "気分[きぶん]",
+      "meaning": {
+        "es": "humor, estado de ánimo"
       }
     }
   ]

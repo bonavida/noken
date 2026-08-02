@@ -6,7 +6,7 @@
     "es": ["seis"]
   },
   "onyomi": ["ロク"],
-  "kunyomi": ["む.つ"],
+  "kunyomi": ["む.つ", "むっ.つ"],
   "strokes": 4,
   "examples": [
     {
@@ -25,6 +25,18 @@
       "word": "六月[ろくがつ]",
       "meaning": {
         "es": "junio"
+      }
+    },
+    {
+      "word": "第六感[だいろっかん]",
+      "meaning": {
+        "es": "sexto sentido"
+      }
+    },
+    {
+      "word": "六日[むいか]",
+      "meaning": {
+        "es": "día 6"
       }
     }
   ]

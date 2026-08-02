@@ -1,0 +1,42 @@
+{
+  "character": "病",
+  "level": "n5",
+  "meanings": {
+    "es": ["enfermedad"]
+  },
+  "onyomi": ["ビョウ"],
+  "kunyomi": ["やまい"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "病[やまい]",
+      "meaning": {
+        "es": "enfermedad"
+      }
+    },
+    {
+      "word": "病気[びょうき]",
+      "meaning": {
+        "es": "enfermedad"
+      }
+    },
+    {
+      "word": "病人[びょうにん]",
+      "meaning": {
+        "es": "paciente"
+      }
+    },
+    {
+      "word": "病院[びょういん]",
+      "meaning": {
+        "es": "hospital"
+      }
+    },
+    {
+      "word": "難病[なんびょう]",
+      "meaning": {
+        "es": "enfermedad incurable"
+      }
+    }
+  ]
+}

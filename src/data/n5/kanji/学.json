@@ -2,13 +2,42 @@
   "character": "学",
   "level": "n5",
   "lesson": 1,
-  "meanings": { "es": ["estudiar", "aprender"] },
+  "meanings": {
+    "es": ["estudiar", "aprender", "escuela"]
+  },
   "onyomi": ["ガク"],
   "kunyomi": ["まな.ぶ"],
   "strokes": 8,
   "examples": [
-    { "word": "学生[がくせい]", "meaning": { "es": "estudiante" } },
-    { "word": "大学[だいがく]", "meaning": { "es": "universidad" } },
-    { "word": "学校[がっこう]", "meaning": { "es": "escuela" } }
+    {
+      "word": "学生[がくせい]",
+      "meaning": {
+        "es": "estudiante"
+      }
+    },
+    {
+      "word": "大学[だいがく]",
+      "meaning": {
+        "es": "universidad"
+      }
+    },
+    {
+      "word": "学校[がっこう]",
+      "meaning": {
+        "es": "escuela"
+      }
+    },
+    {
+      "word": "学[まな]ぶ",
+      "meaning": {
+        "es": "aprender"
+      }
+    },
+    {
+      "word": "医学[いがく]",
+      "meaning": {
+        "es": "medicina"
+      }
+    }
   ]
 }

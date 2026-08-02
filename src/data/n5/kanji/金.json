@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["oro", "dinero"]
+    "es": ["oro", "dinero", "metal"]
   },
   "onyomi": ["キン", "コン"],
   "kunyomi": ["かね"],
@@ -25,6 +25,24 @@
       "word": "現金[げんきん]",
       "meaning": {
         "es": "efectivo"
+      }
+    },
+    {
+      "word": "金持[かねも]ち",
+      "meaning": {
+        "es": "rico"
+      }
+    },
+    {
+      "word": "金属[きんぞく]",
+      "meaning": {
+        "es": "metal"
+      }
+    },
+    {
+      "word": "純金[じゅんきん]",
+      "meaning": {
+        "es": "oro puro"
       }
     }
   ]

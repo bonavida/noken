@@ -6,7 +6,7 @@
     "es": ["ocho"]
   },
   "onyomi": ["ハチ"],
-  "kunyomi": ["や.つ"],
+  "kunyomi": ["や.つ", "やっ.つ"],
   "strokes": 2,
   "examples": [
     {
@@ -25,6 +25,18 @@
       "word": "八月[はちがつ]",
       "meaning": {
         "es": "agosto"
+      }
+    },
+    {
+      "word": "八日[ようか]",
+      "meaning": {
+        "es": "día 8"
+      }
+    },
+    {
+      "word": "八百屋[やおや]",
+      "meaning": {
+        "es": "verdulería"
       }
     }
   ]

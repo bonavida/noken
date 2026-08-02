@@ -26,6 +26,24 @@
       "meaning": {
         "es": "alimentos"
       }
+    },
+    {
+      "word": "食[た]べる",
+      "meaning": {
+        "es": "comer"
+      }
+    },
+    {
+      "word": "食事[しょくじ]",
+      "meaning": {
+        "es": "comida"
+      }
+    },
+    {
+      "word": "和食[わしょく]",
+      "meaning": {
+        "es": "cocina japonesa"
+      }
     }
   ]
 }

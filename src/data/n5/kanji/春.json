@@ -1,0 +1,42 @@
+{
+  "character": "春",
+  "level": "n5",
+  "meanings": {
+    "es": ["primavera"]
+  },
+  "onyomi": ["シュン"],
+  "kunyomi": ["はる"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "春[はる]",
+      "meaning": {
+        "es": "primavera"
+      }
+    },
+    {
+      "word": "春風[はるかぜ]",
+      "meaning": {
+        "es": "viento de primavera"
+      }
+    },
+    {
+      "word": "青春[せいしゅん]",
+      "meaning": {
+        "es": "juventud"
+      }
+    },
+    {
+      "word": "春分[しゅんぶん]",
+      "meaning": {
+        "es": "equinoccio de primavera"
+      }
+    },
+    {
+      "word": "立春[りっしゅん]",
+      "meaning": {
+        "es": "comienzo de la primavera"
+      }
+    }
+  ]
+}

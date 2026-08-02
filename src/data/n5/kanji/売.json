@@ -1,0 +1,42 @@
+{
+  "character": "売",
+  "level": "n5",
+  "meanings": {
+    "es": ["vender"]
+  },
+  "onyomi": ["バイ"],
+  "kunyomi": ["う.る"],
+  "strokes": 7,
+  "examples": [
+    {
+      "word": "売[う]る",
+      "meaning": {
+        "es": "vender"
+      }
+    },
+    {
+      "word": "売店[ばいてん]",
+      "meaning": {
+        "es": "quiosco"
+      }
+    },
+    {
+      "word": "商売[しょうばい]",
+      "meaning": {
+        "es": "negocio"
+      }
+    },
+    {
+      "word": "販売[はんばい]",
+      "meaning": {
+        "es": "venta"
+      }
+    },
+    {
+      "word": "売[う]り 場[ば]",
+      "meaning": {
+        "es": "sección, mostrador"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 16,
   "meanings": {
-    "es": ["pie", "pierna"]
+    "es": ["pie", "pierna", "ser suficiente"]
   },
   "onyomi": ["ソク"],
   "kunyomi": ["あし", "た.りる"],
@@ -19,6 +19,30 @@
       "word": "足[た]ります",
       "meaning": {
         "es": "ser suficiente"
+      }
+    },
+    {
+      "word": "手足[てあし]",
+      "meaning": {
+        "es": "manos y pies"
+      }
+    },
+    {
+      "word": "足跡[あしあと]",
+      "meaning": {
+        "es": "huella"
+      }
+    },
+    {
+      "word": "足[た]りる",
+      "meaning": {
+        "es": "ser suficiente"
+      }
+    },
+    {
+      "word": "遠足[えんそく]",
+      "meaning": {
+        "es": "excursión"
       }
     }
   ]

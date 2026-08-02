@@ -1,0 +1,42 @@
+{
+  "character": "空",
+  "level": "n5",
+  "meanings": {
+    "es": ["cielo", "vacío", "aire"]
+  },
+  "onyomi": ["クウ"],
+  "kunyomi": ["そら", "から", "あ.く"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "空[そら]",
+      "meaning": {
+        "es": "cielo"
+      }
+    },
+    {
+      "word": "空手[からて]",
+      "meaning": {
+        "es": "kárate"
+      }
+    },
+    {
+      "word": "空[あ]き 缶[かん]",
+      "meaning": {
+        "es": "lata vacía"
+      }
+    },
+    {
+      "word": "空気[くうき]",
+      "meaning": {
+        "es": "aire"
+      }
+    },
+    {
+      "word": "空港[くうこう]",
+      "meaning": {
+        "es": "aeropuerto"
+      }
+    }
+  ]
+}

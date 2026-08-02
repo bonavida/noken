@@ -1,0 +1,42 @@
+{
+  "character": "教",
+  "level": "n5",
+  "meanings": {
+    "es": ["enseñar", "religión"]
+  },
+  "onyomi": ["キョウ"],
+  "kunyomi": ["おし.える"],
+  "strokes": 11,
+  "examples": [
+    {
+      "word": "教[おし]える",
+      "meaning": {
+        "es": "enseñar"
+      }
+    },
+    {
+      "word": "教育[きょういく]",
+      "meaning": {
+        "es": "educación"
+      }
+    },
+    {
+      "word": "教室[きょうしつ]",
+      "meaning": {
+        "es": "aula"
+      }
+    },
+    {
+      "word": "宗教[しゅうきょう]",
+      "meaning": {
+        "es": "religión"
+      }
+    },
+    {
+      "word": "仏教[ぶっきょう]",
+      "meaning": {
+        "es": "budismo"
+      }
+    }
+  ]
+}

@@ -20,6 +20,24 @@
       "meaning": {
         "es": "lluvia fuerte"
       }
+    },
+    {
+      "word": "雨水[あまみず]",
+      "meaning": {
+        "es": "agua de lluvia"
+      }
+    },
+    {
+      "word": "雨雲[あまぐも]",
+      "meaning": {
+        "es": "nube de lluvia"
+      }
+    },
+    {
+      "word": "雨量[うりょう]",
+      "meaning": {
+        "es": "precipitación"
+      }
     }
   ]
 }

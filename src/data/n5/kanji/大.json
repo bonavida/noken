@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["grande"]
+    "es": ["grande", "universidad"]
   },
   "onyomi": ["ダイ", "タイ"],
   "kunyomi": ["おお.きい"],
@@ -25,6 +25,24 @@
       "word": "大切[たいせつ]",
       "meaning": {
         "es": "importante"
+      }
+    },
+    {
+      "word": "大型[おおがた]",
+      "meaning": {
+        "es": "de gran tamaño"
+      }
+    },
+    {
+      "word": "大事[だいじ]",
+      "meaning": {
+        "es": "importante"
+      }
+    },
+    {
+      "word": "大会[たいかい]",
+      "meaning": {
+        "es": "reunión, congreso"
       }
     }
   ]

@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["empresa", "santuario"]
+    "es": ["empresa", "santuario", "sociedad"]
   },
   "onyomi": ["シャ"],
   "kunyomi": [],
@@ -25,6 +25,24 @@
       "word": "神社[じんじゃ]",
       "meaning": {
         "es": "santuario"
+      }
+    },
+    {
+      "word": "社会[しゃかい]",
+      "meaning": {
+        "es": "sociedad"
+      }
+    },
+    {
+      "word": "社長[しゃちょう]",
+      "meaning": {
+        "es": "presidente de una empresa"
+      }
+    },
+    {
+      "word": "出版社[しゅっぱんしゃ]",
+      "meaning": {
+        "es": "editorial"
       }
     }
   ]

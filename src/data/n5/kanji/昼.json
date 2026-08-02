@@ -1,0 +1,42 @@
+{
+  "character": "昼",
+  "level": "n5",
+  "meanings": {
+    "es": ["mediodía"]
+  },
+  "onyomi": ["チュウ"],
+  "kunyomi": ["ひる"],
+  "strokes": 9,
+  "examples": [
+    {
+      "word": "昼[ひる]",
+      "meaning": {
+        "es": "mediodía"
+      }
+    },
+    {
+      "word": "昼寝[ひるね]",
+      "meaning": {
+        "es": "siesta"
+      }
+    },
+    {
+      "word": "昼間[ひるま]",
+      "meaning": {
+        "es": "durante el día"
+      }
+    },
+    {
+      "word": "昼食[ちゅうしょく]",
+      "meaning": {
+        "es": "almuerzo"
+      }
+    },
+    {
+      "word": "昼夜[ちゅうや]",
+      "meaning": {
+        "es": "día y noche"
+      }
+    }
+  ]
+}

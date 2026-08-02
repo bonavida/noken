@@ -1,0 +1,36 @@
+{
+  "character": "若",
+  "level": "n5",
+  "meanings": {
+    "es": ["joven"]
+  },
+  "onyomi": ["ジャク"],
+  "kunyomi": ["わか.い"],
+  "strokes": 8,
+  "examples": [
+    {
+      "word": "若[わか]い",
+      "meaning": {
+        "es": "joven"
+      }
+    },
+    {
+      "word": "若者[わかもの]",
+      "meaning": {
+        "es": "joven, juventud"
+      }
+    },
+    {
+      "word": "若夫婦[わかふうふ]",
+      "meaning": {
+        "es": "matrimonio joven"
+      }
+    },
+    {
+      "word": "若人[わこうど]",
+      "meaning": {
+        "es": "los jóvenes"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "level": "n5",
   "lesson": 14,
   "meanings": {
-    "es": ["ponerse de pie"]
+    "es": ["ponerse de pie", "estar de pie", "establecer"]
   },
   "onyomi": ["リツ"],
   "kunyomi": ["た.つ"],
@@ -19,6 +19,36 @@
       "word": "役[やく]に 立[た]ちます",
       "meaning": {
         "es": "ser útil"
+      }
+    },
+    {
+      "word": "立[た]つ",
+      "meaning": {
+        "es": "estar de pie"
+      }
+    },
+    {
+      "word": "目立[めだ]つ",
+      "meaning": {
+        "es": "destacar, resaltar"
+      }
+    },
+    {
+      "word": "独立[どくりつ]",
+      "meaning": {
+        "es": "independencia"
+      }
+    },
+    {
+      "word": "市立[しりつ]",
+      "meaning": {
+        "es": "municipal"
+      }
+    },
+    {
+      "word": "立派[りっぱ]",
+      "meaning": {
+        "es": "excelente, espléndido"
       }
     }
   ]

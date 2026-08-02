@@ -1,0 +1,42 @@
+{
+  "character": "夏",
+  "level": "n5",
+  "meanings": {
+    "es": ["verano"]
+  },
+  "onyomi": ["カ"],
+  "kunyomi": ["なつ"],
+  "strokes": 10,
+  "examples": [
+    {
+      "word": "夏[なつ]",
+      "meaning": {
+        "es": "verano"
+      }
+    },
+    {
+      "word": "夏休[なつやす]み",
+      "meaning": {
+        "es": "vacaciones de verano"
+      }
+    },
+    {
+      "word": "真夏[まなつ]",
+      "meaning": {
+        "es": "pleno verano"
+      }
+    },
+    {
+      "word": "夏期[かき]",
+      "meaning": {
+        "es": "período estival"
+      }
+    },
+    {
+      "word": "初夏[しょか]",
+      "meaning": {
+        "es": "principios de verano"
+      }
+    }
+  ]
+}

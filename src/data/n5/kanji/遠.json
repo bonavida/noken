@@ -1,0 +1,42 @@
+{
+  "character": "遠",
+  "level": "n5",
+  "meanings": {
+    "es": ["lejos"]
+  },
+  "onyomi": ["エン"],
+  "kunyomi": ["とお.い"],
+  "strokes": 13,
+  "examples": [
+    {
+      "word": "遠[とお]い",
+      "meaning": {
+        "es": "lejos"
+      }
+    },
+    {
+      "word": "遠足[えんそく]",
+      "meaning": {
+        "es": "excursión"
+      }
+    },
+    {
+      "word": "永遠[えいえん]",
+      "meaning": {
+        "es": "eternidad"
+      }
+    },
+    {
+      "word": "遠景[えんけい]",
+      "meaning": {
+        "es": "vista lejana"
+      }
+    },
+    {
+      "word": "遠視[えんし]",
+      "meaning": {
+        "es": "hipermetropía"
+      }
+    }
+  ]
+}

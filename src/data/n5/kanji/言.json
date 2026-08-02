@@ -20,6 +20,30 @@
       "meaning": {
         "es": "palabra"
       }
+    },
+    {
+      "word": "言[い]う",
+      "meaning": {
+        "es": "decir"
+      }
+    },
+    {
+      "word": "発言[はつげん]",
+      "meaning": {
+        "es": "declaración"
+      }
+    },
+    {
+      "word": "方言[ほうげん]",
+      "meaning": {
+        "es": "dialecto"
+      }
+    },
+    {
+      "word": "無言[むごん]",
+      "meaning": {
+        "es": "silencio"
+      }
     }
   ]
 }
