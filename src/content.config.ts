@@ -74,6 +74,8 @@ const kanji = defineCollection({
     kunyomi: z.array(z.string()),
     strokes: z.number().int().positive(),
     examples: z.array(z.object({ word: furiganaText, meaning: localized })),
+    // Kanji the book flags as easy to mix up with this one
+    similar: z.array(z.string()).optional(),
   }),
 });
 

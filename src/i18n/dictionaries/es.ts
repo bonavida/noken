@@ -131,6 +131,8 @@ export const es = {
     examples: 'Palabras de ejemplo',
     lesson: 'Lección',
     noLesson: 'Sin lección asignada',
+    similar: 'Fáciles de confundir',
+    similarDescription: 'El libro avisa de estos kanji parecidos.',
     previousKanji: 'Kanji anterior',
     nextKanji: 'Kanji siguiente',
     backToList: 'Volver a la lista',
