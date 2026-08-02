@@ -1,6 +1,6 @@
 # Noken
 
-A study website for the JLPT (Japanese-Language Proficiency Test), following the **Minna no Nihongo** textbooks. Currently covers **N5** with grammar, vocabulary, kana charts, and kanji — all Japanese text rendered with furigana.
+A study website for the JLPT (Japanese-Language Proficiency Test), following the **Minna no Nihongo** textbooks. Currently covers **N5**: grammar and vocabulary lesson by lesson, the full verb conjugation table, kana charts, kanji, reference tables, and a practice section with quizzes, drills and spaced-repetition flashcards — all Japanese text rendered with furigana.
 
 The UI language is Spanish, but the codebase is fully i18n-ready: adding a language means adding a typed dictionary and optional per-entry translation keys, no refactoring.
 
@@ -20,28 +20,32 @@ pnpm build      # static build to dist/
 pnpm preview    # serve the build locally
 pnpm check      # astro check (types)
 pnpm lint       # eslint
-pnpm test       # vitest (furigana parser)
+pnpm format     # prettier
+pnpm test       # vitest (furigana, number readings, search, distractors)
 ```
 
 ## Project structure
 
 ```
 src/
-├── content.config.ts   # collections + zod schemas (lessons, vocab, kanji)
+├── content.config.ts   # collections + zod schemas
 ├── data/n5/            # all learning content; a new level = a new folder here
 │   ├── lessons/        # one JSON per lesson (grammar points + examples)
 │   ├── vocab/          # one JSON per lesson (word lists)
 │   ├── kanji/          # one JSON per kanji, named by the character
 │   ├── verbs/          # conjugation table (book appendix V)
 │   └── reference/      # one JSON per guide topic (particles, counters…)
-├── pages/              # routes (English segments)
+├── pages/              # routes (English segments) + search-index.json endpoint
 ├── layouts/            # BaseLayout (head, settings init) + SiteLayout
 ├── components/         # feature components (+ React islands)
+│   └── practice/       # quiz, drill and flashcard islands
 ├── ui/                 # static primitives; ui/react = shadcn components
 ├── i18n/               # locale config + typed UI dictionaries
-├── constants/          # levels, word types, kana datasets, settings keys
+├── constants/          # levels, word types, kana datasets, storage keys
 ├── hooks/              # React hooks for islands
-└── utils/              # furigana parser, settings, cn
+├── styles/             # global.css: design tokens, ruby typography, variants
+├── types/              # shared content types (Localized…)
+└── utils/              # furigana parser, settings, search, practice helpers
 ```
 
 ## Content conventions
@@ -52,13 +56,49 @@ src/
 
 ## Routes
 
-| Route                          | Content                                         |
-| ------------------------------ | ----------------------------------------------- |
-| `/`                            | Landing + level picker                          |
-| `/kana`                        | Hiragana/katakana charts (level-independent)    |
-| `/kanji`, `/kanji/[char]`      | Kanji index grouped by level/lesson + detail    |
-| `/[level]`                     | Level dashboard                                 |
-| `/[level]/lessons/[number]`    | Grammar + vocabulary for a lesson               |
-| `/[level]/vocabulary/[number]` | Dedicated vocabulary view                       |
-| `/[level]/verbs`               | Conjugation table (ます/て/diccionario/ない/た) |
-| `/[level]/reference/[topic]`   | Guide: particles, counters, time, calendar…     |
+| Route                           | Content                                         |
+| ------------------------------- | ----------------------------------------------- |
+| `/`                             | Landing; the main CTA follows lesson progress   |
+| `/kana`                         | Hiragana/katakana charts + reading marks        |
+| `/kanji`, `/kanji/[char]`       | Kanji index grouped by level/lesson + detail    |
+| `/[level]`                      | Level dashboard                                 |
+| `/[level]/lessons/[number]`     | Grammar + vocabulary for a lesson               |
+| `/[level]/vocabulary/[number]`  | Dedicated vocabulary view                       |
+| `/[level]/verbs`                | Conjugation table (ます/て/diccionario/ない/た) |
+| `/[level]/reference/[topic]`    | Guide: particles, counters, time, calendar…     |
+| `/[level]/practice`             | Practice hub (progress, streak, per-mode stats) |
+| `/[level]/practice/readings`    | Kanji-reading quiz                              |
+| `/[level]/practice/particles`   | Particle cloze quiz built from lesson examples  |
+| `/[level]/practice/conjugation` | Verb-form recall drill                          |
+| `/[level]/practice/flashcards`  | Leitner flashcards (vocab, kanji, verbs)        |
+| `/[level]/practice/numbers`     | Numbers, prices, clock times and counters       |
+| `/search-index.json`            | Static index consumed by the search dialog      |
+
+Index routes (`/[level]/lessons`, `/[level]/vocabulary`, `/[level]/practice`, `/[level]/reference`) list their sections.
+
+## Practice
+
+Questions are generated at build time from the same content the pages render, so there is no separate exercise dataset to maintain.
+
+- **Reading quiz** — prompts show the word with furigana stripped. Distractors are scored so they share the answer's word type and okurigana (`src/utils/distractors.ts`), otherwise options could be eliminated on shape alone.
+- **Particle cloze** — a particle is blanked out of a book example. It is only detected after an unambiguous word boundary (a closing `]` or katakana), preferring precision over recall. Distractors are sampled per question from a confusion pool, so the option set never identifies the answer.
+- **Conjugation and numbers** — think-then-reveal drills with self-grading; number readings (including sound changes like さんびゃく or じゅっぷん) come from `src/utils/japaneseNumbers.ts`.
+- **Flashcards** — Leitner boxes with day-based intervals, plus a virtual "Difíciles" deck built from items missed in any mode.
+
+## Search
+
+`⌘K` / `Ctrl+K` (or `/` while reading) opens a dialog covering vocabulary, kanji, verbs, grammar points, lessons and reference tables. The index is a static JSON file fetched on first open; matching is accent-insensitive for Spanish and strips furigana brackets for Japanese (`src/utils/search.ts`).
+
+## Client-side state
+
+Everything a learner accumulates lives in `localStorage` — there is no backend and no account:
+
+| Key                    | Contents                                            |
+| ---------------------- | --------------------------------------------------- |
+| `noken-settings`       | Theme, furigana visibility and size, study mode     |
+| `noken-progress`       | Completed lessons per level                         |
+| `noken-flashcards`     | Leitner box and due date per card                   |
+| `noken-practice-stats` | Per-mode answer counts, per-lesson accuracy, streak |
+| `noken-difficult`      | Miss counts feeding the difficult-words deck        |
+
+Settings are applied before first paint by an inline script in `BaseLayout`, which sets classes on `<html>` (`dark`, `hide-furigana`, `furigana-large`, `hide-translations`, `mac`).
