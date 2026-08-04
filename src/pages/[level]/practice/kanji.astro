@@ -1,0 +1,100 @@
+---
+import { KanjiQuiz } from '@/components/practice/KanjiQuiz';
+import { type McQuestion } from '@/components/practice/McQuiz';
+import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
+import { pickLocaleList, resolveLocale, useTranslations } from '@/i18n/t';
+import SiteLayout from '@/layouts/SiteLayout.astro';
+import Container from '@/ui/Container.astro';
+import { getCollection } from 'astro:content';
+
+export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+
+const { level } = Astro.params as { level: EnabledLevel };
+const locale = resolveLocale(Astro.currentLocale);
+const t = useTranslations(locale);
+
+const DISTRACTOR_COUNT = 3;
+
+const kanji = (await getCollection('kanji', ({ data }) => data.level === level)).map(
+  ({ data }) => ({
+    character: data.character,
+    meaning: pickLocaleList(data.meanings, locale).join(', '),
+    // Readings without the okurigana dots and affix marks
+    readings: [...data.onyomi, ...data.kunyomi].map((r) => r.replace(/[.〜]/g, '')).join('、'),
+    strokes: data.strokes,
+    similar: data.similar ?? [],
+    lesson: data.lesson,
+  })
+);
+
+const byCharacter = new Map(kanji.map((entry) => [entry.character, entry]));
+
+// The book's own confusable sets make the best wrong options; when it flags
+// fewer than we need, fall back to kanji of a similar stroke count.
+const distractorsFor = (target: (typeof kanji)[number]) => {
+  const flagged = target.similar.filter((character) => byCharacter.has(character));
+  if (flagged.length >= DISTRACTOR_COUNT) return flagged.slice(0, DISTRACTOR_COUNT);
+
+  const taken = new Set([target.character, ...flagged]);
+  const filler = kanji
+    .filter((entry) => !taken.has(entry.character))
+    .map((entry) => ({
+      character: entry.character,
+      score: -Math.abs(entry.strokes - target.strokes) + Math.random(),
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, DISTRACTOR_COUNT - flagged.length)
+    .map(({ character }) => character);
+
+  return [...flagged, ...filler];
+};
+
+// Pick the kanji, given what it means
+const toKanji: McQuestion[] = kanji.map((entry) => ({
+  id: `to-kanji-${entry.character}`,
+  prompt: entry.meaning,
+  promptIsSpanish: true,
+  options: [entry.character, ...distractorsFor(entry)],
+  answer: entry.character,
+  explanationJp: entry.character,
+  explanationEs: entry.readings,
+  ...(entry.lesson != null && { lesson: entry.lesson }),
+  // Misses feed the difficult deck, whose kanji cards use the bare character
+  cardKey: `kanji:${entry.character}`,
+}));
+
+// Pick the meaning, given the kanji. Distractors that happen to share the
+// answer's meaning would make two options right, so they are dropped.
+const toMeaning: McQuestion[] = kanji.map((entry) => {
+  const options = distractorsFor(entry)
+    .map((character) => byCharacter.get(character)?.meaning)
+    .filter((meaning): meaning is string => Boolean(meaning) && meaning !== entry.meaning);
+
+  return {
+    id: `to-meaning-${entry.character}`,
+    prompt: entry.character,
+    options: [entry.meaning, ...new Set(options)],
+    answer: entry.meaning,
+    explanationJp: entry.character,
+    explanationEs: entry.readings,
+    ...(entry.lesson != null && { lesson: entry.lesson }),
+    cardKey: `kanji:${entry.character}`,
+  };
+});
+
+const labels = { ...t.practice.quiz, ...t.practice.kanjiQuiz };
+---
+
+<SiteLayout title={t.practice.modes.kanji.title} description={t.practice.modes.kanji.description}>
+  <Container class="max-w-3xl">
+    <p class="text-sm">
+      <a href={`/${level}/practice`} class="text-primary hover:underline">← {t.practice.title}</a>
+    </p>
+    <h1 class="mt-4 text-3xl font-bold tracking-tight">{t.practice.modes.kanji.title}</h1>
+    <p class="text-muted-foreground mt-2">{t.practice.modes.kanji.description}</p>
+
+    <div class="mt-8">
+      <KanjiQuiz toKanji={toKanji} toMeaning={toMeaning} labels={labels} client:load />
+    </div>
+  </Container>
+</SiteLayout>

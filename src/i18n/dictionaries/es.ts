@@ -163,6 +163,10 @@ export const es = {
         title: 'Quiz de lecturas',
         description: '¿Cómo se lee esta palabra? Cuatro opciones, como en el examen.',
       },
+      kanji: {
+        title: 'Kanji parecidos',
+        description: 'Distingue los kanji que el libro marca como fáciles de confundir.',
+      },
       particles: {
         title: 'Partículas',
         description: 'Completa la partícula que falta en frases del libro.',
@@ -193,6 +197,11 @@ export const es = {
       allLessons: 'Todas las lecciones',
       lessonFilter: 'Lección',
       lesson: 'Lección',
+    },
+    kanjiQuiz: {
+      direction: 'Dirección',
+      toKanji: 'Significado → kanji',
+      toMeaning: 'Kanji → significado',
     },
     drill: {
       reveal: 'Mostrar respuesta',

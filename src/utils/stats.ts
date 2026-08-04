@@ -4,7 +4,8 @@
 import { PRACTICE_STATS_STORAGE_KEY } from '@/constants/storage';
 import { epochDay, readJson, writeJson } from '@/utils/practice';
 
-export type PracticeMode = 'readings' | 'particles' | 'conjugation' | 'flashcards' | 'numbers';
+export type PracticeMode =
+  'readings' | 'kanji' | 'particles' | 'conjugation' | 'flashcards' | 'numbers';
 
 export interface AnswerCount {
   answered: number;

@@ -9,6 +9,8 @@ export interface McQuestion {
   id: string;
   // Furigana bracket notation; may contain ＿＿＿ as the blank in cloze questions
   prompt: string;
+  // Spanish prompts (a meaning to match against kanji) are not Japanese text
+  promptIsSpanish?: boolean;
   // Spanish context shown under the prompt (e.g. the word's meaning)
   context?: string;
   options: string[];
@@ -172,7 +174,7 @@ export const McQuiz = ({
 
       <div className="bg-card mt-4 rounded-lg border p-6">
         <p className="text-2xl leading-relaxed sm:text-3xl">
-          <FuriganaText text={question.prompt} />
+          {question.promptIsSpanish ? question.prompt : <FuriganaText text={question.prompt} />}
         </p>
         {question.context && (
           <p className="text-muted-foreground mt-2 text-sm">{question.context}</p>
