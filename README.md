@@ -68,6 +68,7 @@ src/
 | `/[level]/reference/[topic]`    | Guide: particles, counters, time, calendar…     |
 | `/[level]/practice`             | Practice hub (progress, streak, per-mode stats) |
 | `/[level]/practice/readings`    | Kanji-reading quiz                              |
+| `/[level]/practice/kanji`       | Confusable-kanji quiz, both directions          |
 | `/[level]/practice/particles`   | Particle cloze quiz built from lesson examples  |
 | `/[level]/practice/conjugation` | Verb-form recall drill                          |
 | `/[level]/practice/flashcards`  | Leitner flashcards (vocab, kanji, verbs)        |
@@ -80,6 +81,7 @@ Index routes (`/[level]/lessons`, `/[level]/vocabulary`, `/[level]/practice`, `/
 
 Questions are generated at build time from the same content the pages render, so there is no separate exercise dataset to maintain.
 
+- **Confusable kanji** — asked both ways (meaning → kanji, kanji → meaning). The wrong options are the appendix's own "fáciles de confundir" sets, topped up with kanji of a similar stroke count when the book flags fewer than three.
 - **Reading quiz** — prompts show the word with furigana stripped. Distractors are scored so they share the answer's word type and okurigana (`src/utils/distractors.ts`), otherwise options could be eliminated on shape alone.
 - **Particle cloze** — a particle is blanked out of a book example. It is only detected after an unambiguous word boundary (a closing `]` or katakana), preferring precision over recall. Distractors are sampled per question from a confusion pool, so the option set never identifies the answer.
 - **Conjugation and numbers** — think-then-reveal drills with self-grading; number readings (including sound changes like さんびゃく or じゅっぷん) come from `src/utils/japaneseNumbers.ts`.
