@@ -246,10 +246,10 @@ export const es = {
   search: {
     open: 'Buscar',
     title: 'Buscar en Noken',
-    placeholder: 'Palabra, kanji, gramática…',
+    placeholder: 'Palabra, kanji, romaji…',
     loading: 'Cargando el índice…',
     empty: 'Sin resultados',
-    hint: 'Busca vocabulario, kanji, verbos, gramática y tablas de la guía.',
+    hint: 'Busca en español, en japonés o en romaji: vocabulario, kanji, verbos, gramática y tablas.',
     groups: {
       vocab: 'Vocabulario',
       kanji: 'Kanji',

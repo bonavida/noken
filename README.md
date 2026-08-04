@@ -89,6 +89,8 @@ Questions are generated at build time from the same content the pages render, so
 
 `⌘K` / `Ctrl+K` (or `/` while reading) opens a dialog covering vocabulary, kanji, verbs, grammar points, lessons and reference tables. The index is a static JSON file fetched on first open; matching is accent-insensitive for Spanish and strips furigana brackets for Japanese (`src/utils/search.ts`).
 
+Queries also work in **romaji**. Readings are transliterated with a table derived from the kana charts, then both sides are reduced to a loose key (`src/utils/romaji.ts`) so spelling choices stop mattering: Hepburn or kunrei (`shinbun` / `sinbun`, `tsukue` / `tukue`, `jisho` / `zisyo`), long vowels however you write them (`toukyou` / `tokyo` / `tōkyō`), and `shimbun` for `shinbun`. Romaji deliberately loses score ties, so a Spanish word that happens to read like a Japanese one never displaces the real Spanish match.
+
 ## Client-side state
 
 Everything a learner accumulates lives in `localStorage` — there is no backend and no account:

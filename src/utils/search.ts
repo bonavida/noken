@@ -2,6 +2,7 @@
 // that scoring every entry on each keystroke is imperceptible, so this stays
 // dependency-free instead of pulling in a fuzzy-search library.
 import { stripFurigana } from '@/utils/furigana';
+import { romajiKey, toRomajiKey } from '@/utils/romaji';
 
 export type SearchKind = 'vocab' | 'kanji' | 'verb' | 'grammar' | 'lesson' | 'reference';
 
@@ -20,6 +21,8 @@ export interface SearchEntry {
 export interface Searchable extends SearchEntry {
   // Normalized haystacks, built once when the index loads
   fields: string[];
+  // The reading as a loose romaji key
+  romaji: string;
 }
 
 // Lowercase and drop Latin accents while leaving kana intact: NFD splits the
@@ -63,10 +66,21 @@ export const prepareEntries = (entries: SearchEntry[]): Searchable[] =>
     ]
       .filter(Boolean)
       .map(normalize),
+    // The reading transliterated, so "kaisha" finds 会社. Kept apart from the
+    // other fields because it is matched against a differently-normalized query.
+    romaji: toRomajiKey(entry.kana ?? (entry.jp ? stripFurigana(entry.jp) : '')),
   }));
 
-const entryScore = (entry: Searchable, query: string): number => {
-  const best = Math.max(...entry.fields.map((field) => fieldScore(field, query)));
+// Romaji loses ties on purpose: a Spanish word that happens to read like a
+// Japanese one ("casa" → かさ) must not displace the real Spanish match
+const ROMAJI_PENALTY = 1;
+
+const entryScore = (entry: Searchable, query: string, romajiQuery: string): number => {
+  const romaji =
+    romajiQuery && entry.romaji
+      ? Math.max(fieldScore(entry.romaji, romajiQuery) - ROMAJI_PENALTY, 0)
+      : 0;
+  const best = Math.max(...entry.fields.map((field) => fieldScore(field, query)), romaji);
   return best === 0 ? 0 : best + KIND_BONUS[entry.kind];
 };
 
@@ -77,9 +91,11 @@ export const searchEntries = (
 ): Searchable[] => {
   const query = normalize(rawQuery.trim());
   if (!query) return [];
+  // Empty for Japanese input, which keeps kana queries out of the romaji field
+  const romajiQuery = romajiKey(rawQuery);
 
   return entries
-    .map((entry) => ({ entry, score: entryScore(entry, query) }))
+    .map((entry) => ({ entry, score: entryScore(entry, query, romajiQuery) }))
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)

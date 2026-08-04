@@ -97,3 +97,25 @@ describe('searchEntries', () => {
     expect(search('です').some(({ kind }) => kind === 'grammar')).toBe(true);
   });
 });
+
+describe('searchEntries with romaji', () => {
+  it('finds a word typed in romaji', () => {
+    expect(search('kaisha')[0]?.es).toBe('empresa');
+    expect(search('kaigishitsu')[0]?.es).toBe('sala de reuniones');
+  });
+
+  it('accepts either romanization', () => {
+    expect(search('kaisya')[0]?.es).toBe('empresa');
+    expect(search('aimasu')[0]?.kind).toBe('verb');
+  });
+
+  it('matches kanji readings typed in romaji', () => {
+    expect(search('kai').some(({ kind }) => kind === 'kanji')).toBe(true);
+  });
+
+  it('still matches Spanish and Japanese as before', () => {
+    expect(search('empresa')[0]?.href).toBe('/n5/vocabulary/1');
+    expect(search('会社')[0]?.es).toBe('empresa');
+    expect(search('かいしゃ')[0]?.es).toBe('empresa');
+  });
+});
