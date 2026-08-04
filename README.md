@@ -86,6 +86,8 @@ Questions are generated at build time from the same content the pages render, so
 - **Particle cloze** — a particle is blanked out of a book example. It is only detected after an unambiguous word boundary (a closing `]` or katakana), preferring precision over recall. Distractors are sampled per question from a confusion pool, so the option set never identifies the answer.
 - **Conjugation and numbers** — think-then-reveal drills with self-grading; number readings (including sound changes like さんびゃく or じゅっぷん) come from `src/utils/japaneseNumbers.ts`.
 - **Flashcards** — Leitner boxes with day-based intervals, plus a virtual "Difíciles" deck built from items missed in any mode.
+- **Keyboard** — number keys answer, space reveals or advances, in every mode. A shared guard (`src/utils/keyboard.ts`) keeps those bare keys from firing while a field or the search dialog has the focus.
+- **Scope** — quizzes filter by a single lesson or a block of five, each option showing your accuracy for that scope.
 
 ## Search
 

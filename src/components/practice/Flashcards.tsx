@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
+import { useQuizKeys } from '@/hooks/useQuizKeys';
 import { DIFFICULT_DECK_ID, FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
 import { cn } from '@/utils/cn';
 import { readDifficult, recordHit, recordMiss } from '@/utils/difficult';
@@ -115,6 +116,14 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
     setFlipped(false);
   };
 
+  const card = queue[0];
+
+  useQuizKeys({
+    ' ': deck && card && !flipped ? () => setFlipped(true) : undefined,
+    '1': deck && card && flipped ? () => grade(true) : undefined,
+    '2': deck && card && flipped ? () => grade(false) : undefined,
+  });
+
   if (!deck) {
     return (
       <div>
@@ -174,8 +183,6 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
       </div>
     );
   }
-
-  const card = queue[0];
 
   if (!card) {
     const anyDue = dueCards(deck, store).length > 0;
@@ -241,6 +248,9 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
               onClick={() => grade(true)}
               className="bg-verb-3/10 text-verb-3 hover:bg-verb-3/20 rounded-md px-6 py-2.5 text-sm font-medium transition-colors"
             >
+              <kbd className="bg-verb-3/20 mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline">
+                1
+              </kbd>
               ✓ {labels.known}
             </button>
             <button
@@ -248,6 +258,9 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
               onClick={() => grade(false)}
               className="bg-destructive/10 text-destructive hover:bg-destructive/20 rounded-md px-6 py-2.5 text-sm font-medium transition-colors"
             >
+              <kbd className="bg-destructive/20 mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline">
+                2
+              </kbd>
               ✗ {labels.unknown}
             </button>
           </>
@@ -257,6 +270,9 @@ export const Flashcards = ({ decks, labels }: FlashcardsProps) => {
             onClick={() => setFlipped(true)}
             className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-8 py-2.5 text-sm font-medium transition-colors"
           >
+            <kbd className="bg-primary-foreground/20 mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline">
+              space
+            </kbd>
             {labels.flip}
           </button>
         )}

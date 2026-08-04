@@ -4,6 +4,7 @@ import { createPortal } from 'react-dom';
 import { FuriganaText } from '@/components/FuriganaText';
 import { Button } from '@/ui/react/button';
 import { cn } from '@/utils/cn';
+import { isTyping } from '@/utils/keyboard';
 import {
   prepareEntries,
   searchEntries,
@@ -30,17 +31,6 @@ interface SearchDialogProps {
 
 const INDEX_URL = '/search-index.json';
 const MAX_RESULTS = 24;
-
-// True when the keystroke belongs to a field the user is writing in, so the
-// bare "/" shortcut leaves the vocabulary filter and quiz inputs alone
-const isTyping = (target: EventTarget | null) => {
-  if (!(target instanceof HTMLElement)) return false;
-  return (
-    target.isContentEditable ||
-    ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName) ||
-    target.closest('[role="dialog"]') !== null
-  );
-};
 
 // Results arrive sorted by score, so grouping by first appearance keeps the
 // best match at the top while still gathering each kind together.

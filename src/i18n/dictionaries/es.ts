@@ -197,6 +197,8 @@ export const es = {
       allLessons: 'Todas las lecciones',
       lessonFilter: 'Lección',
       lesson: 'Lección',
+      ranges: 'Bloques de lecciones',
+      lessons: 'Lecciones sueltas',
     },
     kanjiQuiz: {
       direction: 'Dirección',

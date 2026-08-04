@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
+import { useQuizKeys } from '@/hooks/useQuizKeys';
 import { cn } from '@/utils/cn';
 import { recordHit, recordMiss } from '@/utils/difficult';
 import { recordAnswer, type PracticeMode } from '@/utils/stats';
@@ -53,6 +54,13 @@ export const RevealDrill = ({ next, labels, statsKey }: RevealDrillProps) => {
     setRevealed(false);
   };
 
+  useQuizKeys({
+    ' ': revealed ? undefined : () => setRevealed(true),
+    Enter: revealed ? undefined : () => setRevealed(true),
+    '1': revealed ? () => grade(true) : undefined,
+    '2': revealed ? () => grade(false) : undefined,
+  });
+
   return (
     <div className="bg-card rounded-lg border p-6">
       <div className="flex items-baseline justify-between gap-3">
@@ -96,6 +104,9 @@ export const RevealDrill = ({ next, labels, statsKey }: RevealDrillProps) => {
               onClick={() => grade(true)}
               className="bg-verb-3/10 text-verb-3 hover:bg-verb-3/20 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
             >
+              <kbd className="bg-verb-3/20 mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline">
+                1
+              </kbd>
               ✓ {labels.right}
             </button>
             <button
@@ -103,6 +114,9 @@ export const RevealDrill = ({ next, labels, statsKey }: RevealDrillProps) => {
               onClick={() => grade(false)}
               className="bg-destructive/10 text-destructive hover:bg-destructive/20 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
             >
+              <kbd className="bg-destructive/20 mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline">
+                2
+              </kbd>
               ✗ {labels.wrong}
             </button>
           </>
@@ -112,6 +126,9 @@ export const RevealDrill = ({ next, labels, statsKey }: RevealDrillProps) => {
             onClick={() => setRevealed(true)}
             className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
           >
+            <kbd className="bg-primary-foreground/20 mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline">
+              space
+            </kbd>
             {labels.reveal}
           </button>
         )}

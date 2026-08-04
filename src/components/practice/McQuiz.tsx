@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { FuriganaText } from '@/components/FuriganaText';
+import { useQuizKeys } from '@/hooks/useQuizKeys';
 import { cn } from '@/utils/cn';
 import { recordHit, recordMiss } from '@/utils/difficult';
 import { sample, shuffle } from '@/utils/practice';
@@ -38,6 +39,8 @@ export interface McQuizLabels {
   allLessons: string;
   lessonFilter: string;
   lesson: string;
+  ranges: string;
+  lessons: string;
 }
 
 interface McQuizProps {
@@ -50,16 +53,25 @@ interface McQuizProps {
   statsKey?: PracticeMode;
 }
 
+// Filter values are "all", a single lesson ("7") or a block ("range:6-10")
+const matchesFilter = (question: McQuestion, filter: string) => {
+  if (filter === 'all') return true;
+  if (question.lesson == null) return false;
+  if (!filter.startsWith('range:')) return question.lesson === Number(filter);
+  const [start, end] = filter.slice('range:'.length).split('-').map(Number);
+  return question.lesson >= (start ?? 0) && question.lesson <= (end ?? 0);
+};
+
 const buildRound = (questions: McQuestion[], lessonFilter: string, count: number) => {
-  const pool =
-    lessonFilter === 'all'
-      ? questions
-      : questions.filter((question) => question.lesson === Number(lessonFilter));
+  const pool = questions.filter((question) => matchesFilter(question, lessonFilter));
   return sample(pool, Math.min(count, pool.length)).map((question) => ({
     ...question,
     options: shuffle(question.options),
   }));
 };
+
+// Revision happens in blocks of lessons, not one at a time
+const RANGE_SIZE = 5;
 
 export const McQuiz = ({
   questions,
@@ -75,6 +87,15 @@ export const McQuiz = ({
       ),
     [questions]
   );
+
+  // Blocks of five that actually contain questions
+  const ranges = useMemo(() => {
+    const max = lessons.length > 0 ? Math.max(...lessons) : 0;
+    return Array.from({ length: Math.ceil(max / RANGE_SIZE) }, (_, index) => {
+      const start = index * RANGE_SIZE + 1;
+      return { start, end: Math.min(start + RANGE_SIZE - 1, max) };
+    }).filter(({ start, end }) => lessons.some((lesson) => lesson >= start && lesson <= end));
+  }, [lessons]);
 
   const [lessonFilter, setLessonFilter] = useState('all');
   const [byLesson, setByLesson] = useState<Record<string, AnswerCount>>(() =>
@@ -113,12 +134,20 @@ export const McQuiz = ({
     setByLesson(lessonStats(statsKey));
   };
 
-  // Historical accuracy shown next to each lesson in the filter
-  const accuracySuffix = (lesson: number) => {
-    const entry = byLesson[lesson];
-    if (!entry?.answered) return '';
-    return ` · ${Math.round((entry.correct / entry.answered) * 100)}%`;
+  // Historical accuracy shown next to each option in the filter, so the weakest
+  // lessons and blocks are visible at the moment you choose what to drill
+  const accuracySuffix = (...lessonNumbers: number[]) => {
+    const counted = lessonNumbers
+      .map((lesson) => byLesson[lesson])
+      .filter((entry): entry is AnswerCount => Boolean(entry?.answered));
+    if (counted.length === 0) return '';
+    const answered = counted.reduce((total, entry) => total + entry.answered, 0);
+    const correct = counted.reduce((total, entry) => total + entry.correct, 0);
+    return ` · ${Math.round((correct / answered) * 100)}%`;
   };
+
+  const lessonsIn = (start: number, end: number) =>
+    lessons.filter((lesson) => lesson >= start && lesson <= end);
 
   const advance = () => {
     if (index + 1 >= round.length) {
@@ -128,6 +157,18 @@ export const McQuiz = ({
     setIndex((current) => current + 1);
     setSelected(null);
   };
+
+  // 1-4 answer, space or enter moves on once the result is showing
+  useQuizKeys({
+    ...Object.fromEntries(
+      (question?.options ?? []).map((option, index) => [
+        String(index + 1),
+        selected === null ? () => choose(option) : undefined,
+      ])
+    ),
+    ' ': selected === null ? undefined : advance,
+    Enter: selected === null ? undefined : advance,
+  });
 
   if (finished || !question) {
     return (
@@ -160,11 +201,22 @@ export const McQuiz = ({
             className="border-input bg-background focus-visible:ring-ring rounded-md border px-2 py-1.5 text-sm focus-visible:ring-2 focus-visible:outline-none"
           >
             <option value="all">{labels.allLessons}</option>
-            {lessons.map((lesson) => (
-              <option key={lesson} value={lesson}>
-                {`${labels.lesson} ${lesson}${accuracySuffix(lesson)}`}
-              </option>
-            ))}
+            {ranges.length > 1 && (
+              <optgroup label={labels.ranges}>
+                {ranges.map(({ start, end }) => (
+                  <option key={`range-${start}`} value={`range:${start}-${end}`}>
+                    {`${start}–${end}${accuracySuffix(...lessonsIn(start, end))}`}
+                  </option>
+                ))}
+              </optgroup>
+            )}
+            <optgroup label={labels.lessons}>
+              {lessons.map((lesson) => (
+                <option key={lesson} value={lesson}>
+                  {`${labels.lesson} ${lesson}${accuracySuffix(lesson)}`}
+                </option>
+              ))}
+            </optgroup>
           </select>
         </label>
         <p className="text-muted-foreground text-sm" aria-live="polite">
@@ -181,7 +233,7 @@ export const McQuiz = ({
         )}
 
         <div className="mt-6 grid gap-2 sm:grid-cols-2">
-          {question.options.map((option) => {
+          {question.options.map((option, index) => {
             const isAnswer = option === question.answer;
             const isSelected = option === selected;
             return (
@@ -203,6 +255,12 @@ export const McQuiz = ({
                 )}
                 lang={optionsAreJapanese ? 'ja' : undefined}
               >
+                <kbd
+                  className="bg-muted text-muted-foreground mr-2 hidden rounded px-1.5 py-0.5 font-sans text-xs sm:inline"
+                  aria-hidden="true"
+                >
+                  {index + 1}
+                </kbd>
                 {option}
               </button>
             );
