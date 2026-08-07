@@ -6,6 +6,7 @@ import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
 import Icon, { type IconName } from '@/ui/Icon.astro';
+import SectionHeading from '@/ui/SectionHeading.astro';
 import { getCollection } from 'astro:content';
 
 export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
@@ -59,6 +60,28 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
     >
     </p>
 
+    {
+      /* Filled in by the script below; stays hidden until there is enough
+    evidence that a lesson needs reviewing */
+    }
+    <section class="mt-10 hidden" data-weak-section>
+      <SectionHeading title={t.practice.review.title} subtitle={t.practice.review.description} />
+      <div
+        class="grid gap-3 sm:grid-cols-3"
+        data-weak-list
+        data-level={level}
+        data-label-lesson={t.lessons.lesson}
+        data-label-accuracy={t.practice.stats.accuracy}
+        data-label-answers={t.practice.stats.answers}
+        data-mode-titles={JSON.stringify(
+          Object.fromEntries(
+            Object.entries(t.practice.modes).map(([slug, mode]) => [slug, mode.title])
+          )
+        )}
+      >
+      </div>
+    </section>
+
     <div
       class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
       data-practice-grid
@@ -89,7 +112,7 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
 <script>
   import { DIFFICULT_DECK_ID, FLASHCARDS_STORAGE_KEY } from '@/constants/storage';
   import { epochDay, readJson } from '@/utils/practice';
-  import { currentStreak, readStats, type PracticeMode } from '@/utils/stats';
+  import { currentStreak, readStats, weakestLessons, type PracticeMode } from '@/utils/stats';
 
   const dueFlashcards = (total: number) => {
     // Cards absent from the store are unseen, and unseen cards are due
@@ -107,7 +130,48 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
     return Math.max(total - notDue, 0);
   };
 
+  const WEAK_LIMIT = 3;
+
+  const renderWeakLessons = (stats: ReturnType<typeof readStats>) => {
+    const list = document.querySelector<HTMLElement>('[data-weak-list]');
+    const section = document.querySelector<HTMLElement>('[data-weak-section]');
+    if (!list || !section) return;
+
+    const weak = weakestLessons(stats, WEAK_LIMIT);
+    section.classList.toggle('hidden', weak.length === 0);
+    list.replaceChildren();
+    if (weak.length === 0) return;
+
+    const { level, labelLesson, labelAccuracy, labelAnswers, modeTitles } = list.dataset;
+    const titles = JSON.parse(modeTitles ?? '{}') as Record<string, string>;
+
+    weak.forEach(({ lesson, accuracy, answered, mode }) => {
+      const card = document.createElement('a');
+      // Land in the mode this lesson goes worst in, already filtered to it
+      card.href = `/${level}/practice/${mode}?lesson=${lesson}`;
+      card.className =
+        'bg-card hover:border-primary/40 hover:bg-accent/40 rounded-lg border p-4 transition-colors';
+
+      const heading = document.createElement('p');
+      heading.className = 'font-semibold';
+      heading.textContent = `${labelLesson} ${lesson}`;
+
+      const score = document.createElement('p');
+      score.className = 'text-destructive mt-1 text-sm font-medium';
+      score.textContent = `${accuracy}% ${labelAccuracy}`;
+
+      const detail = document.createElement('p');
+      detail.className = 'text-muted-foreground mt-1 text-xs';
+      detail.textContent = `${titles[mode] ?? mode} · ${answered} ${labelAnswers}`;
+
+      card.append(heading, score, detail);
+      list.append(card);
+    });
+  };
+
   const update = () => {
+    renderWeakLessons(readStats());
+
     const grid = document.querySelector<HTMLElement>('[data-practice-grid]');
     if (!grid) return;
 

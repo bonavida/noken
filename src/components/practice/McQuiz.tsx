@@ -97,11 +97,20 @@ export const McQuiz = ({
     }).filter(({ start, end }) => lessons.some((lesson) => lesson >= start && lesson <= end));
   }, [lessons]);
 
-  const [lessonFilter, setLessonFilter] = useState('all');
+  // The review panel links here with the lesson already chosen; an unknown or
+  // empty scope falls back to everything rather than an empty round
+  const initialFilter = () => {
+    if (typeof window === 'undefined') return 'all';
+    const requested = new URLSearchParams(window.location.search).get('lesson');
+    if (!requested) return 'all';
+    return questions.some((question) => matchesFilter(question, requested)) ? requested : 'all';
+  };
+
+  const [lessonFilter, setLessonFilter] = useState(initialFilter);
   const [byLesson, setByLesson] = useState<Record<string, AnswerCount>>(() =>
     typeof window === 'undefined' || !statsKey ? {} : lessonStats(statsKey)
   );
-  const [round, setRound] = useState(() => buildRound(questions, 'all', questionCount));
+  const [round, setRound] = useState(() => buildRound(questions, initialFilter(), questionCount));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState(0);

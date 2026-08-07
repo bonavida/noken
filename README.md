@@ -88,6 +88,7 @@ Questions are generated at build time from the same content the pages render, so
 - **Flashcards** — Leitner boxes with day-based intervals, plus a virtual "Difíciles" deck built from items missed in any mode.
 - **Keyboard** — number keys answer, space reveals or advances, in every mode. A shared guard (`src/utils/keyboard.ts`) keeps those bare keys from firing while a field or the search dialog has the focus.
 - **Scope** — quizzes filter by a single lesson or a block of five, each option showing your accuracy for that scope.
+- **Qué repasar** — the hub ranks your weakest lessons by accuracy pooled across modes (`weakestLessons` in `src/utils/stats.ts`), ignoring lessons with too little evidence, and links into the mode each one goes worst in with `?lesson=` preselecting the scope.
 
 ## Search
 

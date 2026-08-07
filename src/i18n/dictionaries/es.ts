@@ -243,6 +243,11 @@ export const es = {
       start: 'Empezar',
       difficult: 'Difíciles',
     },
+    review: {
+      title: 'Qué repasar',
+      description: 'Las lecciones que peor llevas, según tus respuestas.',
+      practise: 'Practicar',
+    },
     markComplete: 'Marcar como completada',
     completed: 'Completada',
     stats: {

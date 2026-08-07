@@ -57,3 +57,60 @@ export const recordAnswer = (mode: PracticeMode, correct: boolean, lesson?: numb
     streak: { count: streakCount, lastDay: today },
   });
 };
+
+export interface WeakLesson {
+  lesson: number;
+  // Accuracy across every mode that asked about this lesson, 0-100
+  accuracy: number;
+  answered: number;
+  // The mode this lesson goes worst in, so the review link drills that one
+  mode: PracticeMode;
+}
+
+// A lesson needs a few answers before one bad guess can brand it weak, and
+// anything above the ceiling does not need reviewing at all.
+const MIN_ANSWERS = 5;
+const MAX_ACCURACY = 85;
+
+export const weakestLessons = (
+  stats: PracticeStats,
+  limit: number,
+  { minAnswers = MIN_ANSWERS, maxAccuracy = MAX_ACCURACY } = {}
+): WeakLesson[] => {
+  const totals = new Map<
+    number,
+    AnswerCount & { worstMode: PracticeMode; worstAccuracy: number }
+  >();
+
+  Object.entries(stats.modes).forEach(([mode, modeStats]) => {
+    Object.entries(modeStats?.lessons ?? {}).forEach(([key, count]) => {
+      if (count.answered === 0) return;
+      const lesson = Number(key);
+      const accuracy = count.correct / count.answered;
+      const current = totals.get(lesson);
+      const worse = !current || accuracy < current.worstAccuracy;
+
+      totals.set(lesson, {
+        answered: (current?.answered ?? 0) + count.answered,
+        correct: (current?.correct ?? 0) + count.correct,
+        worstMode: worse ? (mode as PracticeMode) : current.worstMode,
+        worstAccuracy: worse ? accuracy : current.worstAccuracy,
+      });
+    });
+  });
+
+  return (
+    [...totals.entries()]
+      .filter(([, total]) => total.answered >= minAnswers)
+      .map(([lesson, total]) => ({
+        lesson,
+        accuracy: Math.round((total.correct / total.answered) * 100),
+        answered: total.answered,
+        mode: total.worstMode,
+      }))
+      .filter(({ accuracy }) => accuracy <= maxAccuracy)
+      // Worst first; a tie goes to whichever has been answered more often
+      .sort((a, b) => a.accuracy - b.accuracy || b.answered - a.answered)
+      .slice(0, limit)
+  );
+};
