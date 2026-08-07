@@ -1,13 +1,16 @@
 ---
 import KanaChart from '@/components/KanaChart.astro';
 import { DAKUTEN_ROWS, GOJUON_ROWS, KANA_MARKS, YOON_ROWS } from '@/constants/kana';
-import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import { localeFromParams, localeRoutes } from '@/i18n/routing';
+import { pickLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import Furigana from '@/ui/Furigana.astro';
 import SectionHeading from '@/ui/SectionHeading.astro';
 
-const locale = resolveLocale(Astro.currentLocale);
+export const getStaticPaths = () => localeRoutes();
+
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 ---
 

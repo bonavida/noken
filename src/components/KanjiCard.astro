@@ -1,4 +1,6 @@
 ---
+import { localeFromParams } from '@/i18n/routing';
+import { localePath } from '@/i18n/t';
 interface Props {
   character: string;
   meaning: string;
@@ -8,7 +10,7 @@ const { character, meaning } = Astro.props;
 ---
 
 <a
-  href={`/kanji/${character}`}
+  href={localePath(`/kanji/${character}`, localeFromParams(Astro.params))}
   class="bg-card hover:border-primary/40 hover:bg-accent/40 flex flex-col items-center rounded-lg border py-4 transition-colors"
 >
   <span class="jp text-3xl" lang="ja">{character}</span>

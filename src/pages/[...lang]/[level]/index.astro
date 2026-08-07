@@ -1,15 +1,20 @@
 ---
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
-import { resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
 import { getCollection } from 'astro:content';
 
-export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    ENABLED_LEVELS.map((level) => ({ params: { lang: localeParam(locale), level } }))
+  );
 
 const { level } = Astro.params as { level: EnabledLevel };
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 const lessons = await getCollection('lessons', ({ data }) => data.level === level);
@@ -28,31 +33,31 @@ const levelName = level.toUpperCase();
     <h1 class="text-3xl font-bold tracking-tight">{t.level.title} {levelName}</h1>
 
     <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      <Card href={`/${level}/lessons`}>
+      <Card href={localePath(`/${level}/lessons`, locale)}>
         <p class="text-primary text-3xl font-bold">{lessons.length}</p>
         <h2 class="mt-1 font-semibold">{t.nav.lessons}</h2>
         <p class="text-muted-foreground mt-1 text-sm">{t.level.lessonsDescription}</p>
       </Card>
 
-      <Card href={`/${level}/vocabulary`}>
+      <Card href={localePath(`/${level}/vocabulary`, locale)}>
         <p class="text-primary text-3xl font-bold">{wordCount}</p>
         <h2 class="mt-1 font-semibold">{t.nav.vocabulary}</h2>
         <p class="text-muted-foreground mt-1 text-sm">{t.level.vocabularyDescription}</p>
       </Card>
 
-      <Card href="/kanji">
+      <Card href={localePath('/kanji', locale)}>
         <p class="text-primary text-3xl font-bold">{kanji.length}</p>
         <h2 class="mt-1 font-semibold">{t.nav.kanji}</h2>
         <p class="text-muted-foreground mt-1 text-sm">{t.level.kanjiDescription}</p>
       </Card>
 
-      <Card href={`/${level}/verbs`}>
+      <Card href={localePath(`/${level}/verbs`, locale)}>
         <p class="text-primary text-3xl font-bold">{verbCount}</p>
         <h2 class="mt-1 font-semibold">{t.nav.verbs}</h2>
         <p class="text-muted-foreground mt-1 text-sm">{t.verbs.description}</p>
       </Card>
 
-      <Card href={`/${level}/reference`}>
+      <Card href={localePath(`/${level}/reference`, locale)}>
         <p class="text-primary text-3xl font-bold">{topics.length}</p>
         <h2 class="mt-1 font-semibold">{t.nav.reference}</h2>
         <p class="text-muted-foreground mt-1 text-sm">{t.reference.description}</p>

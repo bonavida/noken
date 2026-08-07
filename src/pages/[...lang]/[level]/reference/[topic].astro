@@ -1,26 +1,30 @@
 ---
 import ReferenceTable from '@/components/ReferenceTable.astro';
-import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocale, useTranslations } from '@/i18n/t';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import MixedText from '@/ui/MixedText.astro';
 import SectionHeading from '@/ui/SectionHeading.astro';
+import { LOCALES } from '@/i18n/config';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export const getStaticPaths = async () => {
   const topics = await getCollection('reference');
 
-  return topics.map((topic) => {
-    const sorted = topics
-      .filter((entry) => entry.data.level === topic.data.level)
-      .sort((a, b) => a.data.order - b.data.order);
-    const index = sorted.findIndex((entry) => entry.data.slug === topic.data.slug);
+  return LOCALES.flatMap((locale) =>
+    topics.map((topic) => {
+      const sorted = topics
+        .filter((entry) => entry.data.level === topic.data.level)
+        .sort((a, b) => a.data.order - b.data.order);
+      const index = sorted.findIndex((entry) => entry.data.slug === topic.data.slug);
 
-    return {
-      params: { level: topic.data.level, topic: topic.data.slug },
-      props: { topic, previousTopic: sorted[index - 1], nextTopic: sorted[index + 1] },
-    };
-  });
+      return {
+        params: { lang: localeParam(locale), level: topic.data.level, topic: topic.data.slug },
+        props: { topic, previousTopic: sorted[index - 1], nextTopic: sorted[index + 1] },
+      };
+    })
+  );
 };
 
 interface Props {
@@ -32,7 +36,7 @@ interface Props {
 const { topic, previousTopic, nextTopic } = Astro.props;
 const { level, title, description, sections } = topic.data;
 
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 const localizedTitle = pickLocale(title, locale);
 const hasSectionNav = sections.length > 1;
@@ -41,7 +45,7 @@ const hasSectionNav = sections.length > 1;
 <SiteLayout title={localizedTitle} description={pickLocale(description, locale)}>
   <Container class="max-w-5xl">
     <p class="text-sm">
-      <a href={`/${level}/reference`} class="text-primary hover:underline">
+      <a href={localePath(`/${level}/reference`, locale)} class="text-primary hover:underline">
         ← {t.reference.backToReference}
       </a>
     </p>
@@ -100,7 +104,7 @@ const hasSectionNav = sections.length > 1;
       {
         previousTopic ? (
           <a
-            href={`/${level}/reference/${previousTopic.data.slug}`}
+            href={localePath(`/${level}/reference/${previousTopic.data.slug}`, locale)}
             class="text-muted-foreground hover:text-foreground transition-colors"
           >
             ← {pickLocale(previousTopic.data.title, locale)}
@@ -112,7 +116,7 @@ const hasSectionNav = sections.length > 1;
       {
         nextTopic && (
           <a
-            href={`/${level}/reference/${nextTopic.data.slug}`}
+            href={localePath(`/${level}/reference/${nextTopic.data.slug}`, locale)}
             class="text-muted-foreground hover:text-foreground transition-colors"
           >
             {pickLocale(nextTopic.data.title, locale)} →

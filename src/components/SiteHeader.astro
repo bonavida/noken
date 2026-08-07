@@ -3,11 +3,21 @@ import { SearchDialog } from '@/components/SearchDialog';
 import { SettingsMenu } from '@/components/SettingsMenu';
 import { ENABLED_LEVELS } from '@/constants/levels';
 import { SITE_NAME } from '@/constants/site';
-import { resolveLocale, useTranslations } from '@/i18n/t';
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams } from '@/i18n/routing';
+import { localePath, useTranslations } from '@/i18n/t';
 import { cn } from '@/utils/cn';
 
-const t = useTranslations(resolveLocale(Astro.currentLocale));
+const locale = localeFromParams(Astro.params);
+const t = useTranslations(locale);
 const currentPath = Astro.url.pathname;
+
+// The same page in the other language: swap the prefix, keep the rest of the path
+const pathWithoutLocale = LOCALES.reduce(
+  (path, code) => (path === `/${code}` ? '/' : path.replace(new RegExp(`^/${code}/`), '/')),
+  currentPath
+);
+const otherLocales = LOCALES.filter((code) => code !== locale);
 
 // The header links to the first enabled level until a level switcher is needed
 const [defaultLevel] = ENABLED_LEVELS;
@@ -15,12 +25,16 @@ const [defaultLevel] = ENABLED_LEVELS;
 // The study path first, then the reference material. Kana and kanji live inside
 // the reference hub rather than at top level: they are consulted, not worked through.
 const links = [
-  { href: `/${defaultLevel}/lessons`, label: t.nav.lessons },
-  { href: `/${defaultLevel}/vocabulary`, label: t.nav.vocabulary },
-  { href: `/${defaultLevel}/practice`, label: t.nav.practice },
-  { href: `/${defaultLevel}/verbs`, label: t.nav.verbs },
+  { href: localePath(`/${defaultLevel}/lessons`, locale), label: t.nav.lessons },
+  { href: localePath(`/${defaultLevel}/vocabulary`, locale), label: t.nav.vocabulary },
+  { href: localePath(`/${defaultLevel}/practice`, locale), label: t.nav.practice },
+  { href: localePath(`/${defaultLevel}/verbs`, locale), label: t.nav.verbs },
   // Kana and kanji live under the reference hub, so they light it up too
-  { href: `/${defaultLevel}/reference`, label: t.nav.reference, owns: ['/kana', '/kanji'] },
+  {
+    href: localePath(`/${defaultLevel}/reference`, locale),
+    label: t.nav.reference,
+    owns: [localePath('/kana', locale), localePath('/kanji', locale)],
+  },
 ];
 
 const matches = (path: string) => currentPath === path || currentPath.startsWith(`${path}/`);
@@ -40,7 +54,7 @@ const linkClasses = (link: { href: string; owns?: string[] }, extra: string) =>
 
 <header class="bg-background/80 sticky top-0 z-40 border-b backdrop-blur">
   <div class="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-3 px-4 sm:px-6">
-    <a href="/" class="flex shrink-0 items-center gap-2 font-semibold">
+    <a href={localePath('/', locale)} class="flex shrink-0 items-center gap-2 font-semibold">
       <span class="jp text-primary text-xl leading-none" lang="ja">の</span>
       <span>{SITE_NAME}</span>
     </a>
@@ -60,6 +74,18 @@ const linkClasses = (link: { href: string; owns?: string[] }, extra: string) =>
     </nav>
 
     <div class="flex shrink-0 items-center gap-1">
+      {
+        otherLocales.map((code) => (
+          <a
+            href={localePath(pathWithoutLocale, code)}
+            class="text-muted-foreground hover:text-foreground rounded-md px-2 py-1.5 text-sm font-medium uppercase transition-colors"
+            hreflang={code}
+          >
+            {code}
+          </a>
+        ))
+      }
+
       <SearchDialog labels={t.search} client:idle transition:persist="search-dialog" />
       <SettingsMenu labels={t.settings} client:idle transition:persist="settings-menu" />
 

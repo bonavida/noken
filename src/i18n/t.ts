@@ -15,3 +15,8 @@ export const pickLocaleList = (
 
 export const resolveLocale = (value: string | undefined): Locale =>
   value && value in dictionaries ? (value as Locale) : DEFAULT_LOCALE;
+
+// Spanish lives at the root, every other locale under its own prefix. Every
+// internal link goes through this so a page never leaves its language.
+export const localePath = (path: string, locale: Locale = DEFAULT_LOCALE): string =>
+  locale === DEFAULT_LOCALE ? path : `/${locale}${path}`;

@@ -262,6 +262,7 @@ export const es = {
     },
   },
   search: {
+    locale: 'es',
     open: 'Buscar',
     title: 'Buscar en Noken',
     placeholder: 'Palabra, kanji, romaji…',

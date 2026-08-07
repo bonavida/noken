@@ -26,10 +26,12 @@ interface SearchDialogProps {
     select: string;
     close: string;
     lesson: string;
+    locale: string;
   };
 }
 
-const INDEX_URL = '/search-index.json';
+// Each language ships its own index next to its pages
+const indexUrl = (locale: string) => (locale === 'es' ? '' : `/${locale}`) + '/search-index.json';
 const MAX_RESULTS = 24;
 
 // Results arrive sorted by score, so grouping by first appearance keeps the
@@ -62,7 +64,7 @@ export const SearchDialog = ({ labels }: SearchDialogProps) => {
     requested.current = true;
     setLoading(true);
     try {
-      const response = await fetch(INDEX_URL);
+      const response = await fetch(indexUrl(labels.locale));
       setEntries(prepareEntries((await response.json()) as SearchEntry[]));
     } catch {
       setEntries([]);

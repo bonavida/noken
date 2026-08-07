@@ -3,36 +3,40 @@ import GrammarPoint from '@/components/GrammarPoint.astro';
 import LessonProgressToggle from '@/components/LessonProgressToggle.astro';
 import LessonReferences from '@/components/LessonReferences.astro';
 import VocabSection from '@/components/VocabSection.astro';
-import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocale, useTranslations } from '@/i18n/t';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import Furigana from '@/ui/Furigana.astro';
 import SectionHeading from '@/ui/SectionHeading.astro';
+import { LOCALES } from '@/i18n/config';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 export const getStaticPaths = async () => {
   const lessons = await getCollection('lessons');
   const vocab = await getCollection('vocab');
 
-  return lessons.map((lesson) => {
-    const { level, number } = lesson.data;
-    const sorted = lessons
-      .filter((entry) => entry.data.level === level)
-      .sort((a, b) => a.data.number - b.data.number);
-    const index = sorted.findIndex((entry) => entry.data.number === number);
+  return LOCALES.flatMap((locale) =>
+    lessons.map((lesson) => {
+      const { level, number } = lesson.data;
+      const sorted = lessons
+        .filter((entry) => entry.data.level === level)
+        .sort((a, b) => a.data.number - b.data.number);
+      const index = sorted.findIndex((entry) => entry.data.number === number);
 
-    return {
-      params: { level, number: String(number) },
-      props: {
-        lesson,
-        lessonVocab: vocab.find(
-          (entry) => entry.data.level === level && entry.data.lesson === number
-        ),
-        previousLesson: sorted[index - 1],
-        nextLesson: sorted[index + 1],
-      },
-    };
-  });
+      return {
+        params: { lang: localeParam(locale), level, number: String(number) },
+        props: {
+          lesson,
+          lessonVocab: vocab.find(
+            (entry) => entry.data.level === level && entry.data.lesson === number
+          ),
+          previousLesson: sorted[index - 1],
+          nextLesson: sorted[index + 1],
+        },
+      };
+    })
+  );
 };
 
 interface Props {
@@ -45,7 +49,7 @@ interface Props {
 const { lesson, lessonVocab, previousLesson, nextLesson } = Astro.props;
 const { level, number, title, jpTitle, description, grammar, references } = lesson.data;
 
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 const localizedTitle = pickLocale(title, locale);
 const pageTitle = `${t.lessons.lesson} ${number} — ${localizedTitle}`;
@@ -115,7 +119,10 @@ const pageTitle = `${t.lessons.lesson} ${number} — ${localizedTitle}`;
           <SectionHeading id="vocabulary" title={t.lessons.vocabulary} />
           <VocabSection words={lessonVocab.data.words} locale={locale} />
           <p class="mt-4 text-sm">
-            <a href={`/${level}/vocabulary/${number}`} class="text-primary hover:underline">
+            <a
+              href={localePath(`/${level}/vocabulary/${number}`, locale)}
+              class="text-primary hover:underline"
+            >
               {t.lessons.viewVocabulary} →
             </a>
           </p>
@@ -129,7 +136,7 @@ const pageTitle = `${t.lessons.lesson} ${number} — ${localizedTitle}`;
       {
         previousLesson ? (
           <a
-            href={`/${level}/lessons/${previousLesson.data.number}`}
+            href={localePath(`/${level}/lessons/${previousLesson.data.number}`, locale)}
             class="text-muted-foreground hover:text-foreground transition-colors"
           >
             ← {t.lessons.previousLesson}
@@ -141,7 +148,7 @@ const pageTitle = `${t.lessons.lesson} ${number} — ${localizedTitle}`;
       {
         nextLesson && (
           <a
-            href={`/${level}/lessons/${nextLesson.data.number}`}
+            href={localePath(`/${level}/lessons/${nextLesson.data.number}`, locale)}
             class="text-muted-foreground hover:text-foreground transition-colors"
           >
             {t.lessons.nextLesson} →

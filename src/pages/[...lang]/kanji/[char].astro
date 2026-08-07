@@ -1,10 +1,12 @@
 ---
-import { pickLocale, pickLocaleList, resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocale, pickLocaleList, useTranslations } from '@/i18n/t';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Badge from '@/ui/Badge.astro';
 import Container from '@/ui/Container.astro';
 import Furigana from '@/ui/Furigana.astro';
 import { stripFurigana } from '@/utils/furigana';
+import { LOCALES } from '@/i18n/config';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 // Meanings of the confusable kanji, so the section can label each link
@@ -20,14 +22,16 @@ export const getStaticPaths = async () => {
     );
   });
 
-  return allKanji.map((entry, index) => ({
-    params: { char: entry.data.character },
-    props: {
-      entry,
-      previousKanji: allKanji[index - 1],
-      nextKanji: allKanji[index + 1],
-    },
-  }));
+  return LOCALES.flatMap((locale) =>
+    allKanji.map((entry, index) => ({
+      params: { lang: localeParam(locale), char: entry.data.character },
+      props: {
+        entry,
+        previousKanji: allKanji[index - 1],
+        nextKanji: allKanji[index + 1],
+      },
+    }))
+  );
 };
 
 interface Props {
@@ -53,7 +57,7 @@ const vocabulary = (await getCollection('vocab', ({ data }) => data.level === le
   .sort((a, b) => a.lesson - b.lesson)
   .slice(0, MAX_VOCABULARY);
 
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 const localizedMeanings = pickLocaleList(meanings, locale);
 const description = `${character} — ${localizedMeanings.join(', ')}`;
@@ -62,7 +66,9 @@ const description = `${character} — ${localizedMeanings.join(', ')}`;
 <SiteLayout title={`${t.kanji.title} ${character}`} description={description}>
   <Container class="max-w-3xl">
     <p class="text-sm">
-      <a href="/kanji" class="text-primary hover:underline">← {t.kanji.backToList}</a>
+      <a href={localePath('/kanji', locale)} class="text-primary hover:underline"
+        >← {t.kanji.backToList}</a
+      >
     </p>
 
     <div class="mt-6 flex flex-col gap-8 sm:flex-row sm:items-start">
@@ -135,7 +141,7 @@ const description = `${character} — ${localizedMeanings.join(', ')}`;
             {vocabulary.map((word) => (
               <li class="flex flex-wrap items-baseline justify-between gap-2 px-4 py-3">
                 <a
-                  href={`/${level}/vocabulary/${word.lesson}`}
+                  href={localePath(`/${level}/vocabulary/${word.lesson}`, locale)}
                   class="hover:text-primary text-lg transition-colors"
                 >
                   <Furigana text={word.word} zoom={false} />
@@ -161,7 +167,7 @@ const description = `${character} — ${localizedMeanings.join(', ')}`;
           <div class="mt-3 flex flex-wrap gap-3">
             {similar.map((other) => (
               <a
-                href={`/kanji/${other}`}
+                href={localePath(`/kanji/${other}`, locale)}
                 class="bg-card hover:border-primary/40 hover:bg-accent/40 flex items-center gap-3 rounded-lg border px-4 py-3 transition-colors"
               >
                 <span class="jp text-3xl leading-none" lang="ja">
@@ -181,7 +187,7 @@ const description = `${character} — ${localizedMeanings.join(', ')}`;
       {
         previousKanji ? (
           <a
-            href={`/kanji/${previousKanji.data.character}`}
+            href={localePath(`/kanji/${previousKanji.data.character}`, locale)}
             class="text-muted-foreground hover:text-foreground transition-colors"
           >
             ←{' '}
@@ -197,7 +203,7 @@ const description = `${character} — ${localizedMeanings.join(', ')}`;
       {
         nextKanji && (
           <a
-            href={`/kanji/${nextKanji.data.character}`}
+            href={localePath(`/kanji/${nextKanji.data.character}`, locale)}
             class="text-muted-foreground hover:text-foreground transition-colors"
           >
             {t.kanji.nextKanji}{' '}

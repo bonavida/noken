@@ -7,16 +7,18 @@ interface FuriganaTextProps {
   // Characters listed here become links to their kanji page. Left undefined
   // wherever the text already sits inside a link, since anchors cannot nest.
   linkKanji?: string[];
+  // Prefix that keeps kanji links in the current language ('' or '/en')
+  localePrefix?: string;
 }
 
 // Ruby bases may hold elements, so a word keeps one reading over several links:
 // <ruby><a>会</a><a>社</a><rt>かいしゃ</rt></ruby>
-const withLinks = (text: string, linkable: Set<string>) =>
+const withLinks = (text: string, linkable: Set<string>, prefix: string) =>
   [...text].map((character, index) =>
     linkable.has(character) ? (
       <a
         key={`${character}-${index}`}
-        href={`/kanji/${encodeURIComponent(character)}`}
+        href={`${prefix}/kanji/${encodeURIComponent(character)}`}
         className="hover:text-primary hover:underline hover:underline-offset-4"
       >
         {character}
@@ -27,9 +29,15 @@ const withLinks = (text: string, linkable: Set<string>) =>
   );
 
 // React counterpart of ui/Furigana.astro for use inside islands
-export const FuriganaText = ({ text, zoom = true, linkKanji }: FuriganaTextProps) => {
+export const FuriganaText = ({
+  text,
+  zoom = true,
+  linkKanji,
+  localePrefix = '',
+}: FuriganaTextProps) => {
   const linkable = new Set(linkKanji ?? []);
-  const render = (base: string) => (linkable.size > 0 ? withLinks(base, linkable) : base);
+  const render = (base: string) =>
+    linkable.size > 0 ? withLinks(base, linkable, localePrefix) : base;
 
   return (
     <span className="jp" lang="ja">

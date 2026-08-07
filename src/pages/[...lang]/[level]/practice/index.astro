@@ -1,7 +1,9 @@
 ---
 import LessonProgress from '@/components/LessonProgress.astro';
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
-import { resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
@@ -9,10 +11,14 @@ import Icon, { type IconName } from '@/ui/Icon.astro';
 import SectionHeading from '@/ui/SectionHeading.astro';
 import { getCollection } from 'astro:content';
 
-export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    ENABLED_LEVELS.map((level) => ({ params: { lang: localeParam(locale), level } }))
+  );
 
 const { level } = Astro.params as { level: EnabledLevel };
-const t = useTranslations(resolveLocale(Astro.currentLocale));
+const locale = localeFromParams(Astro.params);
+const t = useTranslations(locale);
 
 const lessonCount = (await getCollection('lessons', ({ data }) => data.level === level)).length;
 
@@ -70,6 +76,7 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
         class="grid gap-3 sm:grid-cols-3"
         data-weak-list
         data-level={level}
+        data-prefix={localePath('', locale)}
         data-label-lesson={t.lessons.lesson}
         data-label-accuracy={t.practice.stats.accuracy}
         data-label-answers={t.practice.stats.answers}
@@ -91,7 +98,7 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
     >
       {
         modes.map(({ slug, icon }) => (
-          <Card href={`/${level}/practice/${slug}`}>
+          <Card href={localePath(`/${level}/practice/${slug}`, locale)}>
             <div class="text-primary bg-accent/60 inline-flex size-9 items-center justify-center rounded-md">
               <Icon name={icon} class="size-5" />
             </div>
@@ -142,13 +149,20 @@ const modes: { slug: keyof typeof t.practice.modes; icon: IconName }[] = [
     list.replaceChildren();
     if (weak.length === 0) return;
 
-    const { level, labelLesson, labelAccuracy, labelAnswers, modeTitles } = list.dataset;
+    const {
+      level,
+      prefix = '',
+      labelLesson,
+      labelAccuracy,
+      labelAnswers,
+      modeTitles,
+    } = list.dataset;
     const titles = JSON.parse(modeTitles ?? '{}') as Record<string, string>;
 
     weak.forEach(({ lesson, accuracy, answered, mode }) => {
       const card = document.createElement('a');
       // Land in the mode this lesson goes worst in, already filtered to it
-      card.href = `/${level}/practice/${mode}?lesson=${lesson}`;
+      card.href = `${prefix}/${level}/practice/${mode}?lesson=${lesson}`;
       card.className =
         'bg-card hover:border-primary/40 hover:bg-accent/40 rounded-lg border p-4 transition-colors';
 

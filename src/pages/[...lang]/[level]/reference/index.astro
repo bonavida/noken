@@ -1,6 +1,8 @@
 ---
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
-import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
@@ -23,10 +25,13 @@ const TOPIC_ICONS: Record<string, IconName> = {
   greetings: 'message-circle',
 };
 
-export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    ENABLED_LEVELS.map((level) => ({ params: { lang: localeParam(locale), level } }))
+  );
 
 const { level } = Astro.params as { level: EnabledLevel };
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 const topics = (await getCollection('reference', ({ data }) => data.level === level)).sort(
@@ -98,7 +103,7 @@ const collections = [
       <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {
           topics.map(({ data }) => (
-            <Card href={`/${level}/reference/${data.slug}`}>
+            <Card href={localePath(`/${level}/reference/${data.slug}`, locale)}>
               <div class="text-primary bg-accent/60 inline-flex size-9 items-center justify-center rounded-md">
                 <Icon name={TOPIC_ICONS[data.slug]} class="size-5" />
               </div>

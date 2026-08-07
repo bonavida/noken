@@ -2,7 +2,7 @@
 import { VocabTable, type VocabWord } from '@/components/VocabTable';
 import type { WordType } from '@/constants/wordTypes';
 import type { Locale } from '@/i18n/config';
-import { pickLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocale, useTranslations } from '@/i18n/t';
 import type { Localized } from '@/types/content';
 import { stripFurigana } from '@/utils/furigana';
 import { getCollection } from 'astro:content';
@@ -51,5 +51,6 @@ const localizedWords: VocabWord[] = words.map((entry) => ({
   labels={t.vocabulary}
   typeLabels={t.wordTypes}
   linkableKanji={linkableKanji}
+  localePrefix={localePath('', locale)}
   client:visible
 />

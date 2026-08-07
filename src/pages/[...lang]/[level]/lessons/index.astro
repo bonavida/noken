@@ -1,17 +1,22 @@
 ---
 import IndexCard from '@/components/IndexCard.astro';
 import LessonProgress from '@/components/LessonProgress.astro';
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
-import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import Icon from '@/ui/Icon.astro';
 import { getCollection } from 'astro:content';
 
-export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    ENABLED_LEVELS.map((level) => ({ params: { lang: localeParam(locale), level } }))
+  );
 
 const { level } = Astro.params as { level: EnabledLevel };
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 const lessons = (await getCollection('lessons', ({ data }) => data.level === level)).sort(
@@ -43,7 +48,7 @@ const wordCountByLesson = new Map(
         lessons.map(({ data }) => (
           <div class="relative" data-lesson={data.number}>
             <IndexCard
-              href={`/${level}/lessons/${data.number}`}
+              href={localePath(`/${level}/lessons/${data.number}`, locale)}
               number={data.number}
               label={t.lessons.lesson}
               title={pickLocale(data.title, locale)}

@@ -1,16 +1,21 @@
 ---
 import { VerbTable, type Verb } from '@/components/VerbTable';
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
-import { pickLocale, resolveLocale, useTranslations } from '@/i18n/t';
+import { pickLocale, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import MixedText from '@/ui/MixedText.astro';
 import { getCollection } from 'astro:content';
 
-export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    ENABLED_LEVELS.map((level) => ({ params: { lang: localeParam(locale), level } }))
+  );
 
 const { level } = Astro.params as { level: EnabledLevel };
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 const [entry] = await getCollection('verbs', ({ data }) => data.level === level);

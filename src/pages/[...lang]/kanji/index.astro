@@ -1,13 +1,16 @@
 ---
 import KanjiCard from '@/components/KanjiCard.astro';
+import { localeFromParams, localeRoutes } from '@/i18n/routing';
 import { ENABLED_LEVELS } from '@/constants/levels';
-import { pickLocaleList, resolveLocale, useTranslations } from '@/i18n/t';
+import { pickLocaleList, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import SectionHeading from '@/ui/SectionHeading.astro';
 import { getCollection } from 'astro:content';
 
-const locale = resolveLocale(Astro.currentLocale);
+export const getStaticPaths = () => localeRoutes();
+
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 const allKanji = await getCollection('kanji');

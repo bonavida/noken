@@ -1,14 +1,17 @@
 ---
+import { localeFromParams, localeRoutes } from '@/i18n/routing';
 import { ENABLED_LEVELS, isEnabledLevel, LEVELS } from '@/constants/levels';
 import { SITE_NAME } from '@/constants/site';
-import { resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Badge from '@/ui/Badge.astro';
 import Card from '@/ui/Card.astro';
 import Container from '@/ui/Container.astro';
 import { getCollection } from 'astro:content';
 
-const locale = resolveLocale(Astro.currentLocale);
+export const getStaticPaths = () => localeRoutes();
+
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 // The landing features the first enabled level; a level switcher can come later
@@ -89,9 +92,10 @@ const visibleLevels = LEVELS.slice(0, 3);
         pending lesson, or to the practice hub once every lesson is done */
         }
         <a
-          href={`/${defaultLevel}/lessons/1`}
+          href={localePath(`/${defaultLevel}/lessons/1`, locale)}
           data-cta-lessons
           data-level={defaultLevel}
+          data-prefix={localePath('', locale)}
           data-total={lessons.length}
           data-label-continue={t.home.ctaContinue}
           data-label-completed={t.home.ctaCompleted}
@@ -100,7 +104,7 @@ const visibleLevels = LEVELS.slice(0, 3);
           {t.home.ctaStart}
         </a>
         <a
-          href={`/${defaultLevel}`}
+          href={localePath(`/${defaultLevel}`, locale)}
           class="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-md px-5 py-2.5 text-sm font-medium transition-colors"
         >
           {t.home.ctaLevel}
@@ -133,7 +137,7 @@ const visibleLevels = LEVELS.slice(0, 3);
         {
           visibleLevels.map((level) =>
             isEnabledLevel(level) ? (
-              <Card href={`/${level}`}>
+              <Card href={localePath(`/${level}`, locale)}>
                 <p class="text-2xl font-bold uppercase">{level}</p>
                 <p class="text-muted-foreground mt-1 text-sm">
                   {lessonCountByLevel.get(level)} {t.home.lessonsCount}
@@ -161,7 +165,13 @@ const visibleLevels = LEVELS.slice(0, 3);
     const cta = document.querySelector<HTMLAnchorElement>('[data-cta-lessons]');
     if (!cta) return;
 
-    const { level = '', total = '0', labelContinue = '', labelCompleted = '' } = cta.dataset;
+    const {
+      level = '',
+      prefix = '',
+      total = '0',
+      labelContinue = '',
+      labelCompleted = '',
+    } = cta.dataset;
     const done = new Set(completedLessons(level));
     if (done.size === 0) return;
 
@@ -169,11 +179,11 @@ const visibleLevels = LEVELS.slice(0, 3);
     const next = numbers.find((number) => !done.has(number));
 
     if (!next) {
-      cta.href = `/${level}/practice`;
+      cta.href = `${prefix}/${level}/practice`;
       cta.textContent = labelCompleted;
       return;
     }
-    cta.href = `/${level}/lessons/${next}`;
+    cta.href = `${prefix}/${level}/lessons/${next}`;
     cta.textContent = labelContinue.replace('{n}', String(next));
   };
 

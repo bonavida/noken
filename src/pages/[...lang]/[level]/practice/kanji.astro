@@ -1,16 +1,21 @@
 ---
 import { KanjiQuiz } from '@/components/practice/KanjiQuiz';
 import { type McQuestion } from '@/components/practice/McQuiz';
+import { LOCALES } from '@/i18n/config';
+import { localeFromParams, localeParam } from '@/i18n/routing';
 import { ENABLED_LEVELS, type EnabledLevel } from '@/constants/levels';
-import { pickLocaleList, resolveLocale, useTranslations } from '@/i18n/t';
+import { localePath, pickLocaleList, useTranslations } from '@/i18n/t';
 import SiteLayout from '@/layouts/SiteLayout.astro';
 import Container from '@/ui/Container.astro';
 import { getCollection } from 'astro:content';
 
-export const getStaticPaths = () => ENABLED_LEVELS.map((level) => ({ params: { level } }));
+export const getStaticPaths = () =>
+  LOCALES.flatMap((locale) =>
+    ENABLED_LEVELS.map((level) => ({ params: { lang: localeParam(locale), level } }))
+  );
 
 const { level } = Astro.params as { level: EnabledLevel };
-const locale = resolveLocale(Astro.currentLocale);
+const locale = localeFromParams(Astro.params);
 const t = useTranslations(locale);
 
 const DISTRACTOR_COUNT = 3;
@@ -88,7 +93,9 @@ const labels = { ...t.practice.quiz, ...t.practice.kanjiQuiz };
 <SiteLayout title={t.practice.modes.kanji.title} description={t.practice.modes.kanji.description}>
   <Container class="max-w-3xl">
     <p class="text-sm">
-      <a href={`/${level}/practice`} class="text-primary hover:underline">← {t.practice.title}</a>
+      <a href={localePath(`/${level}/practice`, locale)} class="text-primary hover:underline"
+        >← {t.practice.title}</a
+      >
     </p>
     <h1 class="mt-4 text-3xl font-bold tracking-tight">{t.practice.modes.kanji.title}</h1>
     <p class="text-muted-foreground mt-2">{t.practice.modes.kanji.description}</p>

@@ -8,12 +8,14 @@ interface Props {
   description: string;
 }
 
+import { localeFromParams } from '@/i18n/routing';
+
 const { title, description } = Astro.props;
 const pageTitle = title === SITE_NAME ? title : `${title} · ${SITE_NAME}`;
 ---
 
 <!doctype html>
-<html lang={Astro.currentLocale ?? 'es'}>
+<html lang={localeFromParams(Astro.params)}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
