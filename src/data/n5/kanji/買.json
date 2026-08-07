@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 6,
   "meanings": {
-    "es": ["comprar"]
+    "es": ["comprar"],
+    "en": ["to buy"]
   },
   "onyomi": ["バイ"],
   "kunyomi": ["か.う"],
@@ -12,37 +13,43 @@
     {
       "word": "買[か]います",
       "meaning": {
-        "es": "comprar"
+        "es": "comprar",
+        "en": "to buy"
       }
     },
     {
       "word": "買[か]い 物[もの]",
       "meaning": {
-        "es": "compras"
+        "es": "compras",
+        "en": "shopping"
       }
     },
     {
       "word": "買[か]う",
       "meaning": {
-        "es": "comprar"
+        "es": "comprar",
+        "en": "to buy"
       }
     },
     {
       "word": "買[か]い 手[て]",
       "meaning": {
-        "es": "comprador"
+        "es": "comprador",
+        "en": "buyer"
       }
     },
     {
       "word": "売買[ばいばい]",
       "meaning": {
-        "es": "compraventa"
+        "es": "compraventa",
+        "en": "buying and selling"
       }
     },
     {
       "word": "購買[こうばい]",
       "meaning": {
-        "es": "adquisición"
+        "es": "adquisición",
+        "en": "purchase, acquisition"
       }
     }
   ],

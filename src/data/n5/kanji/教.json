@@ -17,13 +17,15 @@
     {
       "word": "教育[きょういく]",
       "meaning": {
-        "es": "educación"
+        "es": "educación",
+        "en": "education"
       }
     },
     {
       "word": "教室[きょうしつ]",
       "meaning": {
-        "es": "aula"
+        "es": "aula",
+        "en": "classroom"
       }
     },
     {
@@ -35,7 +37,8 @@
     {
       "word": "仏教[ぶっきょう]",
       "meaning": {
-        "es": "budismo"
+        "es": "budismo",
+        "en": "Buddhism"
       }
     }
   ]

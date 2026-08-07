@@ -18,13 +18,15 @@
     {
       "word": "辞書[じしょ]",
       "meaning": {
-        "es": "diccionario"
+        "es": "diccionario",
+        "en": "dictionary"
       }
     },
     {
       "word": "図書館[としょかん]",
       "meaning": {
-        "es": "biblioteca"
+        "es": "biblioteca",
+        "en": "library"
       }
     },
     {
@@ -42,13 +44,15 @@
     {
       "word": "書道[しょどう]",
       "meaning": {
-        "es": "caligrafía"
+        "es": "caligrafía",
+        "en": "calligraphy"
       }
     },
     {
       "word": "書類[しょるい]",
       "meaning": {
-        "es": "documento"
+        "es": "documento",
+        "en": "document"
       }
     }
   ]

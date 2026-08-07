@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["antes", "adelante", "delante"]
+    "es": ["antes", "adelante", "delante"],
+    "en": ["before", "ahead, forward", "in front"]
   },
   "onyomi": ["セン"],
   "kunyomi": ["さき"],
@@ -24,7 +25,8 @@
     {
       "word": "先[さき]",
       "meaning": {
-        "es": "adelante"
+        "es": "adelante",
+        "en": "ahead, forward"
       }
     },
     {
@@ -42,7 +44,8 @@
     {
       "word": "先行[せんこう]",
       "meaning": {
-        "es": "avance, precedencia"
+        "es": "avance, precedencia",
+        "en": "advance, precedence"
       }
     }
   ],

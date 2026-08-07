@@ -18,13 +18,15 @@
     {
       "word": "お 金[かね]",
       "meaning": {
-        "es": "dinero"
+        "es": "dinero",
+        "en": "money"
       }
     },
     {
       "word": "現金[げんきん]",
       "meaning": {
-        "es": "efectivo"
+        "es": "efectivo",
+        "en": "cash"
       }
     },
     {

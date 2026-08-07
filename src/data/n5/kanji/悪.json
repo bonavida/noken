@@ -29,13 +29,15 @@
     {
       "word": "悪質[あくしつ]",
       "meaning": {
-        "es": "de mala calidad, malicioso"
+        "es": "de mala calidad, malicioso",
+        "en": "poor quality, malicious"
       }
     },
     {
       "word": "悪魔[あくま]",
       "meaning": {
-        "es": "demonio"
+        "es": "demonio",
+        "en": "demon"
       }
     }
   ]

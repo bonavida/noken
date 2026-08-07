@@ -2,7 +2,8 @@
   "character": "事",
   "level": "n5",
   "meanings": {
-    "es": ["asunto", "cosa abstracta"]
+    "es": ["asunto", "cosa abstracta"],
+    "en": ["matter, affair", "abstract thing"]
   },
   "onyomi": ["ジ"],
   "kunyomi": ["こと"],
@@ -11,7 +12,8 @@
     {
       "word": "事[こと]",
       "meaning": {
-        "es": "cosa (abstracta)"
+        "es": "cosa (abstracta)",
+        "en": "thing (abstract)"
       }
     },
     {
@@ -23,7 +25,8 @@
     {
       "word": "記事[きじ]",
       "meaning": {
-        "es": "artículo"
+        "es": "artículo",
+        "en": "article"
       }
     },
     {
@@ -35,7 +38,8 @@
     {
       "word": "用事[ようじ]",
       "meaning": {
-        "es": "cosas que hacer"
+        "es": "cosas que hacer",
+        "en": "things to do"
       }
     }
   ]

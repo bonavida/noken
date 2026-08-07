@@ -2,7 +2,8 @@
   "character": "体",
   "level": "n5",
   "meanings": {
-    "es": ["cuerpo"]
+    "es": ["cuerpo"],
+    "en": ["body"]
   },
   "onyomi": ["タイ"],
   "kunyomi": ["からだ"],
@@ -11,13 +12,15 @@
     {
       "word": "体[からだ]",
       "meaning": {
-        "es": "cuerpo"
+        "es": "cuerpo",
+        "en": "body"
       }
     },
     {
       "word": "肉体[にくたい]",
       "meaning": {
-        "es": "cuerpo, carne"
+        "es": "cuerpo, carne",
+        "en": "body, flesh"
       }
     },
     {

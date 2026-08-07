@@ -6,297 +6,421 @@
       "id": "kore",
       "word": "これ",
       "kana": "これ",
-      "meaning": { "es": "esto (cerca del hablante)" },
+      "meaning": {
+        "es": "esto (cerca del hablante)"
+      },
       "type": "pronoun"
     },
     {
       "id": "sore",
       "word": "それ",
       "kana": "それ",
-      "meaning": { "es": "eso (cerca del oyente)" },
+      "meaning": {
+        "es": "eso (cerca del oyente)"
+      },
       "type": "pronoun"
     },
     {
       "id": "are",
       "word": "あれ",
       "kana": "あれ",
-      "meaning": { "es": "aquello (lejos de ambos)" },
+      "meaning": {
+        "es": "aquello (lejos de ambos)",
+        "en": "that one (far from both)"
+      },
       "type": "pronoun"
     },
     {
       "id": "kono",
       "word": "この〜",
       "kana": "この",
-      "meaning": { "es": "este ~, esta ~" },
+      "meaning": {
+        "es": "este ~, esta ~"
+      },
       "type": "expression"
     },
     {
       "id": "sono",
       "word": "その〜",
       "kana": "その",
-      "meaning": { "es": "ese ~, esa ~" },
+      "meaning": {
+        "es": "ese ~, esa ~"
+      },
       "type": "expression"
     },
     {
       "id": "ano",
       "word": "あの〜",
       "kana": "あの",
-      "meaning": { "es": "aquel ~, aquella ~" },
+      "meaning": {
+        "es": "aquel ~, aquella ~",
+        "en": "that ~ (over there)"
+      },
       "type": "expression"
     },
     {
       "id": "hon",
       "word": "本[ほん]",
       "kana": "ほん",
-      "meaning": { "es": "libro" },
+      "meaning": {
+        "es": "libro"
+      },
       "type": "noun"
     },
     {
       "id": "jisho",
       "word": "辞書[じしょ]",
       "kana": "じしょ",
-      "meaning": { "es": "diccionario" },
+      "meaning": {
+        "es": "diccionario",
+        "en": "dictionary"
+      },
       "type": "noun"
     },
     {
       "id": "zasshi",
       "word": "雑誌[ざっし]",
       "kana": "ざっし",
-      "meaning": { "es": "revista" },
+      "meaning": {
+        "es": "revista"
+      },
       "type": "noun"
     },
     {
       "id": "shinbun",
       "word": "新聞[しんぶん]",
       "kana": "しんぶん",
-      "meaning": { "es": "periódico" },
+      "meaning": {
+        "es": "periódico"
+      },
       "type": "noun"
     },
     {
       "id": "nooto",
       "word": "ノート",
       "kana": "ノート",
-      "meaning": { "es": "cuaderno" },
+      "meaning": {
+        "es": "cuaderno",
+        "en": "notebook"
+      },
       "type": "noun"
     },
     {
       "id": "techou",
       "word": "手帳[てちょう]",
       "kana": "てちょう",
-      "meaning": { "es": "agenda" },
+      "meaning": {
+        "es": "agenda",
+        "en": "diary, planner"
+      },
       "type": "noun"
     },
     {
       "id": "meishi",
       "word": "名刺[めいし]",
       "kana": "めいし",
-      "meaning": { "es": "tarjeta de visita" },
+      "meaning": {
+        "es": "tarjeta de visita"
+      },
       "type": "noun"
     },
     {
       "id": "kaado",
       "word": "カード",
       "kana": "カード",
-      "meaning": { "es": "tarjeta" },
+      "meaning": {
+        "es": "tarjeta"
+      },
       "type": "noun"
     },
     {
       "id": "enpitsu",
       "word": "鉛筆[えんぴつ]",
       "kana": "えんぴつ",
-      "meaning": { "es": "lápiz" },
+      "meaning": {
+        "es": "lápiz"
+      },
       "type": "noun"
     },
     {
       "id": "boorupen",
       "word": "ボールペン",
       "kana": "ボールペン",
-      "meaning": { "es": "bolígrafo" },
+      "meaning": {
+        "es": "bolígrafo",
+        "en": "pen"
+      },
       "type": "noun"
     },
     {
       "id": "shaapupenshiru",
       "word": "シャープペンシル",
       "kana": "シャープペンシル",
-      "meaning": { "es": "portaminas, lapicero" },
+      "meaning": {
+        "es": "portaminas, lapicero"
+      },
       "type": "noun"
     },
-    { "id": "kagi", "word": "かぎ", "kana": "かぎ", "meaning": { "es": "llave" }, "type": "noun" },
+    {
+      "id": "kagi",
+      "word": "かぎ",
+      "kana": "かぎ",
+      "meaning": {
+        "es": "llave"
+      },
+      "type": "noun"
+    },
     {
       "id": "tokei",
       "word": "時計[とけい]",
       "kana": "とけい",
-      "meaning": { "es": "reloj" },
+      "meaning": {
+        "es": "reloj"
+      },
       "type": "noun"
     },
     {
       "id": "kasa",
       "word": "傘[かさ]",
       "kana": "かさ",
-      "meaning": { "es": "paraguas" },
+      "meaning": {
+        "es": "paraguas"
+      },
       "type": "noun"
     },
     {
       "id": "kaban",
       "word": "かばん",
       "kana": "かばん",
-      "meaning": { "es": "bolso, maleta" },
+      "meaning": {
+        "es": "bolso, maleta",
+        "en": "bag, suitcase"
+      },
       "type": "noun"
     },
-    { "id": "cd", "word": "CD", "kana": "シーディー", "meaning": { "es": "CD" }, "type": "noun" },
+    {
+      "id": "cd",
+      "word": "CD",
+      "kana": "シーディー",
+      "meaning": {
+        "es": "CD",
+        "en": "CD"
+      },
+      "type": "noun"
+    },
     {
       "id": "terebi",
       "word": "テレビ",
       "kana": "テレビ",
-      "meaning": { "es": "televisión, televisor" },
+      "meaning": {
+        "es": "televisión, televisor"
+      },
       "type": "noun"
     },
     {
       "id": "rajio",
       "word": "ラジオ",
       "kana": "ラジオ",
-      "meaning": { "es": "radio" },
+      "meaning": {
+        "es": "radio"
+      },
       "type": "noun"
     },
     {
       "id": "kamera",
       "word": "カメラ",
       "kana": "カメラ",
-      "meaning": { "es": "cámara" },
+      "meaning": {
+        "es": "cámara",
+        "en": "camera"
+      },
       "type": "noun"
     },
     {
       "id": "konpyuutaa",
       "word": "コンピューター",
       "kana": "コンピューター",
-      "meaning": { "es": "ordenador, computadora" },
+      "meaning": {
+        "es": "ordenador, computadora"
+      },
       "type": "noun"
     },
     {
       "id": "kuruma",
       "word": "車[くるま]",
       "kana": "くるま",
-      "meaning": { "es": "automóvil" },
+      "meaning": {
+        "es": "automóvil",
+        "en": "car, automobile"
+      },
       "type": "noun"
     },
     {
       "id": "tsukue",
       "word": "机[つくえ]",
       "kana": "つくえ",
-      "meaning": { "es": "escritorio" },
+      "meaning": {
+        "es": "escritorio"
+      },
       "type": "noun"
     },
-    { "id": "isu", "word": "いす", "kana": "いす", "meaning": { "es": "silla" }, "type": "noun" },
+    {
+      "id": "isu",
+      "word": "いす",
+      "kana": "いす",
+      "meaning": {
+        "es": "silla"
+      },
+      "type": "noun"
+    },
     {
       "id": "chokoreeto",
       "word": "チョコレート",
       "kana": "チョコレート",
-      "meaning": { "es": "chocolate" },
+      "meaning": {
+        "es": "chocolate",
+        "en": "chocolate"
+      },
       "type": "noun"
     },
     {
       "id": "koohii",
       "word": "コーヒー",
       "kana": "コーヒー",
-      "meaning": { "es": "café" },
+      "meaning": {
+        "es": "café",
+        "en": "coffee"
+      },
       "type": "noun"
     },
     {
       "id": "omiyage",
       "word": "[お]土産[みやげ]",
       "kana": "おみやげ",
-      "meaning": { "es": "recuerdo de un viaje, regalo" },
+      "meaning": {
+        "es": "recuerdo de un viaje, regalo"
+      },
       "type": "noun"
     },
     {
       "id": "eigo",
       "word": "英語[えいご]",
       "kana": "えいご",
-      "meaning": { "es": "el idioma inglés" },
+      "meaning": {
+        "es": "el idioma inglés"
+      },
       "type": "noun"
     },
     {
       "id": "nihongo",
       "word": "日本語[にほんご]",
       "kana": "にほんご",
-      "meaning": { "es": "el idioma japonés" },
+      "meaning": {
+        "es": "el idioma japonés"
+      },
       "type": "noun"
     },
     {
       "id": "go",
       "word": "〜語[ご]",
       "kana": "ご",
-      "meaning": { "es": "idioma ~" },
+      "meaning": {
+        "es": "idioma ~"
+      },
       "type": "expression"
     },
     {
       "id": "nan",
       "word": "何[なん]",
       "kana": "なん",
-      "meaning": { "es": "qué" },
+      "meaning": {
+        "es": "qué"
+      },
       "type": "interrogative"
     },
     {
       "id": "sou",
       "word": "そう",
       "kana": "そう",
-      "meaning": { "es": "sí, eso" },
+      "meaning": {
+        "es": "sí, eso"
+      },
       "type": "expression"
     },
     {
       "id": "anou",
       "word": "あのう",
       "kana": "あのう",
-      "meaning": { "es": "eh…, esto… (vacilación)" },
+      "meaning": {
+        "es": "eh…, esto… (vacilación)",
+        "en": "um…, er… (hesitation)"
+      },
       "type": "expression"
     },
     {
       "id": "e",
       "word": "えっ",
       "kana": "えっ",
-      "meaning": { "es": "¿cómo? (sorpresa)" },
+      "meaning": {
+        "es": "¿cómo? (sorpresa)",
+        "en": "what? (surprise)"
+      },
       "type": "expression"
     },
     {
       "id": "douzo",
       "word": "どうぞ",
       "kana": "どうぞ",
-      "meaning": { "es": "tome, aquí tiene" },
+      "meaning": {
+        "es": "tome, aquí tiene"
+      },
       "type": "expression"
     },
     {
       "id": "doumo-arigatou",
       "word": "[どうも]ありがとう[ございます]",
       "kana": "どうもありがとうございます",
-      "meaning": { "es": "[muchas] gracias" },
+      "meaning": {
+        "es": "[muchas] gracias",
+        "en": "thank you [very much]"
+      },
       "type": "expression"
     },
     {
       "id": "sou-desu-ka",
       "word": "そうですか",
       "kana": "そうですか",
-      "meaning": { "es": "¿ah, sí? / ya veo" },
+      "meaning": {
+        "es": "¿ah, sí? / ya veo",
+        "en": "oh really? / I see"
+      },
       "type": "expression"
     },
     {
       "id": "chigaimasu",
       "word": "違[ちが]います",
       "kana": "ちがいます",
-      "meaning": { "es": "no, no es así" },
+      "meaning": {
+        "es": "no, no es así"
+      },
       "type": "expression"
     },
     {
       "id": "korekara-osewa",
       "word": "これからお 世話[せわ]になります",
       "kana": "これからおせわになります",
-      "meaning": { "es": "le agradezco de antemano su apoyo" },
+      "meaning": {
+        "es": "le agradezco de antemano su apoyo"
+      },
       "type": "expression"
     },
     {
       "id": "kochirakoso",
       "word": "こちらこそ[どうぞ]よろしく",
       "kana": "こちらこそよろしく",
-      "meaning": { "es": "yo también estoy encantado de conocerlo" },
+      "meaning": {
+        "es": "yo también estoy encantado de conocerlo"
+      },
       "type": "expression"
     }
   ]

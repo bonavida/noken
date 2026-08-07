@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["comer", "comida"]
+    "es": ["comer", "comida"],
+    "en": ["to eat", "meal, food"]
   },
   "onyomi": ["ショク"],
   "kunyomi": ["た.べる"],
@@ -12,37 +13,43 @@
     {
       "word": "食[た]べます",
       "meaning": {
-        "es": "comer"
+        "es": "comer",
+        "en": "to eat"
       }
     },
     {
       "word": "食堂[しょくどう]",
       "meaning": {
-        "es": "comedor"
+        "es": "comedor",
+        "en": "dining room"
       }
     },
     {
       "word": "食[た]べ 物[もの]",
       "meaning": {
-        "es": "alimentos"
+        "es": "alimentos",
+        "en": "food"
       }
     },
     {
       "word": "食[た]べる",
       "meaning": {
-        "es": "comer"
+        "es": "comer",
+        "en": "to eat"
       }
     },
     {
       "word": "食事[しょくじ]",
       "meaning": {
-        "es": "comida"
+        "es": "comida",
+        "en": "meal, food"
       }
     },
     {
       "word": "和食[わしょく]",
       "meaning": {
-        "es": "cocina japonesa"
+        "es": "cocina japonesa",
+        "en": "Japanese cuisine"
       }
     }
   ],

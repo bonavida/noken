@@ -18,7 +18,8 @@
     {
       "word": "手紙[てがみ]",
       "meaning": {
-        "es": "carta"
+        "es": "carta",
+        "en": "letter"
       }
     },
     {
@@ -42,13 +43,15 @@
     {
       "word": "拍手[はくしゅ]",
       "meaning": {
-        "es": "aplauso"
+        "es": "aplauso",
+        "en": "applause"
       }
     },
     {
       "word": "歌手[かしゅ]",
       "meaning": {
-        "es": "cantante"
+        "es": "cantante",
+        "en": "singer"
       }
     }
   ],

@@ -24,7 +24,8 @@
     {
       "word": "山脈[さんみゃく]",
       "meaning": {
-        "es": "cordillera"
+        "es": "cordillera",
+        "en": "mountain range"
       }
     },
     {
@@ -36,7 +37,8 @@
     {
       "word": "登山[とざん]",
       "meaning": {
-        "es": "alpinismo"
+        "es": "alpinismo",
+        "en": "mountain climbing"
       }
     }
   ],

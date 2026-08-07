@@ -2,7 +2,8 @@
   "character": "暑",
   "level": "n5",
   "meanings": {
-    "es": ["caluroso"]
+    "es": ["caluroso"],
+    "en": ["hot"]
   },
   "onyomi": ["ショ"],
   "kunyomi": ["あつ.い"],
@@ -11,13 +12,15 @@
     {
       "word": "暑[あつ]い",
       "meaning": {
-        "es": "caluroso"
+        "es": "caluroso",
+        "en": "hot"
       }
     },
     {
       "word": "蒸[む]し 暑[あつ]い",
       "meaning": {
-        "es": "bochornoso"
+        "es": "bochornoso",
+        "en": "humid, muggy"
       }
     },
     {
@@ -29,7 +32,8 @@
     {
       "word": "残暑[ざんしょ]",
       "meaning": {
-        "es": "calor de final de verano"
+        "es": "calor de final de verano",
+        "en": "late summer heat"
       }
     },
     {

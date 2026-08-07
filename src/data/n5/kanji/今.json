@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["ahora"]
+    "es": ["ahora"],
+    "en": ["now"]
   },
   "onyomi": ["コン", "キン"],
   "kunyomi": ["いま"],
@@ -12,7 +13,8 @@
     {
       "word": "今[いま]",
       "meaning": {
-        "es": "ahora"
+        "es": "ahora",
+        "en": "now"
       }
     },
     {

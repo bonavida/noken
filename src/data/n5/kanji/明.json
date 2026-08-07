@@ -2,7 +2,8 @@
   "character": "明",
   "level": "n5",
   "meanings": {
-    "es": ["claro", "brillante"]
+    "es": ["claro", "brillante"],
+    "en": ["clear", "bright"]
   },
   "onyomi": ["メイ"],
   "kunyomi": ["あか.るい"],
@@ -11,7 +12,8 @@
     {
       "word": "明[あか]るい",
       "meaning": {
-        "es": "claro, luminoso"
+        "es": "claro, luminoso",
+        "en": "bright, light"
       }
     },
     {
@@ -23,13 +25,15 @@
     {
       "word": "不明[ふめい]",
       "meaning": {
-        "es": "desconocido"
+        "es": "desconocido",
+        "en": "unknown"
       }
     },
     {
       "word": "文明[ぶんめい]",
       "meaning": {
-        "es": "civilización"
+        "es": "civilización",
+        "en": "civilisation"
       }
     },
     {

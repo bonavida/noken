@@ -23,13 +23,15 @@
     {
       "word": "朝食[ちょうしょく]",
       "meaning": {
-        "es": "desayuno"
+        "es": "desayuno",
+        "en": "breakfast"
       }
     },
     {
       "word": "朝刊[ちょうかん]",
       "meaning": {
-        "es": "edición matutina"
+        "es": "edición matutina",
+        "en": "morning edition"
       }
     },
     {

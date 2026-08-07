@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 6,
   "meanings": {
-    "es": ["beber"]
+    "es": ["beber"],
+    "en": ["to drink"]
   },
   "onyomi": ["イン"],
   "kunyomi": ["の.む"],
@@ -12,37 +13,43 @@
     {
       "word": "飲[の]みます",
       "meaning": {
-        "es": "beber"
+        "es": "beber",
+        "en": "to drink"
       }
     },
     {
       "word": "飲[の]み 物[もの]",
       "meaning": {
-        "es": "bebida"
+        "es": "bebida",
+        "en": "drink"
       }
     },
     {
       "word": "飲[の]む",
       "meaning": {
-        "es": "beber"
+        "es": "beber",
+        "en": "to drink"
       }
     },
     {
       "word": "飲酒[いんしゅ]",
       "meaning": {
-        "es": "consumo de alcohol"
+        "es": "consumo de alcohol",
+        "en": "drinking alcohol"
       }
     },
     {
       "word": "飲料[いんりょう]",
       "meaning": {
-        "es": "bebida"
+        "es": "bebida",
+        "en": "drink"
       }
     },
     {
       "word": "飲食[いんしょく]",
       "meaning": {
-        "es": "comida y bebida"
+        "es": "comida y bebida",
+        "en": "food and drink"
       }
     }
   ],

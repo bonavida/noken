@@ -6,371 +6,498 @@
       "id": "hansamu",
       "word": "ハンサム[な]",
       "kana": "ハンサム",
-      "meaning": { "es": "guapo" },
+      "meaning": {
+        "es": "guapo"
+      },
       "type": "adjective-na"
     },
     {
       "id": "kirei",
       "word": "きれい[な]",
       "kana": "きれい",
-      "meaning": { "es": "hermoso, limpio" },
+      "meaning": {
+        "es": "hermoso, limpio"
+      },
       "type": "adjective-na"
     },
     {
       "id": "shizuka",
       "word": "静[しず]か[な]",
       "kana": "しずか",
-      "meaning": { "es": "silencioso" },
+      "meaning": {
+        "es": "silencioso"
+      },
       "type": "adjective-na"
     },
     {
       "id": "nigiyaka",
       "word": "にぎやか[な]",
       "kana": "にぎやか",
-      "meaning": { "es": "concurrido, animado" },
+      "meaning": {
+        "es": "concurrido, animado",
+        "en": "busy, lively"
+      },
       "type": "adjective-na"
     },
     {
       "id": "yuumei",
       "word": "有名[ゆうめい][な]",
       "kana": "ゆうめい",
-      "meaning": { "es": "famoso, célebre" },
+      "meaning": {
+        "es": "famoso, célebre"
+      },
       "type": "adjective-na"
     },
     {
       "id": "shinsetsu",
       "word": "親切[しんせつ][な]",
       "kana": "しんせつ",
-      "meaning": { "es": "amable, generoso" },
+      "meaning": {
+        "es": "amable, generoso",
+        "en": "kind, generous"
+      },
       "type": "adjective-na"
     },
     {
       "id": "genki",
       "word": "元気[げんき][な]",
       "kana": "げんき",
-      "meaning": { "es": "sano, con ánimo" },
+      "meaning": {
+        "es": "sano, con ánimo"
+      },
       "type": "adjective-na"
     },
     {
       "id": "hima",
       "word": "暇[ひま][な]",
       "kana": "ひま",
-      "meaning": { "es": "libre (tiempo)" },
+      "meaning": {
+        "es": "libre (tiempo)"
+      },
       "type": "adjective-na"
     },
     {
       "id": "benri",
       "word": "便利[べんり][な]",
       "kana": "べんり",
-      "meaning": { "es": "útil, práctico" },
+      "meaning": {
+        "es": "útil, práctico"
+      },
       "type": "adjective-na"
     },
     {
       "id": "suteki",
       "word": "すてき[な]",
       "kana": "すてき",
-      "meaning": { "es": "bonito" },
+      "meaning": {
+        "es": "bonito",
+        "en": "pretty"
+      },
       "type": "adjective-na"
     },
     {
       "id": "ookii",
       "word": "大[おお]きい",
       "kana": "おおきい",
-      "meaning": { "es": "grande" },
+      "meaning": {
+        "es": "grande"
+      },
       "type": "adjective-i"
     },
     {
       "id": "chiisai",
       "word": "小[ちい]さい",
       "kana": "ちいさい",
-      "meaning": { "es": "pequeño" },
+      "meaning": {
+        "es": "pequeño"
+      },
       "type": "adjective-i"
     },
     {
       "id": "atarashii",
       "word": "新[あたら]しい",
       "kana": "あたらしい",
-      "meaning": { "es": "nuevo" },
+      "meaning": {
+        "es": "nuevo"
+      },
       "type": "adjective-i"
     },
     {
       "id": "furui",
       "word": "古[ふる]い",
       "kana": "ふるい",
-      "meaning": { "es": "viejo, antiguo (no para personas)" },
+      "meaning": {
+        "es": "viejo, antiguo (no para personas)"
+      },
       "type": "adjective-i"
     },
     {
       "id": "ii",
       "word": "いい（よい）",
       "kana": "いい",
-      "meaning": { "es": "bueno" },
+      "meaning": {
+        "es": "bueno",
+        "en": "good"
+      },
       "type": "adjective-i"
     },
     {
       "id": "warui",
       "word": "悪[わる]い",
       "kana": "わるい",
-      "meaning": { "es": "malo" },
+      "meaning": {
+        "es": "malo"
+      },
       "type": "adjective-i"
     },
     {
       "id": "atsui",
       "word": "暑[あつ]い・熱[あつ]い",
       "kana": "あつい",
-      "meaning": { "es": "caluroso, caliente" },
+      "meaning": {
+        "es": "caluroso, caliente",
+        "en": "hot, warm"
+      },
       "type": "adjective-i"
     },
     {
       "id": "samui",
       "word": "寒[さむ]い",
       "kana": "さむい",
-      "meaning": { "es": "frío (clima)" },
+      "meaning": {
+        "es": "frío (clima)"
+      },
       "type": "adjective-i"
     },
     {
       "id": "tsumetai",
       "word": "冷[つめ]たい",
       "kana": "つめたい",
-      "meaning": { "es": "frío (al tacto)" },
+      "meaning": {
+        "es": "frío (al tacto)"
+      },
       "type": "adjective-i"
     },
     {
       "id": "muzukashii",
       "word": "難[むずか]しい",
       "kana": "むずかしい",
-      "meaning": { "es": "difícil" },
+      "meaning": {
+        "es": "difícil",
+        "en": "difficult"
+      },
       "type": "adjective-i"
     },
     {
       "id": "yasashii",
       "word": "易[やさ]しい",
       "kana": "やさしい",
-      "meaning": { "es": "fácil" },
+      "meaning": {
+        "es": "fácil"
+      },
       "type": "adjective-i"
     },
     {
       "id": "takai",
       "word": "高[たか]い",
       "kana": "たかい",
-      "meaning": { "es": "caro, alto" },
+      "meaning": {
+        "es": "caro, alto",
+        "en": "expensive, high"
+      },
       "type": "adjective-i"
     },
     {
       "id": "yasui",
       "word": "安[やす]い",
       "kana": "やすい",
-      "meaning": { "es": "barato" },
+      "meaning": {
+        "es": "barato",
+        "en": "cheap"
+      },
       "type": "adjective-i"
     },
     {
       "id": "hikui",
       "word": "低[ひく]い",
       "kana": "ひくい",
-      "meaning": { "es": "bajo (altura)" },
+      "meaning": {
+        "es": "bajo (altura)",
+        "en": "short (height)"
+      },
       "type": "adjective-i"
     },
     {
       "id": "omoshiroi",
       "word": "おもしろい",
       "kana": "おもしろい",
-      "meaning": { "es": "interesante" },
+      "meaning": {
+        "es": "interesante"
+      },
       "type": "adjective-i"
     },
     {
       "id": "oishii",
       "word": "おいしい",
       "kana": "おいしい",
-      "meaning": { "es": "delicioso, rico" },
+      "meaning": {
+        "es": "delicioso, rico",
+        "en": "delicious"
+      },
       "type": "adjective-i"
     },
     {
       "id": "isogashii",
       "word": "忙[いそが]しい",
       "kana": "いそがしい",
-      "meaning": { "es": "atareado, ocupado" },
+      "meaning": {
+        "es": "atareado, ocupado",
+        "en": "busy"
+      },
       "type": "adjective-i"
     },
     {
       "id": "tanoshii",
       "word": "楽[たの]しい",
       "kana": "たのしい",
-      "meaning": { "es": "divertido, placentero" },
+      "meaning": {
+        "es": "divertido, placentero",
+        "en": "fun, enjoyable"
+      },
       "type": "adjective-i"
     },
     {
       "id": "shiroi",
       "word": "白[しろ]い",
       "kana": "しろい",
-      "meaning": { "es": "blanco" },
+      "meaning": {
+        "es": "blanco",
+        "en": "white"
+      },
       "type": "adjective-i"
     },
     {
       "id": "kuroi",
       "word": "黒[くろ]い",
       "kana": "くろい",
-      "meaning": { "es": "negro" },
+      "meaning": {
+        "es": "negro"
+      },
       "type": "adjective-i"
     },
     {
       "id": "akai",
       "word": "赤[あか]い",
       "kana": "あかい",
-      "meaning": { "es": "rojo" },
+      "meaning": {
+        "es": "rojo"
+      },
       "type": "adjective-i"
     },
     {
       "id": "aoi",
       "word": "青[あお]い",
       "kana": "あおい",
-      "meaning": { "es": "azul" },
+      "meaning": {
+        "es": "azul",
+        "en": "blue"
+      },
       "type": "adjective-i"
     },
     {
       "id": "sakura",
       "word": "桜[さくら]",
       "kana": "さくら",
-      "meaning": { "es": "árbol o flor de cerezo" },
+      "meaning": {
+        "es": "árbol o flor de cerezo",
+        "en": "cherry tree or blossom"
+      },
       "type": "noun"
     },
     {
       "id": "yama",
       "word": "山[やま]",
       "kana": "やま",
-      "meaning": { "es": "montaña, monte" },
+      "meaning": {
+        "es": "montaña, monte"
+      },
       "type": "noun"
     },
     {
       "id": "machi",
       "word": "町[まち]",
       "kana": "まち",
-      "meaning": { "es": "población, ciudad" },
+      "meaning": {
+        "es": "población, ciudad"
+      },
       "type": "noun"
     },
     {
       "id": "tabemono",
       "word": "食[た]べ 物[もの]",
       "kana": "たべもの",
-      "meaning": { "es": "comida, alimentos" },
+      "meaning": {
+        "es": "comida, alimentos",
+        "en": "food"
+      },
       "type": "noun"
     },
     {
       "id": "tokoro",
       "word": "所[ところ]",
       "kana": "ところ",
-      "meaning": { "es": "lugar" },
+      "meaning": {
+        "es": "lugar"
+      },
       "type": "noun"
     },
     {
       "id": "ryou",
       "word": "寮[りょう]",
       "kana": "りょう",
-      "meaning": { "es": "residencia, dormitorio" },
+      "meaning": {
+        "es": "residencia, dormitorio"
+      },
       "type": "noun"
     },
     {
       "id": "resutoran",
       "word": "レストラン",
       "kana": "レストラン",
-      "meaning": { "es": "restaurante" },
+      "meaning": {
+        "es": "restaurante"
+      },
       "type": "noun"
     },
     {
       "id": "seikatsu",
       "word": "生活[せいかつ]",
       "kana": "せいかつ",
-      "meaning": { "es": "vida (diaria)" },
+      "meaning": {
+        "es": "vida (diaria)"
+      },
       "type": "noun"
     },
     {
       "id": "oshigoto",
       "word": "[お]仕事[しごと]",
       "kana": "おしごと",
-      "meaning": { "es": "trabajo, profesión" },
+      "meaning": {
+        "es": "trabajo, profesión"
+      },
       "type": "noun"
     },
     {
       "id": "dou",
       "word": "どう",
       "kana": "どう",
-      "meaning": { "es": "cómo" },
+      "meaning": {
+        "es": "cómo",
+        "en": "how"
+      },
       "type": "interrogative"
     },
     {
       "id": "donna",
       "word": "どんな〜",
       "kana": "どんな",
-      "meaning": { "es": "qué clase de ~" },
+      "meaning": {
+        "es": "qué clase de ~"
+      },
       "type": "interrogative"
     },
     {
       "id": "totemo",
       "word": "とても",
       "kana": "とても",
-      "meaning": { "es": "muy, mucho" },
+      "meaning": {
+        "es": "muy, mucho"
+      },
       "type": "adverb"
     },
     {
       "id": "amari",
       "word": "あまり",
       "kana": "あまり",
-      "meaning": { "es": "no muy (con negación)" },
+      "meaning": {
+        "es": "no muy (con negación)"
+      },
       "type": "adverb"
     },
     {
       "id": "soshite",
       "word": "そして",
       "kana": "そして",
-      "meaning": { "es": "y (conecta oraciones)" },
+      "meaning": {
+        "es": "y (conecta oraciones)"
+      },
       "type": "conjunction"
     },
     {
       "id": "ga-pero",
       "word": "〜が、〜",
       "kana": "が",
-      "meaning": { "es": "~, pero ~" },
+      "meaning": {
+        "es": "~, pero ~",
+        "en": "~, but ~"
+      },
       "type": "particle"
     },
     {
       "id": "ogenki-desu-ka",
       "word": "お 元気[げんき]ですか",
       "kana": "おげんきですか",
-      "meaning": { "es": "¿cómo está usted?" },
+      "meaning": {
+        "es": "¿cómo está usted?",
+        "en": "how are you?"
+      },
       "type": "expression"
     },
     {
       "id": "mou-ippai",
       "word": "[〜、]もう 一杯[いっぱい]いかがですか",
       "kana": "もういっぱいいかがですか",
-      "meaning": { "es": "¿le apetece otra taza de [~]?" },
+      "meaning": {
+        "es": "¿le apetece otra taza de [~]?",
+        "en": "would you like another cup of [~]?"
+      },
       "type": "expression"
     },
     {
       "id": "kekkou-desu",
       "word": "[いいえ、]けっこうです",
       "kana": "けっこうです",
-      "meaning": { "es": "no, gracias" },
+      "meaning": {
+        "es": "no, gracias"
+      },
       "type": "expression"
     },
     {
       "id": "sorosoro",
       "word": "そろそろ 失礼[しつれい]します",
       "kana": "そろそろしつれいします",
-      "meaning": { "es": "es hora de marcharnos" },
+      "meaning": {
+        "es": "es hora de marcharnos"
+      },
       "type": "expression"
     },
     {
       "id": "iie-denada",
       "word": "いいえ",
       "kana": "いいえ",
-      "meaning": { "es": "de nada, no hay de qué" },
+      "meaning": {
+        "es": "de nada, no hay de qué",
+        "en": "you're welcome"
+      },
       "type": "expression"
     },
     {
       "id": "mata-irasshatte",
       "word": "またいらっしゃってください",
       "kana": "またいらっしゃってください",
-      "meaning": { "es": "vuelva(n) a visitarnos" },
+      "meaning": {
+        "es": "vuelva(n) a visitarnos"
+      },
       "type": "expression"
     }
   ]

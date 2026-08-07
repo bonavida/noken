@@ -18,7 +18,8 @@
     {
       "word": "銀行[ぎんこう]",
       "meaning": {
-        "es": "banco"
+        "es": "banco",
+        "en": "bank"
       }
     },
     {
@@ -36,7 +37,8 @@
     {
       "word": "行[おこな]う",
       "meaning": {
-        "es": "celebrar, llevar a cabo"
+        "es": "celebrar, llevar a cabo",
+        "en": "to hold, to carry out"
       }
     },
     {
@@ -48,7 +50,8 @@
     {
       "word": "行列[ぎょうれつ]",
       "meaning": {
-        "es": "desfile, fila"
+        "es": "desfile, fila",
+        "en": "parade, queue"
       }
     }
   ]

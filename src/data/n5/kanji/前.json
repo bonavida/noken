@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["antes", "delante"]
+    "es": ["antes", "delante"],
+    "en": ["before", "in front"]
   },
   "onyomi": ["ゼン"],
   "kunyomi": ["まえ"],
@@ -12,13 +13,15 @@
     {
       "word": "午前[ごぜん]",
       "meaning": {
-        "es": "de la mañana"
+        "es": "de la mañana",
+        "en": "in the morning"
       }
     },
     {
       "word": "前[まえ]",
       "meaning": {
-        "es": "delante"
+        "es": "delante",
+        "en": "in front"
       }
     },
     {
@@ -30,7 +33,8 @@
     {
       "word": "人前[ひとまえ]",
       "meaning": {
-        "es": "ante otros, en público"
+        "es": "ante otros, en público",
+        "en": "in front of others, in public"
       }
     },
     {
@@ -42,7 +46,8 @@
     {
       "word": "前進[ぜんしん]",
       "meaning": {
-        "es": "avance"
+        "es": "avance",
+        "en": "advance, progress"
       }
     }
   ]

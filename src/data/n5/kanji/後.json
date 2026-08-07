@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["después", "detrás"]
+    "es": ["después", "detrás"],
+    "en": ["after, later", "behind"]
   },
   "onyomi": ["ゴ", "コウ"],
   "kunyomi": ["あと", "うし.ろ"],
@@ -12,25 +13,29 @@
     {
       "word": "午後[ごご]",
       "meaning": {
-        "es": "de la tarde"
+        "es": "de la tarde",
+        "en": "in the afternoon"
       }
     },
     {
       "word": "後[あと]で",
       "meaning": {
-        "es": "después"
+        "es": "después",
+        "en": "after, later"
       }
     },
     {
       "word": "後[うし]ろ",
       "meaning": {
-        "es": "detrás"
+        "es": "detrás",
+        "en": "behind"
       }
     },
     {
       "word": "後[あと]",
       "meaning": {
-        "es": "después"
+        "es": "después",
+        "en": "after, later"
       }
     },
     {

@@ -17,7 +17,8 @@
     {
       "word": "店員[てんいん]",
       "meaning": {
-        "es": "dependiente"
+        "es": "dependiente",
+        "en": "shop assistant"
       }
     },
     {
@@ -35,7 +36,8 @@
     {
       "word": "喫茶店[きっさてん]",
       "meaning": {
-        "es": "cafetería"
+        "es": "cafetería",
+        "en": "café"
       }
     }
   ]

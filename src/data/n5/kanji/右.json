@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 10,
   "meanings": {
-    "es": ["derecha"]
+    "es": ["derecha"],
+    "en": ["right"]
   },
   "onyomi": ["ウ", "ユウ"],
   "kunyomi": ["みぎ"],
@@ -12,7 +13,8 @@
     {
       "word": "右[みぎ]",
       "meaning": {
-        "es": "derecha"
+        "es": "derecha",
+        "en": "right"
       }
     },
     {
@@ -30,7 +32,8 @@
     {
       "word": "右翼[うよく]",
       "meaning": {
-        "es": "derecha (política)"
+        "es": "derecha (política)",
+        "en": "the right (politics)"
       }
     },
     {

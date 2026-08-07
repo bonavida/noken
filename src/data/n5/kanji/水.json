@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["agua"]
+    "es": ["agua"],
+    "en": ["water"]
   },
   "onyomi": ["スイ"],
   "kunyomi": ["みず"],
@@ -18,25 +19,29 @@
     {
       "word": "水[みず]",
       "meaning": {
-        "es": "agua"
+        "es": "agua",
+        "en": "water"
       }
     },
     {
       "word": "水着[みずぎ]",
       "meaning": {
-        "es": "bañador"
+        "es": "bañador",
+        "en": "swimsuit"
       }
     },
     {
       "word": "水道[すいどう]",
       "meaning": {
-        "es": "conducción de agua"
+        "es": "conducción de agua",
+        "en": "water supply"
       }
     },
     {
       "word": "海水[かいすい]",
       "meaning": {
-        "es": "agua marina"
+        "es": "agua marina",
+        "en": "seawater"
       }
     }
   ],

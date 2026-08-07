@@ -12,7 +12,8 @@
     {
       "word": "五分[ごふん]",
       "meaning": {
-        "es": "cinco minutos"
+        "es": "cinco minutos",
+        "en": "five minutes"
       }
     },
     {
@@ -36,13 +37,15 @@
     {
       "word": "分[わ]ける",
       "meaning": {
-        "es": "dividir"
+        "es": "dividir",
+        "en": "to divide"
       }
     },
     {
       "word": "二分[にふん]",
       "meaning": {
-        "es": "dos minutos"
+        "es": "dos minutos",
+        "en": "two minutes"
       }
     },
     {

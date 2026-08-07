@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["diez mil"]
+    "es": ["diez mil"],
+    "en": ["ten thousand"]
   },
   "onyomi": ["マン", "バン"],
   "kunyomi": [],
@@ -12,19 +13,22 @@
     {
       "word": "一万[いちまん]",
       "meaning": {
-        "es": "diez mil"
+        "es": "diez mil",
+        "en": "ten thousand"
       }
     },
     {
       "word": "万[まん]",
       "meaning": {
-        "es": "diez mil"
+        "es": "diez mil",
+        "en": "ten thousand"
       }
     },
     {
       "word": "万年[まんねん]",
       "meaning": {
-        "es": "diez mil años"
+        "es": "diez mil años",
+        "en": "ten thousand years"
       }
     },
     {
@@ -42,7 +46,8 @@
     {
       "word": "万歳[ばんざい]",
       "meaning": {
-        "es": "¡hurra!"
+        "es": "¡hurra!",
+        "en": "hurray!"
       }
     }
   ],

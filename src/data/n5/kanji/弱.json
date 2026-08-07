@@ -2,7 +2,8 @@
   "character": "弱",
   "level": "n5",
   "meanings": {
-    "es": ["débil"]
+    "es": ["débil"],
+    "en": ["weak"]
   },
   "onyomi": ["ジャク"],
   "kunyomi": ["よわ.い"],
@@ -11,7 +12,8 @@
     {
       "word": "弱[よわ]い",
       "meaning": {
-        "es": "débil"
+        "es": "débil",
+        "en": "weak"
       }
     },
     {
@@ -35,7 +37,8 @@
     {
       "word": "衰弱[すいじゃく]",
       "meaning": {
-        "es": "debilitamiento"
+        "es": "debilitamiento",
+        "en": "weakening"
       }
     }
   ]

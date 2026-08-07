@@ -17,7 +17,8 @@
     {
       "word": "台所[だいどころ]",
       "meaning": {
-        "es": "cocina"
+        "es": "cocina",
+        "en": "kitchen"
       }
     },
     {
@@ -29,7 +30,8 @@
     {
       "word": "住所[じゅうしょ]",
       "meaning": {
-        "es": "dirección postal"
+        "es": "dirección postal",
+        "en": "postal address"
       }
     },
     {

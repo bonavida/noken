@@ -12,7 +12,8 @@
     {
       "word": "言[い]います",
       "meaning": {
-        "es": "decir"
+        "es": "decir",
+        "en": "to say"
       }
     },
     {
@@ -24,19 +25,22 @@
     {
       "word": "言[い]う",
       "meaning": {
-        "es": "decir"
+        "es": "decir",
+        "en": "to say"
       }
     },
     {
       "word": "発言[はつげん]",
       "meaning": {
-        "es": "declaración"
+        "es": "declaración",
+        "en": "statement"
       }
     },
     {
       "word": "方言[ほうげん]",
       "meaning": {
-        "es": "dialecto"
+        "es": "dialecto",
+        "en": "dialect"
       }
     },
     {

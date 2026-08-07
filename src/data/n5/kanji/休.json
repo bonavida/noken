@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["descansar"]
+    "es": ["descansar"],
+    "en": ["to rest"]
   },
   "onyomi": ["キュウ"],
   "kunyomi": ["やす.む"],
@@ -12,25 +13,29 @@
     {
       "word": "休[やす]みます",
       "meaning": {
-        "es": "descansar"
+        "es": "descansar",
+        "en": "to rest"
       }
     },
     {
       "word": "休[やす]み",
       "meaning": {
-        "es": "descanso"
+        "es": "descanso",
+        "en": "rest, break"
       }
     },
     {
       "word": "昼休[ひるやす]み",
       "meaning": {
-        "es": "descanso del mediodía"
+        "es": "descanso del mediodía",
+        "en": "midday break"
       }
     },
     {
       "word": "休[やす]む",
       "meaning": {
-        "es": "descansar, faltar"
+        "es": "descansar, faltar",
+        "en": "to rest, to be absent"
       }
     },
     {
@@ -48,13 +53,15 @@
     {
       "word": "休講[きゅうこう]",
       "meaning": {
-        "es": "clase anulada"
+        "es": "clase anulada",
+        "en": "cancelled class"
       }
     },
     {
       "word": "休日[きゅうじつ]",
       "meaning": {
-        "es": "día festivo"
+        "es": "día festivo",
+        "en": "public holiday"
       }
     }
   ],

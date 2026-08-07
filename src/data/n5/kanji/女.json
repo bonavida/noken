@@ -42,13 +42,15 @@
     {
       "word": "少女[しょうじょ]",
       "meaning": {
-        "es": "chica"
+        "es": "chica",
+        "en": "girl"
       }
     },
     {
       "word": "女優[じょゆう]",
       "meaning": {
-        "es": "actriz"
+        "es": "actriz",
+        "en": "actress"
       }
     }
   ]

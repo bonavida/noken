@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["alto", "caro"]
+    "es": ["alto", "caro"],
+    "en": ["tall, high", "expensive"]
   },
   "onyomi": ["コウ"],
   "kunyomi": ["たか.い"],
@@ -12,7 +13,8 @@
     {
       "word": "高[たか]い",
       "meaning": {
-        "es": "alto, caro"
+        "es": "alto, caro",
+        "en": "tall, expensive"
       }
     },
     {
@@ -24,7 +26,8 @@
     {
       "word": "高速[こうそく]",
       "meaning": {
-        "es": "alta velocidad"
+        "es": "alta velocidad",
+        "en": "high speed"
       }
     },
     {
@@ -36,7 +39,8 @@
     {
       "word": "高価[こうか]",
       "meaning": {
-        "es": "caro, de alto precio"
+        "es": "caro, de alto precio",
+        "en": "expensive, high-priced"
       }
     }
   ]

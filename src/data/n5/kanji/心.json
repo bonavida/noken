@@ -2,7 +2,8 @@
   "character": "心",
   "level": "n5",
   "meanings": {
-    "es": ["corazón", "alma"]
+    "es": ["corazón", "alma"],
+    "en": ["heart", "soul"]
   },
   "onyomi": ["シン"],
   "kunyomi": ["こころ"],
@@ -11,7 +12,8 @@
     {
       "word": "心[こころ]",
       "meaning": {
-        "es": "corazón, espíritu"
+        "es": "corazón, espíritu",
+        "en": "heart, spirit"
       }
     },
     {
@@ -29,7 +31,8 @@
     {
       "word": "中心[ちゅうしん]",
       "meaning": {
-        "es": "centro"
+        "es": "centro",
+        "en": "centre"
       }
     },
     {

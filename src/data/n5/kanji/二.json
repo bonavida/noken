@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["dos"]
+    "es": ["dos"],
+    "en": ["two"]
   },
   "onyomi": ["ニ"],
   "kunyomi": ["ふた.つ"],
@@ -12,19 +13,22 @@
     {
       "word": "二[に]",
       "meaning": {
-        "es": "dos"
+        "es": "dos",
+        "en": "two"
       }
     },
     {
       "word": "二[ふた]つ",
       "meaning": {
-        "es": "dos cosas"
+        "es": "dos cosas",
+        "en": "two things"
       }
     },
     {
       "word": "二人[ふたり]",
       "meaning": {
-        "es": "dos personas"
+        "es": "dos personas",
+        "en": "two people"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "二日[ふつか]",
       "meaning": {
-        "es": "día 2"
+        "es": "día 2",
+        "en": "2nd day"
       }
     }
   ],

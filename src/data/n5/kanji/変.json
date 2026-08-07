@@ -11,7 +11,8 @@
     {
       "word": "変[か]わる",
       "meaning": {
-        "es": "cambiar"
+        "es": "cambiar",
+        "en": "to change"
       }
     },
     {
@@ -23,13 +24,15 @@
     {
       "word": "変化[へんか]",
       "meaning": {
-        "es": "cambio, transformación"
+        "es": "cambio, transformación",
+        "en": "change, transformation"
       }
     },
     {
       "word": "大変[たいへん]",
       "meaning": {
-        "es": "duro, difícil"
+        "es": "duro, difícil",
+        "en": "hard, tough"
       }
     },
     {

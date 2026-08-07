@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["diez"]
+    "es": ["diez"],
+    "en": ["ten"]
   },
   "onyomi": ["ジュウ"],
   "kunyomi": ["とお"],
@@ -12,19 +13,22 @@
     {
       "word": "十[じゅう]",
       "meaning": {
-        "es": "diez"
+        "es": "diez",
+        "en": "ten"
       }
     },
     {
       "word": "十[とお]",
       "meaning": {
-        "es": "diez cosas"
+        "es": "diez cosas",
+        "en": "ten things"
       }
     },
     {
       "word": "十分[じゅっぷん]",
       "meaning": {
-        "es": "diez minutos"
+        "es": "diez minutos",
+        "en": "ten minutes"
       }
     },
     {
@@ -36,13 +40,15 @@
     {
       "word": "十字架[じゅうじか]",
       "meaning": {
-        "es": "cruz, crucifijo"
+        "es": "cruz, crucifijo",
+        "en": "cross, crucifix"
       }
     },
     {
       "word": "十日[とおか]",
       "meaning": {
-        "es": "día 10"
+        "es": "día 10",
+        "en": "10th day"
       }
     }
   ]

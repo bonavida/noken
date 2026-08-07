@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["cada"]
+    "es": ["cada"],
+    "en": ["each, every"]
   },
   "onyomi": ["マイ"],
   "kunyomi": [],
@@ -18,13 +19,15 @@
     {
       "word": "毎朝[まいあさ]",
       "meaning": {
-        "es": "cada mañana"
+        "es": "cada mañana",
+        "en": "every morning"
       }
     },
     {
       "word": "毎週[まいしゅう]",
       "meaning": {
-        "es": "cada semana"
+        "es": "cada semana",
+        "en": "every week"
       }
     }
   ]

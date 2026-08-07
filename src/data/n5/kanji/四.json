@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["cuatro"]
+    "es": ["cuatro"],
+    "en": ["four"]
   },
   "onyomi": ["シ"],
   "kunyomi": ["よん", "よ.つ", "よ"],
@@ -12,19 +13,22 @@
     {
       "word": "四[よん]",
       "meaning": {
-        "es": "cuatro"
+        "es": "cuatro",
+        "en": "four"
       }
     },
     {
       "word": "四[よっ]つ",
       "meaning": {
-        "es": "cuatro cosas"
+        "es": "cuatro cosas",
+        "en": "four things"
       }
     },
     {
       "word": "四月[しがつ]",
       "meaning": {
-        "es": "abril"
+        "es": "abril",
+        "en": "April"
       }
     },
     {
@@ -36,13 +40,15 @@
     {
       "word": "四人[よにん]",
       "meaning": {
-        "es": "cuatro personas"
+        "es": "cuatro personas",
+        "en": "four people"
       }
     },
     {
       "word": "四日[よっか]",
       "meaning": {
-        "es": "día 4"
+        "es": "día 4",
+        "en": "4th day"
       }
     }
   ],

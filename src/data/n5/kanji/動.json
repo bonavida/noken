@@ -17,19 +17,22 @@
     {
       "word": "動物[どうぶつ]",
       "meaning": {
-        "es": "animal"
+        "es": "animal",
+        "en": "animal"
       }
     },
     {
       "word": "運動[うんどう]",
       "meaning": {
-        "es": "ejercicio"
+        "es": "ejercicio",
+        "en": "exercise"
       }
     },
     {
       "word": "活動[かつどう]",
       "meaning": {
-        "es": "actividad"
+        "es": "actividad",
+        "en": "activity"
       }
     },
     {

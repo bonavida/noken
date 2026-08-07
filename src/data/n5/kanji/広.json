@@ -2,7 +2,8 @@
   "character": "広",
   "level": "n5",
   "meanings": {
-    "es": ["ancho", "amplio"]
+    "es": ["ancho", "amplio"],
+    "en": ["wide", "spacious"]
   },
   "onyomi": ["コウ"],
   "kunyomi": ["ひろ.い"],
@@ -11,13 +12,15 @@
     {
       "word": "広[ひろ]い",
       "meaning": {
-        "es": "ancho, amplio"
+        "es": "ancho, amplio",
+        "en": "wide, broad"
       }
     },
     {
       "word": "背広[せびろ]",
       "meaning": {
-        "es": "americana, traje"
+        "es": "americana, traje",
+        "en": "jacket, suit"
       }
     },
     {
@@ -29,13 +32,15 @@
     {
       "word": "広域[こういき]",
       "meaning": {
-        "es": "área extensa"
+        "es": "área extensa",
+        "en": "wide area"
       }
     },
     {
       "word": "広告[こうこく]",
       "meaning": {
-        "es": "anuncio"
+        "es": "anuncio",
+        "en": "advertisement"
       }
     }
   ]

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 5,
   "meanings": {
-    "es": ["año"]
+    "es": ["año"],
+    "en": ["year"]
   },
   "onyomi": ["ネン"],
   "kunyomi": ["とし"],
@@ -12,19 +13,22 @@
     {
       "word": "去年[きょねん]",
       "meaning": {
-        "es": "el año pasado"
+        "es": "el año pasado",
+        "en": "last year"
       }
     },
     {
       "word": "来年[らいねん]",
       "meaning": {
-        "es": "el año que viene"
+        "es": "el año que viene",
+        "en": "next year"
       }
     },
     {
       "word": "年[とし]",
       "meaning": {
-        "es": "año, edad"
+        "es": "año, edad",
+        "en": "year, age"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "中年[ちゅうねん]",
       "meaning": {
-        "es": "de mediana edad"
+        "es": "de mediana edad",
+        "en": "middle-aged"
       }
     },
     {

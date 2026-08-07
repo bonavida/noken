@@ -6,204 +6,279 @@
       "id": "kimasu-ropa",
       "word": "着[き]ます",
       "kana": "きます",
-      "meaning": { "es": "ponerse (camisa, etc.)" },
+      "meaning": {
+        "es": "ponerse (camisa, etc.)"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "hakimasu",
       "word": "はきます",
       "kana": "はきます",
-      "meaning": { "es": "ponerse (zapatos, pantalones)" },
+      "meaning": {
+        "es": "ponerse (zapatos, pantalones)"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kaburimasu",
       "word": "かぶります",
       "kana": "かぶります",
-      "meaning": { "es": "ponerse (sombrero)" },
+      "meaning": {
+        "es": "ponerse (sombrero)"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kakemasu-gafas",
       "word": "かけます[眼鏡[めがね]を〜]",
       "kana": "かけます",
-      "meaning": { "es": "ponerse [las gafas]" },
+      "meaning": {
+        "es": "ponerse [las gafas]"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "shimasu-corbata",
       "word": "します[ネクタイを〜]",
       "kana": "します",
-      "meaning": { "es": "ponerse [la corbata]" },
+      "meaning": {
+        "es": "ponerse [la corbata]"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "umaremasu",
       "word": "生[う]まれます",
       "kana": "うまれます",
-      "meaning": { "es": "nacer" },
+      "meaning": {
+        "es": "nacer"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "watashitachi",
       "word": "わたしたち",
       "kana": "わたしたち",
-      "meaning": { "es": "nosotros" },
+      "meaning": {
+        "es": "nosotros"
+      },
       "type": "pronoun"
     },
     {
       "id": "kooto",
       "word": "コート",
       "kana": "コート",
-      "meaning": { "es": "abrigo" },
+      "meaning": {
+        "es": "abrigo",
+        "en": "coat"
+      },
       "type": "noun"
     },
     {
       "id": "seetaa",
       "word": "セーター",
       "kana": "セーター",
-      "meaning": { "es": "suéter, jersey" },
+      "meaning": {
+        "es": "suéter, jersey"
+      },
       "type": "noun"
     },
     {
       "id": "suutsu",
       "word": "スーツ",
       "kana": "スーツ",
-      "meaning": { "es": "traje" },
+      "meaning": {
+        "es": "traje"
+      },
       "type": "noun"
     },
     {
       "id": "boushi",
       "word": "帽子[ぼうし]",
       "kana": "ぼうし",
-      "meaning": { "es": "sombrero, gorra" },
+      "meaning": {
+        "es": "sombrero, gorra"
+      },
       "type": "noun"
     },
     {
       "id": "megane",
       "word": "眼鏡[めがね]",
       "kana": "めがね",
-      "meaning": { "es": "gafas" },
+      "meaning": {
+        "es": "gafas"
+      },
       "type": "noun"
     },
     {
       "id": "keeki",
       "word": "ケーキ",
       "kana": "ケーキ",
-      "meaning": { "es": "pastel" },
+      "meaning": {
+        "es": "pastel"
+      },
       "type": "noun"
     },
     {
       "id": "obentou",
       "word": "[お]弁当[べんとう]",
       "kana": "おべんとう",
-      "meaning": { "es": "comida preparada en caja" },
+      "meaning": {
+        "es": "comida preparada en caja",
+        "en": "boxed lunch"
+      },
       "type": "noun"
     },
     {
       "id": "robotto",
       "word": "ロボット",
       "kana": "ロボット",
-      "meaning": { "es": "robot" },
+      "meaning": {
+        "es": "robot"
+      },
       "type": "noun"
     },
     {
       "id": "yuumoa",
       "word": "ユーモア",
       "kana": "ユーモア",
-      "meaning": { "es": "humor" },
+      "meaning": {
+        "es": "humor"
+      },
       "type": "noun"
     },
     {
       "id": "tsugou",
       "word": "都合[つごう]",
       "kana": "つごう",
-      "meaning": { "es": "conveniencia" },
+      "meaning": {
+        "es": "conveniencia",
+        "en": "convenience"
+      },
       "type": "noun"
     },
     {
       "id": "yoku-frecuente",
       "word": "よく",
       "kana": "よく",
-      "meaning": { "es": "frecuentemente" },
+      "meaning": {
+        "es": "frecuentemente"
+      },
       "type": "adverb"
     },
     {
       "id": "eeto",
       "word": "えーと",
       "kana": "えーと",
-      "meaning": { "es": "bueno, veamos" },
+      "meaning": {
+        "es": "bueno, veamos",
+        "en": "well, let's see"
+      },
       "type": "expression"
     },
     {
       "id": "omedetou",
       "word": "おめでとう[ございます]",
       "kana": "おめでとうございます",
-      "meaning": { "es": "¡felicidades! ¡enhorabuena!" },
+      "meaning": {
+        "es": "¡felicidades! ¡enhorabuena!",
+        "en": "congratulations!"
+      },
       "type": "expression"
     },
     {
       "id": "osagashi",
       "word": "お 探[さが]しですか",
       "kana": "おさがしですか",
-      "meaning": { "es": "¿qué tipo de ~ busca?" },
+      "meaning": {
+        "es": "¿qué tipo de ~ busca?",
+        "en": "what kind of ~ are you looking for?"
+      },
       "type": "expression"
     },
     {
       "id": "dewa",
       "word": "では",
       "kana": "では",
-      "meaning": { "es": "entonces, bueno" },
+      "meaning": {
+        "es": "entonces, bueno"
+      },
       "type": "conjunction"
     },
     {
       "id": "kochira-esto",
       "word": "こちら",
       "kana": "こちら",
-      "meaning": { "es": "esto (cortés de これ)" },
+      "meaning": {
+        "es": "esto (cortés de これ)"
+      },
       "type": "pronoun"
     },
     {
       "id": "yachin",
       "word": "家賃[やちん]",
       "kana": "やちん",
-      "meaning": { "es": "alquiler (importe)" },
+      "meaning": {
+        "es": "alquiler (importe)",
+        "en": "rent (amount)"
+      },
       "type": "noun"
     },
     {
       "id": "dainingu-kicchin",
       "word": "ダイニングキッチン",
       "kana": "ダイニングキッチン",
-      "meaning": { "es": "cocina-comedor" },
+      "meaning": {
+        "es": "cocina-comedor",
+        "en": "kitchen-diner"
+      },
       "type": "noun"
     },
     {
       "id": "washitsu",
       "word": "和室[わしつ]",
       "kana": "わしつ",
-      "meaning": { "es": "habitación de estilo japonés" },
+      "meaning": {
+        "es": "habitación de estilo japonés"
+      },
       "type": "noun"
     },
     {
       "id": "oshiire",
       "word": "押[お]し 入[い]れ",
       "kana": "おしいれ",
-      "meaning": { "es": "armario japonés para futones" },
+      "meaning": {
+        "es": "armario japonés para futones",
+        "en": "Japanese closet for futons"
+      },
       "type": "noun"
     },
     {
       "id": "futon",
       "word": "布団[ふとん]",
       "kana": "ふとん",
-      "meaning": { "es": "futón" },
+      "meaning": {
+        "es": "futón"
+      },
       "type": "noun"
     },
-    { "id": "pari", "word": "パリ", "kana": "パリ", "meaning": { "es": "París" }, "type": "noun" },
+    {
+      "id": "pari",
+      "word": "パリ",
+      "kana": "パリ",
+      "meaning": {
+        "es": "París"
+      },
+      "type": "noun"
+    },
     {
       "id": "banri-no-choujou",
       "word": "万里[ばんり]の 長城[ちょうじょう]",
       "kana": "ばんりのちょうじょう",
-      "meaning": { "es": "la Gran Muralla" },
+      "meaning": {
+        "es": "la Gran Muralla"
+      },
       "type": "noun"
     }
   ]

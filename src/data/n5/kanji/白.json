@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["blanco"]
+    "es": ["blanco"],
+    "en": ["white"]
   },
   "onyomi": ["ハク"],
   "kunyomi": ["しろ.い"],
@@ -12,19 +13,22 @@
     {
       "word": "白[しろ]い",
       "meaning": {
-        "es": "blanco"
+        "es": "blanco",
+        "en": "white"
       }
     },
     {
       "word": "白[しろ]",
       "meaning": {
-        "es": "el color blanco"
+        "es": "el color blanco",
+        "en": "the colour white"
       }
     },
     {
       "word": "白黒[しろくろ]",
       "meaning": {
-        "es": "blanco y negro"
+        "es": "blanco y negro",
+        "en": "black and white"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "自白[じはく]",
       "meaning": {
-        "es": "confesión"
+        "es": "confesión",
+        "en": "confession"
       }
     },
     {

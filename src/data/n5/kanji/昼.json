@@ -23,19 +23,22 @@
     {
       "word": "昼間[ひるま]",
       "meaning": {
-        "es": "durante el día"
+        "es": "durante el día",
+        "en": "during the day"
       }
     },
     {
       "word": "昼食[ちゅうしょく]",
       "meaning": {
-        "es": "almuerzo"
+        "es": "almuerzo",
+        "en": "lunch"
       }
     },
     {
       "word": "昼夜[ちゅうや]",
       "meaning": {
-        "es": "día y noche"
+        "es": "día y noche",
+        "en": "day and night"
       }
     }
   ]

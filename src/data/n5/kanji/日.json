@@ -18,7 +18,8 @@
     {
       "word": "日曜日[にちようび]",
       "meaning": {
-        "es": "domingo"
+        "es": "domingo",
+        "en": "Sunday"
       }
     },
     {
@@ -36,13 +37,15 @@
     {
       "word": "祝日[しゅくじつ]",
       "meaning": {
-        "es": "día festivo"
+        "es": "día festivo",
+        "en": "public holiday"
       }
     },
     {
       "word": "二日[ふつか]",
       "meaning": {
-        "es": "día 2"
+        "es": "día 2",
+        "en": "2nd day"
       }
     }
   ],

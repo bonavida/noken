@@ -25,7 +25,8 @@
       "word": "あの 人[ひと]",
       "kana": "あのひと",
       "meaning": {
-        "es": "aquella persona, él/ella"
+        "es": "aquella persona, él/ella",
+        "en": "that person, he/she"
       },
       "type": "pronoun"
     },
@@ -34,7 +35,8 @@
       "word": "あの 方[かた]",
       "kana": "あのかた",
       "meaning": {
-        "es": "aquella persona (respetuoso)"
+        "es": "aquella persona (respetuoso)",
+        "en": "that person (polite)"
       },
       "type": "pronoun"
     },
@@ -178,7 +180,8 @@
       "word": "〜歳[さい]",
       "kana": "さい",
       "meaning": {
-        "es": "contador de años de edad"
+        "es": "contador de años de edad",
+        "en": "counter for years of age"
       },
       "type": "counter"
     },
@@ -187,7 +190,8 @@
       "word": "何歳[なんさい]",
       "kana": "なんさい",
       "meaning": {
-        "es": "cuántos años"
+        "es": "cuántos años",
+        "en": "how old"
       },
       "type": "interrogative"
     },
@@ -196,7 +200,8 @@
       "word": "おいくつ",
       "kana": "おいくつ",
       "meaning": {
-        "es": "cuántos años (respetuoso)"
+        "es": "cuántos años (respetuoso)",
+        "en": "how old (polite)"
       },
       "type": "interrogative"
     },
@@ -223,7 +228,8 @@
       "word": "失礼[しつれい]ですが",
       "kana": "しつれいですが",
       "meaning": {
-        "es": "disculpe, pero… (antes de una pregunta personal)"
+        "es": "disculpe, pero… (antes de una pregunta personal)",
+        "en": "excuse me, but… (before a personal question)"
       },
       "type": "expression"
     },
@@ -232,7 +238,8 @@
       "word": "お 名前[なまえ]は？",
       "kana": "おなまえは",
       "meaning": {
-        "es": "¿cómo se llama?"
+        "es": "¿cómo se llama?",
+        "en": "what is it called?"
       },
       "type": "expression"
     },
@@ -313,7 +320,8 @@
       "word": "韓国[かんこく]",
       "kana": "かんこく",
       "meaning": {
-        "es": "Corea del Sur"
+        "es": "Corea del Sur",
+        "en": "South Korea"
       },
       "type": "noun"
     },
@@ -331,7 +339,8 @@
       "word": "中国[ちゅうごく]",
       "kana": "ちゅうごく",
       "meaning": {
-        "es": "China"
+        "es": "China",
+        "en": "China"
       },
       "type": "noun"
     },
@@ -340,7 +349,8 @@
       "word": "ドイツ",
       "kana": "ドイツ",
       "meaning": {
-        "es": "Alemania"
+        "es": "Alemania",
+        "en": "Germany"
       },
       "type": "noun"
     },
@@ -367,7 +377,8 @@
       "word": "ブラジル",
       "kana": "ブラジル",
       "meaning": {
-        "es": "Brasil"
+        "es": "Brasil",
+        "en": "Brazil"
       },
       "type": "noun"
     }

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["cien"]
+    "es": ["cien"],
+    "en": ["hundred"]
   },
   "onyomi": ["ヒャク"],
   "kunyomi": [],
@@ -12,7 +13,8 @@
     {
       "word": "百[ひゃく]",
       "meaning": {
-        "es": "cien"
+        "es": "cien",
+        "en": "hundred"
       }
     },
     {
@@ -24,13 +26,15 @@
     {
       "word": "百円[ひゃくえん]",
       "meaning": {
-        "es": "cien yenes"
+        "es": "cien yenes",
+        "en": "one hundred yen"
       }
     },
     {
       "word": "百姓[ひゃくしょう]",
       "meaning": {
-        "es": "campesino"
+        "es": "campesino",
+        "en": "farmer"
       }
     },
     {

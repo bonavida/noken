@@ -12,7 +12,8 @@
     {
       "word": "車[くるま]",
       "meaning": {
-        "es": "coche"
+        "es": "coche",
+        "en": "car"
       }
     },
     {
@@ -24,7 +25,8 @@
     {
       "word": "自転車[じてんしゃ]",
       "meaning": {
-        "es": "bicicleta"
+        "es": "bicicleta",
+        "en": "bicycle"
       }
     },
     {
@@ -36,7 +38,8 @@
     {
       "word": "自動車[じどうしゃ]",
       "meaning": {
-        "es": "automóvil"
+        "es": "automóvil",
+        "en": "car, automobile"
       }
     },
     {

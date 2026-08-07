@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 5,
   "meanings": {
-    "es": ["amigo"]
+    "es": ["amigo"],
+    "en": ["friend"]
   },
   "onyomi": ["ユウ"],
   "kunyomi": ["とも"],
@@ -12,7 +13,8 @@
     {
       "word": "友達[ともだち]",
       "meaning": {
-        "es": "amigo"
+        "es": "amigo",
+        "en": "friend"
       }
     },
     {
@@ -24,19 +26,22 @@
     {
       "word": "友人[ゆうじん]",
       "meaning": {
-        "es": "amigo"
+        "es": "amigo",
+        "en": "friend"
       }
     },
     {
       "word": "友情[ゆうじょう]",
       "meaning": {
-        "es": "amistad"
+        "es": "amistad",
+        "en": "friendship"
       }
     },
     {
       "word": "友軍[ゆうぐん]",
       "meaning": {
-        "es": "ejército aliado"
+        "es": "ejército aliado",
+        "en": "allied army"
       }
     }
   ]

@@ -6,274 +6,371 @@
       "id": "omoimasu",
       "word": "思[おも]います",
       "kana": "おもいます",
-      "meaning": { "es": "creer, pensar" },
+      "meaning": {
+        "es": "creer, pensar",
+        "en": "to believe, to think"
+      },
       "type": "verb-godan"
     },
     {
       "id": "iimasu",
       "word": "言[い]います",
       "kana": "いいます",
-      "meaning": { "es": "decir" },
+      "meaning": {
+        "es": "decir",
+        "en": "to say"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kachimasu",
       "word": "勝[か]ちます",
       "kana": "かちます",
-      "meaning": { "es": "ganar" },
+      "meaning": {
+        "es": "ganar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "makemasu",
       "word": "負[ま]けます",
       "kana": "まけます",
-      "meaning": { "es": "perder, ser derrotado" },
+      "meaning": {
+        "es": "perder, ser derrotado"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "arimasu-evento",
       "word": "あります[お 祭[まつ]りが〜]",
       "kana": "あります",
-      "meaning": { "es": "tener lugar [un festival]" },
+      "meaning": {
+        "es": "tener lugar [un festival]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "yakuni-tachimasu",
       "word": "役[やく]に 立[た]ちます",
       "kana": "やくにたちます",
-      "meaning": { "es": "ser útil" },
+      "meaning": {
+        "es": "ser útil"
+      },
       "type": "verb-godan"
     },
     {
       "id": "ugokimasu",
       "word": "動[うご]きます",
       "kana": "うごきます",
-      "meaning": { "es": "funcionar, moverse" },
+      "meaning": {
+        "es": "funcionar, moverse"
+      },
       "type": "verb-godan"
     },
     {
       "id": "yamemasu",
       "word": "やめます[会社[かいしゃ]を〜]",
       "kana": "やめます",
-      "meaning": { "es": "dimitir, dejar [la empresa]" },
+      "meaning": {
+        "es": "dimitir, dejar [la empresa]",
+        "en": "to quit, to leave [the company]"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "kiotsukemasu",
       "word": "気[き]をつけます",
       "kana": "きをつけます",
-      "meaning": { "es": "prestar atención, tener cuidado" },
+      "meaning": {
+        "es": "prestar atención, tener cuidado"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "ryuugaku-shimasu",
       "word": "留学[りゅうがく]します",
       "kana": "りゅうがくします",
-      "meaning": { "es": "estudiar en el extranjero" },
+      "meaning": {
+        "es": "estudiar en el extranjero"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "muda",
       "word": "むだ[な]",
       "kana": "むだ",
-      "meaning": { "es": "innecesario, inútil" },
+      "meaning": {
+        "es": "innecesario, inútil"
+      },
       "type": "adjective-na"
     },
     {
       "id": "fuben",
       "word": "不便[ふべん][な]",
       "kana": "ふべん",
-      "meaning": { "es": "inconveniente" },
+      "meaning": {
+        "es": "inconveniente"
+      },
       "type": "adjective-na"
     },
     {
       "id": "sugoi",
       "word": "すごい",
       "kana": "すごい",
-      "meaning": { "es": "terrible, maravilloso" },
+      "meaning": {
+        "es": "terrible, maravilloso"
+      },
       "type": "adjective-i"
     },
     {
       "id": "hontou",
       "word": "ほんとう",
       "kana": "ほんとう",
-      "meaning": { "es": "verdad" },
+      "meaning": {
+        "es": "verdad"
+      },
       "type": "noun"
     },
-    { "id": "uso", "word": "うそ", "kana": "うそ", "meaning": { "es": "mentira" }, "type": "noun" },
+    {
+      "id": "uso",
+      "word": "うそ",
+      "kana": "うそ",
+      "meaning": {
+        "es": "mentira"
+      },
+      "type": "noun"
+    },
     {
       "id": "jidousha",
       "word": "自動車[じどうしゃ]",
       "kana": "じどうしゃ",
-      "meaning": { "es": "coche, automóvil" },
+      "meaning": {
+        "es": "coche, automóvil",
+        "en": "car, automobile"
+      },
       "type": "noun"
     },
     {
       "id": "koutsuu",
       "word": "交通[こうつう]",
       "kana": "こうつう",
-      "meaning": { "es": "transporte, tráfico" },
+      "meaning": {
+        "es": "transporte, tráfico"
+      },
       "type": "noun"
     },
     {
       "id": "bukka",
       "word": "物価[ぶっか]",
       "kana": "ぶっか",
-      "meaning": { "es": "costo de vida" },
+      "meaning": {
+        "es": "costo de vida",
+        "en": "cost of living"
+      },
       "type": "noun"
     },
     {
       "id": "housou",
       "word": "放送[ほうそう]",
       "kana": "ほうそう",
-      "meaning": { "es": "transmisión, emisión" },
+      "meaning": {
+        "es": "transmisión, emisión"
+      },
       "type": "noun"
     },
     {
       "id": "nyuusu",
       "word": "ニュース",
       "kana": "ニュース",
-      "meaning": { "es": "noticia" },
+      "meaning": {
+        "es": "noticia"
+      },
       "type": "noun"
     },
     {
       "id": "anime",
       "word": "アニメ",
       "kana": "アニメ",
-      "meaning": { "es": "dibujos animados" },
+      "meaning": {
+        "es": "dibujos animados",
+        "en": "cartoons"
+      },
       "type": "noun"
     },
     {
       "id": "manga",
       "word": "マンガ",
       "kana": "マンガ",
-      "meaning": { "es": "cómic" },
+      "meaning": {
+        "es": "cómic",
+        "en": "comic"
+      },
       "type": "noun"
     },
     {
       "id": "dezain",
       "word": "デザイン",
       "kana": "デザイン",
-      "meaning": { "es": "diseño" },
+      "meaning": {
+        "es": "diseño",
+        "en": "design"
+      },
       "type": "noun"
     },
     {
       "id": "yume",
       "word": "夢[ゆめ]",
       "kana": "ゆめ",
-      "meaning": { "es": "sueño" },
+      "meaning": {
+        "es": "sueño"
+      },
       "type": "noun"
     },
     {
       "id": "tensai",
       "word": "天才[てんさい]",
       "kana": "てんさい",
-      "meaning": { "es": "genio" },
+      "meaning": {
+        "es": "genio"
+      },
       "type": "noun"
     },
     {
       "id": "shiai",
       "word": "試合[しあい]",
       "kana": "しあい",
-      "meaning": { "es": "partido" },
+      "meaning": {
+        "es": "partido"
+      },
       "type": "noun"
     },
     {
       "id": "iken",
       "word": "意見[いけん]",
       "kana": "いけん",
-      "meaning": { "es": "opinión" },
+      "meaning": {
+        "es": "opinión"
+      },
       "type": "noun"
     },
     {
       "id": "hanashi",
       "word": "話[はなし]",
       "kana": "はなし",
-      "meaning": { "es": "discurso, cuento" },
+      "meaning": {
+        "es": "discurso, cuento",
+        "en": "speech, story"
+      },
       "type": "noun"
     },
     {
       "id": "chikyuu",
       "word": "地球[ちきゅう]",
       "kana": "ちきゅう",
-      "meaning": { "es": "la Tierra" },
+      "meaning": {
+        "es": "la Tierra"
+      },
       "type": "noun"
     },
     {
       "id": "tsuki",
       "word": "月[つき]",
       "kana": "つき",
-      "meaning": { "es": "luna" },
+      "meaning": {
+        "es": "luna"
+      },
       "type": "noun"
     },
     {
       "id": "saikin",
       "word": "最近[さいきん]",
       "kana": "さいきん",
-      "meaning": { "es": "últimamente" },
+      "meaning": {
+        "es": "últimamente"
+      },
       "type": "adverb"
     },
     {
       "id": "tabun",
       "word": "たぶん",
       "kana": "たぶん",
-      "meaning": { "es": "probablemente, quizás" },
+      "meaning": {
+        "es": "probablemente, quizás"
+      },
       "type": "adverb"
     },
     {
       "id": "kitto",
       "word": "きっと",
       "kana": "きっと",
-      "meaning": { "es": "sin falta, seguramente" },
+      "meaning": {
+        "es": "sin falta, seguramente"
+      },
       "type": "adverb"
     },
     {
       "id": "hontouni",
       "word": "ほんとうに",
       "kana": "ほんとうに",
-      "meaning": { "es": "realmente" },
+      "meaning": {
+        "es": "realmente"
+      },
       "type": "adverb"
     },
     {
       "id": "sonnani",
       "word": "そんなに",
       "kana": "そんなに",
-      "meaning": { "es": "no tan (con negación)" },
+      "meaning": {
+        "es": "no tan (con negación)"
+      },
       "type": "adverb"
     },
     {
       "id": "nitsuite",
       "word": "〜について",
       "kana": "について",
-      "meaning": { "es": "sobre, con respecto a ~" },
+      "meaning": {
+        "es": "sobre, con respecto a ~"
+      },
       "type": "expression"
     },
     {
       "id": "hisashiburi",
       "word": "久[ひさ]しぶりですね",
       "kana": "ひさしぶりですね",
-      "meaning": { "es": "¡tanto tiempo sin vernos!" },
+      "meaning": {
+        "es": "¡tanto tiempo sin vernos!",
+        "en": "long time no see!"
+      },
       "type": "expression"
     },
     {
       "id": "demo-nomimasen",
       "word": "〜でも 飲[の]みませんか",
       "kana": "でものみませんか",
-      "meaning": { "es": "¿qué tal si tomamos ~?" },
+      "meaning": {
+        "es": "¿qué tal si tomamos ~?",
+        "en": "how about having ~?"
+      },
       "type": "expression"
     },
     {
       "id": "mochiron",
       "word": "もちろん",
       "kana": "もちろん",
-      "meaning": { "es": "naturalmente, por supuesto" },
+      "meaning": {
+        "es": "naturalmente, por supuesto"
+      },
       "type": "adverb"
     },
     {
       "id": "mou-kaeranaito",
       "word": "もう 帰[かえ]らないと……",
       "kana": "もうかえらないと",
-      "meaning": { "es": "tengo que irme ya" },
+      "meaning": {
+        "es": "tengo que irme ya"
+      },
       "type": "expression"
     }
   ]

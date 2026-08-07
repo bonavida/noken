@@ -2,7 +2,8 @@
   "character": "閉",
   "level": "n5",
   "meanings": {
-    "es": ["cerrar"]
+    "es": ["cerrar"],
+    "en": ["to close"]
   },
   "onyomi": ["ヘイ"],
   "kunyomi": ["し.める", "と.じる"],
@@ -11,25 +12,29 @@
     {
       "word": "閉[し]める",
       "meaning": {
-        "es": "cerrar"
+        "es": "cerrar",
+        "en": "to close"
       }
     },
     {
       "word": "閉[と]じる",
       "meaning": {
-        "es": "cerrar, terminar"
+        "es": "cerrar, terminar",
+        "en": "to close, to shut"
       }
     },
     {
       "word": "閉店[へいてん]",
       "meaning": {
-        "es": "cierre de una tienda"
+        "es": "cierre de una tienda",
+        "en": "closing of a shop"
       }
     },
     {
       "word": "閉鎖[へいさ]",
       "meaning": {
-        "es": "clausura"
+        "es": "clausura",
+        "en": "closure"
       }
     },
     {

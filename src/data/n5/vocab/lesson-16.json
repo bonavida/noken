@@ -6,352 +6,488 @@
       "id": "norimasu",
       "word": "乗[の]ります[電車[でんしゃ]に〜]",
       "kana": "のります",
-      "meaning": { "es": "subir [al tren]" },
+      "meaning": {
+        "es": "subir [al tren]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "orimasu",
       "word": "降[お]ります[電車[でんしゃ]を〜]",
       "kana": "おります",
-      "meaning": { "es": "bajar [del tren]" },
+      "meaning": {
+        "es": "bajar [del tren]",
+        "en": "to get off [the train]"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "norikaemasu",
       "word": "乗[の]り 換[か]えます",
       "kana": "のりかえます",
-      "meaning": { "es": "hacer transbordo" },
+      "meaning": {
+        "es": "hacer transbordo"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "abimasu",
       "word": "浴[あ]びます[シャワーを〜]",
       "kana": "あびます",
-      "meaning": { "es": "tomar [una ducha]" },
+      "meaning": {
+        "es": "tomar [una ducha]"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "iremasu",
       "word": "入[い]れます",
       "kana": "いれます",
-      "meaning": { "es": "meter, introducir" },
+      "meaning": {
+        "es": "meter, introducir"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "dashimasu",
       "word": "出[だ]します",
       "kana": "だします",
-      "meaning": { "es": "sacar, entregar, enviar" },
+      "meaning": {
+        "es": "sacar, entregar, enviar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "oroshimasu",
       "word": "下[お]ろします[お 金[かね]を〜]",
       "kana": "おろします",
-      "meaning": { "es": "retirar [dinero del banco]" },
+      "meaning": {
+        "es": "retirar [dinero del banco]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "hairimasu-uni",
       "word": "入[はい]ります[大学[だいがく]に〜]",
       "kana": "はいります",
-      "meaning": { "es": "ingresar [en la universidad]" },
+      "meaning": {
+        "es": "ingresar [en la universidad]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "demasu-uni",
       "word": "出[で]ます[大学[だいがく]を〜]",
       "kana": "でます",
-      "meaning": { "es": "graduarse [de la universidad]" },
+      "meaning": {
+        "es": "graduarse [de la universidad]"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "oshimasu",
       "word": "押[お]します",
       "kana": "おします",
-      "meaning": { "es": "presionar, empujar" },
+      "meaning": {
+        "es": "presionar, empujar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "nomimasu-alcohol",
       "word": "飲[の]みます",
       "kana": "のみます",
-      "meaning": { "es": "beber alcohol" },
+      "meaning": {
+        "es": "beber alcohol",
+        "en": "to drink alcohol"
+      },
       "type": "verb-godan"
     },
     {
       "id": "hajimemasu",
       "word": "始[はじ]めます",
       "kana": "はじめます",
-      "meaning": { "es": "empezar, iniciar" },
+      "meaning": {
+        "es": "empezar, iniciar"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "kengaku-shimasu",
       "word": "見学[けんがく]します",
       "kana": "けんがくします",
-      "meaning": { "es": "visitar (para aprender)" },
+      "meaning": {
+        "es": "visitar (para aprender)"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "denwa-shimasu",
       "word": "電話[でんわ]します",
       "kana": "でんわします",
-      "meaning": { "es": "llamar por teléfono" },
+      "meaning": {
+        "es": "llamar por teléfono"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "wakai",
       "word": "若[わか]い",
       "kana": "わかい",
-      "meaning": { "es": "joven" },
+      "meaning": {
+        "es": "joven"
+      },
       "type": "adjective-i"
     },
     {
       "id": "nagai",
       "word": "長[なが]い",
       "kana": "ながい",
-      "meaning": { "es": "largo" },
+      "meaning": {
+        "es": "largo"
+      },
       "type": "adjective-i"
     },
     {
       "id": "mijikai",
       "word": "短[みじか]い",
       "kana": "みじかい",
-      "meaning": { "es": "corto" },
+      "meaning": {
+        "es": "corto",
+        "en": "short"
+      },
       "type": "adjective-i"
     },
     {
       "id": "akarui",
       "word": "明[あか]るい",
       "kana": "あかるい",
-      "meaning": { "es": "claro, luminoso" },
+      "meaning": {
+        "es": "claro, luminoso",
+        "en": "bright, light"
+      },
       "type": "adjective-i"
     },
     {
       "id": "kurai",
       "word": "暗[くら]い",
       "kana": "くらい",
-      "meaning": { "es": "oscuro" },
+      "meaning": {
+        "es": "oscuro"
+      },
       "type": "adjective-i"
     },
     {
       "id": "karada",
       "word": "体[からだ]",
       "kana": "からだ",
-      "meaning": { "es": "cuerpo" },
+      "meaning": {
+        "es": "cuerpo",
+        "en": "body"
+      },
       "type": "noun"
     },
     {
       "id": "atama",
       "word": "頭[あたま]",
       "kana": "あたま",
-      "meaning": { "es": "cabeza" },
+      "meaning": {
+        "es": "cabeza",
+        "en": "head"
+      },
       "type": "noun"
     },
     {
       "id": "kami",
       "word": "髪[かみ]",
       "kana": "かみ",
-      "meaning": { "es": "cabello" },
+      "meaning": {
+        "es": "cabello",
+        "en": "hair"
+      },
       "type": "noun"
     },
     {
       "id": "kao",
       "word": "顔[かお]",
       "kana": "かお",
-      "meaning": { "es": "cara" },
+      "meaning": {
+        "es": "cara",
+        "en": "face"
+      },
       "type": "noun"
     },
-    { "id": "me", "word": "目[め]", "kana": "め", "meaning": { "es": "ojo(s)" }, "type": "noun" },
+    {
+      "id": "me",
+      "word": "目[め]",
+      "kana": "め",
+      "meaning": {
+        "es": "ojo(s)"
+      },
+      "type": "noun"
+    },
     {
       "id": "mimi",
       "word": "耳[みみ]",
       "kana": "みみ",
-      "meaning": { "es": "oreja(s)" },
+      "meaning": {
+        "es": "oreja(s)"
+      },
       "type": "noun"
     },
     {
       "id": "hana-nariz",
       "word": "鼻[はな]",
       "kana": "はな",
-      "meaning": { "es": "nariz" },
+      "meaning": {
+        "es": "nariz"
+      },
       "type": "noun"
     },
     {
       "id": "kuchi",
       "word": "口[くち]",
       "kana": "くち",
-      "meaning": { "es": "boca" },
+      "meaning": {
+        "es": "boca",
+        "en": "mouth"
+      },
       "type": "noun"
     },
     {
       "id": "ha",
       "word": "歯[は]",
       "kana": "は",
-      "meaning": { "es": "diente(s)" },
+      "meaning": {
+        "es": "diente(s)",
+        "en": "tooth, teeth"
+      },
       "type": "noun"
     },
     {
       "id": "onaka",
       "word": "おなか",
       "kana": "おなか",
-      "meaning": { "es": "estómago" },
+      "meaning": {
+        "es": "estómago"
+      },
       "type": "noun"
     },
     {
       "id": "ashi",
       "word": "足[あし]",
       "kana": "あし",
-      "meaning": { "es": "pierna(s), pie(s)" },
+      "meaning": {
+        "es": "pierna(s), pie(s)"
+      },
       "type": "noun"
     },
-    { "id": "se", "word": "背[せ]", "kana": "せ", "meaning": { "es": "estatura" }, "type": "noun" },
+    {
+      "id": "se",
+      "word": "背[せ]",
+      "kana": "せ",
+      "meaning": {
+        "es": "estatura"
+      },
+      "type": "noun"
+    },
     {
       "id": "saabisu",
       "word": "サービス",
       "kana": "サービス",
-      "meaning": { "es": "servicio" },
+      "meaning": {
+        "es": "servicio"
+      },
       "type": "noun"
     },
     {
       "id": "jogingu",
       "word": "ジョギング",
       "kana": "ジョギング",
-      "meaning": { "es": "jogging" },
+      "meaning": {
+        "es": "jogging"
+      },
       "type": "noun"
     },
     {
       "id": "shawaa",
       "word": "シャワー",
       "kana": "シャワー",
-      "meaning": { "es": "ducha" },
+      "meaning": {
+        "es": "ducha",
+        "en": "shower"
+      },
       "type": "noun"
     },
     {
       "id": "midori",
       "word": "緑[みどり]",
       "kana": "みどり",
-      "meaning": { "es": "verde, zona verde" },
+      "meaning": {
+        "es": "verde, zona verde"
+      },
       "type": "noun"
     },
     {
       "id": "otera",
       "word": "[お]寺[てら]",
       "kana": "おてら",
-      "meaning": { "es": "templo budista" },
+      "meaning": {
+        "es": "templo budista"
+      },
       "type": "noun"
     },
     {
       "id": "jinja",
       "word": "神社[じんじゃ]",
       "kana": "じんじゃ",
-      "meaning": { "es": "santuario sintoísta" },
+      "meaning": {
+        "es": "santuario sintoísta"
+      },
       "type": "noun"
     },
     {
       "id": "ban-numero",
       "word": "〜番[ばん]",
       "kana": "ばん",
-      "meaning": { "es": "número ~" },
+      "meaning": {
+        "es": "número ~"
+      },
       "type": "counter"
     },
     {
       "id": "douyatte",
       "word": "どうやって",
       "kana": "どうやって",
-      "meaning": { "es": "cómo, de qué manera" },
+      "meaning": {
+        "es": "cómo, de qué manera",
+        "en": "how, in what way"
+      },
       "type": "interrogative"
     },
     {
       "id": "dono",
       "word": "どの〜",
       "kana": "どの",
-      "meaning": { "es": "cuál ~ (entre 3+)" },
+      "meaning": {
+        "es": "cuál ~ (entre 3+)",
+        "en": "which ~ (of three or more)"
+      },
       "type": "interrogative"
     },
     {
       "id": "dore",
       "word": "どれ",
       "kana": "どれ",
-      "meaning": { "es": "cuál (entre 3+)" },
+      "meaning": {
+        "es": "cuál (entre 3+)",
+        "en": "which one (of three or more)"
+      },
       "type": "interrogative"
     },
     {
       "id": "sugoi-desu-ne",
       "word": "すごいですね",
       "kana": "すごいですね",
-      "meaning": { "es": "¡increíble! ¡qué bien!" },
+      "meaning": {
+        "es": "¡increíble! ¡qué bien!",
+        "en": "amazing! how great!"
+      },
       "type": "expression"
     },
     {
       "id": "madamada",
       "word": "[いいえ、]まだまだです",
       "kana": "まだまだです",
-      "meaning": { "es": "todavía me falta mucho" },
+      "meaning": {
+        "es": "todavía me falta mucho"
+      },
       "type": "expression"
     },
     {
       "id": "ohikidashi",
       "word": "お 引[ひ]き 出[だ]しですか",
       "kana": "おひきだしですか",
-      "meaning": { "es": "¿va a retirar dinero?" },
+      "meaning": {
+        "es": "¿va a retirar dinero?",
+        "en": "are you withdrawing money?"
+      },
       "type": "expression"
     },
     {
       "id": "mazu",
       "word": "まず",
       "kana": "まず",
-      "meaning": { "es": "primero" },
+      "meaning": {
+        "es": "primero"
+      },
       "type": "adverb"
     },
     {
       "id": "tsugini",
       "word": "次[つぎ]に",
       "kana": "つぎに",
-      "meaning": { "es": "a continuación" },
+      "meaning": {
+        "es": "a continuación",
+        "en": "next, after that"
+      },
       "type": "adverb"
     },
     {
       "id": "kyasshukaado",
       "word": "キャッシュカード",
       "kana": "キャッシュカード",
-      "meaning": { "es": "tarjeta bancaria" },
+      "meaning": {
+        "es": "tarjeta bancaria"
+      },
       "type": "noun"
     },
     {
       "id": "anshoubangou",
       "word": "暗証番号[あんしょうばんごう]",
       "kana": "あんしょうばんごう",
-      "meaning": { "es": "código PIN, contraseña" },
+      "meaning": {
+        "es": "código PIN, contraseña",
+        "en": "PIN, password"
+      },
       "type": "noun"
     },
     {
       "id": "kingaku",
       "word": "金額[きんがく]",
       "kana": "きんがく",
-      "meaning": { "es": "importe, suma de dinero" },
+      "meaning": {
+        "es": "importe, suma de dinero"
+      },
       "type": "noun"
     },
     {
       "id": "kakunin",
       "word": "確認[かくにん]",
       "kana": "かくにん",
-      "meaning": { "es": "confirmación" },
+      "meaning": {
+        "es": "confirmación",
+        "en": "confirmation"
+      },
       "type": "noun"
     },
     {
       "id": "botan",
       "word": "ボタン",
       "kana": "ボタン",
-      "meaning": { "es": "botón" },
+      "meaning": {
+        "es": "botón",
+        "en": "button"
+      },
       "type": "noun"
     },
     {
       "id": "yukimatsuri",
       "word": "雪祭[ゆきまつ]り",
       "kana": "ゆきまつり",
-      "meaning": { "es": "Festival de Nieve (Sapporo)" },
+      "meaning": {
+        "es": "Festival de Nieve (Sapporo)"
+      },
       "type": "noun"
     }
   ]

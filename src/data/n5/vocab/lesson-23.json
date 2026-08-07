@@ -6,175 +6,236 @@
       "id": "kikimasu-preguntar",
       "word": "聞[き]きます[先生[せんせい]に〜]",
       "kana": "ききます",
-      "meaning": { "es": "preguntar [al profesor]" },
+      "meaning": {
+        "es": "preguntar [al profesor]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "mawashimasu",
       "word": "回[まわ]します",
       "kana": "まわします",
-      "meaning": { "es": "girar" },
+      "meaning": {
+        "es": "girar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "hikimasu-tirar",
       "word": "引[ひ]きます",
       "kana": "ひきます",
-      "meaning": { "es": "tirar, jalar" },
+      "meaning": {
+        "es": "tirar, jalar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kaemasu-cambiar",
       "word": "変[か]えます",
       "kana": "かえます",
-      "meaning": { "es": "cambiar" },
+      "meaning": {
+        "es": "cambiar",
+        "en": "to change"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "sawarimasu",
       "word": "触[さわ]ります[ドアに〜]",
       "kana": "さわります",
-      "meaning": { "es": "tocar [una puerta]" },
+      "meaning": {
+        "es": "tocar [una puerta]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "demasu-cambio",
       "word": "出[で]ます[お 釣[つ]りが〜]",
       "kana": "でます",
-      "meaning": { "es": "salir [el cambio]" },
+      "meaning": {
+        "es": "salir [el cambio]"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "arukimasu",
       "word": "歩[ある]きます",
       "kana": "あるきます",
-      "meaning": { "es": "caminar" },
+      "meaning": {
+        "es": "caminar",
+        "en": "to walk"
+      },
       "type": "verb-godan"
     },
     {
       "id": "watarimasu",
       "word": "渡[わた]ります[橋[はし]を〜]",
       "kana": "わたります",
-      "meaning": { "es": "cruzar [un puente]" },
+      "meaning": {
+        "es": "cruzar [un puente]",
+        "en": "to cross [a bridge]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "magarimasu",
       "word": "曲[ま]がります[右[みぎ]へ〜]",
       "kana": "まがります",
-      "meaning": { "es": "doblar [a la derecha]" },
+      "meaning": {
+        "es": "doblar [a la derecha]",
+        "en": "to turn [right]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "sabishii",
       "word": "寂[さび]しい",
       "kana": "さびしい",
-      "meaning": { "es": "solitario" },
+      "meaning": {
+        "es": "solitario"
+      },
       "type": "adjective-i"
     },
     {
       "id": "oyu",
       "word": "[お]湯[ゆ]",
       "kana": "おゆ",
-      "meaning": { "es": "agua caliente" },
+      "meaning": {
+        "es": "agua caliente",
+        "en": "hot water"
+      },
       "type": "noun"
     },
     {
       "id": "oto",
       "word": "音[おと]",
       "kana": "おと",
-      "meaning": { "es": "sonido" },
+      "meaning": {
+        "es": "sonido"
+      },
       "type": "noun"
     },
     {
       "id": "saizu",
       "word": "サイズ",
       "kana": "サイズ",
-      "meaning": { "es": "tamaño, talla" },
+      "meaning": {
+        "es": "tamaño, talla"
+      },
       "type": "noun"
     },
     {
       "id": "koshou",
       "word": "故障[こしょう]",
       "kana": "こしょう",
-      "meaning": { "es": "avería" },
+      "meaning": {
+        "es": "avería",
+        "en": "breakdown, fault"
+      },
       "type": "noun"
     },
     {
       "id": "michi",
       "word": "道[みち]",
       "kana": "みち",
-      "meaning": { "es": "calle, camino" },
+      "meaning": {
+        "es": "calle, camino",
+        "en": "street, road"
+      },
       "type": "noun"
     },
     {
       "id": "kousaten",
       "word": "交差点[こうさてん]",
       "kana": "こうさてん",
-      "meaning": { "es": "cruce" },
+      "meaning": {
+        "es": "cruce",
+        "en": "crossing, intersection"
+      },
       "type": "noun"
     },
     {
       "id": "shingou",
       "word": "信号[しんごう]",
       "kana": "しんごう",
-      "meaning": { "es": "semáforo" },
+      "meaning": {
+        "es": "semáforo"
+      },
       "type": "noun"
     },
     {
       "id": "kado",
       "word": "角[かど]",
       "kana": "かど",
-      "meaning": { "es": "esquina" },
+      "meaning": {
+        "es": "esquina"
+      },
       "type": "noun"
     },
     {
       "id": "hashi-puente",
       "word": "橋[はし]",
       "kana": "はし",
-      "meaning": { "es": "puente" },
+      "meaning": {
+        "es": "puente"
+      },
       "type": "noun"
     },
     {
       "id": "chuushajou",
       "word": "駐車場[ちゅうしゃじょう]",
       "kana": "ちゅうしゃじょう",
-      "meaning": { "es": "aparcamiento" },
+      "meaning": {
+        "es": "aparcamiento",
+        "en": "car park, parking"
+      },
       "type": "noun"
     },
     {
       "id": "tatemono",
       "word": "建物[たてもの]",
       "kana": "たてもの",
-      "meaning": { "es": "edificio" },
+      "meaning": {
+        "es": "edificio",
+        "en": "building"
+      },
       "type": "noun"
     },
     {
       "id": "nankaimo",
       "word": "何回[なんかい]も",
       "kana": "なんかいも",
-      "meaning": { "es": "muchas veces" },
+      "meaning": {
+        "es": "muchas veces"
+      },
       "type": "adverb"
     },
     {
       "id": "me-orden",
       "word": "〜目[め]",
       "kana": "め",
-      "meaning": { "es": "el ~º (indica orden)" },
+      "meaning": {
+        "es": "el ~º (indica orden)",
+        "en": "the ~th (ordinal)"
+      },
       "type": "counter"
     },
     {
       "id": "shoutokutaishi",
       "word": "聖徳太子[しょうとくたいし]",
       "kana": "しょうとくたいし",
-      "meaning": { "es": "Príncipe Shotoku (574–622)" },
+      "meaning": {
+        "es": "Príncipe Shotoku (574–622)"
+      },
       "type": "noun"
     },
     {
       "id": "houryuuji",
       "word": "法隆寺[ほうりゅうじ]",
       "kana": "ほうりゅうじ",
-      "meaning": { "es": "templo Horyuji (Nara)" },
+      "meaning": {
+        "es": "templo Horyuji (Nara)"
+      },
       "type": "noun"
     }
   ]

@@ -2,7 +2,8 @@
   "character": "習",
   "level": "n5",
   "meanings": {
-    "es": ["aprender", "costumbre"]
+    "es": ["aprender", "costumbre"],
+    "en": ["to learn", "custom, habit"]
   },
   "onyomi": ["シュウ"],
   "kunyomi": ["なら.う"],
@@ -11,7 +12,8 @@
     {
       "word": "習[なら]う",
       "meaning": {
-        "es": "aprender"
+        "es": "aprender",
+        "en": "to learn"
       }
     },
     {
@@ -23,13 +25,15 @@
     {
       "word": "自習[じしゅう]",
       "meaning": {
-        "es": "autoestudio"
+        "es": "autoestudio",
+        "en": "self-study"
       }
     },
     {
       "word": "習慣[しゅうかん]",
       "meaning": {
-        "es": "costumbre"
+        "es": "costumbre",
+        "en": "custom, habit"
       }
     },
     {

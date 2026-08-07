@@ -6,317 +6,443 @@
       "id": "kirimasu",
       "word": "切[き]ります",
       "kana": "きります",
-      "meaning": { "es": "cortar" },
+      "meaning": {
+        "es": "cortar",
+        "en": "to cut"
+      },
       "type": "verb-godan"
     },
     {
       "id": "okurimasu",
       "word": "送[おく]ります",
       "kana": "おくります",
-      "meaning": { "es": "enviar" },
+      "meaning": {
+        "es": "enviar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "agemasu",
       "word": "あげます",
       "kana": "あげます",
-      "meaning": { "es": "dar" },
+      "meaning": {
+        "es": "dar",
+        "en": "to give"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "moraimasu",
       "word": "もらいます",
       "kana": "もらいます",
-      "meaning": { "es": "recibir" },
+      "meaning": {
+        "es": "recibir"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kashimasu",
       "word": "貸[か]します",
       "kana": "かします",
-      "meaning": { "es": "prestar" },
+      "meaning": {
+        "es": "prestar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "karimasu",
       "word": "借[か]ります",
       "kana": "かります",
-      "meaning": { "es": "tomar prestado" },
+      "meaning": {
+        "es": "tomar prestado"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "oshiemasu",
       "word": "教[おし]えます",
       "kana": "おしえます",
-      "meaning": { "es": "enseñar" },
+      "meaning": {
+        "es": "enseñar"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "naraimasu",
       "word": "習[なら]います",
       "kana": "ならいます",
-      "meaning": { "es": "aprender" },
+      "meaning": {
+        "es": "aprender",
+        "en": "to learn"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kakemasu",
       "word": "かけます",
       "kana": "かけます",
-      "meaning": { "es": "hacer [una llamada]" },
+      "meaning": {
+        "es": "hacer [una llamada]"
+      },
       "type": "verb-ichidan"
     },
-    { "id": "te", "word": "手[て]", "kana": "て", "meaning": { "es": "mano" }, "type": "noun" },
+    {
+      "id": "te",
+      "word": "手[て]",
+      "kana": "て",
+      "meaning": {
+        "es": "mano"
+      },
+      "type": "noun"
+    },
     {
       "id": "hashi",
       "word": "はし",
       "kana": "はし",
-      "meaning": { "es": "palillos" },
+      "meaning": {
+        "es": "palillos"
+      },
       "type": "noun"
     },
     {
       "id": "supuun",
       "word": "スプーン",
       "kana": "スプーン",
-      "meaning": { "es": "cuchara" },
+      "meaning": {
+        "es": "cuchara",
+        "en": "spoon"
+      },
       "type": "noun"
     },
     {
       "id": "naifu",
       "word": "ナイフ",
       "kana": "ナイフ",
-      "meaning": { "es": "cuchillo" },
+      "meaning": {
+        "es": "cuchillo",
+        "en": "knife"
+      },
       "type": "noun"
     },
     {
       "id": "fooku",
       "word": "フォーク",
       "kana": "フォーク",
-      "meaning": { "es": "tenedor" },
+      "meaning": {
+        "es": "tenedor"
+      },
       "type": "noun"
     },
     {
       "id": "hasami",
       "word": "はさみ",
       "kana": "はさみ",
-      "meaning": { "es": "tijeras" },
+      "meaning": {
+        "es": "tijeras"
+      },
       "type": "noun"
     },
     {
       "id": "pasokon",
       "word": "パソコン",
       "kana": "パソコン",
-      "meaning": { "es": "ordenador personal" },
+      "meaning": {
+        "es": "ordenador personal"
+      },
       "type": "noun"
     },
     {
       "id": "keetai",
       "word": "ケータイ",
       "kana": "ケータイ",
-      "meaning": { "es": "teléfono móvil" },
+      "meaning": {
+        "es": "teléfono móvil"
+      },
       "type": "noun"
     },
     {
       "id": "meeru",
       "word": "メール",
       "kana": "メール",
-      "meaning": { "es": "correo electrónico" },
+      "meaning": {
+        "es": "correo electrónico",
+        "en": "email"
+      },
       "type": "noun"
     },
     {
       "id": "nengajou",
       "word": "年賀状[ねんがじょう]",
       "kana": "ねんがじょう",
-      "meaning": { "es": "tarjeta de año nuevo" },
+      "meaning": {
+        "es": "tarjeta de año nuevo"
+      },
       "type": "noun"
     },
     {
       "id": "panchi",
       "word": "パンチ",
       "kana": "パンチ",
-      "meaning": { "es": "perforadora" },
+      "meaning": {
+        "es": "perforadora"
+      },
       "type": "noun"
     },
     {
       "id": "hocchikisu",
       "word": "ホッチキス",
       "kana": "ホッチキス",
-      "meaning": { "es": "grapadora" },
+      "meaning": {
+        "es": "grapadora"
+      },
       "type": "noun"
     },
     {
       "id": "seroteepu",
       "word": "セロテープ",
       "kana": "セロテープ",
-      "meaning": { "es": "cinta adhesiva" },
+      "meaning": {
+        "es": "cinta adhesiva",
+        "en": "sticky tape"
+      },
       "type": "noun"
     },
     {
       "id": "keshigomu",
       "word": "消[け]しゴム",
       "kana": "けしゴム",
-      "meaning": { "es": "goma de borrar" },
+      "meaning": {
+        "es": "goma de borrar"
+      },
       "type": "noun"
     },
     {
       "id": "kami",
       "word": "紙[かみ]",
       "kana": "かみ",
-      "meaning": { "es": "papel" },
+      "meaning": {
+        "es": "papel"
+      },
       "type": "noun"
     },
     {
       "id": "hana",
       "word": "花[はな]",
       "kana": "はな",
-      "meaning": { "es": "flor" },
+      "meaning": {
+        "es": "flor"
+      },
       "type": "noun"
     },
     {
       "id": "shatsu",
       "word": "シャツ",
       "kana": "シャツ",
-      "meaning": { "es": "camisa" },
+      "meaning": {
+        "es": "camisa",
+        "en": "shirt"
+      },
       "type": "noun"
     },
     {
       "id": "purezento",
       "word": "プレゼント",
       "kana": "プレゼント",
-      "meaning": { "es": "regalo" },
+      "meaning": {
+        "es": "regalo"
+      },
       "type": "noun"
     },
     {
       "id": "nimotsu",
       "word": "荷物[にもつ]",
       "kana": "にもつ",
-      "meaning": { "es": "equipaje, paquete" },
+      "meaning": {
+        "es": "equipaje, paquete"
+      },
       "type": "noun"
     },
     {
       "id": "okane",
       "word": "お 金[かね]",
       "kana": "おかね",
-      "meaning": { "es": "dinero" },
+      "meaning": {
+        "es": "dinero",
+        "en": "money"
+      },
       "type": "noun"
     },
     {
       "id": "kippu",
       "word": "切符[きっぷ]",
       "kana": "きっぷ",
-      "meaning": { "es": "billete (de transporte)" },
+      "meaning": {
+        "es": "billete (de transporte)",
+        "en": "ticket (for transport)"
+      },
       "type": "noun"
     },
     {
       "id": "kurisumasu",
       "word": "クリスマス",
       "kana": "クリスマス",
-      "meaning": { "es": "Navidad" },
+      "meaning": {
+        "es": "Navidad"
+      },
       "type": "noun"
     },
     {
       "id": "chichi",
       "word": "父[ちち]",
       "kana": "ちち",
-      "meaning": { "es": "(mi) padre" },
+      "meaning": {
+        "es": "(mi) padre",
+        "en": "(my) father"
+      },
       "type": "noun"
     },
     {
       "id": "haha",
       "word": "母[はは]",
       "kana": "はは",
-      "meaning": { "es": "(mi) madre" },
+      "meaning": {
+        "es": "(mi) madre",
+        "en": "(my) mother"
+      },
       "type": "noun"
     },
     {
       "id": "otousan",
       "word": "お 父[とう]さん",
       "kana": "おとうさん",
-      "meaning": { "es": "(tu/su) padre" },
+      "meaning": {
+        "es": "(tu/su) padre",
+        "en": "(your) father"
+      },
       "type": "noun"
     },
     {
       "id": "okaasan",
       "word": "お 母[かあ]さん",
       "kana": "おかあさん",
-      "meaning": { "es": "(tu/su) madre" },
+      "meaning": {
+        "es": "(tu/su) madre",
+        "en": "(your) mother"
+      },
       "type": "noun"
     },
-    { "id": "mou", "word": "もう", "kana": "もう", "meaning": { "es": "ya" }, "type": "adverb" },
+    {
+      "id": "mou",
+      "word": "もう",
+      "kana": "もう",
+      "meaning": {
+        "es": "ya"
+      },
+      "type": "adverb"
+    },
     {
       "id": "mada",
       "word": "まだ",
       "kana": "まだ",
-      "meaning": { "es": "todavía" },
+      "meaning": {
+        "es": "todavía"
+      },
       "type": "adverb"
     },
     {
       "id": "korekara",
       "word": "これから",
       "kana": "これから",
-      "meaning": { "es": "desde ahora, dentro de poco" },
+      "meaning": {
+        "es": "desde ahora, dentro de poco",
+        "en": "from now on, shortly"
+      },
       "type": "adverb"
     },
     {
       "id": "suteki-desu-ne",
       "word": "[〜、]すてきですね",
       "kana": "すてきですね",
-      "meaning": { "es": "¡qué bonito es [~]!" },
+      "meaning": {
+        "es": "¡qué bonito es [~]!",
+        "en": "how beautiful [~] is!"
+      },
       "type": "expression"
     },
     {
       "id": "irasshai",
       "word": "いらっしゃい",
       "kana": "いらっしゃい",
-      "meaning": { "es": "bienvenido (al visitante)" },
+      "meaning": {
+        "es": "bienvenido (al visitante)",
+        "en": "welcome (to a visitor)"
+      },
       "type": "expression"
     },
     {
       "id": "douzo-oagari",
       "word": "どうぞお 上[あ]がりください",
       "kana": "どうぞおあがりください",
-      "meaning": { "es": "pase, por favor" },
+      "meaning": {
+        "es": "pase, por favor"
+      },
       "type": "expression"
     },
     {
       "id": "shitsurei-shimasu",
       "word": "失礼[しつれい]します",
       "kana": "しつれいします",
-      "meaning": { "es": "con su permiso" },
+      "meaning": {
+        "es": "con su permiso",
+        "en": "excuse me (on leaving)"
+      },
       "type": "expression"
     },
     {
       "id": "ikaga-desu-ka",
       "word": "[〜は]いかがですか",
       "kana": "いかがですか",
-      "meaning": { "es": "¿le apetece [~]?" },
+      "meaning": {
+        "es": "¿le apetece [~]?",
+        "en": "would you like [~]?"
+      },
       "type": "expression"
     },
     {
       "id": "itadakimasu",
       "word": "いただきます",
       "kana": "いただきます",
-      "meaning": { "es": "gracias (antes de comer)" },
+      "meaning": {
+        "es": "gracias (antes de comer)"
+      },
       "type": "expression"
     },
     {
       "id": "gochisousama",
       "word": "ごちそうさま[でした]",
       "kana": "ごちそうさまでした",
-      "meaning": { "es": "gracias (después de comer)" },
+      "meaning": {
+        "es": "gracias (después de comer)"
+      },
       "type": "expression"
     },
     {
       "id": "gomen-kudasai",
       "word": "ごめんください",
       "kana": "ごめんください",
-      "meaning": { "es": "¿hay alguien? (al llegar de visita)" },
+      "meaning": {
+        "es": "¿hay alguien? (al llegar de visita)",
+        "en": "anyone home? (arriving for a visit)"
+      },
       "type": "expression"
     },
     {
       "id": "supein",
       "word": "スペイン",
       "kana": "スペイン",
-      "meaning": { "es": "España" },
+      "meaning": {
+        "es": "España"
+      },
       "type": "noun"
     }
   ]

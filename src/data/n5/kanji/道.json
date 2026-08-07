@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 23,
   "meanings": {
-    "es": ["camino", "calle"]
+    "es": ["camino", "calle"],
+    "en": ["road, path", "street"]
   },
   "onyomi": ["ドウ"],
   "kunyomi": ["みち"],
@@ -12,7 +13,8 @@
     {
       "word": "道[みち]",
       "meaning": {
-        "es": "calle"
+        "es": "calle",
+        "en": "street"
       }
     },
     {
@@ -30,7 +32,8 @@
     {
       "word": "道路[どうろ]",
       "meaning": {
-        "es": "carretera"
+        "es": "carretera",
+        "en": "road, highway"
       }
     },
     {
@@ -42,13 +45,15 @@
     {
       "word": "武道[ぶどう]",
       "meaning": {
-        "es": "artes marciales"
+        "es": "artes marciales",
+        "en": "martial arts"
       }
     },
     {
       "word": "書道[しょどう]",
       "meaning": {
-        "es": "caligrafía"
+        "es": "caligrafía",
+        "en": "calligraphy"
       }
     }
   ]

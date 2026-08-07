@@ -6,182 +6,243 @@
       "id": "noborimasu",
       "word": "登[のぼ]ります",
       "kana": "のぼります",
-      "meaning": { "es": "subir, escalar" },
+      "meaning": {
+        "es": "subir, escalar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "tomarimasu",
       "word": "泊[と]まります[ホテルに〜]",
       "kana": "とまります",
-      "meaning": { "es": "alojarse [en un hotel]" },
+      "meaning": {
+        "es": "alojarse [en un hotel]",
+        "en": "to stay [at a hotel]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "souji-shimasu",
       "word": "掃除[そうじ]します",
       "kana": "そうじします",
-      "meaning": { "es": "limpiar (una habitación)" },
+      "meaning": {
+        "es": "limpiar (una habitación)"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "sentaku-shimasu",
       "word": "洗濯[せんたく]します",
       "kana": "せんたくします",
-      "meaning": { "es": "lavar (la ropa)" },
+      "meaning": {
+        "es": "lavar (la ropa)"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "narimasu",
       "word": "なります",
       "kana": "なります",
-      "meaning": { "es": "convertirse en, hacerse" },
+      "meaning": {
+        "es": "convertirse en, hacerse",
+        "en": "to become"
+      },
       "type": "verb-godan"
     },
     {
       "id": "nemui",
       "word": "眠[ねむ]い",
       "kana": "ねむい",
-      "meaning": { "es": "tener sueño" },
+      "meaning": {
+        "es": "tener sueño"
+      },
       "type": "adjective-i"
     },
     {
       "id": "tsuyoi",
       "word": "強[つよ]い",
       "kana": "つよい",
-      "meaning": { "es": "fuerte" },
+      "meaning": {
+        "es": "fuerte"
+      },
       "type": "adjective-i"
     },
     {
       "id": "yowai",
       "word": "弱[よわ]い",
       "kana": "よわい",
-      "meaning": { "es": "débil" },
+      "meaning": {
+        "es": "débil",
+        "en": "weak"
+      },
       "type": "adjective-i"
     },
     {
       "id": "renshuu",
       "word": "練習[れんしゅう]",
       "kana": "れんしゅう",
-      "meaning": { "es": "práctica, ensayo" },
+      "meaning": {
+        "es": "práctica, ensayo"
+      },
       "type": "noun"
     },
     {
       "id": "gorufu",
       "word": "ゴルフ",
       "kana": "ゴルフ",
-      "meaning": { "es": "golf" },
+      "meaning": {
+        "es": "golf"
+      },
       "type": "noun"
     },
     {
       "id": "sumou",
       "word": "相撲[すもう]",
       "kana": "すもう",
-      "meaning": { "es": "sumo" },
+      "meaning": {
+        "es": "sumo"
+      },
       "type": "noun"
     },
     {
       "id": "ocha-ceremonia",
       "word": "お 茶[ちゃ]",
       "kana": "おちゃ",
-      "meaning": { "es": "ceremonia del té" },
+      "meaning": {
+        "es": "ceremonia del té",
+        "en": "tea ceremony"
+      },
       "type": "noun"
     },
     {
       "id": "hi",
       "word": "日[ひ]",
       "kana": "ひ",
-      "meaning": { "es": "día, fecha" },
+      "meaning": {
+        "es": "día, fecha",
+        "en": "day, date"
+      },
       "type": "noun"
     },
     {
       "id": "choushi",
       "word": "調子[ちょうし]",
       "kana": "ちょうし",
-      "meaning": { "es": "forma, condición" },
+      "meaning": {
+        "es": "forma, condición"
+      },
       "type": "noun"
     },
     {
       "id": "ichido",
       "word": "一度[いちど]",
       "kana": "いちど",
-      "meaning": { "es": "una vez" },
+      "meaning": {
+        "es": "una vez"
+      },
       "type": "adverb"
     },
     {
       "id": "ichidomo",
       "word": "一度[いちど]も",
       "kana": "いちども",
-      "meaning": { "es": "nunca (con negación)" },
+      "meaning": {
+        "es": "nunca (con negación)"
+      },
       "type": "adverb"
     },
     {
       "id": "dandan",
       "word": "だんだん",
       "kana": "だんだん",
-      "meaning": { "es": "poco a poco" },
+      "meaning": {
+        "es": "poco a poco"
+      },
       "type": "adverb"
     },
     {
       "id": "mousugu",
       "word": "もうすぐ",
       "kana": "もうすぐ",
-      "meaning": { "es": "dentro de poco, pronto" },
+      "meaning": {
+        "es": "dentro de poco, pronto",
+        "en": "soon, before long"
+      },
       "type": "adverb"
     },
     {
       "id": "okagesamade",
       "word": "おかげさまで",
       "kana": "おかげさまで",
-      "meaning": { "es": "gracias a usted / a Dios" },
+      "meaning": {
+        "es": "gracias a usted / a Dios"
+      },
       "type": "expression"
     },
     {
       "id": "demo",
       "word": "でも",
       "kana": "でも",
-      "meaning": { "es": "pero, sin embargo" },
+      "meaning": {
+        "es": "pero, sin embargo"
+      },
       "type": "conjunction"
     },
     {
       "id": "kanpai",
       "word": "乾杯[かんぱい]",
       "kana": "かんぱい",
-      "meaning": { "es": "¡salud!" },
+      "meaning": {
+        "es": "¡salud!",
+        "en": "cheers!"
+      },
       "type": "expression"
     },
     {
       "id": "daietto",
       "word": "ダイエット",
       "kana": "ダイエット",
-      "meaning": { "es": "dieta, régimen" },
+      "meaning": {
+        "es": "dieta, régimen",
+        "en": "diet"
+      },
       "type": "noun"
     },
     {
       "id": "muri",
       "word": "無理[むり][な]",
       "kana": "むり",
-      "meaning": { "es": "excesivo, imposible" },
+      "meaning": {
+        "es": "excesivo, imposible"
+      },
       "type": "adjective-na"
     },
     {
       "id": "karada-ni-ii",
       "word": "体[からだ]にいい",
       "kana": "からだにいい",
-      "meaning": { "es": "bueno para la salud" },
+      "meaning": {
+        "es": "bueno para la salud",
+        "en": "good for your health"
+      },
       "type": "expression"
     },
     {
       "id": "toukyou-sukaitsurii",
       "word": "東京[とうきょう]スカイツリー",
       "kana": "とうきょうスカイツリー",
-      "meaning": { "es": "Tokyo Sky Tree" },
+      "meaning": {
+        "es": "Tokyo Sky Tree"
+      },
       "type": "noun"
     },
     {
       "id": "katsushika-hokusai",
       "word": "葛飾北斎[かつしかほくさい]",
       "kana": "かつしかほくさい",
-      "meaning": { "es": "Katsushika Hokusai (pintor de la era Edo)" },
+      "meaning": {
+        "es": "Katsushika Hokusai (pintor de la era Edo)"
+      },
       "type": "noun"
     }
   ]

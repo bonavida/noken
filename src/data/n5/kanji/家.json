@@ -11,7 +11,8 @@
     {
       "word": "家[いえ]",
       "meaning": {
-        "es": "casa"
+        "es": "casa",
+        "en": "house, home"
       }
     },
     {
@@ -35,7 +36,8 @@
     {
       "word": "漫画家[まんがか]",
       "meaning": {
-        "es": "dibujante de manga"
+        "es": "dibujante de manga",
+        "en": "manga artist"
       }
     }
   ],

@@ -12,13 +12,15 @@
     {
       "word": "中[なか]",
       "meaning": {
-        "es": "dentro"
+        "es": "dentro",
+        "en": "inside"
       }
     },
     {
       "word": "中国[ちゅうごく]",
       "meaning": {
-        "es": "China"
+        "es": "China",
+        "en": "China"
       }
     },
     {
@@ -30,7 +32,8 @@
     {
       "word": "中身[なかみ]",
       "meaning": {
-        "es": "contenido"
+        "es": "contenido",
+        "en": "contents"
       }
     },
     {
@@ -42,7 +45,8 @@
     {
       "word": "中世[ちゅうせい]",
       "meaning": {
-        "es": "Edad Media"
+        "es": "Edad Media",
+        "en": "the Middle Ages"
       }
     }
   ]

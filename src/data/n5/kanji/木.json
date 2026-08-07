@@ -18,7 +18,8 @@
     {
       "word": "木[き]",
       "meaning": {
-        "es": "árbol"
+        "es": "árbol",
+        "en": "tree"
       }
     },
     {
@@ -36,7 +37,8 @@
     {
       "word": "木造[もくぞう]",
       "meaning": {
-        "es": "de madera"
+        "es": "de madera",
+        "en": "wooden"
       }
     }
   ],

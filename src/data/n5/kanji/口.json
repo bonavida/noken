@@ -12,7 +12,8 @@
     {
       "word": "口[くち]",
       "meaning": {
-        "es": "boca"
+        "es": "boca",
+        "en": "mouth"
       }
     },
     {
@@ -30,7 +31,8 @@
     {
       "word": "火口[かこう]",
       "meaning": {
-        "es": "cráter"
+        "es": "cráter",
+        "en": "crater"
       }
     },
     {
@@ -42,7 +44,8 @@
     {
       "word": "口座[こうざ]",
       "meaning": {
-        "es": "cuenta bancaria"
+        "es": "cuenta bancaria",
+        "en": "bank account"
       }
     }
   ]

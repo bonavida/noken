@@ -6,217 +6,290 @@
       "id": "asobimasu",
       "word": "遊[あそ]びます",
       "kana": "あそびます",
-      "meaning": { "es": "jugar, divertirse" },
+      "meaning": {
+        "es": "jugar, divertirse"
+      },
       "type": "verb-godan"
     },
     {
       "id": "oyogimasu",
       "word": "泳[およ]ぎます",
       "kana": "およぎます",
-      "meaning": { "es": "nadar" },
+      "meaning": {
+        "es": "nadar"
+      },
       "type": "verb-godan"
     },
     {
       "id": "mukaemasu",
       "word": "迎[むか]えます",
       "kana": "むかえます",
-      "meaning": { "es": "recoger, recibir (a alguien)" },
+      "meaning": {
+        "es": "recoger, recibir (a alguien)"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "tsukaremasu",
       "word": "疲[つか]れます",
       "kana": "つかれます",
-      "meaning": { "es": "cansarse" },
+      "meaning": {
+        "es": "cansarse",
+        "en": "to get tired"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "kekkon-shimasu",
       "word": "結婚[けっこん]します",
       "kana": "けっこんします",
-      "meaning": { "es": "casarse" },
+      "meaning": {
+        "es": "casarse",
+        "en": "to get married"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "kaimono-shimasu",
       "word": "買[か]い 物[もの]します",
       "kana": "かいものします",
-      "meaning": { "es": "hacer compras" },
+      "meaning": {
+        "es": "hacer compras"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "shokuji-shimasu",
       "word": "食事[しょくじ]します",
       "kana": "しょくじします",
-      "meaning": { "es": "comer" },
+      "meaning": {
+        "es": "comer",
+        "en": "to eat"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "sanpo-shimasu",
       "word": "散歩[さんぽ]します[公園[こうえん]を〜]",
       "kana": "さんぽします",
-      "meaning": { "es": "pasear [por el parque]" },
+      "meaning": {
+        "es": "pasear [por el parque]"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "taihen",
       "word": "大変[たいへん][な]",
       "kana": "たいへん",
-      "meaning": { "es": "duro, terrible" },
+      "meaning": {
+        "es": "duro, terrible",
+        "en": "tough, terrible"
+      },
       "type": "adjective-na"
     },
     {
       "id": "hoshii",
       "word": "欲[ほ]しい",
       "kana": "ほしい",
-      "meaning": { "es": "querer (algo)" },
+      "meaning": {
+        "es": "querer (algo)"
+      },
       "type": "adjective-i"
     },
     {
       "id": "hiroi",
       "word": "広[ひろ]い",
       "kana": "ひろい",
-      "meaning": { "es": "amplio, espacioso" },
+      "meaning": {
+        "es": "amplio, espacioso",
+        "en": "wide, spacious"
+      },
       "type": "adjective-i"
     },
     {
       "id": "semai",
       "word": "狭[せま]い",
       "kana": "せまい",
-      "meaning": { "es": "estrecho, angosto" },
+      "meaning": {
+        "es": "estrecho, angosto"
+      },
       "type": "adjective-i"
     },
     {
       "id": "puuru",
       "word": "プール",
       "kana": "プール",
-      "meaning": { "es": "piscina" },
+      "meaning": {
+        "es": "piscina"
+      },
       "type": "noun"
     },
     {
       "id": "kawa",
       "word": "川[かわ]",
       "kana": "かわ",
-      "meaning": { "es": "río" },
+      "meaning": {
+        "es": "río"
+      },
       "type": "noun"
     },
     {
       "id": "bijutsu",
       "word": "美術[びじゅつ]",
       "kana": "びじゅつ",
-      "meaning": { "es": "bellas artes" },
+      "meaning": {
+        "es": "bellas artes",
+        "en": "fine arts"
+      },
       "type": "noun"
     },
     {
       "id": "tsuri",
       "word": "釣[つ]り",
       "kana": "つり",
-      "meaning": { "es": "pesca" },
+      "meaning": {
+        "es": "pesca"
+      },
       "type": "noun"
     },
     {
       "id": "sukii",
       "word": "スキー",
       "kana": "スキー",
-      "meaning": { "es": "esquí" },
+      "meaning": {
+        "es": "esquí"
+      },
       "type": "noun"
     },
     {
       "id": "shuumatsu",
       "word": "週末[しゅうまつ]",
       "kana": "しゅうまつ",
-      "meaning": { "es": "fin de semana" },
+      "meaning": {
+        "es": "fin de semana"
+      },
       "type": "noun"
     },
     {
       "id": "oshougatsu",
       "word": "[お]正月[しょうがつ]",
       "kana": "おしょうがつ",
-      "meaning": { "es": "Año Nuevo" },
+      "meaning": {
+        "es": "Año Nuevo",
+        "en": "New Year"
+      },
       "type": "noun"
     },
     {
       "id": "goro",
       "word": "〜ごろ",
       "kana": "ごろ",
-      "meaning": { "es": "hacia ~ (tiempo)" },
+      "meaning": {
+        "es": "hacia ~ (tiempo)"
+      },
       "type": "particle"
     },
     {
       "id": "nanika",
       "word": "何[なに]か",
       "kana": "なにか",
-      "meaning": { "es": "algo" },
+      "meaning": {
+        "es": "algo",
+        "en": "something"
+      },
       "type": "pronoun"
     },
     {
       "id": "dokoka",
       "word": "どこか",
       "kana": "どこか",
-      "meaning": { "es": "algún lugar" },
+      "meaning": {
+        "es": "algún lugar",
+        "en": "somewhere"
+      },
       "type": "pronoun"
     },
     {
       "id": "nodo-ga-kawakimasu",
       "word": "のどが 渇[かわ]きます",
       "kana": "のどがかわきます",
-      "meaning": { "es": "tener sed" },
+      "meaning": {
+        "es": "tener sed"
+      },
       "type": "expression"
     },
     {
       "id": "onaka-ga-sukimasu",
       "word": "おなかがすきます",
       "kana": "おなかがすきます",
-      "meaning": { "es": "tener hambre" },
+      "meaning": {
+        "es": "tener hambre"
+      },
       "type": "expression"
     },
     {
       "id": "sou-shimashou",
       "word": "そうしましょう",
       "kana": "そうしましょう",
-      "meaning": { "es": "hagamos eso" },
+      "meaning": {
+        "es": "hagamos eso"
+      },
       "type": "expression"
     },
     {
       "id": "gochuumon",
       "word": "ご 注文[ちゅうもん]は？",
       "kana": "ごちゅうもんは",
-      "meaning": { "es": "¿qué desea pedir?" },
+      "meaning": {
+        "es": "¿qué desea pedir?",
+        "en": "what would you like to order?"
+      },
       "type": "expression"
     },
     {
       "id": "teishoku",
       "word": "定食[ていしょく]",
       "kana": "ていしょく",
-      "meaning": { "es": "menú fijo" },
+      "meaning": {
+        "es": "menú fijo"
+      },
       "type": "noun"
     },
     {
       "id": "gyuudon",
       "word": "牛[ぎゅう]どん",
       "kana": "ぎゅうどん",
-      "meaning": { "es": "gyudon (arroz con carne de vaca)" },
+      "meaning": {
+        "es": "gyudon (arroz con carne de vaca)"
+      },
       "type": "noun"
     },
     {
       "id": "omachi-kudasai",
       "word": "[少々[しょうしょう]]お 待[ま]ちください",
       "kana": "しょうしょうおまちください",
-      "meaning": { "es": "espere [un momento], por favor" },
+      "meaning": {
+        "es": "espere [un momento], por favor"
+      },
       "type": "expression"
     },
     {
       "id": "de-gozaimasu",
       "word": "〜でございます",
       "kana": "でございます",
-      "meaning": { "es": "(forma cortés de です)" },
+      "meaning": {
+        "es": "(forma cortés de です)",
+        "en": "(polite form of です)"
+      },
       "type": "expression"
     },
     {
       "id": "betsubetsuni",
       "word": "別々[べつべつ]に",
       "kana": "べつべつに",
-      "meaning": { "es": "por separado" },
+      "meaning": {
+        "es": "por separado"
+      },
       "type": "adverb"
     }
   ]

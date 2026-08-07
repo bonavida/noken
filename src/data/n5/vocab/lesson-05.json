@@ -6,413 +6,553 @@
       "id": "ikimasu",
       "word": "行[い]きます",
       "kana": "いきます",
-      "meaning": { "es": "ir" },
+      "meaning": {
+        "es": "ir"
+      },
       "type": "verb-godan"
     },
     {
       "id": "kimasu",
       "word": "来[き]ます",
       "kana": "きます",
-      "meaning": { "es": "venir" },
+      "meaning": {
+        "es": "venir"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "kaerimasu",
       "word": "帰[かえ]ります",
       "kana": "かえります",
-      "meaning": { "es": "volver, regresar a casa" },
+      "meaning": {
+        "es": "volver, regresar a casa"
+      },
       "type": "verb-godan"
     },
     {
       "id": "gakkou",
       "word": "学校[がっこう]",
       "kana": "がっこう",
-      "meaning": { "es": "escuela" },
+      "meaning": {
+        "es": "escuela"
+      },
       "type": "noun"
     },
     {
       "id": "suupaa",
       "word": "スーパー",
       "kana": "スーパー",
-      "meaning": { "es": "supermercado" },
+      "meaning": {
+        "es": "supermercado"
+      },
       "type": "noun"
     },
     {
       "id": "eki",
       "word": "駅[えき]",
       "kana": "えき",
-      "meaning": { "es": "estación" },
+      "meaning": {
+        "es": "estación"
+      },
       "type": "noun"
     },
     {
       "id": "hikouki",
       "word": "飛行機[ひこうき]",
       "kana": "ひこうき",
-      "meaning": { "es": "avión" },
+      "meaning": {
+        "es": "avión",
+        "en": "aeroplane"
+      },
       "type": "noun"
     },
     {
       "id": "fune",
       "word": "船[ふね]",
       "kana": "ふね",
-      "meaning": { "es": "barco" },
+      "meaning": {
+        "es": "barco",
+        "en": "ship, boat"
+      },
       "type": "noun"
     },
     {
       "id": "densha",
       "word": "電車[でんしゃ]",
       "kana": "でんしゃ",
-      "meaning": { "es": "tren eléctrico" },
+      "meaning": {
+        "es": "tren eléctrico"
+      },
       "type": "noun"
     },
     {
       "id": "chikatetsu",
       "word": "地下鉄[ちかてつ]",
       "kana": "ちかてつ",
-      "meaning": { "es": "metro" },
+      "meaning": {
+        "es": "metro"
+      },
       "type": "noun"
     },
     {
       "id": "shinkansen",
       "word": "新幹線[しんかんせん]",
       "kana": "しんかんせん",
-      "meaning": { "es": "Shinkansen, tren bala" },
+      "meaning": {
+        "es": "Shinkansen, tren bala"
+      },
       "type": "noun"
     },
     {
       "id": "basu",
       "word": "バス",
       "kana": "バス",
-      "meaning": { "es": "autobús" },
+      "meaning": {
+        "es": "autobús",
+        "en": "bus"
+      },
       "type": "noun"
     },
     {
       "id": "takushii",
       "word": "タクシー",
       "kana": "タクシー",
-      "meaning": { "es": "taxi" },
+      "meaning": {
+        "es": "taxi"
+      },
       "type": "noun"
     },
     {
       "id": "jitensha",
       "word": "自転車[じてんしゃ]",
       "kana": "じてんしゃ",
-      "meaning": { "es": "bicicleta" },
+      "meaning": {
+        "es": "bicicleta",
+        "en": "bicycle"
+      },
       "type": "noun"
     },
     {
       "id": "aruite",
       "word": "歩[ある]いて",
       "kana": "あるいて",
-      "meaning": { "es": "a pie, andando" },
+      "meaning": {
+        "es": "a pie, andando",
+        "en": "on foot, walking"
+      },
       "type": "adverb"
     },
     {
       "id": "hito",
       "word": "人[ひと]",
       "kana": "ひと",
-      "meaning": { "es": "persona, gente" },
+      "meaning": {
+        "es": "persona, gente"
+      },
       "type": "noun"
     },
     {
       "id": "tomodachi",
       "word": "友達[ともだち]",
       "kana": "ともだち",
-      "meaning": { "es": "amigo(s)" },
+      "meaning": {
+        "es": "amigo(s)",
+        "en": "friend(s)"
+      },
       "type": "noun"
     },
     {
       "id": "kare",
       "word": "彼[かれ]",
       "kana": "かれ",
-      "meaning": { "es": "él, novio" },
+      "meaning": {
+        "es": "él, novio"
+      },
       "type": "pronoun"
     },
     {
       "id": "kanojo",
       "word": "彼女[かのじょ]",
       "kana": "かのじょ",
-      "meaning": { "es": "ella, novia" },
+      "meaning": {
+        "es": "ella, novia"
+      },
       "type": "pronoun"
     },
     {
       "id": "kazoku",
       "word": "家族[かぞく]",
       "kana": "かぞく",
-      "meaning": { "es": "familia" },
+      "meaning": {
+        "es": "familia"
+      },
       "type": "noun"
     },
     {
       "id": "hitoride",
       "word": "一人[ひとり]で",
       "kana": "ひとりで",
-      "meaning": { "es": "solo (sin compañía)" },
+      "meaning": {
+        "es": "solo (sin compañía)"
+      },
       "type": "adverb"
     },
     {
       "id": "senshuu",
       "word": "先週[せんしゅう]",
       "kana": "せんしゅう",
-      "meaning": { "es": "la semana pasada" },
+      "meaning": {
+        "es": "la semana pasada"
+      },
       "type": "noun"
     },
     {
       "id": "konshuu",
       "word": "今週[こんしゅう]",
       "kana": "こんしゅう",
-      "meaning": { "es": "esta semana" },
+      "meaning": {
+        "es": "esta semana"
+      },
       "type": "noun"
     },
     {
       "id": "raishuu",
       "word": "来週[らいしゅう]",
       "kana": "らいしゅう",
-      "meaning": { "es": "la semana que viene" },
+      "meaning": {
+        "es": "la semana que viene"
+      },
       "type": "noun"
     },
     {
       "id": "sengetsu",
       "word": "先月[せんげつ]",
       "kana": "せんげつ",
-      "meaning": { "es": "el mes pasado" },
+      "meaning": {
+        "es": "el mes pasado"
+      },
       "type": "noun"
     },
     {
       "id": "kongetsu",
       "word": "今月[こんげつ]",
       "kana": "こんげつ",
-      "meaning": { "es": "este mes" },
+      "meaning": {
+        "es": "este mes"
+      },
       "type": "noun"
     },
     {
       "id": "raigetsu",
       "word": "来月[らいげつ]",
       "kana": "らいげつ",
-      "meaning": { "es": "el mes que viene" },
+      "meaning": {
+        "es": "el mes que viene"
+      },
       "type": "noun"
     },
     {
       "id": "kyonen",
       "word": "去年[きょねん]",
       "kana": "きょねん",
-      "meaning": { "es": "el año pasado" },
+      "meaning": {
+        "es": "el año pasado",
+        "en": "last year"
+      },
       "type": "noun"
     },
     {
       "id": "kotoshi",
       "word": "ことし",
       "kana": "ことし",
-      "meaning": { "es": "este año" },
+      "meaning": {
+        "es": "este año"
+      },
       "type": "noun"
     },
     {
       "id": "rainen",
       "word": "来年[らいねん]",
       "kana": "らいねん",
-      "meaning": { "es": "el año que viene" },
+      "meaning": {
+        "es": "el año que viene",
+        "en": "next year"
+      },
       "type": "noun"
     },
     {
       "id": "nen",
       "word": "〜年[ねん]",
       "kana": "ねん",
-      "meaning": { "es": "año ~" },
+      "meaning": {
+        "es": "año ~",
+        "en": "year ~"
+      },
       "type": "counter"
     },
     {
       "id": "nannen",
       "word": "何年[なんねん]",
       "kana": "なんねん",
-      "meaning": { "es": "qué año" },
+      "meaning": {
+        "es": "qué año"
+      },
       "type": "interrogative"
     },
     {
       "id": "gatsu",
       "word": "〜月[がつ]",
       "kana": "がつ",
-      "meaning": { "es": "mes de ~" },
+      "meaning": {
+        "es": "mes de ~"
+      },
       "type": "counter"
     },
     {
       "id": "nangatsu",
       "word": "何月[なんがつ]",
       "kana": "なんがつ",
-      "meaning": { "es": "qué mes" },
+      "meaning": {
+        "es": "qué mes"
+      },
       "type": "interrogative"
     },
     {
       "id": "tsuitachi",
       "word": "1日[ついたち]",
       "kana": "ついたち",
-      "meaning": { "es": "el día uno del mes" },
+      "meaning": {
+        "es": "el día uno del mes"
+      },
       "type": "number"
     },
     {
       "id": "futsuka",
       "word": "2日[ふつか]",
       "kana": "ふつか",
-      "meaning": { "es": "el día dos, 2 días" },
+      "meaning": {
+        "es": "el día dos, 2 días"
+      },
       "type": "number"
     },
     {
       "id": "mikka",
       "word": "3日[みっか]",
       "kana": "みっか",
-      "meaning": { "es": "el día tres, 3 días" },
+      "meaning": {
+        "es": "el día tres, 3 días"
+      },
       "type": "number"
     },
     {
       "id": "yokka",
       "word": "4日[よっか]",
       "kana": "よっか",
-      "meaning": { "es": "el día cuatro, 4 días" },
+      "meaning": {
+        "es": "el día cuatro, 4 días",
+        "en": "the 4th, 4 days"
+      },
       "type": "number"
     },
     {
       "id": "itsuka",
       "word": "5日[いつか]",
       "kana": "いつか",
-      "meaning": { "es": "el día cinco, 5 días" },
+      "meaning": {
+        "es": "el día cinco, 5 días",
+        "en": "the 5th, 5 days"
+      },
       "type": "number"
     },
     {
       "id": "muika",
       "word": "6日[むいか]",
       "kana": "むいか",
-      "meaning": { "es": "el día seis, 6 días" },
+      "meaning": {
+        "es": "el día seis, 6 días"
+      },
       "type": "number"
     },
     {
       "id": "nanoka",
       "word": "7日[なのか]",
       "kana": "なのか",
-      "meaning": { "es": "el día siete, 7 días" },
+      "meaning": {
+        "es": "el día siete, 7 días"
+      },
       "type": "number"
     },
     {
       "id": "youka",
       "word": "8日[ようか]",
       "kana": "ようか",
-      "meaning": { "es": "el día ocho, 8 días" },
+      "meaning": {
+        "es": "el día ocho, 8 días"
+      },
       "type": "number"
     },
     {
       "id": "kokonoka",
       "word": "9日[ここのか]",
       "kana": "ここのか",
-      "meaning": { "es": "el día nueve, 9 días" },
+      "meaning": {
+        "es": "el día nueve, 9 días"
+      },
       "type": "number"
     },
     {
       "id": "tooka",
       "word": "10日[とおか]",
       "kana": "とおか",
-      "meaning": { "es": "el día diez, 10 días" },
+      "meaning": {
+        "es": "el día diez, 10 días",
+        "en": "the 10th, 10 days"
+      },
       "type": "number"
     },
     {
       "id": "juuyokka",
       "word": "14日[じゅうよっか]",
       "kana": "じゅうよっか",
-      "meaning": { "es": "el día catorce, 14 días" },
+      "meaning": {
+        "es": "el día catorce, 14 días",
+        "en": "the 14th, 14 days"
+      },
       "type": "number"
     },
     {
       "id": "hatsuka",
       "word": "20日[はつか]",
       "kana": "はつか",
-      "meaning": { "es": "el día veinte, 20 días" },
+      "meaning": {
+        "es": "el día veinte, 20 días"
+      },
       "type": "number"
     },
     {
       "id": "nijuuyokka",
       "word": "24日[にじゅうよっか]",
       "kana": "にじゅうよっか",
-      "meaning": { "es": "el día veinticuatro, 24 días" },
+      "meaning": {
+        "es": "el día veinticuatro, 24 días"
+      },
       "type": "number"
     },
     {
       "id": "nichi",
       "word": "〜日[にち]",
       "kana": "にち",
-      "meaning": { "es": "día ~, ~ días" },
+      "meaning": {
+        "es": "día ~, ~ días",
+        "en": "day ~, ~ days"
+      },
       "type": "counter"
     },
     {
       "id": "nannichi",
       "word": "何日[なんにち]",
       "kana": "なんにち",
-      "meaning": { "es": "qué día del mes, cuántos días" },
+      "meaning": {
+        "es": "qué día del mes, cuántos días"
+      },
       "type": "interrogative"
     },
     {
       "id": "itsu",
       "word": "いつ",
       "kana": "いつ",
-      "meaning": { "es": "cuándo" },
+      "meaning": {
+        "es": "cuándo",
+        "en": "when"
+      },
       "type": "interrogative"
     },
     {
       "id": "tanjoubi",
       "word": "誕生日[たんじょうび]",
       "kana": "たんじょうび",
-      "meaning": { "es": "cumpleaños" },
+      "meaning": {
+        "es": "cumpleaños",
+        "en": "birthday"
+      },
       "type": "noun"
     },
     {
       "id": "sou-desu-ne",
       "word": "そうですね",
       "kana": "そうですね",
-      "meaning": { "es": "estoy de acuerdo" },
+      "meaning": {
+        "es": "estoy de acuerdo"
+      },
       "type": "expression"
     },
     {
       "id": "arigatou-gozaimashita",
       "word": "[どうも]ありがとうございました",
       "kana": "ありがとうございました",
-      "meaning": { "es": "[muchas] gracias (por algo ya hecho)" },
+      "meaning": {
+        "es": "[muchas] gracias (por algo ya hecho)",
+        "en": "thank you [very much] (for something already done)"
+      },
       "type": "expression"
     },
     {
       "id": "dou-itashimashite",
       "word": "どういたしまして",
       "kana": "どういたしまして",
-      "meaning": { "es": "de nada, no hay de qué" },
+      "meaning": {
+        "es": "de nada, no hay de qué",
+        "en": "you're welcome"
+      },
       "type": "expression"
     },
     {
       "id": "bansen",
       "word": "〜番線[ばんせん]",
       "kana": "ばんせん",
-      "meaning": { "es": "andén ~, plataforma ~" },
+      "meaning": {
+        "es": "andén ~, plataforma ~",
+        "en": "platform ~"
+      },
       "type": "counter"
     },
     {
       "id": "tsugi-no",
       "word": "次[つぎ]の",
       "kana": "つぎの",
-      "meaning": { "es": "próximo, siguiente" },
+      "meaning": {
+        "es": "próximo, siguiente"
+      },
       "type": "expression"
     },
     {
       "id": "futsuu",
       "word": "普通[ふつう]",
       "kana": "ふつう",
-      "meaning": { "es": "(tren) ordinario, local" },
+      "meaning": {
+        "es": "(tren) ordinario, local",
+        "en": "local (train)"
+      },
       "type": "noun"
     },
     {
       "id": "kyuukou",
       "word": "急行[きゅうこう]",
       "kana": "きゅうこう",
-      "meaning": { "es": "(tren) expreso" },
+      "meaning": {
+        "es": "(tren) expreso",
+        "en": "express (train)"
+      },
       "type": "noun"
     },
     {
       "id": "tokkyuu",
       "word": "特急[とっきゅう]",
       "kana": "とっきゅう",
-      "meaning": { "es": "(tren) superexpreso" },
+      "meaning": {
+        "es": "(tren) superexpreso",
+        "en": "super express (train)"
+      },
       "type": "noun"
     }
   ]

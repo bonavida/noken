@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["cinco"]
+    "es": ["cinco"],
+    "en": ["five"]
   },
   "onyomi": ["ゴ"],
   "kunyomi": ["いつ.つ"],
@@ -12,19 +13,22 @@
     {
       "word": "五[ご]",
       "meaning": {
-        "es": "cinco"
+        "es": "cinco",
+        "en": "five"
       }
     },
     {
       "word": "五[いつ]つ",
       "meaning": {
-        "es": "cinco cosas"
+        "es": "cinco cosas",
+        "en": "five things"
       }
     },
     {
       "word": "五分[ごふん]",
       "meaning": {
-        "es": "cinco minutos"
+        "es": "cinco minutos",
+        "en": "five minutes"
       }
     },
     {
@@ -48,7 +52,8 @@
     {
       "word": "五日[いつか]",
       "meaning": {
-        "es": "día 5"
+        "es": "día 5",
+        "en": "5th day"
       }
     }
   ]

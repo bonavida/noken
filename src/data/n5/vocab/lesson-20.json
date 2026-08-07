@@ -6,148 +6,205 @@
       "id": "irimasu",
       "word": "要[い]ります[ビザが〜]",
       "kana": "いります",
-      "meaning": { "es": "necesitar [un visado]" },
+      "meaning": {
+        "es": "necesitar [un visado]"
+      },
       "type": "verb-godan"
     },
     {
       "id": "shirabemasu",
       "word": "調[しら]べます",
       "kana": "しらべます",
-      "meaning": { "es": "averiguar, investigar" },
+      "meaning": {
+        "es": "averiguar, investigar",
+        "en": "to look into, to check"
+      },
       "type": "verb-ichidan"
     },
     {
       "id": "shuuri-shimasu",
       "word": "修理[しゅうり]します",
       "kana": "しゅうりします",
-      "meaning": { "es": "reparar" },
+      "meaning": {
+        "es": "reparar"
+      },
       "type": "verb-irregular"
     },
     {
       "id": "boku",
       "word": "僕[ぼく]",
       "kana": "ぼく",
-      "meaning": { "es": "yo (informal, masculino)" },
+      "meaning": {
+        "es": "yo (informal, masculino)"
+      },
       "type": "pronoun"
     },
     {
       "id": "kimi",
       "word": "君[きみ]",
       "kana": "きみ",
-      "meaning": { "es": "tú (informal)" },
+      "meaning": {
+        "es": "tú (informal)"
+      },
       "type": "pronoun"
     },
     {
       "id": "kun-20",
       "word": "〜君[くん]",
       "kana": "くん",
-      "meaning": { "es": "sufijo informal (equivale a 〜さん)" },
+      "meaning": {
+        "es": "sufijo informal (equivale a 〜さん)"
+      },
       "type": "expression"
     },
     {
       "id": "un",
       "word": "うん",
       "kana": "うん",
-      "meaning": { "es": "sí (informal)" },
+      "meaning": {
+        "es": "sí (informal)"
+      },
       "type": "expression"
     },
     {
       "id": "uun",
       "word": "ううん",
       "kana": "ううん",
-      "meaning": { "es": "no (informal)" },
+      "meaning": {
+        "es": "no (informal)"
+      },
       "type": "expression"
     },
     {
       "id": "kotoba",
       "word": "ことば",
       "kana": "ことば",
-      "meaning": { "es": "palabra, lenguaje, idioma" },
+      "meaning": {
+        "es": "palabra, lenguaje, idioma"
+      },
       "type": "noun"
     },
     {
       "id": "kimono",
       "word": "着物[きもの]",
       "kana": "きもの",
-      "meaning": { "es": "quimono" },
+      "meaning": {
+        "es": "quimono"
+      },
       "type": "noun"
     },
-    { "id": "biza", "word": "ビザ", "kana": "ビザ", "meaning": { "es": "visado" }, "type": "noun" },
+    {
+      "id": "biza",
+      "word": "ビザ",
+      "kana": "ビザ",
+      "meaning": {
+        "es": "visado"
+      },
+      "type": "noun"
+    },
     {
       "id": "hajime",
       "word": "初[はじ]め",
       "kana": "はじめ",
-      "meaning": { "es": "comienzo, principio" },
+      "meaning": {
+        "es": "comienzo, principio",
+        "en": "start, beginning"
+      },
       "type": "noun"
     },
     {
       "id": "owari",
       "word": "終[お]わり",
       "kana": "おわり",
-      "meaning": { "es": "fin" },
+      "meaning": {
+        "es": "fin"
+      },
       "type": "noun"
     },
     {
       "id": "kocchi",
       "word": "こっち",
       "kana": "こっち",
-      "meaning": { "es": "aquí (informal de こちら)" },
+      "meaning": {
+        "es": "aquí (informal de こちら)",
+        "en": "here (informal of こちら)"
+      },
       "type": "pronoun"
     },
     {
       "id": "socchi",
       "word": "そっち",
       "kana": "そっち",
-      "meaning": { "es": "ahí (informal de そちら)" },
+      "meaning": {
+        "es": "ahí (informal de そちら)",
+        "en": "there (informal of そちら)"
+      },
       "type": "pronoun"
     },
     {
       "id": "acchi",
       "word": "あっち",
       "kana": "あっち",
-      "meaning": { "es": "allí (informal de あちら)" },
+      "meaning": {
+        "es": "allí (informal de あちら)",
+        "en": "over there (informal of あちら)"
+      },
       "type": "pronoun"
     },
     {
       "id": "docchi",
       "word": "どっち",
       "kana": "どっち",
-      "meaning": { "es": "cuál, dónde (informal de どちら)" },
+      "meaning": {
+        "es": "cuál, dónde (informal de どちら)",
+        "en": "which, where (informal of どちら)"
+      },
       "type": "interrogative"
     },
     {
       "id": "minnade",
       "word": "みんなで",
       "kana": "みんなで",
-      "meaning": { "es": "todos juntos" },
+      "meaning": {
+        "es": "todos juntos"
+      },
       "type": "adverb"
     },
     {
       "id": "kedo",
       "word": "〜けど",
       "kana": "けど",
-      "meaning": { "es": "~, pero (informal de が)" },
+      "meaning": {
+        "es": "~, pero (informal de が)",
+        "en": "~, but (informal of が)"
+      },
       "type": "particle"
     },
     {
       "id": "onaka-ippai",
       "word": "おなかがいっぱいです",
       "kana": "おなかがいっぱいです",
-      "meaning": { "es": "estoy lleno, satisfecho" },
+      "meaning": {
+        "es": "estoy lleno, satisfecho"
+      },
       "type": "expression"
     },
     {
       "id": "yokattara",
       "word": "よかったら",
       "kana": "よかったら",
-      "meaning": { "es": "si le apetece" },
+      "meaning": {
+        "es": "si le apetece"
+      },
       "type": "expression"
     },
     {
       "id": "iroiro",
       "word": "いろいろ",
       "kana": "いろいろ",
-      "meaning": { "es": "por diversos, por varios" },
+      "meaning": {
+        "es": "por diversos, por varios"
+      },
       "type": "adverb"
     }
   ]

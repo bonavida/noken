@@ -17,7 +17,8 @@
     {
       "word": "知識[ちしき]",
       "meaning": {
-        "es": "conocimiento"
+        "es": "conocimiento",
+        "en": "knowledge"
       }
     },
     {
@@ -35,7 +36,8 @@
     {
       "word": "知人[ちじん]",
       "meaning": {
-        "es": "conocido"
+        "es": "conocido",
+        "en": "acquaintance"
       }
     }
   ]

@@ -11,13 +11,15 @@
     {
       "word": "青[あお]い",
       "meaning": {
-        "es": "azul"
+        "es": "azul",
+        "en": "blue"
       }
     },
     {
       "word": "青空[あおぞら]",
       "meaning": {
-        "es": "cielo azul"
+        "es": "cielo azul",
+        "en": "blue sky"
       }
     },
     {

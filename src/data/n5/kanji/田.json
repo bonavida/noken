@@ -2,7 +2,8 @@
   "character": "田",
   "level": "n5",
   "meanings": {
-    "es": ["arrozal"]
+    "es": ["arrozal"],
+    "en": ["rice field"]
   },
   "onyomi": ["デン"],
   "kunyomi": ["た"],
@@ -11,19 +12,22 @@
     {
       "word": "田[た]",
       "meaning": {
-        "es": "arrozal"
+        "es": "arrozal",
+        "en": "rice field"
       }
     },
     {
       "word": "田[た]んぼ",
       "meaning": {
-        "es": "arrozal"
+        "es": "arrozal",
+        "en": "rice field"
       }
     },
     {
       "word": "乾田[かんでん]",
       "meaning": {
-        "es": "arrozal seco"
+        "es": "arrozal seco",
+        "en": "dry rice field"
       }
     },
     {

@@ -18,7 +18,8 @@
     {
       "word": "お 帰[かえ]りなさい",
       "meaning": {
-        "es": "bienvenido de vuelta"
+        "es": "bienvenido de vuelta",
+        "en": "welcome back"
       }
     },
     {
@@ -30,7 +31,8 @@
     {
       "word": "帰[かえ]り 道[みち]",
       "meaning": {
-        "es": "camino de vuelta"
+        "es": "camino de vuelta",
+        "en": "way home"
       }
     },
     {
@@ -48,7 +50,8 @@
     {
       "word": "帰路[きろ]",
       "meaning": {
-        "es": "camino de regreso"
+        "es": "camino de regreso",
+        "en": "way back"
       }
     }
   ]

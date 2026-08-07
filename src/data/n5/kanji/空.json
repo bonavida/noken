@@ -11,7 +11,8 @@
     {
       "word": "空[そら]",
       "meaning": {
-        "es": "cielo"
+        "es": "cielo",
+        "en": "sky"
       }
     },
     {
@@ -29,13 +30,15 @@
     {
       "word": "空気[くうき]",
       "meaning": {
-        "es": "aire"
+        "es": "aire",
+        "en": "air"
       }
     },
     {
       "word": "空港[くうこう]",
       "meaning": {
-        "es": "aeropuerto"
+        "es": "aeropuerto",
+        "en": "airport"
       }
     }
   ]

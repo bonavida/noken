@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["abajo", "debajo", "bajar"]
+    "es": ["abajo", "debajo", "bajar"],
+    "en": ["below, under", "below", "to go down, to lower"]
   },
   "onyomi": ["カ", "ゲ"],
   "kunyomi": ["した", "さ.げる", "さ.がる", "くだ.る"],
@@ -12,7 +13,8 @@
     {
       "word": "下[した]",
       "meaning": {
-        "es": "debajo"
+        "es": "debajo",
+        "en": "below"
       }
     },
     {
@@ -30,13 +32,15 @@
     {
       "word": "下[さ]がる",
       "meaning": {
-        "es": "bajar, descender"
+        "es": "bajar, descender",
+        "en": "to go down, to descend"
       }
     },
     {
       "word": "下[くだ]る",
       "meaning": {
-        "es": "bajar (escaleras)"
+        "es": "bajar (escaleras)",
+        "en": "to go down (stairs)"
       }
     },
     {
