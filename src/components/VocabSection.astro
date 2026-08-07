@@ -4,6 +4,8 @@ import type { WordType } from '@/constants/wordTypes';
 import type { Locale } from '@/i18n/config';
 import { pickLocale, useTranslations } from '@/i18n/t';
 import type { Localized } from '@/types/content';
+import { stripFurigana } from '@/utils/furigana';
+import { getCollection } from 'astro:content';
 
 interface VocabEntry {
   id: string;
@@ -22,6 +24,17 @@ interface Props {
 const { words, locale } = Astro.props;
 const t = useTranslations(locale);
 
+// Only the kanji appearing in these words, so the island receives a handful of
+// characters instead of the whole collection
+const kanjiWithPages = new Set((await getCollection('kanji')).map(({ data }) => data.character));
+const linkableKanji = [
+  ...new Set(
+    words
+      .flatMap((entry) => [...stripFurigana(entry.word)])
+      .filter((character) => kanjiWithPages.has(character))
+  ),
+];
+
 // Localize server-side so the island only receives plain serializable strings
 const localizedWords: VocabWord[] = words.map((entry) => ({
   id: entry.id,
@@ -33,4 +46,10 @@ const localizedWords: VocabWord[] = words.map((entry) => ({
 }));
 ---
 
-<VocabTable words={localizedWords} labels={t.vocabulary} typeLabels={t.wordTypes} client:visible />
+<VocabTable
+  words={localizedWords}
+  labels={t.vocabulary}
+  typeLabels={t.wordTypes}
+  linkableKanji={linkableKanji}
+  client:visible
+/>

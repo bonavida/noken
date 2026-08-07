@@ -26,6 +26,8 @@ interface VocabTableProps {
     noResults: string;
   };
   typeLabels: Record<WordType, string>;
+  // Kanji that have a page of their own, so each one can be looked up
+  linkableKanji?: string[];
 }
 
 const normalize = (value: string) =>
@@ -34,7 +36,7 @@ const normalize = (value: string) =>
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '');
 
-export const VocabTable = ({ words, labels, typeLabels }: VocabTableProps) => {
+export const VocabTable = ({ words, labels, typeLabels, linkableKanji }: VocabTableProps) => {
   const [query, setQuery] = useState('');
   const [activeType, setActiveType] = useState('');
 
@@ -91,7 +93,7 @@ export const VocabTable = ({ words, labels, typeLabels }: VocabTableProps) => {
             {filteredWords.map((entry) => (
               <tr key={entry.id} className="border-b last:border-0">
                 <td className="px-4 py-2.5 text-base">
-                  <FuriganaText text={entry.word} />
+                  <FuriganaText text={entry.word} linkKanji={linkableKanji} />
                 </td>
                 <td className="jp text-muted-foreground px-4 py-2.5" lang="ja">
                   {entry.kana}

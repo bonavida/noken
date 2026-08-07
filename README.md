@@ -90,6 +90,13 @@ Questions are generated at build time from the same content the pages render, so
 - **Scope** — quizzes filter by a single lesson or a block of five, each option showing your accuracy for that scope.
 - **Qué repasar** — the hub ranks your weakest lessons by accuracy pooled across modes (`weakestLessons` in `src/utils/stats.ts`), ignoring lessons with too little evidence, and links into the mode each one goes worst in with `?lesson=` preselecting the scope.
 
+## Cross-links
+
+Kanji, vocabulary and lessons point at each other, so a word can be followed in either direction:
+
+- Every kanji in the vocabulary table links to its own page. The link sits **inside** the `<ruby>` base, so one reading still spans the whole word, and only characters that actually have a page are linked.
+- Each kanji page lists the course vocabulary that uses it (alongside the book's own example compounds), plus the kanji the appendix flags as easy to confuse with it.
+
 ## Search
 
 `⌘K` / `Ctrl+K` (or `/` while reading) opens a dialog covering vocabulary, kanji, verbs, grammar points, lessons and reference tables. The index is a static JSON file fetched on first open; matching is accent-insensitive for Spanish and strips furigana brackets for Japanese (`src/utils/search.ts`).
