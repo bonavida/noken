@@ -2,27 +2,34 @@
   "level": "n5",
   "number": 19,
   "title": {
-    "es": "La forma た y experiencias"
+    "es": "La forma た y experiencias",
+    "en": "The た form and experiences"
   },
   "jpTitle": "ダイエットはあしたからします",
   "description": {
-    "es": "La forma た del verbo, contar experiencias con 〜たことがあります y expresar cambios con なります."
+    "es": "La forma た del verbo, contar experiencias con 〜たことがあります y expresar cambios con なります.",
+    "en": "The た form of the verb, talking about experiences with 〜たことがあります, and expressing change with なります."
   },
   "grammar": [
     {
       "id": "forma-ta",
       "title": {
-        "es": "La forma た"
+        "es": "La forma た",
+        "en": "The た form"
       },
-      "pattern": "書[か]いて→書[か]いた ／ 飲[の]んで→飲[の]んだ ／ 食[た]べて→食[た]べた",
+      "pattern": {
+        "es": "書[か]いて→書[か]いた ／ 飲[の]んで→飲[の]んだ ／ 食[た]べて→食[た]べた"
+      },
       "explanation": {
-        "es": "La forma た es el pasado simple y se obtiene cambiando て／で de la forma て por た／だ: 行[い]って → 行[い]った, 飲[の]んで → 飲[の]んだ."
+        "es": "La forma た es el pasado simple y se obtiene cambiando て／で de la forma て por た／だ: 行[い]って → 行[い]った, 飲[の]んで → 飲[の]んだ.",
+        "en": "The た form is the plain past, made by changing the て／で of the て form to た／だ: 行[い]って → 行[い]った, 飲[の]んで → 飲[の]んだ."
       },
       "examples": [
         {
           "jp": "食[た]べます → 食[た]べて → 食[た]べた",
           "translation": {
-            "es": "Comer → forma て → forma た."
+            "es": "Comer → forma て → forma た.",
+            "en": "To eat → て form → た form."
           }
         }
       ]
@@ -30,17 +37,22 @@
     {
       "id": "ta-koto-ga-arimasu",
       "title": {
-        "es": "V た ことが あります — experiencias"
+        "es": "V た ことが あります — experiencias",
+        "en": "V た ことが あります — experiences"
       },
-      "pattern": "V た ことが あります",
+      "pattern": {
+        "es": "V た ことが あります"
+      },
       "explanation": {
-        "es": "Expresa haber tenido la experiencia alguna vez: 馬[うま]に 乗[の]ったことが あります (he montado a caballo). El negativo con 一度[いちど]も significa «nunca»: 一度[いちど]も 食[た]べたことが ありません."
+        "es": "Expresa haber tenido la experiencia alguna vez: 馬[うま]に 乗[の]ったことが あります (he montado a caballo). El negativo con 一度[いちど]も significa «nunca»: 一度[いちど]も 食[た]べたことが ありません.",
+        "en": "It says you have had the experience at some point: 馬[うま]に 乗[の]ったことが あります (I have ridden a horse). The negative with 一度[いちど]も means \"never\": 一度[いちど]も 食[た]べたことが ありません."
       },
       "examples": [
         {
           "jp": "北海道[ほっかいどう]へ 行[い]ったことがありますか。…いいえ、 一度[いちど]もありません。",
           "translation": {
-            "es": "¿Has estado en Hokkaido? …No, nunca."
+            "es": "¿Has estado en Hokkaido? …No, nunca.",
+            "en": "Have you ever been to Hokkaido? …No, never."
           }
         }
       ]
@@ -48,17 +60,22 @@
     {
       "id": "tari-tari",
       "title": {
-        "es": "V1 たり、V2 たり します — lista de actividades"
+        "es": "V1 たり、V2 たり します — lista de actividades",
+        "en": "V1 たり、V2 たり します — listing activities"
       },
-      "pattern": "V1 たり、V2 たり します",
+      "pattern": {
+        "es": "V1 たり、V2 たり します"
+      },
       "explanation": {
-        "es": "Enumera actividades como ejemplos, sin orden cronológico (a diferencia de la forma て): 日曜日[にちようび]は テニスを したり、 映画[えいが]を 見[み]たり します."
+        "es": "Enumera actividades como ejemplos, sin orden cronológico (a diferencia de la forma て): 日曜日[にちようび]は テニスを したり、 映画[えいが]を 見[み]たり します.",
+        "en": "It lists activities as examples, in no particular order (unlike the て form): 日曜日[にちようび]は テニスを したり、 映画[えいが]を 見[み]たり します."
       },
       "examples": [
         {
           "jp": "休[やす]みの 日[ひ]は 掃除[そうじ]したり、 洗濯[せんたく]したりします。",
           "translation": {
-            "es": "Los días libres limpio, lavo la ropa y cosas así."
+            "es": "Los días libres limpio, lavo la ropa y cosas así.",
+            "en": "On my days off I clean, do the laundry and so on."
           }
         }
       ]
@@ -66,23 +83,29 @@
     {
       "id": "narimasu",
       "title": {
-        "es": "〜く／〜に なります — cambios de estado"
+        "es": "〜く／〜に なります — cambios de estado",
+        "en": "〜く／〜に なります — changes of state"
       },
-      "pattern": "A-い → 〜く なります ／ A-な[な] → 〜に なります ／ N に なります",
+      "pattern": {
+        "es": "A-い → 〜く なります ／ A-な[な] → 〜に なります ／ N に なります"
+      },
       "explanation": {
-        "es": "なります expresa un cambio: 寒[さむ]く なります (se pone frío), 元気[げんき]に なります (se recupera), 25 歳[さい]に なります (cumple 25 años)."
+        "es": "なります expresa un cambio: 寒[さむ]く なります (se pone frío), 元気[げんき]に なります (se recupera), 25 歳[さい]に なります (cumple 25 años).",
+        "en": "なります expresses a change: 寒[さむ]く なります (it gets cold), 元気[げんき]に なります (to get better), 25 歳[さい]に なります (to turn 25)."
       },
       "examples": [
         {
           "jp": "日本語[にほんご]が 上手[じょうず]になりましたね。",
           "translation": {
-            "es": "¡Tu japonés ha mejorado mucho!"
+            "es": "¡Tu japonés ha mejorado mucho!",
+            "en": "Your Japanese has got much better!"
           }
         },
         {
           "jp": "もうすぐ 暖[あたた]かくなります。",
           "translation": {
-            "es": "Pronto empezará a hacer calor."
+            "es": "Pronto empezará a hacer calor.",
+            "en": "It will soon start getting hot."
           }
         }
       ]

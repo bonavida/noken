@@ -2,27 +2,34 @@
   "level": "n5",
   "number": 13,
   "title": {
-    "es": "Deseos y propósitos"
+    "es": "Deseos y propósitos",
+    "en": "Wishes and purposes"
   },
   "jpTitle": "別々[べつべつ]にお 願[ねが]いします",
   "description": {
-    "es": "Expresa lo que quieres (欲[ほ]しい), lo que quieres hacer (〜たい) y para qué vas a un lugar."
+    "es": "Expresa lo que quieres (欲[ほ]しい), lo que quieres hacer (〜たい) y para qué vas a un lugar.",
+    "en": "Say what you want (欲[ほ]しい), what you want to do (〜たい) and what you are going somewhere for."
   },
   "grammar": [
     {
       "id": "hoshii",
       "title": {
-        "es": "N が 欲[ほ]しいです — «quiero (algo)»"
+        "es": "N が 欲[ほ]しいです — «quiero (algo)»",
+        "en": "N が 欲[ほ]しいです — \"I want (something)\""
       },
-      "pattern": "N が 欲[ほ]しいです",
+      "pattern": {
+        "es": "N が 欲[ほ]しいです"
+      },
       "explanation": {
-        "es": "欲[ほ]しい es un adjetivo -い que expresa deseo de poseer algo; el objeto deseado se marca con が: 車[くるま]が 欲[ほ]しいです (quiero un coche)."
+        "es": "欲[ほ]しい es un adjetivo -い que expresa deseo de poseer algo; el objeto deseado se marca con が: 車[くるま]が 欲[ほ]しいです (quiero un coche).",
+        "en": "欲[ほ]しい is an -い adjective expressing the wish to have something; the thing wanted is marked with が: 車[くるま]が 欲[ほ]しいです (I want a car)."
       },
       "examples": [
         {
           "jp": "私[わたし]は 友達[ともだち]が 欲[ほ]しいです。",
           "translation": {
-            "es": "Quiero tener amigos."
+            "es": "Quiero tener amigos.",
+            "en": "I want friends."
           }
         }
       ]
@@ -30,23 +37,30 @@
     {
       "id": "tai-desu",
       "title": {
-        "es": "V たいです — «quiero hacer»"
+        "es": "V たいです — «quiero hacer»",
+        "en": "V たいです — \"I want to do\""
       },
-      "pattern": "V (forma ます) たいです",
+      "pattern": {
+        "es": "V (forma ます) たいです",
+        "en": "V (ます form) たいです"
+      },
       "explanation": {
-        "es": "Quitando ます y añadiendo たい se expresa el deseo de hacer la acción: 沖縄[おきなわ]へ 行[い]きたいです. たい se conjuga como adjetivo -い (行[い]きたくないです, 行[い]きたかったです). El objeto puede marcarse con を o が."
+        "es": "Quitando ます y añadiendo たい se expresa el deseo de hacer la acción: 沖縄[おきなわ]へ 行[い]きたいです. たい se conjuga como adjetivo -い (行[い]きたくないです, 行[い]きたかったです). El objeto puede marcarse con を o が.",
+        "en": "Dropping ます and adding たい expresses the wish to do the action: 沖縄[おきなわ]へ 行[い]きたいです. たい conjugates like an -い adjective (行[い]きたくないです, 行[い]きたかったです). The object may be marked with を or が."
       },
       "examples": [
         {
           "jp": "てんぷらを 食[た]べたいです。",
           "translation": {
-            "es": "Quiero comer tempura."
+            "es": "Quiero comer tempura.",
+            "en": "I want to eat tempura."
           }
         },
         {
           "jp": "今日[きょう]はどこ[へ]も 行[い]きたくないです。",
           "translation": {
-            "es": "Hoy no quiero ir a ningún sitio."
+            "es": "Hoy no quiero ir a ningún sitio.",
+            "en": "I don't want to go anywhere today."
           }
         }
       ]
@@ -54,23 +68,30 @@
     {
       "id": "ni-ikimasu",
       "title": {
-        "es": "N (lugar) へ V に 行[い]きます — el propósito"
+        "es": "N (lugar) へ V に 行[い]きます — el propósito",
+        "en": "N (place) へ V に 行[い]きます — purpose"
       },
-      "pattern": "lugar へ V (forma ます)／N に 行[い]きます／来[き]ます／帰[かえ]ります",
+      "pattern": {
+        "es": "lugar へ V (forma ます)／N に 行[い]きます／来[き]ます／帰[かえ]ります",
+        "en": "place へ V (ます form)／N に 行[い]きます／来[き]ます／帰[かえ]ります"
+      },
       "explanation": {
-        "es": "に marca el propósito del desplazamiento; puede ser la raíz de un verbo (泳[およ]ぎに 行[い]きます, ir a nadar) o un sustantivo de acción (買[か]い 物[もの]に 行[い]きます, ir de compras)."
+        "es": "に marca el propósito del desplazamiento; puede ser la raíz de un verbo (泳[およ]ぎに 行[い]きます, ir a nadar) o un sustantivo de acción (買[か]い 物[もの]に 行[い]きます, ir de compras).",
+        "en": "に marks the purpose of the trip; it can take a verb stem (泳[およ]ぎに 行[い]きます, to go swimming) or an action noun (買[か]い 物[もの]に 行[い]きます, to go shopping)."
       },
       "examples": [
         {
           "jp": "神戸[こうべ]へインド 料理[りょうり]を 食[た]べに 行[い]きます。",
           "translation": {
-            "es": "Voy a Kobe a comer comida india."
+            "es": "Voy a Kobe a comer comida india.",
+            "en": "I'm going to Kobe to eat Indian food."
           }
         },
         {
           "jp": "日本[にほん]へ 美術[びじゅつ]の 勉強[べんきょう]に 来[き]ました。",
           "translation": {
-            "es": "Vine a Japón a estudiar bellas artes."
+            "es": "Vine a Japón a estudiar bellas artes.",
+            "en": "I came to Japan to study fine art."
           }
         }
       ]
@@ -78,17 +99,22 @@
     {
       "id": "dokoka-nanika",
       "title": {
-        "es": "どこか／何[なに]か — «algún sitio, algo»"
+        "es": "どこか／何[なに]か — «algún sitio, algo»",
+        "en": "どこか／何[なに]か — \"somewhere, something\""
       },
-      "pattern": "どこか へ ／ 何[なに]か を",
+      "pattern": {
+        "es": "どこか へ ／ 何[なに]か を"
+      },
       "explanation": {
-        "es": "どこか (algún lugar) y 何[なに]か (algo) convierten el interrogativo en indefinido. Las partículas へ y を suelen omitirse tras ellos: どこか 行[い]きましたか."
+        "es": "どこか (algún lugar) y 何[なに]か (algo) convierten el interrogativo en indefinido. Las partículas へ y を suelen omitirse tras ellos: どこか 行[い]きましたか.",
+        "en": "どこか (somewhere) and 何[なに]か (something) turn the question word into an indefinite. The particles へ and を are usually dropped after them: どこか 行[い]きましたか."
       },
       "examples": [
         {
           "jp": "冬休[ふゆやす]みはどこか 行[い]きましたか。…はい、 北海道[ほっかいどう]へ 行[い]きました。",
           "translation": {
-            "es": "¿Fuiste a algún sitio en vacaciones de invierno? …Sí, fui a Hokkaido."
+            "es": "¿Fuiste a algún sitio en vacaciones de invierno? …Sí, fui a Hokkaido.",
+            "en": "Did you go anywhere over the winter holidays? …Yes, I went to Hokkaido."
           }
         }
       ]
@@ -96,17 +122,23 @@
     {
       "id": "go-cortesia",
       "title": {
-        "es": "ご〜 — prefijo de cortesía"
+        "es": "ご〜 — prefijo de cortesía",
+        "en": "ご〜 — the polite prefix"
       },
-      "pattern": "ご + N (de origen chino)",
+      "pattern": {
+        "es": "ご + N (de origen chino)",
+        "en": "ご + N (Sino-Japanese)"
+      },
       "explanation": {
-        "es": "ご es el equivalente de お para palabras de lectura china: ご 注文[ちゅうもん] (su pedido), ご 家族[かぞく] (su familia). Ambos prefijos muestran respeto hacia las cosas del oyente."
+        "es": "ご es el equivalente de お para palabras de lectura china: ご 注文[ちゅうもん] (su pedido), ご 家族[かぞく] (su familia). Ambos prefijos muestran respeto hacia las cosas del oyente.",
+        "en": "ご is the counterpart of お for words with Chinese readings: ご 注文[ちゅうもん] (your order), ご 家族[かぞく] (your family). Both prefixes show respect for the listener's things."
       },
       "examples": [
         {
           "jp": "ご 注文[ちゅうもん]は？… 牛[ぎゅう]どんをお 願[ねが]いします。",
           "translation": {
-            "es": "¿Qué desea pedir? …Un gyudon, por favor."
+            "es": "¿Qué desea pedir? …Un gyudon, por favor.",
+            "en": "What would you like to order? …A gyudon, please."
           }
         }
       ]

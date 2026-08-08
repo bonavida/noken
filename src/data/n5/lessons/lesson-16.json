@@ -2,33 +2,41 @@
   "level": "n5",
   "number": 16,
   "title": {
-    "es": "Encadenar acciones y describir"
+    "es": "Encadenar acciones y describir",
+    "en": "Linking actions and describing"
   },
   "jpTitle": "使[つか]い 方[かた]を 教[おし]えてください",
   "description": {
-    "es": "Une varias acciones seguidas con la forma て, describe características con 〜は〜が y pregunta cómo se hace algo."
+    "es": "Une varias acciones seguidas con la forma て, describe características con 〜は〜が y pregunta cómo se hace algo.",
+    "en": "Chain several actions with the て form, describe features with 〜は〜が, and ask how something is done."
   },
   "grammar": [
     {
       "id": "te-encadenar",
       "title": {
-        "es": "V1 て、V2 — acciones en secuencia"
+        "es": "V1 て、V2 — acciones en secuencia",
+        "en": "V1 て、V2 — actions in sequence"
       },
-      "pattern": "V1 て、V2 て、… ／ A-くて／A-なで、〜",
+      "pattern": {
+        "es": "V1 て、V2 て、… ／ A-くて／A-なで、〜"
+      },
       "explanation": {
-        "es": "La forma て encadena acciones en orden cronológico: 朝[あさ] 起[お]きて、シャワーを 浴[あ]びて、 会社[かいしゃ]へ 行[い]きます. Los adjetivos también se encadenan: -い con 〜くて (安[やす]くておいしい) y los -な y sustantivos con で (ハンサムで 親切[しんせつ]です)."
+        "es": "La forma て encadena acciones en orden cronológico: 朝[あさ] 起[お]きて、シャワーを 浴[あ]びて、 会社[かいしゃ]へ 行[い]きます. Los adjetivos también se encadenan: -い con 〜くて (安[やす]くておいしい) y los -な y sustantivos con で (ハンサムで 親切[しんせつ]です).",
+        "en": "The て form chains actions in chronological order: 朝[あさ] 起[お]きて、シャワーを 浴[あ]びて、 会社[かいしゃ]へ 行[い]きます. Adjectives chain too: -い ones with 〜くて (安[やす]くておいしい), and -な ones and nouns with で (ハンサムで 親切[しんせつ]です)."
       },
       "examples": [
         {
           "jp": "日曜日[にちようび]は 買[か]い 物[もの]して、 映画[えいが]を 見[み]ました。",
           "translation": {
-            "es": "El domingo hice compras y vi una película."
+            "es": "El domingo hice compras y vi una película.",
+            "en": "On Sunday I went shopping and saw a film."
           }
         },
         {
           "jp": "奈良[なら]は 静[しず]かで、きれいな 町[まち]です。",
           "translation": {
-            "es": "Nara es una ciudad tranquila y bonita."
+            "es": "Nara es una ciudad tranquila y bonita.",
+            "en": "Nara is a quiet, beautiful town."
           }
         }
       ]
@@ -36,17 +44,22 @@
     {
       "id": "te-kara",
       "title": {
-        "es": "V1 てから、V2 — «después de…»"
+        "es": "V1 てから、V2 — «después de…»",
+        "en": "V1 てから、V2 — \"after…\""
       },
-      "pattern": "V1 てから、V2",
+      "pattern": {
+        "es": "V1 てから、V2"
+      },
       "explanation": {
-        "es": "〜てから subraya que la segunda acción ocurre una vez terminada la primera: 仕事[しごと]が 終[お]わってから、 泳[およ]ぎに 行[い]きます."
+        "es": "〜てから subraya que la segunda acción ocurre una vez terminada la primera: 仕事[しごと]が 終[お]わってから、 泳[およ]ぎに 行[い]きます.",
+        "en": "〜てから stresses that the second action happens once the first is finished: 仕事[しごと]が 終[お]わってから、 泳[およ]ぎに 行[い]きます."
       },
       "examples": [
         {
           "jp": "お 金[かね]を 入[い]れてから、ボタンを 押[お]してください。",
           "translation": {
-            "es": "Después de meter el dinero, pulse el botón."
+            "es": "Después de meter el dinero, pulse el botón.",
+            "en": "After putting the money in, press the button."
           }
         }
       ]
@@ -54,17 +67,22 @@
     {
       "id": "wa-ga",
       "title": {
-        "es": "N1 は N2 が A — describir una parte"
+        "es": "N1 は N2 が A — describir una parte",
+        "en": "N1 は N2 が A — describing a part"
       },
-      "pattern": "N1 は N2 が A です",
+      "pattern": {
+        "es": "N1 は N2 が A です"
+      },
       "explanation": {
-        "es": "Para describir una característica de una parte del tema se usa は…が…: 大阪[おおさか]は 食[た]べ 物[もの]が おいしいです (en Osaka la comida está rica), マリアさんは 髪[かみ]が 長[なが]いです."
+        "es": "Para describir una característica de una parte del tema se usa は…が…: 大阪[おおさか]は 食[た]べ 物[もの]が おいしいです (en Osaka la comida está rica), マリアさんは 髪[かみ]が 長[なが]いです.",
+        "en": "To describe a feature of part of the topic you use は…が…: 大阪[おおさか]は 食[た]べ 物[もの]が おいしいです (the food in Osaka is delicious), マリアさんは 髪[かみ]が 長[なが]いです."
       },
       "examples": [
         {
           "jp": "ミラーさんは 背[せ]が 高[たか]いです。",
           "translation": {
-            "es": "El Sr. Miller es alto."
+            "es": "El Sr. Miller es alto.",
+            "en": "Mr. Miller is tall."
           }
         }
       ]
@@ -72,17 +90,23 @@
     {
       "id": "o-salir",
       "title": {
-        "es": "N を 出[で]ます／降[お]ります — el punto de salida"
+        "es": "N を 出[で]ます／降[お]ります — el punto de salida",
+        "en": "N を 出[で]ます／降[お]ります — the point you leave from"
       },
-      "pattern": "N を V (salir, bajar)",
+      "pattern": {
+        "es": "N を V (salir, bajar)",
+        "en": "N を V (to leave, to get off)"
+      },
       "explanation": {
-        "es": "を también marca el lugar del que se sale o baja: 電車[でんしゃ]を 降[お]ります (bajar del tren), 大学[だいがく]を 出[で]ます (graduarse)."
+        "es": "を también marca el lugar del que se sale o baja: 電車[でんしゃ]を 降[お]ります (bajar del tren), 大学[だいがく]を 出[で]ます (graduarse).",
+        "en": "を also marks the place you leave or get off: 電車[でんしゃ]を 降[お]ります (to get off the train), 大学[だいがく]を 出[で]ます (to graduate)."
       },
       "examples": [
         {
           "jp": "梅田[うめだ]で 電車[でんしゃ]を 降[お]りてください。",
           "translation": {
-            "es": "Baje del tren en Umeda."
+            "es": "Baje del tren en Umeda.",
+            "en": "Get off the train at Umeda."
           }
         }
       ]
@@ -90,17 +114,22 @@
     {
       "id": "douyatte",
       "title": {
-        "es": "どうやって — «¿cómo se hace?»"
+        "es": "どうやって — «¿cómo se hace?»",
+        "en": "どうやって — \"how do you do it?\""
       },
-      "pattern": "どうやって V ますか",
+      "pattern": {
+        "es": "どうやって V ますか"
+      },
       "explanation": {
-        "es": "どうやって pregunta la manera o el procedimiento; se responde encadenando pasos con la forma て."
+        "es": "どうやって pregunta la manera o el procedimiento; se responde encadenando pasos con la forma て.",
+        "en": "どうやって asks about the manner or procedure; the answer chains the steps with the て form."
       },
       "examples": [
         {
           "jp": "大学[だいがく]までどうやって 行[い]きますか。… 京都駅[きょうとえき]から16 番[ばん]のバスに 乗[の]って、 大学前[だいがくまえ]で 降[お]ります。",
           "translation": {
-            "es": "¿Cómo se va a la universidad? …Desde la estación de Kioto tomo el bus 16 y bajo en Daigaku-mae."
+            "es": "¿Cómo se va a la universidad? …Desde la estación de Kioto tomo el bus 16 y bajo en Daigaku-mae.",
+            "en": "How do you get to the university? …From Kyoto station I take bus 16 and get off at Daigaku-mae."
           }
         }
       ]
@@ -108,17 +137,22 @@
     {
       "id": "dore-dono",
       "title": {
-        "es": "どれ／どの N — «cuál» (entre tres o más)"
+        "es": "どれ／どの N — «cuál» (entre tres o más)",
+        "en": "どれ／どの N — \"which\" (of three or more)"
       },
-      "pattern": "どれ ／ どの N",
+      "pattern": {
+        "es": "どれ ／ どの N"
+      },
       "explanation": {
-        "es": "Para elegir entre tres o más opciones se usa どれ (solo) o どの + sustantivo: どれが 私[わたし]の 傘[かさ]ですか, どの 人[ひと]が 山田[やまだ]さんですか."
+        "es": "Para elegir entre tres o más opciones se usa どれ (solo) o どの + sustantivo: どれが 私[わたし]の 傘[かさ]ですか, どの 人[ひと]が 山田[やまだ]さんですか.",
+        "en": "To choose among three or more options you use どれ (on its own) or どの + noun: どれが 私[わたし]の 傘[かさ]ですか, どの 人[ひと]が 山田[やまだ]さんですか."
       },
       "examples": [
         {
           "jp": "ミラーさんはどの 人[ひと]ですか。…あの 背[せ]が 高[たか]い 人[ひと]です。",
           "translation": {
-            "es": "¿Cuál es el Sr. Miller? …Aquel alto."
+            "es": "¿Cuál es el Sr. Miller? …Aquel alto.",
+            "en": "Which one is Mr. Miller? …That tall one."
           }
         }
       ]

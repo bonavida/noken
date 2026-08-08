@@ -63,7 +63,7 @@ export const GET = async ({ props }: { props: { locale: Locale } }) => {
   const grammarEntries: SearchEntry[] = lessons.flatMap(({ data }) =>
     data.grammar.map((point) => ({
       kind: 'grammar' as const,
-      jp: point.pattern,
+      jp: pickLocale(point.pattern, locale),
       es: pickLocale(point.title, locale),
       href: localePath(`/${data.level}/lessons/${data.number}#${point.id}`, locale),
       lesson: data.number,

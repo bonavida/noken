@@ -2,33 +2,42 @@
   "level": "n5",
   "number": 5,
   "title": {
-    "es": "Ir y venir"
+    "es": "Ir y venir",
+    "en": "Coming and going"
   },
   "jpTitle": "この 電車[でんしゃ]は 甲子園[こうしえん]へ 行[い]きますか",
   "description": {
-    "es": "Habla de desplazamientos: adónde vas, con qué medio de transporte, con quién y cuándo."
+    "es": "Habla de desplazamientos: adónde vas, con qué medio de transporte, con quién y cuándo.",
+    "en": "Talk about travel: where you are going, by what means of transport, with whom and when."
   },
   "grammar": [
     {
       "id": "e-ikimasu",
       "title": {
-        "es": "N (lugar) へ 行[い]きます／来[き]ます／帰[かえ]ります"
+        "es": "N (lugar) へ 行[い]きます／来[き]ます／帰[かえ]ります",
+        "en": "N (place) へ 行[い]きます／来[き]ます／帰[かえ]ります"
       },
-      "pattern": "lugar へ 行[い]きます／来[き]ます／帰[かえ]ります",
+      "pattern": {
+        "es": "lugar へ 行[い]きます／来[き]ます／帰[かえ]ります",
+        "en": "place へ 行[い]きます／来[き]ます／帰[かえ]ります"
+      },
       "explanation": {
-        "es": "La partícula へ (se lee «e») marca la dirección del movimiento con los verbos ir, venir y volver."
+        "es": "La partícula へ (se lee «e») marca la dirección del movimiento con los verbos ir, venir y volver.",
+        "en": "The particle へ (read \"e\") marks the direction of movement with the verbs to go, to come and to return."
       },
       "examples": [
         {
           "jp": "京都[きょうと]へ 行[い]きます。",
           "translation": {
-            "es": "Voy a Kioto."
+            "es": "Voy a Kioto.",
+            "en": "I'm going to Kyoto."
           }
         },
         {
           "jp": "うちへ 帰[かえ]ります。",
           "translation": {
-            "es": "Vuelvo a casa."
+            "es": "Vuelvo a casa.",
+            "en": "I'm going back home."
           }
         }
       ]
@@ -36,17 +45,23 @@
     {
       "id": "doko-mo",
       "title": {
-        "es": "どこ[へ]も 行[い]きません — «a ningún sitio»"
+        "es": "どこ[へ]も 行[い]きません — «a ningún sitio»",
+        "en": "どこ[へ]も 行[い]きません — \"nowhere\""
       },
-      "pattern": "どこ[へ]も V (negativo)",
+      "pattern": {
+        "es": "どこ[へ]も V (negativo)",
+        "en": "どこ[へ]も V (negative)"
+      },
       "explanation": {
-        "es": "Un interrogativo + も con el verbo en negativo niega todo el ámbito de la pregunta: どこも 行[い]きません significa «no voy a ninguna parte»."
+        "es": "Un interrogativo + も con el verbo en negativo niega todo el ámbito de la pregunta: どこも 行[い]きません significa «no voy a ninguna parte».",
+        "en": "A question word + も with a negative verb negates the whole range of the question: どこも 行[い]きません means \"I'm not going anywhere\"."
       },
       "examples": [
         {
           "jp": "きのうどこ[へ]も 行[い]きませんでした。",
           "translation": {
-            "es": "Ayer no fui a ningún sitio."
+            "es": "Ayer no fui a ningún sitio.",
+            "en": "I didn't go anywhere yesterday."
           }
         }
       ]
@@ -54,23 +69,30 @@
     {
       "id": "de-vehiculo",
       "title": {
-        "es": "N (vehículo) で 行[い]きます — medio de transporte"
+        "es": "N (vehículo) で 行[い]きます — medio de transporte",
+        "en": "N (vehicle) で 行[い]きます — means of transport"
       },
-      "pattern": "vehículo で 行[い]きます／来[き]ます／帰[かえ]ります",
+      "pattern": {
+        "es": "vehículo で 行[い]きます／来[き]ます／帰[かえ]ります",
+        "en": "vehicle で 行[い]きます／来[き]ます／帰[かえ]ります"
+      },
       "explanation": {
-        "es": "La partícula で indica el medio de transporte. Para «a pie» se usa 歩[ある]いて, sin partícula."
+        "es": "La partícula で indica el medio de transporte. Para «a pie» se usa 歩[ある]いて, sin partícula.",
+        "en": "The particle で indicates the means of transport. For \"on foot\" you use 歩[ある]いて, with no particle."
       },
       "examples": [
         {
           "jp": "電車[でんしゃ]で 会社[かいしゃ]へ 行[い]きます。",
           "translation": {
-            "es": "Voy a la empresa en tren."
+            "es": "Voy a la empresa en tren.",
+            "en": "I go to the company by train."
           }
         },
         {
           "jp": "駅[えき]から 歩[ある]いて 帰[かえ]ります。",
           "translation": {
-            "es": "Vuelvo a pie desde la estación."
+            "es": "Vuelvo a pie desde la estación.",
+            "en": "I walk home from the station."
           }
         }
       ]
@@ -78,23 +100,30 @@
     {
       "id": "to-persona",
       "title": {
-        "es": "N (persona/animal) と V — «con alguien»"
+        "es": "N (persona/animal) と V — «con alguien»",
+        "en": "N (person/animal) と V — \"with someone\""
       },
-      "pattern": "persona と V",
+      "pattern": {
+        "es": "persona と V",
+        "en": "person と V"
+      },
       "explanation": {
-        "es": "と marca la persona (o animal) con quien se hace la acción. «Solo» se dice 一人[ひとり]で, sin と."
+        "es": "と marca la persona (o animal) con quien se hace la acción. «Solo» se dice 一人[ひとり]で, sin と.",
+        "en": "と marks the person (or animal) you do the action with. \"Alone\" is 一人[ひとり]で, without と."
       },
       "examples": [
         {
           "jp": "家族[かぞく]と 日本[にほん]へ 来[き]ました。",
           "translation": {
-            "es": "Vine a Japón con mi familia."
+            "es": "Vine a Japón con mi familia.",
+            "en": "I came to Japan with my family."
           }
         },
         {
           "jp": "一人[ひとり]で 東京[とうきょう]へ 行[い]きます。",
           "translation": {
-            "es": "Voy solo a Tokio."
+            "es": "Voy solo a Tokio.",
+            "en": "I'm going to Tokyo alone."
           }
         }
       ]
@@ -102,17 +131,22 @@
     {
       "id": "itsu",
       "title": {
-        "es": "いつ — «cuándo»"
+        "es": "いつ — «cuándo»",
+        "en": "いつ — \"when\""
       },
-      "pattern": "いつ V ますか",
+      "pattern": {
+        "es": "いつ V ますか"
+      },
       "explanation": {
-        "es": "いつ pregunta por el momento sin necesitar partícula に. En la respuesta, に aparece solo si el momento es numérico (fecha u hora)."
+        "es": "いつ pregunta por el momento sin necesitar partícula に. En la respuesta, に aparece solo si el momento es numérico (fecha u hora).",
+        "en": "いつ asks about a time without needing the particle に. In the answer, に only appears if the time is a number (a date or a clock time)."
       },
       "examples": [
         {
           "jp": "いつ 日本[にほん]へ 来[き]ましたか。…3 月[がつ]25 日[にち]に 来[き]ました。",
           "translation": {
-            "es": "¿Cuándo viniste a Japón? …Vine el 25 de marzo."
+            "es": "¿Cuándo viniste a Japón? …Vine el 25 de marzo.",
+            "en": "When did you come to Japan? …I came on 25 March."
           }
         }
       ]
@@ -120,17 +154,22 @@
     {
       "id": "yo",
       "title": {
-        "es": "〜よ — dar información nueva"
+        "es": "〜よ — dar información nueva",
+        "en": "〜よ — giving new information"
       },
-      "pattern": "S よ",
+      "pattern": {
+        "es": "S よ"
+      },
       "explanation": {
-        "es": "La partícula final よ enfatiza que se está dando información que el oyente no conoce, como un aviso amable."
+        "es": "La partícula final よ enfatiza que se está dando información que el oyente no conoce, como un aviso amable.",
+        "en": "The sentence-final particle よ stresses that you are giving information the listener does not have, like a friendly heads-up."
       },
       "examples": [
         {
           "jp": "この 電車[でんしゃ]は 甲子園[こうしえん]へ 行[い]きませんよ。",
           "translation": {
-            "es": "Este tren no va a Koshien, ¿eh?"
+            "es": "Este tren no va a Koshien, ¿eh?",
+            "en": "This train doesn't go to Koshien, you know."
           }
         }
       ]
@@ -138,17 +177,22 @@
     {
       "id": "sou-desu-ne",
       "title": {
-        "es": "そうですね — mostrar acuerdo"
+        "es": "そうですね — mostrar acuerdo",
+        "en": "そうですね — showing agreement"
       },
-      "pattern": "そうですね",
+      "pattern": {
+        "es": "そうですね"
+      },
       "explanation": {
-        "es": "Expresa acuerdo o simpatía con lo dicho («es verdad», «estoy de acuerdo»). No confundir con そうですか, que reacciona ante información nueva."
+        "es": "Expresa acuerdo o simpatía con lo dicho («es verdad», «estoy de acuerdo»). No confundir con そうですか, que reacciona ante información nueva.",
+        "en": "It expresses agreement or sympathy with what was said (\"that's true\", \"I agree\"). Don't confuse it with そうですか, which reacts to new information."
       },
       "examples": [
         {
           "jp": "今日[きょう]はいい 天気[てんき]ですね。…そうですね。",
           "translation": {
-            "es": "Hoy hace buen tiempo, ¿verdad? …Es verdad."
+            "es": "Hoy hace buen tiempo, ¿verdad? …Es verdad.",
+            "en": "The weather is nice today, isn't it? …It is."
           }
         }
       ]

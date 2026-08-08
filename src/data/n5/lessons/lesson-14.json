@@ -2,27 +2,35 @@
   "level": "n5",
   "number": 14,
   "title": {
-    "es": "La forma て"
+    "es": "La forma て",
+    "en": "The て form"
   },
   "jpTitle": "みどり 町[ちょう]までお 願[ねが]いします",
   "description": {
-    "es": "Los tres grupos de verbos, la forma て y sus primeros usos: pedir (〜てください) y acciones en curso (〜ています)."
+    "es": "Los tres grupos de verbos, la forma て y sus primeros usos: pedir (〜てください) y acciones en curso (〜ています).",
+    "en": "The three verb groups, the て form and its first uses: making requests (〜てください) and actions in progress (〜ています)."
   },
   "grammar": [
     {
       "id": "grupos-verbos",
       "title": {
-        "es": "Los tres grupos de verbos"
+        "es": "Los tres grupos de verbos",
+        "en": "The three verb groups"
       },
-      "pattern": "Grupo I (godan) ／ Grupo II (ichidan) ／ Grupo III (irregulares)",
+      "pattern": {
+        "es": "Grupo I (godan) ／ Grupo II (ichidan) ／ Grupo III (irregulares)",
+        "en": "Group I (godan) ／ Group II (ichidan) ／ Group III (irregular)"
+      },
       "explanation": {
-        "es": "Los verbos japoneses se clasifican en tres grupos según cómo se conjugan. Grupo I: la sílaba anterior a ます suena en -i (書[か]きます, 飲[の]みます). Grupo II: suena en -e, o algunos en -i como 見[み]ます・います (食[た]べます, 起[お]きます). Grupo III: します y 来[き]ます. Conocer el grupo es imprescindible para formar la forma て."
+        "es": "Los verbos japoneses se clasifican en tres grupos según cómo se conjugan. Grupo I: la sílaba anterior a ます suena en -i (書[か]きます, 飲[の]みます). Grupo II: suena en -e, o algunos en -i como 見[み]ます・います (食[た]べます, 起[お]きます). Grupo III: します y 来[き]ます. Conocer el grupo es imprescindible para formar la forma て.",
+        "en": "Japanese verbs fall into three groups according to how they conjugate. Group I: the syllable before ます ends in -i (書[か]きます, 飲[の]みます). Group II: it ends in -e, or in -i for a few like 見[み]ます・います (食[た]べます, 起[お]きます). Group III: します and 来[き]ます. Knowing the group is essential for building the て form."
       },
       "examples": [
         {
           "jp": "書[か]きます（I）・ 食[た]べます（II）・します（III）",
           "translation": {
-            "es": "Escribir (I), comer (II), hacer (III)."
+            "es": "Escribir (I), comer (II), hacer (III).",
+            "en": "To write (I), to eat (II), to do (III)."
           }
         }
       ]
@@ -30,17 +38,22 @@
     {
       "id": "forma-te",
       "title": {
-        "es": "La forma て"
+        "es": "La forma て",
+        "en": "The て form"
       },
-      "pattern": "書[か]きます→書[か]いて ／ 飲[の]みます→飲[の]んで ／ 食[た]べます→食[た]べて ／ します→して",
+      "pattern": {
+        "es": "書[か]きます→書[か]いて ／ 飲[の]みます→飲[の]んで ／ 食[た]べます→食[た]べて ／ します→して"
+      },
       "explanation": {
-        "es": "En el grupo I la terminación cambia según la sílaba: き→いて (書[か]いて), ぎ→いで (急[いそ]いで), み・び・に→んで (飲[の]んで, 呼[よ]んで), い・ち・り→って (買[か]って, 待[ま]って, 取[と]って), し→して (話[はな]して). 行[い]きます es excepción: 行[い]って. El grupo II solo cambia ます por て (食[た]べて) y el grupo III da して・来[き]て."
+        "es": "En el grupo I la terminación cambia según la sílaba: き→いて (書[か]いて), ぎ→いで (急[いそ]いで), み・び・に→んで (飲[の]んで, 呼[よ]んで), い・ち・り→って (買[か]って, 待[ま]って, 取[と]って), し→して (話[はな]して). 行[い]きます es excepción: 行[い]って. El grupo II solo cambia ます por て (食[た]べて) y el grupo III da して・来[き]て.",
+        "en": "In group I the ending changes with the syllable: き→いて (書[か]いて), ぎ→いで (急[いそ]いで), み・び・に→んで (飲[の]んで, 呼[よ]んで), い・ち・り→って (買[か]って, 待[ま]って, 取[と]って), し→して (話[はな]して). 行[い]きます is an exception: 行[い]って. Group II simply swaps ます for て (食[た]べて) and group III gives して・来[き]て."
       },
       "examples": [
         {
           "jp": "ちょっと 待[ま]って。",
           "translation": {
-            "es": "Espera un momento."
+            "es": "Espera un momento.",
+            "en": "Wait a moment."
           }
         }
       ]
@@ -48,23 +61,29 @@
     {
       "id": "te-kudasai",
       "title": {
-        "es": "V て ください — pedir"
+        "es": "V て ください — pedir",
+        "en": "V て ください — making a request"
       },
-      "pattern": "V て ください",
+      "pattern": {
+        "es": "V て ください"
+      },
       "explanation": {
-        "es": "La forma て + ください pide o instruye con cortesía: 住所[じゅうしょ]を 教[おし]えてください (deme su dirección, por favor)."
+        "es": "La forma て + ください pide o instruye con cortesía: 住所[じゅうしょ]を 教[おし]えてください (deme su dirección, por favor).",
+        "en": "The て form + ください asks or instructs politely: 住所[じゅうしょ]を 教[おし]えてください (please tell me your address)."
       },
       "examples": [
         {
           "jp": "すみませんが、この 漢字[かんじ]の 読[よ]み 方[かた]を 教[おし]えてください。",
           "translation": {
-            "es": "Disculpe, ¿me enseña cómo se lee este kanji?"
+            "es": "Disculpe, ¿me enseña cómo se lee este kanji?",
+            "en": "Excuse me, could you tell me how to read this kanji?"
           }
         },
         {
           "jp": "信号[しんごう]を 右[みぎ]へ 曲[ま]がってください。",
           "translation": {
-            "es": "Doble a la derecha en el semáforo."
+            "es": "Doble a la derecha en el semáforo.",
+            "en": "Turn right at the traffic light."
           }
         }
       ]
@@ -72,17 +91,22 @@
     {
       "id": "te-imasu",
       "title": {
-        "es": "V て います — acción en curso"
+        "es": "V て います — acción en curso",
+        "en": "V て います — action in progress"
       },
-      "pattern": "V て います",
+      "pattern": {
+        "es": "V て います"
+      },
       "explanation": {
-        "es": "〜ています expresa que la acción está ocurriendo ahora: 雨[あめ]が 降[ふ]っています (está lloviendo), ミラーさんは 今[いま] 電話[でんわ]を かけています."
+        "es": "〜ています expresa que la acción está ocurriendo ahora: 雨[あめ]が 降[ふ]っています (está lloviendo), ミラーさんは 今[いま] 電話[でんわ]を かけています.",
+        "en": "〜ています says the action is happening right now: 雨[あめ]が 降[ふ]っています (it's raining), ミラーさんは 今[いま] 電話[でんわ]を かけています."
       },
       "examples": [
         {
           "jp": "今[いま] 雨[あめ]が 降[ふ]っていますか。…いいえ、 降[ふ]っていません。",
           "translation": {
-            "es": "¿Está lloviendo ahora? …No, no llueve."
+            "es": "¿Está lloviendo ahora? …No, no llueve.",
+            "en": "Is it raining now? …No, it isn't."
           }
         }
       ]
@@ -90,17 +114,22 @@
     {
       "id": "mashou-ka",
       "title": {
-        "es": "V ましょうか — ofrecer ayuda"
+        "es": "V ましょうか — ofrecer ayuda",
+        "en": "V ましょうか — offering help"
       },
-      "pattern": "V ましょうか",
+      "pattern": {
+        "es": "V ましょうか"
+      },
       "explanation": {
-        "es": "ましょうか ofrece hacer algo por el oyente: 手伝[てつだ]いましょうか (¿te ayudo?). Se acepta con お 願[ねが]いします y se rechaza con けっこうです."
+        "es": "ましょうか ofrece hacer algo por el oyente: 手伝[てつだ]いましょうか (¿te ayudo?). Se acepta con お 願[ねが]いします y se rechaza con けっこうです.",
+        "en": "ましょうか offers to do something for the listener: 手伝[てつだ]いましょうか (shall I help you?). You accept with お 願[ねが]いします and decline with けっこうです."
       },
       "examples": [
         {
           "jp": "荷物[にもつ]を 持[も]ちましょうか。…すみません。お 願[ねが]いします。",
           "translation": {
-            "es": "¿Le llevo el equipaje? …Gracias, por favor."
+            "es": "¿Le llevo el equipaje? …Gracias, por favor.",
+            "en": "Shall I carry your luggage? …Yes, please, thank you."
           }
         }
       ]
@@ -108,17 +137,22 @@
     {
       "id": "ga-fenomeno",
       "title": {
-        "es": "N が V — describir fenómenos"
+        "es": "N が V — describir fenómenos",
+        "en": "N が V — describing what you notice"
       },
-      "pattern": "N が V",
+      "pattern": {
+        "es": "N が V"
+      },
       "explanation": {
-        "es": "Cuando se describe un fenómeno tal como se percibe, sin tematizarlo, el sujeto va con が: 雨[あめ]が 降[ふ]っています."
+        "es": "Cuando se describe un fenómeno tal como se percibe, sin tematizarlo, el sujeto va con が: 雨[あめ]が 降[ふ]っています.",
+        "en": "When you describe something just as you perceive it, without making it the topic, the subject takes が: 雨[あめ]が 降[ふ]っています."
       },
       "examples": [
         {
           "jp": "あれ？ 雪[ゆき]が 降[ふ]っていますよ。",
           "translation": {
-            "es": "¿Eh? ¡Está nevando!"
+            "es": "¿Eh? ¡Está nevando!",
+            "en": "Oh! It's snowing!"
           }
         }
       ]
@@ -126,17 +160,22 @@
     {
       "id": "sumimasen-ga",
       "title": {
-        "es": "すみませんが — introducir una petición"
+        "es": "すみませんが — introducir una petición",
+        "en": "すみませんが — leading into a request"
       },
-      "pattern": "すみませんが、〜てください",
+      "pattern": {
+        "es": "すみませんが、〜てください"
+      },
       "explanation": {
-        "es": "すみませんが suaviza el inicio de una petición («disculpe, pero…»). No expresa disculpa real sino cortesía."
+        "es": "すみませんが suaviza el inicio de una petición («disculpe, pero…»). No expresa disculpa real sino cortesía.",
+        "en": "すみませんが softens the start of a request (\"excuse me, but…\"). It isn't a real apology, just politeness."
       },
       "examples": [
         {
           "jp": "すみませんが、 塩[しお]を 取[と]ってください。",
           "translation": {
-            "es": "Perdona, ¿me pasas la sal?"
+            "es": "Perdona, ¿me pasas la sal?",
+            "en": "Sorry, could you pass me the salt?"
           }
         }
       ]

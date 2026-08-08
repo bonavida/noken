@@ -152,40 +152,43 @@ export const KANA_MARKS: KanaMark[] = [
   {
     id: 'sokuon',
     symbol: 'っ ッ',
-    name: { es: 'Sokuon — つ pequeña' },
+    name: { es: 'Sokuon — つ pequeña', en: 'Sokuon — the small つ' },
     effect: {
       es: 'Una つ escrita en pequeño no se pronuncia: duplica la consonante siguiente y marca una pausa breve, como en «gato» frente a «gatto». Nunca aparece al final de una palabra.',
+      en: 'A つ written small is not pronounced: it doubles the following consonant and marks a short pause, like the difference between "kite" and "kitte". It never appears at the end of a word.',
     },
     examples: [
-      { word: '切手[きって]', romaji: 'kitte', meaning: { es: 'sello' } },
-      { word: '学校[がっこう]', romaji: 'gakkō', meaning: { es: 'escuela' } },
-      { word: '雑誌[ざっし]', romaji: 'zasshi', meaning: { es: 'revista' } },
+      { word: '切手[きって]', romaji: 'kitte', meaning: { es: 'sello', en: 'stamp' } },
+      { word: '学校[がっこう]', romaji: 'gakkō', meaning: { es: 'escuela', en: 'school' } },
+      { word: '雑誌[ざっし]', romaji: 'zasshi', meaning: { es: 'revista', en: 'magazine' } },
     ],
   },
   {
     id: 'chouonpu',
     symbol: 'ー',
-    name: { es: 'Chōonpu — raya de alargamiento' },
+    name: { es: 'Chōonpu — raya de alargamiento', en: 'Chōonpu — the lengthening mark' },
     effect: {
       es: 'Alarga la vocal anterior durante otro tiempo. Se usa solo en katakana, sobre todo en préstamos de otros idiomas, y se escribe horizontal aunque el texto sea vertical.',
+      en: 'It holds the preceding vowel for one extra beat. It is used only in katakana, mostly in loanwords, and is written horizontally even in vertical text.',
     },
     examples: [
-      { word: 'コーヒー', romaji: 'kōhī', meaning: { es: 'café' } },
-      { word: 'スーパー', romaji: 'sūpā', meaning: { es: 'supermercado' } },
-      { word: 'タクシー', romaji: 'takushī', meaning: { es: 'taxi' } },
+      { word: 'コーヒー', romaji: 'kōhī', meaning: { es: 'café', en: 'coffee' } },
+      { word: 'スーパー', romaji: 'sūpā', meaning: { es: 'supermercado', en: 'supermarket' } },
+      { word: 'タクシー', romaji: 'takushī', meaning: { es: 'taxi', en: 'taxi' } },
     ],
   },
   {
     id: 'long-vowels',
     symbol: 'おう えい',
-    name: { es: 'Vocales largas en hiragana' },
+    name: { es: 'Vocales largas en hiragana', en: 'Long vowels in hiragana' },
     effect: {
       es: 'El hiragana no usa ー: la vocal se alarga añadiendo otra vocal. お se alarga casi siempre con う (y a veces con お), y え con い.',
+      en: 'Hiragana does not use ー: a vowel is lengthened by adding another vowel. お is almost always lengthened with う (and sometimes with お), and え with い.',
     },
     examples: [
-      { word: '高校[こうこう]', romaji: 'kōkō', meaning: { es: 'instituto' } },
-      { word: '先生[せんせい]', romaji: 'sensei', meaning: { es: 'profesor' } },
-      { word: '大[おお]きい', romaji: 'ōkii', meaning: { es: 'grande' } },
+      { word: '高校[こうこう]', romaji: 'kōkō', meaning: { es: 'instituto', en: 'high school' } },
+      { word: '先生[せんせい]', romaji: 'sensei', meaning: { es: 'profesor', en: 'teacher' } },
+      { word: '大[おお]きい', romaji: 'ōkii', meaning: { es: 'grande', en: 'big' } },
     ],
   },
 ];

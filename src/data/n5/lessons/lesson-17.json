@@ -2,27 +2,34 @@
   "level": "n5",
   "number": 17,
   "title": {
-    "es": "La forma ない"
+    "es": "La forma ない",
+    "en": "The ない form"
   },
   "jpTitle": "どうしましたか",
   "description": {
-    "es": "La forma negativa simple del verbo y sus usos: no hagas, tienes que, no hace falta."
+    "es": "La forma negativa simple del verbo y sus usos: no hagas, tienes que, no hace falta.",
+    "en": "The plain negative form of the verb and its uses: don't do, you have to, you don't need to."
   },
   "grammar": [
     {
       "id": "forma-nai",
       "title": {
-        "es": "La forma ない"
+        "es": "La forma ない",
+        "en": "The ない form"
       },
-      "pattern": "書[か]きます→書[か]かない ／ 食[た]べます→食[た]べない ／ します→しない ／ 来[き]ます→来[こ]ない",
+      "pattern": {
+        "es": "書[か]きます→書[か]かない ／ 食[た]べます→食[た]べない ／ します→しない ／ 来[き]ます→来[こ]ない"
+      },
       "explanation": {
-        "es": "En el grupo I la sílaba anterior a ます pasa de -i a -a y se añade ない (書[か]きます → 書[か]かない; 買[か]います → 買[か]わない). El grupo II cambia ます por ない (食[た]べない) y el grupo III da しない y 来[こ]ない."
+        "es": "En el grupo I la sílaba anterior a ます pasa de -i a -a y se añade ない (書[か]きます → 書[か]かない; 買[か]います → 買[か]わない). El grupo II cambia ます por ない (食[た]べない) y el grupo III da しない y 来[こ]ない.",
+        "en": "In group I the syllable before ます changes from -i to -a and ない is added (書[か]きます → 書[か]かない; 買[か]います → 買[か]わない). Group II swaps ます for ない (食[た]べない) and group III gives しない and 来[こ]ない."
       },
       "examples": [
         {
           "jp": "行[い]く → 行[い]かない ／ 飲[の]む → 飲[の]まない",
           "translation": {
-            "es": "Ir → no ir / beber → no beber."
+            "es": "Ir → no ir / beber → no beber.",
+            "en": "To go → not to go / to drink → not to drink."
           }
         }
       ]
@@ -30,17 +37,22 @@
     {
       "id": "naide-kudasai",
       "title": {
-        "es": "V ないで ください — «no hagas, por favor»"
+        "es": "V ないで ください — «no hagas, por favor»",
+        "en": "V ないで ください — \"please don't\""
       },
-      "pattern": "V ない で ください",
+      "pattern": {
+        "es": "V ない で ください"
+      },
       "explanation": {
-        "es": "Pide que no se haga algo: ここで 写真[しゃしん]を 撮[と]らないでください. También puede mostrar consideración: 心配[しんぱい]しないでください (no se preocupe)."
+        "es": "Pide que no se haga algo: ここで 写真[しゃしん]を 撮[と]らないでください. También puede mostrar consideración: 心配[しんぱい]しないでください (no se preocupe).",
+        "en": "It asks someone not to do something: ここで 写真[しゃしん]を 撮[と]らないでください. It can also show concern: 心配[しんぱい]しないでください (don't worry)."
       },
       "examples": [
         {
           "jp": "ここでたばこを 吸[す]わないでください。",
           "translation": {
-            "es": "No fume aquí, por favor."
+            "es": "No fume aquí, por favor.",
+            "en": "Please don't smoke here."
           }
         }
       ]
@@ -48,17 +60,23 @@
     {
       "id": "nakereba-narimasen",
       "title": {
-        "es": "V なければ なりません — obligación"
+        "es": "V なければ なりません — obligación",
+        "en": "V なければ なりません — obligation"
       },
-      "pattern": "V (forma ない) なければ なりません",
+      "pattern": {
+        "es": "V (forma ない) なければ なりません",
+        "en": "V (ない form) なければ なりません"
+      },
       "explanation": {
-        "es": "Expresa obligación («tener que»), sin sentido negativo pese a la forma: 薬[くすり]を 飲[の]まなければ なりません (tengo que tomar la medicina)."
+        "es": "Expresa obligación («tener que»), sin sentido negativo pese a la forma: 薬[くすり]を 飲[の]まなければ なりません (tengo que tomar la medicina).",
+        "en": "It expresses obligation (\"have to\"), with no negative sense despite the form: 薬[くすり]を 飲[の]まなければ なりません (I have to take the medicine)."
       },
       "examples": [
         {
           "jp": "毎日[まいにち] 漢字[かんじ]を 勉強[べんきょう]しなければなりません。",
           "translation": {
-            "es": "Tengo que estudiar kanji todos los días."
+            "es": "Tengo que estudiar kanji todos los días.",
+            "en": "I have to study kanji every day."
           }
         }
       ]
@@ -66,17 +84,23 @@
     {
       "id": "nakutemo-ii",
       "title": {
-        "es": "V なくても いいです — «no hace falta»"
+        "es": "V なくても いいです — «no hace falta»",
+        "en": "V なくても いいです — \"you don't have to\""
       },
-      "pattern": "V (forma ない) なくても いいです",
+      "pattern": {
+        "es": "V (forma ない) なくても いいです",
+        "en": "V (ない form) なくても いいです"
+      },
       "explanation": {
-        "es": "Indica que la acción no es necesaria: あした 来[こ]なくても いいです (mañana no hace falta que vengas)."
+        "es": "Indica que la acción no es necesaria: あした 来[こ]なくても いいです (mañana no hace falta que vengas).",
+        "en": "It says the action isn't necessary: あした 来[こ]なくても いいです (you don't have to come tomorrow)."
       },
       "examples": [
         {
           "jp": "レポートは 出[だ]さなくてもいいです。",
           "translation": {
-            "es": "No hace falta entregar el informe."
+            "es": "No hace falta entregar el informe.",
+            "en": "You don't have to hand in the report."
           }
         }
       ]
@@ -84,17 +108,23 @@
     {
       "id": "objeto-tema",
       "title": {
-        "es": "N は — destacar el objeto como tema"
+        "es": "N は — destacar el objeto como tema",
+        "en": "N は — making the object the topic"
       },
-      "pattern": "N は (objeto tematizado)",
+      "pattern": {
+        "es": "N は (objeto tematizado)",
+        "en": "N は (topicalised object)"
+      },
       "explanation": {
-        "es": "El objeto de la oración puede convertirse en tema con は para hablar de él: 荷物[にもつ]は ロッカーに 入[い]れてください (el equipaje, métalo en la taquilla)."
+        "es": "El objeto de la oración puede convertirse en tema con は para hablar de él: 荷物[にもつ]は ロッカーに 入[い]れてください (el equipaje, métalo en la taquilla).",
+        "en": "The object of the sentence can become the topic with は so you can talk about it: 荷物[にもつ]は ロッカーに 入[い]れてください (as for your luggage, please put it in the locker)."
       },
       "examples": [
         {
           "jp": "保険証[ほけんしょう]は 持[も]ってきましたか。",
           "translation": {
-            "es": "¿Trajo la tarjeta del seguro?"
+            "es": "¿Trajo la tarjeta del seguro?",
+            "en": "Did you bring your insurance card?"
           }
         }
       ]
@@ -102,17 +132,23 @@
     {
       "id": "made-ni",
       "title": {
-        "es": "N (tiempo) までに V — fecha límite"
+        "es": "N (tiempo) までに V — fecha límite",
+        "en": "N (time) までに V — deadline"
       },
-      "pattern": "tiempo までに V",
+      "pattern": {
+        "es": "tiempo までに V",
+        "en": "time までに V"
+      },
       "explanation": {
-        "es": "までに marca el plazo antes del cual debe ocurrir la acción: 土曜日[どようび]までに 本[ほん]を 返[かえ]さなければ なりません. No confundir con まで (hasta, de forma continuada)."
+        "es": "までに marca el plazo antes del cual debe ocurrir la acción: 土曜日[どようび]までに 本[ほん]を 返[かえ]さなければ なりません. No confundir con まで (hasta, de forma continuada).",
+        "en": "までに marks the deadline the action must happen by: 土曜日[どようび]までに 本[ほん]を 返[かえ]さなければ なりません. Don't confuse it with まで (up until, continuously)."
       },
       "examples": [
         {
           "jp": "会議[かいぎ]は5 時[じ]までに 終[お]わります。",
           "translation": {
-            "es": "La reunión terminará antes de las cinco."
+            "es": "La reunión terminará antes de las cinco.",
+            "en": "The meeting will be over by five."
           }
         }
       ]

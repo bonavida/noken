@@ -23,7 +23,9 @@ const exampleSentence = z.object({
 const grammarPoint = z.object({
   id: z.string(),
   title: localized,
-  pattern: furiganaText,
+  // The pattern mixes Japanese with metalanguage ("lugar", "forma ます"), so it
+  // is localized too even though most of the string is the same in every language
+  pattern: localized,
   explanation: localized,
   examples: z.array(exampleSentence).min(1),
 });

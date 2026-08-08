@@ -2,42 +2,52 @@
   "level": "n5",
   "number": 9,
   "title": {
-    "es": "Gustos y habilidades"
+    "es": "Gustos y habilidades",
+    "en": "Likes and abilities"
   },
   "jpTitle": "残念[ざんねん]です",
   "description": {
-    "es": "Expresa lo que te gusta, lo que entiendes y lo que se te da bien con la partícula が, y justifica con から."
+    "es": "Expresa lo que te gusta, lo que entiendes y lo que se te da bien con la partícula が, y justifica con から.",
+    "en": "Say what you like, what you understand and what you are good at with the particle が, and give reasons with から."
   },
   "grammar": [
     {
       "id": "ga-objeto",
       "title": {
-        "es": "N が あります／わかります／好[す]きです…"
+        "es": "N が あります／わかります／好[す]きです…",
+        "en": "N が あります／わかります／好[す]きです…"
       },
-      "pattern": "N が あります／わかります／好[す]きです／嫌[きら]いです／上手[じょうず]です／下手[へた]です",
+      "pattern": {
+        "es": "N が あります／わかります／好[す]きです／嫌[きら]いです／上手[じょうず]です／下手[へた]です"
+      },
       "explanation": {
-        "es": "Ciertos predicados marcan su objeto con が en lugar de を: tener (あります), entender (わかります), gustar (好[す]きです), no gustar (嫌[きら]いです), ser hábil (上手[じょうず]です) y ser torpe (下手[へた]です)."
+        "es": "Ciertos predicados marcan su objeto con が en lugar de を: tener (あります), entender (わかります), gustar (好[す]きです), no gustar (嫌[きら]いです), ser hábil (上手[じょうず]です) y ser torpe (下手[へた]です).",
+        "en": "Certain predicates mark their object with が instead of を: to have (あります), to understand (わかります), to like (好[す]きです), to dislike (嫌[きら]いです), to be good at (上手[じょうず]です) and to be bad at (下手[へた]です)."
       },
       "examples": [
         {
           "jp": "私[わたし]はイタリア 料理[りょうり]が 好[す]きです。",
           "translation": {
-            "es": "Me gusta la comida italiana."
+            "es": "Me gusta la comida italiana.",
+            "en": "I like Italian food."
           }
         },
         {
           "jp": "日本語[にほんご]がわかります。",
           "translation": {
-            "es": "Entiendo japonés."
+            "es": "Entiendo japonés.",
+            "en": "I understand Japanese."
           }
         },
         {
           "jp": "ミラーさんはワインが 上手[じょうず]じゃありません。",
           "translation": {
-            "es": "Al Sr. Miller no se le da bien el vino."
+            "es": "Al Sr. Miller no se le da bien el vino.",
+            "en": "Mr. Miller isn't much of a wine drinker."
           },
           "note": {
-            "es": "上手／下手 se usan para habilidades; con 好き se habla de gustos."
+            "es": "上手／下手 se usan para habilidades; con 好き se habla de gustos.",
+            "en": "上手／下手 are used for skills; 好き is used for likes."
           }
         }
       ]
@@ -45,17 +55,22 @@
     {
       "id": "donna-9",
       "title": {
-        "es": "どんな N — precisar el gusto"
+        "es": "どんな N — precisar el gusto",
+        "en": "どんな N — narrowing down a preference"
       },
-      "pattern": "どんな N が 好[す]きですか",
+      "pattern": {
+        "es": "どんな N が 好[す]きですか"
+      },
       "explanation": {
-        "es": "どんな pregunta por el tipo concreto dentro de una categoría: どんなスポーツが 好[す]きですか (¿qué deporte te gusta?)."
+        "es": "どんな pregunta por el tipo concreto dentro de una categoría: どんなスポーツが 好[す]きですか (¿qué deporte te gusta?).",
+        "en": "どんな asks for the specific type within a category: どんなスポーツが 好[す]きですか (what sport do you like?)."
       },
       "examples": [
         {
           "jp": "どんな 音楽[おんがく]が 好[す]きですか。…クラシックが 好[す]きです。",
           "translation": {
-            "es": "¿Qué música te gusta? …Me gusta la clásica."
+            "es": "¿Qué música te gusta? …Me gusta la clásica.",
+            "en": "What music do you like? …I like classical music."
           }
         }
       ]
@@ -63,23 +78,30 @@
     {
       "id": "adverbios-grado",
       "title": {
-        "es": "よく／だいたい／たくさん／少[すこ]し／あまり／全然[ぜんぜん]"
+        "es": "よく／だいたい／たくさん／少[すこ]し／あまり／全然[ぜんぜん]",
+        "en": "よく／だいたい／たくさん／少[すこ]し／あまり／全然[ぜんぜん]"
       },
-      "pattern": "adverbio + V／A",
+      "pattern": {
+        "es": "adverbio + V／A",
+        "en": "adverb + V／A"
+      },
       "explanation": {
-        "es": "Adverbios de grado y cantidad: よく (bien/mucho), だいたい (más o menos), たくさん (mucho), 少[すこ]し (un poco); あまり y 全然[ぜんぜん] exigen predicado negativo (あまりわかりません, 全然[ぜんぜん]わかりません)."
+        "es": "Adverbios de grado y cantidad: よく (bien/mucho), だいたい (más o menos), たくさん (mucho), 少[すこ]し (un poco); あまり y 全然[ぜんぜん] exigen predicado negativo (あまりわかりません, 全然[ぜんぜん]わかりません).",
+        "en": "Adverbs of degree and quantity: よく (well/a lot), だいたい (more or less), たくさん (a lot), 少[すこ]し (a little); あまり and 全然[ぜんぜん] require a negative predicate (あまりわかりません, 全然[ぜんぜん]わかりません)."
       },
       "examples": [
         {
           "jp": "英語[えいご]がよくわかります。",
           "translation": {
-            "es": "Entiendo bien el inglés."
+            "es": "Entiendo bien el inglés.",
+            "en": "I understand English well."
           }
         },
         {
           "jp": "お 酒[さけ]は 全然[ぜんぜん] 飲[の]みません。",
           "translation": {
-            "es": "No bebo nada de alcohol."
+            "es": "No bebo nada de alcohol.",
+            "en": "I don't drink alcohol at all."
           }
         }
       ]
@@ -87,17 +109,22 @@
     {
       "id": "kara-causa",
       "title": {
-        "es": "〜から — «porque»"
+        "es": "〜から — «porque»",
+        "en": "〜から — \"because\""
       },
-      "pattern": "S1 から、S2",
+      "pattern": {
+        "es": "S1 から、S2"
+      },
       "explanation": {
-        "es": "から une la causa (S1) con la consecuencia (S2): 時間[じかん]が ありませんから、 新聞[しんぶん]を 読[よ]みません. También puede darse la razón después, como respuesta a どうして."
+        "es": "から une la causa (S1) con la consecuencia (S2): 時間[じかん]が ありませんから、 新聞[しんぶん]を 読[よ]みません. También puede darse la razón después, como respuesta a どうして.",
+        "en": "から joins the reason (S1) to the result (S2): 時間[じかん]が ありませんから、 新聞[しんぶん]を 読[よ]みません. The reason can also come afterwards, as an answer to どうして."
       },
       "examples": [
         {
           "jp": "時間[じかん]がありませんから、テレビを 見[み]ません。",
           "translation": {
-            "es": "Como no tengo tiempo, no veo la televisión."
+            "es": "Como no tengo tiempo, no veo la televisión.",
+            "en": "Since I have no time, I don't watch television."
           }
         }
       ]
@@ -105,17 +132,22 @@
     {
       "id": "doushite",
       "title": {
-        "es": "どうして — «por qué»"
+        "es": "どうして — «por qué»",
+        "en": "どうして — \"why\""
       },
-      "pattern": "どうして〜か。…〜から",
+      "pattern": {
+        "es": "どうして〜か。…〜から"
+      },
       "explanation": {
-        "es": "どうして pregunta la razón; la respuesta termina en から: どうして 来[き]ませんでしたか。… 忙[いそが]しかったですから."
+        "es": "どうして pregunta la razón; la respuesta termina en から: どうして 来[き]ませんでしたか。… 忙[いそが]しかったですから.",
+        "en": "どうして asks for the reason; the answer ends in から: どうして 来[き]ませんでしたか。… 忙[いそが]しかったですから."
       },
       "examples": [
         {
           "jp": "どうしてお 酒[さけ]を 飲[の]みませんか。…あした 仕事[しごと]がありますから。",
           "translation": {
-            "es": "¿Por qué no bebes? …Porque mañana tengo trabajo."
+            "es": "¿Por qué no bebes? …Porque mañana tengo trabajo.",
+            "en": "Why aren't you drinking? …Because I have work tomorrow."
           }
         }
       ]

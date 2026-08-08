@@ -2,33 +2,42 @@
   "level": "n5",
   "number": 7,
   "title": {
-    "es": "Dar y recibir"
+    "es": "Dar y recibir",
+    "en": "Giving and receiving"
   },
   "jpTitle": "ごめんください",
   "description": {
-    "es": "Herramientas y medios con で, y los verbos de dar y recibir con las partículas に y を."
+    "es": "Herramientas y medios con で, y los verbos de dar y recibir con las partículas に y を.",
+    "en": "Tools and means with で, and the verbs of giving and receiving with the particles に and を."
   },
   "grammar": [
     {
       "id": "de-instrumento",
       "title": {
-        "es": "N (herramienta/medio) で V"
+        "es": "N (herramienta/medio) で V",
+        "en": "N (tool/means) で V"
       },
-      "pattern": "herramienta で V",
+      "pattern": {
+        "es": "herramienta で V",
+        "en": "tool で V"
+      },
       "explanation": {
-        "es": "で también marca la herramienta o el medio con que se hace algo: はしで 食[た]べます (comer con palillos), 日本語[にほんご]で レポートを 書[か]きます (escribir el informe en japonés)."
+        "es": "で también marca la herramienta o el medio con que se hace algo: はしで 食[た]べます (comer con palillos), 日本語[にほんご]で レポートを 書[か]きます (escribir el informe en japonés).",
+        "en": "で also marks the tool or means you do something with: はしで 食[た]べます (to eat with chopsticks), 日本語[にほんご]で レポートを 書[か]きます (to write the report in Japanese)."
       },
       "examples": [
         {
           "jp": "はしで 食[た]べます。",
           "translation": {
-            "es": "Como con palillos."
+            "es": "Como con palillos.",
+            "en": "I eat with chopsticks."
           }
         },
         {
           "jp": "日本語[にほんご]で 手紙[てがみ]を 書[か]きます。",
           "translation": {
-            "es": "Escribo la carta en japonés."
+            "es": "Escribo la carta en japonés.",
+            "en": "I write the letter in Japanese."
           }
         }
       ]
@@ -36,17 +45,23 @@
     {
       "id": "wa-nan-desu-ka",
       "title": {
-        "es": "「Palabra」は 〜語[ご]で 何[なん]ですか"
+        "es": "「Palabra」は 〜語[ご]で 何[なん]ですか",
+        "en": "「Word」は 〜語[ご]で 何[なん]ですか"
       },
-      "pattern": "「palabra」は 〜語[ご]で 何[なん]ですか",
+      "pattern": {
+        "es": "「palabra」は 〜語[ご]で 何[なん]ですか",
+        "en": "「word」は 〜語[ご]で 何[なん]ですか"
+      },
       "explanation": {
-        "es": "Pregunta cómo se dice una palabra en otro idioma: 「Gracias」は 日本語[にほんご]で 何[なん]ですか."
+        "es": "Pregunta cómo se dice una palabra en otro idioma: 「Gracias」は 日本語[にほんご]で 何[なん]ですか.",
+        "en": "This asks how to say a word in another language: 「Thank you」は 日本語[にほんご]で 何[なん]ですか."
       },
       "examples": [
         {
           "jp": "「ありがとう」はスペイン 語[ご]で 何[なん]ですか。…「Gracias」です。",
           "translation": {
-            "es": "¿Cómo se dice «arigatou» en español? …Se dice «gracias»."
+            "es": "¿Cómo se dice «arigatou» en español? …Se dice «gracias».",
+            "en": "How do you say \"arigatou\" in English? …You say \"thank you\"."
           }
         }
       ]
@@ -54,17 +69,23 @@
     {
       "id": "agemasu",
       "title": {
-        "es": "N1 (persona) に N2 を あげます — «dar»"
+        "es": "N1 (persona) に N2 を あげます — «dar»",
+        "en": "N1 (person) に N2 を あげます — \"to give\""
       },
-      "pattern": "persona に N を あげます／貸[か]します／教[おし]えます",
+      "pattern": {
+        "es": "persona に N を あげます／貸[か]します／教[おし]えます",
+        "en": "person に N を あげます／貸[か]します／教[おし]えます"
+      },
       "explanation": {
-        "es": "Con verbos como あげます (dar), 貸[か]します (prestar) o 教[おし]えます (enseñar), la partícula に marca el destinatario."
+        "es": "Con verbos como あげます (dar), 貸[か]します (prestar) o 教[おし]えます (enseñar), la partícula に marca el destinatario.",
+        "en": "With verbs like あげます (to give), 貸[か]します (to lend) or 教[おし]えます (to teach), the particle に marks the recipient."
       },
       "examples": [
         {
           "jp": "木村[きむら]さんに 花[はな]を あげます。",
           "translation": {
-            "es": "Le doy flores a la Srta. Kimura."
+            "es": "Le doy flores a la Srta. Kimura.",
+            "en": "I give flowers to Ms. Kimura."
           }
         }
       ]
@@ -72,17 +93,23 @@
     {
       "id": "moraimasu",
       "title": {
-        "es": "N1 (persona) に N2 を もらいます — «recibir»"
+        "es": "N1 (persona) に N2 を もらいます — «recibir»",
+        "en": "N1 (person) に N2 を もらいます — \"to receive\""
       },
-      "pattern": "persona に N を もらいます／借[か]ります／習[なら]います",
+      "pattern": {
+        "es": "persona に N を もらいます／借[か]ります／習[なら]います",
+        "en": "person に N を もらいます／借[か]ります／習[なら]います"
+      },
       "explanation": {
-        "es": "Con もらいます (recibir), 借[か]ります (tomar prestado) y 習[なら]います (aprender de alguien), に marca la persona de quien procede la cosa o el conocimiento. También puede usarse から, obligatorio cuando el origen es una organización."
+        "es": "Con もらいます (recibir), 借[か]ります (tomar prestado) y 習[なら]います (aprender de alguien), に marca la persona de quien procede la cosa o el conocimiento. También puede usarse から, obligatorio cuando el origen es una organización.",
+        "en": "With もらいます (to receive), 借[か]ります (to borrow) and 習[なら]います (to learn from someone), に marks the person the thing or knowledge comes from. から can also be used, and is required when the source is an organisation."
       },
       "examples": [
         {
           "jp": "山田[やまだ]さんに 辞書[じしょ]を もらいました。",
           "translation": {
-            "es": "El Sr. Yamada me dio un diccionario (lo recibí de él)."
+            "es": "El Sr. Yamada me dio un diccionario (lo recibí de él).",
+            "en": "Mr. Yamada gave me a dictionary (I received it from him)."
           }
         }
       ]
@@ -90,17 +117,22 @@
     {
       "id": "mou-mashita",
       "title": {
-        "es": "もう V ました — «ya he…»"
+        "es": "もう V ました — «ya he…»",
+        "en": "もう V ました — \"already\""
       },
-      "pattern": "もう V ました",
+      "pattern": {
+        "es": "もう V ました"
+      },
       "explanation": {
-        "es": "もう con pasado significa «ya»: もう 昼[ひる]ごはんを 食[た]べました. La respuesta negativa es まだです (todavía no), nunca 食[た]べませんでした, que sonaría a que decidiste no comer."
+        "es": "もう con pasado significa «ya»: もう 昼[ひる]ごはんを 食[た]べました. La respuesta negativa es まだです (todavía no), nunca 食[た]べませんでした, que sonaría a que decidiste no comer.",
+        "en": "もう with the past means \"already\": もう 昼[ひる]ごはんを 食[た]べました. The negative answer is まだです (not yet), never 食[た]べませんでした, which would sound as if you had decided not to eat."
       },
       "examples": [
         {
           "jp": "もう 荷物[にもつ]を 送[おく]りましたか。…いいえ、まだです。",
           "translation": {
-            "es": "¿Ya enviaste el paquete? …No, todavía no."
+            "es": "¿Ya enviaste el paquete? …No, todavía no.",
+            "en": "Have you sent the parcel yet? …No, not yet."
           }
         }
       ]
@@ -108,17 +140,22 @@
     {
       "id": "omision-particulas",
       "title": {
-        "es": "Omisión de partículas en la conversación"
+        "es": "Omisión de partículas en la conversación",
+        "en": "Dropping particles in conversation"
       },
-      "pattern": "この スプーン[で] 食[た]べます",
+      "pattern": {
+        "es": "この スプーン[で] 食[た]べます"
+      },
       "explanation": {
-        "es": "En el habla coloquial las partículas は, が y を se omiten con frecuencia cuando el sentido queda claro por el contexto."
+        "es": "En el habla coloquial las partículas は, が y を se omiten con frecuencia cuando el sentido queda claro por el contexto.",
+        "en": "In casual speech the particles は, が and を are often dropped when the meaning is clear from context."
       },
       "examples": [
         {
           "jp": "コーヒー[を]、いかがですか。",
           "translation": {
-            "es": "¿Le apetece un café?"
+            "es": "¿Le apetece un café?",
+            "en": "Would you like a coffee?"
           }
         }
       ]

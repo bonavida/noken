@@ -2,33 +2,41 @@
   "level": "n5",
   "number": 12,
   "title": {
-    "es": "Pasado y comparaciones"
+    "es": "Pasado y comparaciones",
+    "en": "The past and comparisons"
   },
   "jpTitle": "祇園祭[ぎおんまつり]はどうでしたか",
   "description": {
-    "es": "El pasado de sustantivos y adjetivos, y cómo comparar dos cosas o elegir la mejor de un grupo."
+    "es": "El pasado de sustantivos y adjetivos, y cómo comparar dos cosas o elegir la mejor de un grupo.",
+    "en": "The past tense of nouns and adjectives, and how to compare two things or pick the best of a group."
   },
   "grammar": [
     {
       "id": "pasado-nominal",
       "title": {
-        "es": "Pasado de oraciones nominales y adjetivos -な"
+        "es": "Pasado de oraciones nominales y adjetivos -な",
+        "en": "Past of noun sentences and -な adjectives"
       },
-      "pattern": "N／A-な でした ／ じゃありませんでした",
+      "pattern": {
+        "es": "N／A-な でした ／ じゃありませんでした"
+      },
       "explanation": {
-        "es": "El pasado de です es でした y el de じゃありません es じゃありませんでした. Vale igual para sustantivos y adjetivos -な: 雨[あめ]でした (llovía), 暇[ひま]じゃありませんでした (no estaba libre)."
+        "es": "El pasado de です es でした y el de じゃありません es じゃありませんでした. Vale igual para sustantivos y adjetivos -な: 雨[あめ]でした (llovía), 暇[ひま]じゃありませんでした (no estaba libre).",
+        "en": "The past of です is でした and the past of じゃありません is じゃありませんでした. It works the same for nouns and -な adjectives: 雨[あめ]でした (it was rainy), 暇[ひま]じゃありませんでした (I wasn't free)."
       },
       "examples": [
         {
           "jp": "きのうは 雨[あめ]でした。",
           "translation": {
-            "es": "Ayer llovió."
+            "es": "Ayer llovió.",
+            "en": "It rained yesterday."
           }
         },
         {
           "jp": "先週[せんしゅう]は 暇[ひま]じゃありませんでした。",
           "translation": {
-            "es": "La semana pasada no estuve libre."
+            "es": "La semana pasada no estuve libre.",
+            "en": "I wasn't free last week."
           }
         }
       ]
@@ -36,23 +44,29 @@
     {
       "id": "pasado-adjetivo-i",
       "title": {
-        "es": "Pasado de los adjetivos -い"
+        "es": "Pasado de los adjetivos -い",
+        "en": "Past of -い adjectives"
       },
-      "pattern": "A-い → 〜かったです ／ 〜くなかったです",
+      "pattern": {
+        "es": "A-い → 〜かったです ／ 〜くなかったです"
+      },
       "explanation": {
-        "es": "Los adjetivos -い conjugan ellos mismos el pasado: 暑[あつ]い → 暑[あつ]かったです (hacía calor), 暑[あつ]くなかったです (no hacía calor). El pasado de いい es よかったです."
+        "es": "Los adjetivos -い conjugan ellos mismos el pasado: 暑[あつ]い → 暑[あつ]かったです (hacía calor), 暑[あつ]くなかったです (no hacía calor). El pasado de いい es よかったです.",
+        "en": "-い adjectives conjugate the past themselves: 暑[あつ]い → 暑[あつ]かったです (it was hot), 暑[あつ]くなかったです (it wasn't hot). The past of いい is よかったです."
       },
       "examples": [
         {
           "jp": "旅行[りょこう]は 楽[たの]しかったです。",
           "translation": {
-            "es": "El viaje fue divertido."
+            "es": "El viaje fue divertido.",
+            "en": "The trip was fun."
           }
         },
         {
           "jp": "天気[てんき]はよくなかったです。",
           "translation": {
-            "es": "El tiempo no fue bueno."
+            "es": "El tiempo no fue bueno.",
+            "en": "The weather wasn't good."
           }
         }
       ]
@@ -60,17 +74,22 @@
     {
       "id": "yori",
       "title": {
-        "es": "N1 は N2 より A です — comparativo"
+        "es": "N1 は N2 より A です — comparativo",
+        "en": "N1 は N2 より A です — comparative"
       },
-      "pattern": "N1 は N2 より A です",
+      "pattern": {
+        "es": "N1 は N2 より A です"
+      },
       "explanation": {
-        "es": "より marca el término de comparación: この 車[くるま]は あの 車[くるま]より 大[おお]きいです (este coche es más grande que aquel)."
+        "es": "より marca el término de comparación: この 車[くるま]は あの 車[くるま]より 大[おお]きいです (este coche es más grande que aquel).",
+        "en": "より marks what you compare against: この 車[くるま]は あの 車[くるま]より 大[おお]きいです (this car is bigger than that one)."
       },
       "examples": [
         {
           "jp": "飛行機[ひこうき]は 船[ふね]より 速[はや]いです。",
           "translation": {
-            "es": "El avión es más rápido que el barco."
+            "es": "El avión es más rápido que el barco.",
+            "en": "The plane is faster than the ship."
           }
         }
       ]
@@ -78,17 +97,22 @@
     {
       "id": "dochira-ga",
       "title": {
-        "es": "N1 と N2 と どちらが A ですか — comparar dos"
+        "es": "N1 と N2 と どちらが A ですか — comparar dos",
+        "en": "N1 と N2 と どちらが A ですか — comparing two"
       },
-      "pattern": "N1 と N2 と どちらが A ですか。…N の ほうが A です",
+      "pattern": {
+        "es": "N1 と N2 と どちらが A ですか。…N の ほうが A です"
+      },
       "explanation": {
-        "es": "Para preguntar cuál de dos cosas es más… se usa どちら, sea cual sea la categoría. Se responde con 〜の ほうが: サッカーと 野球[やきゅう]と どちらが おもしろいですか。…サッカーの ほうが おもしろいです. Si son iguales: どちらも (ambos)."
+        "es": "Para preguntar cuál de dos cosas es más… se usa どちら, sea cual sea la categoría. Se responde con 〜の ほうが: サッカーと 野球[やきゅう]と どちらが おもしろいですか。…サッカーの ほうが おもしろいです. Si son iguales: どちらも (ambos).",
+        "en": "To ask which of two things is more…, you use どちら, whatever the category. You answer with 〜の ほうが: サッカーと 野球[やきゅう]と どちらが おもしろいですか。…サッカーの ほうが おもしろいです. If they are equal: どちらも (both)."
       },
       "examples": [
         {
           "jp": "夏[なつ]と 冬[ふゆ]とどちらが 好[す]きですか。… 夏[なつ]のほうが 好[す]きです。",
           "translation": {
-            "es": "¿Qué prefieres, el verano o el invierno? …Prefiero el verano."
+            "es": "¿Qué prefieres, el verano o el invierno? …Prefiero el verano.",
+            "en": "Which do you prefer, summer or winter? …I prefer summer."
           }
         }
       ]
@@ -96,17 +120,22 @@
     {
       "id": "ichiban",
       "title": {
-        "es": "N [の 中[なか]] で 〜が いちばん A です — superlativo"
+        "es": "N [の 中[なか]] で 〜が いちばん A です — superlativo",
+        "en": "N [の 中[なか]] で 〜が いちばん A です — superlative"
       },
-      "pattern": "N [の 中[なか]]で 何[なに]／どこ／誰[だれ]／いつ が いちばん A ですか",
+      "pattern": {
+        "es": "N [の 中[なか]]で 何[なに]／どこ／誰[だれ]／いつ が いちばん A ですか"
+      },
       "explanation": {
-        "es": "いちばん expresa el superlativo dentro de un grupo: 日本[にほん] 料理[りょうり][の 中[なか]]で 何[なに]が いちばん おいしいですか. El interrogativo cambia según se pregunte por cosa, lugar, persona o tiempo."
+        "es": "いちばん expresa el superlativo dentro de un grupo: 日本[にほん] 料理[りょうり][の 中[なか]]で 何[なに]が いちばん おいしいですか. El interrogativo cambia según se pregunte por cosa, lugar, persona o tiempo.",
+        "en": "いちばん expresses the superlative within a group: 日本[にほん] 料理[りょうり][の 中[なか]]で 何[なに]が いちばん おいしいですか. The question word changes depending on whether you ask about a thing, a place, a person or a time."
       },
       "examples": [
         {
           "jp": "1 年[ねん]でいつがいちばん 寒[さむ]いですか。…2 月[がつ]がいちばん 寒[さむ]いです。",
           "translation": {
-            "es": "¿Cuándo hace más frío en el año? …En febrero."
+            "es": "¿Cuándo hace más frío en el año? …En febrero.",
+            "en": "When is it coldest in the year? …In February."
           }
         }
       ]
@@ -114,17 +143,22 @@
     {
       "id": "no-sustituto-12",
       "title": {
-        "es": "A の — «el/la (adjetivo)»"
+        "es": "A の — «el/la (adjetivo)»",
+        "en": "A の — \"the (adjective) one\""
       },
-      "pattern": "A-い／A-な の",
+      "pattern": {
+        "es": "A-い／A-な の"
+      },
       "explanation": {
-        "es": "の sustituye al sustantivo también tras adjetivos, para no repetirlo: 大[おお]きいのを ください (deme el grande)."
+        "es": "の sustituye al sustantivo también tras adjetivos, para no repetirlo: 大[おお]きいのを ください (deme el grande).",
+        "en": "の also stands in for the noun after an adjective, so you don't repeat it: 大[おお]きいのを ください (the big one, please)."
       },
       "examples": [
         {
           "jp": "どんなかばんですか。… 黒[くろ]いのです。",
           "translation": {
-            "es": "¿Qué bolso es? …El negro."
+            "es": "¿Qué bolso es? …El negro.",
+            "en": "Which bag is it? …The black one."
           }
         }
       ]

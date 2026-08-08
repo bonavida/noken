@@ -2,33 +2,42 @@
   "level": "n5",
   "number": 10,
   "title": {
-    "es": "Existencia y ubicación"
+    "es": "Existencia y ubicación",
+    "en": "Existence and location"
   },
   "jpTitle": "ナンプラー、ありますか",
   "description": {
-    "es": "Di qué hay y dónde está con あります・います y las palabras de posición (上[うえ], 下[した], 前[まえ], 隣[となり]…)."
+    "es": "Di qué hay y dónde está con あります・います y las palabras de posición (上[うえ], 下[した], 前[まえ], 隣[となり]…).",
+    "en": "Say what there is and where it is with あります・います and the position words (上[うえ], 下[した], 前[まえ], 隣[となり]…)."
   },
   "grammar": [
     {
       "id": "arimasu-imasu",
       "title": {
-        "es": "N が あります／います — «hay»"
+        "es": "N が あります／います — «hay»",
+        "en": "N が あります／います — \"there is\""
       },
-      "pattern": "N が あります (cosas) ／ N が います (seres animados)",
+      "pattern": {
+        "es": "N が あります (cosas) ／ N が います (seres animados)",
+        "en": "N が あります (things) ／ N が います (living beings)"
+      },
       "explanation": {
-        "es": "あります expresa la existencia de cosas inanimadas y plantas; います la de personas y animales. El sujeto existente se marca con が."
+        "es": "あります expresa la existencia de cosas inanimadas y plantas; います la de personas y animales. El sujeto existente se marca con が.",
+        "en": "あります expresses the existence of inanimate things and plants; います that of people and animals. The thing that exists is marked with が."
       },
       "examples": [
         {
           "jp": "机[つくえ]の 上[うえ]に 写真[しゃしん]があります。",
           "translation": {
-            "es": "Sobre el escritorio hay una foto."
+            "es": "Sobre el escritorio hay una foto.",
+            "en": "There is a photo on the desk."
           }
         },
         {
           "jp": "庭[にわ]に 犬[いぬ]がいます。",
           "translation": {
-            "es": "En el jardín hay un perro."
+            "es": "En el jardín hay un perro.",
+            "en": "There is a dog in the garden."
           }
         }
       ]
@@ -36,17 +45,23 @@
     {
       "id": "ni-lugar",
       "title": {
-        "es": "Lugar に N が あります／います"
+        "es": "Lugar に N が あります／います",
+        "en": "Place に N が あります／います"
       },
-      "pattern": "lugar に N が あります／います",
+      "pattern": {
+        "es": "lugar に N が あります／います",
+        "en": "place に N が あります／います"
+      },
       "explanation": {
-        "es": "La partícula に marca el lugar de existencia. El orden habitual presenta primero el lugar y después lo que hay en él."
+        "es": "La partícula に marca el lugar de existencia. El orden habitual presenta primero el lugar y después lo que hay en él.",
+        "en": "The particle に marks the place of existence. The usual order gives the place first and then what is in it."
       },
       "examples": [
         {
           "jp": "会議室[かいぎしつ]にミラーさんがいます。",
           "translation": {
-            "es": "En la sala de reuniones está el Sr. Miller."
+            "es": "En la sala de reuniones está el Sr. Miller.",
+            "en": "Mr. Miller is in the meeting room."
           }
         }
       ]
@@ -54,17 +69,23 @@
     {
       "id": "wa-ni-arimasu",
       "title": {
-        "es": "N は (lugar) に あります／います"
+        "es": "N は (lugar) に あります／います",
+        "en": "N は (place) に あります／います"
       },
-      "pattern": "N は lugar に あります／います",
+      "pattern": {
+        "es": "N は lugar に あります／います",
+        "en": "N は place に あります／います"
+      },
       "explanation": {
-        "es": "Cuando se pregunta dónde está algo ya conocido, esa cosa pasa a ser el tema con は y el lugar se marca con に: ミラーさんは 事務所[じむしょ]に います."
+        "es": "Cuando se pregunta dónde está algo ya conocido, esa cosa pasa a ser el tema con は y el lugar se marca con に: ミラーさんは 事務所[じむしょ]に います.",
+        "en": "When you ask where something already known is, that thing becomes the topic with は and the place is marked with に: ミラーさんは 事務所[じむしょ]に います."
       },
       "examples": [
         {
           "jp": "東京[とうきょう]ディズニーランドは 千葉県[ちばけん]にあります。",
           "translation": {
-            "es": "Disneylandia de Tokio está en la prefectura de Chiba."
+            "es": "Disneylandia de Tokio está en la prefectura de Chiba.",
+            "en": "Tokyo Disneyland is in Chiba prefecture."
           }
         }
       ]
@@ -72,23 +93,29 @@
     {
       "id": "posiciones",
       "title": {
-        "es": "N1 (cosa/persona/lugar) の N2 (posición)"
+        "es": "N1 (cosa/persona/lugar) の N2 (posición)",
+        "en": "N1 (thing/person/place) の N2 (position)"
       },
-      "pattern": "N の 上[うえ]／下[した]／前[まえ]／後[うし]ろ／右[みぎ]／左[ひだり]／中[なか]／外[そと]／隣[となり]／近[ちか]く／間[あいだ]",
+      "pattern": {
+        "es": "N の 上[うえ]／下[した]／前[まえ]／後[うし]ろ／右[みぎ]／左[ひだり]／中[なか]／外[そと]／隣[となり]／近[ちか]く／間[あいだ]"
+      },
       "explanation": {
-        "es": "Las palabras de posición se combinan con の: 机[つくえ]の 上[うえ] (encima del escritorio), 銀行[ぎんこう]の 隣[となり] (al lado del banco), AとBの 間[あいだ] (entre A y B)."
+        "es": "Las palabras de posición se combinan con の: 机[つくえ]の 上[うえ] (encima del escritorio), 銀行[ぎんこう]の 隣[となり] (al lado del banco), AとBの 間[あいだ] (entre A y B).",
+        "en": "Position words combine with の: 机[つくえ]の 上[うえ] (on the desk), 銀行[ぎんこう]の 隣[となり] (next to the bank), AとBの 間[あいだ] (between A and B)."
       },
       "examples": [
         {
           "jp": "郵便局[ゆうびんきょく]は 銀行[ぎんこう]の 隣[となり]にあります。",
           "translation": {
-            "es": "Correos está al lado del banco."
+            "es": "Correos está al lado del banco.",
+            "en": "The post office is next to the bank."
           }
         },
         {
           "jp": "箱[はこ]の 中[なか]に 古[ふる]い 手紙[てがみ]があります。",
           "translation": {
-            "es": "Dentro de la caja hay cartas viejas."
+            "es": "Dentro de la caja hay cartas viejas.",
+            "en": "There are old letters inside the box."
           }
         }
       ]
@@ -96,17 +123,22 @@
     {
       "id": "ya-nado",
       "title": {
-        "es": "N1 や N2 [など] — enumeración abierta"
+        "es": "N1 や N2 [など] — enumeración abierta",
+        "en": "N1 や N2 [など] — an open-ended list"
       },
-      "pattern": "N1 や N2 [など]",
+      "pattern": {
+        "es": "N1 や N2 [など]"
+      },
       "explanation": {
-        "es": "や enumera ejemplos sin ser exhaustivo (a diferencia de と, que enumera todo). など («etcétera») puede cerrar la lista."
+        "es": "や enumera ejemplos sin ser exhaustivo (a diferencia de と, que enumera todo). など («etcétera») puede cerrar la lista.",
+        "en": "や lists examples without being exhaustive (unlike と, which lists everything). など (\"and so on\") can close the list."
       },
       "examples": [
         {
           "jp": "箱[はこ]の 中[なか]に 手紙[てがみ]や 写真[しゃしん][など]があります。",
           "translation": {
-            "es": "En la caja hay cartas, fotos y otras cosas."
+            "es": "En la caja hay cartas, fotos y otras cosas.",
+            "en": "There are letters, photos and other things in the box."
           }
         }
       ]
@@ -114,17 +146,22 @@
     {
       "id": "desu-ka-confirmacion",
       "title": {
-        "es": "アジアストアですか — confirmar repitiendo"
+        "es": "アジアストアですか — confirmar repitiendo",
+        "en": "アジアストアですか — confirming by repeating"
       },
-      "pattern": "N ですか",
+      "pattern": {
+        "es": "N ですか"
+      },
       "explanation": {
-        "es": "Repetir la palabra clave con ですか confirma que se ha entendido bien antes de responder, un recurso muy común en la conversación."
+        "es": "Repetir la palabra clave con ですか confirma que se ha entendido bien antes de responder, un recurso muy común en la conversación.",
+        "en": "Repeating the key word with ですか confirms you have understood before answering — a very common conversational move."
       },
       "examples": [
         {
           "jp": "ナンプラーはありませんか。…ナンプラーですか。あそこです。",
           "translation": {
-            "es": "¿No tienen nam pla? …¿Nam pla? Está allí."
+            "es": "¿No tienen nam pla? …¿Nam pla? Está allí.",
+            "en": "Do you have nam pla? …Nam pla? It's over there."
           }
         }
       ]

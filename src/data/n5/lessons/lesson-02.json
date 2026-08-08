@@ -2,39 +2,48 @@
   "level": "n5",
   "number": 2,
   "title": {
-    "es": "Objetos y demostrativos"
+    "es": "Objetos y demostrativos",
+    "en": "Objects and demonstratives"
   },
   "jpTitle": "これから お 世話[せわ]に なります",
   "description": {
-    "es": "Señala y pregunta por objetos con これ・それ・あれ y expresa posesión con la partícula の."
+    "es": "Señala y pregunta por objetos con これ・それ・あれ y expresa posesión con la partícula の.",
+    "en": "Point at and ask about objects with これ・それ・あれ, and express possession with the particle の."
   },
   "grammar": [
     {
       "id": "kore-sore-are",
       "title": {
-        "es": "これ／それ／あれ — «esto, eso, aquello»"
+        "es": "これ／それ／あれ — «esto, eso, aquello»",
+        "en": "これ／それ／あれ — \"this, that, that over there\""
       },
-      "pattern": "これ／それ／あれ は N です",
+      "pattern": {
+        "es": "これ／それ／あれ は N です"
+      },
       "explanation": {
-        "es": "Son pronombres demostrativos que funcionan como sustantivos. これ señala algo cercano al hablante, それ algo cercano al oyente y あれ algo lejos de ambos."
+        "es": "Son pronombres demostrativos que funcionan como sustantivos. これ señala algo cercano al hablante, それ algo cercano al oyente y あれ algo lejos de ambos.",
+        "en": "These are demonstrative pronouns that work like nouns. これ points at something near the speaker, それ at something near the listener, and あれ at something far from both."
       },
       "examples": [
         {
           "jp": "これは 辞書[じしょ]です。",
           "translation": {
-            "es": "Esto es un diccionario."
+            "es": "Esto es un diccionario.",
+            "en": "This is a dictionary."
           }
         },
         {
           "jp": "それはボールペンですか。",
           "translation": {
-            "es": "¿Eso es un bolígrafo?"
+            "es": "¿Eso es un bolígrafo?",
+            "en": "Is that a pen?"
           }
         },
         {
           "jp": "あれは 私[わたし]のかばんです。",
           "translation": {
-            "es": "Aquello es mi bolso."
+            "es": "Aquello es mi bolso.",
+            "en": "That over there is my bag."
           }
         }
       ]
@@ -42,23 +51,29 @@
     {
       "id": "kono-sono-ano",
       "title": {
-        "es": "この／その／あの + N — «este/ese/aquel + sustantivo»"
+        "es": "この／その／あの + N — «este/ese/aquel + sustantivo»",
+        "en": "この／その／あの + N — \"this/that + noun\""
       },
-      "pattern": "この／その／あの N",
+      "pattern": {
+        "es": "この／その／あの N"
+      },
       "explanation": {
-        "es": "A diferencia de これ・それ・あれ, estas formas nunca van solas: acompañan siempre a un sustantivo. La distancia funciona igual: この (hablante), その (oyente), あの (lejos de ambos)."
+        "es": "A diferencia de これ・それ・あれ, estas formas nunca van solas: acompañan siempre a un sustantivo. La distancia funciona igual: この (hablante), その (oyente), あの (lejos de ambos).",
+        "en": "Unlike これ・それ・あれ, these forms never stand alone: they always accompany a noun. Distance works the same way: この (speaker), その (listener), あの (far from both)."
       },
       "examples": [
         {
           "jp": "この 本[ほん]は 私[わたし]のです。",
           "translation": {
-            "es": "Este libro es mío."
+            "es": "Este libro es mío.",
+            "en": "This book is mine."
           }
         },
         {
           "jp": "あの 人[ひと]は 誰[だれ]ですか。",
           "translation": {
-            "es": "¿Quién es aquella persona?"
+            "es": "¿Quién es aquella persona?",
+            "en": "Who is that person over there?"
           }
         }
       ]
@@ -66,23 +81,29 @@
     {
       "id": "sou-desu",
       "title": {
-        "es": "そうです — «así es»"
+        "es": "そうです — «así es»",
+        "en": "そうです — \"that's right\""
       },
-      "pattern": "はい、そうです ／ いいえ、そうじゃありません",
+      "pattern": {
+        "es": "はい、そうです ／ いいえ、そうじゃありません"
+      },
       "explanation": {
-        "es": "Para responder a preguntas de tipo «¿N es N?» se usa そう con です: はい、そうです (sí, así es) o いいえ、そうじゃありません (no, no es así). También puede responderse con いいえ、違[ちが]います."
+        "es": "Para responder a preguntas de tipo «¿N es N?» se usa そう con です: はい、そうです (sí, así es) o いいえ、そうじゃありません (no, no es así). También puede responderse con いいえ、違[ちが]います.",
+        "en": "To answer \"is N N?\" questions you use そう with です: はい、そうです (yes, that's right) or いいえ、そうじゃありません (no, it isn't). You can also answer with いいえ、違[ちが]います."
       },
       "examples": [
         {
           "jp": "それは 手帳[てちょう]ですか。…はい、そうです。",
           "translation": {
-            "es": "¿Eso es una agenda? …Sí, así es."
+            "es": "¿Eso es una agenda? …Sí, así es.",
+            "en": "Is that a diary? …Yes, it is."
           }
         },
         {
           "jp": "それはノートですか。…いいえ、そうじゃありません。",
           "translation": {
-            "es": "¿Eso es un cuaderno? …No, no lo es."
+            "es": "¿Eso es un cuaderno? …No, no lo es.",
+            "en": "Is that a notebook? …No, it isn't."
           }
         }
       ]
@@ -90,17 +111,22 @@
     {
       "id": "ka-ka",
       "title": {
-        "es": "〜か、〜か — preguntas de alternativa"
+        "es": "〜か、〜か — preguntas de alternativa",
+        "en": "〜か、〜か — alternative questions"
       },
-      "pattern": "N1 ですか、N2 ですか",
+      "pattern": {
+        "es": "N1 ですか、N2 ですか"
+      },
       "explanation": {
-        "es": "Presenta dos opciones y pide al oyente que elija una. No se responde con はい ni いいえ, sino diciendo directamente la opción correcta."
+        "es": "Presenta dos opciones y pide al oyente que elija una. No se responde con はい ni いいえ, sino diciendo directamente la opción correcta.",
+        "en": "This offers two options and asks the listener to pick one. You do not answer with はい or いいえ, but by saying the right option directly."
       },
       "examples": [
         {
           "jp": "これは「9」ですか、「7」ですか。…「9」です。",
           "translation": {
-            "es": "¿Esto es un 9 o un 7? …Es un 9."
+            "es": "¿Esto es un 9 o un 7? …Es un 9.",
+            "en": "Is this a 9 or a 7? …It's a 9."
           }
         }
       ]
@@ -108,23 +134,29 @@
     {
       "id": "no-posesion",
       "title": {
-        "es": "N1 の N2 — posesión y contenido"
+        "es": "N1 の N2 — posesión y contenido",
+        "en": "N1 の N2 — possession and content"
       },
-      "pattern": "N1 の N2",
+      "pattern": {
+        "es": "N1 の N2"
+      },
       "explanation": {
-        "es": "Además de pertenencia (私[わたし]の 本[ほん], mi libro), の indica de qué trata algo: コンピューターの 本[ほん] es «un libro de informática»."
+        "es": "Además de pertenencia (私[わたし]の 本[ほん], mi libro), の indica de qué trata algo: コンピューターの 本[ほん] es «un libro de informática».",
+        "en": "As well as ownership (私[わたし]の 本[ほん], my book), の says what something is about: コンピューターの 本[ほん] is \"a computer book\"."
       },
       "examples": [
         {
           "jp": "これはコンピューターの 本[ほん]です。",
           "translation": {
-            "es": "Esto es un libro de informática."
+            "es": "Esto es un libro de informática.",
+            "en": "This is a computer book."
           }
         },
         {
           "jp": "これは 私[わたし]の 傘[かさ]です。",
           "translation": {
-            "es": "Este es mi paraguas."
+            "es": "Este es mi paraguas.",
+            "en": "This is my umbrella."
           }
         }
       ]
@@ -132,17 +164,22 @@
     {
       "id": "no-sustituto",
       "title": {
-        "es": "の como sustituto del sustantivo"
+        "es": "の como sustituto del sustantivo",
+        "en": "の replacing the noun"
       },
-      "pattern": "N1 の",
+      "pattern": {
+        "es": "N1 の"
+      },
       "explanation": {
-        "es": "Cuando el sustantivo ya se sobreentiende, の lo sustituye para no repetirlo: あれは 私[わたし]のです (aquel es el mío)."
+        "es": "Cuando el sustantivo ya se sobreentiende, の lo sustituye para no repetirlo: あれは 私[わたし]のです (aquel es el mío).",
+        "en": "When the noun is already understood, の stands in for it so you don't have to repeat it: あれは 私[わたし]のです (that one is mine)."
       },
       "examples": [
         {
           "jp": "あのかばんは 誰[だれ]のですか。… 私[わたし]のです。",
           "translation": {
-            "es": "¿De quién es aquel bolso? …Es mío."
+            "es": "¿De quién es aquel bolso? …Es mío.",
+            "en": "Whose is that bag over there? …It's mine."
           }
         }
       ]
@@ -150,17 +187,22 @@
     {
       "id": "o-cortesia",
       "title": {
-        "es": "お〜 — prefijo de cortesía"
+        "es": "お〜 — prefijo de cortesía",
+        "en": "お〜 — the polite prefix"
       },
-      "pattern": "お + N",
+      "pattern": {
+        "es": "お + N"
+      },
       "explanation": {
-        "es": "El prefijo お se añade a ciertas palabras para sonar más cortés, sobre todo al hablar de cosas del oyente: お 土産[みやげ] (recuerdo de viaje), お 名前[なまえ] (su nombre)."
+        "es": "El prefijo お se añade a ciertas palabras para sonar más cortés, sobre todo al hablar de cosas del oyente: お 土産[みやげ] (recuerdo de viaje), お 名前[なまえ] (su nombre).",
+        "en": "The prefix お is added to certain words to sound more polite, especially when talking about the listener's things: お 土産[みやげ] (souvenir), お 名前[なまえ] (your name)."
       },
       "examples": [
         {
           "jp": "これはお 土産[みやげ]です。",
           "translation": {
-            "es": "Esto es un recuerdo de viaje (para usted)."
+            "es": "Esto es un recuerdo de viaje (para usted).",
+            "en": "This is a souvenir (for you)."
           }
         }
       ]
@@ -168,17 +210,22 @@
     {
       "id": "sou-desu-ka",
       "title": {
-        "es": "そうですか — «ah, ya veo»"
+        "es": "そうですか — «ah, ya veo»",
+        "en": "そうですか — \"oh, I see\""
       },
-      "pattern": "そうですか",
+      "pattern": {
+        "es": "そうですか"
+      },
       "explanation": {
-        "es": "Con entonación descendente expresa que uno se da por enterado de una información nueva: «ah, ¿sí?, ya veo». No confundir con la pregunta genuina そうですか↗."
+        "es": "Con entonación descendente expresa que uno se da por enterado de una información nueva: «ah, ¿sí?, ya veo». No confundir con la pregunta genuina そうですか↗.",
+        "en": "With falling intonation it shows that you have taken in some new information: \"oh really? I see\". Don't confuse it with the genuine question そうですか↗."
       },
       "examples": [
         {
           "jp": "この 傘[かさ]はあなたのですか。…いいえ、 違[ちが]います。…そうですか。",
           "translation": {
-            "es": "¿Este paraguas es tuyo? …No, no lo es. …Ah, ya veo."
+            "es": "¿Este paraguas es tuyo? …No, no lo es. …Ah, ya veo.",
+            "en": "Is this umbrella yours? …No, it isn't. …Oh, I see."
           }
         }
       ]

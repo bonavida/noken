@@ -16,7 +16,7 @@ interface Props {
   point: {
     id: string;
     title: Localized;
-    pattern: string;
+    pattern: Localized;
     explanation: Localized;
     examples: GrammarExample[];
   };
@@ -33,7 +33,7 @@ const t = useTranslations(locale);
   </h3>
 
   <p class="bg-muted mt-3 inline-block rounded-md px-3 py-1.5 font-mono text-sm">
-    <MixedText text={point.pattern} />
+    <MixedText text={pickLocale(point.pattern, locale)} />
   </p>
 
   <div class="mt-3 space-y-3 text-sm leading-relaxed">

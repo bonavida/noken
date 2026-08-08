@@ -2,27 +2,34 @@
   "level": "n5",
   "number": 18,
   "title": {
-    "es": "La forma de diccionario"
+    "es": "La forma de diccionario",
+    "en": "The dictionary form"
   },
   "jpTitle": "ご 趣味[しゅみ]は 何[なん]ですか",
   "description": {
-    "es": "La forma de diccionario del verbo, expresar capacidad con できます y hablar de aficiones."
+    "es": "La forma de diccionario del verbo, expresar capacidad con できます y hablar de aficiones.",
+    "en": "The dictionary form of the verb, expressing ability with できます, and talking about hobbies."
   },
   "grammar": [
     {
       "id": "forma-diccionario",
       "title": {
-        "es": "La forma de diccionario"
+        "es": "La forma de diccionario",
+        "en": "The dictionary form"
       },
-      "pattern": "書[か]きます→書[か]く ／ 食[た]べます→食[た]べる ／ します→する ／ 来[き]ます→来[く]る",
+      "pattern": {
+        "es": "書[か]きます→書[か]く ／ 食[た]べます→食[た]べる ／ します→する ／ 来[き]ます→来[く]る"
+      },
       "explanation": {
-        "es": "Es la forma con que los verbos aparecen en los diccionarios. Grupo I: la sílaba -i pasa a -u (書[か]きます → 書[か]く, 飲[の]みます → 飲[の]む). Grupo II: se añade る (食[た]べる). Grupo III: する y 来[く]る."
+        "es": "Es la forma con que los verbos aparecen en los diccionarios. Grupo I: la sílaba -i pasa a -u (書[か]きます → 書[か]く, 飲[の]みます → 飲[の]む). Grupo II: se añade る (食[た]べる). Grupo III: する y 来[く]る.",
+        "en": "This is the form verbs appear in in dictionaries. Group I: the -i syllable becomes -u (書[か]きます → 書[か]く, 飲[の]みます → 飲[の]む). Group II: add る (食[た]べる). Group III: する and 来[く]る."
       },
       "examples": [
         {
           "jp": "泳[およ]ぎます → 泳[およ]ぐ ／ 待[ま]ちます → 待[ま]つ",
           "translation": {
-            "es": "Nadar, esperar (en forma de diccionario)."
+            "es": "Nadar, esperar (en forma de diccionario).",
+            "en": "To swim, to wait (in dictionary form)."
           }
         }
       ]
@@ -30,23 +37,30 @@
     {
       "id": "dekimasu",
       "title": {
-        "es": "N／V こと が できます — capacidad"
+        "es": "N／V こと が できます — capacidad",
+        "en": "N／V こと が できます — ability"
       },
-      "pattern": "N が できます ／ V (dicc.) こと が できます",
+      "pattern": {
+        "es": "N が できます ／ V (dicc.) こと が できます",
+        "en": "N が できます ／ V (dict.) こと が できます"
+      },
       "explanation": {
-        "es": "できます expresa habilidad o posibilidad. El objeto puede ser un sustantivo (日本語[にほんご]が できます) o un verbo nominalizado con こと: 漢字[かんじ]を 読[よ]む ことが できます."
+        "es": "できます expresa habilidad o posibilidad. El objeto puede ser un sustantivo (日本語[にほんご]が できます) o un verbo nominalizado con こと: 漢字[かんじ]を 読[よ]む ことが できます.",
+        "en": "できます expresses ability or possibility. The object can be a noun (日本語[にほんご]が できます) or a verb nominalised with こと: 漢字[かんじ]を 読[よ]む ことが できます."
       },
       "examples": [
         {
           "jp": "ミラーさんは 日本語[にほんご]が 話[はな]せますか。… 日本語[にほんご]を 話[はな]すことができます。",
           "translation": {
-            "es": "El Sr. Miller puede hablar japonés."
+            "es": "El Sr. Miller puede hablar japonés.",
+            "en": "Mr. Miller can speak Japanese."
           }
         },
         {
           "jp": "カードで 払[はら]うことができます。",
           "translation": {
-            "es": "Se puede pagar con tarjeta."
+            "es": "Se puede pagar con tarjeta.",
+            "en": "You can pay by card."
           }
         }
       ]
@@ -54,17 +68,23 @@
     {
       "id": "shumi",
       "title": {
-        "es": "私[わたし]の 趣味[しゅみ]は 〜です — aficiones"
+        "es": "私[わたし]の 趣味[しゅみ]は 〜です — aficiones",
+        "en": "私[わたし]の 趣味[しゅみ]は 〜です — hobbies"
       },
-      "pattern": "趣味[しゅみ]は N ／ V (dicc.) こと です",
+      "pattern": {
+        "es": "趣味[しゅみ]は N ／ V (dicc.) こと です",
+        "en": "趣味[しゅみ]は N ／ V (dict.) こと です"
+      },
       "explanation": {
-        "es": "Para decir tu afición puedes usar un sustantivo (趣味[しゅみ]は 音楽[おんがく]です) o un verbo con こと, que es más preciso: 趣味[しゅみ]は 音楽[おんがく]を 聞[き]く ことです."
+        "es": "Para decir tu afición puedes usar un sustantivo (趣味[しゅみ]は 音楽[おんがく]です) o un verbo con こと, que es más preciso: 趣味[しゅみ]は 音楽[おんがく]を 聞[き]く ことです.",
+        "en": "To give your hobby you can use a noun (趣味[しゅみ]は 音楽[おんがく]です) or a verb with こと, which is more precise: 趣味[しゅみ]は 音楽[おんがく]を 聞[き]く ことです."
       },
       "examples": [
         {
           "jp": "私[わたし]の 趣味[しゅみ]は 写真[しゃしん]を 撮[と]ることです。",
           "translation": {
-            "es": "Mi afición es sacar fotos."
+            "es": "Mi afición es sacar fotos.",
+            "en": "My hobby is taking photos."
           }
         }
       ]
@@ -72,17 +92,23 @@
     {
       "id": "mae-ni",
       "title": {
-        "es": "V (dicc.)／N の／período まえに — «antes de»"
+        "es": "V (dicc.)／N の／período まえに — «antes de»",
+        "en": "V (dict.)／N の／period まえに — \"before\""
       },
-      "pattern": "V (dicc.) まえに、V2 ／ N の まえに ／ cantidad de tiempo まえに",
+      "pattern": {
+        "es": "V (dicc.) まえに、V2 ／ N の まえに ／ cantidad de tiempo まえに",
+        "en": "V (dict.) まえに、V2 ／ N の まえに ／ length of time まえに"
+      },
       "explanation": {
-        "es": "まえに expresa «antes de»: 寝[ね]る まえに 本[ほん]を 読[よ]みます (leo antes de dormir), 食事[しょくじ]の まえに (antes de comer), 1 年[ねん] まえに (hace un año)."
+        "es": "まえに expresa «antes de»: 寝[ね]る まえに 本[ほん]を 読[よ]みます (leo antes de dormir), 食事[しょくじ]の まえに (antes de comer), 1 年[ねん] まえに (hace un año).",
+        "en": "まえに means \"before\": 寝[ね]る まえに 本[ほん]を 読[よ]みます (I read before going to sleep), 食事[しょくじ]の まえに (before the meal), 1 年[ねん] まえに (a year ago)."
       },
       "examples": [
         {
           "jp": "日本[にほん]へ 来[く]るまえに、 日本語[にほんご]を 勉強[べんきょう]しました。",
           "translation": {
-            "es": "Antes de venir a Japón estudié japonés."
+            "es": "Antes de venir a Japón estudié japonés.",
+            "en": "I studied Japanese before coming to Japan."
           }
         }
       ]
@@ -90,17 +116,23 @@
     {
       "id": "nakanaka",
       "title": {
-        "es": "なかなか — «no tan fácilmente»"
+        "es": "なかなか — «no tan fácilmente»",
+        "en": "なかなか — \"not so easily\""
       },
-      "pattern": "なかなか + negativo",
+      "pattern": {
+        "es": "なかなか + negativo",
+        "en": "なかなか + negative"
+      },
       "explanation": {
-        "es": "Con verbo negativo, なかなか indica que algo no ocurre tan fácilmente como se querría: なかなか 日本人[にほんじん]に 会[あ]えません."
+        "es": "Con verbo negativo, なかなか indica que algo no ocurre tan fácilmente como se querría: なかなか 日本人[にほんじん]に 会[あ]えません.",
+        "en": "With a negative verb, なかなか says something doesn't happen as easily as you'd like: なかなか 日本人[にほんじん]に 会[あ]えません."
       },
       "examples": [
         {
           "jp": "日本[にほん]では、なかなか 馬[うま]を 見[み]ることができません。",
           "translation": {
-            "es": "En Japón no es fácil ver caballos."
+            "es": "En Japón no es fácil ver caballos.",
+            "en": "In Japan you don't often get to see horses."
           }
         }
       ]
@@ -108,17 +140,23 @@
     {
       "id": "zehi",
       "title": {
-        "es": "ぜひ — «sin falta»"
+        "es": "ぜひ — «sin falta»",
+        "en": "ぜひ — \"by all means\""
       },
-      "pattern": "ぜひ + deseo/invitación",
+      "pattern": {
+        "es": "ぜひ + deseo/invitación",
+        "en": "ぜひ + wish/invitation"
+      },
       "explanation": {
-        "es": "ぜひ intensifica deseos e invitaciones: ぜひ 遊[あそ]びに 来[き]てください (ven a visitarnos, de verdad)."
+        "es": "ぜひ intensifica deseos e invitaciones: ぜひ 遊[あそ]びに 来[き]てください (ven a visitarnos, de verdad).",
+        "en": "ぜひ strengthens wishes and invitations: ぜひ 遊[あそ]びに 来[き]てください (do come and visit us)."
       },
       "examples": [
         {
           "jp": "ぜひ 北海道[ほっかいどう]へ 行[い]きたいです。",
           "translation": {
-            "es": "Quiero ir a Hokkaido sin falta."
+            "es": "Quiero ir a Hokkaido sin falta.",
+            "en": "I really want to go to Hokkaido."
           }
         }
       ]

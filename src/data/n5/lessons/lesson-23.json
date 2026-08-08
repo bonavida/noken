@@ -2,33 +2,42 @@
   "level": "n5",
   "number": 23,
   "title": {
-    "es": "«Cuando» y condiciones"
+    "es": "«Cuando» y condiciones",
+    "en": "\"When\" and conditions"
   },
   "jpTitle": "どうやって 行[い]きますか",
   "description": {
-    "es": "Expresa «cuando pasa X» con とき y la condición natural «si/cuando» con と, además de dar indicaciones por la calle."
+    "es": "Expresa «cuando pasa X» con とき y la condición natural «si/cuando» con と, además de dar indicaciones por la calle.",
+    "en": "Say \"when X happens\" with とき and give a natural condition with と, plus how to give street directions."
   },
   "grammar": [
     {
       "id": "toki",
       "title": {
-        "es": "〜とき、〜 — «cuando»"
+        "es": "〜とき、〜 — «cuando»",
+        "en": "〜とき、〜 — \"when\""
       },
-      "pattern": "V (dicc./ない/た)・A-い・A-な[な]・N の + とき、S",
+      "pattern": {
+        "es": "V (dicc./ない/た)・A-い・A-な[な]・N の + とき、S",
+        "en": "V (dict./ない/た)・A-い・A-な[な]・N の + とき、S"
+      },
       "explanation": {
-        "es": "とき convierte una oración en marco temporal: 図書館[としょかん]で 本[ほん]を 借[か]りるとき、カードが 要[い]ります. Delante de とき el verbo va en forma informal; los adjetivos -な llevan な y los sustantivos の."
+        "es": "とき convierte una oración en marco temporal: 図書館[としょかん]で 本[ほん]を 借[か]りるとき、カードが 要[い]ります. Delante de とき el verbo va en forma informal; los adjetivos -な llevan な y los sustantivos の.",
+        "en": "とき turns a clause into a time frame: 図書館[としょかん]で 本[ほん]を 借[か]りるとき、カードが 要[い]ります. Before とき the verb takes the plain form; -な adjectives keep な and nouns take の."
       },
       "examples": [
         {
           "jp": "眠[ねむ]いとき、コーヒーを 飲[の]みます。",
           "translation": {
-            "es": "Cuando tengo sueño, tomo café."
+            "es": "Cuando tengo sueño, tomo café.",
+            "en": "When I'm sleepy, I drink coffee."
           }
         },
         {
           "jp": "暇[ひま]なとき、うちへ 遊[あそ]びに 来[き]ませんか。",
           "translation": {
-            "es": "Cuando estés libre, ¿por qué no vienes a casa?"
+            "es": "Cuando estés libre, ¿por qué no vienes a casa?",
+            "en": "When you're free, why don't you come over?"
           }
         }
       ]
@@ -36,17 +45,23 @@
     {
       "id": "toki-aspecto",
       "title": {
-        "es": "V (dicc.) とき ／ V た とき — antes o después"
+        "es": "V (dicc.) とき ／ V た とき — antes o después",
+        "en": "V (dict.) とき ／ V た とき — before or after"
       },
-      "pattern": "行[い]く とき ／ 行[い]った とき",
+      "pattern": {
+        "es": "行[い]く とき ／ 行[い]った とき",
+        "en": "行[い]く とき ／ 行[い]った とき"
+      },
       "explanation": {
-        "es": "Con la forma de diccionario, la acción principal ocurre antes de completarse la subordinada (国[くに]へ 帰[かえ]るとき、かばんを 買[か]いました: lo compré antes de volver); con la forma た, después (帰[かえ]ったとき: al llegar)."
+        "es": "Con la forma de diccionario, la acción principal ocurre antes de completarse la subordinada (国[くに]へ 帰[かえ]るとき、かばんを 買[か]いました: lo compré antes de volver); con la forma た, después (帰[かえ]ったとき: al llegar).",
+        "en": "With the dictionary form, the main action happens before the subordinate one is complete (国[くに]へ 帰[かえ]るとき、かばんを 買[か]いました: I bought it before going back); with the た form, afterwards (帰[かえ]ったとき: once I had arrived)."
       },
       "examples": [
         {
           "jp": "パリへ 行[い]ったとき、この 絵[え]を 買[か]いました。",
           "translation": {
-            "es": "Cuando estuve en París, compré este cuadro."
+            "es": "Cuando estuve en París, compré este cuadro.",
+            "en": "When I was in Paris, I bought this painting."
           }
         }
       ]
@@ -54,23 +69,30 @@
     {
       "id": "to-condicional",
       "title": {
-        "es": "V (dicc.) と、〜 — condición natural"
+        "es": "V (dicc.) と、〜 — condición natural",
+        "en": "V (dict.) と、〜 — natural condition"
       },
-      "pattern": "V (forma de diccionario) と、S",
+      "pattern": {
+        "es": "V (forma de diccionario) と、S",
+        "en": "V (dictionary form) と、S"
+      },
       "explanation": {
-        "es": "と expresa que un resultado sigue de forma automática o natural: この ボタンを 押[お]すと、お 釣[つ]りが 出[で]ます (si pulsas este botón, sale el cambio). Se usa para máquinas, indicaciones de camino y hechos naturales."
+        "es": "と expresa que un resultado sigue de forma automática o natural: この ボタンを 押[お]すと、お 釣[つ]りが 出[で]ます (si pulsas este botón, sale el cambio). Se usa para máquinas, indicaciones de camino y hechos naturales.",
+        "en": "と says a result follows automatically or naturally: この ボタンを 押[お]すと、お 釣[つ]りが 出[で]ます (press this button and the change comes out). It is used for machines, directions and facts of nature."
       },
       "examples": [
         {
           "jp": "これを 回[まわ]すと、 音[おと]が 大[おお]きくなります。",
           "translation": {
-            "es": "Si giras esto, el sonido sube."
+            "es": "Si giras esto, el sonido sube.",
+            "en": "Turn this and the volume goes up."
           }
         },
         {
           "jp": "この 道[みち]をまっすぐ 行[い]くと、 駅[えき]があります。",
           "translation": {
-            "es": "Si sigues recto por esta calle, llegas a la estación."
+            "es": "Si sigues recto por esta calle, llegas a la estación.",
+            "en": "Go straight along this street and you'll reach the station."
           }
         }
       ]
@@ -78,17 +100,22 @@
     {
       "id": "ga-adjetivo",
       "title": {
-        "es": "N が A — describir sensaciones"
+        "es": "N が A — describir sensaciones",
+        "en": "N が A — describing what you notice"
       },
-      "pattern": "N が 大[おお]きい／小[ちい]さい…",
+      "pattern": {
+        "es": "N が 大[おお]きい／小[ちい]さい…"
+      },
       "explanation": {
-        "es": "Dentro de la descripción de una situación percibida, el sujeto va con が: 音[おと]が 小[ちい]さいです (el sonido está bajo)."
+        "es": "Dentro de la descripción de una situación percibida, el sujeto va con が: 音[おと]が 小[ちい]さいです (el sonido está bajo).",
+        "en": "When describing a situation as you perceive it, the subject takes が: 音[おと]が 小[ちい]さいです (the sound is low)."
       },
       "examples": [
         {
           "jp": "サイズが 小[ちい]さいです。",
           "translation": {
-            "es": "La talla es pequeña."
+            "es": "La talla es pequeña.",
+            "en": "The size is small."
           }
         }
       ]
@@ -96,17 +123,22 @@
     {
       "id": "o-movimiento",
       "title": {
-        "es": "N を V — moverse por un lugar"
+        "es": "N を V — moverse por un lugar",
+        "en": "N を V — moving through a place"
       },
-      "pattern": "N を 歩[ある]きます／渡[わた]ります／曲[ま]がります",
+      "pattern": {
+        "es": "N を 歩[ある]きます／渡[わた]ります／曲[ま]がります"
+      },
       "explanation": {
-        "es": "を marca el espacio que se recorre con verbos de movimiento: 道[みち]を 歩[ある]きます (caminar por la calle), 橋[はし]を 渡[わた]ります (cruzar el puente), 角[かど]を 曲[ま]がります (doblar la esquina)."
+        "es": "を marca el espacio que se recorre con verbos de movimiento: 道[みち]を 歩[ある]きます (caminar por la calle), 橋[はし]を 渡[わた]ります (cruzar el puente), 角[かど]を 曲[ま]がります (doblar la esquina).",
+        "en": "を marks the space you move through with verbs of motion: 道[みち]を 歩[ある]きます (to walk along the street), 橋[はし]を 渡[わた]ります (to cross the bridge), 角[かど]を 曲[ま]がります (to turn the corner)."
       },
       "examples": [
         {
           "jp": "2つ 目[め]の 角[かど]を 右[みぎ]へ 曲[ま]がってください。",
           "translation": {
-            "es": "Doble a la derecha en la segunda esquina."
+            "es": "Doble a la derecha en la segunda esquina.",
+            "en": "Turn right at the second corner."
           }
         }
       ]

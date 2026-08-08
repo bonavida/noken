@@ -2,27 +2,35 @@
   "level": "n5",
   "number": 20,
   "title": {
-    "es": "Estilo informal"
+    "es": "Estilo informal",
+    "en": "The plain style"
   },
   "jpTitle": "いっしょに 行[い]かない？",
   "description": {
-    "es": "El estilo informal (forma simple) frente al cortés: cuándo usar cada uno y cómo suena la conversación entre amigos."
+    "es": "El estilo informal (forma simple) frente al cortés: cuándo usar cada uno y cómo suena la conversación entre amigos.",
+    "en": "The plain style versus the polite style: when to use each, and how conversation between friends sounds."
   },
   "grammar": [
     {
       "id": "estilos",
       "title": {
-        "es": "Estilo cortés y estilo informal"
+        "es": "Estilo cortés y estilo informal",
+        "en": "Polite style and plain style"
       },
-      "pattern": "です・ます ↔ forma simple (だ, 行[い]く, 高[たか]い…)",
+      "pattern": {
+        "es": "です・ます ↔ forma simple (だ, 行[い]く, 高[たか]い…)",
+        "en": "です・ます ↔ plain form (だ, 行[い]く, 高[たか]い…)"
+      },
       "explanation": {
-        "es": "El estilo cortés (です・ます) se usa con desconocidos, superiores y en situaciones formales. El estilo informal usa las formas simples del verbo y adjetivo (行[い]く, 行[い]かない, 行[い]った, 高[たか]い, 静[しず]かだ) y es propio de familia y amigos."
+        "es": "El estilo cortés (です・ます) se usa con desconocidos, superiores y en situaciones formales. El estilo informal usa las formas simples del verbo y adjetivo (行[い]く, 行[い]かない, 行[い]った, 高[たか]い, 静[しず]かだ) y es propio de familia y amigos.",
+        "en": "The polite style (です・ます) is used with strangers, with superiors and in formal situations. The plain style uses the plain forms of verbs and adjectives (行[い]く, 行[い]かない, 行[い]った, 高[たか]い, 静[しず]かだ) and belongs to family and friends."
       },
       "examples": [
         {
           "jp": "あした 東京[とうきょう]へ 行[い]く？…うん、 行[い]く。",
           "translation": {
-            "es": "¿Vas mañana a Tokio? …Sí, voy."
+            "es": "¿Vas mañana a Tokio? …Sí, voy.",
+            "en": "Are you going to Tokyo tomorrow? …Yes, I am."
           }
         }
       ]
@@ -30,17 +38,23 @@
     {
       "id": "uso-estilos",
       "title": {
-        "es": "Cuándo usar cada estilo"
+        "es": "Cuándo usar cada estilo",
+        "en": "When to use each style"
       },
-      "pattern": "cortés: superiores/desconocidos ／ informal: amigos/familia",
+      "pattern": {
+        "es": "cortés: superiores/desconocidos ／ informal: amigos/familia",
+        "en": "polite: superiors/strangers ／ plain: friends/family"
+      },
       "explanation": {
-        "es": "Usar el informal con quien no corresponde resulta maleducado; usar el cortés con amigos íntimos suena distante. Ante la duda, el estilo cortés es siempre la opción segura. きみ, ぼく y 〜くん son formas informales de tratamiento."
+        "es": "Usar el informal con quien no corresponde resulta maleducado; usar el cortés con amigos íntimos suena distante. Ante la duda, el estilo cortés es siempre la opción segura. きみ, ぼく y 〜くん son formas informales de tratamiento.",
+        "en": "Using the plain style with the wrong person is rude; using the polite style with close friends sounds distant. When in doubt, the polite style is always the safe choice. きみ, ぼく and 〜くん are informal ways of addressing people."
       },
       "examples": [
         {
           "jp": "はい → うん ／ いいえ → ううん",
           "translation": {
-            "es": "Sí y no también tienen versión informal."
+            "es": "Sí y no también tienen versión informal.",
+            "en": "Yes and no have plain versions too."
           }
         }
       ]
@@ -48,23 +62,30 @@
     {
       "id": "conversacion-informal",
       "title": {
-        "es": "Rasgos de la conversación informal"
+        "es": "Rasgos de la conversación informal",
+        "en": "Features of casual conversation"
       },
-      "pattern": "partículas omitidas, か → ¿entonación?, けど",
+      "pattern": {
+        "es": "partículas omitidas, か → ¿entonación?, けど",
+        "en": "particles dropped, か → intonation, けど"
+      },
       "explanation": {
-        "es": "En el habla informal se omite la か de las preguntas (subiendo la entonación: 行[い]く？), se caen partículas como は・を, y が (pero) suele decirse けど. La い de 〜ている también se pierde: 持[も]ってる."
+        "es": "En el habla informal se omite la か de las preguntas (subiendo la entonación: 行[い]く？), se caen partículas como は・を, y が (pero) suele decirse けど. La い de 〜ている también se pierde: 持[も]ってる.",
+        "en": "In casual speech the か of questions is dropped (with rising intonation: 行[い]く？), particles like は・を fall away, and が (but) is usually said as けど. The い of 〜ている is also dropped: 持[も]ってる."
       },
       "examples": [
         {
           "jp": "ご 飯[はん][を] 食[た]べた？…ううん、まだ。",
           "translation": {
-            "es": "¿Has comido? …No, todavía."
+            "es": "¿Has comido? …No, todavía.",
+            "en": "Have you eaten? …No, not yet."
           }
         },
         {
           "jp": "その 傘[かさ]、いいけど、 高[たか]かった？",
           "translation": {
-            "es": "Ese paraguas está bien, pero ¿fue caro?"
+            "es": "Ese paraguas está bien, pero ¿fue caro?",
+            "en": "That umbrella is nice — was it expensive?"
           }
         }
       ]

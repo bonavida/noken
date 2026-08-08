@@ -2,33 +2,41 @@
   "level": "n5",
   "number": 4,
   "title": {
-    "es": "La hora y los verbos"
+    "es": "La hora y los verbos",
+    "en": "Time and verbs"
   },
   "jpTitle": "そちらは 何時[なんじ]までですか",
   "description": {
-    "es": "Di la hora, los días de la semana y usa los primeros verbos en presente y pasado, afirmativo y negativo."
+    "es": "Di la hora, los días de la semana y usa los primeros verbos en presente y pasado, afirmativo y negativo.",
+    "en": "Tell the time, name the days of the week, and use your first verbs in present and past, affirmative and negative."
   },
   "grammar": [
     {
       "id": "ima-nanji",
       "title": {
-        "es": "今[いま] −時[じ]−分[ふん]です — la hora"
+        "es": "今[いま] −時[じ]−分[ふん]です — la hora",
+        "en": "今[いま] −時[じ]−分[ふん]です — telling the time"
       },
-      "pattern": "今[いま] − 時[じ] − 分[ふん]です",
+      "pattern": {
+        "es": "今[いま] − 時[じ] − 分[ふん]です"
+      },
       "explanation": {
-        "es": "La hora se expresa con los numerales seguidos de 時[じ] (horas) y 分[ふん] (minutos). Para preguntar se usa 何時[なんじ] (¿qué hora?). 半[はん] significa «y media»."
+        "es": "La hora se expresa con los numerales seguidos de 時[じ] (horas) y 分[ふん] (minutos). Para preguntar se usa 何時[なんじ] (¿qué hora?). 半[はん] significa «y media».",
+        "en": "The time is expressed with numerals followed by 時[じ] (hours) and 分[ふん] (minutes). To ask you use 何時[なんじ] (what time?). 半[はん] means \"half past\"."
       },
       "examples": [
         {
           "jp": "今[いま] 何時[なんじ]ですか。…7 時[じ]10 分[ぷん]です。",
           "translation": {
-            "es": "¿Qué hora es? …Son las 7:10."
+            "es": "¿Qué hora es? …Son las 7:10.",
+            "en": "What time is it? …It's 7:10."
           }
         },
         {
           "jp": "今[いま]9 時[じ] 半[はん]です。",
           "translation": {
-            "es": "Son las nueve y media."
+            "es": "Son las nueve y media.",
+            "en": "It's half past nine."
           }
         }
       ]
@@ -36,23 +44,29 @@
     {
       "id": "verbos-masu",
       "title": {
-        "es": "Vます／Vません／Vました／Vませんでした"
+        "es": "Vます／Vません／Vました／Vませんでした",
+        "en": "Vます／Vません／Vました／Vませんでした"
       },
-      "pattern": "V ます ／ V ません ／ V ました ／ V ませんでした",
+      "pattern": {
+        "es": "V ます ／ V ません ／ V ました ／ V ませんでした"
+      },
       "explanation": {
-        "es": "La forma ます es la forma cortés del verbo. Sus cuatro combinaciones cubren presente/futuro y pasado, en afirmativo y negativo: 働[はたら]きます (trabajo/trabajaré), 働[はたら]きません (no trabajo), 働[はたら]きました (trabajé), 働[はたら]きませんでした (no trabajé)."
+        "es": "La forma ます es la forma cortés del verbo. Sus cuatro combinaciones cubren presente/futuro y pasado, en afirmativo y negativo: 働[はたら]きます (trabajo/trabajaré), 働[はたら]きません (no trabajo), 働[はたら]きました (trabajé), 働[はたら]きませんでした (no trabajé).",
+        "en": "The ます form is the polite form of the verb. Its four combinations cover present/future and past, affirmative and negative: 働[はたら]きます (I work/will work), 働[はたら]きません (I don't work), 働[はたら]きました (I worked), 働[はたら]きませんでした (I didn't work)."
       },
       "examples": [
         {
           "jp": "毎日[まいにち] 勉強[べんきょう]します。",
           "translation": {
-            "es": "Estudio todos los días."
+            "es": "Estudio todos los días.",
+            "en": "I study every day."
           }
         },
         {
           "jp": "きのう 働[はたら]きませんでした。",
           "translation": {
-            "es": "Ayer no trabajé."
+            "es": "Ayer no trabajé.",
+            "en": "I didn't work yesterday."
           }
         }
       ]
@@ -60,17 +74,23 @@
     {
       "id": "ni-tiempo",
       "title": {
-        "es": "S (tiempo) に V — «a las…»"
+        "es": "S (tiempo) に V — «a las…»",
+        "en": "S (time) に V — \"at…\""
       },
-      "pattern": "tiempo に V",
+      "pattern": {
+        "es": "tiempo に V",
+        "en": "time に V"
+      },
       "explanation": {
-        "es": "La partícula に marca el momento puntual en que ocurre la acción, cuando ese momento se expresa con números (horas, fechas): 6 時[じ]に 起[お]きます. Con palabras como きょう o 毎朝[まいあさ] no se usa に."
+        "es": "La partícula に marca el momento puntual en que ocurre la acción, cuando ese momento se expresa con números (horas, fechas): 6 時[じ]に 起[お]きます. Con palabras como きょう o 毎朝[まいあさ] no se usa に.",
+        "en": "The particle に marks the point in time when the action happens, when that moment is expressed with numbers (times, dates): 6 時[じ]に 起[お]きます. It is not used with words like きょう or 毎朝[まいあさ]."
       },
       "examples": [
         {
           "jp": "毎朝[まいあさ]6 時[じ]に 起[お]きます。",
           "translation": {
-            "es": "Todas las mañanas me levanto a las seis."
+            "es": "Todas las mañanas me levanto a las seis.",
+            "en": "I get up at six every morning."
           }
         }
       ]
@@ -78,23 +98,29 @@
     {
       "id": "kara-made",
       "title": {
-        "es": "S1 から S2 まで — «desde… hasta…»"
+        "es": "S1 から S2 まで — «desde… hasta…»",
+        "en": "S1 から S2 まで — \"from… to…\""
       },
-      "pattern": "N1 から N2 まで",
+      "pattern": {
+        "es": "N1 から N2 まで"
+      },
       "explanation": {
-        "es": "から marca el punto de inicio (en tiempo o espacio) y まで el punto final. Pueden usarse juntas o por separado."
+        "es": "から marca el punto de inicio (en tiempo o espacio) y まで el punto final. Pueden usarse juntas o por separado.",
+        "en": "から marks the starting point (in time or space) and まで the end point. They can be used together or on their own."
       },
       "examples": [
         {
           "jp": "銀行[ぎんこう]は9 時[じ]から3 時[じ]までです。",
           "translation": {
-            "es": "El banco abre de nueve a tres."
+            "es": "El banco abre de nueve a tres.",
+            "en": "The bank is open from nine to three."
           }
         },
         {
           "jp": "昼休[ひるやす]みは12 時[じ]からです。",
           "translation": {
-            "es": "El descanso de mediodía es desde las doce."
+            "es": "El descanso de mediodía es desde las doce.",
+            "en": "The lunch break starts at twelve."
           }
         }
       ]
@@ -102,17 +128,22 @@
     {
       "id": "to",
       "title": {
-        "es": "N1 と N2 — «y»"
+        "es": "N1 と N2 — «y»",
+        "en": "N1 と N2 — \"and\""
       },
-      "pattern": "N1 と N2",
+      "pattern": {
+        "es": "N1 と N2"
+      },
       "explanation": {
-        "es": "と conecta dos sustantivos en una enumeración completa: 銀行[ぎんこう]は 土曜日[どようび]と 日曜日[にちようび]が 休[やす]みです."
+        "es": "と conecta dos sustantivos en una enumeración completa: 銀行[ぎんこう]は 土曜日[どようび]と 日曜日[にちようび]が 休[やす]みです.",
+        "en": "と links two nouns in a complete list: 銀行[ぎんこう]は 土曜日[どようび]と 日曜日[にちようび]が 休[やす]みです."
       },
       "examples": [
         {
           "jp": "休[やす]みは 土曜日[どようび]と 日曜日[にちようび]です。",
           "translation": {
-            "es": "Los días libres son el sábado y el domingo."
+            "es": "Los días libres son el sábado y el domingo.",
+            "en": "The days off are Saturday and Sunday."
           }
         }
       ]
@@ -120,17 +151,22 @@
     {
       "id": "ne",
       "title": {
-        "es": "〜ね — buscar acuerdo"
+        "es": "〜ね — buscar acuerdo",
+        "en": "〜ね — seeking agreement"
       },
-      "pattern": "S ね",
+      "pattern": {
+        "es": "S ね"
+      },
       "explanation": {
-        "es": "La partícula final ね suaviza la frase y busca la confirmación o empatía del oyente, como el español «¿verdad?» o «¿no?»."
+        "es": "La partícula final ね suaviza la frase y busca la confirmación o empatía del oyente, como el español «¿verdad?» o «¿no?».",
+        "en": "The sentence-final particle ね softens the sentence and invites the listener's agreement or sympathy, like English \"isn't it?\" or \"right?\"."
       },
       "examples": [
         {
           "jp": "毎日[まいにち]10 時[じ]まで 勉強[べんきょう]します。… 大変[たいへん]ですね。",
           "translation": {
-            "es": "Estudio todos los días hasta las diez. …¡Qué duro!, ¿no?"
+            "es": "Estudio todos los días hasta las diez. …¡Qué duro!, ¿no?",
+            "en": "I study every day until ten. …That's tough, isn't it?"
           }
         }
       ]

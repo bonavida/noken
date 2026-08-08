@@ -2,33 +2,41 @@
   "level": "n5",
   "number": 8,
   "title": {
-    "es": "Adjetivos"
+    "es": "Adjetivos",
+    "en": "Adjectives"
   },
   "jpTitle": "そろそろ 失礼[しつれい]します",
   "description": {
-    "es": "Describe personas, lugares y cosas con los dos tipos de adjetivos japoneses: -い y -な."
+    "es": "Describe personas, lugares y cosas con los dos tipos de adjetivos japoneses: -い y -な.",
+    "en": "Describe people, places and things with the two kinds of Japanese adjective: -い and -な."
   },
   "grammar": [
     {
       "id": "adjetivos",
       "title": {
-        "es": "Los dos tipos de adjetivos"
+        "es": "Los dos tipos de adjetivos",
+        "en": "The two kinds of adjective"
       },
-      "pattern": "A-い ／ A-な",
+      "pattern": {
+        "es": "A-い ／ A-な"
+      },
       "explanation": {
-        "es": "El japonés tiene adjetivos -い (大[おお]きい, 高[たか]い) y adjetivos -な (きれい[な], 有名[ゆうめい][な]). Se comportan de forma distinta al modificar sustantivos y al conjugarse, así que conviene memorizar cada adjetivo con su tipo."
+        "es": "El japonés tiene adjetivos -い (大[おお]きい, 高[たか]い) y adjetivos -な (きれい[な], 有名[ゆうめい][な]). Se comportan de forma distinta al modificar sustantivos y al conjugarse, así que conviene memorizar cada adjetivo con su tipo.",
+        "en": "Japanese has -い adjectives (大[おお]きい, 高[たか]い) and -な adjectives (きれい[な], 有名[ゆうめい][な]). They behave differently when modifying nouns and when conjugating, so it pays to memorise each adjective together with its type."
       },
       "examples": [
         {
           "jp": "富士山[ふじさん]は 高[たか]いです。",
           "translation": {
-            "es": "El monte Fuji es alto."
+            "es": "El monte Fuji es alto.",
+            "en": "Mount Fuji is tall."
           }
         },
         {
           "jp": "桜[さくら]はきれいです。",
           "translation": {
-            "es": "Los cerezos son bonitos."
+            "es": "Los cerezos son bonitos.",
+            "en": "Cherry blossoms are beautiful."
           }
         }
       ]
@@ -36,23 +44,29 @@
     {
       "id": "predicado-adjetivo",
       "title": {
-        "es": "N は A です — el adjetivo como predicado"
+        "es": "N は A です — el adjetivo como predicado",
+        "en": "N は A です — the adjective as predicate"
       },
-      "pattern": "N は A-な[な] です ／ N は A-い(〜い) です",
+      "pattern": {
+        "es": "N は A-な[な] です ／ N は A-い(〜い) です"
+      },
       "explanation": {
-        "es": "Como predicado, ambos tipos van seguidos de です. El adjetivo -な pierde la な: 静[しず]かです. El negativo difiere: los -な usan じゃありません (静[しず]かじゃありません) y los -い cambian 〜い por 〜くないです (高[たか]くないです). El negativo de いい es よくないです."
+        "es": "Como predicado, ambos tipos van seguidos de です. El adjetivo -な pierde la な: 静[しず]かです. El negativo difiere: los -な usan じゃありません (静[しず]かじゃありません) y los -い cambian 〜い por 〜くないです (高[たか]くないです). El negativo de いい es よくないです.",
+        "en": "As a predicate, both types are followed by です. The -な adjective drops the な: 静[しず]かです. The negative differs: -な adjectives use じゃありません (静[しず]かじゃありません) and -い adjectives change 〜い to 〜くないです (高[たか]くないです). The negative of いい is よくないです."
       },
       "examples": [
         {
           "jp": "ペキンは 今[いま] 寒[さむ]いですか。…はい、 寒[さむ]いです。",
           "translation": {
-            "es": "¿Hace frío ahora en Pekín? …Sí, hace frío."
+            "es": "¿Hace frío ahora en Pekín? …Sí, hace frío.",
+            "en": "Is it cold in Beijing now? …Yes, it's cold."
           }
         },
         {
           "jp": "この 部屋[へや]は 静[しず]かじゃありません。",
           "translation": {
-            "es": "Esta habitación no es silenciosa."
+            "es": "Esta habitación no es silenciosa.",
+            "en": "This room is not quiet."
           }
         }
       ]
@@ -60,23 +74,29 @@
     {
       "id": "adjetivo-sustantivo",
       "title": {
-        "es": "A + N — el adjetivo delante del sustantivo"
+        "es": "A + N — el adjetivo delante del sustantivo",
+        "en": "A + N — the adjective before the noun"
       },
-      "pattern": "A-な[な] N ／ A-い(〜い) N",
+      "pattern": {
+        "es": "A-な[な] N ／ A-い(〜い) N"
+      },
       "explanation": {
-        "es": "Al modificar directamente un sustantivo, los adjetivos -な conservan la な (きれいな 花[はな]) y los -い se usan tal cual (新[あたら]しい 車[くるま])."
+        "es": "Al modificar directamente un sustantivo, los adjetivos -な conservan la な (きれいな 花[はな]) y los -い se usan tal cual (新[あたら]しい 車[くるま]).",
+        "en": "When modifying a noun directly, -な adjectives keep the な (きれいな 花[はな]) and -い adjectives are used as they are (新[あたら]しい 車[くるま])."
       },
       "examples": [
         {
           "jp": "ワット 先生[せんせい]は 親切[しんせつ]な 先生[せんせい]です。",
           "translation": {
-            "es": "El profesor Watt es un profesor amable."
+            "es": "El profesor Watt es un profesor amable.",
+            "en": "Mr. Watt is a kind teacher."
           }
         },
         {
           "jp": "富士山[ふじさん]は 高[たか]い 山[やま]です。",
           "translation": {
-            "es": "El monte Fuji es una montaña alta."
+            "es": "El monte Fuji es una montaña alta.",
+            "en": "Mount Fuji is a tall mountain."
           }
         }
       ]
@@ -84,17 +104,22 @@
     {
       "id": "ga-pero",
       "title": {
-        "es": "〜が、〜 — «pero»"
+        "es": "〜が、〜 — «pero»",
+        "en": "〜が、〜 — \"but\""
       },
-      "pattern": "S1 が、S2",
+      "pattern": {
+        "es": "S1 が、S2"
+      },
       "explanation": {
-        "es": "が une dos oraciones con sentido adversativo: 日本[にほん]の 食[た]べ 物[もの]はおいしいですが、 高[たか]いです."
+        "es": "が une dos oraciones con sentido adversativo: 日本[にほん]の 食[た]べ 物[もの]はおいしいですが、 高[たか]いです.",
+        "en": "が joins two sentences with a contrasting sense: 日本[にほん]の 食[た]べ 物[もの]はおいしいですが、 高[たか]いです."
       },
       "examples": [
         {
           "jp": "日本[にほん]の 食[た]べ 物[もの]はおいしいですが、 高[たか]いです。",
           "translation": {
-            "es": "La comida japonesa está rica, pero es cara."
+            "es": "La comida japonesa está rica, pero es cara.",
+            "en": "Japanese food is delicious, but expensive."
           }
         }
       ]
@@ -102,23 +127,30 @@
     {
       "id": "totemo-amari",
       "title": {
-        "es": "とても／あまり — «muy» y «no muy»"
+        "es": "とても／あまり — «muy» y «no muy»",
+        "en": "とても／あまり — \"very\" and \"not very\""
       },
-      "pattern": "とても A ／ あまり A (negativo)",
+      "pattern": {
+        "es": "とても A ／ あまり A (negativo)",
+        "en": "とても A ／ あまり A (negative)"
+      },
       "explanation": {
-        "es": "とても intensifica en frases afirmativas (とても 大[おお]きい, muy grande). あまり solo aparece con negación: あまり 有名[ゆうめい]じゃありません (no es muy famoso)."
+        "es": "とても intensifica en frases afirmativas (とても 大[おお]きい, muy grande). あまり solo aparece con negación: あまり 有名[ゆうめい]じゃありません (no es muy famoso).",
+        "en": "とても intensifies in affirmative sentences (とても 大[おお]きい, very big). あまり only appears with a negative: あまり 有名[ゆうめい]じゃありません (it isn't very famous)."
       },
       "examples": [
         {
           "jp": "この 町[まち]はとてもにぎやかです。",
           "translation": {
-            "es": "Esta ciudad es muy animada."
+            "es": "Esta ciudad es muy animada.",
+            "en": "This town is very lively."
           }
         },
         {
           "jp": "この 本[ほん]はあまりおもしろくないです。",
           "translation": {
-            "es": "Este libro no es muy interesante."
+            "es": "Este libro no es muy interesante.",
+            "en": "This book isn't very interesting."
           }
         }
       ]
@@ -126,17 +158,22 @@
     {
       "id": "dou-desu-ka",
       "title": {
-        "es": "N は どうですか — pedir impresiones"
+        "es": "N は どうですか — pedir impresiones",
+        "en": "N は どうですか — asking for impressions"
       },
-      "pattern": "N は どうですか",
+      "pattern": {
+        "es": "N は どうですか"
+      },
       "explanation": {
-        "es": "Pregunta la impresión del oyente sobre algo que ya ha experimentado: 日本[にほん]の 生活[せいかつ]は どうですか (¿qué tal la vida en Japón?)."
+        "es": "Pregunta la impresión del oyente sobre algo que ya ha experimentado: 日本[にほん]の 生活[せいかつ]は どうですか (¿qué tal la vida en Japón?).",
+        "en": "It asks the listener's impression of something they have already experienced: 日本[にほん]の 生活[せいかつ]は どうですか (how is life in Japan?)."
       },
       "examples": [
         {
           "jp": "仕事[しごと]はどうですか。… 忙[いそが]しいですが、おもしろいです。",
           "translation": {
-            "es": "¿Qué tal el trabajo? …Es ajetreado, pero interesante."
+            "es": "¿Qué tal el trabajo? …Es ajetreado, pero interesante.",
+            "en": "How is work? …It's busy, but interesting."
           }
         }
       ]
@@ -144,17 +181,22 @@
     {
       "id": "donna",
       "title": {
-        "es": "N1 は どんな N2 ですか — «¿qué clase de…?»"
+        "es": "N1 は どんな N2 ですか — «¿qué clase de…?»",
+        "en": "N1 は どんな N2 ですか — \"what kind of…?\""
       },
-      "pattern": "N1 は どんな N2 ですか",
+      "pattern": {
+        "es": "N1 は どんな N2 ですか"
+      },
       "explanation": {
-        "es": "どんな + sustantivo pide una descripción; se responde con un adjetivo: 奈良[なら]は どんな 町[まち]ですか。… 古[ふる]い 町[まち]です."
+        "es": "どんな + sustantivo pide una descripción; se responde con un adjetivo: 奈良[なら]は どんな 町[まち]ですか。… 古[ふる]い 町[まち]です.",
+        "en": "どんな + noun asks for a description; the answer uses an adjective: 奈良[なら]は どんな 町[まち]ですか。… 古[ふる]い 町[まち]です."
       },
       "examples": [
         {
           "jp": "奈良[なら]はどんな 町[まち]ですか。… 古[ふる]い 町[まち]です。",
           "translation": {
-            "es": "¿Qué clase de ciudad es Nara? …Es una ciudad antigua."
+            "es": "¿Qué clase de ciudad es Nara? …Es una ciudad antigua.",
+            "en": "What kind of town is Nara? …It's an old town."
           }
         }
       ]
@@ -162,17 +204,22 @@
     {
       "id": "sou-desu-ne-8",
       "title": {
-        "es": "そうですね — ganar tiempo"
+        "es": "そうですね — ganar tiempo",
+        "en": "そうですね — buying time"
       },
-      "pattern": "そうですね…",
+      "pattern": {
+        "es": "そうですね…"
+      },
       "explanation": {
-        "es": "Dicho con entonación reflexiva, そうですね también sirve para ganar tiempo mientras se piensa la respuesta, como «pues…, a ver…»."
+        "es": "Dicho con entonación reflexiva, そうですね también sirve para ganar tiempo mientras se piensa la respuesta, como «pues…, a ver…».",
+        "en": "Said with a thoughtful intonation, そうですね also buys you time while you think of an answer, like \"well… let me see…\"."
       },
       "examples": [
         {
           "jp": "日本[にほん]の 生活[せいかつ]はどうですか。…そうですね、 楽[たの]しいです。",
           "translation": {
-            "es": "¿Qué tal la vida en Japón? …Pues… es divertida."
+            "es": "¿Qué tal la vida en Japón? …Pues… es divertida.",
+            "en": "How is life in Japan? …Well… it's fun."
           }
         }
       ]

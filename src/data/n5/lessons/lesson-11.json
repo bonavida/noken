@@ -2,33 +2,42 @@
   "level": "n5",
   "number": 11,
   "title": {
-    "es": "Contar cosas y personas"
+    "es": "Contar cosas y personas",
+    "en": "Counting things and people"
   },
   "jpTitle": "これ、お 願[ねが]いします",
   "description": {
-    "es": "Los numerales japoneses (ひとつ、ふたつ…), los sufijos de conteo y cómo expresar cantidades y duración."
+    "es": "Los numerales japoneses (ひとつ、ふたつ…), los sufijos de conteo y cómo expresar cantidades y duración.",
+    "en": "The Japanese numerals (ひとつ、ふたつ…), the counter suffixes, and how to express quantities and duration."
   },
   "grammar": [
     {
       "id": "numerales",
       "title": {
-        "es": "Numerales: ひとつ、ふたつ… y sufijos de conteo"
+        "es": "Numerales: ひとつ、ふたつ… y sufijos de conteo",
+        "en": "Numerals: ひとつ、ふたつ… and counter suffixes"
       },
-      "pattern": "ひとつ〜とお ／ número + 人[にん]・台[だい]・枚[まい]…",
+      "pattern": {
+        "es": "ひとつ〜とお ／ número + 人[にん]・台[だい]・枚[まい]…",
+        "en": "ひとつ〜とお ／ number + 人[にん]・台[だい]・枚[まい]…"
+      },
       "explanation": {
-        "es": "Para contar objetos genéricos se usa la serie japonesa ひとつ〜とお (hasta diez). A partir de once, o para categorías concretas, se usan sufijos: 〜人[にん] (personas; ひとり y ふたり son irregulares), 〜台[だい] (máquinas y vehículos), 〜枚[まい] (cosas planas), 〜回[かい] (veces)."
+        "es": "Para contar objetos genéricos se usa la serie japonesa ひとつ〜とお (hasta diez). A partir de once, o para categorías concretas, se usan sufijos: 〜人[にん] (personas; ひとり y ふたり son irregulares), 〜台[だい] (máquinas y vehículos), 〜枚[まい] (cosas planas), 〜回[かい] (veces).",
+        "en": "To count generic objects you use the native series ひとつ〜とお (up to ten). From eleven on, or for specific categories, you use suffixes: 〜人[にん] (people; ひとり and ふたり are irregular), 〜台[だい] (machines and vehicles), 〜枚[まい] (flat things), 〜回[かい] (times)."
       },
       "examples": [
         {
           "jp": "みかんをよっつ 買[か]いました。",
           "translation": {
-            "es": "Compré cuatro mandarinas."
+            "es": "Compré cuatro mandarinas.",
+            "en": "I bought four mandarins."
           }
         },
         {
           "jp": "外国人[がいこくじん]の 学生[がくせい]が2 人[ふたり]います。",
           "translation": {
-            "es": "Hay dos estudiantes extranjeros."
+            "es": "Hay dos estudiantes extranjeros.",
+            "en": "There are two foreign students."
           }
         }
       ]
@@ -36,17 +45,23 @@
     {
       "id": "uso-cuantificador",
       "title": {
-        "es": "Posición del cuantificador"
+        "es": "Posición del cuantificador",
+        "en": "Where the quantifier goes"
       },
-      "pattern": "N を + cantidad + V",
+      "pattern": {
+        "es": "N を + cantidad + V",
+        "en": "N を + quantity + V"
+      },
       "explanation": {
-        "es": "El cuantificador va normalmente justo antes del verbo, sin partícula: りんごをふたつ 食[た]べました. No se coloca entre el sustantivo y su partícula."
+        "es": "El cuantificador va normalmente justo antes del verbo, sin partícula: りんごをふたつ 食[た]べました. No se coloca entre el sustantivo y su partícula.",
+        "en": "The quantifier normally goes right before the verb, with no particle: りんごをふたつ 食[た]べました. It is not placed between the noun and its particle."
       },
       "examples": [
         {
           "jp": "切手[きって]を5 枚[まい]ください。",
           "translation": {
-            "es": "Deme cinco sellos, por favor."
+            "es": "Deme cinco sellos, por favor.",
+            "en": "Five stamps, please."
           }
         }
       ]
@@ -54,17 +69,23 @@
     {
       "id": "duracion-kai",
       "title": {
-        "es": "Duración に 〜回[かい] — frecuencia"
+        "es": "Duración に 〜回[かい] — frecuencia",
+        "en": "Period に 〜回[かい] — frequency"
       },
-      "pattern": "período に − 回[かい] V",
+      "pattern": {
+        "es": "período に − 回[かい] V",
+        "en": "period に − 回[かい] V"
+      },
       "explanation": {
-        "es": "Para expresar frecuencia se indica el período con に y las veces con 〜回[かい]: 1か 月[げつ]に2 回[かい] 映画[えいが]を 見[み]ます (veo cine dos veces al mes)."
+        "es": "Para expresar frecuencia se indica el período con に y las veces con 〜回[かい]: 1か 月[げつ]に2 回[かい] 映画[えいが]を 見[み]ます (veo cine dos veces al mes).",
+        "en": "To express frequency you give the period with に and the number of times with 〜回[かい]: 1か 月[げつ]に2 回[かい] 映画[えいが]を 見[み]ます (I see a film twice a month)."
       },
       "examples": [
         {
           "jp": "1 週間[しゅうかん]に1 回[かい]テニスをします。",
           "translation": {
-            "es": "Juego al tenis una vez a la semana."
+            "es": "Juego al tenis una vez a la semana.",
+            "en": "I play tennis once a week."
           }
         }
       ]
@@ -72,23 +93,30 @@
     {
       "id": "gurai-dake",
       "title": {
-        "es": "〜ぐらい y 〜だけ"
+        "es": "〜ぐらい y 〜だけ",
+        "en": "〜ぐらい and 〜だけ"
       },
-      "pattern": "cantidad ぐらい ／ N だけ",
+      "pattern": {
+        "es": "cantidad ぐらい ／ N だけ",
+        "en": "quantity ぐらい ／ N だけ"
+      },
       "explanation": {
-        "es": "ぐらい tras una cantidad significa «alrededor de» (30 分[ぷん]ぐらい, una media hora). だけ significa «solo»: 1 人[ひとり]だけ (solo una persona). どのくらい pregunta cuánto tiempo lleva algo; la duración se expresa con 〜時間[じかん], 〜週間[しゅうかん], 〜か 月[げつ], 〜年[ねん]."
+        "es": "ぐらい tras una cantidad significa «alrededor de» (30 分[ぷん]ぐらい, una media hora). だけ significa «solo»: 1 人[ひとり]だけ (solo una persona). どのくらい pregunta cuánto tiempo lleva algo; la duración se expresa con 〜時間[じかん], 〜週間[しゅうかん], 〜か 月[げつ], 〜年[ねん].",
+        "en": "ぐらい after a quantity means \"about\" (30 分[ぷん]ぐらい, about half an hour). だけ means \"only\": 1 人[ひとり]だけ (only one person). どのくらい asks how long something takes; duration is expressed with 〜時間[じかん], 〜週間[しゅうかん], 〜か 月[げつ], 〜年[ねん]."
       },
       "examples": [
         {
           "jp": "大阪[おおさか]から 東京[とうきょう]までどのくらいかかりますか。…2 時間半[じかんはん]ぐらいかかります。",
           "translation": {
-            "es": "¿Cuánto se tarda de Osaka a Tokio? …Unas dos horas y media."
+            "es": "¿Cuánto se tarda de Osaka a Tokio? …Unas dos horas y media.",
+            "en": "How long does it take from Osaka to Tokyo? …About two and a half hours."
           }
         },
         {
           "jp": "休[やす]みは 日曜日[にちようび]だけです。",
           "translation": {
-            "es": "Solo libro los domingos."
+            "es": "Solo libro los domingos.",
+            "en": "I only have Sundays off."
           }
         }
       ]

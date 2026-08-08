@@ -2,33 +2,41 @@
   "level": "n5",
   "number": 3,
   "title": {
-    "es": "Lugares y precios"
+    "es": "Lugares y precios",
+    "en": "Places and prices"
   },
   "jpTitle": "これを ください",
   "description": {
-    "es": "Pregunta y di dónde están los lugares y las cosas, y aprende a preguntar precios al comprar."
+    "es": "Pregunta y di dónde están los lugares y las cosas, y aprende a preguntar precios al comprar.",
+    "en": "Ask and say where places and things are, and learn to ask prices when shopping."
   },
   "grammar": [
     {
       "id": "koko-soko-asoko",
       "title": {
-        "es": "ここ／そこ／あそこ／こちら…"
+        "es": "ここ／そこ／あそこ／こちら…",
+        "en": "ここ／そこ／あそこ／こちら…"
       },
-      "pattern": "ここ／そこ／あそこ（こちら／そちら／あちら）",
+      "pattern": {
+        "es": "ここ／そこ／あそこ（こちら／そちら／あちら）"
+      },
       "explanation": {
-        "es": "Demostrativos de lugar: ここ (aquí, cerca del hablante), そこ (ahí, cerca del oyente), あそこ (allí, lejos de ambos). こちら・そちら・あちら son sus formas corteses y también indican dirección."
+        "es": "Demostrativos de lugar: ここ (aquí, cerca del hablante), そこ (ahí, cerca del oyente), あそこ (allí, lejos de ambos). こちら・そちら・あちら son sus formas corteses y también indican dirección.",
+        "en": "Place demonstratives: ここ (here, near the speaker), そこ (there, near the listener), あそこ (over there, far from both). こちら・そちら・あちら are their polite forms and also indicate direction."
       },
       "examples": [
         {
           "jp": "ここは 会議室[かいぎしつ]です。",
           "translation": {
-            "es": "Aquí es la sala de reuniones."
+            "es": "Aquí es la sala de reuniones.",
+            "en": "This is the meeting room."
           }
         },
         {
           "jp": "お 手洗[てあら]いはあそこです。",
           "translation": {
-            "es": "El baño está allí."
+            "es": "El baño está allí.",
+            "en": "The toilet is over there."
           }
         }
       ]
@@ -36,23 +44,30 @@
     {
       "id": "wa-lugar-desu",
       "title": {
-        "es": "N は (lugar) です — «N está en…»"
+        "es": "N は (lugar) です — «N está en…»",
+        "en": "N は (place) です — \"N is in…\""
       },
-      "pattern": "N は lugar です",
+      "pattern": {
+        "es": "N は lugar です",
+        "en": "N は place です"
+      },
       "explanation": {
-        "es": "Con un lugar como predicado, です indica dónde está algo o alguien. Es la forma más simple de localizar cosas sin usar todavía verbos de existencia."
+        "es": "Con un lugar como predicado, です indica dónde está algo o alguien. Es la forma más simple de localizar cosas sin usar todavía verbos de existencia.",
+        "en": "With a place as the predicate, です says where something or someone is. It is the simplest way to locate things without using existence verbs yet."
       },
       "examples": [
         {
           "jp": "電話[でんわ]は 事務所[じむしょ]です。",
           "translation": {
-            "es": "El teléfono está en la oficina."
+            "es": "El teléfono está en la oficina.",
+            "en": "The telephone is in the office."
           }
         },
         {
           "jp": "山田[やまだ]さんは 食堂[しょくどう]です。",
           "translation": {
-            "es": "El Sr. Yamada está en el comedor."
+            "es": "El Sr. Yamada está en el comedor.",
+            "en": "Mr. Yamada is in the dining room."
           }
         }
       ]
@@ -60,23 +75,29 @@
     {
       "id": "doko-dochira",
       "title": {
-        "es": "どこ／どちら — «dónde»"
+        "es": "どこ／どちら — «dónde»",
+        "en": "どこ／どちら — \"where\""
       },
-      "pattern": "N は どこ／どちら ですか",
+      "pattern": {
+        "es": "N は どこ／どちら ですか"
+      },
       "explanation": {
-        "es": "どこ pregunta por un lugar y どちら es su forma cortés (también «cuál de dos»). どちら se usa además para preguntar cortésmente por el país, la empresa o la escuela de alguien."
+        "es": "どこ pregunta por un lugar y どちら es su forma cortés (también «cuál de dos»). どちら se usa además para preguntar cortésmente por el país, la empresa o la escuela de alguien.",
+        "en": "どこ asks about a place and どちら is its polite form (also \"which of two\"). どちら is also used to ask politely about someone's country, company or school."
       },
       "examples": [
         {
           "jp": "トイレはどこですか。",
           "translation": {
-            "es": "¿Dónde está el baño?"
+            "es": "¿Dónde está el baño?",
+            "en": "Where is the toilet?"
           }
         },
         {
           "jp": "会社[かいしゃ]はどちらですか。",
           "translation": {
-            "es": "¿Cuál es su empresa? / ¿Dónde está su empresa?"
+            "es": "¿Cuál es su empresa? / ¿Dónde está su empresa?",
+            "en": "Which company do you work for? / Where is your company?"
           }
         }
       ]
@@ -84,17 +105,22 @@
     {
       "id": "no-origen",
       "title": {
-        "es": "N1 の N2 — origen y marca"
+        "es": "N1 の N2 — origen y marca",
+        "en": "N1 の N2 — origin and brand"
       },
-      "pattern": "N1 の N2",
+      "pattern": {
+        "es": "N1 の N2"
+      },
       "explanation": {
-        "es": "Aquí の expresa el país o la empresa de origen de un producto: 日本[にほん]の 車[くるま] es «un coche japonés»."
+        "es": "Aquí の expresa el país o la empresa de origen de un producto: 日本[にほん]の 車[くるま] es «un coche japonés».",
+        "en": "Here の expresses the country or company a product comes from: 日本[にほん]の 車[くるま] is \"a Japanese car\"."
       },
       "examples": [
         {
           "jp": "これはどこのコンピューターですか。… 日本[にほん]のコンピューターです。",
           "translation": {
-            "es": "¿De dónde es este ordenador? …Es un ordenador japonés."
+            "es": "¿De dónde es este ordenador? …Es un ordenador japonés.",
+            "en": "Where is this computer from? …It's a Japanese computer."
           }
         }
       ]
@@ -102,17 +128,22 @@
     {
       "id": "ko-so-a-do",
       "title": {
-        "es": "La serie こ／そ／あ／ど"
+        "es": "La serie こ／そ／あ／ど",
+        "en": "The こ／そ／あ／ど series"
       },
-      "pattern": "これ・それ・あれ・どれ ／ ここ・そこ・あそこ・どこ …",
+      "pattern": {
+        "es": "これ・それ・あれ・どれ ／ ここ・そこ・あそこ・どこ …"
+      },
       "explanation": {
-        "es": "Los demostrativos japoneses forman un sistema regular de cuatro series: こ〜 (cerca del hablante), そ〜 (cerca del oyente), あ〜 (lejos de ambos) y ど〜 (interrogativo). Conociendo el patrón, aprender una columna nueva es inmediato."
+        "es": "Los demostrativos japoneses forman un sistema regular de cuatro series: こ〜 (cerca del hablante), そ〜 (cerca del oyente), あ〜 (lejos de ambos) y ど〜 (interrogativo). Conociendo el patrón, aprender una columna nueva es inmediato.",
+        "en": "Japanese demonstratives form a regular four-way system: こ〜 (near the speaker), そ〜 (near the listener), あ〜 (far from both) and ど〜 (question). Once you know the pattern, learning a new column is instant."
       },
       "examples": [
         {
           "jp": "エレベーターはどちらですか。…あちらです。",
           "translation": {
-            "es": "¿Por dónde está el ascensor? …Por allí."
+            "es": "¿Por dónde está el ascensor? …Por allí.",
+            "en": "Which way is the lift? …Over there."
           }
         }
       ]
@@ -120,17 +151,22 @@
     {
       "id": "o-cortesia-3",
       "title": {
-        "es": "お〜 con palabras del oyente"
+        "es": "お〜 con palabras del oyente",
+        "en": "お〜 with the listener's words"
       },
-      "pattern": "お + N",
+      "pattern": {
+        "es": "お + N"
+      },
       "explanation": {
-        "es": "El prefijo お aparece en palabras como お 国[くに] (su país) para hablar con respeto de lo que pertenece al oyente."
+        "es": "El prefijo お aparece en palabras como お 国[くに] (su país) para hablar con respeto de lo que pertenece al oyente.",
+        "en": "The prefix お appears in words like お 国[くに] (your country) to speak respectfully about what belongs to the listener."
       },
       "examples": [
         {
           "jp": "お 国[くに]はどちらですか。…アメリカです。",
           "translation": {
-            "es": "¿De qué país es usted? …De Estados Unidos."
+            "es": "¿De qué país es usted? …De Estados Unidos.",
+            "en": "Which country are you from? …From the United States."
           }
         }
       ]

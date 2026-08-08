@@ -2,33 +2,42 @@
   "level": "n5",
   "number": 25,
   "title": {
-    "es": "Condicionales"
+    "es": "Condicionales",
+    "en": "Conditionals"
   },
   "jpTitle": "いろいろお 世話[せわ]になりました",
   "description": {
-    "es": "La condición con 〜たら, la concesión con 〜ても y la hipótesis con もし."
+    "es": "La condición con 〜たら, la concesión con 〜ても y la hipótesis con もし.",
+    "en": "Conditions with 〜たら, concession with 〜ても, and hypotheses with もし."
   },
   "grammar": [
     {
       "id": "tara",
       "title": {
-        "es": "V たら、〜 — «si / cuando»"
+        "es": "V たら、〜 — «si / cuando»",
+        "en": "V たら、〜 — \"if / when\""
       },
-      "pattern": "V たら、S ／ A-かったら ／ N・A-な だったら",
+      "pattern": {
+        "es": "V たら、S ／ A-かったら ／ N・A-な だったら",
+        "en": "V たら、S ／ A-かったら ／ N・A-な だったら"
+      },
       "explanation": {
-        "es": "Añadiendo ら a la forma た se forma el condicional: お 金[かね]が あったら、 旅行[りょこう]します (si tuviera dinero, viajaría). También funciona con adjetivos (安[やす]かったら) y sustantivos (雨[あめ]だったら)."
+        "es": "Añadiendo ら a la forma た se forma el condicional: お 金[かね]が あったら、 旅行[りょこう]します (si tuviera dinero, viajaría). También funciona con adjetivos (安[やす]かったら) y sustantivos (雨[あめ]だったら).",
+        "en": "Adding ら to the た form makes the conditional: お 金[かね]が あったら、 旅行[りょこう]します (if I had money, I'd travel). It works with adjectives (安[やす]かったら) and nouns (雨[あめ]だったら) too."
       },
       "examples": [
         {
           "jp": "時間[じかん]があったら、 遊[あそ]びに 来[き]てください。",
           "translation": {
-            "es": "Si tienes tiempo, ven a visitarnos."
+            "es": "Si tienes tiempo, ven a visitarnos.",
+            "en": "If you have time, come and visit us."
           }
         },
         {
           "jp": "雨[あめ]だったら、 行[い]きません。",
           "translation": {
-            "es": "Si llueve, no voy."
+            "es": "Si llueve, no voy.",
+            "en": "If it rains, I won't go."
           }
         }
       ]
@@ -36,17 +45,23 @@
     {
       "id": "tara-temporal",
       "title": {
-        "es": "V たら — «cuando» algo se complete"
+        "es": "V たら — «cuando» algo se complete",
+        "en": "V たら — \"when\" something is finished"
       },
-      "pattern": "V1 たら、V2 (futuro)",
+      "pattern": {
+        "es": "V1 たら、V2 (futuro)",
+        "en": "V1 たら、V2 (future)"
+      },
       "explanation": {
-        "es": "たら también expresa que V2 ocurrirá una vez completada V1: 10 時[じ]に なったら、 出[で]かけましょう (cuando sean las diez, salgamos)."
+        "es": "たら también expresa que V2 ocurrirá una vez completada V1: 10 時[じ]に なったら、 出[で]かけましょう (cuando sean las diez, salgamos).",
+        "en": "たら also says V2 will happen once V1 is complete: 10 時[じ]に なったら、 出[で]かけましょう (when it gets to ten, let's go out)."
       },
       "examples": [
         {
           "jp": "国[くに]へ 帰[かえ]ったら、 父[ちち]の 会社[かいしゃ]で 働[はたら]きます。",
           "translation": {
-            "es": "Cuando vuelva a mi país, trabajaré en la empresa de mi padre."
+            "es": "Cuando vuelva a mi país, trabajaré en la empresa de mi padre.",
+            "en": "When I go back to my country, I'll work at my father's company."
           }
         }
       ]
@@ -54,17 +69,22 @@
     {
       "id": "temo",
       "title": {
-        "es": "V ても、〜 — «aunque»"
+        "es": "V ても、〜 — «aunque»",
+        "en": "V ても、〜 — \"even if\""
       },
-      "pattern": "V ても ／ A-くても ／ N・A-な でも、S",
+      "pattern": {
+        "es": "V ても ／ A-くても ／ N・A-な でも、S"
+      },
       "explanation": {
-        "es": "〜ても expresa concesión: el resultado contradice lo esperado. 雨[あめ]が 降[ふ]っても、 洗濯[せんたく]します (aunque llueva, lavaré la ropa); 安[やす]くても 買[か]いません; 便利[べんり]でも 使[つか]いません."
+        "es": "〜ても expresa concesión: el resultado contradice lo esperado. 雨[あめ]が 降[ふ]っても、 洗濯[せんたく]します (aunque llueva, lavaré la ropa); 安[やす]くても 買[か]いません; 便利[べんり]でも 使[つか]いません.",
+        "en": "〜ても expresses concession: the result goes against what you would expect. 雨[あめ]が 降[ふ]っても、 洗濯[せんたく]します (even if it rains, I'll do the laundry); 安[やす]くても 買[か]いません; 便利[べんり]でも 使[つか]いません."
       },
       "examples": [
         {
           "jp": "日曜日[にちようび]でも 働[はたら]きます。",
           "translation": {
-            "es": "Trabajo aunque sea domingo."
+            "es": "Trabajo aunque sea domingo.",
+            "en": "I work even on Sundays."
           }
         }
       ]
@@ -72,17 +92,22 @@
     {
       "id": "moshi",
       "title": {
-        "es": "もし — señalar la hipótesis"
+        "es": "もし — señalar la hipótesis",
+        "en": "もし — flagging a hypothesis"
       },
-      "pattern": "もし 〜たら、S",
+      "pattern": {
+        "es": "もし 〜たら、S"
+      },
       "explanation": {
-        "es": "もし anuncia desde el principio que la frase es hipotética y refuerza el 〜たら: もし1 億円[おくえん]あったら、 何[なに]を したいですか."
+        "es": "もし anuncia desde el principio que la frase es hipotética y refuerza el 〜たら: もし1 億円[おくえん]あったら、 何[なに]を したいですか.",
+        "en": "もし announces from the start that the sentence is hypothetical and reinforces the 〜たら: もし1 億円[おくえん]あったら、 何[なに]を したいですか."
       },
       "examples": [
         {
           "jp": "もし1 億円[おくえん]あったら、いろいろな 国[くに]を 旅行[りょこう]したいです。",
           "translation": {
-            "es": "Si tuviera cien millones de yenes, querría viajar por muchos países."
+            "es": "Si tuviera cien millones de yenes, querría viajar por muchos países.",
+            "en": "If I had a hundred million yen, I'd want to travel to lots of countries."
           }
         }
       ]
@@ -90,17 +115,23 @@
     {
       "id": "sujeto-subordinada",
       "title": {
-        "es": "El sujeto de la oración subordinada"
+        "es": "El sujeto de la oración subordinada",
+        "en": "The subject of the subordinate clause"
       },
-      "pattern": "S1 (sujeto が) とき／たら／ても、S2",
+      "pattern": {
+        "es": "S1 (sujeto が) とき／たら／ても、S2",
+        "en": "S1 (subject が) とき／たら／ても、S2"
+      },
       "explanation": {
-        "es": "Cuando el sujeto de la subordinada es distinto del principal, se marca con が: 友達[ともだち]が 来[く]るまえに、 部屋[へや]を 掃除[そうじ]します."
+        "es": "Cuando el sujeto de la subordinada es distinto del principal, se marca con が: 友達[ともだち]が 来[く]るまえに、 部屋[へや]を 掃除[そうじ]します.",
+        "en": "When the subordinate clause has a different subject from the main clause, it is marked with が: 友達[ともだち]が 来[く]るまえに、 部屋[へや]を 掃除[そうじ]します."
       },
       "examples": [
         {
           "jp": "妻[つま]が 病気[びょうき]のとき、 会社[かいしゃ]を 休[やす]みます。",
           "translation": {
-            "es": "Cuando mi esposa está enferma, falto al trabajo."
+            "es": "Cuando mi esposa está enferma, falto al trabajo.",
+            "en": "When my wife is ill, I take time off work."
           }
         }
       ]
