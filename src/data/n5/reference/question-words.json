@@ -2,78 +2,91 @@
   "level": "n5",
   "slug": "question-words",
   "title": {
-    "es": "Interrogativos"
+    "es": "Interrogativos",
+    "en": "Question words"
   },
   "description": {
-    "es": "Las palabras de pregunta que aparecen en el libro, con un ejemplo de cada una."
+    "es": "Las palabras de pregunta que aparecen en el libro, con un ejemplo de cada una.",
+    "en": "The question words that appear in the book, with an example of each."
   },
   "order": 6,
   "sections": [
     {
       "id": "people-things",
       "title": {
-        "es": "Personas y cosas"
+        "es": "Personas y cosas",
+        "en": "People and things"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Interrogativo"
+              "es": "Interrogativo",
+              "en": "Question word"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             },
             {
-              "es": "Ejemplo"
+              "es": "Ejemplo",
+              "en": "Example"
             }
           ],
           "rows": [
             [
               "何[なに]／何[なん]",
               {
-                "es": "qué"
+                "es": "qué",
+                "en": "what"
               },
               "何[なに]を 買[か]いますか。"
             ],
             [
               "誰[だれ]",
               {
-                "es": "quién"
+                "es": "quién",
+                "en": "who"
               },
               "あの 人[ひと]は 誰[だれ]ですか。"
             ],
             [
               "どなた",
               {
-                "es": "quién (cortés)"
+                "es": "quién (cortés)",
+                "en": "who (polite)"
               },
               "どなたですか。"
             ],
             [
               "どれ",
               {
-                "es": "cuál (entre tres o más)"
+                "es": "cuál (entre tres o más)",
+                "en": "which one (of three or more)"
               },
               "どれが 山田[やまだ]さんの 傘[かさ]ですか。"
             ],
             [
               "どの〜",
               {
-                "es": "cuál ~ (entre tres o más)"
+                "es": "cuál ~ (entre tres o más)",
+                "en": "which ~ (of three or more)"
               },
               "どの 人[ひと]ですか。"
             ],
             [
               "どちら",
               {
-                "es": "cuál (entre dos); también «por dónde»"
+                "es": "cuál (entre dos); también «por dónde»",
+                "en": "which (of two); also \"which way\""
               },
               "夏[なつ]と 冬[ふゆ]とどちらが 好[す]きですか。"
             ],
             [
               "どんな〜",
               {
-                "es": "qué clase de ~"
+                "es": "qué clase de ~",
+                "en": "what kind of ~"
               },
               "どんな 音楽[おんがく]が 好[す]きですか。"
             ]
@@ -84,68 +97,79 @@
     {
       "id": "place-time",
       "title": {
-        "es": "Lugar, tiempo y cantidad"
+        "es": "Lugar, tiempo y cantidad",
+        "en": "Place, time and quantity"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Interrogativo"
+              "es": "Interrogativo",
+              "en": "Question word"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             },
             {
-              "es": "Ejemplo"
+              "es": "Ejemplo",
+              "en": "Example"
             }
           ],
           "rows": [
             [
               "どこ",
               {
-                "es": "dónde"
+                "es": "dónde",
+                "en": "where"
               },
               "トイレはどこですか。"
             ],
             [
               "いつ",
               {
-                "es": "cuándo"
+                "es": "cuándo",
+                "en": "when"
               },
               "いつ 日本[にほん]へ 来[き]ましたか。"
             ],
             [
               "何時[なんじ]",
               {
-                "es": "qué hora"
+                "es": "qué hora",
+                "en": "what time"
               },
               "今[いま] 何時[なんじ]ですか。"
             ],
             [
               "何曜日[なんようび]",
               {
-                "es": "qué día de la semana"
+                "es": "qué día de la semana",
+                "en": "what day of the week"
               },
               "今日[きょう]は 何曜日[なんようび]ですか。"
             ],
             [
               "いくら",
               {
-                "es": "cuánto (dinero)"
+                "es": "cuánto (dinero)",
+                "en": "how much (money)"
               },
               "これはいくらですか。"
             ],
             [
               "いくつ",
               {
-                "es": "cuántos (objetos); también la edad"
+                "es": "cuántos (objetos); también la edad",
+                "en": "how many (objects); also age"
               },
               "みかんをいくつ 買[か]いますか。"
             ],
             [
               "どのくらい",
               {
-                "es": "cuánto tiempo"
+                "es": "cuánto tiempo",
+                "en": "how long"
               },
               "どのくらいかかりますか。"
             ]
@@ -156,40 +180,47 @@
     {
       "id": "manner",
       "title": {
-        "es": "Modo y razón"
+        "es": "Modo y razón",
+        "en": "Manner and reason"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Interrogativo"
+              "es": "Interrogativo",
+              "en": "Question word"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             },
             {
-              "es": "Ejemplo"
+              "es": "Ejemplo",
+              "en": "Example"
             }
           ],
           "rows": [
             [
               "どう",
               {
-                "es": "cómo (impresión)"
+                "es": "cómo (impresión)",
+                "en": "how (impression)"
               },
               "日本[にほん]の 生活[せいかつ]はどうですか。"
             ],
             [
               "どうやって",
               {
-                "es": "cómo (procedimiento)"
+                "es": "cómo (procedimiento)",
+                "en": "how (method)"
               },
               "大学[だいがく]までどうやって 行[い]きますか。"
             ],
             [
               "どうして",
               {
-                "es": "por qué"
+                "es": "por qué",
+                "en": "why"
               },
               "どうして 来[き]ませんでしたか。"
             ]
@@ -197,7 +228,8 @@
         }
       ],
       "note": {
-        "es": "Un interrogativo + も con verbo negativo lo niega todo: どこも 行[い]きません (no voy a ninguna parte). Un interrogativo + か lo vuelve indefinido: どこか (algún sitio), 何[なに]か (algo)."
+        "es": "Un interrogativo + も con verbo negativo lo niega todo: どこも 行[い]きません (no voy a ninguna parte). Un interrogativo + か lo vuelve indefinido: どこか (algún sitio), 何[なに]か (algo).",
+        "en": "A question word + も with a negative verb negates everything: どこも 行[い]きません (I'm not going anywhere). A question word + か makes it indefinite: どこか (somewhere), 何[なに]か (something)."
       }
     }
   ]

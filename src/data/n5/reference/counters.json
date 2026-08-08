@@ -2,71 +2,91 @@
   "level": "n5",
   "slug": "counters",
   "title": {
-    "es": "Contadores"
+    "es": "Contadores",
+    "en": "Counters"
   },
   "description": {
-    "es": "Los sufijos de conteo del libro: cada tipo de cosa se cuenta con un contador distinto."
+    "es": "Los sufijos de conteo del libro: cada tipo de cosa se cuenta con un contador distinto.",
+    "en": "The counter suffixes in the book: each kind of thing is counted with its own counter."
   },
   "order": 5,
   "sections": [
     {
       "id": "table",
       "title": {
-        "es": "Sufijos de conteo"
+        "es": "Sufijos de conteo",
+        "en": "Counter suffixes"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cantidad"
+              "es": "Cantidad",
+              "en": "Quantity"
             },
             {
-              "es": "objetos"
+              "es": "objetos",
+              "en": "objects"
             },
             {
-              "es": "personas"
+              "es": "personas",
+              "en": "people"
             },
             {
-              "es": "orden"
+              "es": "orden",
+              "en": "order"
             },
             {
-              "es": "cosas finas y planas"
+              "es": "cosas finas y planas",
+              "en": "thin, flat things"
             },
             {
-              "es": "máquinas y vehículos"
+              "es": "máquinas y vehículos",
+              "en": "machines and vehicles"
             },
             {
-              "es": "edad"
+              "es": "edad",
+              "en": "age"
             },
             {
-              "es": "libros y cuadernos"
+              "es": "libros y cuadernos",
+              "en": "books and notebooks"
             },
             {
-              "es": "ropa"
+              "es": "ropa",
+              "en": "clothes"
             },
             {
-              "es": "frecuencia"
+              "es": "frecuencia",
+              "en": "frequency"
             },
             {
-              "es": "objetos pequeños"
+              "es": "objetos pequeños",
+              "en": "small objects"
             },
             {
-              "es": "calzado y calcetines"
+              "es": "calzado y calcetines",
+              "en": "footwear and socks"
             },
             {
-              "es": "viviendas"
+              "es": "viviendas",
+              "en": "houses, dwellings"
             },
             {
-              "es": "pisos de un edificio"
+              "es": "pisos de un edificio",
+              "en": "floors of a building"
             },
             {
-              "es": "objetos largos"
+              "es": "objetos largos",
+              "en": "long objects"
             },
             {
-              "es": "bebidas en vaso o taza"
+              "es": "bebidas en vaso o taza",
+              "en": "drinks in a glass or cup"
             },
             {
-              "es": "animales pequeños"
+              "es": "animales pequeños",
+              "en": "small animals"
             }
           ],
           "rows": [
@@ -281,124 +301,145 @@
             ]
           ],
           "caption": {
-            "es": "Cada columna es un contador; la última fila es la forma interrogativa."
+            "es": "Cada columna es un contador; la última fila es la forma interrogativa.",
+            "en": "Each column is a counter; the last row is the question form."
           }
         }
       ],
       "note": {
-        "es": "Los contadores cambian de sonido con 1, 3, 6, 8 y 10. La fila «?» es la pregunta correspondiente (なんにん, なんまい…). La serie ひとつ〜とお sirve para objetos genéricos y solo llega a diez."
+        "es": "Los contadores cambian de sonido con 1, 3, 6, 8 y 10. La fila «?» es la pregunta correspondiente (なんにん, なんまい…). La serie ひとつ〜とお sirve para objetos genéricos y solo llega a diez.",
+        "en": "Counters change sound with 1, 3, 6, 8 and 10. The \"?\" row is the matching question (なんにん, なんまい…). The ひとつ〜とお series works for generic objects and only goes up to ten."
       }
     },
     {
       "id": "suffixes",
       "title": {
-        "es": "Referencia rápida de sufijos"
+        "es": "Referencia rápida de sufijos",
+        "en": "Quick reference of suffixes"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Contador"
+              "es": "Contador",
+              "en": "Counter"
             },
             {
-              "es": "Se usa para"
+              "es": "Se usa para",
+              "en": "Used for"
             }
           ],
           "rows": [
             [
               "〜つ",
               {
-                "es": "objetos"
+                "es": "objetos",
+                "en": "objects"
               }
             ],
             [
               "〜人[にん]",
               {
-                "es": "personas"
+                "es": "personas",
+                "en": "people"
               }
             ],
             [
               "〜番[ばん]",
               {
-                "es": "orden"
+                "es": "orden",
+                "en": "order"
               }
             ],
             [
               "〜枚[まい]",
               {
-                "es": "cosas finas y planas"
+                "es": "cosas finas y planas",
+                "en": "thin, flat things"
               }
             ],
             [
               "〜台[だい]",
               {
-                "es": "máquinas y vehículos"
+                "es": "máquinas y vehículos",
+                "en": "machines and vehicles"
               }
             ],
             [
               "〜歳[さい]",
               {
-                "es": "edad"
+                "es": "edad",
+                "en": "age"
               }
             ],
             [
               "〜冊[さつ]",
               {
-                "es": "libros y cuadernos"
+                "es": "libros y cuadernos",
+                "en": "books and notebooks"
               }
             ],
             [
               "〜着[ちゃく]",
               {
-                "es": "ropa"
+                "es": "ropa",
+                "en": "clothes"
               }
             ],
             [
               "〜回[かい]",
               {
-                "es": "frecuencia"
+                "es": "frecuencia",
+                "en": "frequency"
               }
             ],
             [
               "〜個[こ]",
               {
-                "es": "objetos pequeños"
+                "es": "objetos pequeños",
+                "en": "small objects"
               }
             ],
             [
               "〜足[そく]",
               {
-                "es": "calzado y calcetines"
+                "es": "calzado y calcetines",
+                "en": "footwear and socks"
               }
             ],
             [
               "〜軒[けん]",
               {
-                "es": "viviendas"
+                "es": "viviendas",
+                "en": "houses, dwellings"
               }
             ],
             [
               "〜階[かい]",
               {
-                "es": "pisos de un edificio"
+                "es": "pisos de un edificio",
+                "en": "floors of a building"
               }
             ],
             [
               "〜本[ほん]",
               {
-                "es": "objetos largos"
+                "es": "objetos largos",
+                "en": "long objects"
               }
             ],
             [
               "〜杯[はい]",
               {
-                "es": "bebidas en vaso o taza"
+                "es": "bebidas en vaso o taza",
+                "en": "drinks in a glass or cup"
               }
             ],
             [
               "〜匹[ひき]",
               {
-                "es": "animales pequeños"
+                "es": "animales pequeños",
+                "en": "small animals"
               }
             ]
           ]

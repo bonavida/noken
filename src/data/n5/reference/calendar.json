@@ -2,29 +2,35 @@
   "level": "n5",
   "slug": "calendar",
   "title": {
-    "es": "Calendario"
+    "es": "Calendario",
+    "en": "Calendar"
   },
   "description": {
-    "es": "Meses, días del mes, días de la semana y las expresiones de tiempo del libro."
+    "es": "Meses, días del mes, días de la semana y las expresiones de tiempo del libro.",
+    "en": "Months, days of the month, days of the week and the book's time expressions."
   },
   "order": 4,
   "sections": [
     {
       "id": "months",
       "title": {
-        "es": "Los meses — 〜月[がつ]"
+        "es": "Los meses — 〜月[がつ]",
+        "en": "Months — 〜月[がつ]"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Mes"
+              "es": "Mes",
+              "en": "Month"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             }
           ],
           "rows": [
@@ -32,113 +38,130 @@
               "1",
               "いちがつ",
               {
-                "es": "enero"
+                "es": "enero",
+                "en": "January"
               }
             ],
             [
               "2",
               "にがつ",
               {
-                "es": "febrero"
+                "es": "febrero",
+                "en": "February"
               }
             ],
             [
               "3",
               "さんがつ",
               {
-                "es": "marzo"
+                "es": "marzo",
+                "en": "March"
               }
             ],
             [
               "4",
               "しがつ",
               {
-                "es": "abril"
+                "es": "abril",
+                "en": "April"
               }
             ],
             [
               "5",
               "ごがつ",
               {
-                "es": "mayo"
+                "es": "mayo",
+                "en": "May"
               }
             ],
             [
               "6",
               "ろくがつ",
               {
-                "es": "junio"
+                "es": "junio",
+                "en": "June"
               }
             ],
             [
               "7",
               "しちがつ",
               {
-                "es": "julio"
+                "es": "julio",
+                "en": "July"
               }
             ],
             [
               "8",
               "はちがつ",
               {
-                "es": "agosto"
+                "es": "agosto",
+                "en": "August"
               }
             ],
             [
               "9",
               "くがつ",
               {
-                "es": "septiembre"
+                "es": "septiembre",
+                "en": "September"
               }
             ],
             [
               "10",
               "じゅうがつ",
               {
-                "es": "octubre"
+                "es": "octubre",
+                "en": "October"
               }
             ],
             [
               "11",
               "じゅういちがつ",
               {
-                "es": "noviembre"
+                "es": "noviembre",
+                "en": "November"
               }
             ],
             [
               "12",
               "じゅうにがつ",
               {
-                "es": "diciembre"
+                "es": "diciembre",
+                "en": "December"
               }
             ],
             [
               "?",
               "なんがつ",
               {
-                "es": "qué mes"
+                "es": "qué mes",
+                "en": "what month"
               }
             ]
           ]
         }
       ],
       "note": {
-        "es": "Los meses son simplemente el número + 月[がつ]. Cuidado con 4 しがつ, 7 しちがつ y 9 くがつ."
+        "es": "Los meses son simplemente el número + 月[がつ]. Cuidado con 4 しがつ, 7 しちがつ y 9 くがつ.",
+        "en": "Months are simply the number + 月[がつ]. Watch out for 4 しがつ, 7 しちがつ and 9 くがつ."
       }
     },
     {
       "id": "days",
       "title": {
-        "es": "Los días del mes — 〜日[にち]"
+        "es": "Los días del mes — 〜日[にち]",
+        "en": "Days of the month — 〜日[にち]"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Día"
+              "es": "Día",
+              "en": "Day"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -178,25 +201,30 @@
         }
       ],
       "note": {
-        "es": "Del 1 al 10, más el 14, el 20 y el 24, usan lecturas propias que conviene memorizar."
+        "es": "Del 1 al 10, más el 14, el 20 y el 24, usan lecturas propias que conviene memorizar.",
+        "en": "Days 1 to 10, plus 14, 20 and 24, have their own readings and are worth memorising."
       }
     },
     {
       "id": "weekdays",
       "title": {
-        "es": "Los días de la semana — 〜曜日[ようび]"
+        "es": "Los días de la semana — 〜曜日[ようび]",
+        "en": "Days of the week — 〜曜日[ようび]"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             },
             {
-              "es": "Escritura"
+              "es": "Escritura",
+              "en": "Writing"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             }
           ],
           "rows": [
@@ -204,56 +232,64 @@
               "にちようび",
               "日曜日[にちようび]",
               {
-                "es": "domingo"
+                "es": "domingo",
+                "en": "Sunday"
               }
             ],
             [
               "げつようび",
               "月曜日[げつようび]",
               {
-                "es": "lunes"
+                "es": "lunes",
+                "en": "Monday"
               }
             ],
             [
               "かようび",
               "火曜日[かようび]",
               {
-                "es": "martes"
+                "es": "martes",
+                "en": "Tuesday"
               }
             ],
             [
               "すいようび",
               "水曜日[すいようび]",
               {
-                "es": "miércoles"
+                "es": "miércoles",
+                "en": "Wednesday"
               }
             ],
             [
               "もくようび",
               "木曜日[もくようび]",
               {
-                "es": "jueves"
+                "es": "jueves",
+                "en": "Thursday"
               }
             ],
             [
               "きんようび",
               "金曜日[きんようび]",
               {
-                "es": "viernes"
+                "es": "viernes",
+                "en": "Friday"
               }
             ],
             [
               "どようび",
               "土曜日[どようび]",
               {
-                "es": "sábado"
+                "es": "sábado",
+                "en": "Saturday"
               }
             ],
             [
               "なんようび",
               "何曜日[なんようび]",
               {
-                "es": "qué día de la semana"
+                "es": "qué día de la semana",
+                "en": "what day of the week"
               }
             ]
           ]
@@ -263,25 +299,29 @@
     {
       "id": "when-day",
       "title": {
-        "es": "Días y momentos del día"
+        "es": "Días y momentos del día",
+        "en": "Days and times of day"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Día"
+              "es": "Día",
+              "en": "Day"
             },
             {
               "es": ""
             },
             {
-              "es": "Mañana"
+              "es": "Mañana",
+              "en": "Morning"
             },
             {
               "es": ""
             },
             {
-              "es": "Noche"
+              "es": "Noche",
+              "en": "Night"
             },
             {
               "es": ""
@@ -291,85 +331,103 @@
             [
               "おととい",
               {
-                "es": "anteayer"
+                "es": "anteayer",
+                "en": "the day before yesterday"
               },
               "おとといの あさ",
               {
-                "es": "anteayer por la mañana"
+                "es": "anteayer por la mañana",
+                "en": "the morning before last"
               },
               "おとといの ばん（よる）",
               {
-                "es": "anteayer por la noche"
+                "es": "anteayer por la noche",
+                "en": "the night before last"
               }
             ],
             [
               "きのう",
               {
-                "es": "ayer"
+                "es": "ayer",
+                "en": "yesterday"
               },
               "きのうの あさ",
               {
-                "es": "ayer por la mañana"
+                "es": "ayer por la mañana",
+                "en": "yesterday morning"
               },
               "きのうの ばん（よる）",
               {
-                "es": "anoche"
+                "es": "anoche",
+                "en": "last night"
               }
             ],
             [
               "きょう",
               {
-                "es": "hoy"
+                "es": "hoy",
+                "en": "today"
               },
               "けさ",
               {
-                "es": "esta mañana"
+                "es": "esta mañana",
+                "en": "this morning"
               },
               "こんばん（きょうの よる）",
               {
-                "es": "esta noche"
+                "es": "esta noche",
+                "en": "tonight"
               }
             ],
             [
               "あした",
               {
-                "es": "mañana"
+                "es": "mañana",
+                "en": "tomorrow"
               },
               "あしたの あさ",
               {
-                "es": "mañana por la mañana"
+                "es": "mañana por la mañana",
+                "en": "tomorrow morning"
               },
               "あしたの ばん（よる）",
               {
-                "es": "mañana por la noche"
+                "es": "mañana por la noche",
+                "en": "tomorrow night"
               }
             ],
             [
               "あさって",
               {
-                "es": "pasado mañana"
+                "es": "pasado mañana",
+                "en": "the day after tomorrow"
               },
               "あさっての あさ",
               {
-                "es": "pasado mañana por la mañana"
+                "es": "pasado mañana por la mañana",
+                "en": "the morning after tomorrow"
               },
               "あさっての ばん（よる）",
               {
-                "es": "pasado mañana por la noche"
+                "es": "pasado mañana por la noche",
+                "en": "the night after tomorrow"
               }
             ],
             [
               "まいにち",
               {
-                "es": "todos los días"
+                "es": "todos los días",
+                "en": "every day"
               },
               "まいあさ",
               {
-                "es": "todas las mañanas"
+                "es": "todas las mañanas",
+                "en": "every morning"
               },
               "まいばん",
               {
-                "es": "todas las noches"
+                "es": "todas las noches",
+                "en": "every night"
               }
             ]
           ]
@@ -379,25 +437,29 @@
     {
       "id": "when-long",
       "title": {
-        "es": "Semanas, meses y años"
+        "es": "Semanas, meses y años",
+        "en": "Weeks, months and years"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Semana"
+              "es": "Semana",
+              "en": "Week"
             },
             {
               "es": ""
             },
             {
-              "es": "Mes"
+              "es": "Mes",
+              "en": "Month"
             },
             {
               "es": ""
             },
             {
-              "es": "Año"
+              "es": "Año",
+              "en": "Year"
             },
             {
               "es": ""
@@ -407,85 +469,103 @@
             [
               "せんせんしゅう",
               {
-                "es": "hace dos semanas"
+                "es": "hace dos semanas",
+                "en": "two weeks ago"
               },
               "せんせんげつ",
               {
-                "es": "hace dos meses"
+                "es": "hace dos meses",
+                "en": "two months ago"
               },
               "おととし",
               {
-                "es": "hace dos años"
+                "es": "hace dos años",
+                "en": "two years ago"
               }
             ],
             [
               "せんしゅう",
               {
-                "es": "la semana pasada"
+                "es": "la semana pasada",
+                "en": "last week"
               },
               "せんげつ",
               {
-                "es": "el mes pasado"
+                "es": "el mes pasado",
+                "en": "last month"
               },
               "きょねん",
               {
-                "es": "el año pasado"
+                "es": "el año pasado",
+                "en": "last year"
               }
             ],
             [
               "こんしゅう",
               {
-                "es": "esta semana"
+                "es": "esta semana",
+                "en": "this week"
               },
               "こんげつ",
               {
-                "es": "este mes"
+                "es": "este mes",
+                "en": "this month"
               },
               "ことし",
               {
-                "es": "este año"
+                "es": "este año",
+                "en": "this year"
               }
             ],
             [
               "らいしゅう",
               {
-                "es": "la semana que viene"
+                "es": "la semana que viene",
+                "en": "next week"
               },
               "らいげつ",
               {
-                "es": "el mes que viene"
+                "es": "el mes que viene",
+                "en": "next month"
               },
               "らいねん",
               {
-                "es": "el año que viene"
+                "es": "el año que viene",
+                "en": "next year"
               }
             ],
             [
               "さらいしゅう",
               {
-                "es": "dentro de dos semanas"
+                "es": "dentro de dos semanas",
+                "en": "in two weeks"
               },
               "さらいげつ",
               {
-                "es": "dentro de dos meses"
+                "es": "dentro de dos meses",
+                "en": "in two months"
               },
               "さらいねん",
               {
-                "es": "dentro de dos años"
+                "es": "dentro de dos años",
+                "en": "in two years"
               }
             ],
             [
               "まいしゅう",
               {
-                "es": "todas las semanas"
+                "es": "todas las semanas",
+                "en": "every week"
               },
               "まいつき",
               {
-                "es": "todos los meses"
+                "es": "todos los meses",
+                "en": "every month"
               },
               "まいとし、まいねん",
               {
-                "es": "todos los años"
+                "es": "todos los años",
+                "en": "every year"
               }
             ]
           ]

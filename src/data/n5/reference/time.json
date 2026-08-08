@@ -2,26 +2,31 @@
   "level": "n5",
   "slug": "time",
   "title": {
-    "es": "La hora"
+    "es": "La hora",
+    "en": "Telling the time"
   },
   "description": {
-    "es": "Cómo decir la hora, los minutos y cuánto dura algo."
+    "es": "Cómo decir la hora, los minutos y cuánto dura algo.",
+    "en": "How to tell the time, count minutes and say how long something lasts."
   },
   "order": 3,
   "sections": [
     {
       "id": "hours",
       "title": {
-        "es": "Las horas — 〜時[じ]"
+        "es": "Las horas — 〜時[じ]",
+        "en": "Hours — 〜時[じ]"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Hora"
+              "es": "Hora",
+              "en": "Hour"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -42,22 +47,26 @@
         }
       ],
       "note": {
-        "es": "Ojo con 4 よじ, 7 しちじ y 9 くじ, que no siguen la lectura habitual."
+        "es": "Ojo con 4 よじ, 7 しちじ y 9 くじ, que no siguen la lectura habitual.",
+        "en": "Watch out for 4 よじ, 7 しちじ and 9 くじ, which don't follow the usual reading."
       }
     },
     {
       "id": "minutes",
       "title": {
-        "es": "Los minutos — 〜分[ふん]"
+        "es": "Los minutos — 〜分[ふん]",
+        "en": "Minutes — 〜分[ふん]"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Minuto"
+              "es": "Minuto",
+              "en": "Minute"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -78,22 +87,26 @@
         }
       ],
       "note": {
-        "es": "«Y media» se dice 半[はん]: 9 時半[じはん] son las nueve y media."
+        "es": "«Y media» se dice 半[はん]: 9 時半[じはん] son las nueve y media.",
+        "en": "\"Half past\" is 半[はん]: 9 時半[じはん] is half past nine."
       }
     },
     {
       "id": "duration",
       "title": {
-        "es": "Duración — 〜時間[じかん]"
+        "es": "Duración — 〜時間[じかん]",
+        "en": "Duration — 〜時間[じかん]"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cantidad"
+              "es": "Cantidad",
+              "en": "Quantity"
             },
             {
-              "es": "Horas"
+              "es": "Horas",
+              "en": "Hours"
             }
           ],
           "rows": [
@@ -112,31 +125,38 @@
         }
       ],
       "note": {
-        "es": "No confundas 4 時[じ] (las cuatro) con 4 時間[じかん] (cuatro horas)."
+        "es": "No confundas 4 時[じ] (las cuatro) con 4 時間[じかん] (cuatro horas).",
+        "en": "Don't confuse 4 時[じ] (four o'clock) with 4 時間[じかん] (four hours)."
       }
     },
     {
       "id": "period",
       "title": {
-        "es": "Períodos"
+        "es": "Períodos",
+        "en": "Periods"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cantidad"
+              "es": "Cantidad",
+              "en": "Quantity"
             },
             {
-              "es": "Días"
+              "es": "Días",
+              "en": "Days"
             },
             {
-              "es": "Semanas"
+              "es": "Semanas",
+              "en": "Weeks"
             },
             {
-              "es": "Meses"
+              "es": "Meses",
+              "en": "Months"
             },
             {
-              "es": "Años"
+              "es": "Años",
+              "en": "Years"
             }
           ],
           "rows": [

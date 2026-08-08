@@ -2,26 +2,31 @@
   "level": "n5",
   "slug": "numbers",
   "title": {
-    "es": "Números"
+    "es": "Números",
+    "en": "Numbers"
   },
   "description": {
-    "es": "Los numerales japoneses, de 0 a cien millones, más decimales y fracciones."
+    "es": "Los numerales japoneses, de 0 a cien millones, más decimales y fracciones.",
+    "en": "Japanese numerals from 0 to a hundred million, plus decimals and fractions."
   },
   "order": 2,
   "sections": [
     {
       "id": "units",
       "title": {
-        "es": "De 0 a 20"
+        "es": "De 0 a 20",
+        "en": "From 0 to 20"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cifra"
+              "es": "Cifra",
+              "en": "Figure"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -50,22 +55,26 @@
         }
       ],
       "note": {
-        "es": "Varios números tienen dos lecturas. Con contadores conviene aprender cuál se usa en cada caso: 4 suele ser よん, 7 なな y 9 きゅう."
+        "es": "Varios números tienen dos lecturas. Con contadores conviene aprender cuál se usa en cada caso: 4 suele ser よん, 7 なな y 9 きゅう.",
+        "en": "Several numbers have two readings. With counters it pays to learn which one is used: 4 is usually よん, 7 なな and 9 きゅう."
       }
     },
     {
       "id": "tens",
       "title": {
-        "es": "Decenas"
+        "es": "Decenas",
+        "en": "Tens"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cifra"
+              "es": "Cifra",
+              "en": "Figure"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -83,16 +92,19 @@
     {
       "id": "hundreds",
       "title": {
-        "es": "Centenas"
+        "es": "Centenas",
+        "en": "Hundreds"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cifra"
+              "es": "Cifra",
+              "en": "Figure"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -109,22 +121,26 @@
         }
       ],
       "note": {
-        "es": "Fíjate en los cambios de sonido: 300 さんびゃく, 600 ろっぴゃく y 800 はっぴゃく."
+        "es": "Fíjate en los cambios de sonido: 300 さんびゃく, 600 ろっぴゃく y 800 はっぴゃく.",
+        "en": "Watch the sound changes: 300 さんびゃく, 600 ろっぴゃく and 800 はっぴゃく."
       }
     },
     {
       "id": "thousands",
       "title": {
-        "es": "Millares"
+        "es": "Millares",
+        "en": "Thousands"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cifra"
+              "es": "Cifra",
+              "en": "Figure"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -141,22 +157,26 @@
         }
       ],
       "note": {
-        "es": "También cambian: 3.000 さんぜん y 8.000 はっせん."
+        "es": "También cambian: 3.000 さんぜん y 8.000 はっせん.",
+        "en": "These change too: 3,000 さんぜん and 8,000 はっせん."
       }
     },
     {
       "id": "big",
       "title": {
-        "es": "Cantidades grandes"
+        "es": "Cantidades grandes",
+        "en": "Large quantities"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cifra"
+              "es": "Cifra",
+              "en": "Figure"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -169,22 +189,26 @@
         }
       ],
       "note": {
-        "es": "El japonés agrupa de cuatro en cuatro cifras: 万[まん] son 10.000 y 億[おく] son 100.000.000."
+        "es": "El japonés agrupa de cuatro en cuatro cifras: 万[まん] son 10.000 y 億[おく] son 100.000.000.",
+        "en": "Japanese groups digits in fours: 万[まん] is 10,000 and 億[おく] is 100,000,000."
       }
     },
     {
       "id": "decimals",
       "title": {
-        "es": "Decimales y fracciones"
+        "es": "Decimales y fracciones",
+        "en": "Decimals and fractions"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Cifra"
+              "es": "Cifra",
+              "en": "Figure"
             },
             {
-              "es": "Lectura"
+              "es": "Lectura",
+              "en": "Reading"
             }
           ],
           "rows": [
@@ -196,7 +220,8 @@
         }
       ],
       "note": {
-        "es": "En las fracciones se dice primero el denominador: «X 分[ぶん]の Y»."
+        "es": "En las fracciones se dice primero el denominador: «X 分[ぶん]の Y».",
+        "en": "In fractions the denominator comes first: \"X 分[ぶん]の Y\"."
       }
     }
   ]

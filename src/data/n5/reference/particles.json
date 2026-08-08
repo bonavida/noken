@@ -2,78 +2,91 @@
   "level": "n5",
   "slug": "particles",
   "title": {
-    "es": "Partículas"
+    "es": "Partículas",
+    "en": "Particles"
   },
   "description": {
-    "es": "Las partículas marcan la función de cada palabra en la oración. Esta es la lista completa que aparece en Minna no Nihongo I."
+    "es": "Las partículas marcan la función de cada palabra en la oración. Esta es la lista completa que aparece en Minna no Nihongo I.",
+    "en": "Particles mark the role of each word in a sentence. This is the complete list that appears in Minna no Nihongo I."
   },
   "order": 1,
   "sections": [
     {
       "id": "basic",
       "title": {
-        "es": "Partículas básicas"
+        "es": "Partículas básicas",
+        "en": "Basic particles"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Partícula"
+              "es": "Partícula",
+              "en": "Particle"
             },
             {
-              "es": "Función"
+              "es": "Función",
+              "en": "Function"
             },
             {
-              "es": "Ejemplo"
+              "es": "Ejemplo",
+              "en": "Example"
             }
           ],
           "rows": [
             [
               "は",
               {
-                "es": "Marca el tema de la oración (se lee «wa»)"
+                "es": "Marca el tema de la oración (se lee «wa»)",
+                "en": "Marks the topic of the sentence (read \"wa\")"
               },
               "私[わたし]は 学生[がくせい]です。"
             ],
             [
               "が",
               {
-                "es": "Marca el sujeto de lo que existe, se percibe o se desea"
+                "es": "Marca el sujeto de lo que existe, se percibe o se desea",
+                "en": "Marks the subject of what exists, is perceived or is wanted"
               },
               "庭[にわ]に 犬[いぬ]がいます。"
             ],
             [
               "を",
               {
-                "es": "Marca el objeto directo"
+                "es": "Marca el objeto directo",
+                "en": "Marks the direct object"
               },
               "パンを 食[た]べます。"
             ],
             [
               "も",
               {
-                "es": "«también»; sustituye a は o が"
+                "es": "«también»; sustituye a は o が",
+                "en": "\"also\"; replaces は or が"
               },
               "グプタさんも 会社員[かいしゃいん]です。"
             ],
             [
               "の",
               {
-                "es": "Une dos sustantivos: posesión, pertenencia, origen o tema"
+                "es": "Une dos sustantivos: posesión, pertenencia, origen o tema",
+                "en": "Joins two nouns: possession, belonging, origin or topic"
               },
               "IMCの 社員[しゃいん]です。"
             ],
             [
               "と",
               {
-                "es": "«y» (enumeración completa); también «con» alguien"
+                "es": "«y» (enumeración completa); también «con» alguien",
+                "en": "\"and\" (a complete list); also \"with\" someone"
               },
               "家族[かぞく]と 行[い]きます。"
             ],
             [
               "や",
               {
-                "es": "«y» entre ejemplos, sin ser exhaustivo (a menudo con など)"
+                "es": "«y» entre ejemplos, sin ser exhaustivo (a menudo con など)",
+                "en": "\"and\" between examples, without being exhaustive (often with など)"
               },
               "手紙[てがみ]や 写真[しゃしん]があります。"
             ]
@@ -84,61 +97,71 @@
     {
       "id": "place-time",
       "title": {
-        "es": "Lugar, tiempo y dirección"
+        "es": "Lugar, tiempo y dirección",
+        "en": "Place, time and direction"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Partícula"
+              "es": "Partícula",
+              "en": "Particle"
             },
             {
-              "es": "Función"
+              "es": "Función",
+              "en": "Function"
             },
             {
-              "es": "Ejemplo"
+              "es": "Ejemplo",
+              "en": "Example"
             }
           ],
           "rows": [
             [
               "へ",
               {
-                "es": "Dirección del movimiento (se lee «e»)"
+                "es": "Dirección del movimiento (se lee «e»)",
+                "en": "Direction of movement (read \"e\")"
               },
               "京都[きょうと]へ 行[い]きます。"
             ],
             [
               "に",
               {
-                "es": "Momento puntual, lugar de existencia, destinatario y propósito"
+                "es": "Momento puntual, lugar de existencia, destinatario y propósito",
+                "en": "Point in time, place of existence, recipient and purpose"
               },
               "6 時[じ]に 起[お]きます。"
             ],
             [
               "で",
               {
-                "es": "Lugar donde ocurre la acción, medio de transporte, herramienta"
+                "es": "Lugar donde ocurre la acción, medio de transporte, herramienta",
+                "en": "Place where the action happens, means of transport, tool"
               },
               "駅[えき]で 新聞[しんぶん]を 買[か]います。"
             ],
             [
               "から",
               {
-                "es": "«desde» (tiempo o lugar); también «porque»"
+                "es": "«desde» (tiempo o lugar); también «porque»",
+                "en": "\"from\" (time or place); also \"because\""
               },
               "9 時[じ]からです。"
             ],
             [
               "まで",
               {
-                "es": "«hasta» (tiempo o lugar)"
+                "es": "«hasta» (tiempo o lugar)",
+                "en": "\"until\", \"as far as\" (time or place)"
               },
               "5 時[じ]までです。"
             ],
             [
               "までに",
               {
-                "es": "«antes de», fecha límite"
+                "es": "«antes de», fecha límite",
+                "en": "\"by\", a deadline"
               },
               "土曜日[どようび]までに 返[かえ]します。"
             ]
@@ -149,82 +172,95 @@
     {
       "id": "final",
       "title": {
-        "es": "Partículas finales y de matiz"
+        "es": "Partículas finales y de matiz",
+        "en": "Sentence-final and nuance particles"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Partícula"
+              "es": "Partícula",
+              "en": "Particle"
             },
             {
-              "es": "Función"
+              "es": "Función",
+              "en": "Function"
             },
             {
-              "es": "Ejemplo"
+              "es": "Ejemplo",
+              "en": "Example"
             }
           ],
           "rows": [
             [
               "か",
               {
-                "es": "Convierte la oración en pregunta"
+                "es": "Convierte la oración en pregunta",
+                "en": "Turns the sentence into a question"
               },
               "学生[がくせい]ですか。"
             ],
             [
               "ね",
               {
-                "es": "Busca acuerdo o confirmación: «¿verdad?»"
+                "es": "Busca acuerdo o confirmación: «¿verdad?»",
+                "en": "Seeks agreement or confirmation: \"right?\""
               },
               "いい 天気[てんき]ですね。"
             ],
             [
               "よ",
               {
-                "es": "Aporta información que el oyente no conoce"
+                "es": "Aporta información que el oyente no conoce",
+                "en": "Introduces information the listener does not know"
               },
               "この 電車[でんしゃ]は 行[い]きませんよ。"
             ],
             [
               "が",
               {
-                "es": "«pero», une dos oraciones con contraste"
+                "es": "«pero», une dos oraciones con contraste",
+                "en": "\"but\", joins two contrasting sentences"
               },
               "おいしいですが、 高[たか]いです。"
             ],
             [
               "けど",
               {
-                "es": "«pero», versión informal de が"
+                "es": "«pero», versión informal de が",
+                "en": "\"but\", the informal version of が"
               },
               "いいけど、 高[たか]かった？"
             ],
             [
               "だけ",
               {
-                "es": "«solo»"
+                "es": "«solo»",
+                "en": "\"only\""
               },
               "休[やす]みは 日曜日[にちようび]だけです。"
             ],
             [
               "ぐらい",
               {
-                "es": "«alrededor de», cantidad aproximada"
+                "es": "«alrededor de», cantidad aproximada",
+                "en": "\"about\", an approximate amount"
               },
               "30 分[ぷん]ぐらいです。"
             ],
             [
               "でも",
               {
-                "es": "Presenta algo como ejemplo al invitar"
+                "es": "Presenta algo como ejemplo al invitar",
+                "en": "Offers something as an example when inviting"
               },
               "お 茶[ちゃ]でも 飲[の]みませんか。"
             ],
             [
               "について",
               {
-                "es": "«sobre», «con respecto a»"
+                "es": "«sobre», «con respecto a»",
+                "en": "\"about\", \"regarding\""
               },
               "日本[にほん]について 話[はな]します。"
             ]

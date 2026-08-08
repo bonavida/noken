@@ -2,17 +2,20 @@
   "level": "n5",
   "slug": "demonstratives",
   "title": {
-    "es": "Demostrativos"
+    "es": "Demostrativos",
+    "en": "Demonstratives"
   },
   "description": {
-    "es": "La serie こ・そ・あ・ど: cerca de mí, cerca de ti, lejos de ambos y la pregunta."
+    "es": "La serie こ・そ・あ・ど: cerca de mí, cerca de ti, lejos de ambos y la pregunta.",
+    "en": "The こ・そ・あ・ど series: near me, near you, far from both, and the question."
   },
   "order": 7,
   "sections": [
     {
       "id": "table",
       "title": {
-        "es": "La serie こ・そ・あ・ど"
+        "es": "La serie こ・そ・あ・ど",
+        "en": "The こ・そ・あ・ど series"
       },
       "tables": [
         {
@@ -21,22 +24,27 @@
               "es": ""
             },
             {
-              "es": "こ〜 (cerca del hablante)"
+              "es": "こ〜 (cerca del hablante)",
+              "en": "こ〜 (near the speaker)"
             },
             {
-              "es": "そ〜 (cerca del oyente)"
+              "es": "そ〜 (cerca del oyente)",
+              "en": "そ〜 (near the listener)"
             },
             {
-              "es": "あ〜 (lejos de ambos)"
+              "es": "あ〜 (lejos de ambos)",
+              "en": "あ〜 (far from both)"
             },
             {
-              "es": "ど〜 (pregunta)"
+              "es": "ど〜 (pregunta)",
+              "en": "ど〜 (question)"
             }
           ],
           "rows": [
             [
               {
-                "es": "Cosa"
+                "es": "Cosa",
+                "en": "Thing"
               },
               "これ",
               "それ",
@@ -45,7 +53,8 @@
             ],
             [
               {
-                "es": "Cosa + sustantivo"
+                "es": "Cosa + sustantivo",
+                "en": "Thing + noun"
               },
               "この〜",
               "その〜",
@@ -54,7 +63,8 @@
             ],
             [
               {
-                "es": "Lugar"
+                "es": "Lugar",
+                "en": "Place"
               },
               "ここ",
               "そこ",
@@ -63,7 +73,8 @@
             ],
             [
               {
-                "es": "Lugar / dirección (cortés)"
+                "es": "Lugar / dirección (cortés)",
+                "en": "Place / direction (polite)"
               },
               "こちら",
               "そちら",
@@ -72,7 +83,8 @@
             ],
             [
               {
-                "es": "Lugar / dirección (informal)"
+                "es": "Lugar / dirección (informal)",
+                "en": "Place / direction (informal)"
               },
               "こっち",
               "そっち",
@@ -81,7 +93,8 @@
             ],
             [
               {
-                "es": "Persona"
+                "es": "Persona",
+                "en": "Person"
               },
               "この 人[ひと]",
               "その 人[ひと]",
@@ -90,7 +103,8 @@
             ],
             [
               {
-                "es": "Persona (cortés)"
+                "es": "Persona (cortés)",
+                "en": "Person (polite)"
               },
               "この 方[かた]",
               "その 方[かた]",
@@ -101,7 +115,8 @@
         }
       ],
       "note": {
-        "es": "これ・それ・あれ funcionan solos, como un sustantivo. この・その・あの nunca van solos: siempre acompañan a un sustantivo."
+        "es": "これ・それ・あれ funcionan solos, como un sustantivo. この・その・あの nunca van solos: siempre acompañan a un sustantivo.",
+        "en": "これ・それ・あれ stand alone, like a noun. この・その・あの never stand alone: they always accompany a noun."
       }
     }
   ]

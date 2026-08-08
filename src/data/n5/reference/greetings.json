@@ -2,87 +2,102 @@
   "level": "n5",
   "slug": "greetings",
   "title": {
-    "es": "Saludos y expresiones"
+    "es": "Saludos y expresiones",
+    "en": "Greetings and set phrases"
   },
   "description": {
-    "es": "Las fórmulas de cortesía más habituales del libro, muy frecuentes en la prueba de comprensión oral."
+    "es": "Las fórmulas de cortesía más habituales del libro, muy frecuentes en la prueba de comprensión oral.",
+    "en": "The most common set phrases in the book, and frequent in the listening test."
   },
   "order": 10,
   "sections": [
     {
       "id": "daily",
       "title": {
-        "es": "Saludos del día a día"
+        "es": "Saludos del día a día",
+        "en": "Everyday greetings"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Expresión"
+              "es": "Expresión",
+              "en": "Expression"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             }
           ],
           "rows": [
             [
               "おはようございます",
               {
-                "es": "buenos días"
+                "es": "buenos días",
+                "en": "good morning"
               }
             ],
             [
               "こんにちは",
               {
-                "es": "buenas tardes, hola"
+                "es": "buenas tardes, hola",
+                "en": "good afternoon, hello"
               }
             ],
             [
               "こんばんは",
               {
-                "es": "buenas noches (al llegar)"
+                "es": "buenas noches (al llegar)",
+                "en": "good evening (on arriving)"
               }
             ],
             [
               "おやすみなさい",
               {
-                "es": "buenas noches (al acostarse)"
+                "es": "buenas noches (al acostarse)",
+                "en": "good night (going to bed)"
               }
             ],
             [
               "さようなら",
               {
-                "es": "adiós"
+                "es": "adiós",
+                "en": "goodbye"
               }
             ],
             [
               "では、また",
               {
-                "es": "hasta luego"
+                "es": "hasta luego",
+                "en": "see you later"
               }
             ],
             [
               "行[い]ってきます",
               {
-                "es": "me voy (y vuelvo)"
+                "es": "me voy (y vuelvo)",
+                "en": "I'm off (and coming back)"
               }
             ],
             [
               "行[い]ってらっしゃい",
               {
-                "es": "que te vaya bien"
+                "es": "que te vaya bien",
+                "en": "take care"
               }
             ],
             [
               "ただいま",
               {
-                "es": "ya estoy en casa"
+                "es": "ya estoy en casa",
+                "en": "I'm home"
               }
             ],
             [
               "お 帰[かえ]りなさい",
               {
-                "es": "bienvenido de vuelta"
+                "es": "bienvenido de vuelta",
+                "en": "welcome back"
               }
             ]
           ]
@@ -92,89 +107,104 @@
     {
       "id": "courtesy",
       "title": {
-        "es": "Cortesía"
+        "es": "Cortesía",
+        "en": "Politeness"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Expresión"
+              "es": "Expresión",
+              "en": "Expression"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             }
           ],
           "rows": [
             [
               "はじめまして",
               {
-                "es": "encantado de conocerte"
+                "es": "encantado de conocerte",
+                "en": "pleased to meet you"
               }
             ],
             [
               "どうぞよろしくお 願[ねが]いします",
               {
-                "es": "mucho gusto, cuento con usted"
+                "es": "mucho gusto, cuento con usted",
+                "en": "nice to meet you, I look forward to working with you"
               }
             ],
             [
               "ありがとうございます",
               {
-                "es": "gracias"
+                "es": "gracias",
+                "en": "thank you"
               }
             ],
             [
               "どういたしまして",
               {
-                "es": "de nada"
+                "es": "de nada",
+                "en": "you're welcome"
               }
             ],
             [
               "すみません",
               {
-                "es": "perdón; disculpe"
+                "es": "perdón; disculpe",
+                "en": "sorry; excuse me"
               }
             ],
             [
               "失礼[しつれい]します",
               {
-                "es": "con su permiso"
+                "es": "con su permiso",
+                "en": "excuse me (on leaving)"
               }
             ],
             [
               "お 願[ねが]いします",
               {
-                "es": "por favor"
+                "es": "por favor",
+                "en": "please"
               }
             ],
             [
               "いただきます",
               {
-                "es": "gracias (antes de comer)"
+                "es": "gracias (antes de comer)",
+                "en": "thank you (before eating)"
               }
             ],
             [
               "ごちそうさまでした",
               {
-                "es": "gracias (después de comer)"
+                "es": "gracias (después de comer)",
+                "en": "thank you (after eating)"
               }
             ],
             [
               "お 大事[だいじ]に",
               {
-                "es": "que te mejores"
+                "es": "que te mejores",
+                "en": "get well soon"
               }
             ],
             [
               "おめでとうございます",
               {
-                "es": "felicidades"
+                "es": "felicidades",
+                "en": "congratulations"
               }
             ],
             [
               "お 疲[つか]れさまでした",
               {
-                "es": "buen trabajo (al terminar)"
+                "es": "buen trabajo (al terminar)",
+                "en": "good work (when finishing)"
               }
             ]
           ]
@@ -184,47 +214,55 @@
     {
       "id": "classroom",
       "title": {
-        "es": "En clase"
+        "es": "En clase",
+        "en": "In class"
       },
       "tables": [
         {
           "headers": [
             {
-              "es": "Expresión"
+              "es": "Expresión",
+              "en": "Expression"
             },
             {
-              "es": "Significado"
+              "es": "Significado",
+              "en": "Meaning"
             }
           ],
           "rows": [
             [
               "もう 一度[いちど]お 願[ねが]いします",
               {
-                "es": "otra vez, por favor"
+                "es": "otra vez, por favor",
+                "en": "again, please"
               }
             ],
             [
               "ゆっくりお 願[ねが]いします",
               {
-                "es": "más despacio, por favor"
+                "es": "más despacio, por favor",
+                "en": "more slowly, please"
               }
             ],
             [
               "わかりました",
               {
-                "es": "entendido"
+                "es": "entendido",
+                "en": "understood"
               }
             ],
             [
               "わかりません",
               {
-                "es": "no entiendo"
+                "es": "no entiendo",
+                "en": "I don't understand"
               }
             ],
             [
               "質問[しつもん]があります",
               {
-                "es": "tengo una pregunta"
+                "es": "tengo una pregunta",
+                "en": "I have a question"
               }
             ]
           ]
