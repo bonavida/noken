@@ -2,7 +2,7 @@
 
 A study website for the JLPT (Japanese-Language Proficiency Test), following the **Minna no Nihongo** textbooks. Currently covers **N5**: grammar and vocabulary lesson by lesson, the full verb conjugation table, kana charts, kanji, reference tables, and a practice section with quizzes, drills and spaced-repetition flashcards — all Japanese text rendered with furigana.
 
-The UI language is Spanish, but the codebase is fully i18n-ready: adding a language means adding a typed dictionary and optional per-entry translation keys, no refactoring.
+The site ships in **Spanish** (default, at the root) and **English** (under `/en`), with a switcher in the header. Both languages cover everything: UI, glosses, grammar explanations and reference tables. Adding another one means a typed dictionary plus an extra key per content entry — no refactoring.
 
 ## Stack
 
@@ -51,7 +51,7 @@ src/
 ## Content conventions
 
 - **Furigana notation**: readings are stored inline as `漢字[かんじ]`; a bracket binds to the contiguous kanji run before it, okurigana stays outside: `食[た]べます`. The `Furigana`/`RichText` components render it as `<ruby>`.
-- **Localized fields**: `{ "es": "...", "en": "..." }` records per entry; Spanish is required, other locales optional.
+- **Localized fields**: `{ "es": "...", "en": "..." }` records per entry; Spanish is required and other locales are optional — a missing key falls back to Spanish (`pickLocale`).
 - **Levels**: routes and data never hardcode `n5`. Enable a new level in `src/constants/levels.ts` and drop its data in `src/data/<level>/`.
 
 ## Routes
@@ -64,7 +64,7 @@ src/
 | `/[level]`                      | Level dashboard                                 |
 | `/[level]/lessons/[number]`     | Grammar + vocabulary for a lesson               |
 | `/[level]/vocabulary/[number]`  | Dedicated vocabulary view                       |
-| `/[level]/verbs`                | Conjugation table (ます/て/diccionario/ない/た) |
+| `/[level]/verbs`                | Conjugation table (ます/て/dictionary/ない/た)  |
 | `/[level]/reference/[topic]`    | Guide: particles, counters, time, calendar…     |
 | `/[level]/practice`             | Practice hub (progress, streak, per-mode stats) |
 | `/[level]/practice/readings`    | Kanji-reading quiz                              |
@@ -77,6 +77,8 @@ src/
 
 Index routes (`/[level]/lessons`, `/[level]/vocabulary`, `/[level]/practice`, `/[level]/reference`) list their sections.
 
+Every route above is also built under `/en` (`/en/n5/lessons/3`, `/en/search-index.json`…). The tree lives in `src/pages/[...lang]/`, so pages read their locale from `Astro.params.lang` via `localeFromParams` — `Astro.currentLocale` does not resolve through a rest parameter in a static build — and build links with `localePath`.
+
 ## Practice
 
 Questions are generated at build time from the same content the pages render, so there is no separate exercise dataset to maintain.
@@ -85,10 +87,10 @@ Questions are generated at build time from the same content the pages render, so
 - **Reading quiz** — prompts show the word with furigana stripped. Distractors are scored so they share the answer's word type and okurigana (`src/utils/distractors.ts`), otherwise options could be eliminated on shape alone.
 - **Particle cloze** — a particle is blanked out of a book example. It is only detected after an unambiguous word boundary (a closing `]` or katakana), preferring precision over recall. Distractors are sampled per question from a confusion pool, so the option set never identifies the answer.
 - **Conjugation and numbers** — think-then-reveal drills with self-grading; number readings (including sound changes like さんびゃく or じゅっぷん) come from `src/utils/japaneseNumbers.ts`.
-- **Flashcards** — Leitner boxes with day-based intervals, plus a virtual "Difíciles" deck built from items missed in any mode.
+- **Flashcards** — Leitner boxes with day-based intervals, plus a virtual "difficult words" deck built from items missed in any mode.
 - **Keyboard** — number keys answer, space reveals or advances, in every mode. A shared guard (`src/utils/keyboard.ts`) keeps those bare keys from firing while a field or the search dialog has the focus.
 - **Scope** — quizzes filter by a single lesson or a block of five, each option showing your accuracy for that scope.
-- **Qué repasar** — the hub ranks your weakest lessons by accuracy pooled across modes (`weakestLessons` in `src/utils/stats.ts`), ignoring lessons with too little evidence, and links into the mode each one goes worst in with `?lesson=` preselecting the scope.
+- **What to review** — the hub ranks your weakest lessons by accuracy pooled across modes (`weakestLessons` in `src/utils/stats.ts`), ignoring lessons with too little evidence, and links into the mode each one goes worst in with `?lesson=` preselecting the scope.
 
 ## Cross-links
 
