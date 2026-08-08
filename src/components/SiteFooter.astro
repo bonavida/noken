@@ -1,9 +1,10 @@
 ---
 import { AUTHOR, FOOTER_JP, REPO_URL } from '@/constants/site';
-import { resolveLocale, useTranslations } from '@/i18n/t';
+import { localeFromParams } from '@/i18n/routing';
+import { useTranslations } from '@/i18n/t';
 import Furigana from '@/ui/Furigana.astro';
 
-const t = useTranslations(resolveLocale(Astro.currentLocale));
+const t = useTranslations(localeFromParams(Astro.params));
 
 const iconLinkClasses = 'hover:text-foreground inline-flex transition-colors';
 ---
