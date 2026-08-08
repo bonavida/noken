@@ -2,7 +2,8 @@
   "character": "赤",
   "level": "n5",
   "meanings": {
-    "es": ["rojo"]
+    "es": ["rojo"],
+    "en": ["red"]
   },
   "onyomi": ["セキ"],
   "kunyomi": ["あか.い"],
@@ -11,13 +12,15 @@
     {
       "word": "赤[あか]い",
       "meaning": {
-        "es": "rojo"
+        "es": "rojo",
+        "en": "red"
       }
     },
     {
       "word": "赤字[あかじ]",
       "meaning": {
-        "es": "números rojos"
+        "es": "números rojos",
+        "en": "the red (deficit)"
       }
     },
     {

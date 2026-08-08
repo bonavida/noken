@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 10,
   "meanings": {
-    "es": ["izquierda"]
+    "es": ["izquierda"],
+    "en": ["left"]
   },
   "onyomi": ["サ"],
   "kunyomi": ["ひだり"],
@@ -12,31 +13,36 @@
     {
       "word": "左[ひだり]",
       "meaning": {
-        "es": "izquierda"
+        "es": "izquierda",
+        "en": "left"
       }
     },
     {
       "word": "左手[ひだりて]",
       "meaning": {
-        "es": "mano izquierda"
+        "es": "mano izquierda",
+        "en": "left hand"
       }
     },
     {
       "word": "左折[させつ]",
       "meaning": {
-        "es": "giro a la izquierda"
+        "es": "giro a la izquierda",
+        "en": "left turn"
       }
     },
     {
       "word": "左翼[さよく]",
       "meaning": {
-        "es": "izquierda (política)"
+        "es": "izquierda (política)",
+        "en": "the left (politics)"
       }
     },
     {
       "word": "左方[さほう]",
       "meaning": {
-        "es": "parte izquierda"
+        "es": "parte izquierda",
+        "en": "left side"
       }
     }
   ],

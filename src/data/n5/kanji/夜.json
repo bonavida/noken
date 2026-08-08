@@ -2,7 +2,8 @@
   "character": "夜",
   "level": "n5",
   "meanings": {
-    "es": ["noche"]
+    "es": ["noche"],
+    "en": ["night"]
   },
   "onyomi": ["ヤ"],
   "kunyomi": ["よる", "よ"],
@@ -11,13 +12,15 @@
     {
       "word": "夜[よる]",
       "meaning": {
-        "es": "noche"
+        "es": "noche",
+        "en": "night"
       }
     },
     {
       "word": "夜中[よなか]",
       "meaning": {
-        "es": "medianoche"
+        "es": "medianoche",
+        "en": "midnight"
       }
     },
     {
@@ -37,7 +40,8 @@
     {
       "word": "徹夜[てつや]",
       "meaning": {
-        "es": "pasar la noche en vela"
+        "es": "pasar la noche en vela",
+        "en": "to stay up all night"
       }
     }
   ]

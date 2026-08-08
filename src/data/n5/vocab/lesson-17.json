@@ -17,7 +17,8 @@
       "word": "忘[わす]れます",
       "kana": "わすれます",
       "meaning": {
-        "es": "olvidar"
+        "es": "olvidar",
+        "en": "to forget"
       },
       "type": "verb-ichidan"
     },
@@ -26,7 +27,8 @@
       "word": "なくします",
       "kana": "なくします",
       "meaning": {
-        "es": "perder"
+        "es": "perder",
+        "en": "to lose"
       },
       "type": "verb-godan"
     },
@@ -35,7 +37,8 @@
       "word": "払[はら]います",
       "kana": "はらいます",
       "meaning": {
-        "es": "pagar"
+        "es": "pagar",
+        "en": "to pay"
       },
       "type": "verb-godan"
     },
@@ -54,7 +57,8 @@
       "word": "出[で]かけます",
       "kana": "でかけます",
       "meaning": {
-        "es": "salir"
+        "es": "salir",
+        "en": "to go out"
       },
       "type": "verb-ichidan"
     },
@@ -63,7 +67,8 @@
       "word": "脱[ぬ]ぎます",
       "kana": "ぬぎます",
       "meaning": {
-        "es": "quitarse (ropa, zapatos)"
+        "es": "quitarse (ropa, zapatos)",
+        "en": "to take off (clothes, shoes)"
       },
       "type": "verb-godan"
     },
@@ -72,7 +77,8 @@
       "word": "持[も]って 行[い]きます",
       "kana": "もっていきます",
       "meaning": {
-        "es": "llevar (algo)"
+        "es": "llevar (algo)",
+        "en": "to carry (something)"
       },
       "type": "verb-godan"
     },
@@ -81,7 +87,8 @@
       "word": "持[も]って 来[き]ます",
       "kana": "もってきます",
       "meaning": {
-        "es": "traer (algo)"
+        "es": "traer (algo)",
+        "en": "to bring (something)"
       },
       "type": "verb-irregular"
     },
@@ -90,7 +97,8 @@
       "word": "心配[しんぱい]します",
       "kana": "しんぱいします",
       "meaning": {
-        "es": "preocuparse"
+        "es": "preocuparse",
+        "en": "to worry"
       },
       "type": "verb-irregular"
     },
@@ -99,7 +107,8 @@
       "word": "残業[ざんぎょう]します",
       "kana": "ざんぎょうします",
       "meaning": {
-        "es": "trabajar horas extras"
+        "es": "trabajar horas extras",
+        "en": "to work overtime"
       },
       "type": "verb-irregular"
     },
@@ -108,7 +117,8 @@
       "word": "出張[しゅっちょう]します",
       "kana": "しゅっちょうします",
       "meaning": {
-        "es": "ir de viaje de trabajo"
+        "es": "ir de viaje de trabajo",
+        "en": "to go on a business trip"
       },
       "type": "verb-irregular"
     },
@@ -117,7 +127,8 @@
       "word": "飲[の]みます[薬[くすり]を〜]",
       "kana": "のみます",
       "meaning": {
-        "es": "tomar [medicinas]"
+        "es": "tomar [medicinas]",
+        "en": "to take [medicine]"
       },
       "type": "verb-godan"
     },
@@ -126,7 +137,8 @@
       "word": "入[はい]ります[おふろに〜]",
       "kana": "はいります",
       "meaning": {
-        "es": "tomar [un baño]"
+        "es": "tomar [un baño]",
+        "en": "to have [a bath]"
       },
       "type": "verb-godan"
     },
@@ -135,7 +147,8 @@
       "word": "大切[たいせつ][な]",
       "kana": "たいせつ",
       "meaning": {
-        "es": "importante"
+        "es": "importante",
+        "en": "important"
       },
       "type": "adjective-na"
     },
@@ -144,7 +157,8 @@
       "word": "大丈夫[だいじょうぶ][な]",
       "kana": "だいじょうぶ",
       "meaning": {
-        "es": "estar bien, sin problemas"
+        "es": "estar bien, sin problemas",
+        "en": "to be fine, all right"
       },
       "type": "adjective-na"
     },
@@ -153,7 +167,8 @@
       "word": "危[あぶ]ない",
       "kana": "あぶない",
       "meaning": {
-        "es": "peligroso"
+        "es": "peligroso",
+        "en": "dangerous"
       },
       "type": "adjective-i"
     },
@@ -162,7 +177,8 @@
       "word": "禁煙[きんえん]",
       "kana": "きんえん",
       "meaning": {
-        "es": "prohibido fumar"
+        "es": "prohibido fumar",
+        "en": "no smoking"
       },
       "type": "noun"
     },
@@ -171,7 +187,8 @@
       "word": "[健康[けんこう]]保険証[ほけんしょう]",
       "kana": "けんこうほけんしょう",
       "meaning": {
-        "es": "tarjeta del seguro [de salud]"
+        "es": "tarjeta del seguro [de salud]",
+        "en": "[health] insurance card"
       },
       "type": "noun"
     },
@@ -180,7 +197,8 @@
       "word": "熱[ねつ]",
       "kana": "ねつ",
       "meaning": {
-        "es": "fiebre"
+        "es": "fiebre",
+        "en": "fever"
       },
       "type": "noun"
     },
@@ -189,7 +207,8 @@
       "word": "病気[びょうき]",
       "kana": "びょうき",
       "meaning": {
-        "es": "enfermedad"
+        "es": "enfermedad",
+        "en": "illness"
       },
       "type": "noun"
     },
@@ -198,7 +217,8 @@
       "word": "薬[くすり]",
       "kana": "くすり",
       "meaning": {
-        "es": "medicina"
+        "es": "medicina",
+        "en": "medicine"
       },
       "type": "noun"
     },
@@ -227,7 +247,8 @@
       "word": "下着[したぎ]",
       "kana": "したぎ",
       "meaning": {
-        "es": "ropa interior"
+        "es": "ropa interior",
+        "en": "underwear"
       },
       "type": "noun"
     },
@@ -236,7 +257,8 @@
       "word": "2、3日[にち]",
       "kana": "にさんにち",
       "meaning": {
-        "es": "unos días"
+        "es": "unos días",
+        "en": "a few days"
       },
       "type": "expression"
     },
@@ -245,7 +267,8 @@
       "word": "2、3〜",
       "kana": "にさん",
       "meaning": {
-        "es": "unos ~, dos o tres ~"
+        "es": "unos ~, dos o tres ~",
+        "en": "a few ~, two or three ~"
       },
       "type": "expression"
     },
@@ -264,7 +287,8 @@
       "word": "ですから",
       "kana": "ですから",
       "meaning": {
-        "es": "por eso, entonces"
+        "es": "por eso, entonces",
+        "en": "so, therefore"
       },
       "type": "conjunction"
     },
@@ -283,7 +307,8 @@
       "word": "のど",
       "kana": "のど",
       "meaning": {
-        "es": "garganta"
+        "es": "garganta",
+        "en": "throat"
       },
       "type": "noun"
     },
@@ -292,7 +317,8 @@
       "word": "[〜が] 痛[いた]いです",
       "kana": "いたいです",
       "meaning": {
-        "es": "me duele [~]"
+        "es": "me duele [~]",
+        "en": "my [~] hurts"
       },
       "type": "expression"
     },
@@ -301,7 +327,8 @@
       "word": "かぜ",
       "kana": "かぜ",
       "meaning": {
-        "es": "resfriado, catarro"
+        "es": "resfriado, catarro",
+        "en": "a cold"
       },
       "type": "noun"
     },
@@ -310,7 +337,8 @@
       "word": "それから",
       "kana": "それから",
       "meaning": {
-        "es": "y, además"
+        "es": "y, además",
+        "en": "and, besides"
       },
       "type": "conjunction"
     },
@@ -319,7 +347,8 @@
       "word": "お 大事[だいじ]に",
       "kana": "おだいじに",
       "meaning": {
-        "es": "que se mejore"
+        "es": "que se mejore",
+        "en": "get well soon"
       },
       "type": "expression"
     }

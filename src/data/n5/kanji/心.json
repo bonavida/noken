@@ -19,13 +19,15 @@
     {
       "word": "心理[しんり]",
       "meaning": {
-        "es": "psicología"
+        "es": "psicología",
+        "en": "psychology"
       }
     },
     {
       "word": "関心[かんしん]",
       "meaning": {
-        "es": "interés"
+        "es": "interés",
+        "en": "interest"
       }
     },
     {
@@ -38,7 +40,8 @@
     {
       "word": "心電図[しんでんず]",
       "meaning": {
-        "es": "electrocardiograma"
+        "es": "electrocardiograma",
+        "en": "electrocardiogram"
       }
     }
   ]

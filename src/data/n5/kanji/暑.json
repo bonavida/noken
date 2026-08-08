@@ -26,7 +26,8 @@
     {
       "word": "暑気[しょき]",
       "meaning": {
-        "es": "tiempo caluroso"
+        "es": "tiempo caluroso",
+        "en": "hot weather"
       }
     },
     {
@@ -39,7 +40,8 @@
     {
       "word": "暑中[しょちゅう]",
       "meaning": {
-        "es": "pleno verano"
+        "es": "pleno verano",
+        "en": "midsummer"
       }
     }
   ],

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["idioma", "palabra", "relatar"]
+    "es": ["idioma", "palabra", "relatar"],
+    "en": ["language", "word", "to relate, to tell"]
   },
   "onyomi": ["ゴ"],
   "kunyomi": ["かた.る"],
@@ -12,37 +13,43 @@
     {
       "word": "日本語[にほんご]",
       "meaning": {
-        "es": "idioma japonés"
+        "es": "idioma japonés",
+        "en": "the Japanese language"
       }
     },
     {
       "word": "英語[えいご]",
       "meaning": {
-        "es": "idioma inglés"
+        "es": "idioma inglés",
+        "en": "the English language"
       }
     },
     {
       "word": "語[かた]る",
       "meaning": {
-        "es": "relatar"
+        "es": "relatar",
+        "en": "to relate, to tell"
       }
     },
     {
       "word": "物語[ものがたり]",
       "meaning": {
-        "es": "historia, relato"
+        "es": "historia, relato",
+        "en": "story, tale"
       }
     },
     {
       "word": "単語[たんご]",
       "meaning": {
-        "es": "palabra"
+        "es": "palabra",
+        "en": "word"
       }
     },
     {
       "word": "スペイン 語[ご]",
       "meaning": {
-        "es": "idioma español"
+        "es": "idioma español",
+        "en": "the Spanish language"
       }
     }
   ],

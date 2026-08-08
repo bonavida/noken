@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["nueve"]
+    "es": ["nueve"],
+    "en": ["nine"]
   },
   "onyomi": ["キュウ", "ク"],
   "kunyomi": ["ここの.つ"],
@@ -12,25 +13,29 @@
     {
       "word": "九[きゅう]",
       "meaning": {
-        "es": "nueve"
+        "es": "nueve",
+        "en": "nine"
       }
     },
     {
       "word": "九[ここの]つ",
       "meaning": {
-        "es": "nueve cosas"
+        "es": "nueve cosas",
+        "en": "nine things"
       }
     },
     {
       "word": "九月[くがつ]",
       "meaning": {
-        "es": "septiembre"
+        "es": "septiembre",
+        "en": "September"
       }
     },
     {
       "word": "九州[きゅうしゅう]",
       "meaning": {
-        "es": "isla de Kyūshū"
+        "es": "isla de Kyūshū",
+        "en": "the island of Kyushu"
       }
     },
     {

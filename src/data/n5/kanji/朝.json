@@ -2,7 +2,8 @@
   "character": "朝",
   "level": "n5",
   "meanings": {
-    "es": ["mañana"]
+    "es": ["mañana"],
+    "en": ["tomorrow, morning"]
   },
   "onyomi": ["チョウ"],
   "kunyomi": ["あさ"],
@@ -11,13 +12,15 @@
     {
       "word": "朝[あさ]",
       "meaning": {
-        "es": "mañana"
+        "es": "mañana",
+        "en": "tomorrow, morning"
       }
     },
     {
       "word": "朝日[あさひ]",
       "meaning": {
-        "es": "sol naciente"
+        "es": "sol naciente",
+        "en": "rising sun"
       }
     },
     {
@@ -37,7 +40,8 @@
     {
       "word": "早朝[そうちょう]",
       "meaning": {
-        "es": "temprano por la mañana"
+        "es": "temprano por la mañana",
+        "en": "early in the morning"
       }
     }
   ]

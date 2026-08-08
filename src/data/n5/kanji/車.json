@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["coche", "vehículo"]
+    "es": ["coche", "vehículo"],
+    "en": ["car", "vehicle"]
   },
   "onyomi": ["シャ"],
   "kunyomi": ["くるま"],
@@ -19,7 +20,8 @@
     {
       "word": "電車[でんしゃ]",
       "meaning": {
-        "es": "tren"
+        "es": "tren",
+        "en": "train"
       }
     },
     {
@@ -32,7 +34,8 @@
     {
       "word": "車椅子[くるまいす]",
       "meaning": {
-        "es": "silla de ruedas"
+        "es": "silla de ruedas",
+        "en": "wheelchair"
       }
     },
     {
@@ -45,7 +48,8 @@
     {
       "word": "風車[ふうしゃ]",
       "meaning": {
-        "es": "molino de viento"
+        "es": "molino de viento",
+        "en": "windmill"
       }
     }
   ]

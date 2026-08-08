@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["oro", "dinero", "metal"]
+    "es": ["oro", "dinero", "metal"],
+    "en": ["gold", "money", "metal"]
   },
   "onyomi": ["キン", "コン"],
   "kunyomi": ["かね"],
@@ -12,7 +13,8 @@
     {
       "word": "金曜日[きんようび]",
       "meaning": {
-        "es": "viernes"
+        "es": "viernes",
+        "en": "Friday"
       }
     },
     {
@@ -32,19 +34,22 @@
     {
       "word": "金持[かねも]ち",
       "meaning": {
-        "es": "rico"
+        "es": "rico",
+        "en": "rich"
       }
     },
     {
       "word": "金属[きんぞく]",
       "meaning": {
-        "es": "metal"
+        "es": "metal",
+        "en": "metal"
       }
     },
     {
       "word": "純金[じゅんきん]",
       "meaning": {
-        "es": "oro puro"
+        "es": "oro puro",
+        "en": "pure gold"
       }
     }
   ]

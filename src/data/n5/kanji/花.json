@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 6,
   "meanings": {
-    "es": ["flor"]
+    "es": ["flor"],
+    "en": ["flower"]
   },
   "onyomi": ["カ"],
   "kunyomi": ["はな"],
@@ -12,13 +13,15 @@
     {
       "word": "花[はな]",
       "meaning": {
-        "es": "flor"
+        "es": "flor",
+        "en": "flower"
       }
     },
     {
       "word": "花見[はなみ]",
       "meaning": {
-        "es": "ver los cerezos"
+        "es": "ver los cerezos",
+        "en": "to view the cherry blossom"
       }
     },
     {
@@ -31,19 +34,22 @@
     {
       "word": "花火[はなび]",
       "meaning": {
-        "es": "fuegos artificiales"
+        "es": "fuegos artificiales",
+        "en": "fireworks"
       }
     },
     {
       "word": "開花[かいか]",
       "meaning": {
-        "es": "florecimiento"
+        "es": "florecimiento",
+        "en": "blossoming"
       }
     },
     {
       "word": "花弁[かべん]",
       "meaning": {
-        "es": "pétalo"
+        "es": "pétalo",
+        "en": "petal"
       }
     }
   ]

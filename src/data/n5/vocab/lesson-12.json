@@ -7,7 +7,8 @@
       "word": "簡単[かんたん][な]",
       "kana": "かんたん",
       "meaning": {
-        "es": "fácil, sencillo"
+        "es": "fácil, sencillo",
+        "en": "easy, simple"
       },
       "type": "adjective-na"
     },
@@ -36,7 +37,8 @@
       "word": "速[はや]い・早[はや]い",
       "kana": "はやい",
       "meaning": {
-        "es": "rápido, temprano"
+        "es": "rápido, temprano",
+        "en": "fast, early"
       },
       "type": "adjective-i"
     },
@@ -45,7 +47,8 @@
       "word": "遅[おそ]い",
       "kana": "おそい",
       "meaning": {
-        "es": "tarde, lento"
+        "es": "tarde, lento",
+        "en": "late, slow"
       },
       "type": "adjective-i"
     },
@@ -54,7 +57,8 @@
       "word": "多[おお]い[人[ひと]が〜]",
       "kana": "おおい",
       "meaning": {
-        "es": "mucha [gente], muchos"
+        "es": "mucha [gente], muchos",
+        "en": "many [people], a lot"
       },
       "type": "adjective-i"
     },
@@ -63,7 +67,8 @@
       "word": "少[すく]ない[人[ひと]が〜]",
       "kana": "すくない",
       "meaning": {
-        "es": "poca [gente], poco"
+        "es": "poca [gente], poco",
+        "en": "few [people], little"
       },
       "type": "adjective-i"
     },
@@ -72,7 +77,8 @@
       "word": "暖[あたた]かい・温[あたた]かい",
       "kana": "あたたかい",
       "meaning": {
-        "es": "tibio, cálido, templado"
+        "es": "tibio, cálido, templado",
+        "en": "warm, mild"
       },
       "type": "adjective-i"
     },
@@ -81,7 +87,8 @@
       "word": "涼[すず]しい",
       "kana": "すずしい",
       "meaning": {
-        "es": "fresco"
+        "es": "fresco",
+        "en": "fresh"
       },
       "type": "adjective-i"
     },
@@ -100,7 +107,8 @@
       "word": "辛[から]い",
       "kana": "からい",
       "meaning": {
-        "es": "picante"
+        "es": "picante",
+        "en": "spicy"
       },
       "type": "adjective-i"
     },
@@ -109,7 +117,8 @@
       "word": "重[おも]い",
       "kana": "おもい",
       "meaning": {
-        "es": "pesado"
+        "es": "pesado",
+        "en": "heavy"
       },
       "type": "adjective-i"
     },
@@ -118,7 +127,8 @@
       "word": "軽[かる]い",
       "kana": "かるい",
       "meaning": {
-        "es": "ligero, liviano"
+        "es": "ligero, liviano",
+        "en": "light (in weight)"
       },
       "type": "adjective-i"
     },
@@ -127,7 +137,8 @@
       "word": "いい[コーヒーが〜]",
       "kana": "いい",
       "meaning": {
-        "es": "preferir [café]"
+        "es": "preferir [café]",
+        "en": "to prefer [coffee]"
       },
       "type": "adjective-i"
     },
@@ -136,7 +147,8 @@
       "word": "季節[きせつ]",
       "kana": "きせつ",
       "meaning": {
-        "es": "estación (del año)"
+        "es": "estación (del año)",
+        "en": "season"
       },
       "type": "noun"
     },
@@ -145,7 +157,8 @@
       "word": "春[はる]",
       "kana": "はる",
       "meaning": {
-        "es": "primavera"
+        "es": "primavera",
+        "en": "spring"
       },
       "type": "noun"
     },
@@ -154,7 +167,8 @@
       "word": "夏[なつ]",
       "kana": "なつ",
       "meaning": {
-        "es": "verano"
+        "es": "verano",
+        "en": "summer"
       },
       "type": "noun"
     },
@@ -163,7 +177,8 @@
       "word": "秋[あき]",
       "kana": "あき",
       "meaning": {
-        "es": "otoño"
+        "es": "otoño",
+        "en": "autumn"
       },
       "type": "noun"
     },
@@ -172,7 +187,8 @@
       "word": "冬[ふゆ]",
       "kana": "ふゆ",
       "meaning": {
-        "es": "invierno"
+        "es": "invierno",
+        "en": "winter"
       },
       "type": "noun"
     },
@@ -181,7 +197,8 @@
       "word": "天気[てんき]",
       "kana": "てんき",
       "meaning": {
-        "es": "tiempo (clima)"
+        "es": "tiempo (clima)",
+        "en": "weather"
       },
       "type": "noun"
     },
@@ -190,7 +207,8 @@
       "word": "雨[あめ]",
       "kana": "あめ",
       "meaning": {
-        "es": "lluvia"
+        "es": "lluvia",
+        "en": "rain"
       },
       "type": "noun"
     },
@@ -199,7 +217,8 @@
       "word": "雪[ゆき]",
       "kana": "ゆき",
       "meaning": {
-        "es": "nieve"
+        "es": "nieve",
+        "en": "snow"
       },
       "type": "noun"
     },
@@ -208,7 +227,8 @@
       "word": "曇[くも]り",
       "kana": "くもり",
       "meaning": {
-        "es": "nublado"
+        "es": "nublado",
+        "en": "cloudy"
       },
       "type": "noun"
     },
@@ -217,7 +237,8 @@
       "word": "ホテル",
       "kana": "ホテル",
       "meaning": {
-        "es": "hotel"
+        "es": "hotel",
+        "en": "hotel"
       },
       "type": "noun"
     },
@@ -236,7 +257,8 @@
       "word": "海[うみ]",
       "kana": "うみ",
       "meaning": {
-        "es": "mar, océano"
+        "es": "mar, océano",
+        "en": "sea, ocean"
       },
       "type": "noun"
     },
@@ -245,7 +267,8 @@
       "word": "世界[せかい]",
       "kana": "せかい",
       "meaning": {
-        "es": "mundo"
+        "es": "mundo",
+        "en": "world"
       },
       "type": "noun"
     },
@@ -254,7 +277,8 @@
       "word": "パーティー",
       "kana": "パーティー",
       "meaning": {
-        "es": "fiesta"
+        "es": "fiesta",
+        "en": "party"
       },
       "type": "noun"
     },
@@ -263,7 +287,8 @@
       "word": "[お]祭[まつ]り",
       "kana": "おまつり",
       "meaning": {
-        "es": "festival, feria"
+        "es": "festival, feria",
+        "en": "festival, fair"
       },
       "type": "noun"
     },
@@ -272,7 +297,8 @@
       "word": "すき 焼[や]き",
       "kana": "すきやき",
       "meaning": {
-        "es": "sukiyaki (cazuela de carne y verduras)"
+        "es": "sukiyaki (cazuela de carne y verduras)",
+        "en": "sukiyaki (beef and vegetable hotpot)"
       },
       "type": "noun"
     },
@@ -281,7 +307,8 @@
       "word": "刺身[さしみ]",
       "kana": "さしみ",
       "meaning": {
-        "es": "sashimi (pescado crudo en láminas)"
+        "es": "sashimi (pescado crudo en láminas)",
+        "en": "sashimi (sliced raw fish)"
       },
       "type": "noun"
     },
@@ -290,7 +317,8 @@
       "word": "[お]すし",
       "kana": "おすし",
       "meaning": {
-        "es": "sushi"
+        "es": "sushi",
+        "en": "sushi"
       },
       "type": "noun"
     },
@@ -299,7 +327,8 @@
       "word": "てんぷら",
       "kana": "てんぷら",
       "meaning": {
-        "es": "tempura (frituras)"
+        "es": "tempura (frituras)",
+        "en": "tempura"
       },
       "type": "noun"
     },
@@ -338,7 +367,8 @@
       "word": "レモン",
       "kana": "レモン",
       "meaning": {
-        "es": "limón"
+        "es": "limón",
+        "en": "lemon"
       },
       "type": "noun"
     },
@@ -387,7 +417,8 @@
       "word": "いちばん",
       "kana": "いちばん",
       "meaning": {
-        "es": "el más, el primero"
+        "es": "el más, el primero",
+        "en": "the most, the first"
       },
       "type": "adverb"
     },
@@ -396,7 +427,8 @@
       "word": "ずっと",
       "kana": "ずっと",
       "meaning": {
-        "es": "mucho más"
+        "es": "mucho más",
+        "en": "much more"
       },
       "type": "adverb"
     },
@@ -405,7 +437,8 @@
       "word": "初[はじ]めて",
       "kana": "はじめて",
       "meaning": {
-        "es": "por primera vez"
+        "es": "por primera vez",
+        "en": "for the first time"
       },
       "type": "adverb"
     },
@@ -414,7 +447,8 @@
       "word": "ただいま",
       "kana": "ただいま",
       "meaning": {
-        "es": "ya estoy en casa"
+        "es": "ya estoy en casa",
+        "en": "I'm home"
       },
       "type": "expression"
     },
@@ -443,7 +477,8 @@
       "word": "疲[つか]れました",
       "kana": "つかれました",
       "meaning": {
-        "es": "estoy cansado"
+        "es": "estoy cansado",
+        "en": "I'm tired"
       },
       "type": "expression"
     },
@@ -452,7 +487,8 @@
       "word": "祇園祭[ぎおんまつり]",
       "kana": "ぎおんまつり",
       "meaning": {
-        "es": "Festival de Gion (Kioto)"
+        "es": "Festival de Gion (Kioto)",
+        "en": "Gion Festival (Kyoto)"
       },
       "type": "noun"
     },
@@ -461,7 +497,8 @@
       "word": "ホンコン",
       "kana": "ホンコン",
       "meaning": {
-        "es": "Hong Kong"
+        "es": "Hong Kong",
+        "en": "Hong Kong"
       },
       "type": "noun"
     },
@@ -470,7 +507,8 @@
       "word": "シンガポール",
       "kana": "シンガポール",
       "meaning": {
-        "es": "Singapur"
+        "es": "Singapur",
+        "en": "Singapore"
       },
       "type": "noun"
     }

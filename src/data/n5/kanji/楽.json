@@ -2,7 +2,8 @@
   "character": "楽",
   "level": "n5",
   "meanings": {
-    "es": ["divertido", "cómodo", "música"]
+    "es": ["divertido", "cómodo", "música"],
+    "en": ["fun", "comfortable", "music"]
   },
   "onyomi": ["ガク", "ラク"],
   "kunyomi": ["たの.しい"],
@@ -18,25 +19,29 @@
     {
       "word": "音楽[おんがく]",
       "meaning": {
-        "es": "música"
+        "es": "música",
+        "en": "music"
       }
     },
     {
       "word": "楽器[がっき]",
       "meaning": {
-        "es": "instrumento musical"
+        "es": "instrumento musical",
+        "en": "musical instrument"
       }
     },
     {
       "word": "楽[らく]",
       "meaning": {
-        "es": "fácil, cómodo"
+        "es": "fácil, cómodo",
+        "en": "easy, comfortable"
       }
     },
     {
       "word": "極楽[ごくらく]",
       "meaning": {
-        "es": "paraíso"
+        "es": "paraíso",
+        "en": "paradise"
       }
     }
   ]

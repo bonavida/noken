@@ -2,7 +2,8 @@
   "character": "妹",
   "level": "n5",
   "meanings": {
-    "es": ["hermana menor"]
+    "es": ["hermana menor"],
+    "en": ["younger sister"]
   },
   "onyomi": ["マイ"],
   "kunyomi": ["いもうと"],
@@ -11,31 +12,36 @@
     {
       "word": "妹[いもうと]",
       "meaning": {
-        "es": "hermana menor"
+        "es": "hermana menor",
+        "en": "younger sister"
       }
     },
     {
       "word": "妹娘[いもうとむすめ]",
       "meaning": {
-        "es": "hija menor"
+        "es": "hija menor",
+        "en": "younger daughter"
       }
     },
     {
       "word": "姉妹[しまい]",
       "meaning": {
-        "es": "hermanas"
+        "es": "hermanas",
+        "en": "sisters"
       }
     },
     {
       "word": "義妹[ぎまい]",
       "meaning": {
-        "es": "hermanastra menor"
+        "es": "hermanastra menor",
+        "en": "younger stepsister"
       }
     },
     {
       "word": "弟妹[ていまい]",
       "meaning": {
-        "es": "hermanos y hermanas menores"
+        "es": "hermanos y hermanas menores",
+        "en": "younger brothers and sisters"
       }
     }
   ],

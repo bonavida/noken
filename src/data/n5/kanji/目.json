@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 16,
   "meanings": {
-    "es": ["ojo"]
+    "es": ["ojo"],
+    "en": ["eye"]
   },
   "onyomi": ["モク"],
   "kunyomi": ["め"],
@@ -12,13 +13,15 @@
     {
       "word": "目[め]",
       "meaning": {
-        "es": "ojo"
+        "es": "ojo",
+        "en": "eye"
       }
     },
     {
       "word": "2つ 目[め]",
       "meaning": {
-        "es": "el segundo"
+        "es": "el segundo",
+        "en": "the second"
       }
     },
     {
@@ -31,7 +34,8 @@
     {
       "word": "一番目[いちばんめ]",
       "meaning": {
-        "es": "el primero"
+        "es": "el primero",
+        "en": "the first"
       }
     },
     {
@@ -44,7 +48,8 @@
     {
       "word": "目的[もくてき]",
       "meaning": {
-        "es": "objetivo"
+        "es": "objetivo",
+        "en": "objective"
       }
     }
   ],

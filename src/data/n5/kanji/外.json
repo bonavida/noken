@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 10,
   "meanings": {
-    "es": ["fuera", "exterior"]
+    "es": ["fuera", "exterior"],
+    "en": ["outside"]
   },
   "onyomi": ["ガイ", "ゲ"],
   "kunyomi": ["そと"],
@@ -12,37 +13,43 @@
     {
       "word": "外[そと]",
       "meaning": {
-        "es": "fuera"
+        "es": "fuera",
+        "en": "outside"
       }
     },
     {
       "word": "外国[がいこく]",
       "meaning": {
-        "es": "extranjero"
+        "es": "extranjero",
+        "en": "abroad, foreign"
       }
     },
     {
       "word": "外国人[がいこくじん]",
       "meaning": {
-        "es": "extranjero (persona)"
+        "es": "extranjero (persona)",
+        "en": "foreigner"
       }
     },
     {
       "word": "外人[がいじん]",
       "meaning": {
-        "es": "extranjero"
+        "es": "extranjero",
+        "en": "abroad, foreign"
       }
     },
     {
       "word": "意外[いがい]",
       "meaning": {
-        "es": "inesperado"
+        "es": "inesperado",
+        "en": "unexpected"
       }
     },
     {
       "word": "外出[がいしゅつ]",
       "meaning": {
-        "es": "salida"
+        "es": "salida",
+        "en": "exit"
       }
     },
     {

@@ -20,13 +20,15 @@
     {
       "word": "北海道[ほっかいどう]",
       "meaning": {
-        "es": "Hokkaido"
+        "es": "Hokkaido",
+        "en": "Hokkaido"
       }
     },
     {
       "word": "柔道[じゅうどう]",
       "meaning": {
-        "es": "judo"
+        "es": "judo",
+        "en": "judo"
       }
     },
     {
@@ -39,7 +41,8 @@
     {
       "word": "鉄道[てつどう]",
       "meaning": {
-        "es": "ferrocarril"
+        "es": "ferrocarril",
+        "en": "railway"
       }
     },
     {

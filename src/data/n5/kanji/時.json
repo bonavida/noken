@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["hora", "tiempo"]
+    "es": ["hora", "tiempo"],
+    "en": ["hour, time", "time"]
   },
   "onyomi": ["ジ"],
   "kunyomi": ["とき"],
@@ -12,13 +13,15 @@
     {
       "word": "時間[じかん]",
       "meaning": {
-        "es": "tiempo"
+        "es": "tiempo",
+        "en": "time"
       }
     },
     {
       "word": "一時[いちじ]",
       "meaning": {
-        "es": "la una"
+        "es": "la una",
+        "en": "one o'clock"
       }
     },
     {
@@ -31,19 +34,22 @@
     {
       "word": "時[とき]",
       "meaning": {
-        "es": "hora, tiempo"
+        "es": "hora, tiempo",
+        "en": "time"
       }
     },
     {
       "word": "五時[ごじ]",
       "meaning": {
-        "es": "las cinco"
+        "es": "las cinco",
+        "en": "five o'clock"
       }
     },
     {
       "word": "時代[じだい]",
       "meaning": {
-        "es": "era, período"
+        "es": "era, período",
+        "en": "era, period"
       }
     }
   ],

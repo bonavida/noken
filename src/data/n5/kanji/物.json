@@ -2,7 +2,8 @@
   "character": "物",
   "level": "n5",
   "meanings": {
-    "es": ["cosa", "objeto"]
+    "es": ["cosa", "objeto"],
+    "en": ["thing", "object"]
   },
   "onyomi": ["ブツ", "モツ"],
   "kunyomi": ["もの"],
@@ -18,7 +19,8 @@
     {
       "word": "物語[ものがたり]",
       "meaning": {
-        "es": "historia, relato"
+        "es": "historia, relato",
+        "en": "story, tale"
       }
     },
     {
@@ -31,13 +33,15 @@
     {
       "word": "植物[しょくぶつ]",
       "meaning": {
-        "es": "planta"
+        "es": "planta",
+        "en": "plant"
       }
     },
     {
       "word": "荷物[にもつ]",
       "meaning": {
-        "es": "equipaje"
+        "es": "equipaje",
+        "en": "luggage"
       }
     }
   ]

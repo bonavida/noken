@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 9,
   "meanings": {
-    "es": ["poco"]
+    "es": ["poco"],
+    "en": ["little, few"]
   },
   "onyomi": ["ショウ"],
   "kunyomi": ["すく.ない", "すこ.し"],
@@ -12,19 +13,22 @@
     {
       "word": "少[すこ]し",
       "meaning": {
-        "es": "un poco"
+        "es": "un poco",
+        "en": "a little"
       }
     },
     {
       "word": "少[すく]ない",
       "meaning": {
-        "es": "poco"
+        "es": "poco",
+        "en": "little, few"
       }
     },
     {
       "word": "少々[しょうしょう]",
       "meaning": {
-        "es": "un momento"
+        "es": "un momento",
+        "en": "a moment"
       }
     },
     {
@@ -37,13 +41,15 @@
     {
       "word": "少量[しょうりょう]",
       "meaning": {
-        "es": "poca cantidad"
+        "es": "poca cantidad",
+        "en": "a small amount"
       }
     },
     {
       "word": "減少[げんしょう]",
       "meaning": {
-        "es": "reducción"
+        "es": "reducción",
+        "en": "reduction"
       }
     }
   ],

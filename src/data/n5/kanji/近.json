@@ -2,7 +2,8 @@
   "character": "近",
   "level": "n5",
   "meanings": {
-    "es": ["cerca", "reciente"]
+    "es": ["cerca", "reciente"],
+    "en": ["near", "recent"]
   },
   "onyomi": ["キン"],
   "kunyomi": ["ちか.い"],
@@ -18,7 +19,8 @@
     {
       "word": "近頃[ちかごろ]",
       "meaning": {
-        "es": "últimamente"
+        "es": "últimamente",
+        "en": "lately"
       }
     },
     {
@@ -31,13 +33,15 @@
     {
       "word": "近所[きんじょ]",
       "meaning": {
-        "es": "vecindario"
+        "es": "vecindario",
+        "en": "neighbourhood"
       }
     },
     {
       "word": "近眼[きんがん]",
       "meaning": {
-        "es": "miopía"
+        "es": "miopía",
+        "en": "short-sightedness"
       }
     }
   ]

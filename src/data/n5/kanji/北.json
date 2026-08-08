@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 19,
   "meanings": {
-    "es": ["norte"]
+    "es": ["norte"],
+    "en": ["north"]
   },
   "onyomi": ["ホク"],
   "kunyomi": ["きた"],
@@ -12,31 +13,36 @@
     {
       "word": "北[きた]",
       "meaning": {
-        "es": "norte"
+        "es": "norte",
+        "en": "north"
       }
     },
     {
       "word": "北海道[ほっかいどう]",
       "meaning": {
-        "es": "Hokkaido"
+        "es": "Hokkaido",
+        "en": "Hokkaido"
       }
     },
     {
       "word": "北口[きたぐち]",
       "meaning": {
-        "es": "salida norte"
+        "es": "salida norte",
+        "en": "north exit"
       }
     },
     {
       "word": "北西[ほくせい]",
       "meaning": {
-        "es": "noroeste"
+        "es": "noroeste",
+        "en": "north-west"
       }
     },
     {
       "word": "北極[ほっきょく]",
       "meaning": {
-        "es": "Polo Norte"
+        "es": "Polo Norte",
+        "en": "the North Pole"
       }
     }
   ]

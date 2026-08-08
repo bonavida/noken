@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 19,
   "meanings": {
-    "es": ["este"]
+    "es": ["este"],
+    "en": ["east"]
   },
   "onyomi": ["トウ"],
   "kunyomi": ["ひがし"],
@@ -12,31 +13,36 @@
     {
       "word": "東[ひがし]",
       "meaning": {
-        "es": "este"
+        "es": "este",
+        "en": "east"
       }
     },
     {
       "word": "東京[とうきょう]",
       "meaning": {
-        "es": "Tokio"
+        "es": "Tokio",
+        "en": "Tokyo"
       }
     },
     {
       "word": "東口[ひがしぐち]",
       "meaning": {
-        "es": "salida este"
+        "es": "salida este",
+        "en": "east exit"
       }
     },
     {
       "word": "東洋[とうよう]",
       "meaning": {
-        "es": "el Oriente"
+        "es": "el Oriente",
+        "en": "the East, the Orient"
       }
     },
     {
       "word": "東南[とうなん]",
       "meaning": {
-        "es": "sudeste"
+        "es": "sudeste",
+        "en": "south-east"
       }
     }
   ]

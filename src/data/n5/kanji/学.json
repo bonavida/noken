@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["estudiar", "aprender", "escuela"]
+    "es": ["estudiar", "aprender", "escuela"],
+    "en": ["to study", "to learn", "school"]
   },
   "onyomi": ["ガク"],
   "kunyomi": ["まな.ぶ"],
@@ -12,19 +13,22 @@
     {
       "word": "学生[がくせい]",
       "meaning": {
-        "es": "estudiante"
+        "es": "estudiante",
+        "en": "student"
       }
     },
     {
       "word": "大学[だいがく]",
       "meaning": {
-        "es": "universidad"
+        "es": "universidad",
+        "en": "university"
       }
     },
     {
       "word": "学校[がっこう]",
       "meaning": {
-        "es": "escuela"
+        "es": "escuela",
+        "en": "school"
       }
     },
     {
@@ -37,7 +41,8 @@
     {
       "word": "医学[いがく]",
       "meaning": {
-        "es": "medicina"
+        "es": "medicina",
+        "en": "medicine"
       }
     }
   ],

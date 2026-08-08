@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 7,
   "meanings": {
-    "es": ["padre"]
+    "es": ["padre"],
+    "en": ["father"]
   },
   "onyomi": ["フ"],
   "kunyomi": ["ちち"],
@@ -12,25 +13,29 @@
     {
       "word": "父[ちち]",
       "meaning": {
-        "es": "mi padre"
+        "es": "mi padre",
+        "en": "my father"
       }
     },
     {
       "word": "お 父[とう]さん",
       "meaning": {
-        "es": "su padre"
+        "es": "su padre",
+        "en": "his/her father"
       }
     },
     {
       "word": "父親[ちちおや]",
       "meaning": {
-        "es": "padre"
+        "es": "padre",
+        "en": "father"
       }
     },
     {
       "word": "父母[ふぼ]",
       "meaning": {
-        "es": "padre y madre"
+        "es": "padre y madre",
+        "en": "father and mother"
       }
     },
     {

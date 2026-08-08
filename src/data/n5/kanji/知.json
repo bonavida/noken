@@ -2,7 +2,8 @@
   "character": "知",
   "level": "n5",
   "meanings": {
-    "es": ["saber", "conocer"]
+    "es": ["saber", "conocer"],
+    "en": ["to know", "to know, to meet"]
   },
   "onyomi": ["チ"],
   "kunyomi": ["し.る"],
@@ -11,7 +12,8 @@
     {
       "word": "知[し]る",
       "meaning": {
-        "es": "saber, conocer"
+        "es": "saber, conocer",
+        "en": "to know"
       }
     },
     {
@@ -24,13 +26,15 @@
     {
       "word": "知恵[ちえ]",
       "meaning": {
-        "es": "sabiduría"
+        "es": "sabiduría",
+        "en": "wisdom"
       }
     },
     {
       "word": "知能[ちのう]",
       "meaning": {
-        "es": "inteligencia"
+        "es": "inteligencia",
+        "en": "intelligence"
       }
     },
     {

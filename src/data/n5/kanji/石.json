@@ -2,7 +2,8 @@
   "character": "石",
   "level": "n5",
   "meanings": {
-    "es": ["piedra", "roca"]
+    "es": ["piedra", "roca"],
+    "en": ["stone", "rock"]
   },
   "onyomi": ["セキ"],
   "kunyomi": ["いし"],
@@ -11,19 +12,22 @@
     {
       "word": "石[いし]",
       "meaning": {
-        "es": "piedra, roca"
+        "es": "piedra, roca",
+        "en": "stone, rock"
       }
     },
     {
       "word": "石油[せきゆ]",
       "meaning": {
-        "es": "petróleo"
+        "es": "petróleo",
+        "en": "oil, petroleum"
       }
     },
     {
       "word": "宝石[ほうせき]",
       "meaning": {
-        "es": "piedra preciosa"
+        "es": "piedra preciosa",
+        "en": "precious stone"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "石像[せきぞう]",
       "meaning": {
-        "es": "estatua de piedra"
+        "es": "estatua de piedra",
+        "en": "stone statue"
       }
     }
   ],

@@ -7,7 +7,8 @@
       "word": "置[お]きます",
       "kana": "おきます",
       "meaning": {
-        "es": "poner, colocar"
+        "es": "poner, colocar",
+        "en": "to put, to place"
       },
       "type": "verb-godan"
     },
@@ -16,7 +17,8 @@
       "word": "作[つく]ります",
       "kana": "つくります",
       "meaning": {
-        "es": "hacer, producir"
+        "es": "hacer, producir",
+        "en": "to make, to produce"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "売[う]ります",
       "kana": "うります",
       "meaning": {
-        "es": "vender"
+        "es": "vender",
+        "en": "to sell"
       },
       "type": "verb-godan"
     },
@@ -34,7 +37,8 @@
       "word": "知[し]ります",
       "kana": "しります",
       "meaning": {
-        "es": "enterarse, saber"
+        "es": "enterarse, saber",
+        "en": "to find out, to learn"
       },
       "type": "verb-godan"
     },
@@ -43,7 +47,8 @@
       "word": "住[す]みます",
       "kana": "すみます",
       "meaning": {
-        "es": "vivir, residir"
+        "es": "vivir, residir",
+        "en": "to live, to reside"
       },
       "type": "verb-godan"
     },
@@ -52,7 +57,8 @@
       "word": "研究[けんきゅう]します",
       "kana": "けんきゅうします",
       "meaning": {
-        "es": "investigar"
+        "es": "investigar",
+        "en": "to research"
       },
       "type": "verb-irregular"
     },
@@ -61,7 +67,8 @@
       "word": "資料[しりょう]",
       "kana": "しりょう",
       "meaning": {
-        "es": "materiales, datos"
+        "es": "materiales, datos",
+        "en": "materials, data"
       },
       "type": "noun"
     },
@@ -80,7 +87,8 @@
       "word": "時刻表[じこくひょう]",
       "kana": "じこくひょう",
       "meaning": {
-        "es": "horario"
+        "es": "horario",
+        "en": "timetable"
       },
       "type": "noun"
     },
@@ -89,7 +97,8 @@
       "word": "服[ふく]",
       "kana": "ふく",
       "meaning": {
-        "es": "ropa"
+        "es": "ropa",
+        "en": "clothes"
       },
       "type": "noun"
     },
@@ -98,7 +107,8 @@
       "word": "製品[せいひん]",
       "kana": "せいひん",
       "meaning": {
-        "es": "productos"
+        "es": "productos",
+        "en": "goods, products"
       },
       "type": "noun"
     },
@@ -107,7 +117,8 @@
       "word": "ソフト",
       "kana": "ソフト",
       "meaning": {
-        "es": "software, programa"
+        "es": "software, programa",
+        "en": "software, program"
       },
       "type": "noun"
     },
@@ -166,7 +177,8 @@
       "word": "独身[どくしん]",
       "kana": "どくしん",
       "meaning": {
-        "es": "soltero"
+        "es": "soltero",
+        "en": "single, unmarried"
       },
       "type": "noun"
     },
@@ -175,7 +187,8 @@
       "word": "すみません",
       "kana": "すみません",
       "meaning": {
-        "es": "perdón, lo siento"
+        "es": "perdón, lo siento",
+        "en": "sorry, excuse me"
       },
       "type": "expression"
     },
@@ -184,7 +197,8 @@
       "word": "皆[みな]さん",
       "kana": "みなさん",
       "meaning": {
-        "es": "señoras y señores, todos ustedes"
+        "es": "señoras y señores, todos ustedes",
+        "en": "ladies and gentlemen, everyone"
       },
       "type": "noun"
     },
@@ -203,7 +217,8 @@
       "word": "いらっしゃいます",
       "kana": "いらっしゃいます",
       "meaning": {
-        "es": "estar (respetuoso de います)"
+        "es": "estar (respetuoso de います)",
+        "en": "to be (polite form of います)"
       },
       "type": "verb-godan"
     }

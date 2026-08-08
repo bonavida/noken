@@ -7,7 +7,8 @@
       "word": "行[い]きます",
       "kana": "いきます",
       "meaning": {
-        "es": "ir"
+        "es": "ir",
+        "en": "to go"
       },
       "type": "verb-godan"
     },
@@ -16,7 +17,8 @@
       "word": "来[き]ます",
       "kana": "きます",
       "meaning": {
-        "es": "venir"
+        "es": "venir",
+        "en": "to come"
       },
       "type": "verb-irregular"
     },
@@ -25,7 +27,8 @@
       "word": "帰[かえ]ります",
       "kana": "かえります",
       "meaning": {
-        "es": "volver, regresar a casa"
+        "es": "volver, regresar a casa",
+        "en": "to go home"
       },
       "type": "verb-godan"
     },
@@ -34,7 +37,8 @@
       "word": "学校[がっこう]",
       "kana": "がっこう",
       "meaning": {
-        "es": "escuela"
+        "es": "escuela",
+        "en": "school"
       },
       "type": "noun"
     },
@@ -43,7 +47,8 @@
       "word": "スーパー",
       "kana": "スーパー",
       "meaning": {
-        "es": "supermercado"
+        "es": "supermercado",
+        "en": "supermarket"
       },
       "type": "noun"
     },
@@ -52,7 +57,8 @@
       "word": "駅[えき]",
       "kana": "えき",
       "meaning": {
-        "es": "estación"
+        "es": "estación",
+        "en": "station"
       },
       "type": "noun"
     },
@@ -81,7 +87,8 @@
       "word": "電車[でんしゃ]",
       "kana": "でんしゃ",
       "meaning": {
-        "es": "tren eléctrico"
+        "es": "tren eléctrico",
+        "en": "electric train"
       },
       "type": "noun"
     },
@@ -90,7 +97,8 @@
       "word": "地下鉄[ちかてつ]",
       "kana": "ちかてつ",
       "meaning": {
-        "es": "metro"
+        "es": "metro",
+        "en": "underground, subway"
       },
       "type": "noun"
     },
@@ -99,7 +107,8 @@
       "word": "新幹線[しんかんせん]",
       "kana": "しんかんせん",
       "meaning": {
-        "es": "Shinkansen, tren bala"
+        "es": "Shinkansen, tren bala",
+        "en": "Shinkansen, bullet train"
       },
       "type": "noun"
     },
@@ -118,7 +127,8 @@
       "word": "タクシー",
       "kana": "タクシー",
       "meaning": {
-        "es": "taxi"
+        "es": "taxi",
+        "en": "taxi"
       },
       "type": "noun"
     },
@@ -147,7 +157,8 @@
       "word": "人[ひと]",
       "kana": "ひと",
       "meaning": {
-        "es": "persona, gente"
+        "es": "persona, gente",
+        "en": "person, people"
       },
       "type": "noun"
     },
@@ -166,7 +177,8 @@
       "word": "彼[かれ]",
       "kana": "かれ",
       "meaning": {
-        "es": "él, novio"
+        "es": "él, novio",
+        "en": "he, boyfriend"
       },
       "type": "pronoun"
     },
@@ -175,7 +187,8 @@
       "word": "彼女[かのじょ]",
       "kana": "かのじょ",
       "meaning": {
-        "es": "ella, novia"
+        "es": "ella, novia",
+        "en": "she, girlfriend"
       },
       "type": "pronoun"
     },
@@ -184,7 +197,8 @@
       "word": "家族[かぞく]",
       "kana": "かぞく",
       "meaning": {
-        "es": "familia"
+        "es": "familia",
+        "en": "family"
       },
       "type": "noun"
     },
@@ -193,7 +207,8 @@
       "word": "一人[ひとり]で",
       "kana": "ひとりで",
       "meaning": {
-        "es": "solo (sin compañía)"
+        "es": "solo (sin compañía)",
+        "en": "alone"
       },
       "type": "adverb"
     },
@@ -202,7 +217,8 @@
       "word": "先週[せんしゅう]",
       "kana": "せんしゅう",
       "meaning": {
-        "es": "la semana pasada"
+        "es": "la semana pasada",
+        "en": "last week"
       },
       "type": "noun"
     },
@@ -211,7 +227,8 @@
       "word": "今週[こんしゅう]",
       "kana": "こんしゅう",
       "meaning": {
-        "es": "esta semana"
+        "es": "esta semana",
+        "en": "this week"
       },
       "type": "noun"
     },
@@ -220,7 +237,8 @@
       "word": "来週[らいしゅう]",
       "kana": "らいしゅう",
       "meaning": {
-        "es": "la semana que viene"
+        "es": "la semana que viene",
+        "en": "next week"
       },
       "type": "noun"
     },
@@ -229,7 +247,8 @@
       "word": "先月[せんげつ]",
       "kana": "せんげつ",
       "meaning": {
-        "es": "el mes pasado"
+        "es": "el mes pasado",
+        "en": "last month"
       },
       "type": "noun"
     },
@@ -238,7 +257,8 @@
       "word": "今月[こんげつ]",
       "kana": "こんげつ",
       "meaning": {
-        "es": "este mes"
+        "es": "este mes",
+        "en": "this month"
       },
       "type": "noun"
     },
@@ -247,7 +267,8 @@
       "word": "来月[らいげつ]",
       "kana": "らいげつ",
       "meaning": {
-        "es": "el mes que viene"
+        "es": "el mes que viene",
+        "en": "next month"
       },
       "type": "noun"
     },
@@ -266,7 +287,8 @@
       "word": "ことし",
       "kana": "ことし",
       "meaning": {
-        "es": "este año"
+        "es": "este año",
+        "en": "this year"
       },
       "type": "noun"
     },
@@ -295,7 +317,8 @@
       "word": "何年[なんねん]",
       "kana": "なんねん",
       "meaning": {
-        "es": "qué año"
+        "es": "qué año",
+        "en": "what year"
       },
       "type": "interrogative"
     },
@@ -304,7 +327,8 @@
       "word": "〜月[がつ]",
       "kana": "がつ",
       "meaning": {
-        "es": "mes de ~"
+        "es": "mes de ~",
+        "en": "month of ~"
       },
       "type": "counter"
     },
@@ -313,7 +337,8 @@
       "word": "何月[なんがつ]",
       "kana": "なんがつ",
       "meaning": {
-        "es": "qué mes"
+        "es": "qué mes",
+        "en": "what month"
       },
       "type": "interrogative"
     },
@@ -322,7 +347,8 @@
       "word": "1日[ついたち]",
       "kana": "ついたち",
       "meaning": {
-        "es": "el día uno del mes"
+        "es": "el día uno del mes",
+        "en": "the 1st of the month"
       },
       "type": "number"
     },
@@ -331,7 +357,8 @@
       "word": "2日[ふつか]",
       "kana": "ふつか",
       "meaning": {
-        "es": "el día dos, 2 días"
+        "es": "el día dos, 2 días",
+        "en": "the 2nd, 2 days"
       },
       "type": "number"
     },
@@ -340,7 +367,8 @@
       "word": "3日[みっか]",
       "kana": "みっか",
       "meaning": {
-        "es": "el día tres, 3 días"
+        "es": "el día tres, 3 días",
+        "en": "the 3rd, 3 days"
       },
       "type": "number"
     },
@@ -369,7 +397,8 @@
       "word": "6日[むいか]",
       "kana": "むいか",
       "meaning": {
-        "es": "el día seis, 6 días"
+        "es": "el día seis, 6 días",
+        "en": "the 6th, 6 days"
       },
       "type": "number"
     },
@@ -378,7 +407,8 @@
       "word": "7日[なのか]",
       "kana": "なのか",
       "meaning": {
-        "es": "el día siete, 7 días"
+        "es": "el día siete, 7 días",
+        "en": "the 7th, 7 days"
       },
       "type": "number"
     },
@@ -387,7 +417,8 @@
       "word": "8日[ようか]",
       "kana": "ようか",
       "meaning": {
-        "es": "el día ocho, 8 días"
+        "es": "el día ocho, 8 días",
+        "en": "the 8th, 8 days"
       },
       "type": "number"
     },
@@ -396,7 +427,8 @@
       "word": "9日[ここのか]",
       "kana": "ここのか",
       "meaning": {
-        "es": "el día nueve, 9 días"
+        "es": "el día nueve, 9 días",
+        "en": "the 9th, 9 days"
       },
       "type": "number"
     },
@@ -425,7 +457,8 @@
       "word": "20日[はつか]",
       "kana": "はつか",
       "meaning": {
-        "es": "el día veinte, 20 días"
+        "es": "el día veinte, 20 días",
+        "en": "the 20th, 20 days"
       },
       "type": "number"
     },
@@ -434,7 +467,8 @@
       "word": "24日[にじゅうよっか]",
       "kana": "にじゅうよっか",
       "meaning": {
-        "es": "el día veinticuatro, 24 días"
+        "es": "el día veinticuatro, 24 días",
+        "en": "the 24th, 24 days"
       },
       "type": "number"
     },
@@ -453,7 +487,8 @@
       "word": "何日[なんにち]",
       "kana": "なんにち",
       "meaning": {
-        "es": "qué día del mes, cuántos días"
+        "es": "qué día del mes, cuántos días",
+        "en": "what day of the month, how many days"
       },
       "type": "interrogative"
     },
@@ -482,7 +517,8 @@
       "word": "そうですね",
       "kana": "そうですね",
       "meaning": {
-        "es": "estoy de acuerdo"
+        "es": "estoy de acuerdo",
+        "en": "I agree"
       },
       "type": "expression"
     },
@@ -521,7 +557,8 @@
       "word": "次[つぎ]の",
       "kana": "つぎの",
       "meaning": {
-        "es": "próximo, siguiente"
+        "es": "próximo, siguiente",
+        "en": "next"
       },
       "type": "expression"
     },

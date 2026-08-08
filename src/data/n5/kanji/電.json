@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["electricidad"]
+    "es": ["electricidad"],
+    "en": ["electricity"]
   },
   "onyomi": ["デン"],
   "kunyomi": [],
@@ -12,25 +13,29 @@
     {
       "word": "電気[でんき]",
       "meaning": {
-        "es": "electricidad, luz"
+        "es": "electricidad, luz",
+        "en": "electricity, light"
       }
     },
     {
       "word": "電車[でんしゃ]",
       "meaning": {
-        "es": "tren"
+        "es": "tren",
+        "en": "train"
       }
     },
     {
       "word": "電話[でんわ]",
       "meaning": {
-        "es": "teléfono"
+        "es": "teléfono",
+        "en": "telephone"
       }
     },
     {
       "word": "電子[でんし]",
       "meaning": {
-        "es": "electrón"
+        "es": "electrón",
+        "en": "electron"
       }
     },
     {

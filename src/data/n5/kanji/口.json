@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 16,
   "meanings": {
-    "es": ["boca", "entrada"]
+    "es": ["boca", "entrada"],
+    "en": ["mouth", "entrance"]
   },
   "onyomi": ["コウ", "ク"],
   "kunyomi": ["くち"],
@@ -19,13 +20,15 @@
     {
       "word": "入口[いりぐち]",
       "meaning": {
-        "es": "entrada"
+        "es": "entrada",
+        "en": "entrance"
       }
     },
     {
       "word": "出口[でぐち]",
       "meaning": {
-        "es": "salida"
+        "es": "salida",
+        "en": "exit"
       }
     },
     {
@@ -38,7 +41,8 @@
     {
       "word": "人口[じんこう]",
       "meaning": {
-        "es": "población"
+        "es": "población",
+        "en": "population"
       }
     },
     {

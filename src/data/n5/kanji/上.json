@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 7,
   "meanings": {
-    "es": ["arriba", "encima", "subir"]
+    "es": ["arriba", "encima", "subir"],
+    "en": ["above, up", "on top", "to go up"]
   },
   "onyomi": ["ジョウ"],
   "kunyomi": ["うえ", "あ.げる", "あ.がる", "のぼ.る"],
@@ -12,13 +13,15 @@
     {
       "word": "上[うえ]",
       "meaning": {
-        "es": "encima"
+        "es": "encima",
+        "en": "on top"
       }
     },
     {
       "word": "上手[じょうず]",
       "meaning": {
-        "es": "hábil"
+        "es": "hábil",
+        "en": "skilful"
       }
     },
     {
@@ -31,13 +34,15 @@
     {
       "word": "上[あ]がる",
       "meaning": {
-        "es": "subir, elevarse"
+        "es": "subir, elevarse",
+        "en": "to go up, to rise"
       }
     },
     {
       "word": "上[のぼ]る",
       "meaning": {
-        "es": "subir (escaleras)"
+        "es": "subir (escaleras)",
+        "en": "to go up (stairs)"
       }
     },
     {
@@ -50,7 +55,8 @@
     {
       "word": "以上[いじょう]",
       "meaning": {
-        "es": "más de"
+        "es": "más de",
+        "en": "more than"
       }
     }
   ],

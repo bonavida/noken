@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 14,
   "meanings": {
-    "es": ["entrar", "meter"]
+    "es": ["entrar", "meter"],
+    "en": ["to enter", "to put in"]
   },
   "onyomi": ["ニュウ"],
   "kunyomi": ["はい.る", "い.れる"],
@@ -12,43 +13,50 @@
     {
       "word": "入[はい]ります",
       "meaning": {
-        "es": "entrar"
+        "es": "entrar",
+        "en": "to enter"
       }
     },
     {
       "word": "入[い]れます",
       "meaning": {
-        "es": "meter"
+        "es": "meter",
+        "en": "to put in"
       }
     },
     {
       "word": "入口[いりぐち]",
       "meaning": {
-        "es": "entrada"
+        "es": "entrada",
+        "en": "entrance"
       }
     },
     {
       "word": "入[はい]る",
       "meaning": {
-        "es": "entrar"
+        "es": "entrar",
+        "en": "to enter"
       }
     },
     {
       "word": "入[い]れる",
       "meaning": {
-        "es": "meter"
+        "es": "meter",
+        "en": "to put in"
       }
     },
     {
       "word": "輸入[ゆにゅう]",
       "meaning": {
-        "es": "importación"
+        "es": "importación",
+        "en": "import"
       }
     },
     {
       "word": "入学[にゅうがく]",
       "meaning": {
-        "es": "ingreso en una escuela"
+        "es": "ingreso en una escuela",
+        "en": "school admission"
       }
     }
   ],

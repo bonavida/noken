@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["día", "sol"]
+    "es": ["día", "sol"],
+    "en": ["day", "sun"]
   },
   "onyomi": ["ニチ", "ジツ"],
   "kunyomi": ["ひ", "〜び", "〜か"],
@@ -12,7 +13,8 @@
     {
       "word": "日本[にほん]",
       "meaning": {
-        "es": "Japón"
+        "es": "Japón",
+        "en": "Japan"
       }
     },
     {
@@ -25,13 +27,15 @@
     {
       "word": "毎日[まいにち]",
       "meaning": {
-        "es": "todos los días"
+        "es": "todos los días",
+        "en": "every day"
       }
     },
     {
       "word": "日[ひ]",
       "meaning": {
-        "es": "sol"
+        "es": "sol",
+        "en": "sun"
       }
     },
     {

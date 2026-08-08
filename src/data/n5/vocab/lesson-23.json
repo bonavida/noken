@@ -7,7 +7,8 @@
       "word": "聞[き]きます[先生[せんせい]に〜]",
       "kana": "ききます",
       "meaning": {
-        "es": "preguntar [al profesor]"
+        "es": "preguntar [al profesor]",
+        "en": "to ask [the teacher]"
       },
       "type": "verb-godan"
     },
@@ -16,7 +17,8 @@
       "word": "回[まわ]します",
       "kana": "まわします",
       "meaning": {
-        "es": "girar"
+        "es": "girar",
+        "en": "to turn"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "引[ひ]きます",
       "kana": "ひきます",
       "meaning": {
-        "es": "tirar, jalar"
+        "es": "tirar, jalar",
+        "en": "to pull"
       },
       "type": "verb-godan"
     },
@@ -44,7 +47,8 @@
       "word": "触[さわ]ります[ドアに〜]",
       "kana": "さわります",
       "meaning": {
-        "es": "tocar [una puerta]"
+        "es": "tocar [una puerta]",
+        "en": "to knock [on a door]"
       },
       "type": "verb-godan"
     },
@@ -53,7 +57,8 @@
       "word": "出[で]ます[お 釣[つ]りが〜]",
       "kana": "でます",
       "meaning": {
-        "es": "salir [el cambio]"
+        "es": "salir [el cambio]",
+        "en": "for change to come out"
       },
       "type": "verb-ichidan"
     },
@@ -92,7 +97,8 @@
       "word": "寂[さび]しい",
       "kana": "さびしい",
       "meaning": {
-        "es": "solitario"
+        "es": "solitario",
+        "en": "lonely"
       },
       "type": "adjective-i"
     },
@@ -111,7 +117,8 @@
       "word": "音[おと]",
       "kana": "おと",
       "meaning": {
-        "es": "sonido"
+        "es": "sonido",
+        "en": "sound"
       },
       "type": "noun"
     },
@@ -120,7 +127,8 @@
       "word": "サイズ",
       "kana": "サイズ",
       "meaning": {
-        "es": "tamaño, talla"
+        "es": "tamaño, talla",
+        "en": "size"
       },
       "type": "noun"
     },
@@ -159,7 +167,8 @@
       "word": "信号[しんごう]",
       "kana": "しんごう",
       "meaning": {
-        "es": "semáforo"
+        "es": "semáforo",
+        "en": "traffic light"
       },
       "type": "noun"
     },
@@ -168,7 +177,8 @@
       "word": "角[かど]",
       "kana": "かど",
       "meaning": {
-        "es": "esquina"
+        "es": "esquina",
+        "en": "corner"
       },
       "type": "noun"
     },
@@ -177,7 +187,8 @@
       "word": "橋[はし]",
       "kana": "はし",
       "meaning": {
-        "es": "puente"
+        "es": "puente",
+        "en": "bridge"
       },
       "type": "noun"
     },
@@ -206,7 +217,8 @@
       "word": "何回[なんかい]も",
       "kana": "なんかいも",
       "meaning": {
-        "es": "muchas veces"
+        "es": "muchas veces",
+        "en": "many times"
       },
       "type": "adverb"
     },
@@ -225,7 +237,8 @@
       "word": "聖徳太子[しょうとくたいし]",
       "kana": "しょうとくたいし",
       "meaning": {
-        "es": "Príncipe Shotoku (574–622)"
+        "es": "Príncipe Shotoku (574–622)",
+        "en": "Prince Shotoku (574–622)"
       },
       "type": "noun"
     },
@@ -234,7 +247,8 @@
       "word": "法隆寺[ほうりゅうじ]",
       "kana": "ほうりゅうじ",
       "meaning": {
-        "es": "templo Horyuji (Nara)"
+        "es": "templo Horyuji (Nara)",
+        "en": "Horyuji Temple (Nara)"
       },
       "type": "noun"
     }

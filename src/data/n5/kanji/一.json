@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["uno"]
+    "es": ["uno"],
+    "en": ["one"]
   },
   "onyomi": ["イチ", "イツ"],
   "kunyomi": ["ひと.つ"],
@@ -12,25 +13,29 @@
     {
       "word": "一[いち]",
       "meaning": {
-        "es": "uno"
+        "es": "uno",
+        "en": "one"
       }
     },
     {
       "word": "一[ひと]つ",
       "meaning": {
-        "es": "una cosa"
+        "es": "una cosa",
+        "en": "one thing"
       }
     },
     {
       "word": "一人[ひとり]",
       "meaning": {
-        "es": "una persona"
+        "es": "una persona",
+        "en": "one person"
       }
     },
     {
       "word": "一月[いちがつ]",
       "meaning": {
-        "es": "enero"
+        "es": "enero",
+        "en": "January"
       }
     },
     {

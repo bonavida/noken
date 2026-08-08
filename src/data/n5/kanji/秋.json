@@ -2,7 +2,8 @@
   "character": "秋",
   "level": "n5",
   "meanings": {
-    "es": ["otoño"]
+    "es": ["otoño"],
+    "en": ["autumn"]
   },
   "onyomi": ["シュウ"],
   "kunyomi": ["あき"],
@@ -11,31 +12,36 @@
     {
       "word": "秋[あき]",
       "meaning": {
-        "es": "otoño"
+        "es": "otoño",
+        "en": "autumn"
       }
     },
     {
       "word": "秋風[あきかぜ]",
       "meaning": {
-        "es": "viento de otoño"
+        "es": "viento de otoño",
+        "en": "autumn wind"
       }
     },
     {
       "word": "今秋[こんしゅう]",
       "meaning": {
-        "es": "este otoño"
+        "es": "este otoño",
+        "en": "this autumn"
       }
     },
     {
       "word": "秋分[しゅうぶん]",
       "meaning": {
-        "es": "equinoccio de otoño"
+        "es": "equinoccio de otoño",
+        "en": "autumn equinox"
       }
     },
     {
       "word": "晩秋[ばんしゅう]",
       "meaning": {
-        "es": "finales de otoño"
+        "es": "finales de otoño",
+        "en": "late autumn"
       }
     }
   ],

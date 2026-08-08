@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["nombre"]
+    "es": ["nombre"],
+    "en": ["name"]
   },
   "onyomi": ["メイ", "ミョウ"],
   "kunyomi": ["な"],
@@ -12,31 +13,36 @@
     {
       "word": "名前[なまえ]",
       "meaning": {
-        "es": "nombre"
+        "es": "nombre",
+        "en": "name"
       }
     },
     {
       "word": "有名[ゆうめい]",
       "meaning": {
-        "es": "famoso"
+        "es": "famoso",
+        "en": "famous"
       }
     },
     {
       "word": "名刺[めいし]",
       "meaning": {
-        "es": "tarjeta de visita"
+        "es": "tarjeta de visita",
+        "en": "business card"
       }
     },
     {
       "word": "仮名[かな]",
       "meaning": {
-        "es": "kana (silabarios japoneses)"
+        "es": "kana (silabarios japoneses)",
+        "en": "kana (Japanese syllabaries)"
       }
     },
     {
       "word": "指名[しめい]",
       "meaning": {
-        "es": "nombramiento"
+        "es": "nombramiento",
+        "en": "appointment, nomination"
       }
     }
   ],

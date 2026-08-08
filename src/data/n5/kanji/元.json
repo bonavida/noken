@@ -2,7 +2,8 @@
   "character": "元",
   "level": "n5",
   "meanings": {
-    "es": ["origen"]
+    "es": ["origen"],
+    "en": ["origin"]
   },
   "onyomi": ["ゲン"],
   "kunyomi": ["もと"],
@@ -11,19 +12,22 @@
     {
       "word": "元[もと]は",
       "meaning": {
-        "es": "originalmente"
+        "es": "originalmente",
+        "en": "originally"
       }
     },
     {
       "word": "地元[じもと]",
       "meaning": {
-        "es": "lugar de origen, localidad"
+        "es": "lugar de origen, localidad",
+        "en": "hometown, local area"
       }
     },
     {
       "word": "元気[げんき]",
       "meaning": {
-        "es": "saludable, vigoroso"
+        "es": "saludable, vigoroso",
+        "en": "healthy, energetic"
       }
     },
     {

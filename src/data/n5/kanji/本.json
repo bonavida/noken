@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["libro", "origen", "base"]
+    "es": ["libro", "origen", "base"],
+    "en": ["book", "origin", "base, foundation"]
   },
   "onyomi": ["ホン"],
   "kunyomi": ["もと"],
@@ -12,25 +13,29 @@
     {
       "word": "日本[にほん]",
       "meaning": {
-        "es": "Japón"
+        "es": "Japón",
+        "en": "Japan"
       }
     },
     {
       "word": "本[ほん]",
       "meaning": {
-        "es": "libro"
+        "es": "libro",
+        "en": "book"
       }
     },
     {
       "word": "本棚[ほんだな]",
       "meaning": {
-        "es": "estantería"
+        "es": "estantería",
+        "en": "bookshelf"
       }
     },
     {
       "word": "絵本[えほん]",
       "meaning": {
-        "es": "libro infantil ilustrado"
+        "es": "libro infantil ilustrado",
+        "en": "picture book"
       }
     },
     {
@@ -43,7 +48,8 @@
     {
       "word": "本当[ほんとう]",
       "meaning": {
-        "es": "verdadero"
+        "es": "verdadero",
+        "en": "true"
       }
     }
   ],

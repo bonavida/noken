@@ -7,7 +7,8 @@
       "word": "考[かんが]えます",
       "kana": "かんがえます",
       "meaning": {
-        "es": "pensar, considerar"
+        "es": "pensar, considerar",
+        "en": "to think, to consider"
       },
       "type": "verb-ichidan"
     },
@@ -16,7 +17,8 @@
       "word": "着[つ]きます",
       "kana": "つきます",
       "meaning": {
-        "es": "llegar"
+        "es": "llegar",
+        "en": "to arrive"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "取[と]ります[年[とし]を〜]",
       "kana": "としをとります",
       "meaning": {
-        "es": "envejecer"
+        "es": "envejecer",
+        "en": "to grow old"
       },
       "type": "verb-godan"
     },
@@ -34,7 +37,8 @@
       "word": "足[た]ります",
       "kana": "たります",
       "meaning": {
-        "es": "ser suficiente"
+        "es": "ser suficiente",
+        "en": "to be enough"
       },
       "type": "verb-ichidan"
     },
@@ -43,7 +47,8 @@
       "word": "田舎[いなか]",
       "kana": "いなか",
       "meaning": {
-        "es": "zona rural, pueblo natal"
+        "es": "zona rural, pueblo natal",
+        "en": "countryside, hometown"
       },
       "type": "noun"
     },
@@ -52,7 +57,8 @@
       "word": "チャンス",
       "kana": "チャンス",
       "meaning": {
-        "es": "oportunidad"
+        "es": "oportunidad",
+        "en": "opportunity"
       },
       "type": "noun"
     },
@@ -71,7 +77,8 @@
       "word": "もし[〜たら]",
       "kana": "もし",
       "meaning": {
-        "es": "si ~"
+        "es": "si ~",
+        "en": "if ~"
       },
       "type": "adverb"
     },
@@ -80,7 +87,8 @@
       "word": "意味[いみ]",
       "kana": "いみ",
       "meaning": {
-        "es": "significado, sentido"
+        "es": "significado, sentido",
+        "en": "meaning, sense"
       },
       "type": "noun"
     },
@@ -99,7 +107,8 @@
       "word": "転勤[てんきん]",
       "kana": "てんきん",
       "meaning": {
-        "es": "traslado (de trabajo)"
+        "es": "traslado (de trabajo)",
+        "en": "transfer (at work)"
       },
       "type": "noun"
     },
@@ -118,7 +127,8 @@
       "word": "暇[ひま]",
       "kana": "ひま",
       "meaning": {
-        "es": "tiempo libre"
+        "es": "tiempo libre",
+        "en": "free time"
       },
       "type": "noun"
     },
@@ -127,7 +137,8 @@
       "word": "[いろいろ]お 世話[せわ]になりました",
       "kana": "おせわになりました",
       "meaning": {
-        "es": "muchas gracias por todo"
+        "es": "muchas gracias por todo",
+        "en": "thank you for everything"
       },
       "type": "expression"
     },
@@ -136,7 +147,8 @@
       "word": "頑張[がんば]ります",
       "kana": "がんばります",
       "meaning": {
-        "es": "esforzarse, tener ánimo"
+        "es": "esforzarse, tener ánimo",
+        "en": "to do one's best"
       },
       "type": "verb-godan"
     },
@@ -145,7 +157,8 @@
       "word": "どうぞお 元気[げんき]で",
       "kana": "どうぞおげんきで",
       "meaning": {
-        "es": "que le vaya bien (despedida)"
+        "es": "que le vaya bien (despedida)",
+        "en": "take care (on parting)"
       },
       "type": "expression"
     },
@@ -154,7 +167,8 @@
       "word": "ベトナム",
       "kana": "ベトナム",
       "meaning": {
-        "es": "Vietnam"
+        "es": "Vietnam",
+        "en": "Vietnam"
       },
       "type": "noun"
     }

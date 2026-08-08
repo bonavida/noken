@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 5,
   "meanings": {
-    "es": ["estación"]
+    "es": ["estación"],
+    "en": ["station"]
   },
   "onyomi": ["エキ"],
   "kunyomi": [],
@@ -12,13 +13,15 @@
     {
       "word": "駅[えき]",
       "meaning": {
-        "es": "estación"
+        "es": "estación",
+        "en": "station"
       }
     },
     {
       "word": "東京駅[とうきょうえき]",
       "meaning": {
-        "es": "estación de Tokio"
+        "es": "estación de Tokio",
+        "en": "Tokyo Station"
       }
     }
   ]

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 10,
   "meanings": {
-    "es": ["hombre", "varón"]
+    "es": ["hombre", "varón"],
+    "en": ["man", "male"]
   },
   "onyomi": ["ダン", "ナン"],
   "kunyomi": ["おとこ"],
@@ -12,43 +13,50 @@
     {
       "word": "男[おとこ]",
       "meaning": {
-        "es": "hombre"
+        "es": "hombre",
+        "en": "man"
       }
     },
     {
       "word": "男[おとこ]の 人[ひと]",
       "meaning": {
-        "es": "hombre"
+        "es": "hombre",
+        "en": "man"
       }
     },
     {
       "word": "男[おとこ]の 子[こ]",
       "meaning": {
-        "es": "niño"
+        "es": "niño",
+        "en": "child"
       }
     },
     {
       "word": "男前[おとこまえ]",
       "meaning": {
-        "es": "hombre guapo"
+        "es": "hombre guapo",
+        "en": "handsome man"
       }
     },
     {
       "word": "男性[だんせい]",
       "meaning": {
-        "es": "hombre, masculino"
+        "es": "hombre, masculino",
+        "en": "man, male"
       }
     },
     {
       "word": "男女[だんじょ]",
       "meaning": {
-        "es": "hombre y mujer"
+        "es": "hombre y mujer",
+        "en": "man and woman"
       }
     },
     {
       "word": "長男[ちょうなん]",
       "meaning": {
-        "es": "hijo mayor"
+        "es": "hijo mayor",
+        "en": "eldest son"
       }
     }
   ]

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 6,
   "meanings": {
-    "es": ["pez", "pescado"]
+    "es": ["pez", "pescado"],
+    "en": ["fish"]
   },
   "onyomi": ["ギョ"],
   "kunyomi": ["さかな"],
@@ -12,7 +13,8 @@
     {
       "word": "魚[さかな]",
       "meaning": {
-        "es": "pescado"
+        "es": "pescado",
+        "en": "fish"
       }
     }
   ]

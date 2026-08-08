@@ -2,7 +2,8 @@
   "character": "鳥",
   "level": "n5",
   "meanings": {
-    "es": ["pájaro", "ave"]
+    "es": ["pájaro", "ave"],
+    "en": ["bird"]
   },
   "onyomi": ["チョウ"],
   "kunyomi": ["とり"],
@@ -11,13 +12,15 @@
     {
       "word": "鳥[とり]",
       "meaning": {
-        "es": "pájaro"
+        "es": "pájaro",
+        "en": "bird"
       }
     },
     {
       "word": "小鳥[ことり]",
       "meaning": {
-        "es": "pajarito"
+        "es": "pajarito",
+        "en": "little bird"
       }
     }
   ]

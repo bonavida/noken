@@ -2,7 +2,8 @@
   "character": "空",
   "level": "n5",
   "meanings": {
-    "es": ["cielo", "vacío", "aire"]
+    "es": ["cielo", "vacío", "aire"],
+    "en": ["sky", "empty", "air"]
   },
   "onyomi": ["クウ"],
   "kunyomi": ["そら", "から", "あ.く"],
@@ -18,13 +19,15 @@
     {
       "word": "空手[からて]",
       "meaning": {
-        "es": "kárate"
+        "es": "kárate",
+        "en": "karate"
       }
     },
     {
       "word": "空[あ]き 缶[かん]",
       "meaning": {
-        "es": "lata vacía"
+        "es": "lata vacía",
+        "en": "empty can"
       }
     },
     {

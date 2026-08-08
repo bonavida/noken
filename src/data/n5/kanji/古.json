@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["viejo", "antiguo"]
+    "es": ["viejo", "antiguo"],
+    "en": ["old", "old, ancient"]
   },
   "onyomi": ["コ"],
   "kunyomi": ["ふる.い"],
@@ -12,7 +13,8 @@
     {
       "word": "古[ふる]い",
       "meaning": {
-        "es": "viejo"
+        "es": "viejo",
+        "en": "old"
       }
     },
     {
@@ -25,13 +27,15 @@
     {
       "word": "古本[ふるほん]",
       "meaning": {
-        "es": "libro de segunda mano"
+        "es": "libro de segunda mano",
+        "en": "second-hand book"
       }
     },
     {
       "word": "古風[こふう]",
       "meaning": {
-        "es": "estilo antiguo"
+        "es": "estilo antiguo",
+        "en": "old-fashioned style"
       }
     },
     {

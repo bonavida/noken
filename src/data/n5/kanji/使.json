@@ -2,7 +2,8 @@
   "character": "使",
   "level": "n5",
   "meanings": {
-    "es": ["utilizar", "enviar"]
+    "es": ["utilizar", "enviar"],
+    "en": ["to use", "to send"]
   },
   "onyomi": ["シ"],
   "kunyomi": ["つか.う"],
@@ -11,19 +12,22 @@
     {
       "word": "使[つか]う",
       "meaning": {
-        "es": "utilizar"
+        "es": "utilizar",
+        "en": "to use"
       }
     },
     {
       "word": "使用[しよう]",
       "meaning": {
-        "es": "uso"
+        "es": "uso",
+        "en": "use"
       }
     },
     {
       "word": "行使[こうし]",
       "meaning": {
-        "es": "empleo, ejercicio"
+        "es": "empleo, ejercicio",
+        "en": "use, exercise"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "使者[ししゃ]",
       "meaning": {
-        "es": "emisario"
+        "es": "emisario",
+        "en": "envoy"
       }
     }
   ],

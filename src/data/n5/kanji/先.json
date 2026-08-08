@@ -13,13 +13,15 @@
     {
       "word": "先生[せんせい]",
       "meaning": {
-        "es": "profesor"
+        "es": "profesor",
+        "en": "teacher"
       }
     },
     {
       "word": "先週[せんしゅう]",
       "meaning": {
-        "es": "la semana pasada"
+        "es": "la semana pasada",
+        "en": "last week"
       }
     },
     {
@@ -32,13 +34,15 @@
     {
       "word": "指先[ゆびさき]",
       "meaning": {
-        "es": "punta de los dedos"
+        "es": "punta de los dedos",
+        "en": "fingertips"
       }
     },
     {
       "word": "先月[せんげつ]",
       "meaning": {
-        "es": "el mes pasado"
+        "es": "el mes pasado",
+        "en": "last month"
       }
     },
     {

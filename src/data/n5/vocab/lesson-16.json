@@ -7,7 +7,8 @@
       "word": "乗[の]ります[電車[でんしゃ]に〜]",
       "kana": "のります",
       "meaning": {
-        "es": "subir [al tren]"
+        "es": "subir [al tren]",
+        "en": "to get on [the train]"
       },
       "type": "verb-godan"
     },
@@ -26,7 +27,8 @@
       "word": "乗[の]り 換[か]えます",
       "kana": "のりかえます",
       "meaning": {
-        "es": "hacer transbordo"
+        "es": "hacer transbordo",
+        "en": "to change (trains)"
       },
       "type": "verb-ichidan"
     },
@@ -35,7 +37,8 @@
       "word": "浴[あ]びます[シャワーを〜]",
       "kana": "あびます",
       "meaning": {
-        "es": "tomar [una ducha]"
+        "es": "tomar [una ducha]",
+        "en": "to have [a shower]"
       },
       "type": "verb-ichidan"
     },
@@ -44,7 +47,8 @@
       "word": "入[い]れます",
       "kana": "いれます",
       "meaning": {
-        "es": "meter, introducir"
+        "es": "meter, introducir",
+        "en": "to put in, to insert"
       },
       "type": "verb-ichidan"
     },
@@ -53,7 +57,8 @@
       "word": "出[だ]します",
       "kana": "だします",
       "meaning": {
-        "es": "sacar, entregar, enviar"
+        "es": "sacar, entregar, enviar",
+        "en": "to take out, to hand in, to send"
       },
       "type": "verb-godan"
     },
@@ -62,7 +67,8 @@
       "word": "下[お]ろします[お 金[かね]を〜]",
       "kana": "おろします",
       "meaning": {
-        "es": "retirar [dinero del banco]"
+        "es": "retirar [dinero del banco]",
+        "en": "to withdraw [money from the bank]"
       },
       "type": "verb-godan"
     },
@@ -71,7 +77,8 @@
       "word": "入[はい]ります[大学[だいがく]に〜]",
       "kana": "はいります",
       "meaning": {
-        "es": "ingresar [en la universidad]"
+        "es": "ingresar [en la universidad]",
+        "en": "to enter [university]"
       },
       "type": "verb-godan"
     },
@@ -80,7 +87,8 @@
       "word": "出[で]ます[大学[だいがく]を〜]",
       "kana": "でます",
       "meaning": {
-        "es": "graduarse [de la universidad]"
+        "es": "graduarse [de la universidad]",
+        "en": "to graduate [from university]"
       },
       "type": "verb-ichidan"
     },
@@ -89,7 +97,8 @@
       "word": "押[お]します",
       "kana": "おします",
       "meaning": {
-        "es": "presionar, empujar"
+        "es": "presionar, empujar",
+        "en": "to press, to push"
       },
       "type": "verb-godan"
     },
@@ -108,7 +117,8 @@
       "word": "始[はじ]めます",
       "kana": "はじめます",
       "meaning": {
-        "es": "empezar, iniciar"
+        "es": "empezar, iniciar",
+        "en": "to begin, to start"
       },
       "type": "verb-ichidan"
     },
@@ -117,7 +127,8 @@
       "word": "見学[けんがく]します",
       "kana": "けんがくします",
       "meaning": {
-        "es": "visitar (para aprender)"
+        "es": "visitar (para aprender)",
+        "en": "to visit (to learn)"
       },
       "type": "verb-irregular"
     },
@@ -126,7 +137,8 @@
       "word": "電話[でんわ]します",
       "kana": "でんわします",
       "meaning": {
-        "es": "llamar por teléfono"
+        "es": "llamar por teléfono",
+        "en": "to phone"
       },
       "type": "verb-irregular"
     },
@@ -135,7 +147,8 @@
       "word": "若[わか]い",
       "kana": "わかい",
       "meaning": {
-        "es": "joven"
+        "es": "joven",
+        "en": "young"
       },
       "type": "adjective-i"
     },
@@ -144,7 +157,8 @@
       "word": "長[なが]い",
       "kana": "ながい",
       "meaning": {
-        "es": "largo"
+        "es": "largo",
+        "en": "long"
       },
       "type": "adjective-i"
     },
@@ -173,7 +187,8 @@
       "word": "暗[くら]い",
       "kana": "くらい",
       "meaning": {
-        "es": "oscuro"
+        "es": "oscuro",
+        "en": "dark"
       },
       "type": "adjective-i"
     },
@@ -222,7 +237,8 @@
       "word": "目[め]",
       "kana": "め",
       "meaning": {
-        "es": "ojo(s)"
+        "es": "ojo(s)",
+        "en": "eye(s)"
       },
       "type": "noun"
     },
@@ -231,7 +247,8 @@
       "word": "耳[みみ]",
       "kana": "みみ",
       "meaning": {
-        "es": "oreja(s)"
+        "es": "oreja(s)",
+        "en": "ear(s)"
       },
       "type": "noun"
     },
@@ -240,7 +257,8 @@
       "word": "鼻[はな]",
       "kana": "はな",
       "meaning": {
-        "es": "nariz"
+        "es": "nariz",
+        "en": "nose"
       },
       "type": "noun"
     },
@@ -269,7 +287,8 @@
       "word": "おなか",
       "kana": "おなか",
       "meaning": {
-        "es": "estómago"
+        "es": "estómago",
+        "en": "stomach"
       },
       "type": "noun"
     },
@@ -278,7 +297,8 @@
       "word": "足[あし]",
       "kana": "あし",
       "meaning": {
-        "es": "pierna(s), pie(s)"
+        "es": "pierna(s), pie(s)",
+        "en": "leg(s), foot (feet)"
       },
       "type": "noun"
     },
@@ -287,7 +307,8 @@
       "word": "背[せ]",
       "kana": "せ",
       "meaning": {
-        "es": "estatura"
+        "es": "estatura",
+        "en": "height"
       },
       "type": "noun"
     },
@@ -296,7 +317,8 @@
       "word": "サービス",
       "kana": "サービス",
       "meaning": {
-        "es": "servicio"
+        "es": "servicio",
+        "en": "service"
       },
       "type": "noun"
     },
@@ -305,7 +327,8 @@
       "word": "ジョギング",
       "kana": "ジョギング",
       "meaning": {
-        "es": "jogging"
+        "es": "jogging",
+        "en": "jogging"
       },
       "type": "noun"
     },
@@ -324,7 +347,8 @@
       "word": "緑[みどり]",
       "kana": "みどり",
       "meaning": {
-        "es": "verde, zona verde"
+        "es": "verde, zona verde",
+        "en": "green, green space"
       },
       "type": "noun"
     },
@@ -333,7 +357,8 @@
       "word": "[お]寺[てら]",
       "kana": "おてら",
       "meaning": {
-        "es": "templo budista"
+        "es": "templo budista",
+        "en": "Buddhist temple"
       },
       "type": "noun"
     },
@@ -342,7 +367,8 @@
       "word": "神社[じんじゃ]",
       "kana": "じんじゃ",
       "meaning": {
-        "es": "santuario sintoísta"
+        "es": "santuario sintoísta",
+        "en": "Shinto shrine"
       },
       "type": "noun"
     },
@@ -351,7 +377,8 @@
       "word": "〜番[ばん]",
       "kana": "ばん",
       "meaning": {
-        "es": "número ~"
+        "es": "número ~",
+        "en": "number ~"
       },
       "type": "counter"
     },
@@ -400,7 +427,8 @@
       "word": "[いいえ、]まだまだです",
       "kana": "まだまだです",
       "meaning": {
-        "es": "todavía me falta mucho"
+        "es": "todavía me falta mucho",
+        "en": "I still have a long way to go"
       },
       "type": "expression"
     },
@@ -419,7 +447,8 @@
       "word": "まず",
       "kana": "まず",
       "meaning": {
-        "es": "primero"
+        "es": "primero",
+        "en": "first"
       },
       "type": "adverb"
     },
@@ -438,7 +467,8 @@
       "word": "キャッシュカード",
       "kana": "キャッシュカード",
       "meaning": {
-        "es": "tarjeta bancaria"
+        "es": "tarjeta bancaria",
+        "en": "bank card"
       },
       "type": "noun"
     },
@@ -457,7 +487,8 @@
       "word": "金額[きんがく]",
       "kana": "きんがく",
       "meaning": {
-        "es": "importe, suma de dinero"
+        "es": "importe, suma de dinero",
+        "en": "amount, sum of money"
       },
       "type": "noun"
     },
@@ -486,7 +517,8 @@
       "word": "雪祭[ゆきまつ]り",
       "kana": "ゆきまつり",
       "meaning": {
-        "es": "Festival de Nieve (Sapporo)"
+        "es": "Festival de Nieve (Sapporo)",
+        "en": "Snow Festival (Sapporo)"
       },
       "type": "noun"
     }

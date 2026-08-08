@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["tres"]
+    "es": ["tres"],
+    "en": ["three"]
   },
   "onyomi": ["サン"],
   "kunyomi": ["み.つ", "みっ.つ"],
@@ -12,31 +13,36 @@
     {
       "word": "三[さん]",
       "meaning": {
-        "es": "tres"
+        "es": "tres",
+        "en": "three"
       }
     },
     {
       "word": "三[みっ]つ",
       "meaning": {
-        "es": "tres cosas"
+        "es": "tres cosas",
+        "en": "three things"
       }
     },
     {
       "word": "三人[さんにん]",
       "meaning": {
-        "es": "tres personas"
+        "es": "tres personas",
+        "en": "three people"
       }
     },
     {
       "word": "三月[さんがつ]",
       "meaning": {
-        "es": "marzo"
+        "es": "marzo",
+        "en": "March"
       }
     },
     {
       "word": "三脚[さんきゃく]",
       "meaning": {
-        "es": "trípode"
+        "es": "trípode",
+        "en": "tripod"
       }
     },
     {

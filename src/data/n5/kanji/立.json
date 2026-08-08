@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 14,
   "meanings": {
-    "es": ["ponerse de pie", "estar de pie", "establecer"]
+    "es": ["ponerse de pie", "estar de pie", "establecer"],
+    "en": ["to stand up", "to stand", "to establish"]
   },
   "onyomi": ["リツ"],
   "kunyomi": ["た.つ"],
@@ -12,19 +13,22 @@
     {
       "word": "立[た]ちます",
       "meaning": {
-        "es": "ponerse de pie"
+        "es": "ponerse de pie",
+        "en": "to stand up"
       }
     },
     {
       "word": "役[やく]に 立[た]ちます",
       "meaning": {
-        "es": "ser útil"
+        "es": "ser útil",
+        "en": "to be useful"
       }
     },
     {
       "word": "立[た]つ",
       "meaning": {
-        "es": "estar de pie"
+        "es": "estar de pie",
+        "en": "to stand"
       }
     },
     {
@@ -37,19 +41,22 @@
     {
       "word": "独立[どくりつ]",
       "meaning": {
-        "es": "independencia"
+        "es": "independencia",
+        "en": "independence"
       }
     },
     {
       "word": "市立[しりつ]",
       "meaning": {
-        "es": "municipal"
+        "es": "municipal",
+        "en": "municipal"
       }
     },
     {
       "word": "立派[りっぱ]",
       "meaning": {
-        "es": "excelente, espléndido"
+        "es": "excelente, espléndido",
+        "en": "excellent, splendid"
       }
     }
   ]

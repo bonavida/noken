@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["árbol", "madera"]
+    "es": ["árbol", "madera"],
+    "en": ["tree", "wood"]
   },
   "onyomi": ["モク", "ボク"],
   "kunyomi": ["き"],
@@ -12,7 +13,8 @@
     {
       "word": "木曜日[もくようび]",
       "meaning": {
-        "es": "jueves"
+        "es": "jueves",
+        "en": "Thursday"
       }
     },
     {
@@ -25,13 +27,15 @@
     {
       "word": "植木[うえき]",
       "meaning": {
-        "es": "planta en maceta"
+        "es": "planta en maceta",
+        "en": "potted plant"
       }
     },
     {
       "word": "木材[もくざい]",
       "meaning": {
-        "es": "madera"
+        "es": "madera",
+        "en": "wood"
       }
     },
     {

@@ -20,31 +20,36 @@
     {
       "word": "今日[きょう]",
       "meaning": {
-        "es": "hoy"
+        "es": "hoy",
+        "en": "today"
       }
     },
     {
       "word": "今月[こんげつ]",
       "meaning": {
-        "es": "este mes"
+        "es": "este mes",
+        "en": "this month"
       }
     },
     {
       "word": "今頃[いまごろ]",
       "meaning": {
-        "es": "en estos momentos"
+        "es": "en estos momentos",
+        "en": "at the moment"
       }
     },
     {
       "word": "今週[こんしゅう]",
       "meaning": {
-        "es": "esta semana"
+        "es": "esta semana",
+        "en": "this week"
       }
     },
     {
       "word": "今回[こんかい]",
       "meaning": {
-        "es": "esta vez"
+        "es": "esta vez",
+        "en": "this time"
       }
     }
   ],

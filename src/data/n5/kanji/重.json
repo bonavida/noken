@@ -2,7 +2,8 @@
   "character": "重",
   "level": "n5",
   "meanings": {
-    "es": ["pesado", "duplicar"]
+    "es": ["pesado", "duplicar"],
+    "en": ["heavy", "to double"]
   },
   "onyomi": ["ジュウ", "チョウ"],
   "kunyomi": ["おも.い"],
@@ -11,31 +12,36 @@
     {
       "word": "重[おも]い",
       "meaning": {
-        "es": "pesado"
+        "es": "pesado",
+        "en": "heavy"
       }
     },
     {
       "word": "重量[じゅうりょう]",
       "meaning": {
-        "es": "peso"
+        "es": "peso",
+        "en": "weight"
       }
     },
     {
       "word": "重傷[じゅうしょう]",
       "meaning": {
-        "es": "herida grave"
+        "es": "herida grave",
+        "en": "serious injury"
       }
     },
     {
       "word": "重要[じゅうよう]",
       "meaning": {
-        "es": "importante"
+        "es": "importante",
+        "en": "important"
       }
     },
     {
       "word": "貴重[きちょう]",
       "meaning": {
-        "es": "valioso, precioso"
+        "es": "valioso, precioso",
+        "en": "valuable, precious"
       }
     }
   ],

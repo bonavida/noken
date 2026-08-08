@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["luna", "mes"]
+    "es": ["luna", "mes"],
+    "en": ["moon", "month"]
   },
   "onyomi": ["ゲツ", "ガツ"],
   "kunyomi": ["つき"],
@@ -12,31 +13,36 @@
     {
       "word": "月曜日[げつようび]",
       "meaning": {
-        "es": "lunes"
+        "es": "lunes",
+        "en": "Monday"
       }
     },
     {
       "word": "一月[いちがつ]",
       "meaning": {
-        "es": "enero"
+        "es": "enero",
+        "en": "January"
       }
     },
     {
       "word": "月[つき]",
       "meaning": {
-        "es": "luna"
+        "es": "luna",
+        "en": "moon"
       }
     },
     {
       "word": "満月[まんげつ]",
       "meaning": {
-        "es": "luna llena"
+        "es": "luna llena",
+        "en": "full moon"
       }
     },
     {
       "word": "月給[げっきゅう]",
       "meaning": {
-        "es": "paga mensual"
+        "es": "paga mensual",
+        "en": "monthly pay"
       }
     },
     {

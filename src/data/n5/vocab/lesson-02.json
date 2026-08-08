@@ -7,7 +7,8 @@
       "word": "これ",
       "kana": "これ",
       "meaning": {
-        "es": "esto (cerca del hablante)"
+        "es": "esto (cerca del hablante)",
+        "en": "this (near the speaker)"
       },
       "type": "pronoun"
     },
@@ -16,7 +17,8 @@
       "word": "それ",
       "kana": "それ",
       "meaning": {
-        "es": "eso (cerca del oyente)"
+        "es": "eso (cerca del oyente)",
+        "en": "that (near the listener)"
       },
       "type": "pronoun"
     },
@@ -35,7 +37,8 @@
       "word": "この〜",
       "kana": "この",
       "meaning": {
-        "es": "este ~, esta ~"
+        "es": "este ~, esta ~",
+        "en": "this ~"
       },
       "type": "expression"
     },
@@ -44,7 +47,8 @@
       "word": "その〜",
       "kana": "その",
       "meaning": {
-        "es": "ese ~, esa ~"
+        "es": "ese ~, esa ~",
+        "en": "that ~"
       },
       "type": "expression"
     },
@@ -63,7 +67,8 @@
       "word": "本[ほん]",
       "kana": "ほん",
       "meaning": {
-        "es": "libro"
+        "es": "libro",
+        "en": "book"
       },
       "type": "noun"
     },
@@ -82,7 +87,8 @@
       "word": "雑誌[ざっし]",
       "kana": "ざっし",
       "meaning": {
-        "es": "revista"
+        "es": "revista",
+        "en": "magazine"
       },
       "type": "noun"
     },
@@ -91,7 +97,8 @@
       "word": "新聞[しんぶん]",
       "kana": "しんぶん",
       "meaning": {
-        "es": "periódico"
+        "es": "periódico",
+        "en": "newspaper"
       },
       "type": "noun"
     },
@@ -120,7 +127,8 @@
       "word": "名刺[めいし]",
       "kana": "めいし",
       "meaning": {
-        "es": "tarjeta de visita"
+        "es": "tarjeta de visita",
+        "en": "business card"
       },
       "type": "noun"
     },
@@ -129,7 +137,8 @@
       "word": "カード",
       "kana": "カード",
       "meaning": {
-        "es": "tarjeta"
+        "es": "tarjeta",
+        "en": "card"
       },
       "type": "noun"
     },
@@ -138,7 +147,8 @@
       "word": "鉛筆[えんぴつ]",
       "kana": "えんぴつ",
       "meaning": {
-        "es": "lápiz"
+        "es": "lápiz",
+        "en": "pencil"
       },
       "type": "noun"
     },
@@ -157,7 +167,8 @@
       "word": "シャープペンシル",
       "kana": "シャープペンシル",
       "meaning": {
-        "es": "portaminas, lapicero"
+        "es": "portaminas, lapicero",
+        "en": "mechanical pencil"
       },
       "type": "noun"
     },
@@ -166,7 +177,8 @@
       "word": "かぎ",
       "kana": "かぎ",
       "meaning": {
-        "es": "llave"
+        "es": "llave",
+        "en": "key"
       },
       "type": "noun"
     },
@@ -175,7 +187,8 @@
       "word": "時計[とけい]",
       "kana": "とけい",
       "meaning": {
-        "es": "reloj"
+        "es": "reloj",
+        "en": "clock, watch"
       },
       "type": "noun"
     },
@@ -184,7 +197,8 @@
       "word": "傘[かさ]",
       "kana": "かさ",
       "meaning": {
-        "es": "paraguas"
+        "es": "paraguas",
+        "en": "umbrella"
       },
       "type": "noun"
     },
@@ -213,7 +227,8 @@
       "word": "テレビ",
       "kana": "テレビ",
       "meaning": {
-        "es": "televisión, televisor"
+        "es": "televisión, televisor",
+        "en": "television"
       },
       "type": "noun"
     },
@@ -222,7 +237,8 @@
       "word": "ラジオ",
       "kana": "ラジオ",
       "meaning": {
-        "es": "radio"
+        "es": "radio",
+        "en": "radio"
       },
       "type": "noun"
     },
@@ -241,7 +257,8 @@
       "word": "コンピューター",
       "kana": "コンピューター",
       "meaning": {
-        "es": "ordenador, computadora"
+        "es": "ordenador, computadora",
+        "en": "computer"
       },
       "type": "noun"
     },
@@ -260,7 +277,8 @@
       "word": "机[つくえ]",
       "kana": "つくえ",
       "meaning": {
-        "es": "escritorio"
+        "es": "escritorio",
+        "en": "desk"
       },
       "type": "noun"
     },
@@ -269,7 +287,8 @@
       "word": "いす",
       "kana": "いす",
       "meaning": {
-        "es": "silla"
+        "es": "silla",
+        "en": "chair"
       },
       "type": "noun"
     },
@@ -298,7 +317,8 @@
       "word": "[お]土産[みやげ]",
       "kana": "おみやげ",
       "meaning": {
-        "es": "recuerdo de un viaje, regalo"
+        "es": "recuerdo de un viaje, regalo",
+        "en": "souvenir, gift"
       },
       "type": "noun"
     },
@@ -307,7 +327,8 @@
       "word": "英語[えいご]",
       "kana": "えいご",
       "meaning": {
-        "es": "el idioma inglés"
+        "es": "el idioma inglés",
+        "en": "the English language"
       },
       "type": "noun"
     },
@@ -316,7 +337,8 @@
       "word": "日本語[にほんご]",
       "kana": "にほんご",
       "meaning": {
-        "es": "el idioma japonés"
+        "es": "el idioma japonés",
+        "en": "the Japanese language"
       },
       "type": "noun"
     },
@@ -325,7 +347,8 @@
       "word": "〜語[ご]",
       "kana": "ご",
       "meaning": {
-        "es": "idioma ~"
+        "es": "idioma ~",
+        "en": "~ language"
       },
       "type": "expression"
     },
@@ -334,7 +357,8 @@
       "word": "何[なん]",
       "kana": "なん",
       "meaning": {
-        "es": "qué"
+        "es": "qué",
+        "en": "what"
       },
       "type": "interrogative"
     },
@@ -343,7 +367,8 @@
       "word": "そう",
       "kana": "そう",
       "meaning": {
-        "es": "sí, eso"
+        "es": "sí, eso",
+        "en": "yes, that's right"
       },
       "type": "expression"
     },
@@ -372,7 +397,8 @@
       "word": "どうぞ",
       "kana": "どうぞ",
       "meaning": {
-        "es": "tome, aquí tiene"
+        "es": "tome, aquí tiene",
+        "en": "here you are"
       },
       "type": "expression"
     },
@@ -401,7 +427,8 @@
       "word": "違[ちが]います",
       "kana": "ちがいます",
       "meaning": {
-        "es": "no, no es así"
+        "es": "no, no es así",
+        "en": "no, that's not right"
       },
       "type": "expression"
     },
@@ -410,7 +437,8 @@
       "word": "これからお 世話[せわ]になります",
       "kana": "これからおせわになります",
       "meaning": {
-        "es": "le agradezco de antemano su apoyo"
+        "es": "le agradezco de antemano su apoyo",
+        "en": "I look forward to working with you"
       },
       "type": "expression"
     },
@@ -419,7 +447,8 @@
       "word": "こちらこそ[どうぞ]よろしく",
       "kana": "こちらこそよろしく",
       "meaning": {
-        "es": "yo también estoy encantado de conocerlo"
+        "es": "yo también estoy encantado de conocerlo",
+        "en": "pleased to meet you too"
       },
       "type": "expression"
     }

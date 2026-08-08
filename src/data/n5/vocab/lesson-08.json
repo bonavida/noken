@@ -7,7 +7,8 @@
       "word": "ハンサム[な]",
       "kana": "ハンサム",
       "meaning": {
-        "es": "guapo"
+        "es": "guapo",
+        "en": "handsome"
       },
       "type": "adjective-na"
     },
@@ -16,7 +17,8 @@
       "word": "きれい[な]",
       "kana": "きれい",
       "meaning": {
-        "es": "hermoso, limpio"
+        "es": "hermoso, limpio",
+        "en": "beautiful, clean"
       },
       "type": "adjective-na"
     },
@@ -25,7 +27,8 @@
       "word": "静[しず]か[な]",
       "kana": "しずか",
       "meaning": {
-        "es": "silencioso"
+        "es": "silencioso",
+        "en": "quiet"
       },
       "type": "adjective-na"
     },
@@ -44,7 +47,8 @@
       "word": "有名[ゆうめい][な]",
       "kana": "ゆうめい",
       "meaning": {
-        "es": "famoso, célebre"
+        "es": "famoso, célebre",
+        "en": "famous, well known"
       },
       "type": "adjective-na"
     },
@@ -63,7 +67,8 @@
       "word": "元気[げんき][な]",
       "kana": "げんき",
       "meaning": {
-        "es": "sano, con ánimo"
+        "es": "sano, con ánimo",
+        "en": "healthy, in good spirits"
       },
       "type": "adjective-na"
     },
@@ -72,7 +77,8 @@
       "word": "暇[ひま][な]",
       "kana": "ひま",
       "meaning": {
-        "es": "libre (tiempo)"
+        "es": "libre (tiempo)",
+        "en": "free (time)"
       },
       "type": "adjective-na"
     },
@@ -81,7 +87,8 @@
       "word": "便利[べんり][な]",
       "kana": "べんり",
       "meaning": {
-        "es": "útil, práctico"
+        "es": "útil, práctico",
+        "en": "useful, handy"
       },
       "type": "adjective-na"
     },
@@ -100,7 +107,8 @@
       "word": "大[おお]きい",
       "kana": "おおきい",
       "meaning": {
-        "es": "grande"
+        "es": "grande",
+        "en": "big"
       },
       "type": "adjective-i"
     },
@@ -109,7 +117,8 @@
       "word": "小[ちい]さい",
       "kana": "ちいさい",
       "meaning": {
-        "es": "pequeño"
+        "es": "pequeño",
+        "en": "small"
       },
       "type": "adjective-i"
     },
@@ -118,7 +127,8 @@
       "word": "新[あたら]しい",
       "kana": "あたらしい",
       "meaning": {
-        "es": "nuevo"
+        "es": "nuevo",
+        "en": "new"
       },
       "type": "adjective-i"
     },
@@ -127,7 +137,8 @@
       "word": "古[ふる]い",
       "kana": "ふるい",
       "meaning": {
-        "es": "viejo, antiguo (no para personas)"
+        "es": "viejo, antiguo (no para personas)",
+        "en": "old (not for people)"
       },
       "type": "adjective-i"
     },
@@ -146,7 +157,8 @@
       "word": "悪[わる]い",
       "kana": "わるい",
       "meaning": {
-        "es": "malo"
+        "es": "malo",
+        "en": "bad"
       },
       "type": "adjective-i"
     },
@@ -165,7 +177,8 @@
       "word": "寒[さむ]い",
       "kana": "さむい",
       "meaning": {
-        "es": "frío (clima)"
+        "es": "frío (clima)",
+        "en": "cold (weather)"
       },
       "type": "adjective-i"
     },
@@ -174,7 +187,8 @@
       "word": "冷[つめ]たい",
       "kana": "つめたい",
       "meaning": {
-        "es": "frío (al tacto)"
+        "es": "frío (al tacto)",
+        "en": "cold (to the touch)"
       },
       "type": "adjective-i"
     },
@@ -193,7 +207,8 @@
       "word": "易[やさ]しい",
       "kana": "やさしい",
       "meaning": {
-        "es": "fácil"
+        "es": "fácil",
+        "en": "easy"
       },
       "type": "adjective-i"
     },
@@ -232,7 +247,8 @@
       "word": "おもしろい",
       "kana": "おもしろい",
       "meaning": {
-        "es": "interesante"
+        "es": "interesante",
+        "en": "interesting"
       },
       "type": "adjective-i"
     },
@@ -281,7 +297,8 @@
       "word": "黒[くろ]い",
       "kana": "くろい",
       "meaning": {
-        "es": "negro"
+        "es": "negro",
+        "en": "black"
       },
       "type": "adjective-i"
     },
@@ -290,7 +307,8 @@
       "word": "赤[あか]い",
       "kana": "あかい",
       "meaning": {
-        "es": "rojo"
+        "es": "rojo",
+        "en": "red"
       },
       "type": "adjective-i"
     },
@@ -319,7 +337,8 @@
       "word": "山[やま]",
       "kana": "やま",
       "meaning": {
-        "es": "montaña, monte"
+        "es": "montaña, monte",
+        "en": "mountain"
       },
       "type": "noun"
     },
@@ -328,7 +347,8 @@
       "word": "町[まち]",
       "kana": "まち",
       "meaning": {
-        "es": "población, ciudad"
+        "es": "población, ciudad",
+        "en": "town, city"
       },
       "type": "noun"
     },
@@ -347,7 +367,8 @@
       "word": "所[ところ]",
       "kana": "ところ",
       "meaning": {
-        "es": "lugar"
+        "es": "lugar",
+        "en": "place"
       },
       "type": "noun"
     },
@@ -356,7 +377,8 @@
       "word": "寮[りょう]",
       "kana": "りょう",
       "meaning": {
-        "es": "residencia, dormitorio"
+        "es": "residencia, dormitorio",
+        "en": "dormitory"
       },
       "type": "noun"
     },
@@ -365,7 +387,8 @@
       "word": "レストラン",
       "kana": "レストラン",
       "meaning": {
-        "es": "restaurante"
+        "es": "restaurante",
+        "en": "restaurant"
       },
       "type": "noun"
     },
@@ -374,7 +397,8 @@
       "word": "生活[せいかつ]",
       "kana": "せいかつ",
       "meaning": {
-        "es": "vida (diaria)"
+        "es": "vida (diaria)",
+        "en": "(daily) life"
       },
       "type": "noun"
     },
@@ -383,7 +407,8 @@
       "word": "[お]仕事[しごと]",
       "kana": "おしごと",
       "meaning": {
-        "es": "trabajo, profesión"
+        "es": "trabajo, profesión",
+        "en": "work, profession"
       },
       "type": "noun"
     },
@@ -402,7 +427,8 @@
       "word": "どんな〜",
       "kana": "どんな",
       "meaning": {
-        "es": "qué clase de ~"
+        "es": "qué clase de ~",
+        "en": "what kind of ~"
       },
       "type": "interrogative"
     },
@@ -411,7 +437,8 @@
       "word": "とても",
       "kana": "とても",
       "meaning": {
-        "es": "muy, mucho"
+        "es": "muy, mucho",
+        "en": "very, a lot"
       },
       "type": "adverb"
     },
@@ -420,7 +447,8 @@
       "word": "あまり",
       "kana": "あまり",
       "meaning": {
-        "es": "no muy (con negación)"
+        "es": "no muy (con negación)",
+        "en": "not very (with a negative)"
       },
       "type": "adverb"
     },
@@ -429,7 +457,8 @@
       "word": "そして",
       "kana": "そして",
       "meaning": {
-        "es": "y (conecta oraciones)"
+        "es": "y (conecta oraciones)",
+        "en": "and (joins sentences)"
       },
       "type": "conjunction"
     },
@@ -468,7 +497,8 @@
       "word": "[いいえ、]けっこうです",
       "kana": "けっこうです",
       "meaning": {
-        "es": "no, gracias"
+        "es": "no, gracias",
+        "en": "no, thank you"
       },
       "type": "expression"
     },
@@ -477,7 +507,8 @@
       "word": "そろそろ 失礼[しつれい]します",
       "kana": "そろそろしつれいします",
       "meaning": {
-        "es": "es hora de marcharnos"
+        "es": "es hora de marcharnos",
+        "en": "it's time to go"
       },
       "type": "expression"
     },
@@ -496,7 +527,8 @@
       "word": "またいらっしゃってください",
       "kana": "またいらっしゃってください",
       "meaning": {
-        "es": "vuelva(n) a visitarnos"
+        "es": "vuelva(n) a visitarnos",
+        "en": "please come again"
       },
       "type": "expression"
     }

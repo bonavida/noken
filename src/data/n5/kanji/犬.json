@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 10,
   "meanings": {
-    "es": ["perro"]
+    "es": ["perro"],
+    "en": ["dog"]
   },
   "onyomi": ["ケン"],
   "kunyomi": ["いぬ"],
@@ -12,7 +13,8 @@
     {
       "word": "犬[いぬ]",
       "meaning": {
-        "es": "perro"
+        "es": "perro",
+        "en": "dog"
       }
     },
     {

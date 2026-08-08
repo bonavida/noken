@@ -2,7 +2,8 @@
   "character": "終",
   "level": "n5",
   "meanings": {
-    "es": ["terminar"]
+    "es": ["terminar"],
+    "en": ["to finish"]
   },
   "onyomi": ["シュウ"],
   "kunyomi": ["お.わる"],
@@ -11,7 +12,8 @@
     {
       "word": "終[お]わる",
       "meaning": {
-        "es": "terminar"
+        "es": "terminar",
+        "en": "to finish"
       }
     },
     {
@@ -24,13 +26,15 @@
     {
       "word": "終了[しゅうりょう]",
       "meaning": {
-        "es": "finalización"
+        "es": "finalización",
+        "en": "completion"
       }
     },
     {
       "word": "終点[しゅうてん]",
       "meaning": {
-        "es": "final de trayecto"
+        "es": "final de trayecto",
+        "en": "last stop, terminus"
       }
     },
     {

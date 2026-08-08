@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["montaña"]
+    "es": ["montaña"],
+    "en": ["mountain"]
   },
   "onyomi": ["サン"],
   "kunyomi": ["やま"],
@@ -12,13 +13,15 @@
     {
       "word": "山[やま]",
       "meaning": {
-        "es": "montaña"
+        "es": "montaña",
+        "en": "mountain"
       }
     },
     {
       "word": "富士山[ふじさん]",
       "meaning": {
-        "es": "monte Fuji"
+        "es": "monte Fuji",
+        "en": "Mount Fuji"
       }
     },
     {
@@ -31,7 +34,8 @@
     {
       "word": "火山[かざん]",
       "meaning": {
-        "es": "volcán"
+        "es": "volcán",
+        "en": "volcano"
       }
     },
     {

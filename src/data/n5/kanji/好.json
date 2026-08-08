@@ -2,7 +2,8 @@
   "character": "好",
   "level": "n5",
   "meanings": {
-    "es": ["gustar"]
+    "es": ["gustar"],
+    "en": ["to like"]
   },
   "onyomi": ["コウ"],
   "kunyomi": ["す.き"],
@@ -11,7 +12,8 @@
     {
       "word": "好[す]き",
       "meaning": {
-        "es": "gustar"
+        "es": "gustar",
+        "en": "to like"
       }
     },
     {
@@ -24,7 +26,8 @@
     {
       "word": "好都合[こうつごう]",
       "meaning": {
-        "es": "favorable"
+        "es": "favorable",
+        "en": "favourable"
       }
     },
     {
@@ -37,7 +40,8 @@
     {
       "word": "好物[こうぶつ]",
       "meaning": {
-        "es": "plato preferido"
+        "es": "plato preferido",
+        "en": "favourite dish"
       }
     }
   ],

@@ -27,7 +27,8 @@
       "word": "吸[す]います",
       "kana": "すいます",
       "meaning": {
-        "es": "fumar [tabaco]"
+        "es": "fumar [tabaco]",
+        "en": "to smoke [a cigarette]"
       },
       "type": "verb-godan"
     },
@@ -36,7 +37,8 @@
       "word": "見[み]ます",
       "kana": "みます",
       "meaning": {
-        "es": "ver, mirar"
+        "es": "ver, mirar",
+        "en": "to see, to watch"
       },
       "type": "verb-ichidan"
     },
@@ -45,7 +47,8 @@
       "word": "聞[き]きます",
       "kana": "ききます",
       "meaning": {
-        "es": "oír, escuchar"
+        "es": "oír, escuchar",
+        "en": "to hear, to listen"
       },
       "type": "verb-godan"
     },
@@ -54,7 +57,8 @@
       "word": "読[よ]みます",
       "kana": "よみます",
       "meaning": {
-        "es": "leer"
+        "es": "leer",
+        "en": "to read"
       },
       "type": "verb-godan"
     },
@@ -63,7 +67,8 @@
       "word": "書[か]きます",
       "kana": "かきます",
       "meaning": {
-        "es": "escribir"
+        "es": "escribir",
+        "en": "to write"
       },
       "type": "verb-godan"
     },
@@ -82,7 +87,8 @@
       "word": "撮[と]ります",
       "kana": "とります",
       "meaning": {
-        "es": "sacar [fotos]"
+        "es": "sacar [fotos]",
+        "en": "to take [photos]"
       },
       "type": "verb-godan"
     },
@@ -91,7 +97,8 @@
       "word": "します",
       "kana": "します",
       "meaning": {
-        "es": "hacer"
+        "es": "hacer",
+        "en": "to do, to make"
       },
       "type": "verb-irregular"
     },
@@ -100,7 +107,8 @@
       "word": "会[あ]います",
       "kana": "あいます",
       "meaning": {
-        "es": "ver a, encontrarse con [amigos]"
+        "es": "ver a, encontrarse con [amigos]",
+        "en": "to see, to meet [friends]"
       },
       "type": "verb-godan"
     },
@@ -149,7 +157,8 @@
       "word": "パン",
       "kana": "パン",
       "meaning": {
-        "es": "pan"
+        "es": "pan",
+        "en": "bread"
       },
       "type": "noun"
     },
@@ -158,7 +167,8 @@
       "word": "卵[たまご]",
       "kana": "たまご",
       "meaning": {
-        "es": "huevo"
+        "es": "huevo",
+        "en": "egg"
       },
       "type": "noun"
     },
@@ -177,7 +187,8 @@
       "word": "魚[さかな]",
       "kana": "さかな",
       "meaning": {
-        "es": "pescado, pez"
+        "es": "pescado, pez",
+        "en": "fish"
       },
       "type": "noun"
     },
@@ -186,7 +197,8 @@
       "word": "野菜[やさい]",
       "kana": "やさい",
       "meaning": {
-        "es": "verduras, hortalizas"
+        "es": "verduras, hortalizas",
+        "en": "vegetables"
       },
       "type": "noun"
     },
@@ -195,7 +207,8 @@
       "word": "果物[くだもの]",
       "kana": "くだもの",
       "meaning": {
-        "es": "frutas"
+        "es": "frutas",
+        "en": "fruit"
       },
       "type": "noun"
     },
@@ -214,7 +227,8 @@
       "word": "お 茶[ちゃ]",
       "kana": "おちゃ",
       "meaning": {
-        "es": "té, té verde"
+        "es": "té, té verde",
+        "en": "tea, green tea"
       },
       "type": "noun"
     },
@@ -223,7 +237,8 @@
       "word": "紅茶[こうちゃ]",
       "kana": "こうちゃ",
       "meaning": {
-        "es": "té negro"
+        "es": "té negro",
+        "en": "black tea"
       },
       "type": "noun"
     },
@@ -232,7 +247,8 @@
       "word": "牛乳[ぎゅうにゅう]（ミルク）",
       "kana": "ぎゅうにゅう（ミルク）",
       "meaning": {
-        "es": "leche"
+        "es": "leche",
+        "en": "milk"
       },
       "type": "noun"
     },
@@ -241,7 +257,8 @@
       "word": "ジュース",
       "kana": "ジュース",
       "meaning": {
-        "es": "zumo, jugo"
+        "es": "zumo, jugo",
+        "en": "juice"
       },
       "type": "noun"
     },
@@ -290,7 +307,8 @@
       "word": "レポート",
       "kana": "レポート",
       "meaning": {
-        "es": "informe"
+        "es": "informe",
+        "en": "report"
       },
       "type": "noun"
     },
@@ -299,7 +317,8 @@
       "word": "写真[しゃしん]",
       "kana": "しゃしん",
       "meaning": {
-        "es": "fotografía"
+        "es": "fotografía",
+        "en": "photograph"
       },
       "type": "noun"
     },
@@ -308,7 +327,8 @@
       "word": "ビデオ",
       "kana": "ビデオ",
       "meaning": {
-        "es": "vídeo"
+        "es": "vídeo",
+        "en": "video"
       },
       "type": "noun"
     },
@@ -317,7 +337,8 @@
       "word": "店[みせ]",
       "kana": "みせ",
       "meaning": {
-        "es": "tienda, negocio"
+        "es": "tienda, negocio",
+        "en": "shop, business"
       },
       "type": "noun"
     },
@@ -326,7 +347,8 @@
       "word": "庭[にわ]",
       "kana": "にわ",
       "meaning": {
-        "es": "jardín"
+        "es": "jardín",
+        "en": "garden"
       },
       "type": "noun"
     },
@@ -345,7 +367,8 @@
       "word": "テニス",
       "kana": "テニス",
       "meaning": {
-        "es": "tenis"
+        "es": "tenis",
+        "en": "tennis"
       },
       "type": "noun"
     },
@@ -354,7 +377,8 @@
       "word": "サッカー",
       "kana": "サッカー",
       "meaning": {
-        "es": "fútbol"
+        "es": "fútbol",
+        "en": "football"
       },
       "type": "noun"
     },
@@ -363,7 +387,8 @@
       "word": "[お]花見[はなみ]",
       "kana": "おはなみ",
       "meaning": {
-        "es": "ir a ver los cerezos en flor"
+        "es": "ir a ver los cerezos en flor",
+        "en": "to go cherry-blossom viewing"
       },
       "type": "noun"
     },
@@ -372,7 +397,8 @@
       "word": "何[なに]",
       "kana": "なに",
       "meaning": {
-        "es": "qué"
+        "es": "qué",
+        "en": "what"
       },
       "type": "interrogative"
     },
@@ -381,7 +407,8 @@
       "word": "いっしょに",
       "kana": "いっしょに",
       "meaning": {
-        "es": "junto(s)"
+        "es": "junto(s)",
+        "en": "together"
       },
       "type": "adverb"
     },
@@ -390,7 +417,8 @@
       "word": "ちょっと",
       "kana": "ちょっと",
       "meaning": {
-        "es": "un poco"
+        "es": "un poco",
+        "en": "a little"
       },
       "type": "adverb"
     },
@@ -399,7 +427,8 @@
       "word": "いつも",
       "kana": "いつも",
       "meaning": {
-        "es": "siempre, normalmente"
+        "es": "siempre, normalmente",
+        "en": "always, usually"
       },
       "type": "adverb"
     },
@@ -418,7 +447,8 @@
       "word": "それから",
       "kana": "それから",
       "meaning": {
-        "es": "y luego, y después"
+        "es": "y luego, y después",
+        "en": "and then"
       },
       "type": "conjunction"
     },
@@ -427,7 +457,8 @@
       "word": "ええ",
       "kana": "ええ",
       "meaning": {
-        "es": "sí"
+        "es": "sí",
+        "en": "yes"
       },
       "type": "expression"
     },
@@ -436,7 +467,8 @@
       "word": "いいですね",
       "kana": "いいですね",
       "meaning": {
-        "es": "es una buena idea"
+        "es": "es una buena idea",
+        "en": "that's a good idea"
       },
       "type": "expression"
     },
@@ -445,7 +477,8 @@
       "word": "わかりました",
       "kana": "わかりました",
       "meaning": {
-        "es": "entendido, muy bien"
+        "es": "entendido, muy bien",
+        "en": "understood, very well"
       },
       "type": "expression"
     },
@@ -464,7 +497,8 @@
       "word": "じゃ、また[あした]",
       "kana": "じゃ、またあした",
       "meaning": {
-        "es": "entonces, hasta mañana"
+        "es": "entonces, hasta mañana",
+        "en": "see you tomorrow, then"
       },
       "type": "expression"
     },
@@ -473,7 +507,8 @@
       "word": "メキシコ",
       "kana": "メキシコ",
       "meaning": {
-        "es": "México"
+        "es": "México",
+        "en": "Mexico"
       },
       "type": "noun"
     }

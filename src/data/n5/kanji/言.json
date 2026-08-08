@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 21,
   "meanings": {
-    "es": ["decir", "palabra"]
+    "es": ["decir", "palabra"],
+    "en": ["to say", "word"]
   },
   "onyomi": ["ゲン", "ゴン"],
   "kunyomi": ["い.う", "こと"],
@@ -19,7 +20,8 @@
     {
       "word": "言葉[ことば]",
       "meaning": {
-        "es": "palabra"
+        "es": "palabra",
+        "en": "word"
       }
     },
     {
@@ -46,7 +48,8 @@
     {
       "word": "無言[むごん]",
       "meaning": {
-        "es": "silencio"
+        "es": "silencio",
+        "en": "silence"
       }
     }
   ],

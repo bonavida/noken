@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 11,
   "meanings": {
-    "es": ["salir", "sacar"]
+    "es": ["salir", "sacar"],
+    "en": ["to go out", "to take out"]
   },
   "onyomi": ["シュツ"],
   "kunyomi": ["で.る", "だ.す"],
@@ -12,43 +13,50 @@
     {
       "word": "出[で]ます",
       "meaning": {
-        "es": "salir"
+        "es": "salir",
+        "en": "to go out"
       }
     },
     {
       "word": "出[だ]します",
       "meaning": {
-        "es": "sacar, enviar"
+        "es": "sacar, enviar",
+        "en": "to take out, to send"
       }
     },
     {
       "word": "出口[でぐち]",
       "meaning": {
-        "es": "salida"
+        "es": "salida",
+        "en": "exit"
       }
     },
     {
       "word": "出[で]る",
       "meaning": {
-        "es": "salir"
+        "es": "salir",
+        "en": "to go out"
       }
     },
     {
       "word": "出[だ]す",
       "meaning": {
-        "es": "sacar, entregar"
+        "es": "sacar, entregar",
+        "en": "to take out, to hand in"
       }
     },
     {
       "word": "輸出[ゆしゅつ]",
       "meaning": {
-        "es": "exportación"
+        "es": "exportación",
+        "en": "export"
       }
     },
     {
       "word": "出発[しゅっぱつ]",
       "meaning": {
-        "es": "partida, salida"
+        "es": "partida, salida",
+        "en": "departure"
       }
     }
   ],

@@ -33,13 +33,15 @@
     {
       "word": "油田[ゆでん]",
       "meaning": {
-        "es": "yacimiento petrolífero"
+        "es": "yacimiento petrolífero",
+        "en": "oil field"
       }
     },
     {
       "word": "炭田[たんでん]",
       "meaning": {
-        "es": "yacimiento de carbón"
+        "es": "yacimiento de carbón",
+        "en": "coalfield"
       }
     }
   ],

@@ -19,7 +19,8 @@
     {
       "word": "学習[がくしゅう]",
       "meaning": {
-        "es": "estudio, aprendizaje"
+        "es": "estudio, aprendizaje",
+        "en": "study, learning"
       }
     },
     {
@@ -39,7 +40,8 @@
     {
       "word": "悪習[あくしゅう]",
       "meaning": {
-        "es": "mal hábito"
+        "es": "mal hábito",
+        "en": "bad habit"
       }
     }
   ]

@@ -7,7 +7,8 @@
       "word": "います[子[こ]どもが〜]",
       "kana": "います",
       "meaning": {
-        "es": "tener [hijos]"
+        "es": "tener [hijos]",
+        "en": "to have [children]"
       },
       "type": "verb-ichidan"
     },
@@ -16,7 +17,8 @@
       "word": "います[日本[にほん]に〜]",
       "kana": "います",
       "meaning": {
-        "es": "estar, permanecer [en Japón]"
+        "es": "estar, permanecer [en Japón]",
+        "en": "to stay [in Japan]"
       },
       "type": "verb-ichidan"
     },
@@ -25,7 +27,8 @@
       "word": "かかります",
       "kana": "かかります",
       "meaning": {
-        "es": "tardar (tiempo), costar (dinero)"
+        "es": "tardar (tiempo), costar (dinero)",
+        "en": "to take (time), to cost (money)"
       },
       "type": "verb-godan"
     },
@@ -44,7 +47,8 @@
       "word": "ひとつ",
       "kana": "ひとつ",
       "meaning": {
-        "es": "uno (objetos)"
+        "es": "uno (objetos)",
+        "en": "one (for objects)"
       },
       "type": "number"
     },
@@ -63,7 +67,8 @@
       "word": "みっつ",
       "kana": "みっつ",
       "meaning": {
-        "es": "tres"
+        "es": "tres",
+        "en": "three"
       },
       "type": "number"
     },
@@ -92,7 +97,8 @@
       "word": "むっつ",
       "kana": "むっつ",
       "meaning": {
-        "es": "seis"
+        "es": "seis",
+        "en": "six"
       },
       "type": "number"
     },
@@ -101,7 +107,8 @@
       "word": "ななつ",
       "kana": "ななつ",
       "meaning": {
-        "es": "siete"
+        "es": "siete",
+        "en": "seven"
       },
       "type": "number"
     },
@@ -110,7 +117,8 @@
       "word": "やっつ",
       "kana": "やっつ",
       "meaning": {
-        "es": "ocho"
+        "es": "ocho",
+        "en": "eight"
       },
       "type": "number"
     },
@@ -119,7 +127,8 @@
       "word": "ここのつ",
       "kana": "ここのつ",
       "meaning": {
-        "es": "nueve"
+        "es": "nueve",
+        "en": "nine"
       },
       "type": "number"
     },
@@ -148,7 +157,8 @@
       "word": "1人[ひとり]",
       "kana": "ひとり",
       "meaning": {
-        "es": "una persona"
+        "es": "una persona",
+        "en": "one person"
       },
       "type": "number"
     },
@@ -207,7 +217,8 @@
       "word": "りんご",
       "kana": "りんご",
       "meaning": {
-        "es": "manzana"
+        "es": "manzana",
+        "en": "apple"
       },
       "type": "noun"
     },
@@ -216,7 +227,8 @@
       "word": "みかん",
       "kana": "みかん",
       "meaning": {
-        "es": "mandarina"
+        "es": "mandarina",
+        "en": "mandarin orange"
       },
       "type": "noun"
     },
@@ -225,7 +237,8 @@
       "word": "サンドイッチ",
       "kana": "サンドイッチ",
       "meaning": {
-        "es": "sándwich"
+        "es": "sándwich",
+        "en": "sandwich"
       },
       "type": "noun"
     },
@@ -244,7 +257,8 @@
       "word": "アイスクリーム",
       "kana": "アイスクリーム",
       "meaning": {
-        "es": "helado"
+        "es": "helado",
+        "en": "ice cream"
       },
       "type": "noun"
     },
@@ -253,7 +267,8 @@
       "word": "切手[きって]",
       "kana": "きって",
       "meaning": {
-        "es": "sello postal"
+        "es": "sello postal",
+        "en": "postage stamp"
       },
       "type": "noun"
     },
@@ -262,7 +277,8 @@
       "word": "はがき",
       "kana": "はがき",
       "meaning": {
-        "es": "tarjeta postal"
+        "es": "tarjeta postal",
+        "en": "postcard"
       },
       "type": "noun"
     },
@@ -271,7 +287,8 @@
       "word": "封筒[ふうとう]",
       "kana": "ふうとう",
       "meaning": {
-        "es": "sobre"
+        "es": "sobre",
+        "en": "envelope"
       },
       "type": "noun"
     },
@@ -280,7 +297,8 @@
       "word": "両親[りょうしん]",
       "kana": "りょうしん",
       "meaning": {
-        "es": "padres"
+        "es": "padres",
+        "en": "parents"
       },
       "type": "noun"
     },
@@ -289,7 +307,8 @@
       "word": "兄弟[きょうだい]",
       "kana": "きょうだい",
       "meaning": {
-        "es": "hermanos y hermanas"
+        "es": "hermanos y hermanas",
+        "en": "brothers and sisters"
       },
       "type": "noun"
     },
@@ -378,7 +397,8 @@
       "word": "外国[がいこく]",
       "kana": "がいこく",
       "meaning": {
-        "es": "país extranjero"
+        "es": "país extranjero",
+        "en": "foreign country"
       },
       "type": "noun"
     },
@@ -387,7 +407,8 @@
       "word": "留学生[りゅうがくせい]",
       "kana": "りゅうがくせい",
       "meaning": {
-        "es": "estudiante extranjero"
+        "es": "estudiante extranjero",
+        "en": "foreign student"
       },
       "type": "noun"
     },
@@ -466,7 +487,8 @@
       "word": "全部[ぜんぶ]で",
       "kana": "ぜんぶで",
       "meaning": {
-        "es": "en total"
+        "es": "en total",
+        "en": "in total"
       },
       "type": "adverb"
     },
@@ -475,7 +497,8 @@
       "word": "みんな",
       "kana": "みんな",
       "meaning": {
-        "es": "todos, todo"
+        "es": "todos, todo",
+        "en": "everyone, everything"
       },
       "type": "noun"
     },
@@ -484,7 +507,8 @@
       "word": "〜だけ",
       "kana": "だけ",
       "meaning": {
-        "es": "solo ~"
+        "es": "solo ~",
+        "en": "only ~"
       },
       "type": "particle"
     },
@@ -493,7 +517,8 @@
       "word": "かしこまりました",
       "kana": "かしこまりました",
       "meaning": {
-        "es": "sí, señor/señora (muy formal)"
+        "es": "sí, señor/señora (muy formal)",
+        "en": "yes, sir/madam (very formal)"
       },
       "type": "expression"
     },
@@ -502,7 +527,8 @@
       "word": "いい[お]天気[てんき]ですね",
       "kana": "いいおてんきですね",
       "meaning": {
-        "es": "hace buen tiempo, ¿verdad?"
+        "es": "hace buen tiempo, ¿verdad?",
+        "en": "lovely weather, isn't it?"
       },
       "type": "expression"
     },
@@ -521,7 +547,8 @@
       "word": "ちょっと〜まで",
       "kana": "ちょっとまで",
       "meaning": {
-        "es": "solo voy hasta ~"
+        "es": "solo voy hasta ~",
+        "en": "I'm only going as far as ~"
       },
       "type": "expression"
     },
@@ -530,7 +557,8 @@
       "word": "行[い]ってらっしゃい",
       "kana": "いってらっしゃい",
       "meaning": {
-        "es": "que le vaya bien"
+        "es": "que le vaya bien",
+        "en": "take care"
       },
       "type": "expression"
     },
@@ -539,7 +567,8 @@
       "word": "行[い]ってきます",
       "kana": "いってきます",
       "meaning": {
-        "es": "hasta luego (salgo y vuelvo)"
+        "es": "hasta luego (salgo y vuelvo)",
+        "en": "see you later (leaving and coming back)"
       },
       "type": "expression"
     },
@@ -548,7 +577,8 @@
       "word": "船便[ふなびん]",
       "kana": "ふなびん",
       "meaning": {
-        "es": "vía marítima"
+        "es": "vía marítima",
+        "en": "by sea"
       },
       "type": "noun"
     },
@@ -557,7 +587,8 @@
       "word": "航空便[こうくうびん]（エアメール）",
       "kana": "こうくうびん",
       "meaning": {
-        "es": "vía aérea"
+        "es": "vía aérea",
+        "en": "by air"
       },
       "type": "noun"
     },
@@ -566,7 +597,8 @@
       "word": "お 願[ねが]いします",
       "kana": "おねがいします",
       "meaning": {
-        "es": "por favor"
+        "es": "por favor",
+        "en": "please"
       },
       "type": "expression"
     },

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["pequeño"]
+    "es": ["pequeño"],
+    "en": ["small"]
   },
   "onyomi": ["ショウ"],
   "kunyomi": ["ちい.さい", "こ"],
@@ -12,31 +13,36 @@
     {
       "word": "小[ちい]さい",
       "meaning": {
-        "es": "pequeño"
+        "es": "pequeño",
+        "en": "small"
       }
     },
     {
       "word": "小学校[しょうがっこう]",
       "meaning": {
-        "es": "escuela primaria"
+        "es": "escuela primaria",
+        "en": "primary school"
       }
     },
     {
       "word": "小鳥[ことり]",
       "meaning": {
-        "es": "pajarito"
+        "es": "pajarito",
+        "en": "little bird"
       }
     },
     {
       "word": "最小[さいしょう]",
       "meaning": {
-        "es": "mínimo"
+        "es": "mínimo",
+        "en": "minimum"
       }
     },
     {
       "word": "小説[しょうせつ]",
       "meaning": {
-        "es": "novela"
+        "es": "novela",
+        "en": "novel"
       }
     }
   ],

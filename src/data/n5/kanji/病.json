@@ -2,7 +2,8 @@
   "character": "病",
   "level": "n5",
   "meanings": {
-    "es": ["enfermedad"]
+    "es": ["enfermedad"],
+    "en": ["illness"]
   },
   "onyomi": ["ビョウ"],
   "kunyomi": ["やまい"],
@@ -11,31 +12,36 @@
     {
       "word": "病[やまい]",
       "meaning": {
-        "es": "enfermedad"
+        "es": "enfermedad",
+        "en": "illness"
       }
     },
     {
       "word": "病気[びょうき]",
       "meaning": {
-        "es": "enfermedad"
+        "es": "enfermedad",
+        "en": "illness"
       }
     },
     {
       "word": "病人[びょうにん]",
       "meaning": {
-        "es": "paciente"
+        "es": "paciente",
+        "en": "patient"
       }
     },
     {
       "word": "病院[びょういん]",
       "meaning": {
-        "es": "hospital"
+        "es": "hospital",
+        "en": "hospital"
       }
     },
     {
       "word": "難病[なんびょう]",
       "meaning": {
-        "es": "enfermedad incurable"
+        "es": "enfermedad incurable",
+        "en": "incurable illness"
       }
     }
   ]

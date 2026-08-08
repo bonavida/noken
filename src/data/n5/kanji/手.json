@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["mano"]
+    "es": ["mano"],
+    "en": ["hand"]
   },
   "onyomi": ["シュ"],
   "kunyomi": ["て"],
@@ -12,7 +13,8 @@
     {
       "word": "手[て]",
       "meaning": {
-        "es": "mano"
+        "es": "mano",
+        "en": "hand"
       }
     },
     {
@@ -25,19 +27,22 @@
     {
       "word": "上手[じょうず]",
       "meaning": {
-        "es": "hábil"
+        "es": "hábil",
+        "en": "skilful"
       }
     },
     {
       "word": "手首[てくび]",
       "meaning": {
-        "es": "muñeca"
+        "es": "muñeca",
+        "en": "wrist"
       }
     },
     {
       "word": "相手[あいて]",
       "meaning": {
-        "es": "oponente"
+        "es": "oponente",
+        "en": "opponent"
       }
     },
     {

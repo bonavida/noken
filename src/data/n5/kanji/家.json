@@ -2,7 +2,8 @@
   "character": "家",
   "level": "n5",
   "meanings": {
-    "es": ["casa", "profesión"]
+    "es": ["casa", "profesión"],
+    "en": ["house, home", "profession"]
   },
   "onyomi": ["カ"],
   "kunyomi": ["いえ"],
@@ -18,19 +19,22 @@
     {
       "word": "家族[かぞく]",
       "meaning": {
-        "es": "familia"
+        "es": "familia",
+        "en": "family"
       }
     },
     {
       "word": "家事[かじ]",
       "meaning": {
-        "es": "tareas domésticas"
+        "es": "tareas domésticas",
+        "en": "housework"
       }
     },
     {
       "word": "画家[がか]",
       "meaning": {
-        "es": "pintor"
+        "es": "pintor",
+        "en": "painter"
       }
     },
     {

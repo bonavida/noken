@@ -2,7 +2,8 @@
   "character": "持",
   "level": "n5",
   "meanings": {
-    "es": ["agarrar", "tener", "poseer"]
+    "es": ["agarrar", "tener", "poseer"],
+    "en": ["to hold, to grab", "to have", "to own"]
   },
   "onyomi": ["ジ"],
   "kunyomi": ["も.つ"],
@@ -18,13 +19,15 @@
     {
       "word": "金持[かねも]ち",
       "meaning": {
-        "es": "rico"
+        "es": "rico",
+        "en": "rich"
       }
     },
     {
       "word": "気持[きも]ち",
       "meaning": {
-        "es": "sentimiento"
+        "es": "sentimiento",
+        "en": "feeling"
       }
     },
     {
@@ -37,7 +40,8 @@
     {
       "word": "所持[しょじ]",
       "meaning": {
-        "es": "posesión"
+        "es": "posesión",
+        "en": "possession"
       }
     }
   ],

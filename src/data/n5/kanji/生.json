@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["vida", "nacer", "crudo", "estudiante"]
+    "es": ["vida", "nacer", "crudo", "estudiante"],
+    "en": ["life", "to be born", "raw", "student"]
   },
   "onyomi": ["セイ", "ショウ"],
   "kunyomi": ["い.きる", "う.まれる", "なま"],
@@ -12,19 +13,22 @@
     {
       "word": "学生[がくせい]",
       "meaning": {
-        "es": "estudiante"
+        "es": "estudiante",
+        "en": "student"
       }
     },
     {
       "word": "先生[せんせい]",
       "meaning": {
-        "es": "profesor"
+        "es": "profesor",
+        "en": "teacher"
       }
     },
     {
       "word": "生[う]まれる",
       "meaning": {
-        "es": "nacer"
+        "es": "nacer",
+        "en": "to be born"
       }
     },
     {
@@ -37,13 +41,15 @@
     {
       "word": "生[い]きる",
       "meaning": {
-        "es": "vivir"
+        "es": "vivir",
+        "en": "to live"
       }
     },
     {
       "word": "人生[じんせい]",
       "meaning": {
-        "es": "vida"
+        "es": "vida",
+        "en": "life"
       }
     }
   ],

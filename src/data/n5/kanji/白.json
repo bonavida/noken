@@ -34,7 +34,8 @@
     {
       "word": "白紙[はくし]",
       "meaning": {
-        "es": "hoja en blanco"
+        "es": "hoja en blanco",
+        "en": "blank sheet"
       }
     },
     {
@@ -47,7 +48,8 @@
     {
       "word": "空白[くうはく]",
       "meaning": {
-        "es": "vacío, espacio en blanco"
+        "es": "vacío, espacio en blanco",
+        "en": "blank, empty space"
       }
     }
   ],

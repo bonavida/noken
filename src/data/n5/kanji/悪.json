@@ -2,7 +2,8 @@
   "character": "悪",
   "level": "n5",
   "meanings": {
-    "es": ["malo"]
+    "es": ["malo"],
+    "en": ["bad"]
   },
   "onyomi": ["アク"],
   "kunyomi": ["わる.い"],
@@ -11,19 +12,22 @@
     {
       "word": "悪[わる]い",
       "meaning": {
-        "es": "malo"
+        "es": "malo",
+        "en": "bad"
       }
     },
     {
       "word": "悪口[わるぐち]",
       "meaning": {
-        "es": "hablar mal de alguien"
+        "es": "hablar mal de alguien",
+        "en": "to speak ill of someone"
       }
     },
     {
       "word": "最悪[さいあく]",
       "meaning": {
-        "es": "el peor"
+        "es": "el peor",
+        "en": "the worst"
       }
     },
     {

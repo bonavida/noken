@@ -2,7 +2,8 @@
   "character": "西",
   "level": "n5",
   "meanings": {
-    "es": ["oeste"]
+    "es": ["oeste"],
+    "en": ["west"]
   },
   "onyomi": ["セイ", "サイ"],
   "kunyomi": ["にし"],
@@ -11,31 +12,36 @@
     {
       "word": "西[にし]",
       "meaning": {
-        "es": "oeste"
+        "es": "oeste",
+        "en": "west"
       }
     },
     {
       "word": "関西[かんさい]",
       "meaning": {
-        "es": "región de Kansai"
+        "es": "región de Kansai",
+        "en": "the Kansai region"
       }
     },
     {
       "word": "西口[にしぐち]",
       "meaning": {
-        "es": "salida oeste"
+        "es": "salida oeste",
+        "en": "west exit"
       }
     },
     {
       "word": "西欧[せいおう]",
       "meaning": {
-        "es": "Europa Occidental"
+        "es": "Europa Occidental",
+        "en": "Western Europe"
       }
     },
     {
       "word": "北西[ほくせい]",
       "meaning": {
-        "es": "noroeste"
+        "es": "noroeste",
+        "en": "north-west"
       }
     }
   ],

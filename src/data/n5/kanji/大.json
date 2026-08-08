@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["grande", "universidad"]
+    "es": ["grande", "universidad"],
+    "en": ["big", "university"]
   },
   "onyomi": ["ダイ", "タイ"],
   "kunyomi": ["おお.きい"],
@@ -12,19 +13,22 @@
     {
       "word": "大[おお]きい",
       "meaning": {
-        "es": "grande"
+        "es": "grande",
+        "en": "big"
       }
     },
     {
       "word": "大学[だいがく]",
       "meaning": {
-        "es": "universidad"
+        "es": "universidad",
+        "en": "university"
       }
     },
     {
       "word": "大切[たいせつ]",
       "meaning": {
-        "es": "importante"
+        "es": "importante",
+        "en": "important"
       }
     },
     {
@@ -37,13 +41,15 @@
     {
       "word": "大事[だいじ]",
       "meaning": {
-        "es": "importante"
+        "es": "importante",
+        "en": "important"
       }
     },
     {
       "word": "大会[たいかい]",
       "meaning": {
-        "es": "reunión, congreso"
+        "es": "reunión, congreso",
+        "en": "meeting, convention"
       }
     }
   ],

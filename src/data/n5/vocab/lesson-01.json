@@ -7,7 +7,8 @@
       "word": "私[わたし]",
       "kana": "わたし",
       "meaning": {
-        "es": "yo"
+        "es": "yo",
+        "en": "I"
       },
       "type": "pronoun"
     },
@@ -16,7 +17,8 @@
       "word": "あなた",
       "kana": "あなた",
       "meaning": {
-        "es": "tú, usted"
+        "es": "tú, usted",
+        "en": "you"
       },
       "type": "pronoun"
     },
@@ -45,7 +47,8 @@
       "word": "〜さん",
       "kana": "さん",
       "meaning": {
-        "es": "Sr., Sra. (sufijo de respeto)"
+        "es": "Sr., Sra. (sufijo de respeto)",
+        "en": "Mr, Ms (polite suffix)"
       },
       "type": "expression"
     },
@@ -54,7 +57,8 @@
       "word": "〜ちゃん",
       "kana": "ちゃん",
       "meaning": {
-        "es": "sufijo cariñoso para niños"
+        "es": "sufijo cariñoso para niños",
+        "en": "affectionate suffix for children"
       },
       "type": "expression"
     },
@@ -63,7 +67,8 @@
       "word": "〜人[じん]",
       "kana": "じん",
       "meaning": {
-        "es": "sufijo de nacionalidad"
+        "es": "sufijo de nacionalidad",
+        "en": "nationality suffix"
       },
       "type": "expression"
     },
@@ -72,7 +77,8 @@
       "word": "先生[せんせい]",
       "kana": "せんせい",
       "meaning": {
-        "es": "profesor (al dirigirse a él)"
+        "es": "profesor (al dirigirse a él)",
+        "en": "teacher (when addressing them)"
       },
       "type": "noun"
     },
@@ -81,7 +87,8 @@
       "word": "教師[きょうし]",
       "kana": "きょうし",
       "meaning": {
-        "es": "profesor (profesión)"
+        "es": "profesor (profesión)",
+        "en": "teacher (profession)"
       },
       "type": "noun"
     },
@@ -90,7 +97,8 @@
       "word": "学生[がくせい]",
       "kana": "がくせい",
       "meaning": {
-        "es": "estudiante"
+        "es": "estudiante",
+        "en": "student"
       },
       "type": "noun"
     },
@@ -99,7 +107,8 @@
       "word": "会社員[かいしゃいん]",
       "kana": "かいしゃいん",
       "meaning": {
-        "es": "empleado de empresa"
+        "es": "empleado de empresa",
+        "en": "company employee"
       },
       "type": "noun"
     },
@@ -108,7 +117,8 @@
       "word": "社員[しゃいん]",
       "kana": "しゃいん",
       "meaning": {
-        "es": "empleado (de una empresa concreta)"
+        "es": "empleado (de una empresa concreta)",
+        "en": "employee (of a particular company)"
       },
       "type": "noun"
     },
@@ -117,7 +127,8 @@
       "word": "銀行員[ぎんこういん]",
       "kana": "ぎんこういん",
       "meaning": {
-        "es": "empleado de banco"
+        "es": "empleado de banco",
+        "en": "bank clerk"
       },
       "type": "noun"
     },
@@ -126,7 +137,8 @@
       "word": "医者[いしゃ]",
       "kana": "いしゃ",
       "meaning": {
-        "es": "médico"
+        "es": "médico",
+        "en": "doctor"
       },
       "type": "noun"
     },
@@ -135,7 +147,8 @@
       "word": "研究者[けんきゅうしゃ]",
       "kana": "けんきゅうしゃ",
       "meaning": {
-        "es": "investigador"
+        "es": "investigador",
+        "en": "researcher"
       },
       "type": "noun"
     },
@@ -144,7 +157,8 @@
       "word": "大学[だいがく]",
       "kana": "だいがく",
       "meaning": {
-        "es": "universidad"
+        "es": "universidad",
+        "en": "university"
       },
       "type": "noun"
     },
@@ -153,7 +167,8 @@
       "word": "病院[びょういん]",
       "kana": "びょういん",
       "meaning": {
-        "es": "hospital"
+        "es": "hospital",
+        "en": "hospital"
       },
       "type": "noun"
     },
@@ -162,7 +177,8 @@
       "word": "誰[だれ]",
       "kana": "だれ",
       "meaning": {
-        "es": "quién"
+        "es": "quién",
+        "en": "who"
       },
       "type": "interrogative"
     },
@@ -171,7 +187,8 @@
       "word": "どなた",
       "kana": "どなた",
       "meaning": {
-        "es": "quién (respetuoso)"
+        "es": "quién (respetuoso)",
+        "en": "who (polite)"
       },
       "type": "interrogative"
     },
@@ -210,7 +227,8 @@
       "word": "はい",
       "kana": "はい",
       "meaning": {
-        "es": "sí"
+        "es": "sí",
+        "en": "yes"
       },
       "type": "expression"
     },
@@ -219,7 +237,8 @@
       "word": "いいえ",
       "kana": "いいえ",
       "meaning": {
-        "es": "no"
+        "es": "no",
+        "en": "no"
       },
       "type": "expression"
     },
@@ -248,7 +267,8 @@
       "word": "はじめまして",
       "kana": "はじめまして",
       "meaning": {
-        "es": "encantado (al conocer a alguien)"
+        "es": "encantado (al conocer a alguien)",
+        "en": "pleased to meet you"
       },
       "type": "expression"
     },
@@ -257,7 +277,8 @@
       "word": "どうぞよろしくお 願[ねが]いします",
       "kana": "どうぞよろしくおねがいします",
       "meaning": {
-        "es": "mucho gusto, cuento con usted"
+        "es": "mucho gusto, cuento con usted",
+        "en": "nice to meet you, I look forward to it"
       },
       "type": "expression"
     },
@@ -266,7 +287,8 @@
       "word": "こちらは〜さんです",
       "kana": "こちらは…さんです",
       "meaning": {
-        "es": "le presento al Sr./Sra. …"
+        "es": "le presento al Sr./Sra. …",
+        "en": "let me introduce Mr/Ms …"
       },
       "type": "expression"
     },
@@ -275,7 +297,8 @@
       "word": "〜から 来[き]ました",
       "kana": "からきました",
       "meaning": {
-        "es": "vengo de… (país o lugar)"
+        "es": "vengo de… (país o lugar)",
+        "en": "I'm from… (country or place)"
       },
       "type": "expression"
     },
@@ -284,7 +307,8 @@
       "word": "アメリカ",
       "kana": "アメリカ",
       "meaning": {
-        "es": "Estados Unidos"
+        "es": "Estados Unidos",
+        "en": "the United States"
       },
       "type": "noun"
     },
@@ -293,7 +317,8 @@
       "word": "イギリス",
       "kana": "イギリス",
       "meaning": {
-        "es": "Reino Unido"
+        "es": "Reino Unido",
+        "en": "the United Kingdom"
       },
       "type": "noun"
     },
@@ -302,7 +327,8 @@
       "word": "インド",
       "kana": "インド",
       "meaning": {
-        "es": "India"
+        "es": "India",
+        "en": "India"
       },
       "type": "noun"
     },
@@ -311,7 +337,8 @@
       "word": "インドネシア",
       "kana": "インドネシア",
       "meaning": {
-        "es": "Indonesia"
+        "es": "Indonesia",
+        "en": "Indonesia"
       },
       "type": "noun"
     },
@@ -330,7 +357,8 @@
       "word": "タイ",
       "kana": "タイ",
       "meaning": {
-        "es": "Tailandia"
+        "es": "Tailandia",
+        "en": "Thailand"
       },
       "type": "noun"
     },
@@ -359,7 +387,8 @@
       "word": "日本[にほん]",
       "kana": "にほん",
       "meaning": {
-        "es": "Japón"
+        "es": "Japón",
+        "en": "Japan"
       },
       "type": "noun"
     },
@@ -368,7 +397,8 @@
       "word": "フランス",
       "kana": "フランス",
       "meaning": {
-        "es": "Francia"
+        "es": "Francia",
+        "en": "France"
       },
       "type": "noun"
     },

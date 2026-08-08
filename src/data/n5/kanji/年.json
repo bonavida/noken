@@ -34,7 +34,8 @@
     {
       "word": "年金[ねんきん]",
       "meaning": {
-        "es": "pensión anual"
+        "es": "pensión anual",
+        "en": "annual pension"
       }
     },
     {
@@ -47,13 +48,15 @@
     {
       "word": "定年[ていねん]",
       "meaning": {
-        "es": "jubilación"
+        "es": "jubilación",
+        "en": "retirement"
       }
     },
     {
       "word": "今年[ことし]",
       "meaning": {
-        "es": "este año"
+        "es": "este año",
+        "en": "this year"
       }
     }
   ],

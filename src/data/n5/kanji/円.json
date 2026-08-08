@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["yen", "círculo"]
+    "es": ["yen", "círculo"],
+    "en": ["yen", "circle"]
   },
   "onyomi": ["エン"],
   "kunyomi": ["まる.い"],
@@ -12,7 +13,8 @@
     {
       "word": "円[えん]",
       "meaning": {
-        "es": "yen"
+        "es": "yen",
+        "en": "yen"
       }
     },
     {
@@ -25,7 +27,8 @@
     {
       "word": "円高[えんだか]",
       "meaning": {
-        "es": "subida del yen"
+        "es": "subida del yen",
+        "en": "rise of the yen"
       }
     },
     {
@@ -38,13 +41,15 @@
     {
       "word": "円満[えんまん]",
       "meaning": {
-        "es": "perfecto, armónico"
+        "es": "perfecto, armónico",
+        "en": "perfect, harmonious"
       }
     },
     {
       "word": "円[まる]い",
       "meaning": {
-        "es": "redondo"
+        "es": "redondo",
+        "en": "round"
       }
     }
   ]

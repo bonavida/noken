@@ -2,7 +2,8 @@
   "character": "青",
   "level": "n5",
   "meanings": {
-    "es": ["azul", "verde"]
+    "es": ["azul", "verde"],
+    "en": ["blue", "green"]
   },
   "onyomi": ["セイ"],
   "kunyomi": ["あお.い"],
@@ -25,19 +26,22 @@
     {
       "word": "青信号[あおしんごう]",
       "meaning": {
-        "es": "semáforo en verde"
+        "es": "semáforo en verde",
+        "en": "green light"
       }
     },
     {
       "word": "青年[せいねん]",
       "meaning": {
-        "es": "joven"
+        "es": "joven",
+        "en": "young"
       }
     },
     {
       "word": "青春[せいしゅん]",
       "meaning": {
-        "es": "juventud"
+        "es": "juventud",
+        "en": "youth"
       }
     }
   ]

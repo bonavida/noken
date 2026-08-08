@@ -7,7 +7,8 @@
       "word": "要[い]ります[ビザが〜]",
       "kana": "いります",
       "meaning": {
-        "es": "necesitar [un visado]"
+        "es": "necesitar [un visado]",
+        "en": "to need [a visa]"
       },
       "type": "verb-godan"
     },
@@ -26,7 +27,8 @@
       "word": "修理[しゅうり]します",
       "kana": "しゅうりします",
       "meaning": {
-        "es": "reparar"
+        "es": "reparar",
+        "en": "to repair"
       },
       "type": "verb-irregular"
     },
@@ -35,7 +37,8 @@
       "word": "僕[ぼく]",
       "kana": "ぼく",
       "meaning": {
-        "es": "yo (informal, masculino)"
+        "es": "yo (informal, masculino)",
+        "en": "I (informal, male)"
       },
       "type": "pronoun"
     },
@@ -44,7 +47,8 @@
       "word": "君[きみ]",
       "kana": "きみ",
       "meaning": {
-        "es": "tú (informal)"
+        "es": "tú (informal)",
+        "en": "you (informal)"
       },
       "type": "pronoun"
     },
@@ -53,7 +57,8 @@
       "word": "〜君[くん]",
       "kana": "くん",
       "meaning": {
-        "es": "sufijo informal (equivale a 〜さん)"
+        "es": "sufijo informal (equivale a 〜さん)",
+        "en": "informal suffix (like 〜さん)"
       },
       "type": "expression"
     },
@@ -62,7 +67,8 @@
       "word": "うん",
       "kana": "うん",
       "meaning": {
-        "es": "sí (informal)"
+        "es": "sí (informal)",
+        "en": "yes (informal)"
       },
       "type": "expression"
     },
@@ -71,7 +77,8 @@
       "word": "ううん",
       "kana": "ううん",
       "meaning": {
-        "es": "no (informal)"
+        "es": "no (informal)",
+        "en": "no (informal)"
       },
       "type": "expression"
     },
@@ -80,7 +87,8 @@
       "word": "ことば",
       "kana": "ことば",
       "meaning": {
-        "es": "palabra, lenguaje, idioma"
+        "es": "palabra, lenguaje, idioma",
+        "en": "word, language"
       },
       "type": "noun"
     },
@@ -89,7 +97,8 @@
       "word": "着物[きもの]",
       "kana": "きもの",
       "meaning": {
-        "es": "quimono"
+        "es": "quimono",
+        "en": "kimono"
       },
       "type": "noun"
     },
@@ -98,7 +107,8 @@
       "word": "ビザ",
       "kana": "ビザ",
       "meaning": {
-        "es": "visado"
+        "es": "visado",
+        "en": "visa"
       },
       "type": "noun"
     },
@@ -117,7 +127,8 @@
       "word": "終[お]わり",
       "kana": "おわり",
       "meaning": {
-        "es": "fin"
+        "es": "fin",
+        "en": "end"
       },
       "type": "noun"
     },
@@ -166,7 +177,8 @@
       "word": "みんなで",
       "kana": "みんなで",
       "meaning": {
-        "es": "todos juntos"
+        "es": "todos juntos",
+        "en": "all together"
       },
       "type": "adverb"
     },
@@ -185,7 +197,8 @@
       "word": "おなかがいっぱいです",
       "kana": "おなかがいっぱいです",
       "meaning": {
-        "es": "estoy lleno, satisfecho"
+        "es": "estoy lleno, satisfecho",
+        "en": "I'm full"
       },
       "type": "expression"
     },
@@ -194,7 +207,8 @@
       "word": "よかったら",
       "kana": "よかったら",
       "meaning": {
-        "es": "si le apetece"
+        "es": "si le apetece",
+        "en": "if you like"
       },
       "type": "expression"
     },
@@ -203,7 +217,8 @@
       "word": "いろいろ",
       "kana": "いろいろ",
       "meaning": {
-        "es": "por diversos, por varios"
+        "es": "por diversos, por varios",
+        "en": "for various things"
       },
       "type": "adverb"
     }

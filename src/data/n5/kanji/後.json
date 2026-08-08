@@ -41,19 +41,22 @@
     {
       "word": "背後[はいご]",
       "meaning": {
-        "es": "espalda, parte de atrás"
+        "es": "espalda, parte de atrás",
+        "en": "back, rear"
       }
     },
     {
       "word": "最後[さいご]",
       "meaning": {
-        "es": "último"
+        "es": "último",
+        "en": "last, final"
       }
     },
     {
       "word": "後半[こうはん]",
       "meaning": {
-        "es": "segunda parte"
+        "es": "segunda parte",
+        "en": "second half"
       }
     }
   ]

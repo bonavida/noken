@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 5,
   "meanings": {
-    "es": ["escuela"]
+    "es": ["escuela"],
+    "en": ["school"]
   },
   "onyomi": ["コウ"],
   "kunyomi": [],
@@ -12,19 +13,22 @@
     {
       "word": "学校[がっこう]",
       "meaning": {
-        "es": "escuela"
+        "es": "escuela",
+        "en": "school"
       }
     },
     {
       "word": "高校[こうこう]",
       "meaning": {
-        "es": "instituto"
+        "es": "instituto",
+        "en": "high school"
       }
     },
     {
       "word": "中学校[ちゅうがっこう]",
       "meaning": {
-        "es": "escuela secundaria"
+        "es": "escuela secundaria",
+        "en": "secondary school"
       }
     },
     {

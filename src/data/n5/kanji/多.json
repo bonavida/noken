@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 12,
   "meanings": {
-    "es": ["mucho", "numeroso"]
+    "es": ["mucho", "numeroso"],
+    "en": ["a lot, much", "numerous"]
   },
   "onyomi": ["タ"],
   "kunyomi": ["おお.い"],
@@ -12,31 +13,36 @@
     {
       "word": "多[おお]い",
       "meaning": {
-        "es": "mucho"
+        "es": "mucho",
+        "en": "a lot, much"
       }
     },
     {
       "word": "多分[たぶん]",
       "meaning": {
-        "es": "probablemente"
+        "es": "probablemente",
+        "en": "probably"
       }
     },
     {
       "word": "多目[おおめ]",
       "meaning": {
-        "es": "en gran cantidad"
+        "es": "en gran cantidad",
+        "en": "in large quantity"
       }
     },
     {
       "word": "多数[たすう]",
       "meaning": {
-        "es": "gran número"
+        "es": "gran número",
+        "en": "a large number"
       }
     },
     {
       "word": "多量[たりょう]",
       "meaning": {
-        "es": "gran cantidad"
+        "es": "gran cantidad",
+        "en": "a large amount"
       }
     }
   ],

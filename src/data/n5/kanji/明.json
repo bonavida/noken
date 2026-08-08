@@ -19,7 +19,8 @@
     {
       "word": "説明[せつめい]",
       "meaning": {
-        "es": "explicación"
+        "es": "explicación",
+        "en": "explanation"
       }
     },
     {
@@ -39,7 +40,8 @@
     {
       "word": "透明[とうめい]",
       "meaning": {
-        "es": "transparente"
+        "es": "transparente",
+        "en": "transparent"
       }
     }
   ],

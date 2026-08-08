@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["venir"]
+    "es": ["venir"],
+    "en": ["to come"]
   },
   "onyomi": ["ライ"],
   "kunyomi": ["く.る"],
@@ -12,13 +13,15 @@
     {
       "word": "来[き]ます",
       "meaning": {
-        "es": "venir"
+        "es": "venir",
+        "en": "to come"
       }
     },
     {
       "word": "来週[らいしゅう]",
       "meaning": {
-        "es": "la semana que viene"
+        "es": "la semana que viene",
+        "en": "next week"
       }
     },
     {
@@ -31,25 +34,29 @@
     {
       "word": "来[く]る",
       "meaning": {
-        "es": "venir"
+        "es": "venir",
+        "en": "to come"
       }
     },
     {
       "word": "到来[とうらい]",
       "meaning": {
-        "es": "llegada"
+        "es": "llegada",
+        "en": "arrival"
       }
     },
     {
       "word": "由来[ゆらい]",
       "meaning": {
-        "es": "origen"
+        "es": "origen",
+        "en": "origin"
       }
     },
     {
       "word": "将来[しょうらい]",
       "meaning": {
-        "es": "futuro"
+        "es": "futuro",
+        "en": "future"
       }
     }
   ]

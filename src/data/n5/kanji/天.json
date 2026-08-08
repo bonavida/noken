@@ -13,13 +13,15 @@
     {
       "word": "天気[てんき]",
       "meaning": {
-        "es": "tiempo (clima)"
+        "es": "tiempo (clima)",
+        "en": "weather"
       }
     },
     {
       "word": "天才[てんさい]",
       "meaning": {
-        "es": "genio"
+        "es": "genio",
+        "en": "genius"
       }
     }
   ]

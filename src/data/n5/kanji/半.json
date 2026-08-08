@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["mitad"]
+    "es": ["mitad"],
+    "en": ["half"]
   },
   "onyomi": ["ハン"],
   "kunyomi": ["なか.ば"],
@@ -12,43 +13,50 @@
     {
       "word": "半[はん]",
       "meaning": {
-        "es": "y media"
+        "es": "y media",
+        "en": "half past"
       }
     },
     {
       "word": "半分[はんぶん]",
       "meaning": {
-        "es": "la mitad"
+        "es": "la mitad",
+        "en": "half"
       }
     },
     {
       "word": "一時半[いちじはん]",
       "meaning": {
-        "es": "la una y media"
+        "es": "la una y media",
+        "en": "half past one"
       }
     },
     {
       "word": "半[なか]ば",
       "meaning": {
-        "es": "medio, mitad"
+        "es": "medio, mitad",
+        "en": "middle, half"
       }
     },
     {
       "word": "半径[はんけい]",
       "meaning": {
-        "es": "radio (de una circunferencia)"
+        "es": "radio (de una circunferencia)",
+        "en": "radius (of a circle)"
       }
     },
     {
       "word": "前半[ぜんはん]",
       "meaning": {
-        "es": "primera parte"
+        "es": "primera parte",
+        "en": "first half"
       }
     },
     {
       "word": "半島[はんとう]",
       "meaning": {
-        "es": "península"
+        "es": "península",
+        "en": "peninsula"
       }
     }
   ]

@@ -2,7 +2,8 @@
   "character": "始",
   "level": "n5",
   "meanings": {
-    "es": ["empezar"]
+    "es": ["empezar"],
+    "en": ["to begin"]
   },
   "onyomi": ["シ"],
   "kunyomi": ["はじ.める"],
@@ -11,19 +12,22 @@
     {
       "word": "始[はじ]める",
       "meaning": {
-        "es": "empezar"
+        "es": "empezar",
+        "en": "to begin"
       }
     },
     {
       "word": "開始[かいし]",
       "meaning": {
-        "es": "inicio"
+        "es": "inicio",
+        "en": "start"
       }
     },
     {
       "word": "始動[しどう]",
       "meaning": {
-        "es": "puesta en marcha"
+        "es": "puesta en marcha",
+        "en": "start-up"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "始末[しまつ]",
       "meaning": {
-        "es": "ocuparse de, arreglar"
+        "es": "ocuparse de, arreglar",
+        "en": "to deal with, to sort out"
       }
     }
   ],

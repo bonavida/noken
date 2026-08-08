@@ -17,7 +17,8 @@
       "word": "送[おく]ります",
       "kana": "おくります",
       "meaning": {
-        "es": "enviar"
+        "es": "enviar",
+        "en": "to send"
       },
       "type": "verb-godan"
     },
@@ -36,7 +37,8 @@
       "word": "もらいます",
       "kana": "もらいます",
       "meaning": {
-        "es": "recibir"
+        "es": "recibir",
+        "en": "to receive"
       },
       "type": "verb-godan"
     },
@@ -45,7 +47,8 @@
       "word": "貸[か]します",
       "kana": "かします",
       "meaning": {
-        "es": "prestar"
+        "es": "prestar",
+        "en": "to lend"
       },
       "type": "verb-godan"
     },
@@ -54,7 +57,8 @@
       "word": "借[か]ります",
       "kana": "かります",
       "meaning": {
-        "es": "tomar prestado"
+        "es": "tomar prestado",
+        "en": "to borrow"
       },
       "type": "verb-ichidan"
     },
@@ -63,7 +67,8 @@
       "word": "教[おし]えます",
       "kana": "おしえます",
       "meaning": {
-        "es": "enseñar"
+        "es": "enseñar",
+        "en": "to teach"
       },
       "type": "verb-ichidan"
     },
@@ -82,7 +87,8 @@
       "word": "かけます",
       "kana": "かけます",
       "meaning": {
-        "es": "hacer [una llamada]"
+        "es": "hacer [una llamada]",
+        "en": "to make [a call]"
       },
       "type": "verb-ichidan"
     },
@@ -91,7 +97,8 @@
       "word": "手[て]",
       "kana": "て",
       "meaning": {
-        "es": "mano"
+        "es": "mano",
+        "en": "hand"
       },
       "type": "noun"
     },
@@ -100,7 +107,8 @@
       "word": "はし",
       "kana": "はし",
       "meaning": {
-        "es": "palillos"
+        "es": "palillos",
+        "en": "chopsticks"
       },
       "type": "noun"
     },
@@ -129,7 +137,8 @@
       "word": "フォーク",
       "kana": "フォーク",
       "meaning": {
-        "es": "tenedor"
+        "es": "tenedor",
+        "en": "fork"
       },
       "type": "noun"
     },
@@ -138,7 +147,8 @@
       "word": "はさみ",
       "kana": "はさみ",
       "meaning": {
-        "es": "tijeras"
+        "es": "tijeras",
+        "en": "scissors"
       },
       "type": "noun"
     },
@@ -147,7 +157,8 @@
       "word": "パソコン",
       "kana": "パソコン",
       "meaning": {
-        "es": "ordenador personal"
+        "es": "ordenador personal",
+        "en": "personal computer"
       },
       "type": "noun"
     },
@@ -156,7 +167,8 @@
       "word": "ケータイ",
       "kana": "ケータイ",
       "meaning": {
-        "es": "teléfono móvil"
+        "es": "teléfono móvil",
+        "en": "mobile phone"
       },
       "type": "noun"
     },
@@ -175,7 +187,8 @@
       "word": "年賀状[ねんがじょう]",
       "kana": "ねんがじょう",
       "meaning": {
-        "es": "tarjeta de año nuevo"
+        "es": "tarjeta de año nuevo",
+        "en": "New Year card"
       },
       "type": "noun"
     },
@@ -184,7 +197,8 @@
       "word": "パンチ",
       "kana": "パンチ",
       "meaning": {
-        "es": "perforadora"
+        "es": "perforadora",
+        "en": "hole punch"
       },
       "type": "noun"
     },
@@ -193,7 +207,8 @@
       "word": "ホッチキス",
       "kana": "ホッチキス",
       "meaning": {
-        "es": "grapadora"
+        "es": "grapadora",
+        "en": "stapler"
       },
       "type": "noun"
     },
@@ -212,7 +227,8 @@
       "word": "消[け]しゴム",
       "kana": "けしゴム",
       "meaning": {
-        "es": "goma de borrar"
+        "es": "goma de borrar",
+        "en": "eraser"
       },
       "type": "noun"
     },
@@ -221,7 +237,8 @@
       "word": "紙[かみ]",
       "kana": "かみ",
       "meaning": {
-        "es": "papel"
+        "es": "papel",
+        "en": "paper"
       },
       "type": "noun"
     },
@@ -230,7 +247,8 @@
       "word": "花[はな]",
       "kana": "はな",
       "meaning": {
-        "es": "flor"
+        "es": "flor",
+        "en": "flower"
       },
       "type": "noun"
     },
@@ -249,7 +267,8 @@
       "word": "プレゼント",
       "kana": "プレゼント",
       "meaning": {
-        "es": "regalo"
+        "es": "regalo",
+        "en": "present"
       },
       "type": "noun"
     },
@@ -258,7 +277,8 @@
       "word": "荷物[にもつ]",
       "kana": "にもつ",
       "meaning": {
-        "es": "equipaje, paquete"
+        "es": "equipaje, paquete",
+        "en": "luggage, parcel"
       },
       "type": "noun"
     },
@@ -287,7 +307,8 @@
       "word": "クリスマス",
       "kana": "クリスマス",
       "meaning": {
-        "es": "Navidad"
+        "es": "Navidad",
+        "en": "Christmas"
       },
       "type": "noun"
     },
@@ -336,7 +357,8 @@
       "word": "もう",
       "kana": "もう",
       "meaning": {
-        "es": "ya"
+        "es": "ya",
+        "en": "already"
       },
       "type": "adverb"
     },
@@ -345,7 +367,8 @@
       "word": "まだ",
       "kana": "まだ",
       "meaning": {
-        "es": "todavía"
+        "es": "todavía",
+        "en": "still, yet"
       },
       "type": "adverb"
     },
@@ -384,7 +407,8 @@
       "word": "どうぞお 上[あ]がりください",
       "kana": "どうぞおあがりください",
       "meaning": {
-        "es": "pase, por favor"
+        "es": "pase, por favor",
+        "en": "please come in"
       },
       "type": "expression"
     },
@@ -413,7 +437,8 @@
       "word": "いただきます",
       "kana": "いただきます",
       "meaning": {
-        "es": "gracias (antes de comer)"
+        "es": "gracias (antes de comer)",
+        "en": "thank you (before eating)"
       },
       "type": "expression"
     },
@@ -422,7 +447,8 @@
       "word": "ごちそうさま[でした]",
       "kana": "ごちそうさまでした",
       "meaning": {
-        "es": "gracias (después de comer)"
+        "es": "gracias (después de comer)",
+        "en": "thank you (after eating)"
       },
       "type": "expression"
     },
@@ -441,7 +467,8 @@
       "word": "スペイン",
       "kana": "スペイン",
       "meaning": {
-        "es": "España"
+        "es": "España",
+        "en": "Spain"
       },
       "type": "noun"
     }

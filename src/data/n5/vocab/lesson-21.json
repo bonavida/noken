@@ -27,7 +27,8 @@
       "word": "勝[か]ちます",
       "kana": "かちます",
       "meaning": {
-        "es": "ganar"
+        "es": "ganar",
+        "en": "to win"
       },
       "type": "verb-godan"
     },
@@ -36,7 +37,8 @@
       "word": "負[ま]けます",
       "kana": "まけます",
       "meaning": {
-        "es": "perder, ser derrotado"
+        "es": "perder, ser derrotado",
+        "en": "to lose, to be beaten"
       },
       "type": "verb-ichidan"
     },
@@ -45,7 +47,8 @@
       "word": "あります[お 祭[まつ]りが〜]",
       "kana": "あります",
       "meaning": {
-        "es": "tener lugar [un festival]"
+        "es": "tener lugar [un festival]",
+        "en": "to be held [a festival]"
       },
       "type": "verb-godan"
     },
@@ -54,7 +57,8 @@
       "word": "役[やく]に 立[た]ちます",
       "kana": "やくにたちます",
       "meaning": {
-        "es": "ser útil"
+        "es": "ser útil",
+        "en": "to be useful"
       },
       "type": "verb-godan"
     },
@@ -63,7 +67,8 @@
       "word": "動[うご]きます",
       "kana": "うごきます",
       "meaning": {
-        "es": "funcionar, moverse"
+        "es": "funcionar, moverse",
+        "en": "to work, to move"
       },
       "type": "verb-godan"
     },
@@ -82,7 +87,8 @@
       "word": "気[き]をつけます",
       "kana": "きをつけます",
       "meaning": {
-        "es": "prestar atención, tener cuidado"
+        "es": "prestar atención, tener cuidado",
+        "en": "to pay attention, to be careful"
       },
       "type": "verb-ichidan"
     },
@@ -91,7 +97,8 @@
       "word": "留学[りゅうがく]します",
       "kana": "りゅうがくします",
       "meaning": {
-        "es": "estudiar en el extranjero"
+        "es": "estudiar en el extranjero",
+        "en": "to study abroad"
       },
       "type": "verb-irregular"
     },
@@ -100,7 +107,8 @@
       "word": "むだ[な]",
       "kana": "むだ",
       "meaning": {
-        "es": "innecesario, inútil"
+        "es": "innecesario, inútil",
+        "en": "unnecessary, useless"
       },
       "type": "adjective-na"
     },
@@ -109,7 +117,8 @@
       "word": "不便[ふべん][な]",
       "kana": "ふべん",
       "meaning": {
-        "es": "inconveniente"
+        "es": "inconveniente",
+        "en": "inconvenient"
       },
       "type": "adjective-na"
     },
@@ -118,7 +127,8 @@
       "word": "すごい",
       "kana": "すごい",
       "meaning": {
-        "es": "terrible, maravilloso"
+        "es": "terrible, maravilloso",
+        "en": "terrible, amazing"
       },
       "type": "adjective-i"
     },
@@ -127,7 +137,8 @@
       "word": "ほんとう",
       "kana": "ほんとう",
       "meaning": {
-        "es": "verdad"
+        "es": "verdad",
+        "en": "truth"
       },
       "type": "noun"
     },
@@ -136,7 +147,8 @@
       "word": "うそ",
       "kana": "うそ",
       "meaning": {
-        "es": "mentira"
+        "es": "mentira",
+        "en": "lie"
       },
       "type": "noun"
     },
@@ -155,7 +167,8 @@
       "word": "交通[こうつう]",
       "kana": "こうつう",
       "meaning": {
-        "es": "transporte, tráfico"
+        "es": "transporte, tráfico",
+        "en": "transport, traffic"
       },
       "type": "noun"
     },
@@ -174,7 +187,8 @@
       "word": "放送[ほうそう]",
       "kana": "ほうそう",
       "meaning": {
-        "es": "transmisión, emisión"
+        "es": "transmisión, emisión",
+        "en": "broadcast"
       },
       "type": "noun"
     },
@@ -183,7 +197,8 @@
       "word": "ニュース",
       "kana": "ニュース",
       "meaning": {
-        "es": "noticia"
+        "es": "noticia",
+        "en": "news"
       },
       "type": "noun"
     },
@@ -222,7 +237,8 @@
       "word": "夢[ゆめ]",
       "kana": "ゆめ",
       "meaning": {
-        "es": "sueño"
+        "es": "sueño",
+        "en": "dream"
       },
       "type": "noun"
     },
@@ -231,7 +247,8 @@
       "word": "天才[てんさい]",
       "kana": "てんさい",
       "meaning": {
-        "es": "genio"
+        "es": "genio",
+        "en": "genius"
       },
       "type": "noun"
     },
@@ -240,7 +257,8 @@
       "word": "試合[しあい]",
       "kana": "しあい",
       "meaning": {
-        "es": "partido"
+        "es": "partido",
+        "en": "match, game"
       },
       "type": "noun"
     },
@@ -249,7 +267,8 @@
       "word": "意見[いけん]",
       "kana": "いけん",
       "meaning": {
-        "es": "opinión"
+        "es": "opinión",
+        "en": "opinion"
       },
       "type": "noun"
     },
@@ -268,7 +287,8 @@
       "word": "地球[ちきゅう]",
       "kana": "ちきゅう",
       "meaning": {
-        "es": "la Tierra"
+        "es": "la Tierra",
+        "en": "the Earth"
       },
       "type": "noun"
     },
@@ -277,7 +297,8 @@
       "word": "月[つき]",
       "kana": "つき",
       "meaning": {
-        "es": "luna"
+        "es": "luna",
+        "en": "moon"
       },
       "type": "noun"
     },
@@ -286,7 +307,8 @@
       "word": "最近[さいきん]",
       "kana": "さいきん",
       "meaning": {
-        "es": "últimamente"
+        "es": "últimamente",
+        "en": "lately"
       },
       "type": "adverb"
     },
@@ -295,7 +317,8 @@
       "word": "たぶん",
       "kana": "たぶん",
       "meaning": {
-        "es": "probablemente, quizás"
+        "es": "probablemente, quizás",
+        "en": "probably, maybe"
       },
       "type": "adverb"
     },
@@ -304,7 +327,8 @@
       "word": "きっと",
       "kana": "きっと",
       "meaning": {
-        "es": "sin falta, seguramente"
+        "es": "sin falta, seguramente",
+        "en": "without fail, surely"
       },
       "type": "adverb"
     },
@@ -313,7 +337,8 @@
       "word": "ほんとうに",
       "kana": "ほんとうに",
       "meaning": {
-        "es": "realmente"
+        "es": "realmente",
+        "en": "really"
       },
       "type": "adverb"
     },
@@ -322,7 +347,8 @@
       "word": "そんなに",
       "kana": "そんなに",
       "meaning": {
-        "es": "no tan (con negación)"
+        "es": "no tan (con negación)",
+        "en": "not so (with a negative)"
       },
       "type": "adverb"
     },
@@ -331,7 +357,8 @@
       "word": "〜について",
       "kana": "について",
       "meaning": {
-        "es": "sobre, con respecto a ~"
+        "es": "sobre, con respecto a ~",
+        "en": "about, regarding ~"
       },
       "type": "expression"
     },
@@ -360,7 +387,8 @@
       "word": "もちろん",
       "kana": "もちろん",
       "meaning": {
-        "es": "naturalmente, por supuesto"
+        "es": "naturalmente, por supuesto",
+        "en": "naturally, of course"
       },
       "type": "adverb"
     },
@@ -369,7 +397,8 @@
       "word": "もう 帰[かえ]らないと……",
       "kana": "もうかえらないと",
       "meaning": {
-        "es": "tengo que irme ya"
+        "es": "tengo que irme ya",
+        "en": "I have to go now"
       },
       "type": "expression"
     }

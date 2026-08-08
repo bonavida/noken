@@ -2,7 +2,8 @@
   "character": "太",
   "level": "n5",
   "meanings": {
-    "es": ["gordo", "grueso"]
+    "es": ["gordo", "grueso"],
+    "en": ["fat", "thick"]
   },
   "onyomi": ["タイ"],
   "kunyomi": ["ふと.い", "ふと.る"],
@@ -11,31 +12,36 @@
     {
       "word": "太[ふと]い",
       "meaning": {
-        "es": "gordo, grueso"
+        "es": "gordo, grueso",
+        "en": "fat, thick"
       }
     },
     {
       "word": "太[ふと]る",
       "meaning": {
-        "es": "engordar"
+        "es": "engordar",
+        "en": "to put on weight"
       }
     },
     {
       "word": "太字[ふとじ]",
       "meaning": {
-        "es": "negrita"
+        "es": "negrita",
+        "en": "bold type"
       }
     },
     {
       "word": "太陽[たいよう]",
       "meaning": {
-        "es": "sol (astro)"
+        "es": "sol (astro)",
+        "en": "the sun"
       }
     },
     {
       "word": "太平洋[たいへいよう]",
       "meaning": {
-        "es": "Océano Pacífico"
+        "es": "Océano Pacífico",
+        "en": "the Pacific Ocean"
       }
     }
   ]

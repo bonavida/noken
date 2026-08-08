@@ -2,7 +2,8 @@
   "character": "方",
   "level": "n5",
   "meanings": {
-    "es": ["dirección", "persona", "manera de"]
+    "es": ["dirección", "persona", "manera de"],
+    "en": ["direction", "person", "way of"]
   },
   "onyomi": ["ホウ"],
   "kunyomi": ["かた"],
@@ -18,7 +19,8 @@
     {
       "word": "方法[ほうほう]",
       "meaning": {
-        "es": "manera, método"
+        "es": "manera, método",
+        "en": "way, method"
       }
     },
     {
@@ -31,13 +33,15 @@
     {
       "word": "話[はな]し 方[かた]",
       "meaning": {
-        "es": "modo de hablar"
+        "es": "modo de hablar",
+        "en": "way of speaking"
       }
     },
     {
       "word": "方[かた]",
       "meaning": {
-        "es": "persona (formal)"
+        "es": "persona (formal)",
+        "en": "person (polite)"
       }
     }
   ],

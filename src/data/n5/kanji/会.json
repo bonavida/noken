@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["reunirse", "encontrarse", "sociedad", "reunión"]
+    "es": ["reunirse", "encontrarse", "sociedad", "reunión"],
+    "en": ["to meet", "society", "meeting"]
   },
   "onyomi": ["カイ"],
   "kunyomi": ["あ.う"],
@@ -12,31 +13,36 @@
     {
       "word": "会[あ]います",
       "meaning": {
-        "es": "encontrarse"
+        "es": "encontrarse",
+        "en": "to meet"
       }
     },
     {
       "word": "会社[かいしゃ]",
       "meaning": {
-        "es": "empresa"
+        "es": "empresa",
+        "en": "company"
       }
     },
     {
       "word": "会議[かいぎ]",
       "meaning": {
-        "es": "reunión"
+        "es": "reunión",
+        "en": "meeting"
       }
     },
     {
       "word": "会[あ]う",
       "meaning": {
-        "es": "encontrarse"
+        "es": "encontrarse",
+        "en": "to meet"
       }
     },
     {
       "word": "出会[であ]い",
       "meaning": {
-        "es": "encuentro"
+        "es": "encuentro",
+        "en": "meeting, encounter"
       }
     },
     {
@@ -49,7 +55,8 @@
     {
       "word": "会員[かいいん]",
       "meaning": {
-        "es": "miembro"
+        "es": "miembro",
+        "en": "member"
       }
     }
   ],

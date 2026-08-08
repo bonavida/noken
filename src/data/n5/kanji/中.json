@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["dentro", "medio", "centro"]
+    "es": ["dentro", "medio", "centro"],
+    "en": ["inside", "middle", "centre"]
   },
   "onyomi": ["チュウ"],
   "kunyomi": ["なか"],
@@ -26,7 +27,8 @@
     {
       "word": "中学校[ちゅうがっこう]",
       "meaning": {
-        "es": "secundaria"
+        "es": "secundaria",
+        "en": "secondary school"
       }
     },
     {
@@ -39,7 +41,8 @@
     {
       "word": "中東[ちゅうとう]",
       "meaning": {
-        "es": "Oriente Medio"
+        "es": "Oriente Medio",
+        "en": "the Middle East"
       }
     },
     {

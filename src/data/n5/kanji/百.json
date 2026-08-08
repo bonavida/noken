@@ -20,7 +20,8 @@
     {
       "word": "三百[さんびゃく]",
       "meaning": {
-        "es": "trescientos"
+        "es": "trescientos",
+        "en": "three hundred"
       }
     },
     {
@@ -40,13 +41,15 @@
     {
       "word": "百科事典[ひゃっかじてん]",
       "meaning": {
-        "es": "enciclopedia"
+        "es": "enciclopedia",
+        "en": "encyclopaedia"
       }
     },
     {
       "word": "八百屋[やおや]",
       "meaning": {
-        "es": "verdulería"
+        "es": "verdulería",
+        "en": "greengrocer's"
       }
     }
   ],

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 16,
   "meanings": {
-    "es": ["largo", "jefe"]
+    "es": ["largo", "jefe"],
+    "en": ["long", "boss"]
   },
   "onyomi": ["チョウ"],
   "kunyomi": ["なが.い"],
@@ -12,19 +13,22 @@
     {
       "word": "長[なが]い",
       "meaning": {
-        "es": "largo"
+        "es": "largo",
+        "en": "long"
       }
     },
     {
       "word": "社長[しゃちょう]",
       "meaning": {
-        "es": "presidente"
+        "es": "presidente",
+        "en": "president"
       }
     },
     {
       "word": "部長[ぶちょう]",
       "meaning": {
-        "es": "gerente"
+        "es": "gerente",
+        "en": "manager"
       }
     }
   ]

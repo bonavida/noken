@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 5,
   "meanings": {
-    "es": ["semana"]
+    "es": ["semana"],
+    "en": ["week"]
   },
   "onyomi": ["シュウ"],
   "kunyomi": [],
@@ -12,19 +13,22 @@
     {
       "word": "先週[せんしゅう]",
       "meaning": {
-        "es": "la semana pasada"
+        "es": "la semana pasada",
+        "en": "last week"
       }
     },
     {
       "word": "週末[しゅうまつ]",
       "meaning": {
-        "es": "fin de semana"
+        "es": "fin de semana",
+        "en": "weekend"
       }
     },
     {
       "word": "一週間[いっしゅうかん]",
       "meaning": {
-        "es": "una semana"
+        "es": "una semana",
+        "en": "one week"
       }
     }
   ]

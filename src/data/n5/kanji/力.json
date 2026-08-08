@@ -2,7 +2,8 @@
   "character": "力",
   "level": "n5",
   "meanings": {
-    "es": ["fuerza"]
+    "es": ["fuerza"],
+    "en": ["strength"]
   },
   "onyomi": ["リョク", "リキ"],
   "kunyomi": ["ちから"],
@@ -11,7 +12,8 @@
     {
       "word": "力[ちから]",
       "meaning": {
-        "es": "fuerza"
+        "es": "fuerza",
+        "en": "strength"
       }
     },
     {
@@ -24,7 +26,8 @@
     {
       "word": "体力[たいりょく]",
       "meaning": {
-        "es": "fuerza física, resistencia"
+        "es": "fuerza física, resistencia",
+        "en": "physical strength, stamina"
       }
     },
     {
@@ -37,13 +40,15 @@
     {
       "word": "暴力[ぼうりょく]",
       "meaning": {
-        "es": "violencia"
+        "es": "violencia",
+        "en": "violence"
       }
     },
     {
       "word": "力士[りきし]",
       "meaning": {
-        "es": "luchador de sumo"
+        "es": "luchador de sumo",
+        "en": "sumo wrestler"
       }
     }
   ]

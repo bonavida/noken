@@ -2,7 +2,8 @@
   "character": "冬",
   "level": "n5",
   "meanings": {
-    "es": ["invierno"]
+    "es": ["invierno"],
+    "en": ["winter"]
   },
   "onyomi": ["トウ"],
   "kunyomi": ["ふゆ"],
@@ -11,31 +12,36 @@
     {
       "word": "冬[ふゆ]",
       "meaning": {
-        "es": "invierno"
+        "es": "invierno",
+        "en": "winter"
       }
     },
     {
       "word": "冬休[ふゆやす]み",
       "meaning": {
-        "es": "vacaciones de invierno"
+        "es": "vacaciones de invierno",
+        "en": "winter holidays"
       }
     },
     {
       "word": "真冬[まふゆ]",
       "meaning": {
-        "es": "pleno invierno"
+        "es": "pleno invierno",
+        "en": "midwinter"
       }
     },
     {
       "word": "初冬[しょとう]",
       "meaning": {
-        "es": "principios de invierno"
+        "es": "principios de invierno",
+        "en": "early winter"
       }
     },
     {
       "word": "冬眠[とうみん]",
       "meaning": {
-        "es": "hibernación"
+        "es": "hibernación",
+        "en": "hibernation"
       }
     }
   ],

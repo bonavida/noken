@@ -27,7 +27,8 @@
     {
       "word": "名前[なまえ]",
       "meaning": {
-        "es": "nombre"
+        "es": "nombre",
+        "en": "name"
       }
     },
     {
@@ -40,7 +41,8 @@
     {
       "word": "前線[ぜんせん]",
       "meaning": {
-        "es": "frente meteorológico"
+        "es": "frente meteorológico",
+        "en": "weather front"
       }
     },
     {

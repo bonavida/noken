@@ -7,7 +7,8 @@
       "word": "わかります",
       "kana": "わかります",
       "meaning": {
-        "es": "entender, comprender"
+        "es": "entender, comprender",
+        "en": "to understand"
       },
       "type": "verb-godan"
     },
@@ -16,7 +17,8 @@
       "word": "あります",
       "kana": "あります",
       "meaning": {
-        "es": "haber, tener"
+        "es": "haber, tener",
+        "en": "to have, there is"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "好[す]き[な]",
       "kana": "すき",
       "meaning": {
-        "es": "gustar"
+        "es": "gustar",
+        "en": "to like"
       },
       "type": "adjective-na"
     },
@@ -34,7 +37,8 @@
       "word": "嫌[きら]い[な]",
       "kana": "きらい",
       "meaning": {
-        "es": "no gustar"
+        "es": "no gustar",
+        "en": "to dislike"
       },
       "type": "adjective-na"
     },
@@ -43,7 +47,8 @@
       "word": "上手[じょうず][な]",
       "kana": "じょうず",
       "meaning": {
-        "es": "ser bueno, ser hábil"
+        "es": "ser bueno, ser hábil",
+        "en": "to be good at"
       },
       "type": "adjective-na"
     },
@@ -52,7 +57,8 @@
       "word": "下手[へた][な]",
       "kana": "へた",
       "meaning": {
-        "es": "no ser hábil"
+        "es": "no ser hábil",
+        "en": "to be no good at"
       },
       "type": "adjective-na"
     },
@@ -71,7 +77,8 @@
       "word": "料理[りょうり]",
       "kana": "りょうり",
       "meaning": {
-        "es": "plato, cocina"
+        "es": "plato, cocina",
+        "en": "dish, cuisine"
       },
       "type": "noun"
     },
@@ -110,7 +117,8 @@
       "word": "旅行[りょこう]",
       "kana": "りょこう",
       "meaning": {
-        "es": "viaje"
+        "es": "viaje",
+        "en": "trip, journey"
       },
       "type": "noun"
     },
@@ -119,7 +127,8 @@
       "word": "音楽[おんがく]",
       "kana": "おんがく",
       "meaning": {
-        "es": "música"
+        "es": "música",
+        "en": "music"
       },
       "type": "noun"
     },
@@ -138,7 +147,8 @@
       "word": "クラシック",
       "kana": "クラシック",
       "meaning": {
-        "es": "música clásica"
+        "es": "música clásica",
+        "en": "classical music"
       },
       "type": "noun"
     },
@@ -147,7 +157,8 @@
       "word": "ジャズ",
       "kana": "ジャズ",
       "meaning": {
-        "es": "jazz"
+        "es": "jazz",
+        "en": "jazz"
       },
       "type": "noun"
     },
@@ -166,7 +177,8 @@
       "word": "カラオケ",
       "kana": "カラオケ",
       "meaning": {
-        "es": "karaoke"
+        "es": "karaoke",
+        "en": "karaoke"
       },
       "type": "noun"
     },
@@ -175,7 +187,8 @@
       "word": "歌舞伎[かぶき]",
       "kana": "かぶき",
       "meaning": {
-        "es": "kabuki (teatro tradicional)"
+        "es": "kabuki (teatro tradicional)",
+        "en": "kabuki (traditional theatre)"
       },
       "type": "noun"
     },
@@ -184,7 +197,8 @@
       "word": "絵[え]",
       "kana": "え",
       "meaning": {
-        "es": "pintura, dibujo"
+        "es": "pintura, dibujo",
+        "en": "painting, drawing"
       },
       "type": "noun"
     },
@@ -193,7 +207,8 @@
       "word": "字[じ]",
       "kana": "じ",
       "meaning": {
-        "es": "letra"
+        "es": "letra",
+        "en": "letter, character"
       },
       "type": "noun"
     },
@@ -212,7 +227,8 @@
       "word": "ひらがな",
       "kana": "ひらがな",
       "meaning": {
-        "es": "escritura hiragana"
+        "es": "escritura hiragana",
+        "en": "hiragana script"
       },
       "type": "noun"
     },
@@ -221,7 +237,8 @@
       "word": "かたかな",
       "kana": "かたかな",
       "meaning": {
-        "es": "escritura katakana"
+        "es": "escritura katakana",
+        "en": "katakana script"
       },
       "type": "noun"
     },
@@ -250,7 +267,8 @@
       "word": "チケット",
       "kana": "チケット",
       "meaning": {
-        "es": "entrada"
+        "es": "entrada",
+        "en": "entrance"
       },
       "type": "noun"
     },
@@ -259,7 +277,8 @@
       "word": "時間[じかん]",
       "kana": "じかん",
       "meaning": {
-        "es": "tiempo"
+        "es": "tiempo",
+        "en": "time"
       },
       "type": "noun"
     },
@@ -288,7 +307,8 @@
       "word": "アルバイト",
       "kana": "アルバイト",
       "meaning": {
-        "es": "trabajo temporal"
+        "es": "trabajo temporal",
+        "en": "part-time job"
       },
       "type": "noun"
     },
@@ -337,7 +357,8 @@
       "word": "子[こ]ども",
       "kana": "こども",
       "meaning": {
-        "es": "niño, (mi) hijo"
+        "es": "niño, (mi) hijo",
+        "en": "child, (my) son"
       },
       "type": "noun"
     },
@@ -356,7 +377,8 @@
       "word": "だいたい",
       "kana": "だいたい",
       "meaning": {
-        "es": "más o menos"
+        "es": "más o menos",
+        "en": "more or less"
       },
       "type": "adverb"
     },
@@ -365,7 +387,8 @@
       "word": "たくさん",
       "kana": "たくさん",
       "meaning": {
-        "es": "mucho"
+        "es": "mucho",
+        "en": "a lot, much"
       },
       "type": "adverb"
     },
@@ -374,7 +397,8 @@
       "word": "少[すこ]し",
       "kana": "すこし",
       "meaning": {
-        "es": "poco, un poco"
+        "es": "poco, un poco",
+        "en": "a little"
       },
       "type": "adverb"
     },
@@ -383,7 +407,8 @@
       "word": "全然[ぜんぜん]",
       "kana": "ぜんぜん",
       "meaning": {
-        "es": "nada ~ (con negación)"
+        "es": "nada ~ (con negación)",
+        "en": "nothing ~ (with a negative)"
       },
       "type": "adverb"
     },
@@ -392,7 +417,8 @@
       "word": "早[はや]く・速[はや]く",
       "kana": "はやく",
       "meaning": {
-        "es": "temprano, rápido"
+        "es": "temprano, rápido",
+        "en": "early, fast"
       },
       "type": "adverb"
     },
@@ -401,7 +427,8 @@
       "word": "〜から",
       "kana": "から",
       "meaning": {
-        "es": "porque ~"
+        "es": "porque ~",
+        "en": "because ~"
       },
       "type": "particle"
     },
@@ -410,7 +437,8 @@
       "word": "どうして",
       "kana": "どうして",
       "meaning": {
-        "es": "por qué"
+        "es": "por qué",
+        "en": "why"
       },
       "type": "interrogative"
     },
@@ -419,7 +447,8 @@
       "word": "貸[か]してください",
       "kana": "かしてください",
       "meaning": {
-        "es": "présteme, por favor"
+        "es": "présteme, por favor",
+        "en": "please lend me"
       },
       "type": "expression"
     },
@@ -428,7 +457,8 @@
       "word": "いいですよ",
       "kana": "いいですよ",
       "meaning": {
-        "es": "sí, claro"
+        "es": "sí, claro",
+        "en": "yes, of course"
       },
       "type": "expression"
     },
@@ -437,7 +467,8 @@
       "word": "残念[ざんねん]です[が]",
       "kana": "ざんねんですが",
       "meaning": {
-        "es": "lo siento[, pero…]"
+        "es": "lo siento[, pero…]",
+        "en": "I'm sorry[, but…]"
       },
       "type": "expression"
     },
@@ -486,7 +517,8 @@
       "word": "また 今度[こんど]お 願[ねが]いします",
       "kana": "またこんどおねがいします",
       "meaning": {
-        "es": "vuelva a invitarme otra vez"
+        "es": "vuelva a invitarme otra vez",
+        "en": "please invite me again"
       },
       "type": "expression"
     }

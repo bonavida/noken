@@ -2,7 +2,8 @@
   "character": "待",
   "level": "n5",
   "meanings": {
-    "es": ["esperar"]
+    "es": ["esperar"],
+    "en": ["to wait"]
   },
   "onyomi": ["タイ"],
   "kunyomi": ["ま.つ"],
@@ -11,31 +12,36 @@
     {
       "word": "待[ま]つ",
       "meaning": {
-        "es": "esperar"
+        "es": "esperar",
+        "en": "to wait"
       }
     },
     {
       "word": "信号待[しんごうま]ち",
       "meaning": {
-        "es": "esperar en el semáforo"
+        "es": "esperar en el semáforo",
+        "en": "to wait at the traffic light"
       }
     },
     {
       "word": "期待[きたい]",
       "meaning": {
-        "es": "expectativa"
+        "es": "expectativa",
+        "en": "expectation"
       }
     },
     {
       "word": "招待[しょうたい]",
       "meaning": {
-        "es": "invitación"
+        "es": "invitación",
+        "en": "invitation"
       }
     },
     {
       "word": "接待[せったい]",
       "meaning": {
-        "es": "recibir, atender"
+        "es": "recibir, atender",
+        "en": "to receive, to attend to"
       }
     }
   ],

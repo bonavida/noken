@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["qué"]
+    "es": ["qué"],
+    "en": ["what"]
   },
   "onyomi": ["カ"],
   "kunyomi": ["なに", "なん"],
@@ -12,13 +13,15 @@
     {
       "word": "何[なに]",
       "meaning": {
-        "es": "qué"
+        "es": "qué",
+        "en": "what"
       }
     },
     {
       "word": "何時[なんじ]",
       "meaning": {
-        "es": "qué hora"
+        "es": "qué hora",
+        "en": "what time"
       }
     },
     {

@@ -2,7 +2,8 @@
   "character": "作",
   "level": "n5",
   "meanings": {
-    "es": ["hacer", "crear"]
+    "es": ["hacer", "crear"],
+    "en": ["to do, to make", "to create"]
   },
   "onyomi": ["サク", "サ"],
   "kunyomi": ["つく.る"],
@@ -11,31 +12,36 @@
     {
       "word": "作[つく]る",
       "meaning": {
-        "es": "hacer, crear"
+        "es": "hacer, crear",
+        "en": "to make, to create"
       }
     },
     {
       "word": "製作[せいさく]",
       "meaning": {
-        "es": "fabricación"
+        "es": "fabricación",
+        "en": "manufacture"
       }
     },
     {
       "word": "作品[さくひん]",
       "meaning": {
-        "es": "obra"
+        "es": "obra",
+        "en": "work (of art)"
       }
     },
     {
       "word": "作戦[さくせん]",
       "meaning": {
-        "es": "estrategia"
+        "es": "estrategia",
+        "en": "strategy"
       }
     },
     {
       "word": "作業[さぎょう]",
       "meaning": {
-        "es": "trabajo, operación"
+        "es": "trabajo, operación",
+        "en": "work, operation"
       }
     }
   ],

@@ -7,7 +7,8 @@
       "word": "つけます",
       "kana": "つけます",
       "meaning": {
-        "es": "encender"
+        "es": "encender",
+        "en": "to turn on"
       },
       "type": "verb-ichidan"
     },
@@ -56,7 +57,8 @@
       "word": "待[ま]ちます",
       "kana": "まちます",
       "meaning": {
-        "es": "esperar"
+        "es": "esperar",
+        "en": "to wait"
       },
       "type": "verb-godan"
     },
@@ -65,7 +67,8 @@
       "word": "持[も]ちます",
       "kana": "もちます",
       "meaning": {
-        "es": "tener en la mano, llevar"
+        "es": "tener en la mano, llevar",
+        "en": "to hold, to carry"
       },
       "type": "verb-godan"
     },
@@ -74,7 +77,8 @@
       "word": "取[と]ります",
       "kana": "とります",
       "meaning": {
-        "es": "tomar, pasar (algo a alguien)"
+        "es": "tomar, pasar (algo a alguien)",
+        "en": "to take, to pass (something to someone)"
       },
       "type": "verb-godan"
     },
@@ -93,7 +97,8 @@
       "word": "呼[よ]びます",
       "kana": "よびます",
       "meaning": {
-        "es": "llamar"
+        "es": "llamar",
+        "en": "to call"
       },
       "type": "verb-godan"
     },
@@ -102,7 +107,8 @@
       "word": "話[はな]します",
       "kana": "はなします",
       "meaning": {
-        "es": "hablar"
+        "es": "hablar",
+        "en": "to speak"
       },
       "type": "verb-godan"
     },
@@ -111,7 +117,8 @@
       "word": "使[つか]います",
       "kana": "つかいます",
       "meaning": {
-        "es": "usar"
+        "es": "usar",
+        "en": "to use"
       },
       "type": "verb-godan"
     },
@@ -120,7 +127,8 @@
       "word": "止[と]めます",
       "kana": "とめます",
       "meaning": {
-        "es": "parar, estacionar"
+        "es": "parar, estacionar",
+        "en": "to stop, to park"
       },
       "type": "verb-ichidan"
     },
@@ -129,7 +137,8 @@
       "word": "見[み]せます",
       "kana": "みせます",
       "meaning": {
-        "es": "mostrar, enseñar"
+        "es": "mostrar, enseñar",
+        "en": "to show"
       },
       "type": "verb-ichidan"
     },
@@ -148,7 +157,8 @@
       "word": "座[すわ]ります",
       "kana": "すわります",
       "meaning": {
-        "es": "sentarse"
+        "es": "sentarse",
+        "en": "to sit down"
       },
       "type": "verb-godan"
     },
@@ -157,7 +167,8 @@
       "word": "立[た]ちます",
       "kana": "たちます",
       "meaning": {
-        "es": "ponerse de pie"
+        "es": "ponerse de pie",
+        "en": "to stand up"
       },
       "type": "verb-godan"
     },
@@ -166,7 +177,8 @@
       "word": "入[はい]ります[喫茶店[きっさてん]に〜]",
       "kana": "はいります",
       "meaning": {
-        "es": "entrar [en una cafetería]"
+        "es": "entrar [en una cafetería]",
+        "en": "to go into [a café]"
       },
       "type": "verb-godan"
     },
@@ -175,7 +187,8 @@
       "word": "出[で]ます[喫茶店[きっさてん]を〜]",
       "kana": "でます",
       "meaning": {
-        "es": "salir [de una cafetería]"
+        "es": "salir [de una cafetería]",
+        "en": "to leave [a café]"
       },
       "type": "verb-ichidan"
     },
@@ -184,7 +197,8 @@
       "word": "降[ふ]ります[雨[あめ]が〜]",
       "kana": "ふります",
       "meaning": {
-        "es": "llover"
+        "es": "llover",
+        "en": "to rain"
       },
       "type": "verb-godan"
     },
@@ -193,7 +207,8 @@
       "word": "コピーします",
       "kana": "コピーします",
       "meaning": {
-        "es": "sacar fotocopias"
+        "es": "sacar fotocopias",
+        "en": "to make photocopies"
       },
       "type": "verb-irregular"
     },
@@ -202,7 +217,8 @@
       "word": "電気[でんき]",
       "kana": "でんき",
       "meaning": {
-        "es": "electricidad, luz"
+        "es": "electricidad, luz",
+        "en": "electricity, light"
       },
       "type": "noun"
     },
@@ -221,7 +237,8 @@
       "word": "パスポート",
       "kana": "パスポート",
       "meaning": {
-        "es": "pasaporte"
+        "es": "pasaporte",
+        "en": "passport"
       },
       "type": "noun"
     },
@@ -230,7 +247,8 @@
       "word": "名前[なまえ]",
       "kana": "なまえ",
       "meaning": {
-        "es": "nombre"
+        "es": "nombre",
+        "en": "name"
       },
       "type": "noun"
     },
@@ -249,7 +267,8 @@
       "word": "地図[ちず]",
       "kana": "ちず",
       "meaning": {
-        "es": "mapa, plano"
+        "es": "mapa, plano",
+        "en": "map, plan"
       },
       "type": "noun"
     },
@@ -258,7 +277,8 @@
       "word": "塩[しお]",
       "kana": "しお",
       "meaning": {
-        "es": "sal"
+        "es": "sal",
+        "en": "salt"
       },
       "type": "noun"
     },
@@ -277,7 +297,8 @@
       "word": "問題[もんだい]",
       "kana": "もんだい",
       "meaning": {
-        "es": "pregunta, problema"
+        "es": "pregunta, problema",
+        "en": "question, problem"
       },
       "type": "noun"
     },
@@ -286,7 +307,8 @@
       "word": "答[こた]え",
       "kana": "こたえ",
       "meaning": {
-        "es": "respuesta"
+        "es": "respuesta",
+        "en": "answer"
       },
       "type": "noun"
     },
@@ -305,7 +327,8 @@
       "word": "〜方[かた]",
       "kana": "かた",
       "meaning": {
-        "es": "modo de ~, manera de ~"
+        "es": "modo de ~, manera de ~",
+        "en": "way of ~"
       },
       "type": "expression"
     },
@@ -334,7 +357,8 @@
       "word": "すぐ",
       "kana": "すぐ",
       "meaning": {
-        "es": "inmediatamente"
+        "es": "inmediatamente",
+        "en": "immediately"
       },
       "type": "adverb"
     },
@@ -363,7 +387,8 @@
       "word": "もう 少[すこ]し",
       "kana": "もうすこし",
       "meaning": {
-        "es": "un poco más"
+        "es": "un poco más",
+        "en": "a little more"
       },
       "type": "adverb"
     },

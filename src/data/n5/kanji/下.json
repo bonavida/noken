@@ -20,13 +20,15 @@
     {
       "word": "下手[へた]",
       "meaning": {
-        "es": "poco hábil"
+        "es": "poco hábil",
+        "en": "not good at"
       }
     },
     {
       "word": "地下[ちか]",
       "meaning": {
-        "es": "sótano"
+        "es": "sótano",
+        "en": "basement"
       }
     },
     {
@@ -46,13 +48,15 @@
     {
       "word": "地下鉄[ちかてつ]",
       "meaning": {
-        "es": "metro"
+        "es": "metro",
+        "en": "underground, subway"
       }
     },
     {
       "word": "下品[げひん]",
       "meaning": {
-        "es": "vulgar"
+        "es": "vulgar",
+        "en": "vulgar"
       }
     }
   ]

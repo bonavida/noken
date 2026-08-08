@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["siete"]
+    "es": ["siete"],
+    "en": ["seven"]
   },
   "onyomi": ["シチ"],
   "kunyomi": ["なな", "なな.つ"],
@@ -12,25 +13,29 @@
     {
       "word": "七[なな]",
       "meaning": {
-        "es": "siete"
+        "es": "siete",
+        "en": "seven"
       }
     },
     {
       "word": "七[なな]つ",
       "meaning": {
-        "es": "siete cosas"
+        "es": "siete cosas",
+        "en": "seven things"
       }
     },
     {
       "word": "七月[しちがつ]",
       "meaning": {
-        "es": "julio"
+        "es": "julio",
+        "en": "July"
       }
     },
     {
       "word": "七人[しちにん]",
       "meaning": {
-        "es": "siete personas"
+        "es": "siete personas",
+        "en": "seven people"
       }
     },
     {

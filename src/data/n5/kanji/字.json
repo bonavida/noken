@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 9,
   "meanings": {
-    "es": ["carácter", "letra"]
+    "es": ["carácter", "letra"],
+    "en": ["character", "letter, character"]
   },
   "onyomi": ["ジ"],
   "kunyomi": [],
@@ -12,13 +13,15 @@
     {
       "word": "字[じ]",
       "meaning": {
-        "es": "letra"
+        "es": "letra",
+        "en": "letter, character"
       }
     },
     {
       "word": "漢字[かんじ]",
       "meaning": {
-        "es": "kanji"
+        "es": "kanji",
+        "en": "kanji"
       }
     },
     {
@@ -31,13 +34,15 @@
     {
       "word": "数字[すうじ]",
       "meaning": {
-        "es": "número, cifra"
+        "es": "número, cifra",
+        "en": "number, figure"
       }
     },
     {
       "word": "太字[ふとじ]",
       "meaning": {
-        "es": "negrita"
+        "es": "negrita",
+        "en": "bold type"
       }
     }
   ],

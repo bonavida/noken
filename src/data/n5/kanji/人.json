@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["persona"]
+    "es": ["persona"],
+    "en": ["person"]
   },
   "onyomi": ["ジン", "ニン"],
   "kunyomi": ["ひと"],
@@ -12,31 +13,36 @@
     {
       "word": "人[ひと]",
       "meaning": {
-        "es": "persona"
+        "es": "persona",
+        "en": "person"
       }
     },
     {
       "word": "日本人[にほんじん]",
       "meaning": {
-        "es": "japonés (persona)"
+        "es": "japonés (persona)",
+        "en": "Japanese (person)"
       }
     },
     {
       "word": "三人[さんにん]",
       "meaning": {
-        "es": "tres personas"
+        "es": "tres personas",
+        "en": "three people"
       }
     },
     {
       "word": "人間[にんげん]",
       "meaning": {
-        "es": "persona, ser humano"
+        "es": "persona, ser humano",
+        "en": "person, human being"
       }
     },
     {
       "word": "人気[にんき]",
       "meaning": {
-        "es": "popularidad"
+        "es": "popularidad",
+        "en": "popularity"
       }
     },
     {

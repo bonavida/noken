@@ -17,7 +17,8 @@
       "word": "直[なお]します",
       "kana": "なおします",
       "meaning": {
-        "es": "reparar, corregir"
+        "es": "reparar, corregir",
+        "en": "to repair, to correct"
       },
       "type": "verb-godan"
     },
@@ -26,7 +27,8 @@
       "word": "連[つ]れて 行[い]きます",
       "kana": "つれていきます",
       "meaning": {
-        "es": "llevar (a alguien)"
+        "es": "llevar (a alguien)",
+        "en": "to take (someone)"
       },
       "type": "verb-godan"
     },
@@ -35,7 +37,8 @@
       "word": "連[つ]れて 来[き]ます",
       "kana": "つれてきます",
       "meaning": {
-        "es": "traer (a alguien)"
+        "es": "traer (a alguien)",
+        "en": "to bring (someone)"
       },
       "type": "verb-irregular"
     },
@@ -54,7 +57,8 @@
       "word": "紹介[しょうかい]します",
       "kana": "しょうかいします",
       "meaning": {
-        "es": "presentar (a alguien)"
+        "es": "presentar (a alguien)",
+        "en": "to introduce (someone)"
       },
       "type": "verb-irregular"
     },
@@ -63,7 +67,8 @@
       "word": "案内[あんない]します",
       "kana": "あんないします",
       "meaning": {
-        "es": "guiar, indicar el camino"
+        "es": "guiar, indicar el camino",
+        "en": "to guide, to give directions"
       },
       "type": "verb-irregular"
     },
@@ -72,7 +77,8 @@
       "word": "説明[せつめい]します",
       "kana": "せつめいします",
       "meaning": {
-        "es": "explicar"
+        "es": "explicar",
+        "en": "to explain"
       },
       "type": "verb-irregular"
     },
@@ -101,7 +107,8 @@
       "word": "準備[じゅんび]",
       "kana": "じゅんび",
       "meaning": {
-        "es": "preparación"
+        "es": "preparación",
+        "en": "preparation"
       },
       "type": "noun"
     },
@@ -110,7 +117,8 @@
       "word": "引[ひ]っ 越[こ]し",
       "kana": "ひっこし",
       "meaning": {
-        "es": "mudanza"
+        "es": "mudanza",
+        "en": "moving house"
       },
       "type": "noun"
     },
@@ -129,7 +137,8 @@
       "word": "ホームステイ",
       "kana": "ホームステイ",
       "meaning": {
-        "es": "hospedaje en casa de familia"
+        "es": "hospedaje en casa de familia",
+        "en": "homestay"
       },
       "type": "noun"
     },
@@ -138,7 +147,8 @@
       "word": "全部[ぜんぶ]",
       "kana": "ぜんぶ",
       "meaning": {
-        "es": "todo"
+        "es": "todo",
+        "en": "everything, all"
       },
       "type": "noun"
     },
@@ -147,7 +157,8 @@
       "word": "自分[じぶん]で",
       "kana": "じぶんで",
       "meaning": {
-        "es": "por uno mismo"
+        "es": "por uno mismo",
+        "en": "by oneself"
       },
       "type": "adverb"
     },

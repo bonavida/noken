@@ -20,13 +20,15 @@
     {
       "word": "右手[みぎて]",
       "meaning": {
-        "es": "mano derecha"
+        "es": "mano derecha",
+        "en": "right hand"
       }
     },
     {
       "word": "右折[うせつ]",
       "meaning": {
-        "es": "giro a la derecha"
+        "es": "giro a la derecha",
+        "en": "right turn"
       }
     },
     {
@@ -39,7 +41,8 @@
     {
       "word": "左右[さゆう]",
       "meaning": {
-        "es": "izquierda y derecha"
+        "es": "izquierda y derecha",
+        "en": "left and right"
       }
     }
   ],

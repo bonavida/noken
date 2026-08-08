@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["mil"]
+    "es": ["mil"],
+    "en": ["thousand"]
   },
   "onyomi": ["セン"],
   "kunyomi": ["ち"],
@@ -12,13 +13,15 @@
     {
       "word": "千[せん]",
       "meaning": {
-        "es": "mil"
+        "es": "mil",
+        "en": "thousand"
       }
     },
     {
       "word": "三千[さんぜん]",
       "meaning": {
-        "es": "tres mil"
+        "es": "tres mil",
+        "en": "three thousand"
       }
     },
     {
@@ -31,7 +34,8 @@
     {
       "word": "千円[せんえん]",
       "meaning": {
-        "es": "mil yenes"
+        "es": "mil yenes",
+        "en": "one thousand yen"
       }
     },
     {

@@ -2,7 +2,8 @@
   "character": "南",
   "level": "n5",
   "meanings": {
-    "es": ["sur"]
+    "es": ["sur"],
+    "en": ["south"]
   },
   "onyomi": ["ナン"],
   "kunyomi": ["みなみ"],
@@ -11,31 +12,36 @@
     {
       "word": "南[みなみ]",
       "meaning": {
-        "es": "sur"
+        "es": "sur",
+        "en": "south"
       }
     },
     {
       "word": "南口[みなみぐち]",
       "meaning": {
-        "es": "salida sur"
+        "es": "salida sur",
+        "en": "south exit"
       }
     },
     {
       "word": "南風[みなみかぜ]",
       "meaning": {
-        "es": "viento del sur"
+        "es": "viento del sur",
+        "en": "south wind"
       }
     },
     {
       "word": "南米[なんべい]",
       "meaning": {
-        "es": "Sudamérica"
+        "es": "Sudamérica",
+        "en": "South America"
       }
     },
     {
       "word": "東南[とうなん]",
       "meaning": {
-        "es": "sudeste"
+        "es": "sudeste",
+        "en": "south-east"
       }
     }
   ]

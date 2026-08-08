@@ -2,7 +2,8 @@
   "character": "所",
   "level": "n5",
   "meanings": {
-    "es": ["sitio", "lugar"]
+    "es": ["sitio", "lugar"],
+    "en": ["place"]
   },
   "onyomi": ["ショ"],
   "kunyomi": ["ところ"],
@@ -11,7 +12,8 @@
     {
       "word": "所[ところ]",
       "meaning": {
-        "es": "sitio, lugar"
+        "es": "sitio, lugar",
+        "en": "place, spot"
       }
     },
     {
@@ -24,7 +26,8 @@
     {
       "word": "場所[ばしょ]",
       "meaning": {
-        "es": "lugar"
+        "es": "lugar",
+        "en": "place"
       }
     },
     {
@@ -37,7 +40,8 @@
     {
       "word": "便所[べんじょ]",
       "meaning": {
-        "es": "servicios, lavabo"
+        "es": "servicios, lavabo",
+        "en": "toilet"
       }
     }
   ]

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["oír", "escuchar"]
+    "es": ["oír", "escuchar"],
+    "en": ["to hear", "to listen"]
   },
   "onyomi": ["ブン"],
   "kunyomi": ["き.く"],
@@ -12,19 +13,22 @@
     {
       "word": "聞[き]きます",
       "meaning": {
-        "es": "escuchar"
+        "es": "escuchar",
+        "en": "to listen"
       }
     },
     {
       "word": "新聞[しんぶん]",
       "meaning": {
-        "es": "periódico"
+        "es": "periódico",
+        "en": "newspaper"
       }
     },
     {
       "word": "聞[き]く",
       "meaning": {
-        "es": "escuchar"
+        "es": "escuchar",
+        "en": "to listen"
       }
     },
     {
@@ -37,13 +41,15 @@
     {
       "word": "伝聞[でんぶん]",
       "meaning": {
-        "es": "rumor"
+        "es": "rumor",
+        "en": "rumour"
       }
     },
     {
       "word": "見聞[けんぶん]",
       "meaning": {
-        "es": "experiencia, observación"
+        "es": "experiencia, observación",
+        "en": "experience, observation"
       }
     }
   ],

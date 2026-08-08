@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 6,
   "meanings": {
-    "es": ["leer"]
+    "es": ["leer"],
+    "en": ["to read"]
   },
   "onyomi": ["ドク"],
   "kunyomi": ["よ.む"],
@@ -12,43 +13,50 @@
     {
       "word": "読[よ]みます",
       "meaning": {
-        "es": "leer"
+        "es": "leer",
+        "en": "to read"
       }
     },
     {
       "word": "読[よ]み 方[かた]",
       "meaning": {
-        "es": "modo de lectura"
+        "es": "modo de lectura",
+        "en": "way of reading"
       }
     },
     {
       "word": "読[よ]む",
       "meaning": {
-        "es": "leer"
+        "es": "leer",
+        "en": "to read"
       }
     },
     {
       "word": "音読[おんよ]み",
       "meaning": {
-        "es": "lectura on'yomi"
+        "es": "lectura on'yomi",
+        "en": "on reading"
       }
     },
     {
       "word": "訓読[くんよ]み",
       "meaning": {
-        "es": "lectura kun'yomi"
+        "es": "lectura kun'yomi",
+        "en": "kun reading"
       }
     },
     {
       "word": "読者[どくしゃ]",
       "meaning": {
-        "es": "lector"
+        "es": "lector",
+        "en": "reader"
       }
     },
     {
       "word": "読書[どくしょ]",
       "meaning": {
-        "es": "lectura"
+        "es": "lectura",
+        "en": "reading"
       }
     }
   ],

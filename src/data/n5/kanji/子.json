@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 9,
   "meanings": {
-    "es": ["niño", "hijo"]
+    "es": ["niño", "hijo"],
+    "en": ["child", "son"]
   },
   "onyomi": ["シ", "ス"],
   "kunyomi": ["こ"],
@@ -12,31 +13,36 @@
     {
       "word": "子[こ]ども",
       "meaning": {
-        "es": "niño"
+        "es": "niño",
+        "en": "child"
       }
     },
     {
       "word": "男[おとこ]の 子[こ]",
       "meaning": {
-        "es": "niño"
+        "es": "niño",
+        "en": "child"
       }
     },
     {
       "word": "椅子[いす]",
       "meaning": {
-        "es": "silla"
+        "es": "silla",
+        "en": "chair"
       }
     },
     {
       "word": "子[こ]",
       "meaning": {
-        "es": "niño, niña"
+        "es": "niño, niña",
+        "en": "child"
       }
     },
     {
       "word": "息子[むすこ]",
       "meaning": {
-        "es": "hijo"
+        "es": "hijo",
+        "en": "son"
       }
     },
     {
@@ -49,7 +55,8 @@
     {
       "word": "女子[じょし]",
       "meaning": {
-        "es": "niña"
+        "es": "niña",
+        "en": "girl"
       }
     }
   ],

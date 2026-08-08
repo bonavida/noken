@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["minuto", "dividir", "entender"]
+    "es": ["minuto", "dividir", "entender"],
+    "en": ["minute", "to divide", "to understand"]
   },
   "onyomi": ["フン", "ブン"],
   "kunyomi": ["わ.かる", "わ.ける"],
@@ -19,19 +20,22 @@
     {
       "word": "自分[じぶん]",
       "meaning": {
-        "es": "uno mismo"
+        "es": "uno mismo",
+        "en": "oneself"
       }
     },
     {
       "word": "半分[はんぶん]",
       "meaning": {
-        "es": "la mitad"
+        "es": "la mitad",
+        "en": "half"
       }
     },
     {
       "word": "分[わ]かる",
       "meaning": {
-        "es": "entender"
+        "es": "entender",
+        "en": "to understand"
       }
     },
     {
@@ -51,7 +55,8 @@
     {
       "word": "気分[きぶん]",
       "meaning": {
-        "es": "humor, estado de ánimo"
+        "es": "humor, estado de ánimo",
+        "en": "mood, state of mind"
       }
     }
   ],

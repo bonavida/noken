@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["ocho"]
+    "es": ["ocho"],
+    "en": ["eight"]
   },
   "onyomi": ["ハチ"],
   "kunyomi": ["や.つ", "やっ.つ"],
@@ -12,13 +13,15 @@
     {
       "word": "八[はち]",
       "meaning": {
-        "es": "ocho"
+        "es": "ocho",
+        "en": "eight"
       }
     },
     {
       "word": "八[やっ]つ",
       "meaning": {
-        "es": "ocho cosas"
+        "es": "ocho cosas",
+        "en": "eight things"
       }
     },
     {
@@ -38,7 +41,8 @@
     {
       "word": "八百屋[やおや]",
       "meaning": {
-        "es": "verdulería"
+        "es": "verdulería",
+        "en": "greengrocer's"
       }
     }
   ]

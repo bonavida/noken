@@ -7,7 +7,8 @@
       "word": "着[き]ます",
       "kana": "きます",
       "meaning": {
-        "es": "ponerse (camisa, etc.)"
+        "es": "ponerse (camisa, etc.)",
+        "en": "to put on (a shirt, etc.)"
       },
       "type": "verb-ichidan"
     },
@@ -16,7 +17,8 @@
       "word": "はきます",
       "kana": "はきます",
       "meaning": {
-        "es": "ponerse (zapatos, pantalones)"
+        "es": "ponerse (zapatos, pantalones)",
+        "en": "to put on (shoes, trousers)"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "かぶります",
       "kana": "かぶります",
       "meaning": {
-        "es": "ponerse (sombrero)"
+        "es": "ponerse (sombrero)",
+        "en": "to put on (a hat)"
       },
       "type": "verb-godan"
     },
@@ -34,7 +37,8 @@
       "word": "かけます[眼鏡[めがね]を〜]",
       "kana": "かけます",
       "meaning": {
-        "es": "ponerse [las gafas]"
+        "es": "ponerse [las gafas]",
+        "en": "to put on [glasses]"
       },
       "type": "verb-ichidan"
     },
@@ -43,7 +47,8 @@
       "word": "します[ネクタイを〜]",
       "kana": "します",
       "meaning": {
-        "es": "ponerse [la corbata]"
+        "es": "ponerse [la corbata]",
+        "en": "to put on [a tie]"
       },
       "type": "verb-irregular"
     },
@@ -52,7 +57,8 @@
       "word": "生[う]まれます",
       "kana": "うまれます",
       "meaning": {
-        "es": "nacer"
+        "es": "nacer",
+        "en": "to be born"
       },
       "type": "verb-ichidan"
     },
@@ -61,7 +67,8 @@
       "word": "わたしたち",
       "kana": "わたしたち",
       "meaning": {
-        "es": "nosotros"
+        "es": "nosotros",
+        "en": "we"
       },
       "type": "pronoun"
     },
@@ -80,7 +87,8 @@
       "word": "セーター",
       "kana": "セーター",
       "meaning": {
-        "es": "suéter, jersey"
+        "es": "suéter, jersey",
+        "en": "jumper, sweater"
       },
       "type": "noun"
     },
@@ -89,7 +97,8 @@
       "word": "スーツ",
       "kana": "スーツ",
       "meaning": {
-        "es": "traje"
+        "es": "traje",
+        "en": "suit"
       },
       "type": "noun"
     },
@@ -98,7 +107,8 @@
       "word": "帽子[ぼうし]",
       "kana": "ぼうし",
       "meaning": {
-        "es": "sombrero, gorra"
+        "es": "sombrero, gorra",
+        "en": "hat, cap"
       },
       "type": "noun"
     },
@@ -107,7 +117,8 @@
       "word": "眼鏡[めがね]",
       "kana": "めがね",
       "meaning": {
-        "es": "gafas"
+        "es": "gafas",
+        "en": "glasses"
       },
       "type": "noun"
     },
@@ -116,7 +127,8 @@
       "word": "ケーキ",
       "kana": "ケーキ",
       "meaning": {
-        "es": "pastel"
+        "es": "pastel",
+        "en": "cake"
       },
       "type": "noun"
     },
@@ -135,7 +147,8 @@
       "word": "ロボット",
       "kana": "ロボット",
       "meaning": {
-        "es": "robot"
+        "es": "robot",
+        "en": "robot"
       },
       "type": "noun"
     },
@@ -144,7 +157,8 @@
       "word": "ユーモア",
       "kana": "ユーモア",
       "meaning": {
-        "es": "humor"
+        "es": "humor",
+        "en": "mood"
       },
       "type": "noun"
     },
@@ -163,7 +177,8 @@
       "word": "よく",
       "kana": "よく",
       "meaning": {
-        "es": "frecuentemente"
+        "es": "frecuentemente",
+        "en": "often"
       },
       "type": "adverb"
     },
@@ -202,7 +217,8 @@
       "word": "では",
       "kana": "では",
       "meaning": {
-        "es": "entonces, bueno"
+        "es": "entonces, bueno",
+        "en": "well then"
       },
       "type": "conjunction"
     },
@@ -211,7 +227,8 @@
       "word": "こちら",
       "kana": "こちら",
       "meaning": {
-        "es": "esto (cortés de これ)"
+        "es": "esto (cortés de これ)",
+        "en": "this (polite form of これ)"
       },
       "type": "pronoun"
     },
@@ -240,7 +257,8 @@
       "word": "和室[わしつ]",
       "kana": "わしつ",
       "meaning": {
-        "es": "habitación de estilo japonés"
+        "es": "habitación de estilo japonés",
+        "en": "Japanese-style room"
       },
       "type": "noun"
     },
@@ -259,7 +277,8 @@
       "word": "布団[ふとん]",
       "kana": "ふとん",
       "meaning": {
-        "es": "futón"
+        "es": "futón",
+        "en": "futon"
       },
       "type": "noun"
     },
@@ -268,7 +287,8 @@
       "word": "パリ",
       "kana": "パリ",
       "meaning": {
-        "es": "París"
+        "es": "París",
+        "en": "Paris"
       },
       "type": "noun"
     },
@@ -277,7 +297,8 @@
       "word": "万里[ばんり]の 長城[ちょうじょう]",
       "kana": "ばんりのちょうじょう",
       "meaning": {
-        "es": "la Gran Muralla"
+        "es": "la Gran Muralla",
+        "en": "the Great Wall"
       },
       "type": "noun"
     }

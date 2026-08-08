@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 7,
   "meanings": {
-    "es": ["madre"]
+    "es": ["madre"],
+    "en": ["mother"]
   },
   "onyomi": ["ボ"],
   "kunyomi": ["はは"],
@@ -12,13 +13,15 @@
     {
       "word": "母[はは]",
       "meaning": {
-        "es": "mi madre"
+        "es": "mi madre",
+        "en": "my mother"
       }
     },
     {
       "word": "お 母[かあ]さん",
       "meaning": {
-        "es": "su madre"
+        "es": "su madre",
+        "en": "his/her mother"
       }
     },
     {
@@ -31,7 +34,8 @@
     {
       "word": "母親[ははおや]",
       "meaning": {
-        "es": "madre"
+        "es": "madre",
+        "en": "mother"
       }
     },
     {
@@ -44,7 +48,8 @@
     {
       "word": "母国[ぼこく]",
       "meaning": {
-        "es": "país natal"
+        "es": "país natal",
+        "en": "home country"
       }
     }
   ]

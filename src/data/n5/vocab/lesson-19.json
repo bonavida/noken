@@ -7,7 +7,8 @@
       "word": "登[のぼ]ります",
       "kana": "のぼります",
       "meaning": {
-        "es": "subir, escalar"
+        "es": "subir, escalar",
+        "en": "to climb"
       },
       "type": "verb-godan"
     },
@@ -26,7 +27,8 @@
       "word": "掃除[そうじ]します",
       "kana": "そうじします",
       "meaning": {
-        "es": "limpiar (una habitación)"
+        "es": "limpiar (una habitación)",
+        "en": "to clean (a room)"
       },
       "type": "verb-irregular"
     },
@@ -35,7 +37,8 @@
       "word": "洗濯[せんたく]します",
       "kana": "せんたくします",
       "meaning": {
-        "es": "lavar (la ropa)"
+        "es": "lavar (la ropa)",
+        "en": "to wash (clothes)"
       },
       "type": "verb-irregular"
     },
@@ -54,7 +57,8 @@
       "word": "眠[ねむ]い",
       "kana": "ねむい",
       "meaning": {
-        "es": "tener sueño"
+        "es": "tener sueño",
+        "en": "to be sleepy"
       },
       "type": "adjective-i"
     },
@@ -63,7 +67,8 @@
       "word": "強[つよ]い",
       "kana": "つよい",
       "meaning": {
-        "es": "fuerte"
+        "es": "fuerte",
+        "en": "strong"
       },
       "type": "adjective-i"
     },
@@ -82,7 +87,8 @@
       "word": "練習[れんしゅう]",
       "kana": "れんしゅう",
       "meaning": {
-        "es": "práctica, ensayo"
+        "es": "práctica, ensayo",
+        "en": "practice, rehearsal"
       },
       "type": "noun"
     },
@@ -91,7 +97,8 @@
       "word": "ゴルフ",
       "kana": "ゴルフ",
       "meaning": {
-        "es": "golf"
+        "es": "golf",
+        "en": "golf"
       },
       "type": "noun"
     },
@@ -100,7 +107,8 @@
       "word": "相撲[すもう]",
       "kana": "すもう",
       "meaning": {
-        "es": "sumo"
+        "es": "sumo",
+        "en": "sumo"
       },
       "type": "noun"
     },
@@ -129,7 +137,8 @@
       "word": "調子[ちょうし]",
       "kana": "ちょうし",
       "meaning": {
-        "es": "forma, condición"
+        "es": "forma, condición",
+        "en": "shape, condition"
       },
       "type": "noun"
     },
@@ -138,7 +147,8 @@
       "word": "一度[いちど]",
       "kana": "いちど",
       "meaning": {
-        "es": "una vez"
+        "es": "una vez",
+        "en": "once"
       },
       "type": "adverb"
     },
@@ -147,7 +157,8 @@
       "word": "一度[いちど]も",
       "kana": "いちども",
       "meaning": {
-        "es": "nunca (con negación)"
+        "es": "nunca (con negación)",
+        "en": "never (with a negative)"
       },
       "type": "adverb"
     },
@@ -156,7 +167,8 @@
       "word": "だんだん",
       "kana": "だんだん",
       "meaning": {
-        "es": "poco a poco"
+        "es": "poco a poco",
+        "en": "little by little"
       },
       "type": "adverb"
     },
@@ -175,7 +187,8 @@
       "word": "おかげさまで",
       "kana": "おかげさまで",
       "meaning": {
-        "es": "gracias a usted / a Dios"
+        "es": "gracias a usted / a Dios",
+        "en": "thanks to you"
       },
       "type": "expression"
     },
@@ -184,7 +197,8 @@
       "word": "でも",
       "kana": "でも",
       "meaning": {
-        "es": "pero, sin embargo"
+        "es": "pero, sin embargo",
+        "en": "but, however"
       },
       "type": "conjunction"
     },
@@ -213,7 +227,8 @@
       "word": "無理[むり][な]",
       "kana": "むり",
       "meaning": {
-        "es": "excesivo, imposible"
+        "es": "excesivo, imposible",
+        "en": "excessive, impossible"
       },
       "type": "adjective-na"
     },
@@ -232,7 +247,8 @@
       "word": "東京[とうきょう]スカイツリー",
       "kana": "とうきょうスカイツリー",
       "meaning": {
-        "es": "Tokyo Sky Tree"
+        "es": "Tokyo Sky Tree",
+        "en": "Tokyo Skytree"
       },
       "type": "noun"
     },
@@ -241,7 +257,8 @@
       "word": "葛飾北斎[かつしかほくさい]",
       "kana": "かつしかほくさい",
       "meaning": {
-        "es": "Katsushika Hokusai (pintor de la era Edo)"
+        "es": "Katsushika Hokusai (pintor de la era Edo)",
+        "en": "Katsushika Hokusai (Edo-period painter)"
       },
       "type": "noun"
     }

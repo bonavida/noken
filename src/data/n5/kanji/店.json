@@ -2,7 +2,8 @@
   "character": "店",
   "level": "n5",
   "meanings": {
-    "es": ["tienda"]
+    "es": ["tienda"],
+    "en": ["shop"]
   },
   "onyomi": ["テン"],
   "kunyomi": ["みせ"],
@@ -11,7 +12,8 @@
     {
       "word": "店[みせ]",
       "meaning": {
-        "es": "tienda"
+        "es": "tienda",
+        "en": "shop"
       }
     },
     {
@@ -24,13 +26,15 @@
     {
       "word": "書店[しょてん]",
       "meaning": {
-        "es": "librería"
+        "es": "librería",
+        "en": "bookshop"
       }
     },
     {
       "word": "支店[してん]",
       "meaning": {
-        "es": "sucursal"
+        "es": "sucursal",
+        "en": "branch"
       }
     },
     {

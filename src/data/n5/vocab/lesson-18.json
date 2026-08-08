@@ -7,7 +7,8 @@
       "word": "できます",
       "kana": "できます",
       "meaning": {
-        "es": "poder, ser capaz de"
+        "es": "poder, ser capaz de",
+        "en": "can, to be able to"
       },
       "type": "verb-ichidan"
     },
@@ -16,7 +17,8 @@
       "word": "洗[あら]います",
       "kana": "あらいます",
       "meaning": {
-        "es": "lavar"
+        "es": "lavar",
+        "en": "to wash"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "弾[ひ]きます",
       "kana": "ひきます",
       "meaning": {
-        "es": "tocar (piano, cuerda)"
+        "es": "tocar (piano, cuerda)",
+        "en": "to play (piano, strings)"
       },
       "type": "verb-godan"
     },
@@ -54,7 +57,8 @@
       "word": "捨[す]てます",
       "kana": "すてます",
       "meaning": {
-        "es": "tirar, botar"
+        "es": "tirar, botar",
+        "en": "to throw away"
       },
       "type": "verb-ichidan"
     },
@@ -83,7 +87,8 @@
       "word": "予約[よやく]します",
       "kana": "よやくします",
       "meaning": {
-        "es": "reservar"
+        "es": "reservar",
+        "en": "to book, to reserve"
       },
       "type": "verb-irregular"
     },
@@ -92,7 +97,8 @@
       "word": "ピアノ",
       "kana": "ピアノ",
       "meaning": {
-        "es": "piano"
+        "es": "piano",
+        "en": "piano"
       },
       "type": "noun"
     },
@@ -141,7 +147,8 @@
       "word": "お 祈[いの]り",
       "kana": "おいのり",
       "meaning": {
-        "es": "oración, rezo"
+        "es": "oración, rezo",
+        "en": "prayer"
       },
       "type": "noun"
     },
@@ -150,7 +157,8 @@
       "word": "課長[かちょう]",
       "kana": "かちょう",
       "meaning": {
-        "es": "jefe de sección"
+        "es": "jefe de sección",
+        "en": "section chief"
       },
       "type": "noun"
     },
@@ -159,7 +167,8 @@
       "word": "部長[ぶちょう]",
       "kana": "ぶちょう",
       "meaning": {
-        "es": "gerente de departamento"
+        "es": "gerente de departamento",
+        "en": "department manager"
       },
       "type": "noun"
     },
@@ -168,7 +177,8 @@
       "word": "社長[しゃちょう]",
       "kana": "しゃちょう",
       "meaning": {
-        "es": "presidente de la empresa"
+        "es": "presidente de la empresa",
+        "en": "company president"
       },
       "type": "noun"
     },
@@ -197,7 +207,8 @@
       "word": "インターネット",
       "kana": "インターネット",
       "meaning": {
-        "es": "internet"
+        "es": "internet",
+        "en": "the internet"
       },
       "type": "noun"
     },
@@ -206,7 +217,8 @@
       "word": "特[とく]に",
       "kana": "とくに",
       "meaning": {
-        "es": "en particular"
+        "es": "en particular",
+        "en": "particularly"
       },
       "type": "adverb"
     },
@@ -235,7 +247,8 @@
       "word": "なかなか",
       "kana": "なかなか",
       "meaning": {
-        "es": "no tan fácilmente (con negación)"
+        "es": "no tan fácilmente (con negación)",
+        "en": "not that easily (with a negative)"
       },
       "type": "adverb"
     },
@@ -264,7 +277,8 @@
       "word": "故郷[ふるさと]",
       "kana": "ふるさと",
       "meaning": {
-        "es": "tierra natal"
+        "es": "tierra natal",
+        "en": "homeland"
       },
       "type": "noun"
     }

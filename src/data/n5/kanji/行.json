@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["ir", "celebrar"]
+    "es": ["ir", "celebrar"],
+    "en": ["to go", "to hold (an event)"]
   },
   "onyomi": ["コウ", "ギョウ"],
   "kunyomi": ["い.く", "おこな.う"],
@@ -12,7 +13,8 @@
     {
       "word": "行[い]きます",
       "meaning": {
-        "es": "ir"
+        "es": "ir",
+        "en": "to go"
       }
     },
     {
@@ -25,13 +27,15 @@
     {
       "word": "旅行[りょこう]",
       "meaning": {
-        "es": "viaje"
+        "es": "viaje",
+        "en": "trip, journey"
       }
     },
     {
       "word": "行[い]く",
       "meaning": {
-        "es": "ir"
+        "es": "ir",
+        "en": "to go"
       }
     },
     {
@@ -44,7 +48,8 @@
     {
       "word": "歩行[ほこう]",
       "meaning": {
-        "es": "marcha a pie"
+        "es": "marcha a pie",
+        "en": "walking"
       }
     },
     {

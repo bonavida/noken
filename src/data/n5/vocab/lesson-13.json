@@ -7,7 +7,8 @@
       "word": "遊[あそ]びます",
       "kana": "あそびます",
       "meaning": {
-        "es": "jugar, divertirse"
+        "es": "jugar, divertirse",
+        "en": "to play, to enjoy oneself"
       },
       "type": "verb-godan"
     },
@@ -16,7 +17,8 @@
       "word": "泳[およ]ぎます",
       "kana": "およぎます",
       "meaning": {
-        "es": "nadar"
+        "es": "nadar",
+        "en": "to swim"
       },
       "type": "verb-godan"
     },
@@ -25,7 +27,8 @@
       "word": "迎[むか]えます",
       "kana": "むかえます",
       "meaning": {
-        "es": "recoger, recibir (a alguien)"
+        "es": "recoger, recibir (a alguien)",
+        "en": "to pick up, to meet (someone)"
       },
       "type": "verb-ichidan"
     },
@@ -54,7 +57,8 @@
       "word": "買[か]い 物[もの]します",
       "kana": "かいものします",
       "meaning": {
-        "es": "hacer compras"
+        "es": "hacer compras",
+        "en": "to go shopping"
       },
       "type": "verb-irregular"
     },
@@ -73,7 +77,8 @@
       "word": "散歩[さんぽ]します[公園[こうえん]を〜]",
       "kana": "さんぽします",
       "meaning": {
-        "es": "pasear [por el parque]"
+        "es": "pasear [por el parque]",
+        "en": "to take a walk [in the park]"
       },
       "type": "verb-irregular"
     },
@@ -92,7 +97,8 @@
       "word": "欲[ほ]しい",
       "kana": "ほしい",
       "meaning": {
-        "es": "querer (algo)"
+        "es": "querer (algo)",
+        "en": "to want (something)"
       },
       "type": "adjective-i"
     },
@@ -111,7 +117,8 @@
       "word": "狭[せま]い",
       "kana": "せまい",
       "meaning": {
-        "es": "estrecho, angosto"
+        "es": "estrecho, angosto",
+        "en": "narrow"
       },
       "type": "adjective-i"
     },
@@ -120,7 +127,8 @@
       "word": "プール",
       "kana": "プール",
       "meaning": {
-        "es": "piscina"
+        "es": "piscina",
+        "en": "swimming pool"
       },
       "type": "noun"
     },
@@ -129,7 +137,8 @@
       "word": "川[かわ]",
       "kana": "かわ",
       "meaning": {
-        "es": "río"
+        "es": "río",
+        "en": "river"
       },
       "type": "noun"
     },
@@ -148,7 +157,8 @@
       "word": "釣[つ]り",
       "kana": "つり",
       "meaning": {
-        "es": "pesca"
+        "es": "pesca",
+        "en": "fishing"
       },
       "type": "noun"
     },
@@ -157,7 +167,8 @@
       "word": "スキー",
       "kana": "スキー",
       "meaning": {
-        "es": "esquí"
+        "es": "esquí",
+        "en": "skiing"
       },
       "type": "noun"
     },
@@ -166,7 +177,8 @@
       "word": "週末[しゅうまつ]",
       "kana": "しゅうまつ",
       "meaning": {
-        "es": "fin de semana"
+        "es": "fin de semana",
+        "en": "weekend"
       },
       "type": "noun"
     },
@@ -185,7 +197,8 @@
       "word": "〜ごろ",
       "kana": "ごろ",
       "meaning": {
-        "es": "hacia ~ (tiempo)"
+        "es": "hacia ~ (tiempo)",
+        "en": "around ~ (time)"
       },
       "type": "particle"
     },
@@ -214,7 +227,8 @@
       "word": "のどが 渇[かわ]きます",
       "kana": "のどがかわきます",
       "meaning": {
-        "es": "tener sed"
+        "es": "tener sed",
+        "en": "to be thirsty"
       },
       "type": "expression"
     },
@@ -223,7 +237,8 @@
       "word": "おなかがすきます",
       "kana": "おなかがすきます",
       "meaning": {
-        "es": "tener hambre"
+        "es": "tener hambre",
+        "en": "to be hungry"
       },
       "type": "expression"
     },
@@ -232,7 +247,8 @@
       "word": "そうしましょう",
       "kana": "そうしましょう",
       "meaning": {
-        "es": "hagamos eso"
+        "es": "hagamos eso",
+        "en": "let's do that"
       },
       "type": "expression"
     },
@@ -251,7 +267,8 @@
       "word": "定食[ていしょく]",
       "kana": "ていしょく",
       "meaning": {
-        "es": "menú fijo"
+        "es": "menú fijo",
+        "en": "set menu"
       },
       "type": "noun"
     },
@@ -260,7 +277,8 @@
       "word": "牛[ぎゅう]どん",
       "kana": "ぎゅうどん",
       "meaning": {
-        "es": "gyudon (arroz con carne de vaca)"
+        "es": "gyudon (arroz con carne de vaca)",
+        "en": "gyudon (beef bowl)"
       },
       "type": "noun"
     },
@@ -269,7 +287,8 @@
       "word": "[少々[しょうしょう]]お 待[ま]ちください",
       "kana": "しょうしょうおまちください",
       "meaning": {
-        "es": "espere [un momento], por favor"
+        "es": "espere [un momento], por favor",
+        "en": "please wait [a moment]"
       },
       "type": "expression"
     },
@@ -288,7 +307,8 @@
       "word": "別々[べつべつ]に",
       "kana": "べつべつに",
       "meaning": {
-        "es": "por separado"
+        "es": "por separado",
+        "en": "separately"
       },
       "type": "adverb"
     }

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["tierra", "suelo"]
+    "es": ["tierra", "suelo"],
+    "en": ["earth, soil", "floor, ground"]
   },
   "onyomi": ["ド", "ト"],
   "kunyomi": ["つち"],
@@ -12,25 +13,29 @@
     {
       "word": "土曜日[どようび]",
       "meaning": {
-        "es": "sábado"
+        "es": "sábado",
+        "en": "Saturday"
       }
     },
     {
       "word": "土[つち]",
       "meaning": {
-        "es": "tierra"
+        "es": "tierra",
+        "en": "earth, soil"
       }
     },
     {
       "word": "国土[こくど]",
       "meaning": {
-        "es": "territorio nacional"
+        "es": "territorio nacional",
+        "en": "national territory"
       }
     },
     {
       "word": "土砂[どしゃ]",
       "meaning": {
-        "es": "tierra y arena"
+        "es": "tierra y arena",
+        "en": "earth and sand"
       }
     },
     {

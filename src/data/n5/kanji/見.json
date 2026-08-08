@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["ver", "mirar"]
+    "es": ["ver", "mirar"],
+    "en": ["to see", "to look at"]
   },
   "onyomi": ["ケン"],
   "kunyomi": ["み.る"],
@@ -12,37 +13,43 @@
     {
       "word": "見[み]ます",
       "meaning": {
-        "es": "ver"
+        "es": "ver",
+        "en": "to see"
       }
     },
     {
       "word": "見学[けんがく]",
       "meaning": {
-        "es": "visita de estudio"
+        "es": "visita de estudio",
+        "en": "study visit"
       }
     },
     {
       "word": "花見[はなみ]",
       "meaning": {
-        "es": "ver los cerezos"
+        "es": "ver los cerezos",
+        "en": "to view the cherry blossom"
       }
     },
     {
       "word": "見[み]る",
       "meaning": {
-        "es": "ver, mirar"
+        "es": "ver, mirar",
+        "en": "to see, to watch"
       }
     },
     {
       "word": "見本[みほん]",
       "meaning": {
-        "es": "muestra"
+        "es": "muestra",
+        "en": "sample"
       }
     },
     {
       "word": "意見[いけん]",
       "meaning": {
-        "es": "opinión"
+        "es": "opinión",
+        "en": "opinion"
       }
     },
     {

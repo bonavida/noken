@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["nuevo", "fresco"]
+    "es": ["nuevo", "fresco"],
+    "en": ["new", "fresh"]
   },
   "onyomi": ["シン"],
   "kunyomi": ["あたら.しい"],
@@ -12,37 +13,43 @@
     {
       "word": "新[あたら]しい",
       "meaning": {
-        "es": "nuevo"
+        "es": "nuevo",
+        "en": "new"
       }
     },
     {
       "word": "新聞[しんぶん]",
       "meaning": {
-        "es": "periódico"
+        "es": "periódico",
+        "en": "newspaper"
       }
     },
     {
       "word": "新幹線[しんかんせん]",
       "meaning": {
-        "es": "Shinkansen"
+        "es": "Shinkansen",
+        "en": "Shinkansen"
       }
     },
     {
       "word": "最新[さいしん]",
       "meaning": {
-        "es": "lo más nuevo"
+        "es": "lo más nuevo",
+        "en": "the latest"
       }
     },
     {
       "word": "新鮮[しんせん]",
       "meaning": {
-        "es": "fresco"
+        "es": "fresco",
+        "en": "fresh"
       }
     },
     {
       "word": "革新[かくしん]",
       "meaning": {
-        "es": "reforma"
+        "es": "reforma",
+        "en": "reform"
       }
     }
   ]

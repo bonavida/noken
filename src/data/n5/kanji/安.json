@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 8,
   "meanings": {
-    "es": ["barato", "tranquilo", "seguro"]
+    "es": ["barato", "tranquilo", "seguro"],
+    "en": ["cheap", "quiet, calm", "safe"]
   },
   "onyomi": ["アン"],
   "kunyomi": ["やす.い"],
@@ -19,25 +20,29 @@
     {
       "word": "安心[あんしん]",
       "meaning": {
-        "es": "tranquilidad"
+        "es": "tranquilidad",
+        "en": "peace of mind"
       }
     },
     {
       "word": "安全[あんぜん]",
       "meaning": {
-        "es": "seguridad"
+        "es": "seguridad",
+        "en": "safety"
       }
     },
     {
       "word": "安定[あんてい]",
       "meaning": {
-        "es": "estabilidad"
+        "es": "estabilidad",
+        "en": "stability"
       }
     },
     {
       "word": "安易[あんい]",
       "meaning": {
-        "es": "fácil, sencillo"
+        "es": "fácil, sencillo",
+        "en": "easy, simple"
       }
     }
   ],

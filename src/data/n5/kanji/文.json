@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 13,
   "meanings": {
-    "es": ["texto", "escrito", "letra", "escritura"]
+    "es": ["texto", "escrito", "letra", "escritura"],
+    "en": ["text", "writing, document", "letter, character", "writing"]
   },
   "onyomi": ["ブン", "モン"],
   "kunyomi": ["ふみ"],
@@ -26,31 +27,36 @@
     {
       "word": "注文[ちゅうもん]",
       "meaning": {
-        "es": "pedido"
+        "es": "pedido",
+        "en": "order"
       }
     },
     {
       "word": "文学[ぶんがく]",
       "meaning": {
-        "es": "literatura"
+        "es": "literatura",
+        "en": "literature"
       }
     },
     {
       "word": "文章[ぶんしょう]",
       "meaning": {
-        "es": "frase, texto"
+        "es": "frase, texto",
+        "en": "sentence, text"
       }
     },
     {
       "word": "作文[さくぶん]",
       "meaning": {
-        "es": "redacción"
+        "es": "redacción",
+        "en": "composition, essay"
       }
     },
     {
       "word": "文法[ぶんぽう]",
       "meaning": {
-        "es": "gramática"
+        "es": "gramática",
+        "en": "grammar"
       }
     }
   ],

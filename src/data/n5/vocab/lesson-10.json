@@ -7,7 +7,8 @@
       "word": "あります",
       "kana": "あります",
       "meaning": {
-        "es": "estar, haber (cosas)"
+        "es": "estar, haber (cosas)",
+        "en": "to be, there is (things)"
       },
       "type": "verb-godan"
     },
@@ -16,7 +17,8 @@
       "word": "います",
       "kana": "います",
       "meaning": {
-        "es": "estar, haber (seres animados)"
+        "es": "estar, haber (seres animados)",
+        "en": "to be, there is (living things)"
       },
       "type": "verb-ichidan"
     },
@@ -35,7 +37,8 @@
       "word": "男[おとこ]の 人[ひと]",
       "kana": "おとこのひと",
       "meaning": {
-        "es": "hombre"
+        "es": "hombre",
+        "en": "man"
       },
       "type": "noun"
     },
@@ -44,7 +47,8 @@
       "word": "女[おんな]の 人[ひと]",
       "kana": "おんなのひと",
       "meaning": {
-        "es": "mujer"
+        "es": "mujer",
+        "en": "woman"
       },
       "type": "noun"
     },
@@ -53,7 +57,8 @@
       "word": "男[おとこ]の 子[こ]",
       "kana": "おとこのこ",
       "meaning": {
-        "es": "niño"
+        "es": "niño",
+        "en": "child"
       },
       "type": "noun"
     },
@@ -62,7 +67,8 @@
       "word": "女[おんな]の 子[こ]",
       "kana": "おんなのこ",
       "meaning": {
-        "es": "niña"
+        "es": "niña",
+        "en": "girl"
       },
       "type": "noun"
     },
@@ -71,7 +77,8 @@
       "word": "犬[いぬ]",
       "kana": "いぬ",
       "meaning": {
-        "es": "perro"
+        "es": "perro",
+        "en": "dog"
       },
       "type": "noun"
     },
@@ -80,7 +87,8 @@
       "word": "猫[ねこ]",
       "kana": "ねこ",
       "meaning": {
-        "es": "gato"
+        "es": "gato",
+        "en": "cat"
       },
       "type": "noun"
     },
@@ -89,7 +97,8 @@
       "word": "パンダ",
       "kana": "パンダ",
       "meaning": {
-        "es": "panda"
+        "es": "panda",
+        "en": "panda"
       },
       "type": "noun"
     },
@@ -98,7 +107,8 @@
       "word": "象[ぞう]",
       "kana": "ぞう",
       "meaning": {
-        "es": "elefante"
+        "es": "elefante",
+        "en": "elephant"
       },
       "type": "noun"
     },
@@ -127,7 +137,8 @@
       "word": "電池[でんち]",
       "kana": "でんち",
       "meaning": {
-        "es": "pila, batería"
+        "es": "pila, batería",
+        "en": "battery"
       },
       "type": "noun"
     },
@@ -146,7 +157,8 @@
       "word": "スイッチ",
       "kana": "スイッチ",
       "meaning": {
-        "es": "interruptor"
+        "es": "interruptor",
+        "en": "switch"
       },
       "type": "noun"
     },
@@ -155,7 +167,8 @@
       "word": "冷蔵庫[れいぞうこ]",
       "kana": "れいぞうこ",
       "meaning": {
-        "es": "refrigerador"
+        "es": "refrigerador",
+        "en": "fridge"
       },
       "type": "noun"
     },
@@ -164,7 +177,8 @@
       "word": "テーブル",
       "kana": "テーブル",
       "meaning": {
-        "es": "mesa"
+        "es": "mesa",
+        "en": "table"
       },
       "type": "noun"
     },
@@ -183,7 +197,8 @@
       "word": "棚[たな]",
       "kana": "たな",
       "meaning": {
-        "es": "estante"
+        "es": "estante",
+        "en": "shelf"
       },
       "type": "noun"
     },
@@ -192,7 +207,8 @@
       "word": "ドア",
       "kana": "ドア",
       "meaning": {
-        "es": "puerta"
+        "es": "puerta",
+        "en": "door"
       },
       "type": "noun"
     },
@@ -201,7 +217,8 @@
       "word": "窓[まど]",
       "kana": "まど",
       "meaning": {
-        "es": "ventana"
+        "es": "ventana",
+        "en": "window"
       },
       "type": "noun"
     },
@@ -240,7 +257,8 @@
       "word": "コンビニ",
       "kana": "コンビニ",
       "meaning": {
-        "es": "tienda de conveniencia"
+        "es": "tienda de conveniencia",
+        "en": "convenience store"
       },
       "type": "noun"
     },
@@ -249,7 +267,8 @@
       "word": "公園[こうえん]",
       "kana": "こうえん",
       "meaning": {
-        "es": "parque"
+        "es": "parque",
+        "en": "park"
       },
       "type": "noun"
     },
@@ -268,7 +287,8 @@
       "word": "〜屋[や]",
       "kana": "や",
       "meaning": {
-        "es": "tienda de ~"
+        "es": "tienda de ~",
+        "en": "~ shop"
       },
       "type": "expression"
     },
@@ -277,7 +297,8 @@
       "word": "乗[の]り 場[ば]",
       "kana": "のりば",
       "meaning": {
-        "es": "parada (de taxis, trenes…)"
+        "es": "parada (de taxis, trenes…)",
+        "en": "stop, stand (for taxis, trains…)"
       },
       "type": "noun"
     },
@@ -286,7 +307,8 @@
       "word": "県[けん]",
       "kana": "けん",
       "meaning": {
-        "es": "prefectura"
+        "es": "prefectura",
+        "en": "prefecture"
       },
       "type": "noun"
     },
@@ -295,7 +317,8 @@
       "word": "上[うえ]",
       "kana": "うえ",
       "meaning": {
-        "es": "encima, arriba"
+        "es": "encima, arriba",
+        "en": "on top, above"
       },
       "type": "noun"
     },
@@ -344,7 +367,8 @@
       "word": "左[ひだり]",
       "kana": "ひだり",
       "meaning": {
-        "es": "izquierda"
+        "es": "izquierda",
+        "en": "left"
       },
       "type": "noun"
     },
@@ -363,7 +387,8 @@
       "word": "外[そと]",
       "kana": "そと",
       "meaning": {
-        "es": "fuera"
+        "es": "fuera",
+        "en": "outside"
       },
       "type": "noun"
     },
@@ -392,7 +417,8 @@
       "word": "間[あいだ]",
       "kana": "あいだ",
       "meaning": {
-        "es": "entre"
+        "es": "entre",
+        "en": "between"
       },
       "type": "noun"
     },
@@ -421,7 +447,8 @@
       "word": "ナンプラー",
       "kana": "ナンプラー",
       "meaning": {
-        "es": "nam pla (salsa de pescado)"
+        "es": "nam pla (salsa de pescado)",
+        "en": "nam pla (fish sauce)"
       },
       "type": "noun"
     },
@@ -430,7 +457,8 @@
       "word": "コーナー",
       "kana": "コーナー",
       "meaning": {
-        "es": "sección"
+        "es": "sección",
+        "en": "section"
       },
       "type": "noun"
     },
@@ -439,7 +467,8 @@
       "word": "いちばん 下[した]",
       "kana": "いちばんした",
       "meaning": {
-        "es": "el más inferior"
+        "es": "el más inferior",
+        "en": "the lowest"
       },
       "type": "expression"
     }

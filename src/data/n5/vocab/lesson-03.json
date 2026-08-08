@@ -47,7 +47,8 @@
       "word": "こちら",
       "kana": "こちら",
       "meaning": {
-        "es": "por aquí, aquí (cortés de ここ)"
+        "es": "por aquí, aquí (cortés de ここ)",
+        "en": "here (polite form of ここ)"
       },
       "type": "pronoun"
     },
@@ -56,7 +57,8 @@
       "word": "そちら",
       "kana": "そちら",
       "meaning": {
-        "es": "por ahí, ahí (cortés de そこ)"
+        "es": "por ahí, ahí (cortés de そこ)",
+        "en": "there (polite form of そこ)"
       },
       "type": "pronoun"
     },
@@ -65,7 +67,8 @@
       "word": "あちら",
       "kana": "あちら",
       "meaning": {
-        "es": "por allí, allí (cortés de あそこ)"
+        "es": "por allí, allí (cortés de あそこ)",
+        "en": "over there (polite form of あそこ)"
       },
       "type": "pronoun"
     },
@@ -74,7 +77,8 @@
       "word": "どちら",
       "kana": "どちら",
       "meaning": {
-        "es": "por dónde, dónde (cortés de どこ)"
+        "es": "por dónde, dónde (cortés de どこ)",
+        "en": "where (polite form of どこ)"
       },
       "type": "interrogative"
     },
@@ -103,7 +107,8 @@
       "word": "事務所[じむしょ]",
       "kana": "じむしょ",
       "meaning": {
-        "es": "oficina"
+        "es": "oficina",
+        "en": "office"
       },
       "type": "noun"
     },
@@ -112,7 +117,8 @@
       "word": "会議室[かいぎしつ]",
       "kana": "かいぎしつ",
       "meaning": {
-        "es": "sala de reuniones"
+        "es": "sala de reuniones",
+        "en": "meeting room"
       },
       "type": "noun"
     },
@@ -121,7 +127,8 @@
       "word": "受付[うけつけ]",
       "kana": "うけつけ",
       "meaning": {
-        "es": "recepción"
+        "es": "recepción",
+        "en": "reception"
       },
       "type": "noun"
     },
@@ -130,7 +137,8 @@
       "word": "ロビー",
       "kana": "ロビー",
       "meaning": {
-        "es": "recepción, vestíbulo"
+        "es": "recepción, vestíbulo",
+        "en": "reception, lobby"
       },
       "type": "noun"
     },
@@ -139,7 +147,8 @@
       "word": "部屋[へや]",
       "kana": "へや",
       "meaning": {
-        "es": "habitación, cuarto"
+        "es": "habitación, cuarto",
+        "en": "room"
       },
       "type": "noun"
     },
@@ -158,7 +167,8 @@
       "word": "階段[かいだん]",
       "kana": "かいだん",
       "meaning": {
-        "es": "escalera"
+        "es": "escalera",
+        "en": "stairs"
       },
       "type": "noun"
     },
@@ -177,7 +187,8 @@
       "word": "エスカレーター",
       "kana": "エスカレーター",
       "meaning": {
-        "es": "escalera mecánica"
+        "es": "escalera mecánica",
+        "en": "escalator"
       },
       "type": "noun"
     },
@@ -186,7 +197,8 @@
       "word": "自動販売機[じどうはんばいき]",
       "kana": "じどうはんばいき",
       "meaning": {
-        "es": "máquina de venta automática"
+        "es": "máquina de venta automática",
+        "en": "vending machine"
       },
       "type": "noun"
     },
@@ -195,7 +207,8 @@
       "word": "電話[でんわ]",
       "kana": "でんわ",
       "meaning": {
-        "es": "teléfono, llamada telefónica"
+        "es": "teléfono, llamada telefónica",
+        "en": "telephone, phone call"
       },
       "type": "noun"
     },
@@ -214,7 +227,8 @@
       "word": "会社[かいしゃ]",
       "kana": "かいしゃ",
       "meaning": {
-        "es": "empresa, compañía"
+        "es": "empresa, compañía",
+        "en": "company, firm"
       },
       "type": "noun"
     },
@@ -233,7 +247,8 @@
       "word": "靴[くつ]",
       "kana": "くつ",
       "meaning": {
-        "es": "zapatos"
+        "es": "zapatos",
+        "en": "shoes"
       },
       "type": "noun"
     },
@@ -252,7 +267,8 @@
       "word": "ワイン",
       "kana": "ワイン",
       "meaning": {
-        "es": "vino"
+        "es": "vino",
+        "en": "wine"
       },
       "type": "noun"
     },
@@ -261,7 +277,8 @@
       "word": "売[う]り 場[ば]",
       "kana": "うりば",
       "meaning": {
-        "es": "sección (en un gran almacén)"
+        "es": "sección (en un gran almacén)",
+        "en": "department (in a department store)"
       },
       "type": "noun"
     },
@@ -270,7 +287,8 @@
       "word": "地下[ちか]",
       "kana": "ちか",
       "meaning": {
-        "es": "sótano, subsuelo"
+        "es": "sótano, subsuelo",
+        "en": "basement, underground"
       },
       "type": "noun"
     },
@@ -279,7 +297,8 @@
       "word": "〜階[かい]",
       "kana": "かい／がい",
       "meaning": {
-        "es": "piso ~, planta ~"
+        "es": "piso ~, planta ~",
+        "en": "~ floor"
       },
       "type": "counter"
     },
@@ -288,7 +307,8 @@
       "word": "何階[なんがい]",
       "kana": "なんがい",
       "meaning": {
-        "es": "qué piso"
+        "es": "qué piso",
+        "en": "what floor"
       },
       "type": "interrogative"
     },
@@ -327,7 +347,8 @@
       "word": "千[せん]",
       "kana": "せん",
       "meaning": {
-        "es": "mil"
+        "es": "mil",
+        "en": "thousand"
       },
       "type": "number"
     },
@@ -356,7 +377,8 @@
       "word": "どうも",
       "kana": "どうも",
       "meaning": {
-        "es": "gracias"
+        "es": "gracias",
+        "en": "thank you"
       },
       "type": "expression"
     },
@@ -375,7 +397,8 @@
       "word": "[〜を] 見[み]せてください",
       "kana": "みせてください",
       "meaning": {
-        "es": "muéstreme [~], por favor"
+        "es": "muéstreme [~], por favor",
+        "en": "please show me [~]"
       },
       "type": "expression"
     },

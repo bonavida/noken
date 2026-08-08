@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 3,
   "meanings": {
-    "es": ["seis"]
+    "es": ["seis"],
+    "en": ["six"]
   },
   "onyomi": ["ロク"],
   "kunyomi": ["む.つ", "むっ.つ"],
@@ -12,25 +13,29 @@
     {
       "word": "六[ろく]",
       "meaning": {
-        "es": "seis"
+        "es": "seis",
+        "en": "six"
       }
     },
     {
       "word": "六[むっ]つ",
       "meaning": {
-        "es": "seis cosas"
+        "es": "seis cosas",
+        "en": "six things"
       }
     },
     {
       "word": "六月[ろくがつ]",
       "meaning": {
-        "es": "junio"
+        "es": "junio",
+        "en": "June"
       }
     },
     {
       "word": "第六感[だいろっかん]",
       "meaning": {
-        "es": "sexto sentido"
+        "es": "sexto sentido",
+        "en": "sixth sense"
       }
     },
     {

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 5,
   "meanings": {
-    "es": ["volver", "regresar"]
+    "es": ["volver", "regresar"],
+    "en": ["to return"]
   },
   "onyomi": ["キ"],
   "kunyomi": ["かえ.る"],
@@ -12,7 +13,8 @@
     {
       "word": "帰[かえ]ります",
       "meaning": {
-        "es": "volver"
+        "es": "volver",
+        "en": "to return"
       }
     },
     {
@@ -25,7 +27,8 @@
     {
       "word": "帰[かえ]る",
       "meaning": {
-        "es": "volver"
+        "es": "volver",
+        "en": "to return"
       }
     },
     {
@@ -38,13 +41,15 @@
     {
       "word": "帰国[きこく]",
       "meaning": {
-        "es": "regreso al país"
+        "es": "regreso al país",
+        "en": "returning to one's country"
       }
     },
     {
       "word": "帰宅[きたく]",
       "meaning": {
-        "es": "vuelta a casa"
+        "es": "vuelta a casa",
+        "en": "returning home"
       }
     },
     {

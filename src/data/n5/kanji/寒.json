@@ -2,7 +2,8 @@
   "character": "寒",
   "level": "n5",
   "meanings": {
-    "es": ["frío"]
+    "es": ["frío"],
+    "en": ["cold"]
   },
   "onyomi": ["カン"],
   "kunyomi": ["さむ.い"],
@@ -11,7 +12,8 @@
     {
       "word": "寒[さむ]い",
       "meaning": {
-        "es": "frío"
+        "es": "frío",
+        "en": "cold"
       }
     },
     {
@@ -24,7 +26,8 @@
     {
       "word": "寒帯[かんたい]",
       "meaning": {
-        "es": "zona glacial"
+        "es": "zona glacial",
+        "en": "frigid zone"
       }
     },
     {
@@ -37,7 +40,8 @@
     {
       "word": "寒波[かんぱ]",
       "meaning": {
-        "es": "ola de frío"
+        "es": "ola de frío",
+        "en": "cold spell"
       }
     }
   ],

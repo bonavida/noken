@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["hablar", "historia", "conversación"]
+    "es": ["hablar", "historia", "conversación"],
+    "en": ["to speak", "history", "conversation"]
   },
   "onyomi": ["ワ"],
   "kunyomi": ["はな.す", "はなし"],
@@ -12,13 +13,15 @@
     {
       "word": "話[はな]します",
       "meaning": {
-        "es": "hablar"
+        "es": "hablar",
+        "en": "to speak"
       }
     },
     {
       "word": "電話[でんわ]",
       "meaning": {
-        "es": "teléfono"
+        "es": "teléfono",
+        "en": "telephone"
       }
     },
     {
@@ -31,7 +34,8 @@
     {
       "word": "話[はな]す",
       "meaning": {
-        "es": "hablar"
+        "es": "hablar",
+        "en": "to speak"
       }
     },
     {
@@ -44,7 +48,8 @@
     {
       "word": "話題[わだい]",
       "meaning": {
-        "es": "tema de conversación"
+        "es": "tema de conversación",
+        "en": "topic of conversation"
       }
     }
   ],

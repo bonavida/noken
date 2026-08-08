@@ -2,7 +2,8 @@
   "character": "仕",
   "level": "n5",
   "meanings": {
-    "es": ["servir", "hacer"]
+    "es": ["servir", "hacer"],
+    "en": ["to serve", "to do, to make"]
   },
   "onyomi": ["シ"],
   "kunyomi": [],
@@ -11,13 +12,15 @@
     {
       "word": "仕事[しごと]",
       "meaning": {
-        "es": "trabajo"
+        "es": "trabajo",
+        "en": "work, job"
       }
     },
     {
       "word": "仕方[しかた]",
       "meaning": {
-        "es": "modo de hacer"
+        "es": "modo de hacer",
+        "en": "way of doing"
       }
     },
     {

@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 1,
   "meanings": {
-    "es": ["país"]
+    "es": ["país"],
+    "en": ["country"]
   },
   "onyomi": ["コク"],
   "kunyomi": ["くに"],
@@ -12,13 +13,15 @@
     {
       "word": "国[くに]",
       "meaning": {
-        "es": "país"
+        "es": "país",
+        "en": "country"
       }
     },
     {
       "word": "外国[がいこく]",
       "meaning": {
-        "es": "extranjero"
+        "es": "extranjero",
+        "en": "abroad, foreign"
       }
     },
     {
@@ -31,7 +34,8 @@
     {
       "word": "雪国[ゆきぐに]",
       "meaning": {
-        "es": "tierra de nieve"
+        "es": "tierra de nieve",
+        "en": "snow country"
       }
     },
     {
@@ -44,7 +48,8 @@
     {
       "word": "国際[こくさい]",
       "meaning": {
-        "es": "internacional"
+        "es": "internacional",
+        "en": "international"
       }
     }
   ]

@@ -26,19 +26,22 @@
     {
       "word": "体操[たいそう]",
       "meaning": {
-        "es": "gimnasia"
+        "es": "gimnasia",
+        "en": "gymnastics"
       }
     },
     {
       "word": "固体[こたい]",
       "meaning": {
-        "es": "sólido"
+        "es": "sólido",
+        "en": "solid"
       }
     },
     {
       "word": "体験[たいけん]",
       "meaning": {
-        "es": "experiencia vivida"
+        "es": "experiencia vivida",
+        "en": "first-hand experience"
       }
     }
   ],

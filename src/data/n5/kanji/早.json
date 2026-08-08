@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 9,
   "meanings": {
-    "es": ["temprano", "rápido"]
+    "es": ["temprano", "rápido"],
+    "en": ["early", "fast"]
   },
   "onyomi": ["ソウ"],
   "kunyomi": ["はや.い"],
@@ -12,37 +13,43 @@
     {
       "word": "早[はや]い",
       "meaning": {
-        "es": "temprano"
+        "es": "temprano",
+        "en": "early"
       }
     },
     {
       "word": "早[はや]く",
       "meaning": {
-        "es": "pronto"
+        "es": "pronto",
+        "en": "soon"
       }
     },
     {
       "word": "早起[はやお]き",
       "meaning": {
-        "es": "levantarse temprano"
+        "es": "levantarse temprano",
+        "en": "to get up early"
       }
     },
     {
       "word": "早口[はやくち]",
       "meaning": {
-        "es": "hablar rápido"
+        "es": "hablar rápido",
+        "en": "to speak fast"
       }
     },
     {
       "word": "早朝[そうちょう]",
       "meaning": {
-        "es": "temprano por la mañana"
+        "es": "temprano por la mañana",
+        "en": "early in the morning"
       }
     },
     {
       "word": "早産[そうざん]",
       "meaning": {
-        "es": "nacimiento prematuro"
+        "es": "nacimiento prematuro",
+        "en": "premature birth"
       }
     }
   ]

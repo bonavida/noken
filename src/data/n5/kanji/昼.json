@@ -2,7 +2,8 @@
   "character": "昼",
   "level": "n5",
   "meanings": {
-    "es": ["mediodía"]
+    "es": ["mediodía"],
+    "en": ["midday"]
   },
   "onyomi": ["チュウ"],
   "kunyomi": ["ひる"],
@@ -11,13 +12,15 @@
     {
       "word": "昼[ひる]",
       "meaning": {
-        "es": "mediodía"
+        "es": "mediodía",
+        "en": "midday"
       }
     },
     {
       "word": "昼寝[ひるね]",
       "meaning": {
-        "es": "siesta"
+        "es": "siesta",
+        "en": "nap"
       }
     },
     {

@@ -2,7 +2,8 @@
   "character": "姉",
   "level": "n5",
   "meanings": {
-    "es": ["hermana mayor"]
+    "es": ["hermana mayor"],
+    "en": ["older sister"]
   },
   "onyomi": ["シ"],
   "kunyomi": ["あね", "ねえ"],
@@ -11,19 +12,22 @@
     {
       "word": "姉[あね]",
       "meaning": {
-        "es": "hermana mayor"
+        "es": "hermana mayor",
+        "en": "older sister"
       }
     },
     {
       "word": "お 姉[ねえ]さん",
       "meaning": {
-        "es": "hermana mayor"
+        "es": "hermana mayor",
+        "en": "older sister"
       }
     },
     {
       "word": "姉妹[しまい]",
       "meaning": {
-        "es": "hermanas"
+        "es": "hermanas",
+        "en": "sisters"
       }
     },
     {
@@ -36,7 +40,8 @@
     {
       "word": "義姉[ぎし]",
       "meaning": {
-        "es": "hermanastra mayor"
+        "es": "hermanastra mayor",
+        "en": "older stepsister"
       }
     }
   ],

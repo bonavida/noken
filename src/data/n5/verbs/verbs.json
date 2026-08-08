@@ -11,7 +11,8 @@
       "nai": "あわない",
       "ta": "あった",
       "meaning": {
-        "es": "ver a, encontrarse con [amigos]"
+        "es": "ver a, encontrarse con [amigos]",
+        "en": "to see, to meet [friends]"
       },
       "lesson": 6
     },
@@ -25,7 +26,8 @@
       "nai": "あそばない",
       "ta": "あそんだ",
       "meaning": {
-        "es": "jugar, divertirse"
+        "es": "jugar, divertirse",
+        "en": "to play, to enjoy oneself"
       },
       "lesson": 13
     },
@@ -39,7 +41,8 @@
       "nai": "あらわない",
       "ta": "あらった",
       "meaning": {
-        "es": "lavar"
+        "es": "lavar",
+        "en": "to wash"
       },
       "lesson": 18
     },
@@ -52,7 +55,8 @@
       "dictionary": "ある",
       "ta": "あった",
       "meaning": {
-        "es": "haber"
+        "es": "haber",
+        "en": "to have, there is"
       },
       "lesson": 9
     },
@@ -65,7 +69,8 @@
       "dictionary": "ある",
       "ta": "あった",
       "meaning": {
-        "es": "estar, haber (cosas inanimadas)"
+        "es": "estar, haber (cosas inanimadas)",
+        "en": "to be, there is (inanimate things)"
       },
       "lesson": 10
     },
@@ -78,7 +83,8 @@
       "dictionary": "ある",
       "ta": "あった",
       "meaning": {
-        "es": "haber, tener lugar [un festival]"
+        "es": "haber, tener lugar [un festival]",
+        "en": "to be held [a festival]"
       },
       "lesson": 21
     },
@@ -122,7 +128,8 @@
       "nai": "いかない",
       "ta": "いった",
       "meaning": {
-        "es": "ir"
+        "es": "ir",
+        "en": "to go"
       },
       "lesson": 5
     },
@@ -151,7 +158,8 @@
       "nai": "いらない",
       "ta": "いった",
       "meaning": {
-        "es": "necesitar, requerir [un visado]"
+        "es": "necesitar, requerir [un visado]",
+        "en": "to need, to require [a visa]"
       },
       "lesson": 20
     },
@@ -165,7 +173,8 @@
       "nai": "うごかない",
       "ta": "うごいた",
       "meaning": {
-        "es": "funcionar"
+        "es": "funcionar",
+        "en": "to work, to function"
       },
       "lesson": 21
     },
@@ -194,7 +203,8 @@
       "nai": "うらない",
       "ta": "うった",
       "meaning": {
-        "es": "vender"
+        "es": "vender",
+        "en": "to sell"
       },
       "lesson": 15
     },
@@ -208,7 +218,8 @@
       "nai": "おかない",
       "ta": "おいた",
       "meaning": {
-        "es": "poner, colocar"
+        "es": "poner, colocar",
+        "en": "to put, to place"
       },
       "lesson": 15
     },
@@ -222,7 +233,8 @@
       "nai": "おくらない",
       "ta": "おくった",
       "meaning": {
-        "es": "enviar"
+        "es": "enviar",
+        "en": "to send"
       },
       "lesson": 7
     },
@@ -251,7 +263,8 @@
       "nai": "おさない",
       "ta": "おした",
       "meaning": {
-        "es": "presionar, empujar"
+        "es": "presionar, empujar",
+        "en": "to press, to push"
       },
       "lesson": 16
     },
@@ -295,7 +308,8 @@
       "nai": "およがない",
       "ta": "およいだ",
       "meaning": {
-        "es": "nadar"
+        "es": "nadar",
+        "en": "to swim"
       },
       "lesson": 13
     },
@@ -309,7 +323,8 @@
       "nai": "おろさない",
       "ta": "おろした",
       "meaning": {
-        "es": "retirar, sacar [dinero del banco]"
+        "es": "retirar, sacar [dinero del banco]",
+        "en": "to withdraw, to take out [money from the bank]"
       },
       "lesson": 16
     },
@@ -323,7 +338,8 @@
       "nai": "おわらない",
       "ta": "おわった",
       "meaning": {
-        "es": "terminar"
+        "es": "terminar",
+        "en": "to finish"
       },
       "lesson": 4
     },
@@ -367,7 +383,8 @@
       "nai": "かえらない",
       "ta": "かえった",
       "meaning": {
-        "es": "volver, regresar, irse a casa"
+        "es": "volver, regresar, irse a casa",
+        "en": "to return, to go home"
       },
       "lesson": 5
     },
@@ -381,7 +398,8 @@
       "nai": "かからない",
       "ta": "かかった",
       "meaning": {
-        "es": "tardar (tiempo), costar (dinero)"
+        "es": "tardar (tiempo), costar (dinero)",
+        "en": "to take (time), to cost (money)"
       },
       "lesson": 11
     },
@@ -395,7 +413,8 @@
       "nai": "かかない",
       "ta": "かいた",
       "meaning": {
-        "es": "escribir, dibujar, pintar"
+        "es": "escribir, dibujar, pintar",
+        "en": "to write, to draw"
       },
       "lesson": 6
     },
@@ -409,7 +428,8 @@
       "nai": "かさない",
       "ta": "かした",
       "meaning": {
-        "es": "prestar"
+        "es": "prestar",
+        "en": "to lend"
       },
       "lesson": 7
     },
@@ -423,7 +443,8 @@
       "nai": "かたない",
       "ta": "かった",
       "meaning": {
-        "es": "ganar"
+        "es": "ganar",
+        "en": "to win"
       },
       "lesson": 21
     },
@@ -437,7 +458,8 @@
       "nai": "かぶらない",
       "ta": "かぶった",
       "meaning": {
-        "es": "ponerse (un sombrero, etc.)"
+        "es": "ponerse (un sombrero, etc.)",
+        "en": "to put on (a hat, etc.)"
       },
       "lesson": 22
     },
@@ -451,7 +473,8 @@
       "nai": "がんばらない",
       "ta": "がんばった",
       "meaning": {
-        "es": "esforzarse, tener ánimo"
+        "es": "esforzarse, tener ánimo",
+        "en": "to do one's best"
       },
       "lesson": 25
     },
@@ -465,7 +488,8 @@
       "nai": "きかない",
       "ta": "きいた",
       "meaning": {
-        "es": "oír, escuchar"
+        "es": "oír, escuchar",
+        "en": "to hear, to listen"
       },
       "lesson": 6
     },
@@ -479,7 +503,8 @@
       "nai": "きかない",
       "ta": "きいた",
       "meaning": {
-        "es": "preguntar [al profesor]"
+        "es": "preguntar [al profesor]",
+        "en": "to ask [the teacher]"
       },
       "lesson": 23
     },
@@ -523,7 +548,8 @@
       "nai": "さわらない",
       "ta": "さわった",
       "meaning": {
-        "es": "tocar [una puerta]"
+        "es": "tocar [una puerta]",
+        "en": "to knock [on a door]"
       },
       "lesson": 23
     },
@@ -537,7 +563,8 @@
       "nai": "しらない",
       "ta": "しった",
       "meaning": {
-        "es": "enterarse, saber"
+        "es": "enterarse, saber",
+        "en": "to find out, to learn"
       },
       "lesson": 15
     },
@@ -551,7 +578,8 @@
       "nai": "すわない",
       "ta": "すった",
       "meaning": {
-        "es": "fumar"
+        "es": "fumar",
+        "en": "to smoke"
       },
       "lesson": 6
     },
@@ -565,7 +593,8 @@
       "nai": "すまない",
       "ta": "すんだ",
       "meaning": {
-        "es": "vivir, residir"
+        "es": "vivir, residir",
+        "en": "to live, to reside"
       },
       "lesson": 15
     },
@@ -579,7 +608,8 @@
       "nai": "すわらない",
       "ta": "すわった",
       "meaning": {
-        "es": "sentarse"
+        "es": "sentarse",
+        "en": "to sit down"
       },
       "lesson": 14
     },
@@ -593,7 +623,8 @@
       "nai": "ださない",
       "ta": "だした",
       "meaning": {
-        "es": "sacar (algo del bolso), entregar, presentar (un informe), enviar"
+        "es": "sacar (algo del bolso), entregar, presentar (un informe), enviar",
+        "en": "to take out (of a bag), to hand in (a report), to send"
       },
       "lesson": 16
     },
@@ -607,7 +638,8 @@
       "nai": "たたない",
       "ta": "たった",
       "meaning": {
-        "es": "ponerse de pie"
+        "es": "ponerse de pie",
+        "en": "to stand up"
       },
       "lesson": 14
     },
@@ -621,7 +653,8 @@
       "nai": "つかわない",
       "ta": "つかった",
       "meaning": {
-        "es": "usar"
+        "es": "usar",
+        "en": "to use"
       },
       "lesson": 14
     },
@@ -635,7 +668,8 @@
       "nai": "つかない",
       "ta": "ついた",
       "meaning": {
-        "es": "llegar"
+        "es": "llegar",
+        "en": "to arrive"
       },
       "lesson": 25
     },
@@ -649,7 +683,8 @@
       "nai": "つくらない",
       "ta": "つくった",
       "meaning": {
-        "es": "hacer, producir"
+        "es": "hacer, producir",
+        "en": "to make, to produce"
       },
       "lesson": 15
     },
@@ -663,7 +698,8 @@
       "nai": "つれていかない",
       "ta": "つれていった",
       "meaning": {
-        "es": "llevar (a alguien)"
+        "es": "llevar (a alguien)",
+        "en": "to take (someone)"
       },
       "lesson": 24
     },
@@ -707,7 +743,8 @@
       "nai": "とらない",
       "ta": "とった",
       "meaning": {
-        "es": "tomar (en la mano), pasar (algo a alguien)"
+        "es": "tomar (en la mano), pasar (algo a alguien)",
+        "en": "to take (in the hand), to pass (something to someone)"
       },
       "lesson": 14
     },
@@ -721,7 +758,8 @@
       "nai": "とらない",
       "ta": "とった",
       "meaning": {
-        "es": "sacar [fotos]"
+        "es": "sacar [fotos]",
+        "en": "to take [photos]"
       },
       "lesson": 6
     },
@@ -735,7 +773,8 @@
       "nai": "とらない",
       "ta": "とった",
       "meaning": {
-        "es": "envejecer"
+        "es": "envejecer",
+        "en": "to grow old"
       },
       "lesson": 25
     },
@@ -749,7 +788,8 @@
       "nai": "なおさない",
       "ta": "なおした",
       "meaning": {
-        "es": "reparar, arreglar, corregir"
+        "es": "reparar, arreglar, corregir",
+        "en": "to repair, to fix, to correct"
       },
       "lesson": 24
     },
@@ -763,7 +803,8 @@
       "nai": "なくさない",
       "ta": "なくした",
       "meaning": {
-        "es": "perder"
+        "es": "perder",
+        "en": "to lose"
       },
       "lesson": 17
     },
@@ -807,7 +848,8 @@
       "nai": "ぬがない",
       "ta": "ぬいだ",
       "meaning": {
-        "es": "quitarse (ropas, calzados, etc.)"
+        "es": "quitarse (ropas, calzados, etc.)",
+        "en": "to take off (clothes, footwear, etc.)"
       },
       "lesson": 17
     },
@@ -821,7 +863,8 @@
       "nai": "のぼらない",
       "ta": "のぼった",
       "meaning": {
-        "es": "subir, escalar"
+        "es": "subir, escalar",
+        "en": "to climb"
       },
       "lesson": 19
     },
@@ -865,7 +908,8 @@
       "nai": "のまない",
       "ta": "のんだ",
       "meaning": {
-        "es": "tomar [medicinas]"
+        "es": "tomar [medicinas]",
+        "en": "to take [medicine]"
       },
       "lesson": 17
     },
@@ -879,7 +923,8 @@
       "nai": "のらない",
       "ta": "のった",
       "meaning": {
-        "es": "subir [en el tren]"
+        "es": "subir [en el tren]",
+        "en": "to get on [the train]"
       },
       "lesson": 16
     },
@@ -893,7 +938,8 @@
       "nai": "はいらない",
       "ta": "はいった",
       "meaning": {
-        "es": "entrar [en una cafetería]"
+        "es": "entrar [en una cafetería]",
+        "en": "to go into [a café]"
       },
       "lesson": 14
     },
@@ -907,7 +953,8 @@
       "nai": "はいらない",
       "ta": "はいった",
       "meaning": {
-        "es": "entrar, ingresar [en una universidad]"
+        "es": "entrar, ingresar [en una universidad]",
+        "en": "to enter [a university]"
       },
       "lesson": 16
     },
@@ -921,7 +968,8 @@
       "nai": "はいらない",
       "ta": "はいった",
       "meaning": {
-        "es": "tomar [un baño]"
+        "es": "tomar [un baño]",
+        "en": "to have [a bath]"
       },
       "lesson": 17
     },
@@ -935,7 +983,8 @@
       "nai": "はかない",
       "ta": "はいた",
       "meaning": {
-        "es": "ponerse (zapatos, pantalones, etc.)"
+        "es": "ponerse (zapatos, pantalones, etc.)",
+        "en": "to put on (shoes, trousers, etc.)"
       },
       "lesson": 22
     },
@@ -949,7 +998,8 @@
       "nai": "はたらかない",
       "ta": "はたらいた",
       "meaning": {
-        "es": "trabajar"
+        "es": "trabajar",
+        "en": "to work"
       },
       "lesson": 4
     },
@@ -963,7 +1013,8 @@
       "nai": "はなさない",
       "ta": "はなした",
       "meaning": {
-        "es": "hablar"
+        "es": "hablar",
+        "en": "to speak"
       },
       "lesson": 14
     },
@@ -977,7 +1028,8 @@
       "nai": "はらわない",
       "ta": "はらった",
       "meaning": {
-        "es": "pagar"
+        "es": "pagar",
+        "en": "to pay"
       },
       "lesson": 17
     },
@@ -991,7 +1043,8 @@
       "nai": "ひかない",
       "ta": "ひいた",
       "meaning": {
-        "es": "tocar (instrumentos musicales de cuerda, piano, etc.)"
+        "es": "tocar (instrumentos musicales de cuerda, piano, etc.)",
+        "en": "to play (string instruments, piano, etc.)"
       },
       "lesson": 18
     },
@@ -1005,7 +1058,8 @@
       "nai": "ひかない",
       "ta": "ひいた",
       "meaning": {
-        "es": "tirar, jalar"
+        "es": "tirar, jalar",
+        "en": "to pull"
       },
       "lesson": 23
     },
@@ -1019,7 +1073,8 @@
       "nai": "ふらない",
       "ta": "ふった",
       "meaning": {
-        "es": "llover"
+        "es": "llover",
+        "en": "to rain"
       },
       "lesson": 14
     },
@@ -1048,7 +1103,8 @@
       "nai": "またない",
       "ta": "まった",
       "meaning": {
-        "es": "esperar"
+        "es": "esperar",
+        "en": "to wait"
       },
       "lesson": 14
     },
@@ -1062,7 +1118,8 @@
       "nai": "まわさない",
       "ta": "まわした",
       "meaning": {
-        "es": "girar"
+        "es": "girar",
+        "en": "to turn"
       },
       "lesson": 23
     },
@@ -1076,7 +1133,8 @@
       "nai": "もたない",
       "ta": "もった",
       "meaning": {
-        "es": "tener algo en la mano"
+        "es": "tener algo en la mano",
+        "en": "to hold something"
       },
       "lesson": 14
     },
@@ -1090,7 +1148,8 @@
       "nai": "もっていかない",
       "ta": "もっていった",
       "meaning": {
-        "es": "llevar (algo)"
+        "es": "llevar (algo)",
+        "en": "to carry (something)"
       },
       "lesson": 17
     },
@@ -1104,7 +1163,8 @@
       "nai": "もらわない",
       "ta": "もらった",
       "meaning": {
-        "es": "recibir (regalos, etc.)"
+        "es": "recibir (regalos, etc.)",
+        "en": "to receive (gifts, etc.)"
       },
       "lesson": 7
     },
@@ -1118,7 +1178,8 @@
       "nai": "やくにたたない",
       "ta": "やくにたった",
       "meaning": {
-        "es": "ser útil"
+        "es": "ser útil",
+        "en": "to be useful"
       },
       "lesson": 21
     },
@@ -1162,7 +1223,8 @@
       "nai": "よばない",
       "ta": "よんだ",
       "meaning": {
-        "es": "llamar"
+        "es": "llamar",
+        "en": "to call"
       },
       "lesson": 14
     },
@@ -1176,7 +1238,8 @@
       "nai": "よまない",
       "ta": "よんだ",
       "meaning": {
-        "es": "leer"
+        "es": "leer",
+        "en": "to read"
       },
       "lesson": 6
     },
@@ -1190,7 +1253,8 @@
       "nai": "わからない",
       "ta": "わかった",
       "meaning": {
-        "es": "entender, comprender"
+        "es": "entender, comprender",
+        "en": "to understand"
       },
       "lesson": 9
     },
@@ -1264,7 +1328,8 @@
       "nai": "あびない",
       "ta": "あびた",
       "meaning": {
-        "es": "tomar [una ducha]"
+        "es": "tomar [una ducha]",
+        "en": "to have [a shower]"
       },
       "lesson": 16
     },
@@ -1278,7 +1343,8 @@
       "nai": "いない",
       "ta": "いた",
       "meaning": {
-        "es": "estar, haber, existir (seres animados)"
+        "es": "estar, haber, existir (seres animados)",
+        "en": "to be, to exist (living things)"
       },
       "lesson": 10
     },
@@ -1292,7 +1358,8 @@
       "nai": "いない",
       "ta": "いた",
       "meaning": {
-        "es": "tener [hijos]"
+        "es": "tener [hijos]",
+        "en": "to have [children]"
       },
       "lesson": 11
     },
@@ -1306,7 +1373,8 @@
       "nai": "いない",
       "ta": "いた",
       "meaning": {
-        "es": "estar, permanecer [en Japón]"
+        "es": "estar, permanecer [en Japón]",
+        "en": "to stay [in Japan]"
       },
       "lesson": 11
     },
@@ -1320,7 +1388,8 @@
       "nai": "いれない",
       "ta": "いれた",
       "meaning": {
-        "es": "meter, introducir, insertar"
+        "es": "meter, introducir, insertar",
+        "en": "to put in, to insert"
       },
       "lesson": 16
     },
@@ -1334,7 +1403,8 @@
       "nai": "うまれない",
       "ta": "うまれた",
       "meaning": {
-        "es": "nacer"
+        "es": "nacer",
+        "en": "to be born"
       },
       "lesson": 22
     },
@@ -1348,7 +1418,8 @@
       "nai": "おきない",
       "ta": "おきた",
       "meaning": {
-        "es": "levantarse"
+        "es": "levantarse",
+        "en": "to get up"
       },
       "lesson": 4
     },
@@ -1362,7 +1433,8 @@
       "nai": "おしえない",
       "ta": "おしえた",
       "meaning": {
-        "es": "enseñar"
+        "es": "enseñar",
+        "en": "to teach"
       },
       "lesson": 7
     },
@@ -1376,7 +1448,8 @@
       "nai": "おしえない",
       "ta": "おしえた",
       "meaning": {
-        "es": "enseñar, dar [una dirección]"
+        "es": "enseñar, dar [una dirección]",
+        "en": "to teach, to tell [an address]"
       },
       "lesson": 14
     },
@@ -1450,7 +1523,8 @@
       "nai": "かけない",
       "ta": "かけた",
       "meaning": {
-        "es": "hacer [una llamada telefónica]"
+        "es": "hacer [una llamada telefónica]",
+        "en": "to make [a phone call]"
       },
       "lesson": 7
     },
@@ -1464,7 +1538,8 @@
       "nai": "かけない",
       "ta": "かけた",
       "meaning": {
-        "es": "ponerse [las gafas]"
+        "es": "ponerse [las gafas]",
+        "en": "to put on [glasses]"
       },
       "lesson": 22
     },
@@ -1478,7 +1553,8 @@
       "nai": "かりない",
       "ta": "かりた",
       "meaning": {
-        "es": "tomar prestado"
+        "es": "tomar prestado",
+        "en": "to borrow"
       },
       "lesson": 7
     },
@@ -1492,7 +1568,8 @@
       "nai": "かんがえない",
       "ta": "かんがえた",
       "meaning": {
-        "es": "pensar, considerar"
+        "es": "pensar, considerar",
+        "en": "to think, to consider"
       },
       "lesson": 25
     },
@@ -1506,7 +1583,8 @@
       "nai": "きない",
       "ta": "きた",
       "meaning": {
-        "es": "ponerse (una camisa, etc.)"
+        "es": "ponerse (una camisa, etc.)",
+        "en": "to put on (a shirt, etc.)"
       },
       "lesson": 22
     },
@@ -1520,7 +1598,8 @@
       "nai": "きをつけない",
       "ta": "きをつけた",
       "meaning": {
-        "es": "prestar atención, tener cuidado"
+        "es": "prestar atención, tener cuidado",
+        "en": "to pay attention, to be careful"
       },
       "lesson": 21
     },
@@ -1579,7 +1658,8 @@
       "nai": "すてない",
       "ta": "すてた",
       "meaning": {
-        "es": "tirar, botar"
+        "es": "tirar, botar",
+        "en": "to throw away"
       },
       "lesson": 18
     },
@@ -1608,7 +1688,8 @@
       "nai": "たりない",
       "ta": "たりた",
       "meaning": {
-        "es": "ser suficiente"
+        "es": "ser suficiente",
+        "en": "to be enough"
       },
       "lesson": 25
     },
@@ -1637,7 +1718,8 @@
       "nai": "つけない",
       "ta": "つけた",
       "meaning": {
-        "es": "encender"
+        "es": "encender",
+        "en": "to turn on"
       },
       "lesson": 14
     },
@@ -1651,7 +1733,8 @@
       "nai": "でかけない",
       "ta": "でかけた",
       "meaning": {
-        "es": "salir"
+        "es": "salir",
+        "en": "to go out"
       },
       "lesson": 17
     },
@@ -1665,7 +1748,8 @@
       "nai": "できない",
       "ta": "できた",
       "meaning": {
-        "es": "poder, ser capaz de"
+        "es": "poder, ser capaz de",
+        "en": "can, to be able to"
       },
       "lesson": 18
     },
@@ -1679,7 +1763,8 @@
       "nai": "でない",
       "ta": "でた",
       "meaning": {
-        "es": "salir [la vuelta]"
+        "es": "salir [la vuelta]",
+        "en": "for change to come out"
       },
       "lesson": 23
     },
@@ -1693,7 +1778,8 @@
       "nai": "でない",
       "ta": "でた",
       "meaning": {
-        "es": "salir [de una cafetería]"
+        "es": "salir [de una cafetería]",
+        "en": "to leave [a café]"
       },
       "lesson": 14
     },
@@ -1707,7 +1793,8 @@
       "nai": "でない",
       "ta": "でた",
       "meaning": {
-        "es": "graduarse [en una universidad]"
+        "es": "graduarse [en una universidad]",
+        "en": "to graduate [from a university]"
       },
       "lesson": 16
     },
@@ -1721,7 +1808,8 @@
       "nai": "とめない",
       "ta": "とめた",
       "meaning": {
-        "es": "parar, estacionar"
+        "es": "parar, estacionar",
+        "en": "to stop, to park"
       },
       "lesson": 14
     },
@@ -1750,7 +1838,8 @@
       "nai": "のりかえない",
       "ta": "のりかえた",
       "meaning": {
-        "es": "hacer transbordo (de trenes, etc.)"
+        "es": "hacer transbordo (de trenes, etc.)",
+        "en": "to change (trains, etc.)"
       },
       "lesson": 16
     },
@@ -1764,7 +1853,8 @@
       "nai": "はじめない",
       "ta": "はじめた",
       "meaning": {
-        "es": "empezar, comenzar, iniciar"
+        "es": "empezar, comenzar, iniciar",
+        "en": "to begin, to start"
       },
       "lesson": 16
     },
@@ -1778,7 +1868,8 @@
       "nai": "まけない",
       "ta": "まけた",
       "meaning": {
-        "es": "perder (el partido, etc.), ser derrotado"
+        "es": "perder (el partido, etc.), ser derrotado",
+        "en": "to lose (a match, etc.), to be beaten"
       },
       "lesson": 21
     },
@@ -1792,7 +1883,8 @@
       "nai": "みせない",
       "ta": "みせた",
       "meaning": {
-        "es": "mostrar, enseñar"
+        "es": "mostrar, enseñar",
+        "en": "to show"
       },
       "lesson": 14
     },
@@ -1806,7 +1898,8 @@
       "nai": "みない",
       "ta": "みた",
       "meaning": {
-        "es": "ver, mirar"
+        "es": "ver, mirar",
+        "en": "to see, to watch"
       },
       "lesson": 6
     },
@@ -1820,7 +1913,8 @@
       "nai": "むかえない",
       "ta": "むかえた",
       "meaning": {
-        "es": "recoger, recibir (a gente)"
+        "es": "recoger, recibir (a gente)",
+        "en": "to pick up, to meet (people)"
       },
       "lesson": 13
     },
@@ -1849,7 +1943,8 @@
       "nai": "わすれない",
       "ta": "わすれた",
       "meaning": {
-        "es": "olvidar"
+        "es": "olvidar",
+        "en": "to forget"
       },
       "lesson": 17
     },
@@ -1863,7 +1958,8 @@
       "nai": "あんないしない",
       "ta": "あんないした",
       "meaning": {
-        "es": "guiar por (una ciudad), indicar el camino"
+        "es": "guiar por (una ciudad), indicar el camino",
+        "en": "to show around (a city), to give directions"
       },
       "lesson": 24
     },
@@ -1892,7 +1988,8 @@
       "nai": "かいものしない",
       "ta": "かいものした",
       "meaning": {
-        "es": "hacer compras"
+        "es": "hacer compras",
+        "en": "to go shopping"
       },
       "lesson": 13
     },
@@ -1906,7 +2003,8 @@
       "nai": "こない",
       "ta": "きた",
       "meaning": {
-        "es": "venir"
+        "es": "venir",
+        "en": "to come"
       },
       "lesson": 5
     },
@@ -1935,7 +2033,8 @@
       "nai": "けんがくしない",
       "ta": "けんがくした",
       "meaning": {
-        "es": "visitar un lugar (principalmente con fines de estudio)"
+        "es": "visitar un lugar (principalmente con fines de estudio)",
+        "en": "to visit a place (mainly to study it)"
       },
       "lesson": 16
     },
@@ -1949,7 +2048,8 @@
       "nai": "けんきゅうしない",
       "ta": "けんきゅうした",
       "meaning": {
-        "es": "investigar"
+        "es": "investigar",
+        "en": "to research"
       },
       "lesson": 15
     },
@@ -1963,7 +2063,8 @@
       "nai": "コピーしない",
       "ta": "コピーした",
       "meaning": {
-        "es": "sacar fotocopias"
+        "es": "sacar fotocopias",
+        "en": "to make photocopies"
       },
       "lesson": 14
     },
@@ -1977,7 +2078,8 @@
       "nai": "さんぽしない",
       "ta": "さんぽした",
       "meaning": {
-        "es": "pasear [por el parque]"
+        "es": "pasear [por el parque]",
+        "en": "to take a walk [in the park]"
       },
       "lesson": 13
     },
@@ -1991,7 +2093,8 @@
       "nai": "ざんぎょうしない",
       "ta": "ざんぎょうした",
       "meaning": {
-        "es": "trabajar horas extras"
+        "es": "trabajar horas extras",
+        "en": "to work overtime"
       },
       "lesson": 17
     },
@@ -2005,7 +2108,8 @@
       "nai": "しない",
       "ta": "した",
       "meaning": {
-        "es": "hacer"
+        "es": "hacer",
+        "en": "to do, to make"
       },
       "lesson": 6
     },
@@ -2019,7 +2123,8 @@
       "nai": "しない",
       "ta": "した",
       "meaning": {
-        "es": "ponerse [la corbata]"
+        "es": "ponerse [la corbata]",
+        "en": "to put on [a tie]"
       },
       "lesson": 22
     },
@@ -2033,7 +2138,8 @@
       "nai": "しゅうりしない",
       "ta": "しゅうりした",
       "meaning": {
-        "es": "reparar"
+        "es": "reparar",
+        "en": "to repair"
       },
       "lesson": 20
     },
@@ -2047,7 +2153,8 @@
       "nai": "しゅっちょうしない",
       "ta": "しゅっちょうした",
       "meaning": {
-        "es": "ir de viaje por trabajo"
+        "es": "ir de viaje por trabajo",
+        "en": "to travel for work"
       },
       "lesson": 17
     },
@@ -2061,7 +2168,8 @@
       "nai": "しょうかいしない",
       "ta": "しょうかいした",
       "meaning": {
-        "es": "presentar (a alguien)"
+        "es": "presentar (a alguien)",
+        "en": "to introduce (someone)"
       },
       "lesson": 24
     },
@@ -2090,7 +2198,8 @@
       "nai": "しんぱいしない",
       "ta": "しんぱいした",
       "meaning": {
-        "es": "preocuparse"
+        "es": "preocuparse",
+        "en": "to worry"
       },
       "lesson": 17
     },
@@ -2104,7 +2213,8 @@
       "nai": "せつめいしない",
       "ta": "せつめいした",
       "meaning": {
-        "es": "explicar"
+        "es": "explicar",
+        "en": "to explain"
       },
       "lesson": 24
     },
@@ -2118,7 +2228,8 @@
       "nai": "せんたくしない",
       "ta": "せんたくした",
       "meaning": {
-        "es": "lavar (la ropa)"
+        "es": "lavar (la ropa)",
+        "en": "to wash (clothes)"
       },
       "lesson": 19
     },
@@ -2132,7 +2243,8 @@
       "nai": "そうじしない",
       "ta": "そうじした",
       "meaning": {
-        "es": "limpiar (una habitación)"
+        "es": "limpiar (una habitación)",
+        "en": "to clean (a room)"
       },
       "lesson": 19
     },
@@ -2146,7 +2258,8 @@
       "nai": "つれてこない",
       "ta": "つれてきた",
       "meaning": {
-        "es": "traer (a alguien)"
+        "es": "traer (a alguien)",
+        "en": "to bring (someone)"
       },
       "lesson": 24
     },
@@ -2160,7 +2273,8 @@
       "nai": "でんわしない",
       "ta": "でんわした",
       "meaning": {
-        "es": "llamar por teléfono, telefonear"
+        "es": "llamar por teléfono, telefonear",
+        "en": "to phone, to call"
       },
       "lesson": 16
     },
@@ -2174,7 +2288,8 @@
       "nai": "べんきょうしない",
       "ta": "べんきょうした",
       "meaning": {
-        "es": "estudiar"
+        "es": "estudiar",
+        "en": "to study"
       },
       "lesson": 4
     },
@@ -2188,7 +2303,8 @@
       "nai": "もってこない",
       "ta": "もってきた",
       "meaning": {
-        "es": "traer (algo)"
+        "es": "traer (algo)",
+        "en": "to bring (something)"
       },
       "lesson": 17
     },
@@ -2202,7 +2318,8 @@
       "nai": "よやくしない",
       "ta": "よやくした",
       "meaning": {
-        "es": "reservar"
+        "es": "reservar",
+        "en": "to book, to reserve"
       },
       "lesson": 18
     },
@@ -2216,7 +2333,8 @@
       "nai": "りゅうがくしない",
       "ta": "りゅうがくした",
       "meaning": {
-        "es": "estudiar en el extranjero"
+        "es": "estudiar en el extranjero",
+        "en": "to study abroad"
       },
       "lesson": 21
     }

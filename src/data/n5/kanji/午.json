@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 4,
   "meanings": {
-    "es": ["mediodía"]
+    "es": ["mediodía"],
+    "en": ["midday"]
   },
   "onyomi": ["ゴ"],
   "kunyomi": [],
@@ -26,7 +27,8 @@
     {
       "word": "正午[しょうご]",
       "meaning": {
-        "es": "mediodía"
+        "es": "mediodía",
+        "en": "midday"
       }
     }
   ],

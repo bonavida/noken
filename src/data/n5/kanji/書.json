@@ -3,7 +3,8 @@
   "level": "n5",
   "lesson": 2,
   "meanings": {
-    "es": ["escribir"]
+    "es": ["escribir"],
+    "en": ["to write"]
   },
   "onyomi": ["ショ"],
   "kunyomi": ["か.く"],
@@ -12,7 +13,8 @@
     {
       "word": "書[か]きます",
       "meaning": {
-        "es": "escribir"
+        "es": "escribir",
+        "en": "to write"
       }
     },
     {
@@ -32,13 +34,15 @@
     {
       "word": "書[か]く",
       "meaning": {
-        "es": "escribir"
+        "es": "escribir",
+        "en": "to write"
       }
     },
     {
       "word": "葉書[はがき]",
       "meaning": {
-        "es": "tarjeta postal"
+        "es": "tarjeta postal",
+        "en": "postcard"
       }
     },
     {
