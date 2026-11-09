@@ -117,4 +117,8 @@ Everything a learner accumulates lives in `localStorage` — there is no backend
 | `noken-practice-stats` | Per-mode answer counts, per-lesson accuracy, streak |
 | `noken-difficult`      | Miss counts feeding the difficult-words deck        |
 
+All of it can be exported to and imported from a JSON file in the settings menu. An installed PWA has its own `localStorage`, separate from the browser it was added from, so that file is how progress moves between them.
+
+The site is also an installable PWA. A Workbox service worker, configured in `astro.config.mjs`, precaches every page and font, so all of it works offline after the installed app has been opened once with a connection.
+
 Settings are applied before first paint by an inline script in `BaseLayout`, which sets classes on `<html>` (`dark`, `hide-furigana`, `furigana-large`, `hide-translations`, `mac`).

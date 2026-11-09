@@ -1,4 +1,5 @@
 import { Monitor, Moon, Settings, Sun } from 'lucide-react';
+import { BackupControls } from '@/components/BackupControls';
 import { useSettings } from '@/hooks/useSettings';
 import { Button } from '@/ui/react/button';
 import { Label } from '@/ui/react/label';
@@ -22,6 +23,12 @@ interface SettingsMenuProps {
     themeSystem: string;
     hideTranslations: string;
     hideTranslationsDescription: string;
+    data: string;
+    dataDescription: string;
+    exportData: string;
+    importData: string;
+    importConfirm: string;
+    importError: string;
   };
 }
 
@@ -114,6 +121,8 @@ export const SettingsMenu = ({ labels }: SettingsMenuProps) => {
               ))}
             </ToggleGroup>
           </div>
+
+          <BackupControls labels={labels} />
         </div>
       </PopoverContent>
     </Popover>

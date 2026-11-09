@@ -26,7 +26,15 @@ const pageTitle = title === SITE_NAME ? title : `${title} · ${SITE_NAME}`;
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <ClientRouter />
+    <script>
+      // sw.js only exists in production builds
+      if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+        void navigator.serviceWorker.register('/sw.js');
+      }
+    </script>
     <script is:inline>
       // Applies persisted settings before first paint (and again after view transitions)
       // to avoid a flash of wrong theme/furigana state. Kept inline and dependency-free;

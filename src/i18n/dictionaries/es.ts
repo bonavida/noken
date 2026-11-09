@@ -154,6 +154,14 @@ export const es = {
     hideTranslations: 'Ocultar traducciones',
     hideTranslationsDescription:
       'Difumina las traducciones para autoevaluarte; pasa el cursor para revelarlas.',
+    data: 'Tus datos',
+    dataDescription:
+      'Guarda tu progreso en un archivo para llevarlo a otro navegador o dispositivo.',
+    exportData: 'Exportar',
+    importData: 'Importar',
+    importConfirm:
+      'Se sustituirá todo tu progreso y tus ajustes actuales por los del archivo. ¿Continuar?',
+    importError: 'No se ha podido importar: el archivo no es una copia válida de Noken.',
   },
   practice: {
     title: 'Práctica',

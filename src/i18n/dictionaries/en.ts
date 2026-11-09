@@ -156,6 +156,13 @@ export const en: UIDictionary = {
     themeSystem: 'System',
     hideTranslations: 'Hide translations',
     hideTranslationsDescription: 'Blurs translations so you can test yourself; hover to reveal.',
+    data: 'Your data',
+    dataDescription: 'Save your progress to a file to move it to another browser or device.',
+    exportData: 'Export',
+    importData: 'Import',
+    importConfirm:
+      'This will replace all your current progress and settings with the file. Continue?',
+    importError: 'Could not import: the file is not a valid Noken backup.',
   },
   practice: {
     title: 'Practice',
